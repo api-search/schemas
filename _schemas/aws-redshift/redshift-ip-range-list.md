@@ -1,0 +1,17 @@
+---
+description: IPRangeList schema from Amazon Redshift
+layout: schema
+name: IPRangeList
+properties_list: []
+provider_name: AWS Redshift
+provider_slug: aws-redshift
+schema_file: json-schema/redshift-ip-range-list-schema.json
+slug: redshift-ip-range-list
+tags:
+- Analytics
+- Big Data
+- Cloud Database
+- Data Warehouse
+- SQL
+title: IPRangeList
+---

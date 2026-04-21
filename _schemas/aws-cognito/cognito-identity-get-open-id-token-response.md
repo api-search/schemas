@@ -1,0 +1,25 @@
+---
+description: Returned in response to a successful GetOpenIdToken request.
+layout: schema
+name: GetOpenIdTokenResponse
+properties_list:
+- description: ''
+  name: IdentityId
+  type: object
+- description: ''
+  name: Token
+  type: object
+provider_name: Amazon Cognito
+provider_slug: aws-cognito
+schema_file: json-schema/cognito-identity-get-open-id-token-response-schema.json
+slug: cognito-identity-get-open-id-token-response
+tags:
+- Authentication
+- Authorization
+- AWS
+- Identity
+- Identity Provider
+- OAuth2
+- OIDC
+title: GetOpenIdTokenResponse
+---

@@ -1,0 +1,55 @@
+---
+description: SecurityContext holds security configuration that will be applied to a container. Some fields are present in both SecurityContext and PodSecurityContext. When both are set, the values in SecurityContext take precedence.
+layout: schema
+name: io.k8s.api.core.v1.SecurityContext
+properties_list:
+- description: AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPr
+  name: allowPrivilegeEscalation
+  type: boolean
+- description: appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
+  name: appArmorProfile
+  type: object
+- description: The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
+  name: capabilities
+  type: object
+- description: Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
+  name: privileged
+  type: boolean
+- description: procMount denotes the type of proc mount to use for the containers. The default value is Default which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMo
+  name: procMount
+  type: string
+- description: Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
+  name: readOnlyRootFilesystem
+  type: boolean
+- description: The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified
+  name: runAsGroup
+  type: integer
+- description: Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it d
+  name: runAsNonRoot
+  type: boolean
+- description: The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecuri
+  name: runAsUser
+  type: integer
+- description: The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in bo
+  name: seLinuxOptions
+  type: object
+- description: The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when
+  name: seccompProfile
+  type: object
+- description: The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specifie
+  name: windowsOptions
+  type: object
+provider_name: Argo Workflows
+provider_slug: argo-workflows
+schema_file: json-schema/argo-workflows-io-k8s-api-core-v1-security-context-schema.json
+slug: argo-workflows-io-k8s-api-core-v1-security-context
+tags:
+- CNCF
+- Containers
+- Data Processing
+- Kubernetes
+- Machine Learning
+- Open Source
+- Workflow Engine
+title: io.k8s.api.core.v1.SecurityContext
+---

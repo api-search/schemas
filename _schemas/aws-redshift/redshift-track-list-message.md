@@ -1,0 +1,23 @@
+---
+description: TrackListMessage schema from Amazon Redshift
+layout: schema
+name: TrackListMessage
+properties_list:
+- description: ''
+  name: MaintenanceTracks
+  type: object
+- description: ''
+  name: Marker
+  type: object
+provider_name: AWS Redshift
+provider_slug: aws-redshift
+schema_file: json-schema/redshift-track-list-message-schema.json
+slug: redshift-track-list-message
+tags:
+- Analytics
+- Big Data
+- Cloud Database
+- Data Warehouse
+- SQL
+title: TrackListMessage
+---

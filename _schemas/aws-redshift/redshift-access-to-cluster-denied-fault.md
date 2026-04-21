@@ -1,0 +1,17 @@
+---
+description: AccessToClusterDeniedFault schema from Amazon Redshift
+layout: schema
+name: AccessToClusterDeniedFault
+properties_list: []
+provider_name: AWS Redshift
+provider_slug: aws-redshift
+schema_file: json-schema/redshift-access-to-cluster-denied-fault-schema.json
+slug: redshift-access-to-cluster-denied-fault
+tags:
+- Analytics
+- Big Data
+- Cloud Database
+- Data Warehouse
+- SQL
+title: AccessToClusterDeniedFault
+---

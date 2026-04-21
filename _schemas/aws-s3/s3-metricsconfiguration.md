@@ -1,0 +1,22 @@
+---
+description: Specifies a metrics configuration for the CloudWatch request metrics (specified by the metrics configuration ID) from an Amazon S3 bucket. If you're updating an existing metrics configuration, note that this is a full replacement of the existing metrics configuration. If you don't include the elements you want to keep, they are erased. For more information, see <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTMetricConfiguration.html">PutBucketMetricsConfiguration</a>.
+layout: schema
+name: MetricsConfiguration
+properties_list:
+- description: ''
+  name: Id
+  type: object
+- description: ''
+  name: Filter
+  type: object
+provider_name: Amazon S3 API
+provider_slug: aws-s3
+schema_file: json-schema/s3-metricsconfiguration-schema.json
+slug: s3-metricsconfiguration
+tags:
+- AWS
+- Cloud Storage
+- Object Storage
+- Storage
+title: MetricsConfiguration
+---

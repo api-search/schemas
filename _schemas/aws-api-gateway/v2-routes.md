@@ -1,0 +1,21 @@
+---
+description: Routes schema from Amazon API Gateway v2 API
+layout: schema
+name: Routes
+properties_list:
+- description: ''
+  name: Items
+  type: array
+provider_name: Amazon API Gateway
+provider_slug: aws-api-gateway
+schema_file: json-schema/v2-routes-schema.json
+slug: v2-routes
+tags:
+- API Gateway
+- AWS
+- Cloud
+- REST
+- WebSocket
+- Serverless
+title: Routes
+---

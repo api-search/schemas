@@ -1,0 +1,17 @@
+---
+description: ResourceNotFoundException schema from Amazon Redshift
+layout: schema
+name: ResourceNotFoundException
+properties_list: []
+provider_name: AWS Redshift
+provider_slug: aws-redshift
+schema_file: json-schema/redshift-data-resource-not-found-exception-schema.json
+slug: redshift-data-resource-not-found-exception
+tags:
+- Analytics
+- Big Data
+- Cloud Database
+- Data Warehouse
+- SQL
+title: ResourceNotFoundException
+---

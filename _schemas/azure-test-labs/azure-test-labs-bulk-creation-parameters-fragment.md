@@ -1,0 +1,21 @@
+---
+description: Parameters for creating multiple virtual machines as a single action.
+layout: schema
+name: BulkCreationParametersFragment
+properties_list:
+- description: The number of virtual machine instances to create.
+  name: instanceCount
+  type: integer
+provider_name: Azure DevTest Labs
+provider_slug: azure-test-labs
+schema_file: json-schema/azure-test-labs-bulk-creation-parameters-fragment-schema.json
+slug: azure-test-labs-bulk-creation-parameters-fragment
+tags:
+- Azure
+- Development
+- Infrastructure
+- Labs
+- Testing
+- Virtual Machines
+title: BulkCreationParametersFragment
+---

@@ -1,0 +1,29 @@
+name: APIs.io Schemas
+description: Browse JSON Schema definitions across the APIs.io network.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://schemas.apis.io
+
+node: website
+nav_active: more
+
+keywords:
+  - APIs
+  - Search
+  - Discovery
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+
+github_org: api-search
+github_repo: schemas
+
+collections:
+  schemas:
+    output: true
+    permalink: /schemas/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: schemas
+    values:
+      layout: schema

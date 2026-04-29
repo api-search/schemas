@@ -13,6 +13,8 @@ provider_name: Argo Workflows
 provider_slug: argo-workflows
 schema_file: json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-basic-auth-schema.json
 slug: argo-workflows-io-argoproj-workflow-v1alpha1-basic-auth
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-basic-auth-schema.json\",\n  \"title\": \"io.argoproj.workflow.v1alpha1.BasicAuth\",\n  \"description\": \"BasicAuth describes the secret selectors required for basic authentication\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"passwordSecret\": {\n      \"description\": \"PasswordSecret is the secret selector to the repository password\",\n      \"$ref\": \"#/definitions/io.k8s.api.core.v1.SecretKeySelector\"\n    },\n    \"usernameSecret\": {\n      \"description\": \"UsernameSecret is the secret selector to the repository username\",\n      \"$ref\": \"#/definitions/io.k8s.api.core.v1.SecretKeySelector\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-basic-auth-schema.json
 tags:
 - CNCF
 - Containers

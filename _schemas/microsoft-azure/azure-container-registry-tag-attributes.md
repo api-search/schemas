@@ -13,6 +13,8 @@ provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 schema_file: json-schema/azure-container-registry-tag-attributes-schema.json
 slug: azure-container-registry-tag-attributes
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TagAttributes\",\n  \"type\": \"object\",\n  \"description\": \"Tag attributes result.\",\n  \"properties\": {\n    \"registry\": {\n      \"type\": \"string\"\n    },\n    \"imageName\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/json-schema/azure-container-registry-tag-attributes-schema.json
 tags:
 - API Management
 - Cloud

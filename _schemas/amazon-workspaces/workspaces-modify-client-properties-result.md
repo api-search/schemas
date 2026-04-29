@@ -7,6 +7,8 @@ provider_name: Amazon WorkSpaces
 provider_slug: amazon-workspaces
 schema_file: json-schema/workspaces-modify-client-properties-result-schema.json
 slug: workspaces-modify-client-properties-result
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {},\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ModifyClientPropertiesResult\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-modify-client-properties-result-schema.json\",\n  \"description\": \"ModifyClientPropertiesResult schema from Amazon WorkSpaces API\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-modify-client-properties-result-schema.json
 tags:
 - AWS
 - Desktop

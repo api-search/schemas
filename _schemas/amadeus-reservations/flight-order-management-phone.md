@@ -16,6 +16,8 @@ provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 schema_file: json-schema/flight-order-management-phone-schema.json
 slug: flight-order-management-phone
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-order-management-phone-schema.json\",\n  \"title\": \"Phone\",\n  \"description\": \"phone information\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"deviceType\": {\n      \"$ref\": \"#/definitions/PhoneDeviceType\"\n    },\n    \"countryCallingCode\": {\n      \"type\": \"string\",\n      \"description\": \"Country calling code of the phone number, as defined by the International Communication Union. Examples - \\\"1\\\" for US, \\\"371\\\" for Latvia.\",\n      \"pattern\": \"[0-9+]{2,5}\"\n    },\n    \"number\": {\n      \"type\": \"string\",\n      \"description\": \"Phone number. Composed of digits only. The number of digits depends on the country.\",\n      \"pattern\": \"[0-9]{1,15}\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-order-management-phone-schema.json
 tags:
 - Booking
 - Flights

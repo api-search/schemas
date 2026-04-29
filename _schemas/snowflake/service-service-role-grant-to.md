@@ -25,6 +25,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/service-service-role-grant-to-schema.json
 slug: service-service-role-grant-to
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ServiceRoleGrantTo\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"created_on\": {\n      \"type\": \"string\",\n      \"description\": \"Date and time when the grant was created\"\n    },\n    \"privilege\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the privilege\"\n    },\n    \"granted_on\": {\n      \"type\": \"string\",\n      \"description\": \"The type of of the securable\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the securable\"\n    },\n    \"granted_to\": {\n      \"type\": \"string\",\n      \"description\": \"The type of the grantee\"\n    },\n    \"grantee_name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the grantee\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/service-service-role-grant-to-schema.json
 tags:
 - Data Lakes
 - Data Sharing

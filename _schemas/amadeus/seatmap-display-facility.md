@@ -22,6 +22,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/seatmap-display-facility-schema.json
 slug: seatmap-display-facility
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Facility\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"string\",\n      \"description\": \"Facility code, as described in the facility dictionary\"\n    },\n    \"column\": {\n      \"type\": \"string\"\n    },\n    \"row\": {\n      \"type\": \"string\"\n    },\n    \"position\": {\n      \"type\": \"string\",\n      \"description\": \"Position is either front, rear or seat (in case the facility takes the place of a seat)\",\n      \"enum\": [\n        \"FRONT\",\n        \"REAR\",\n        \"SEAT\"\n      ]\n    },\n    \"coordinates\": {\n      \"$ref\": \"#/definitions/Coordinates\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/seatmap-display-facility-schema.json
 tags:
 - Airlines
 - Aviation

@@ -19,6 +19,8 @@ provider_name: Amazon CloudFormation
 provider_slug: amazon-cloudformation
 schema_file: json-schema/cloudformation-output-schema.json
 slug: cloudformation-output
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/json-schema/cloudformation-output-schema.json\",\n  \"title\": \"Output\",\n  \"description\": \"Output schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"OutputKey\": {\n      \"type\": \"string\"\n    },\n    \"OutputValue\": {\n      \"type\": \"string\"\n    },\n    \"Description\": {\n      \"type\": \"string\"\n    },\n    \"ExportName\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/json-schema/cloudformation-output-schema.json
 tags:
 - AWS
 - CloudFormation

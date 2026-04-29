@@ -34,6 +34,8 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-cors-config-schema.json
 slug: tyk-gateway-cors-config
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CORSConfig\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"allow_credentials\": {\n      \"type\": \"boolean\"\n    },\n    \"allowed_headers\": {\n      \"type\": \"array\"\n    },\n    \"allowed_methods\": {\n      \"type\": \"array\"\n    },\n    \"allowed_origins\": {\n      \"type\": \"array\"\n    },\n    \"debug\": {\n      \"type\": \"boolean\"\n    },\n    \"enable\": {\n      \"type\": \"boolean\"\n    },\n    \"exposed_headers\": {\n      \"type\": \"array\"\n    },\n    \"max_age\": {\n      \"type\": \"integer\"\n    },\n    \"options_passthrough\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-cors-config-schema.json
 tags:
 - API Gateway
 - API Management

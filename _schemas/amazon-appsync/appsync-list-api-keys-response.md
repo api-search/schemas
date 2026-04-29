@@ -13,6 +13,8 @@ provider_name: Amazon AppSync
 provider_slug: amazon-appsync
 schema_file: json-schema/appsync-list-api-keys-response-schema.json
 slug: appsync-list-api-keys-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-appsync/json-schema/appsync-list-api-keys-response-schema.json\",\n  \"title\": \"ListApiKeysResponse\",\n  \"description\": \"Response with list of API keys\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"apiKeys\": {\n      \"type\": \"array\",\n      \"description\": \"List of API keys\"\n    },\n    \"nextToken\": {\n      \"type\": \"string\",\n      \"description\": \"Pagination token\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/json-schema/appsync-list-api-keys-response-schema.json
 tags:
 - Amazon AppSync
 - GraphQL

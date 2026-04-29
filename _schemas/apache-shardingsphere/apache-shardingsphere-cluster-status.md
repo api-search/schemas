@@ -13,6 +13,8 @@ provider_name: Apache ShardingSphere
 provider_slug: apache-shardingsphere
 schema_file: json-schema/apache-shardingsphere-cluster-status-schema.json
 slug: apache-shardingsphere-cluster-status
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/json-schema/apache-shardingsphere-cluster-status-schema.json\",\n  \"title\": \"ClusterStatus\",\n  \"description\": \"ShardingSphere cluster status\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"mode\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"Standalone\",\n        \"Cluster\"\n      ],\n      \"description\": \"Deployment mode\"\n    },\n    \"instances\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Instance\"\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/json-schema/apache-shardingsphere-cluster-status-schema.json
 tags:
 - Database
 - Distributed SQL

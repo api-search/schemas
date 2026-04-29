@@ -7,6 +7,8 @@ provider_name: Google Docs
 provider_slug: google-docs
 schema_file: json-schema/google-docs-v1-request-schema.json
 slug: google-docs-v1-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Request\",\n  \"type\": \"object\",\n  \"description\": \"A single update to apply to a document. Exactly one field must be set.\",\n  \"properties\": {}\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/json-schema/google-docs-v1-request-schema.json
 tags:
 - Collaboration
 - Documents

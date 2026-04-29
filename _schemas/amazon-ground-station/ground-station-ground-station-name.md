@@ -7,6 +7,8 @@ provider_name: Amazon Ground Station
 provider_slug: amazon-ground-station
 schema_file: json-schema/ground-station-ground-station-name-schema.json
 slug: ground-station-ground-station-name
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-ground-station-name-schema.json\",\n  \"title\": \"GroundStationName\",\n  \"description\": \"GroundStationName schema from Amazon Ground Station API\",\n  \"type\": \"string\",\n  \"pattern\": \"^[ a-zA-Z0-9-._:=]{4,256}$\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-ground-station-name-schema.json
 tags:
 - AWS
 - Data Processing

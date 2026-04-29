@@ -16,6 +16,8 @@ provider_name: Docusign
 provider_slug: docusign
 schema_file: json-schema/docusign-esignature-recipient-email-notification-schema.json
 slug: docusign-esignature-recipient-email-notification
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RecipientEmailNotification\",\n  \"type\": \"object\",\n  \"description\": \"Custom email notification settings for a recipient.\",\n  \"properties\": {\n    \"emailSubject\": {\n      \"type\": \"string\",\n      \"description\": \"Custom email subject for this recipient.\"\n    },\n    \"emailBody\": {\n      \"type\": \"string\",\n      \"description\": \"Custom email body for this recipient.\"\n    },\n    \"supportedLanguage\": {\n      \"type\": \"string\",\n      \"description\": \"Language code for the notification.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/json-schema/docusign-esignature-recipient-email-notification-schema.json
 tags:
 - Agreements
 - Contracts

@@ -31,6 +31,9 @@ provider_name: AIMLAPI
 provider_slug: aimlapi
 schema_file: json-schema/aimlapi-chat-completion-request-schema.json
 slug: aimlapi-chat-completion-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/json-schema/aimlapi-chat-completion-request-schema.json\",\n  \"title\": \"ChatCompletionRequest\",\n  \"description\": \"Request body for creating a chat completion via AIMLAPI\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"model\": {\n      \"type\": \"string\",\n      \"description\": \"Model ID to use for completion\",\n      \"example\": \"gpt-4o\"\n    },\n    \"messages\": {\n      \"type\": \"array\",\n      \"description\": \"List of messages in the conversation\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    },\n    \"temperature\": {\n      \"type\": \"number\",\n      \"description\": \"Sampling temperature 0-2\",\n      \"example\": 0.7\n    },\n    \"max_tokens\": {\n      \"type\": \"integer\",\n      \"description\": \"Maximum tokens to generate\",\n      \"example\": 1024\n   \
+  \ },\n    \"stream\": {\n      \"type\": \"boolean\",\n      \"description\": \"Stream response tokens\",\n      \"example\": false\n    },\n    \"top_p\": {\n      \"type\": \"number\",\n      \"description\": \"Nucleus sampling parameter\",\n      \"example\": 1.0\n    },\n    \"frequency_penalty\": {\n      \"type\": \"number\",\n      \"description\": \"Frequency penalty -2 to 2\",\n      \"example\": 0\n    },\n    \"presence_penalty\": {\n      \"type\": \"number\",\n      \"description\": \"Presence penalty -2 to 2\",\n      \"example\": 0\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/json-schema/aimlapi-chat-completion-request-schema.json
 tags:
 - Artificial Intelligence
 - Machine Learning

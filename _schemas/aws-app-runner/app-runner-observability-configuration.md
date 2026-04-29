@@ -31,6 +31,9 @@ provider_name: AWS App Runner
 provider_slug: aws-app-runner
 schema_file: json-schema/app-runner-observability-configuration-schema.json
 slug: app-runner-observability-configuration
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ObservabilityConfigurationArn\": {\n      \"type\": \"string\"\n    },\n    \"ObservabilityConfigurationName\": {\n      \"type\": \"string\"\n    },\n    \"ObservabilityConfigurationRevision\": {\n      \"type\": \"integer\"\n    },\n    \"Latest\": {\n      \"type\": \"boolean\"\n    },\n    \"Status\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"ACTIVE\",\n        \"INACTIVE\"\n      ]\n    },\n    \"TraceConfiguration\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"Vendor\": {\n          \"type\": \"string\",\n          \"enum\": [\n            \"AWSXRAY\"\n          ]\n        }\n      }\n    },\n    \"CreatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"DeletedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-observability-configuration-schema.json\"\
+  ,\n  \"title\": \"ObservabilityConfiguration\",\n  \"description\": \"ObservabilityConfiguration schema from AWS App Runner\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-observability-configuration-schema.json
 tags:
 - AWS
 - CI/CD

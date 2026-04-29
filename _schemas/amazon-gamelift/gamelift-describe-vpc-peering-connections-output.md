@@ -10,6 +10,8 @@ provider_name: Amazon GameLift
 provider_slug: amazon-gamelift
 schema_file: json-schema/gamelift-describe-vpc-peering-connections-output-schema.json
 slug: gamelift-describe-vpc-peering-connections-output
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-describe-vpc-peering-connections-output-schema.json\",\n  \"title\": \"DescribeVpcPeeringConnectionsOutput\",\n  \"description\": \"DescribeVpcPeeringConnectionsOutput schema from Amazon GameLift API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"VpcPeeringConnections\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VpcPeeringConnectionList\"\n        },\n        {\n          \"description\": \"A collection of VPC peering connection records that match the request.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-describe-vpc-peering-connections-output-schema.json
 tags:
 - AWS
 - Cloud Computing

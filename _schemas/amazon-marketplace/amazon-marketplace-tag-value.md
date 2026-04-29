@@ -7,6 +7,8 @@ provider_name: Amazon Marketplace
 provider_slug: amazon-marketplace
 schema_file: json-schema/amazon-marketplace-tag-value-schema.json
 slug: amazon-marketplace-tag-value
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-tag-value-schema.json\",\n  \"title\": \"TagValue\",\n  \"description\": \"TagValue schema from Amazon Marketplace API\",\n  \"type\": \"string\",\n  \"pattern\": \"^([\\\\p{L}\\\\p{Z}\\\\p{N}_.:/=+\\\\-@]*)$\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-tag-value-schema.json
 tags:
 - AWS
 - Commerce

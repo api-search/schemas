@@ -7,6 +7,8 @@ provider_name: Amazon CodeArtifact
 provider_slug: amazon-codeartifact
 schema_file: json-schema/codeartifact-package-version-sort-type-schema.json
 slug: codeartifact-package-version-sort-type
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-package-version-sort-type-schema.json\",\n  \"title\": \"PackageVersionSortType\",\n  \"description\": \"PackageVersionSortType schema from Amazon CodeArtifact API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"PUBLISHED_TIME\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-package-version-sort-type-schema.json
 tags:
 - Amazon
 - AWS

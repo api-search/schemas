@@ -7,6 +7,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-data-resource-not-found-exception-schema.json
 slug: redshift-data-resource-not-found-exception
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-resource-not-found-exception-schema.json\",\n  \"title\": \"ResourceNotFoundException\",\n  \"description\": \"ResourceNotFoundException schema from Amazon Redshift\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-resource-not-found-exception-schema.json
 tags:
 - Analytics
 - Big Data

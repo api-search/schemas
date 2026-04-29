@@ -19,6 +19,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-esg-sdg-scores-schema.json
 slug: factset-esg-sdg-scores
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"sdgScores\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"date\": {\n      \"type\": \"string\",\n      \"description\": \"Ending date for the period requested expressed in YYYY-MM-DD format.\"\n    },\n    \"fsymId\": {\n      \"type\": \"string\",\n      \"description\": \"FactSet Entity Identifier. Six alpha-numeric characters, excluding vowels, with a -E suffix (XXXXXX-E).\"\n    },\n    \"requestId\": {\n      \"type\": \"string\",\n      \"description\": \"Identifier that was used for the request.\"\n    },\n    \"scoreType\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the specific SDG Score type being shown in the response. This will be represented by the scoreTypes input: PULSE, INSIGHT, MOMENTUM, ART_VOL_TTM, CAT_VOL_TTM, or DYNAMIC_MAT.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-esg-sdg-scores-schema.json
 tags:
 - Financial
 - Financial Data

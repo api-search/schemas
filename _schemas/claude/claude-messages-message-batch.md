@@ -31,6 +31,9 @@ provider_name: Claude
 provider_slug: claude
 schema_file: json-schema/claude-messages-message-batch-schema.json
 slug: claude-messages-message-batch
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"MessageBatch\",\n  \"type\": \"object\",\n  \"description\": \"A message batch object representing an asynchronous batch of message requests.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the message batch.\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Object type. Always \\\"message_batch\\\".\"\n    },\n    \"processing_status\": {\n      \"type\": \"string\",\n      \"description\": \"The processing status of the batch.\"\n    },\n    \"request_counts\": {\n      \"type\": \"object\",\n      \"description\": \"Tallies of requests by their status within the batch.\"\n    },\n    \"ended_at\": {\n      \"type\": \"string\",\n      \"description\": \"RFC 3339 datetime when the batch ended processing.\"\n    },\n    \"created_at\": {\n      \"type\": \"string\",\n      \"description\": \"\
+  RFC 3339 datetime when the batch was created.\"\n    },\n    \"expires_at\": {\n      \"type\": \"string\",\n      \"description\": \"RFC 3339 datetime when the batch results will expire.\"\n    },\n    \"results_url\": {\n      \"type\": \"string\",\n      \"description\": \"URL to retrieve the batch results. Available when the batch is complete.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/json-schema/claude-messages-message-batch-schema.json
 tags:
 - Artificial Intelligence
 - Chatbot

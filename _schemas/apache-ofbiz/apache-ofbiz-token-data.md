@@ -19,6 +19,9 @@ provider_name: Apache OFBiz
 provider_slug: apache-ofbiz
 schema_file: json-schema/apache-ofbiz-token-data-schema.json
 slug: apache-ofbiz-token-data
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/json-schema/apache-ofbiz-token-data-schema.json\",\n  \"title\": \"TokenData\",\n  \"description\": \"JWT token data returned after successful authentication.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"access_token\": {\n      \"type\": \"string\",\n      \"description\": \"JWT access token for Bearer authentication.\",\n      \"example\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.example\"\n    },\n    \"token_type\": {\n      \"type\": \"string\",\n      \"description\": \"Token type, always Bearer.\",\n      \"example\": \"Bearer\"\n    },\n    \"expires_in\": {\n      \"type\": \"string\",\n      \"description\": \"Token expiry duration in seconds.\",\n      \"example\": \"1800\"\n    },\n    \"refresh_token\": {\n      \"type\": \"string\",\n      \"description\": \"Refresh token for obtaining new access\
+  \ tokens.\",\n      \"example\": \"dGhpc19pc19hX3JlZnJlc2hfdG9rZW4\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/json-schema/apache-ofbiz-token-data-schema.json
 tags:
 - ERP
 - CRM

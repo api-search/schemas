@@ -16,6 +16,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/hotel-booking-name-schema.json
 slug: hotel-booking-name
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Name\",\n  \"description\": \"Guest Name\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"title\": {\n      \"type\": \"string\",\n      \"description\": \"title/gender of room guest\",\n      \"enum\": [\n        \"MR\",\n        \"MRS\",\n        \"MS\"\n      ]\n    },\n    \"firstName\": {\n      \"type\": \"string\",\n      \"description\": \"first name (and middle name) of room guest\"\n    },\n    \"lastName\": {\n      \"type\": \"string\",\n      \"description\": \"last name of room guest\"\n    }\n  },\n  \"required\": [\n    \"firstName\",\n    \"lastName\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/hotel-booking-name-schema.json
 tags:
 - Airlines
 - Aviation

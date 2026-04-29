@@ -55,6 +55,9 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/business-central-v2-customer-create-schema.json
 slug: business-central-v2-customer-create
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CustomerCreate\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"number\": {\n      \"type\": \"string\"\n    },\n    \"displayName\": {\n      \"type\": \"string\"\n    },\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"addressLine1\": {\n      \"type\": \"string\"\n    },\n    \"addressLine2\": {\n      \"type\": \"string\"\n    },\n    \"city\": {\n      \"type\": \"string\"\n    },\n    \"state\": {\n      \"type\": \"string\"\n    },\n    \"country\": {\n      \"type\": \"string\"\n    },\n    \"postalCode\": {\n      \"type\": \"string\"\n    },\n    \"phoneNumber\": {\n      \"type\": \"string\"\n    },\n    \"email\": {\n      \"type\": \"string\"\n    },\n    \"website\": {\n      \"type\": \"string\"\n    },\n    \"taxLiable\": {\n      \"type\": \"boolean\"\n    },\n    \"taxRegistrationNumber\": {\n      \"type\": \"string\"\n    },\n    \"currencyCode\": {\n  \
+  \    \"type\": \"string\"\n    },\n    \"blocked\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-customer-create-schema.json
 tags:
 - Business Management
 - Dynamics NAV

@@ -10,6 +10,8 @@ provider_name: Amazon X-Ray
 provider_slug: amazon-xray
 schema_file: json-schema/xray-put-resource-policy-result-schema.json
 slug: xray-put-resource-policy-result
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ResourcePolicy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourcePolicy\"\n        },\n        {\n          \"description\": \"The resource policy document, as provided in the <code>PutResourcePolicyRequest</code>.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PutResourcePolicyResult\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-put-resource-policy-result-schema.json\",\n  \"description\": \"PutResourcePolicyResult schema from Amazon X-Ray API\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-put-resource-policy-result-schema.json
 tags:
 - Application Performance
 - AWS

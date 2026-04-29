@@ -22,6 +22,8 @@ provider_name: Apache Airflow
 provider_slug: airflow
 schema_file: json-schema/airflow-dag-warning-response-schema.json
 slug: airflow-dag-warning-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-dag-warning-response-schema.json\",\n  \"title\": \"DAGWarningResponse\",\n  \"description\": \"DAG Warning serializer for responses.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"dag_id\": {\n      \"type\": \"string\",\n      \"title\": \"Dag Id\"\n    },\n    \"warning_type\": {\n      \"$ref\": \"#/components/schemas/DagWarningType\"\n    },\n    \"message\": {\n      \"type\": \"string\",\n      \"title\": \"Message\"\n    },\n    \"timestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"title\": \"Timestamp\"\n    },\n    \"dag_display_name\": {\n      \"type\": \"string\",\n      \"title\": \"Dag Display Name\"\n    }\n  },\n  \"required\": [\n    \"dag_id\",\n    \"warning_type\",\n    \"message\",\n    \"timestamp\",\n    \"dag_display_name\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-dag-warning-response-schema.json
 tags:
 - Workflow Orchestration
 - Data Pipeline

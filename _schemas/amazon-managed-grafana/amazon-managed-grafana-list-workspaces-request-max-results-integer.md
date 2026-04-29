@@ -7,6 +7,8 @@ provider_name: Amazon Managed Grafana
 provider_slug: amazon-managed-grafana
 schema_file: json-schema/amazon-managed-grafana-list-workspaces-request-max-results-integer-schema.json
 slug: amazon-managed-grafana-list-workspaces-request-max-results-integer
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-list-workspaces-request-max-results-integer-schema.json\",\n  \"title\": \"ListWorkspacesRequestMaxResultsInteger\",\n  \"description\": \"ListWorkspacesRequestMaxResultsInteger schema from Amazon Managed Grafana API\",\n  \"type\": \"integer\",\n  \"minimum\": 1,\n  \"maximum\": 100\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-list-workspaces-request-max-results-integer-schema.json
 tags:
 - AWS
 - Dashboards

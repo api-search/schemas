@@ -13,6 +13,8 @@ provider_name: ZoomInfo
 provider_slug: zoominfo
 schema_file: json-schema/zoominfo-sic-code-schema.json
 slug: zoominfo-sic-code
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"example\": \"500123\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"example\": \"Acme Corporation\"\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"name\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SicCode\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/json-schema/zoominfo-sic-code-schema.json
 tags:
 - B2B
 - B2B Data

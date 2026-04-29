@@ -28,6 +28,8 @@ provider_name: Temporal
 provider_slug: temporal
 schema_file: json-schema/cloud-ops-async-operation-schema.json
 slug: cloud-ops-async-operation
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AsyncOperation\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"state\": {\n      \"type\": \"string\"\n    },\n    \"checkDuration\": {\n      \"type\": \"string\"\n    },\n    \"operationType\": {\n      \"type\": \"string\"\n    },\n    \"startedTime\": {\n      \"type\": \"string\"\n    },\n    \"finishedTime\": {\n      \"type\": \"string\"\n    },\n    \"failureReason\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/json-schema/cloud-ops-async-operation-schema.json
 tags:
 - ProCode_API_Composition
 - Workflows

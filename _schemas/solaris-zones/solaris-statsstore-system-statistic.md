@@ -19,6 +19,8 @@ provider_name: Solaris Zones
 provider_slug: solaris-zones
 schema_file: json-schema/solaris-statsstore-system-statistic-schema.json
 slug: solaris-statsstore-system-statistic
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SystemStatistic\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"metric\": {\n      \"type\": \"string\",\n      \"description\": \"System metric name\"\n    },\n    \"value\": {\n      \"type\": \"number\",\n      \"description\": \"Current metric value\"\n    },\n    \"unit\": {\n      \"type\": \"string\",\n      \"description\": \"Unit of measurement\"\n    },\n    \"timestamp\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-statsstore-system-statistic-schema.json
 tags:
 - Containers
 - Kernel Zones

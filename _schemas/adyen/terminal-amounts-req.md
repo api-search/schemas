@@ -31,6 +31,9 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/terminal-amounts-req-schema.json
 slug: terminal-amounts-req
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/terminal-amounts-req-schema.json\",\n  \"title\": \"AmountsReq\",\n  \"description\": \"Amounts of a payment\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Currency\": {\n      \"type\": \"string\",\n      \"pattern\": \"^[A-Z]{3,3}$\"\n    },\n    \"RequestedAmount\": {\n      \"type\": \"number\",\n      \"maximum\": 99999999.999999,\n      \"minimum\": 0\n    },\n    \"CashBackAmount\": {\n      \"type\": \"number\",\n      \"maximum\": 99999999.999999,\n      \"minimum\": 0\n    },\n    \"TipAmount\": {\n      \"type\": \"number\",\n      \"maximum\": 99999999.999999,\n      \"minimum\": 0\n    },\n    \"PaidAmount\": {\n      \"type\": \"number\",\n      \"maximum\": 99999999.999999,\n      \"minimum\": 0\n    },\n    \"MinimumAmountToDeliver\": {\n      \"type\": \"number\",\n      \"maximum\": 99999999.999999,\n\
+  \      \"minimum\": 0\n    },\n    \"MaximumCashBackAmount\": {\n      \"type\": \"number\",\n      \"maximum\": 99999999.999999,\n      \"minimum\": 0\n    },\n    \"MinimumSplitAmount\": {\n      \"type\": \"number\",\n      \"maximum\": 99999999.999999,\n      \"minimum\": 0\n    }\n  },\n  \"required\": [\n    \"Currency\",\n    \"RequestedAmount\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/terminal-amounts-req-schema.json
 tags:
 - Payments
 - Financial Services

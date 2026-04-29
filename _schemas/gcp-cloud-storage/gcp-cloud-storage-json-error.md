@@ -10,6 +10,8 @@ provider_name: Google Cloud Storage
 provider_slug: gcp-cloud-storage
 schema_file: json-schema/gcp-cloud-storage-json-error-schema.json
 slug: gcp-cloud-storage-json-error
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Error\",\n  \"type\": \"object\",\n  \"description\": \"An error response from the Cloud Storage JSON API.\",\n  \"properties\": {\n    \"error\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/json-schema/gcp-cloud-storage-json-error-schema.json
 tags:
 - Archival
 - Backup

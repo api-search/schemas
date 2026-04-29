@@ -28,6 +28,9 @@ provider_name: Conductor
 provider_slug: conductor
 schema_file: json-schema/conductor-conductor-start-workflow-request-schema.json
 slug: conductor-conductor-start-workflow-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"StartWorkflowRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the workflow to start\"\n    },\n    \"version\": {\n      \"type\": \"integer\",\n      \"description\": \"Version of the workflow\"\n    },\n    \"correlationId\": {\n      \"type\": \"string\",\n      \"description\": \"Correlation ID for the workflow instance\"\n    },\n    \"priority\": {\n      \"type\": \"integer\",\n      \"description\": \"Priority of the workflow (0-99)\"\n    },\n    \"input\": {\n      \"type\": \"object\",\n      \"description\": \"Input parameters for the workflow\"\n    },\n    \"taskToDomain\": {\n      \"type\": \"object\",\n      \"description\": \"Task to domain mapping for routing\"\n    },\n    \"externalInputPayloadStoragePath\": {\n      \"type\": \"string\",\n      \"description\": \"Path to externally stored\
+  \ input payload\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/json-schema/conductor-conductor-start-workflow-request-schema.json
 tags:
 - Automation
 - Orchestration

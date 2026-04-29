@@ -13,6 +13,9 @@ provider_name: Argo Workflows
 provider_slug: argo-workflows
 schema_file: json-schema/argo-workflows-io-k8s-api-core-v1-node-selector-term-schema.json
 slug: argo-workflows-io-k8s-api-core-v1-node-selector-term
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-k8s-api-core-v1-node-selector-term-schema.json\",\n  \"title\": \"io.k8s.api.core.v1.NodeSelectorTerm\",\n  \"description\": \"A null or empty node selector term matches no objects. The requirements of them are ANDed. The TopologySelectorTerm type implements a subset of the NodeSelectorTerm.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"matchExpressions\": {\n      \"description\": \"A list of node selector requirements by node's labels.\",\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/io.k8s.api.core.v1.NodeSelectorRequirement\"\n      },\n      \"x-kubernetes-list-type\": \"atomic\"\n    },\n    \"matchFields\": {\n      \"description\": \"A list of node selector requirements by node's fields.\",\n      \"type\": \"array\",\n      \"items\"\
+  : {\n        \"$ref\": \"#/definitions/io.k8s.api.core.v1.NodeSelectorRequirement\"\n      },\n      \"x-kubernetes-list-type\": \"atomic\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-k8s-api-core-v1-node-selector-term-schema.json
 tags:
 - CNCF
 - Containers

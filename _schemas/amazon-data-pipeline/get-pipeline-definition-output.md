@@ -16,6 +16,8 @@ provider_name: Amazon Data Pipeline
 provider_slug: amazon-data-pipeline
 schema_file: json-schema/get-pipeline-definition-output-schema.json
 slug: get-pipeline-definition-output
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-data-pipeline/json-schema/get-pipeline-definition-output-schema.json\",\n  \"title\": \"Get Pipeline Definition Output\",\n  \"description\": \"Response containing the pipeline definition.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"pipelineObjects\": {\n      \"type\": \"array\"\n    },\n    \"parameterObjects\": {\n      \"type\": \"array\"\n    },\n    \"parameterValues\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/json-schema/get-pipeline-definition-output-schema.json
 tags:
 - AWS
 - Data Processing

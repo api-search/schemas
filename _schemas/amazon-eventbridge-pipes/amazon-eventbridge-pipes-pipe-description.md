@@ -7,6 +7,8 @@ provider_name: Amazon EventBridge Pipes
 provider_slug: amazon-eventbridge-pipes
 schema_file: json-schema/amazon-eventbridge-pipes-pipe-description-schema.json
 slug: amazon-eventbridge-pipes-pipe-description
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/json-schema/amazon-eventbridge-pipes-pipe-description-schema.json\",\n  \"title\": \"PipeDescription\",\n  \"description\": \"PipeDescription schema from Amazon EventBridge Pipes\",\n  \"type\": \"string\",\n  \"format\": \"password\",\n  \"pattern\": \"^.*$\",\n  \"minLength\": 0,\n  \"maxLength\": 512\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/json-schema/amazon-eventbridge-pipes-pipe-description-schema.json
 tags:
 - Amazon Web Services
 - AWS

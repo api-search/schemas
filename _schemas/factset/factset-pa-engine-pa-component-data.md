@@ -25,6 +25,9 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-pa-engine-pa-component-data-schema.json
 slug: factset-pa-engine-pa-component-data
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PAComponentData\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"accounts\": {\n      \"type\": \"array\",\n      \"description\": \"List of accounts.\"\n    },\n    \"benchmarks\": {\n      \"type\": \"array\",\n      \"description\": \"List of benchmarks.\"\n    },\n    \"groups\": {\n      \"type\": \"array\",\n      \"description\": \"List of groupings for the PA calculation. This will take precedence over the groupings saved in the PA document.\"\n    },\n    \"columns\": {\n      \"type\": \"array\",\n      \"description\": \"List of columns for the PA calculation. This will take precedence over the columns saved in the PA document.\"\n    },\n    \"currencyisocode\": {\n      \"type\": \"string\",\n      \"description\": \"Currency ISO code for calculation.\"\n    },\n    \"componentdetail\": {\n      \"type\": \"string\",\n      \"description\": \"PA Storage type. It can be GROUPS\
+  \ or GROUPSALL or TOTALS or SECURITIES.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-pa-engine-pa-component-data-schema.json
 tags:
 - Financial
 - Financial Data

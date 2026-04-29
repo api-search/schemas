@@ -10,6 +10,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-files-documentation-link-schema.json
 slug: figma-files-documentation-link
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DocumentationLink\",\n  \"type\": \"object\",\n  \"description\": \"A link to documentation.\",\n  \"properties\": {\n    \"uri\": {\n      \"type\": \"string\",\n      \"description\": \"The URI of the documentation link.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-files-documentation-link-schema.json
 tags:
 - Collaboration
 - Design

@@ -7,6 +7,8 @@ provider_name: AeroDataBox
 provider_slug: aerodatabox
 schema_file: json-schema/aerodatabox-flight-direction-schema.json
 slug: aerodatabox-flight-direction
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/json-schema/aerodatabox-flight-direction-schema.json\",\n  \"title\": \"FlightDirection\",\n  \"description\": \"Direction of flight<p>Possible values:</p>\\r\\n<ul>\\r\\n<li><b>1 - Arrival</b></li>\\r\\n<li><b>2 - Departure</b></li>\\r\\n<li><b>3 - Both</b></li>\\r\\n</ul>\\r\\n\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"Arrival\",\n    \"Departure\",\n    \"Both\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/json-schema/aerodatabox-flight-direction-schema.json
 tags:
 - Aviation
 - Flights

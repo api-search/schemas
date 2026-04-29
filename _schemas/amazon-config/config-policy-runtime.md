@@ -7,6 +7,8 @@ provider_name: Amazon Config
 provider_slug: amazon-config
 schema_file: json-schema/config-policy-runtime-schema.json
 slug: config-policy-runtime
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/json-schema/config-policy-runtime-schema.json\",\n  \"title\": \"PolicyRuntime\",\n  \"description\": \"PolicyRuntime schema\",\n  \"type\": \"string\",\n  \"pattern\": \"guard\\\\-2\\\\.x\\\\.x\",\n  \"minLength\": 1,\n  \"maxLength\": 64\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/json-schema/config-policy-runtime-schema.json
 tags:
 - Auditing
 - AWS

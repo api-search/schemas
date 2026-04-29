@@ -19,6 +19,8 @@ provider_name: Google Docs
 provider_slug: google-docs
 schema_file: json-schema/google-docs-v1-tab-properties-schema.json
 slug: google-docs-v1-tab-properties
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TabProperties\",\n  \"type\": \"object\",\n  \"description\": \"Properties of a tab.\",\n  \"properties\": {\n    \"tabId\": {\n      \"type\": \"string\",\n      \"description\": \"Output only. The ID of the tab.\"\n    },\n    \"title\": {\n      \"type\": \"string\",\n      \"description\": \"The title of the tab.\"\n    },\n    \"parentTabId\": {\n      \"type\": \"string\",\n      \"description\": \"Output only. The ID of the parent tab. Empty if this is a root-level tab.\"\n    },\n    \"index\": {\n      \"type\": \"integer\",\n      \"description\": \"The zero-based index of the tab amongst its siblings.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/json-schema/google-docs-v1-tab-properties-schema.json
 tags:
 - Collaboration
 - Documents

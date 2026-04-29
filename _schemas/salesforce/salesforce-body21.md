@@ -10,6 +10,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-body21-schema.json
 slug: salesforce-body21
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"listMetadata\": {\n      \"type\": \"object\",\n      \"example\": \"example_value\"\n    }\n  },\n  \"required\": [\n    \"listMetadata\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Body21\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-body21-schema.json
 tags:
 - AI
 - Analytics

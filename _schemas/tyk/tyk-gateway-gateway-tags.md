@@ -13,6 +13,8 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-gateway-tags-schema.json
 slug: tyk-gateway-gateway-tags
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"GatewayTags\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"enabled\": {\n      \"type\": \"boolean\"\n    },\n    \"tags\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-gateway-tags-schema.json
 tags:
 - API Gateway
 - API Management

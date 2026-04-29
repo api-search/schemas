@@ -13,6 +13,9 @@ provider_name: Amazon CodeArtifact
 provider_slug: amazon-codeartifact
 schema_file: json-schema/codeartifact-copy-package-versions-result-schema.json
 slug: codeartifact-copy-package-versions-result
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-copy-package-versions-result-schema.json\",\n  \"title\": \"CopyPackageVersionsResult\",\n  \"description\": \"CopyPackageVersionsResult schema from Amazon CodeArtifact API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"successfulVersions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SuccessfulPackageVersionInfoMap\"\n        },\n        {\n          \"description\": \" A list of the package versions that were successfully copied to your repository. \"\n        }\n      ]\n    },\n    \"failedVersions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PackageVersionErrorMap\"\n        },\n        {\n          \"description\": \"<p> A map of package versions that failed to copy and their error codes. The possible error\
+  \ codes are in the <code>PackageVersionError</code> data type. They are: </p> <ul> <li> <p> <code>ALREADY_EXISTS</code> </p> </li> <li> <p> <code>MISMATCHED_REVISION</code> </p> </li> <li> <p> <code>MISMATCHED_STATUS</code> </p> </li> <li> <p> <code>NOT_ALLOWED</code> </p> </li> <li> <p> <code>NOT_FOUND</code> </p> </li> <li> <p> <code>SKIPPED</code> </p> </li> </ul>\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-copy-package-versions-result-schema.json
 tags:
 - Amazon
 - AWS

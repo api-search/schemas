@@ -64,6 +64,9 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/checkout-three-ds2-response-data-schema.json
 slug: checkout-three-ds2-response-data
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-three-ds2-response-data-schema.json\",\n  \"title\": \"ThreeDS2ResponseData\",\n  \"description\": \"ThreeDS2ResponseData schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"acsChallengeMandated\": {\n      \"type\": \"string\"\n    },\n    \"acsOperatorID\": {\n      \"type\": \"string\"\n    },\n    \"acsReferenceNumber\": {\n      \"type\": \"string\"\n    },\n    \"acsSignedContent\": {\n      \"type\": \"string\"\n    },\n    \"acsTransID\": {\n      \"type\": \"string\"\n    },\n    \"acsURL\": {\n      \"type\": \"string\"\n    },\n    \"authenticationType\": {\n      \"type\": \"string\"\n    },\n    \"cardHolderInfo\": {\n      \"type\": \"string\"\n    },\n    \"cavvAlgorithm\": {\n      \"type\": \"string\"\n    },\n    \"challengeIndicator\": {\n      \"type\": \"string\"\
+  \n    },\n    \"dsReferenceNumber\": {\n      \"type\": \"string\"\n    },\n    \"dsTransID\": {\n      \"type\": \"string\"\n    },\n    \"exemptionIndicator\": {\n      \"type\": \"string\"\n    },\n    \"messageVersion\": {\n      \"type\": \"string\"\n    },\n    \"riskScore\": {\n      \"type\": \"string\"\n    },\n    \"sdkEphemPubKey\": {\n      \"type\": \"string\"\n    },\n    \"threeDSServerTransID\": {\n      \"type\": \"string\"\n    },\n    \"transStatus\": {\n      \"type\": \"string\"\n    },\n    \"transStatusReason\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-three-ds2-response-data-schema.json
 tags:
 - Payments
 - Financial Services

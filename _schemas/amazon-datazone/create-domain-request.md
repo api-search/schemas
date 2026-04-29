@@ -19,6 +19,8 @@ provider_name: Amazon DataZone
 provider_slug: amazon-datazone
 schema_file: json-schema/create-domain-request-schema.json
 slug: create-domain-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-datazone/json-schema/create-domain-request-schema.json\",\n  \"title\": \"Create Domain Request\",\n  \"description\": \"Request body for creating a DataZone domain.\",\n  \"type\": \"object\",\n  \"required\": [\n    \"name\",\n    \"domainExecutionRole\"\n  ],\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"domainExecutionRole\": {\n      \"type\": \"string\"\n    },\n    \"tags\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/json-schema/create-domain-request-schema.json
 tags:
 - AWS
 - Data Catalog

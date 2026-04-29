@@ -19,6 +19,8 @@ provider_name: Google Apps Script
 provider_slug: google-apps-script
 schema_file: json-schema/openapi-version-schema.json
 slug: openapi-version
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Version\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"versionNumber\": {\n      \"type\": \"integer\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"createTime\": {\n      \"type\": \"string\"\n    },\n    \"scriptId\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/json-schema/openapi-version-schema.json
 tags:
 - Apps Script
 - Automation

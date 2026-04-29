@@ -7,6 +7,8 @@ provider_name: Amazon OpenSearch Service API
 provider_slug: amazon-opensearch
 schema_file: json-schema/openapi-aws-account-schema.json
 slug: openapi-aws-account
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-aws-account-schema.json\",\n  \"title\": \"AWSAccount\",\n  \"description\": \"AWSAccount schema from Amazon OpenSearch Service API\",\n  \"type\": \"string\",\n  \"pattern\": \"^[0-9]+$\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-aws-account-schema.json
 tags:
 - Analytics
 - AWS

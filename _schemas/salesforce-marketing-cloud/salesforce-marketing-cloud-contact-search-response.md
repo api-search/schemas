@@ -19,6 +19,8 @@ provider_name: Salesforce Marketing Cloud
 provider_slug: salesforce-marketing-cloud
 schema_file: json-schema/salesforce-marketing-cloud-contact-search-response-schema.json
 slug: salesforce-marketing-cloud-contact-search-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ContactSearchResponse\",\n  \"type\": \"object\",\n  \"description\": \"Response returned from a contact search operation\",\n  \"properties\": {\n    \"count\": {\n      \"type\": \"integer\",\n      \"description\": \"Total number of matching contacts\"\n    },\n    \"page\": {\n      \"type\": \"integer\"\n    },\n    \"pageSize\": {\n      \"type\": \"integer\"\n    },\n    \"items\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/json-schema/salesforce-marketing-cloud-contact-search-response-schema.json
 tags:
 - Automation
 - Customer Journey

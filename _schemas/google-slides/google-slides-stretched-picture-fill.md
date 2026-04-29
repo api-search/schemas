@@ -10,6 +10,8 @@ provider_name: Google Slides
 provider_slug: google-slides
 schema_file: json-schema/google-slides-stretched-picture-fill-schema.json
 slug: google-slides-stretched-picture-fill
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"StretchedPictureFill\",\n  \"type\": \"object\",\n  \"description\": \"The stretched picture fill of a page background.\",\n  \"properties\": {\n    \"contentUrl\": {\n      \"type\": \"string\",\n      \"description\": \"Reading the contentUrl returns the content of the picture. The URL has a default lifetime of 30 minutes.\\n\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/json-schema/google-slides-stretched-picture-fill-schema.json
 tags:
 - Collaboration
 - Google Workspace

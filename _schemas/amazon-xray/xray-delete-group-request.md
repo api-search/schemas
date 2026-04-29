@@ -13,6 +13,8 @@ provider_name: Amazon X-Ray
 provider_slug: amazon-xray
 schema_file: json-schema/xray-delete-group-request-schema.json
 slug: xray-delete-group-request
+source_json: "{\n  \"type\": \"object\",\n  \"title\": \"DeleteGroupRequest\",\n  \"properties\": {\n    \"GroupName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GroupName\"\n        },\n        {\n          \"description\": \"The case-sensitive name of the group.\"\n        }\n      ]\n    },\n    \"GroupARN\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GroupARN\"\n        },\n        {\n          \"description\": \"The ARN of the group that was generated on creation.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-delete-group-request-schema.json\",\n  \"description\": \"DeleteGroupRequest schema from Amazon X-Ray API\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-delete-group-request-schema.json
 tags:
 - Application Performance
 - AWS

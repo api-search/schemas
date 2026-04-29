@@ -10,6 +10,8 @@ provider_name: ChatGPT
 provider_slug: chatgpt
 schema_file: json-schema/chatgpt-responses-error-response-schema.json
 slug: chatgpt-responses-error-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ErrorResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"error\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/json-schema/chatgpt-responses-error-response-schema.json
 tags:
 - Agents
 - AI

@@ -7,6 +7,8 @@ provider_name: Amazon Cognito
 provider_slug: aws-cognito
 schema_file: json-schema/cognito-idp-auth-session-validity-type-schema.json
 slug: cognito-idp-auth-session-validity-type
+source_json: "{\n  \"type\": \"integer\",\n  \"minimum\": 3,\n  \"maximum\": 15,\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-auth-session-validity-type-schema.json\",\n  \"title\": \"AuthSessionValidityType\",\n  \"description\": \"AuthSessionValidityType schema from Amazon Cognito\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-auth-session-validity-type-schema.json
 tags:
 - Authentication
 - Authorization

@@ -16,6 +16,8 @@ provider_name: Amazon App Mesh
 provider_slug: amazon-app-mesh
 schema_file: json-schema/amazon-app-mesh-virtualgatewayconnectionpool-schema.json
 slug: amazon-app-mesh-virtualgatewayconnectionpool
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"VirtualGatewayConnectionPool\",\n  \"description\": \"<p>An object that represents the type of virtual gateway connection pool.</p> <p>Only one protocol is used at a time and should be the same protocol as the one chosen under port mapping.</p> <p>If not present the default value for <code>maxPendingRequests</code> is <code>2147483647</code>.</p>\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"grpc\": {},\n    \"http\": {},\n    \"http2\": {}\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/json-schema/amazon-app-mesh-virtualgatewayconnectionpool-schema.json
 tags:
 - AWS
 - Microservices

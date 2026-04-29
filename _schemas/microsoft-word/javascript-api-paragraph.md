@@ -31,6 +31,9 @@ provider_name: Microsoft Word
 provider_slug: microsoft-word
 schema_file: json-schema/javascript-api-paragraph-schema.json
 slug: javascript-api-paragraph
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/json-schema/javascript-api-paragraph-schema.json\",\n  \"title\": \"Paragraph\",\n  \"description\": \"Represents a single paragraph in a Word document.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier of the paragraph.\"\n    },\n    \"text\": {\n      \"type\": \"string\",\n      \"description\": \"Plain text content of the paragraph.\"\n    },\n    \"style\": {\n      \"type\": \"string\",\n      \"description\": \"Style name applied to the paragraph.\"\n    },\n    \"alignment\": {\n      \"type\": \"string\",\n      \"description\": \"Text alignment (Left, Centered, Right, Justified).\",\n      \"enum\": [\"Left\", \"Centered\", \"Right\", \"Justified\"]\n    },\n    \"firstLineIndent\": {\n      \"type\": \"number\",\n   \
+  \   \"description\": \"First line indent value in points.\"\n    },\n    \"lineSpacing\": {\n      \"type\": \"number\",\n      \"description\": \"Line spacing in points.\"\n    },\n    \"outlineLevel\": {\n      \"type\": \"integer\",\n      \"description\": \"Outline level of the paragraph.\",\n      \"minimum\": 1,\n      \"maximum\": 9\n    },\n    \"isListItem\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the paragraph is part of a list.\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/json-schema/javascript-api-paragraph-schema.json
 tags:
 - Documents
 - Microsoft 365

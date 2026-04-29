@@ -13,6 +13,8 @@ provider_name: Azure Synapse Analytics
 provider_slug: azure-synapse
 schema_file: json-schema/azure-synapse-sql-pool-info-list-result-schema.json
 slug: azure-synapse-sql-pool-info-list-result
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/azure-synapse/refs/heads/main/json-schema/azure-synapse-sql-pool-info-list-result-schema.json\",\n  \"title\": \"SqlPoolInfoListResult\",\n  \"description\": \"SqlPoolInfoListResult schema from Azure Synapse Analytics API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"value\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/SqlPool\"\n      }\n    },\n    \"nextLink\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-synapse/refs/heads/main/json-schema/azure-synapse-sql-pool-info-list-result-schema.json
 tags:
 - Analytics
 - Apache Spark

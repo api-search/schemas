@@ -22,6 +22,8 @@ provider_name: Oracle GoldenGate
 provider_slug: oracle-goldengate
 schema_file: json-schema/oracle-goldengate-rest-update-replicat-request-schema.json
 slug: oracle-goldengate-rest-update-replicat-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"UpdateReplicatRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"config\": {\n      \"type\": \"array\"\n    },\n    \"credentials\": {\n      \"type\": \"object\"\n    },\n    \"begin\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/json-schema/oracle-goldengate-rest-update-replicat-request-schema.json
 tags:
 - CDC
 - Data Integration

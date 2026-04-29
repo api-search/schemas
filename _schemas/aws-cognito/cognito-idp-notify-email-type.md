@@ -16,6 +16,9 @@ provider_name: Amazon Cognito
 provider_slug: aws-cognito
 schema_file: json-schema/cognito-idp-notify-email-type-schema.json
 slug: cognito-idp-notify-email-type
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Subject\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EmailNotificationSubjectType\"\n        },\n        {\n          \"description\": \"The email subject.\"\n        }\n      ]\n    },\n    \"HtmlBody\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EmailNotificationBodyType\"\n        },\n        {\n          \"description\": \"The email HTML body.\"\n        }\n      ]\n    },\n    \"TextBody\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EmailNotificationBodyType\"\n        },\n        {\n          \"description\": \"The email text body.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Subject\"\n  ],\n  \"description\": \"The notify email type.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-notify-email-type-schema.json\"\
+  ,\n  \"title\": \"NotifyEmailType\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-notify-email-type-schema.json
 tags:
 - Authentication
 - Authorization

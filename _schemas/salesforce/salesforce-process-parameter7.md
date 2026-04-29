@@ -13,6 +13,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-process-parameter7-schema.json
 slug: salesforce-process-parameter7
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"MembershipNumber\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"PromotionName\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    }\n  },\n  \"required\": [\n    \"MembershipNumber\",\n    \"PromotionName\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ProcessParameter7\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-process-parameter7-schema.json
 tags:
 - AI
 - Analytics

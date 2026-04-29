@@ -10,6 +10,8 @@ provider_name: Oracle GoldenGate
 provider_slug: oracle-goldengate
 schema_file: json-schema/oracle-goldengate-rest-process-metrics-list-schema.json
 slug: oracle-goldengate-rest-process-metrics-list
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ProcessMetricsList\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"processes\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/json-schema/oracle-goldengate-rest-process-metrics-list-schema.json
 tags:
 - CDC
 - Data Integration

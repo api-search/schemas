@@ -16,6 +16,9 @@ provider_name: Amazon Managed Service for Apache Flink
 provider_slug: amazon-managed-apache-flink
 schema_file: json-schema/amazon-managed-apache-flink-run-configuration-schema.json
 slug: amazon-managed-apache-flink-run-configuration
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/json-schema/amazon-managed-apache-flink-run-configuration-schema.json\",\n  \"title\": \"RunConfiguration\",\n  \"description\": \"Describes the starting parameters for an Kinesis Data Analytics application.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"FlinkRunConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FlinkRunConfiguration\"\n        },\n        {\n          \"description\": \"Describes the starting parameters for a Flink-based Kinesis Data Analytics application.\"\n        }\n      ]\n    },\n    \"SqlRunConfigurations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SqlRunConfigurations\"\n        },\n        {\n          \"description\": \"Describes the starting parameters for a SQL-based Kinesis Data Analytics\
+  \ application application.\"\n        }\n      ]\n    },\n    \"ApplicationRestoreConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ApplicationRestoreConfiguration\"\n        },\n        {\n          \"description\": \"Describes the restore behavior of a restarting application.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/json-schema/amazon-managed-apache-flink-run-configuration-schema.json
 tags:
 - Apache Flink
 - AWS

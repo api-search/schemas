@@ -22,6 +22,8 @@ provider_name: Jira
 provider_slug: jira
 schema_file: json-schema/jira-cloud-platform-rest-field-update-operation-schema.json
 slug: jira-cloud-platform-rest-field-update-operation
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"FieldUpdateOperation\",\n  \"type\": \"object\",\n  \"description\": \"An operation to perform on a field value.\",\n  \"properties\": {\n    \"add\": {\n      \"type\": \"string\",\n      \"description\": \"Value to add to the field.\"\n    },\n    \"remove\": {\n      \"type\": \"string\",\n      \"description\": \"Value to remove from the field.\"\n    },\n    \"set\": {\n      \"type\": \"string\",\n      \"description\": \"Value to set the field to.\"\n    },\n    \"edit\": {\n      \"type\": \"string\",\n      \"description\": \"Value to edit in the field.\"\n    },\n    \"copy\": {\n      \"type\": \"string\",\n      \"description\": \"Value to copy to the field.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/json-schema/jira-cloud-platform-rest-field-update-operation-schema.json
 tags:
 - Agile
 - Issue Tracking

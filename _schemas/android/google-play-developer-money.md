@@ -16,6 +16,8 @@ provider_name: Android
 provider_slug: android
 schema_file: json-schema/google-play-developer-money-schema.json
 slug: google-play-developer-money
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Money\",\n  \"type\": \"object\",\n  \"description\": \"Represents a monetary amount with currency.\",\n  \"properties\": {\n    \"currencyCode\": {\n      \"type\": \"string\",\n      \"description\": \"ISO 4217 three-letter currency code (e.g., USD, EUR).\"\n    },\n    \"units\": {\n      \"type\": \"string\",\n      \"description\": \"The whole units of the amount.\"\n    },\n    \"nanos\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of nano units (10^-9) of the amount. Must be between -999,999,999 and +999,999,999.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/json-schema/google-play-developer-money-schema.json
 tags:
 - AI
 - Android

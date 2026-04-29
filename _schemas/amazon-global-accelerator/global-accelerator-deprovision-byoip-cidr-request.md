@@ -10,6 +10,8 @@ provider_name: Amazon Global Accelerator
 provider_slug: amazon-global-accelerator
 schema_file: json-schema/global-accelerator-deprovision-byoip-cidr-request-schema.json
 slug: global-accelerator-deprovision-byoip-cidr-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/json-schema/global-accelerator-deprovision-byoip-cidr-request-schema.json\",\n  \"title\": \"DeprovisionByoipCidrRequest\",\n  \"description\": \"DeprovisionByoipCidrRequest schema from Amazon Global Accelerator API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Cidr\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GenericString\"\n        },\n        {\n          \"description\": \"The address range, in CIDR notation. The prefix must be the same prefix that you specified when you provisioned the address range.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Cidr\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/json-schema/global-accelerator-deprovision-byoip-cidr-request-schema.json
 tags:
 - Availability
 - AWS

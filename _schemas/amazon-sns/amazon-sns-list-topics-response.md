@@ -10,6 +10,8 @@ provider_name: Amazon SNS
 provider_slug: amazon-sns
 schema_file: json-schema/amazon-sns-list-topics-response-schema.json
 slug: amazon-sns-list-topics-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ListTopicsResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ListTopicsResult\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/json-schema/amazon-sns-list-topics-response-schema.json
 tags:
 - AWS
 - Email

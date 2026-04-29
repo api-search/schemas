@@ -16,6 +16,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/seatmap-display-operatingflight-schema.json
 slug: seatmap-display-operatingflight
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"OperatingFlight\",\n  \"description\": \"information about the operating flight\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"carrierCode\": {\n      \"type\": \"string\",\n      \"description\": \"providing the airline / carrier code\"\n    },\n    \"number\": {\n      \"type\": \"string\",\n      \"description\": \"the flight number as assigned by the carrier\"\n    },\n    \"suffix\": {\n      \"type\": \"string\",\n      \"description\": \"the flight number suffix as assigned by the carrier\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/seatmap-display-operatingflight-schema.json
 tags:
 - Airlines
 - Aviation

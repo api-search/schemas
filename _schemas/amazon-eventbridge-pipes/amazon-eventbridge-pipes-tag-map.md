@@ -7,6 +7,8 @@ provider_name: Amazon EventBridge Pipes
 provider_slug: amazon-eventbridge-pipes
 schema_file: json-schema/amazon-eventbridge-pipes-tag-map-schema.json
 slug: amazon-eventbridge-pipes-tag-map
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/json-schema/amazon-eventbridge-pipes-tag-map-schema.json\",\n  \"title\": \"TagMap\",\n  \"description\": \"TagMap schema from Amazon EventBridge Pipes\",\n  \"type\": \"object\",\n  \"additionalProperties\": {\n    \"$ref\": \"#/components/schemas/TagValue\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/json-schema/amazon-eventbridge-pipes-tag-map-schema.json
 tags:
 - Amazon Web Services
 - AWS

@@ -13,6 +13,9 @@ provider_name: Amazon OpenSearch Service API
 provider_slug: amazon-opensearch
 schema_file: json-schema/openapi-elasticsearch-cluster-config-status-schema.json
 slug: openapi-elasticsearch-cluster-config-status
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-elasticsearch-cluster-config-status-schema.json\",\n  \"title\": \"ElasticsearchClusterConfigStatus\",\n  \"description\": \" Specifies the configuration status for the specified Elasticsearch domain.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Options\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ElasticsearchClusterConfig\"\n        },\n        {\n          \"description\": \" Specifies the cluster configuration for the specified Elasticsearch domain.\"\n        }\n      ]\n    },\n    \"Status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OptionStatus\"\n        },\n        {\n          \"description\": \" Specifies the status of the configuration for the specified Elasticsearch domain.\"\n        }\n      ]\n\
+  \    }\n  },\n  \"required\": [\n    \"Options\",\n    \"Status\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-elasticsearch-cluster-config-status-schema.json
 tags:
 - Analytics
 - AWS

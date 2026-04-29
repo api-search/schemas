@@ -40,6 +40,9 @@ provider_name: Red Hat
 provider_slug: red-hat
 schema_file: json-schema/red-hat-keycloak-admin-user-schema.json
 slug: red-hat-keycloak-admin-user
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"User\",\n  \"type\": \"object\",\n  \"description\": \"A user account within a Keycloak realm.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier of the user.\"\n    },\n    \"username\": {\n      \"type\": \"string\",\n      \"description\": \"The username.\"\n    },\n    \"firstName\": {\n      \"type\": \"string\",\n      \"description\": \"The user's first name.\"\n    },\n    \"lastName\": {\n      \"type\": \"string\",\n      \"description\": \"The user's last name.\"\n    },\n    \"email\": {\n      \"type\": \"string\",\n      \"description\": \"The user's email address.\"\n    },\n    \"emailVerified\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the email has been verified.\"\n    },\n    \"enabled\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the user account is enabled.\"\
+  \n    },\n    \"createdTimestamp\": {\n      \"type\": \"integer\",\n      \"description\": \"The creation timestamp in milliseconds.\"\n    },\n    \"attributes\": {\n      \"type\": \"object\",\n      \"description\": \"Custom user attributes.\"\n    },\n    \"credentials\": {\n      \"type\": \"array\",\n      \"description\": \"User credentials configuration.\"\n    },\n    \"requiredActions\": {\n      \"type\": \"array\",\n      \"description\": \"Actions required on next login.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-keycloak-admin-user-schema.json
 tags:
 - Cloud
 - Containers

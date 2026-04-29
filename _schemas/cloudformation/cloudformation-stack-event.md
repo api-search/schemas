@@ -55,6 +55,9 @@ provider_name: AWS CloudFormation
 provider_slug: cloudformation
 schema_file: json-schema/cloudformation-stack-event-schema.json
 slug: cloudformation-stack-event
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"StackEvent\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"StackId\": {\n      \"type\": \"string\"\n    },\n    \"EventId\": {\n      \"type\": \"string\"\n    },\n    \"StackName\": {\n      \"type\": \"string\"\n    },\n    \"LogicalResourceId\": {\n      \"type\": \"string\"\n    },\n    \"PhysicalResourceId\": {\n      \"type\": \"string\"\n    },\n    \"ResourceType\": {\n      \"type\": \"string\"\n    },\n    \"Timestamp\": {\n      \"type\": \"string\"\n    },\n    \"ResourceStatus\": {\n      \"type\": \"string\"\n    },\n    \"ResourceStatusReason\": {\n      \"type\": \"string\"\n    },\n    \"ResourceProperties\": {\n      \"type\": \"string\"\n    },\n    \"ClientRequestToken\": {\n      \"type\": \"string\"\n    },\n    \"HookType\": {\n      \"type\": \"string\"\n    },\n    \"HookStatus\": {\n      \"type\": \"string\"\n    },\n    \"HookStatusReason\": {\n      \"type\"\
+  : \"string\"\n    },\n    \"HookInvocationPoint\": {\n      \"type\": \"string\"\n    },\n    \"HookFailureMode\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-stack-event-schema.json
 tags:
 - Automation
 - AWS

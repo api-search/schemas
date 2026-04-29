@@ -10,6 +10,8 @@ provider_name: Amazon HealthOmics
 provider_slug: amazon-healthomics
 schema_file: json-schema/healthomics-list-read-set-import-jobs-request-schema.json
 slug: healthomics-list-read-set-import-jobs-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-list-read-set-import-jobs-request-schema.json\",\n  \"title\": \"ListReadSetImportJobsRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"filter\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ImportReadSetFilter\"\n        },\n        {\n          \"description\": \"A filter to apply to the list.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-list-read-set-import-jobs-request-schema.json
 tags:
 - AWS
 - Bioinformatics

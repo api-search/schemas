@@ -28,6 +28,8 @@ provider_name: Cisco Voice Portal
 provider_slug: cisco-voice-portal
 schema_file: json-schema/cisco-voice-portal-administration-call-server-schema.json
 slug: cisco-voice-portal-administration-call-server
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CallServer\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"serverId\": {\n      \"type\": \"string\"\n    },\n    \"hostname\": {\n      \"type\": \"string\"\n    },\n    \"ipAddress\": {\n      \"type\": \"string\"\n    },\n    \"sipPort\": {\n      \"type\": \"integer\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"activeCalls\": {\n      \"type\": \"integer\"\n    },\n    \"maxCalls\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-administration-call-server-schema.json
 tags:
 - Contact Center
 - IVR

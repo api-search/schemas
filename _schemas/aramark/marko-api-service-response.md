@@ -13,6 +13,8 @@ provider_name: Aramark
 provider_slug: aramark
 schema_file: json-schema/marko-api-service-response-schema.json
 slug: marko-api-service-response
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"data\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Service\"\n      }\n    },\n    \"count\": {\n      \"type\": \"integer\",\n      \"description\": \"Total record count\",\n      \"example\": 5\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/json-schema/marko-api-service-response-schema.json\",\n  \"title\": \"ServiceResponse\",\n  \"description\": \"ServiceResponse schema from Aramark Marko API\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/json-schema/marko-api-service-response-schema.json
 tags:
 - Food Services
 - Facilities Management

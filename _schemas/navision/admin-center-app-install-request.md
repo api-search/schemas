@@ -19,6 +19,8 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/admin-center-app-install-request-schema.json
 slug: admin-center-app-install-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AppInstallRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"targetVersion\": {\n      \"type\": \"string\",\n      \"description\": \"Version to install\"\n    },\n    \"allowPreviewVersion\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to allow preview versions\"\n    },\n    \"acceptIsvEula\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the ISV EULA is accepted\"\n    },\n    \"allowDependencyUpdate\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to also update dependent apps\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/admin-center-app-install-request-schema.json
 tags:
 - Business Management
 - Dynamics NAV

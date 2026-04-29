@@ -22,6 +22,9 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/accounts-close-account-response-schema.json
 slug: accounts-close-account-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/accounts-close-account-response-schema.json\",\n  \"title\": \"CloseAccountResponse\",\n  \"description\": \"CloseAccountResponse schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"accountCode\": {\n      \"x-addedInVersion\": \"5\",\n      \"description\": \"The account code of the account that is closed.\",\n      \"type\": \"string\"\n    },\n    \"invalidFields\": {\n      \"x-addedInVersion\": \"5\",\n      \"description\": \"Contains field validation errors that would prevent requests from being processed.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/ErrorFieldType\"\n      },\n      \"type\": \"array\"\n    },\n    \"pspReference\": {\n      \"description\": \"The reference of a request. Can be used to uniquely identify the request.\",\n      \"type\": \"string\"\
+  \n    },\n    \"resultCode\": {\n      \"description\": \"The result code.\",\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"x-addedInVersion\": \"2\",\n      \"description\": \"The new status of the account.\\n>Permitted values: `Active`, `Inactive`, `Suspended`, `Closed`.\",\n      \"enum\": [\n        \"Active\",\n        \"Closed\",\n        \"Inactive\",\n        \"Suspended\"\n      ],\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/accounts-close-account-response-schema.json
 tags:
 - Payments
 - Financial Services

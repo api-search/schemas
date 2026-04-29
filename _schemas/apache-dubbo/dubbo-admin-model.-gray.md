@@ -13,6 +13,8 @@ provider_name: Apache Dubbo
 provider_slug: apache-dubbo
 schema_file: json-schema/dubbo-admin-model.-gray-schema.json
 slug: dubbo-admin-model.-gray
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/json-schema/dubbo-admin-model.-gray-schema.json\",\n  \"title\": \"model.Gray\",\n  \"description\": \"model.Gray schema from Dubbo Admin API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"application\": {\n      \"type\": \"string\"\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/model.Tag\"\n      }\n    }\n  },\n  \"required\": [\n    \"application\",\n    \"tags\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/json-schema/dubbo-admin-model.-gray-schema.json
 tags:
 - Apache
 - Go

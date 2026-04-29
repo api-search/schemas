@@ -13,6 +13,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/engagement-calls-api-batch-update-input-schema.json
 slug: engagement-calls-api-batch-update-input
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/engagement-calls-api-batch-update-input-schema.json\",\n  \"title\": \"BatchUpdateInput\",\n  \"description\": \"Input for updating a single item in a batch\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The call identifier\",\n      \"example\": \"512\"\n    },\n    \"properties\": {\n      \"type\": \"object\",\n      \"description\": \"The properties to update\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      },\n      \"example\": {\n        \"key\": \"value\"\n      }\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"properties\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/engagement-calls-api-batch-update-input-schema.json
 tags:
 - Analytics
 - Commerce

@@ -13,6 +13,8 @@ provider_name: Amazon IoT TwinMaker
 provider_slug: amazon-iot-twinmaker
 schema_file: json-schema/iot-twinmaker-data-connector-schema.json
 slug: iot-twinmaker-data-connector
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-data-connector-schema.json\",\n  \"title\": \"DataConnector\",\n  \"description\": \"The data connector.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"lambda\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LambdaFunction\"\n        },\n        {\n          \"description\": \"The Lambda function associated with this data connector.\"\n        }\n      ]\n    },\n    \"isNative\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"A Boolean value that specifies whether the data connector is native to IoT TwinMaker.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-data-connector-schema.json
 tags:
 - AWS
 - 3D Visualization

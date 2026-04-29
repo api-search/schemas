@@ -13,6 +13,8 @@ provider_name: Amazon Neptune
 provider_slug: amazon-neptune
 schema_file: json-schema/loader-loader-list-response-schema.json
 slug: loader-loader-list-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/loader-loader-list-response-schema.json\",\n  \"title\": \"LoaderListResponse\",\n  \"description\": \"LoaderListResponse schema from Neptune\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"payload\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"loadIds\": {\n          \"type\": \"array\",\n          \"description\": \"The list of load job IDs.\",\n          \"items\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/loader-loader-list-response-schema.json
 tags:
 - AWS
 - Database

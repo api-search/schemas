@@ -43,6 +43,9 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/automation-configuration-package-schema.json
 slug: automation-configuration-package
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ConfigurationPackage\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"code\": {\n      \"type\": \"string\",\n      \"description\": \"The package code\"\n    },\n    \"packageName\": {\n      \"type\": \"string\",\n      \"description\": \"The package name\"\n    },\n    \"languageId\": {\n      \"type\": \"integer\"\n    },\n    \"productVersion\": {\n      \"type\": \"string\"\n    },\n    \"processingOrder\": {\n      \"type\": \"integer\"\n    },\n    \"excludeConfigurationTables\": {\n      \"type\": \"boolean\"\n    },\n    \"numberOfTables\": {\n      \"type\": \"integer\"\n    },\n    \"numberOfRecords\": {\n      \"type\": \"integer\"\n    },\n    \"numberOfErrors\": {\n      \"type\": \"integer\"\n    },\n    \"importStatus\": {\n      \"type\": \"string\"\n    },\n    \"applyStatus\": {\n      \"type\": \"string\"\n    }\n\
+  \  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/automation-configuration-package-schema.json
 tags:
 - Business Management
 - Dynamics NAV

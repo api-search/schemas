@@ -25,6 +25,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-pa-engine-pagination-info-schema.json
 slug: factset-pa-engine-pagination-info
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PaginationInfo\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"pageNumber\": {\n      \"type\": \"integer\"\n    },\n    \"pageSize\": {\n      \"type\": \"integer\"\n    },\n    \"totalPages\": {\n      \"type\": \"integer\"\n    },\n    \"totalCalculations\": {\n      \"type\": \"integer\"\n    },\n    \"nextPage\": {\n      \"type\": \"string\"\n    },\n    \"previousPage\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-pa-engine-pagination-info-schema.json
 tags:
 - Financial
 - Financial Data

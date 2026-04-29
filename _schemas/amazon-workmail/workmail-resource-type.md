@@ -7,6 +7,8 @@ provider_name: Amazon WorkMail
 provider_slug: amazon-workmail
 schema_file: json-schema/workmail-resource-type-schema.json
 slug: workmail-resource-type
+source_json: "{\n  \"type\": \"string\",\n  \"enum\": [\n    \"ROOM\",\n    \"EQUIPMENT\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ResourceType\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-resource-type-schema.json\",\n  \"description\": \"ResourceType schema from Amazon WorkMail API\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-resource-type-schema.json
 tags:
 - AWS
 - Business Communication

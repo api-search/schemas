@@ -25,6 +25,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-offers-price-price-schema.json
 slug: flight-offers-price-price
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Price\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"currency\": {\n      \"type\": \"string\"\n    },\n    \"total\": {\n      \"type\": \"string\",\n      \"description\": \"Total amount paid by the user\"\n    },\n    \"base\": {\n      \"type\": \"string\",\n      \"description\": \"Amount without taxes\"\n    },\n    \"fees\": {\n      \"type\": \"array\",\n      \"description\": \"List of applicable fees\",\n      \"items\": {\n        \"$ref\": \"#/definitions/Fee\"\n      }\n    },\n    \"taxes\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/Tax\"\n      }\n    },\n    \"refundableTaxes\": {\n      \"type\": \"string\",\n      \"description\": \"The amount of taxes which are refundable\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-offers-price-price-schema.json
 tags:
 - Airlines
 - Aviation

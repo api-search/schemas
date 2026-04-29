@@ -16,6 +16,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/procedure-argument-schema.json
 slug: procedure-argument
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Argument\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Argument name\"\n    },\n    \"datatype\": {\n      \"type\": \"string\",\n      \"description\": \"Argument data type\"\n    },\n    \"default_value\": {\n      \"type\": \"string\",\n      \"description\": \"Default value of the argument\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/procedure-argument-schema.json
 tags:
 - Data Lakes
 - Data Sharing

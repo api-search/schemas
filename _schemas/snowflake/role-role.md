@@ -37,6 +37,9 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/role-role-schema.json
 slug: role-role
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Role\",\n  \"type\": \"object\",\n  \"description\": \"A Snowflake role\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the role.\"\n    },\n    \"comment\": {\n      \"type\": \"string\",\n      \"description\": \"Comment of the role.\"\n    },\n    \"created_on\": {\n      \"type\": \"string\",\n      \"description\": \"Date and time when the role was created.\"\n    },\n    \"owner\": {\n      \"type\": \"string\",\n      \"description\": \"Specifies the role that owns this role.\"\n    },\n    \"is_default\": {\n      \"type\": \"boolean\",\n      \"description\": \"Specifies whether the role being fetched is the user's default role.\"\n    },\n    \"is_current\": {\n      \"type\": \"boolean\",\n      \"description\": \"Specifies whether the role being fetched is the user's current role.\"\n    },\n    \"is_inherited\": {\n      \"\
+  type\": \"boolean\",\n      \"description\": \"Specifies whether the role used to run the command inherits the specified role.\"\n    },\n    \"assigned_to_users\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of users to whom this role has been assigned.\"\n    },\n    \"granted_to_roles\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of roles to which this role has been granted.\"\n    },\n    \"granted_roles\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of roles that have been granted to this role.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/role-role-schema.json
 tags:
 - Data Lakes
 - Data Sharing

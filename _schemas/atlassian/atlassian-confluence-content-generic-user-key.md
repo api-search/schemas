@@ -7,6 +7,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-generic-user-key-schema.json
 slug: atlassian-confluence-content-generic-user-key
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"GenericUserKey\",\n  \"type\": \"string\",\n  \"description\": \"This property is no longer available and will be removed from the documentation soon.\\nUse `accountId` instead.\\nSee the [deprecation notice](/cloud/confluence/deprecation-notice-user-privacy-api-migration-guide/) for details.\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-generic-user-key-schema.json
 tags:
 - Code
 - Collaboration

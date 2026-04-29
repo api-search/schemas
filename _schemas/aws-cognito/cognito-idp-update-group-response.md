@@ -10,6 +10,8 @@ provider_name: Amazon Cognito
 provider_slug: aws-cognito
 schema_file: json-schema/cognito-idp-update-group-response-schema.json
 slug: cognito-idp-update-group-response
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Group\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GroupType\"\n        },\n        {\n          \"description\": \"The group object for the group.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-update-group-response-schema.json\",\n  \"title\": \"UpdateGroupResponse\",\n  \"description\": \"UpdateGroupResponse schema from Amazon Cognito\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-update-group-response-schema.json
 tags:
 - Authentication
 - Authorization

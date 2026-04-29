@@ -7,6 +7,8 @@ provider_name: Amazon Cognito
 provider_slug: aws-cognito
 schema_file: json-schema/cognito-idp-explicit-auth-flows-type-schema.json
 slug: cognito-idp-explicit-auth-flows-type
+source_json: "{\n  \"type\": \"string\",\n  \"enum\": [\n    \"ADMIN_NO_SRP_AUTH\",\n    \"CUSTOM_AUTH_FLOW_ONLY\",\n    \"USER_PASSWORD_AUTH\",\n    \"ALLOW_ADMIN_USER_PASSWORD_AUTH\",\n    \"ALLOW_CUSTOM_AUTH\",\n    \"ALLOW_USER_PASSWORD_AUTH\",\n    \"ALLOW_USER_SRP_AUTH\",\n    \"ALLOW_REFRESH_TOKEN_AUTH\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-explicit-auth-flows-type-schema.json\",\n  \"title\": \"ExplicitAuthFlowsType\",\n  \"description\": \"ExplicitAuthFlowsType schema from Amazon Cognito\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-explicit-auth-flows-type-schema.json
 tags:
 - Authentication
 - Authorization

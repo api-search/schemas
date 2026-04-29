@@ -25,6 +25,8 @@ provider_name: Cisco Voice Portal
 provider_slug: cisco-voice-portal
 schema_file: json-schema/cisco-voice-portal-administration-license-info-schema.json
 slug: cisco-voice-portal-administration-license-info
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"LicenseInfo\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"licenseType\": {\n      \"type\": \"string\"\n    },\n    \"maxPorts\": {\n      \"type\": \"integer\",\n      \"description\": \"Maximum number of concurrent call ports\"\n    },\n    \"usedPorts\": {\n      \"type\": \"integer\",\n      \"description\": \"Currently used call ports\"\n    },\n    \"features\": {\n      \"type\": \"array\",\n      \"description\": \"Licensed feature list\"\n    },\n    \"expirationDate\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-administration-license-info-schema.json
 tags:
 - Contact Center
 - IVR

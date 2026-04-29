@@ -31,6 +31,9 @@ provider_name: SAP Concur
 provider_slug: sap-concur
 schema_file: json-schema/sap-concur-expense-travel-schema.json
 slug: sap-concur-expense-travel
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Travel\",\n  \"type\": \"object\",\n  \"description\": \"Travel-specific data for transportation expenses\",\n  \"properties\": {\n    \"startLocation\": {\n      \"type\": \"string\",\n      \"description\": \"Trip origin location\"\n    },\n    \"endLocation\": {\n      \"type\": \"string\",\n      \"description\": \"Trip destination location\"\n    },\n    \"ticketNumber\": {\n      \"type\": \"string\",\n      \"description\": \"Ticket or booking reference number\"\n    },\n    \"hotelCheckinDate\": {\n      \"type\": \"string\",\n      \"description\": \"Hotel check-in date\"\n    },\n    \"hotelCheckoutDate\": {\n      \"type\": \"string\",\n      \"description\": \"Hotel check-out date\"\n    },\n    \"carRentalDays\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of car rental days\"\n    },\n    \"airlineServiceClassCode\": {\n      \"type\": \"string\",\n      \"\
+  description\": \"Airline cabin class code\"\n    },\n    \"airlineFeeTypeCode\": {\n      \"type\": \"string\",\n      \"description\": \"Airline fee type identifier\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-concur/refs/heads/main/json-schema/sap-concur-expense-travel-schema.json
 tags:
 - Business Travel
 - Expense Management

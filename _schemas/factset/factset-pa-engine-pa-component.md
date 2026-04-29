@@ -31,6 +31,9 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-pa-engine-pa-component-schema.json
 slug: factset-pa-engine-pa-component
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PAComponent\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Component identifier.\"\n    },\n    \"accounts\": {\n      \"type\": \"array\",\n      \"description\": \"List of accounts saved in the PA document.\"\n    },\n    \"benchmarks\": {\n      \"type\": \"array\",\n      \"description\": \"List of benchmarks saved in the PA document.\"\n    },\n    \"currencyisocode\": {\n      \"type\": \"string\"\n    },\n    \"snapshot\": {\n      \"type\": \"boolean\",\n      \"description\": \"Is the component type snapshot or subperiod.\"\n    },\n    \"path\": {\n      \"type\": \"string\",\n      \"description\": \"The path to the document\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Component name.\"\n    },\n    \"category\": {\n      \"type\": \"string\",\n      \"description\": \"Component\
+  \ category.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-pa-engine-pa-component-schema.json
 tags:
 - Financial
 - Financial Data

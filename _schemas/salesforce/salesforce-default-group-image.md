@@ -16,6 +16,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-default-group-image-schema.json
 slug: salesforce-default-group-image
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"largeUrl\": {\n      \"type\": \"string\",\n      \"example\": \"https://www.example.com\"\n    },\n    \"mediumUrl\": {\n      \"type\": \"string\",\n      \"example\": \"https://www.example.com\"\n    },\n    \"smallUrl\": {\n      \"type\": \"string\",\n      \"example\": \"https://www.example.com\"\n    }\n  },\n  \"required\": [\n    \"largeUrl\",\n    \"mediumUrl\",\n    \"smallUrl\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DefaultGroupImage\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-default-group-image-schema.json
 tags:
 - AI
 - Analytics

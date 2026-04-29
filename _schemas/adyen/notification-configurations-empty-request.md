@@ -7,6 +7,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/notification-configurations-empty-request-schema.json
 slug: notification-configurations-empty-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/notification-configurations-empty-request-schema.json\",\n  \"title\": \"EmptyRequest\",\n  \"description\": \"EmptyRequest schema from Adyen API\",\n  \"type\": \"object\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/notification-configurations-empty-request-schema.json
 tags:
 - Payments
 - Financial Services

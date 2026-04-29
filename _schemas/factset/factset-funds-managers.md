@@ -28,6 +28,9 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-funds-managers-schema.json
 slug: factset-funds-managers
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"managers\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"fsymId\": {\n      \"type\": \"string\",\n      \"description\": \"FactSet Security Identifier. Six alpha-numeric characters, excluding vowels, with a -S suffix (XXXXXX-S), resolved from the requestId of the Fund requested.\"\n    },\n    \"managerName\": {\n      \"type\": \"string\",\n      \"description\": \"Proper Name of the Fund Manager\"\n    },\n    \"managerTitle\": {\n      \"type\": \"string\",\n      \"description\": \"Proper Title of the Fund Manager\"\n    },\n    \"managerPhone\": {\n      \"type\": \"string\",\n      \"description\": \"Phone Number of the Fund Manager\"\n    },\n    \"managerInceptionDate\": {\n      \"type\": \"string\",\n      \"description\": \"Inception Date of the Fund Manager\"\n    },\n    \"managerJobId\": {\n      \"type\": \"integer\",\n      \"description\": \"Job Identifier for the Fund\
+  \ Manager\"\n    },\n    \"requestId\": {\n      \"type\": \"string\",\n      \"description\": \"The requested Id sent as input.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-funds-managers-schema.json
 tags:
 - Financial
 - Financial Data

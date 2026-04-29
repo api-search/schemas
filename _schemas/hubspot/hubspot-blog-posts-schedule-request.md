@@ -13,6 +13,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/hubspot-blog-posts-schedule-request-schema.json
 slug: hubspot-blog-posts-schedule-request
+source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Request to schedule a blog post for publication\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the blog post to schedule\",\n      \"example\": \"500123\"\n    },\n    \"publishDate\": {\n      \"type\": \"string\",\n      \"description\": \"ISO 8601 date and time to publish\",\n      \"format\": \"date-time\",\n      \"example\": \"2025-03-15T14:30:00Z\"\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"publishDate\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ScheduleRequest\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/hubspot-blog-posts-schedule-request-schema.json
 tags:
 - Analytics
 - Commerce

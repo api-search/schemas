@@ -13,6 +13,8 @@ provider_name: Amazon DynamoDB
 provider_slug: dynamodb
 schema_file: json-schema/dynamodb-batch-get-item-input-schema.json
 slug: dynamodb-batch-get-item-input
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"BatchGetItemInput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"RequestItems\": {\n      \"type\": \"object\",\n      \"description\": \"A map of one or more table names and, for each table, a map that describes one or more items to retrieve from that table\"\n    },\n    \"ReturnConsumedCapacity\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-batch-get-item-input-schema.json
 tags:
 - AWS
 - Cloud

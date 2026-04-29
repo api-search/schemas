@@ -43,6 +43,9 @@ provider_name: GitHub Copilot
 provider_slug: github-copilot
 schema_file: json-schema/github-copilot-team-schema.json
 slug: github-copilot-team
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Team\",\n  \"type\": \"object\",\n  \"description\": \"A GitHub team.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\",\n      \"description\": \"Unique identifier of the team.\"\n    },\n    \"node_id\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the team.\"\n    },\n    \"slug\": {\n      \"type\": \"string\",\n      \"description\": \"URL-friendly slug of the team name.\"\n    },\n    \"description\": {\n      \"type\": \"['string', 'null']\",\n      \"description\": \"Description of the team.\"\n    },\n    \"privacy\": {\n      \"type\": \"string\"\n    },\n    \"notification_setting\": {\n      \"type\": \"string\"\n    },\n    \"permission\": {\n      \"type\": \"string\",\n      \"description\": \"The default permission level for the team.\"\n    },\n    \"url\": {\n      \"type\": \"string\"\
+  \n    },\n    \"html_url\": {\n      \"type\": \"string\"\n    },\n    \"members_url\": {\n      \"type\": \"string\"\n    },\n    \"repositories_url\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/json-schema/github-copilot-team-schema.json
 tags:
 - Agents
 - AI

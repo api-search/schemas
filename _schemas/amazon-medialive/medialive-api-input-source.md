@@ -16,6 +16,9 @@ provider_name: Amazon MediaLive
 provider_slug: amazon-medialive
 schema_file: json-schema/medialive-api-input-source-schema.json
 slug: medialive-api-input-source
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-source-schema.json\",\n  \"title\": \"InputSource\",\n  \"description\": \"The settings for a PULL type input.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"PasswordParam\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"passwordParam\"\n          },\n          \"description\": \"The key used to extract the password from EC2 Parameter store.\"\n        }\n      ]\n    },\n    \"Url\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"url\"\n          },\n          \"description\": \"This represents the customer's source URL where stream is\\npulled from.\\\
+  n\"\n        }\n      ]\n    },\n    \"Username\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"username\"\n          },\n          \"description\": \"The username for the input source.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-source-schema.json
 tags:
 - AWS
 - Broadcasting

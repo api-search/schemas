@@ -13,6 +13,8 @@ provider_name: ChatGPT
 provider_slug: chatgpt
 schema_file: json-schema/chatgpt-chat-completions-chat-completion-named-tool-choice-schema.json
 slug: chatgpt-chat-completions-chat-completion-named-tool-choice
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ChatCompletionNamedToolChoice\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"The type of the tool.\"\n    },\n    \"function\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/json-schema/chatgpt-chat-completions-chat-completion-named-tool-choice-schema.json
 tags:
 - Agents
 - AI

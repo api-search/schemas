@@ -7,6 +7,8 @@ provider_name: Amazon Panorama
 provider_slug: amazon-panorama
 schema_file: json-schema/openapi-job-type-schema.json
 slug: openapi-job-type
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-job-type-schema.json\",\n  \"title\": \"JobType\",\n  \"description\": \"JobType schema from Amazon Panorama\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"OTA\",\n    \"REBOOT\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-job-type-schema.json
 tags:
 - AWS
 - Cameras

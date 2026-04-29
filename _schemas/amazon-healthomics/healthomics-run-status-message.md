@@ -7,6 +7,8 @@ provider_name: Amazon HealthOmics
 provider_slug: amazon-healthomics
 schema_file: json-schema/healthomics-run-status-message-schema.json
 slug: healthomics-run-status-message
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-run-status-message-schema.json\",\n  \"title\": \"RunStatusMessage\",\n  \"type\": \"string\",\n  \"pattern\": \"[\\\\p{L}||\\\\p{M}||\\\\p{Z}||\\\\p{S}||\\\\p{N}||\\\\p{P}]+\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-run-status-message-schema.json
 tags:
 - AWS
 - Bioinformatics

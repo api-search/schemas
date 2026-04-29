@@ -25,6 +25,9 @@ provider_name: Biogen
 provider_slug: biogen
 schema_file: json-schema/biogen-api-key-schema.json
 slug: biogen-api-key
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"ApiKey\",\n  \"type\": \"object\",\n  \"description\": \"A developer API key for accessing Biogen services.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Key ID.\",\n      \"example\": \"key-abc123\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Key display name.\",\n      \"example\": \"Production Key\"\n    },\n    \"key\": {\n      \"type\": \"string\",\n      \"description\": \"The API key value (shown once at creation).\",\n      \"example\": \"bde7f3...\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Key status.\",\n      \"enum\": [\n        \"active\",\n        \"inactive\",\n        \"revoked\"\n      ],\n      \"example\": \"active\"\n    },\n    \"created_at\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Key creation timestamp.\"\
+  ,\n      \"example\": \"2024-01-01T00:00:00Z\"\n    },\n    \"usage\": {\n      \"$ref\": \"#/components/schemas/ApiKeyUsage\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/json-schema/biogen-api-key-schema.json
 tags:
 - Biotechnology
 - Healthcare

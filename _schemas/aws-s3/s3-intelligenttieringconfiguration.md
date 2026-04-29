@@ -19,6 +19,8 @@ provider_name: Amazon S3 API
 provider_slug: aws-s3
 schema_file: json-schema/s3-intelligenttieringconfiguration-schema.json
 slug: s3-intelligenttieringconfiguration
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"IntelligentTieringConfiguration\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Id\": {},\n    \"Filter\": {},\n    \"Status\": {},\n    \"Tierings\": {}\n  },\n  \"required\": [\n    \"Id\",\n    \"Status\",\n    \"Tierings\"\n  ],\n  \"description\": \"<p>Specifies the S3 Intelligent-Tiering configuration for an Amazon S3 bucket.</p> <p>For information about the S3 Intelligent-Tiering storage class, see <a href=\\\"https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html#sc-dynamic-data-access\\\">Storage class for automatically optimizing frequently and infrequently accessed objects</a>.</p>\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-intelligenttieringconfiguration-schema.json
 tags:
 - AWS
 - Cloud Storage

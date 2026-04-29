@@ -31,6 +31,9 @@ provider_name: SAP Ariba
 provider_slug: sap-ariba
 schema_file: json-schema/sap-ariba-procurement-receipt-schema.json
 slug: sap-ariba-procurement-receipt
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Receipt\",\n  \"type\": \"object\",\n  \"description\": \"A goods receipt or service confirmation recorded against a purchase order\",\n  \"properties\": {\n    \"receiptId\": {\n      \"type\": \"string\",\n      \"description\": \"Unique receipt identifier\"\n    },\n    \"purchaseOrderId\": {\n      \"type\": \"string\",\n      \"description\": \"Reference to the purchase order\"\n    },\n    \"receiptDate\": {\n      \"type\": \"string\",\n      \"description\": \"Date goods were received or services confirmed\"\n    },\n    \"receiptType\": {\n      \"type\": \"string\",\n      \"description\": \"Type of receipt\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"lineItems\": {\n      \"type\": \"array\"\n    },\n    \"createdDate\": {\n      \"type\": \"string\"\n    },\n    \"createdBy\": {\n      \"type\": \"string\",\n      \"description\": \"User who created the\
+  \ receipt\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/json-schema/sap-ariba-procurement-receipt-schema.json
 tags:
 - B2B
 - Contract Management

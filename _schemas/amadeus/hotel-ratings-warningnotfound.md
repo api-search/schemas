@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/hotel-ratings-warningnotfound-schema.json
 slug: hotel-ratings-warningnotfound
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"WarningNotFound\",\n  \"type\": \"object\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/hotel-ratings-warningnotfound-schema.json
 tags:
 - Airlines
 - Aviation

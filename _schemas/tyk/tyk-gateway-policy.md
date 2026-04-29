@@ -70,6 +70,9 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-policy-schema.json
 slug: tyk-gateway-policy
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Policy\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"_id\": {\n      \"type\": \"string\"\n    },\n    \"access_rights\": {\n      \"type\": \"object\"\n    },\n    \"active\": {\n      \"type\": \"boolean\"\n    },\n    \"enable_http_signature_validation\": {\n      \"type\": \"boolean\"\n    },\n    \"graphql_access_rights\": {\n      \"type\": \"object\"\n    },\n    \"hmac_enabled\": {\n      \"type\": \"boolean\"\n    },\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"is_inactive\": {\n      \"type\": \"boolean\"\n    },\n    \"key_expires_in\": {\n      \"type\": \"integer\"\n    },\n    \"last_updated\": {\n      \"type\": \"string\"\n    },\n    \"max_query_depth\": {\n      \"type\": \"integer\"\n    },\n    \"meta_data\": {\n      \"type\": \"object\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"org_id\": {\n      \"type\": \"string\"\n  \
+  \  },\n    \"per\": {\n      \"type\": \"number\"\n    },\n    \"quota_max\": {\n      \"type\": \"integer\"\n    },\n    \"quota_renewal_rate\": {\n      \"type\": \"integer\"\n    },\n    \"rate\": {\n      \"type\": \"number\"\n    },\n    \"tags\": {\n      \"type\": \"array\"\n    },\n    \"throttle_interval\": {\n      \"type\": \"number\"\n    },\n    \"throttle_retry_limit\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-policy-schema.json
 tags:
 - API Gateway
 - API Management

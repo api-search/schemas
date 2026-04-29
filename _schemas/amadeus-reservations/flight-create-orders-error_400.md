@@ -10,6 +10,8 @@ provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 schema_file: json-schema/flight-create-orders-error_400-schema.json
 slug: flight-create-orders-error_400
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-create-orders-error_400-schema.json\",\n  \"title\": \"Error_400\",\n  \"description\": \"Error_400 schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"errors\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/Issue\"\n      }\n    }\n  },\n  \"required\": [\n    \"errors\"\n  ],\n  \"example\": {\n    \"errors\": [\n      {\n        \"status\": 400,\n        \"code\": 477,\n        \"title\": \"INVALID FORMAT\",\n        \"detail\": \"invalid query parameter format\",\n        \"source\": {\n          \"parameter\": \"airport\",\n          \"example\": \"CDG\"\n        }\n      }\n    ]\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-create-orders-error_400-schema.json
 tags:
 - Booking
 - Flights

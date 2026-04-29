@@ -19,6 +19,8 @@ provider_name: Azure Databricks
 provider_slug: azure-databricks
 schema_file: json-schema/azure-databricks-job-schema.json
 slug: azure-databricks-job
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Job\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"job_id\": {\n      \"type\": \"integer\",\n      \"description\": \"Canonical identifier of the job\"\n    },\n    \"creator_user_name\": {\n      \"type\": \"string\",\n      \"description\": \"Username of the job creator\"\n    },\n    \"run_as_user_name\": {\n      \"type\": \"string\",\n      \"description\": \"User the job runs as\"\n    },\n    \"created_time\": {\n      \"type\": \"integer\",\n      \"description\": \"Time the job was created (epoch milliseconds)\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/json-schema/azure-databricks-job-schema.json
 tags:
 - Analytics
 - Apache Spark

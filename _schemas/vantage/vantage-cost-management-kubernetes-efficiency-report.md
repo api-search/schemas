@@ -28,6 +28,9 @@ provider_name: Vantage
 provider_slug: vantage
 schema_file: json-schema/vantage-cost-management-kubernetes-efficiency-report-schema.json
 slug: vantage-cost-management-kubernetes-efficiency-report
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"KubernetesEfficiencyReport\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"token\": {\n      \"type\": \"string\",\n      \"description\": \"The unique token identifier for the report.\"\n    },\n    \"cluster_name\": {\n      \"type\": \"string\",\n      \"description\": \"The Kubernetes cluster name.\"\n    },\n    \"namespace\": {\n      \"type\": \"string\",\n      \"description\": \"The Kubernetes namespace.\"\n    },\n    \"idle_cost\": {\n      \"type\": \"string\",\n      \"description\": \"The idle cost for the cluster/namespace.\"\n    },\n    \"total_cost\": {\n      \"type\": \"string\",\n      \"description\": \"The total cost for the cluster/namespace.\"\n    },\n    \"efficiency\": {\n      \"type\": \"number\",\n      \"description\": \"The efficiency percentage.\"\n    },\n    \"created_at\": {\n      \"type\": \"string\",\n      \"description\": \"The date and time\
+  \ the report was generated.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/json-schema/vantage-cost-management-kubernetes-efficiency-report-schema.json
 tags:
 - Budgets
 - Cloud Pricing

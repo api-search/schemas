@@ -7,6 +7,8 @@ provider_name: Amazon Panorama
 provider_slug: amazon-panorama
 schema_file: json-schema/openapi-mark-latest-patch-schema.json
 slug: openapi-mark-latest-patch
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-mark-latest-patch-schema.json\",\n  \"title\": \"MarkLatestPatch\",\n  \"description\": \"MarkLatestPatch schema from Amazon Panorama\",\n  \"type\": \"boolean\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-mark-latest-patch-schema.json
 tags:
 - AWS
 - Cameras

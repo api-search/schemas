@@ -7,6 +7,8 @@ provider_name: Google Docs
 provider_slug: google-docs
 schema_file: json-schema/google-docs-v1-size-schema.json
 slug: google-docs-v1-size
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Size\",\n  \"type\": \"object\",\n  \"description\": \"A width and height.\",\n  \"properties\": {}\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/json-schema/google-docs-v1-size-schema.json
 tags:
 - Collaboration
 - Documents

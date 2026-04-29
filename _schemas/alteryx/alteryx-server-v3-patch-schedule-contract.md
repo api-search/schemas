@@ -34,6 +34,8 @@ provider_name: Alteryx
 provider_slug: alteryx
 schema_file: json-schema/alteryx-server-v3-patch-schedule-contract-schema.json
 slug: alteryx-server-v3-patch-schedule-contract
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PatchScheduleContract\",\n  \"type\": \"object\",\n  \"description\": \"Contract for partially updating a schedule\",\n  \"properties\": {\n    \"ownerId\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"comment\": {\n      \"type\": \"string\"\n    },\n    \"priority\": {\n      \"type\": \"string\"\n    },\n    \"workerTag\": {\n      \"type\": \"string\"\n    },\n    \"enabled\": {\n      \"type\": \"boolean\"\n    },\n    \"credentialId\": {\n      \"type\": \"string\"\n    },\n    \"timeZone\": {\n      \"type\": \"string\"\n    },\n    \"questions\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/json-schema/alteryx-server-v3-patch-schedule-contract-schema.json
 tags:
 - Analytics
 - Automation

@@ -10,6 +10,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-pa-engine-calculation-unit-status-meta-schema.json
 slug: factset-pa-engine-calculation-unit-status-meta
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CalculationUnitStatusMeta\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"info\": {\n      \"type\": \"string\",\n      \"description\": \"The Info URL of the calculation.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-pa-engine-calculation-unit-status-meta-schema.json
 tags:
 - Financial
 - Financial Data

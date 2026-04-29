@@ -43,6 +43,8 @@ provider_name: Amazon S3 API
 provider_slug: aws-s3
 schema_file: json-schema/s3-listobjectsv2output-schema.json
 slug: s3-listobjectsv2output
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ListObjectsV2Output\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"IsTruncated\": {},\n    \"Contents\": {},\n    \"Name\": {},\n    \"Prefix\": {},\n    \"Delimiter\": {},\n    \"MaxKeys\": {},\n    \"CommonPrefixes\": {},\n    \"EncodingType\": {},\n    \"KeyCount\": {},\n    \"ContinuationToken\": {},\n    \"NextContinuationToken\": {},\n    \"StartAfter\": {}\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-listobjectsv2output-schema.json
 tags:
 - AWS
 - Cloud Storage

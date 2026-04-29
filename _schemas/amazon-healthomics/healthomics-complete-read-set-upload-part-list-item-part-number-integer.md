@@ -7,6 +7,8 @@ provider_name: Amazon HealthOmics
 provider_slug: amazon-healthomics
 schema_file: json-schema/healthomics-complete-read-set-upload-part-list-item-part-number-integer-schema.json
 slug: healthomics-complete-read-set-upload-part-list-item-part-number-integer
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-complete-read-set-upload-part-list-item-part-number-integer-schema.json\",\n  \"title\": \"CompleteReadSetUploadPartListItemPartNumberInteger\",\n  \"type\": \"integer\",\n  \"minimum\": 1,\n  \"maximum\": 10000\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-complete-read-set-upload-part-list-item-part-number-integer-schema.json
 tags:
 - AWS
 - Bioinformatics

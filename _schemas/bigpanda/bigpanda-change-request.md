@@ -22,6 +22,9 @@ provider_name: BigPanda
 provider_slug: bigpanda
 schema_file: json-schema/bigpanda-change-request-schema.json
 slug: bigpanda-change-request
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"ChangeRequest\",\n  \"type\": \"object\",\n  \"description\": \"Payload for ingesting a change event.\",\n  \"properties\": {\n    \"summary\": {\n      \"type\": \"string\",\n      \"description\": \"Human-readable change summary.\",\n      \"example\": \"Deployed v2.1.0 to production-database-1\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Change status.\",\n      \"enum\": [\n        \"started\",\n        \"success\",\n        \"failure\"\n      ],\n      \"example\": \"started\"\n    },\n    \"identifier\": {\n      \"type\": \"string\",\n      \"description\": \"Unique change identifier.\",\n      \"example\": \"deploy-20240413-001\"\n    },\n    \"hosts\": {\n      \"type\": \"array\",\n      \"description\": \"Hosts affected by the change.\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"example\": [\n        \"production-database-1\"\
+  \n      ]\n    },\n    \"timestamp\": {\n      \"type\": \"integer\",\n      \"description\": \"Unix timestamp of the change.\",\n      \"example\": 1713000000\n    }\n  },\n  \"required\": [\n    \"summary\",\n    \"status\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/json-schema/bigpanda-change-request-schema.json
 tags:
 - Incidents
 - Monitoring

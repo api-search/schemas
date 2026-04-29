@@ -19,6 +19,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-describe-data-shares-for-consumer-message-schema.json
 slug: redshift-describe-data-shares-for-consumer-message
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ConsumerArn\": {},\n    \"Status\": {},\n    \"MaxRecords\": {},\n    \"Marker\": {}\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-describe-data-shares-for-consumer-message-schema.json\",\n  \"title\": \"DescribeDataSharesForConsumerMessage\",\n  \"description\": \"DescribeDataSharesForConsumerMessage schema from Amazon Redshift\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-describe-data-shares-for-consumer-message-schema.json
 tags:
 - Analytics
 - Big Data

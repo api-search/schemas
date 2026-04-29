@@ -16,6 +16,8 @@ provider_name: Amazon DynamoDB
 provider_slug: dynamodb
 schema_file: json-schema/dynamodb-execute-transaction-input-schema.json
 slug: dynamodb-execute-transaction-input
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ExecuteTransactionInput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"TransactStatements\": {\n      \"type\": \"array\",\n      \"description\": \"The list of PartiQL statements representing the transaction to run\"\n    },\n    \"ClientRequestToken\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for idempotency\"\n    },\n    \"ReturnConsumedCapacity\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-execute-transaction-input-schema.json
 tags:
 - AWS
 - Cloud

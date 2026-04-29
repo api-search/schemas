@@ -16,6 +16,9 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/transfers-counterparty-info-v3-schema.json
 slug: transfers-counterparty-info-v3
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/transfers-counterparty-info-v3-schema.json\",\n  \"title\": \"CounterpartyInfoV3\",\n  \"description\": \"CounterpartyInfoV3 schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"balanceAccountId\": {\n      \"description\": \"Unique identifier of the [balance account](https://docs.adyen.com/api-explorer/#/balanceplatform/latest/post/balanceAccounts__resParam_id).\",\n      \"type\": \"string\"\n    },\n    \"bankAccount\": {\n      \"description\": \"Contains information about the bank account.\",\n      \"$ref\": \"#/components/schemas/BankAccountV3\"\n    },\n    \"transferInstrumentId\": {\n      \"description\": \"Unique identifier of the [transfer instrument](https://docs.adyen.com/api-explorer/#/legalentity/latest/post/transferInstruments__resParam_id).\",\n      \"type\": \"string\"\
+  \n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/transfers-counterparty-info-v3-schema.json
 tags:
 - Payments
 - Financial Services

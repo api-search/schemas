@@ -10,6 +10,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-fundamentals-financial-statements-request-body-schema.json
 slug: factset-fundamentals-financial-statements-request-body
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"FinancialStatementsRequestBody\",\n  \"type\": \"object\",\n  \"description\": \"Request parameters for financial statement data.\",\n  \"properties\": {\n    \"category\": {\n      \"type\": \"string\",\n      \"description\": \"Financial statement type filter.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-fundamentals-financial-statements-request-body-schema.json
 tags:
 - Financial
 - Financial Data

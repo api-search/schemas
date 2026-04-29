@@ -13,6 +13,8 @@ provider_name: Apache Geode
 provider_slug: apache-geode
 schema_file: json-schema/geode-rest-query-info-schema.json
 slug: geode-rest-query-info
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/json-schema/geode-rest-query-info-schema.json\",\n  \"title\": \"QueryInfo\",\n  \"description\": \"Named OQL query metadata\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique query identifier\",\n      \"example\": \"getPendingOrders\"\n    },\n    \"oql\": {\n      \"type\": \"string\",\n      \"description\": \"OQL query string\",\n      \"example\": \"SELECT * FROM /orders WHERE status='PENDING'\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/json-schema/geode-rest-query-info-schema.json
 tags:
 - Apache
 - Caching

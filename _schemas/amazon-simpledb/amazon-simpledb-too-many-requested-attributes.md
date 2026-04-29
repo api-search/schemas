@@ -10,6 +10,8 @@ provider_name: Amazon SimpleDB
 provider_slug: amazon-simpledb
 schema_file: json-schema/amazon-simpledb-too-many-requested-attributes-schema.json
 slug: amazon-simpledb-too-many-requested-attributes
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/json-schema/amazon-simpledb-too-many-requested-attributes-schema.json\",\n  \"title\": \"TooManyRequestedAttributes\",\n  \"description\": \"Too many attributes requested.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"BoxUsage\": {\n      \"$ref\": \"#/components/schemas/Float\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/json-schema/amazon-simpledb-too-many-requested-attributes-schema.json
 tags:
 - AWS
 - Cloud Storage

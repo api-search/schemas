@@ -43,6 +43,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-irn-custom-symbols-create-custom-symbol-dto-schema.json
 slug: factset-irn-custom-symbols-create-custom-symbol-dto
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateCustomSymbolDto\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"typeId\": {\n      \"type\": \"string\"\n    },\n    \"subTypeId\": {\n      \"type\": \"string\"\n    },\n    \"googleMapsPlaceId\": {\n      \"type\": \"string\"\n    },\n    \"formattedAddress\": {\n      \"type\": \"string\"\n    },\n    \"city\": {\n      \"type\": \"string\"\n    },\n    \"stateProvince\": {\n      \"type\": \"string\"\n    },\n    \"postalCode\": {\n      \"type\": \"string\"\n    },\n    \"country\": {\n      \"type\": \"string\"\n    },\n    \"customFieldValues\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-irn-custom-symbols-create-custom-symbol-dto-schema.json
 tags:
 - Financial
 - Financial Data

@@ -13,6 +13,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/alert-point-of-time-schema.json
 slug: alert-point-of-time
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PointOfTime\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"point_of_time_type\": {\n      \"type\": \"string\",\n      \"description\": \"Type of the point of time. Possible values include: timestamp, offset, statement\"\n    },\n    \"reference\": {\n      \"type\": \"string\",\n      \"description\": \"Relation to the point of time.  Currently, the API supports `at` and `before`\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/alert-point-of-time-schema.json
 tags:
 - Data Lakes
 - Data Sharing

@@ -10,6 +10,8 @@ provider_name: Amazon Cognito
 provider_slug: aws-cognito
 schema_file: json-schema/cognito-idp-set-risk-configuration-response-schema.json
 slug: cognito-idp-set-risk-configuration-response
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"RiskConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RiskConfigurationType\"\n        },\n        {\n          \"description\": \"The risk configuration.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"RiskConfiguration\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-set-risk-configuration-response-schema.json\",\n  \"title\": \"SetRiskConfigurationResponse\",\n  \"description\": \"SetRiskConfigurationResponse schema from Amazon Cognito\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-set-risk-configuration-response-schema.json
 tags:
 - Authentication
 - Authorization

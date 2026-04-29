@@ -19,6 +19,8 @@ provider_name: Google Sheets
 provider_slug: google-sheets
 schema_file: json-schema/google-sheets-batch-update-spreadsheet-request-schema.json
 slug: google-sheets-batch-update-spreadsheet-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"BatchUpdateSpreadsheetRequest\",\n  \"type\": \"object\",\n  \"description\": \"The request for updating any aspect of a spreadsheet.\",\n  \"properties\": {\n    \"requests\": {\n      \"type\": \"array\",\n      \"description\": \"A list of updates to apply to the spreadsheet.\"\n    },\n    \"includeSpreadsheetInResponse\": {\n      \"type\": \"boolean\",\n      \"description\": \"Determines if the update response should include the spreadsheet resource.\"\n    },\n    \"responseRanges\": {\n      \"type\": \"array\",\n      \"description\": \"Limits the ranges included in the response spreadsheet.\"\n    },\n    \"responseIncludeGridData\": {\n      \"type\": \"boolean\",\n      \"description\": \"True if grid data should be returned.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/json-schema/google-sheets-batch-update-spreadsheet-request-schema.json
 tags:
 - Google Workspace
 - Productivity

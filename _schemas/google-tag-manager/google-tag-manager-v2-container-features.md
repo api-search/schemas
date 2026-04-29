@@ -49,6 +49,9 @@ provider_name: Google Tag Manager
 provider_slug: google-tag-manager
 schema_file: json-schema/google-tag-manager-v2-container-features-schema.json
 slug: google-tag-manager-v2-container-features
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ContainerFeatures\",\n  \"type\": \"object\",\n  \"description\": \"Read-only container feature set.\",\n  \"properties\": {\n    \"supportUserPermissions\": {\n      \"type\": \"boolean\"\n    },\n    \"supportEnvironments\": {\n      \"type\": \"boolean\"\n    },\n    \"supportWorkspaces\": {\n      \"type\": \"boolean\"\n    },\n    \"supportGtagConfigs\": {\n      \"type\": \"boolean\"\n    },\n    \"supportBuiltInVariables\": {\n      \"type\": \"boolean\"\n    },\n    \"supportClients\": {\n      \"type\": \"boolean\"\n    },\n    \"supportFolders\": {\n      \"type\": \"boolean\"\n    },\n    \"supportTags\": {\n      \"type\": \"boolean\"\n    },\n    \"supportTemplates\": {\n      \"type\": \"boolean\"\n    },\n    \"supportTriggers\": {\n      \"type\": \"boolean\"\n    },\n    \"supportVariables\": {\n      \"type\": \"boolean\"\n    },\n    \"supportVersions\": {\n      \"type\"\
+  : \"boolean\"\n    },\n    \"supportZones\": {\n      \"type\": \"boolean\"\n    },\n    \"supportTransformations\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/json-schema/google-tag-manager-v2-container-features-schema.json
 tags:
 - Analytics
 - Conversion Tracking

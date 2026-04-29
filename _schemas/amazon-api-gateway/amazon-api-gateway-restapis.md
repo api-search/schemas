@@ -13,6 +13,8 @@ provider_name: Amazon API Gateway
 provider_slug: amazon-api-gateway
 schema_file: json-schema/amazon-api-gateway-restapis-schema.json
 slug: amazon-api-gateway-restapis
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"RestApis\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"position\": {\n      \"type\": \"string\"\n    },\n    \"item\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/RestApi\"\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-restapis-schema.json
 tags:
 - AWS
 - Gateway

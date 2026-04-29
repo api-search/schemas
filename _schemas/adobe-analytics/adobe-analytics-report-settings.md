@@ -16,6 +16,8 @@ provider_name: Adobe Analytics
 provider_slug: adobe-analytics
 schema_file: json-schema/adobe-analytics-report-settings-schema.json
 slug: adobe-analytics-report-settings
+source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Settings that control report output behavior\",\n  \"properties\": {\n    \"limit\": {\n      \"type\": \"integer\",\n      \"description\": \"Maximum number of rows to return\",\n      \"example\": 10\n    },\n    \"page\": {\n      \"type\": \"integer\",\n      \"description\": \"Page number (zero-indexed)\",\n      \"example\": 10\n    },\n    \"nonesBehavior\": {\n      \"type\": \"string\",\n      \"description\": \"How to handle None values\",\n      \"example\": \"exclude-nones\",\n      \"enum\": [\n        \"exclude-nones\",\n        \"return-nones\"\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ReportSettings\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/json-schema/adobe-analytics-report-settings-schema.json
 tags:
 - Adobe
 - Analytics

@@ -16,6 +16,8 @@ provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 schema_file: json-schema/azure-key-vault-deleted-key-bundle-schema.json
 slug: azure-key-vault-deleted-key-bundle
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DeletedKeyBundle\",\n  \"type\": \"object\",\n  \"description\": \"A deleted key bundle.\",\n  \"properties\": {\n    \"recoveryId\": {\n      \"type\": \"string\",\n      \"description\": \"The URL of the recovery object.\"\n    },\n    \"scheduledPurgeDate\": {\n      \"type\": \"integer\",\n      \"description\": \"The time when the key is scheduled to be purged (Unix time).\"\n    },\n    \"deletedDate\": {\n      \"type\": \"integer\",\n      \"description\": \"The time when the key was deleted (Unix time).\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/json-schema/azure-key-vault-deleted-key-bundle-schema.json
 tags:
 - API Management
 - Cloud

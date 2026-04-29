@@ -13,6 +13,8 @@ provider_name: Amazon Glue
 provider_slug: amazon-glue
 schema_file: json-schema/glue-get-workflow-request-schema.json
 slug: glue-get-workflow-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-get-workflow-request-schema.json\",\n  \"title\": \"GetWorkflowRequest\",\n  \"description\": \"GetWorkflowRequest schema from Amazon Glue API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NameString\"\n        },\n        {\n          \"description\": \"The name of the workflow to retrieve.\"\n        }\n      ]\n    },\n    \"IncludeGraph\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NullableBoolean\"\n        },\n        {\n          \"description\": \"Specifies whether to include a graph when returning the workflow resource metadata.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-get-workflow-request-schema.json
 tags:
 - Analytics
 - AWS

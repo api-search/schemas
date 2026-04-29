@@ -13,6 +13,9 @@ provider_name: Amazon IAM Identity Center
 provider_slug: amazon-iam-identity-center
 schema_file: json-schema/sso-admin-list-permission-sets-response-schema.json
 slug: sso-admin-list-permission-sets-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/json-schema/sso-admin-list-permission-sets-response-schema.json\",\n  \"title\": \"ListPermissionSetsResponse\",\n  \"description\": \"ListPermissionSetsResponse schema from AWS IAM Identity Center\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"PermissionSets\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PermissionSetList\"\n        },\n        {\n          \"description\": \"Defines the level of access on an AWS account.\"\n        }\n      ]\n    },\n    \"NextToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Token\"\n        },\n        {\n          \"description\": \"The pagination token for the list API. Initially the value is null. Use the output of previous API calls to make subsequent calls.\"\n        }\n      ]\n  \
+  \  }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/json-schema/sso-admin-list-permission-sets-response-schema.json
 tags:
 - Access Control
 - Authentication

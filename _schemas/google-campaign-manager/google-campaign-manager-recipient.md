@@ -13,6 +13,8 @@ provider_name: Google Campaign Manager
 provider_slug: google-campaign-manager
 schema_file: json-schema/google-campaign-manager-recipient-schema.json
 slug: google-campaign-manager-recipient
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Recipient\",\n  \"type\": \"object\",\n  \"description\": \"An email recipient for report delivery.\",\n  \"properties\": {\n    \"email\": {\n      \"type\": \"string\",\n      \"description\": \"The email address of the recipient.\"\n    },\n    \"deliveryType\": {\n      \"type\": \"string\",\n      \"description\": \"The delivery type for this recipient.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/json-schema/google-campaign-manager-recipient-schema.json
 tags:
 - Advertising
 - Analytics

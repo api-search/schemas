@@ -52,6 +52,9 @@ provider_name: Amazon ECS
 provider_slug: amazon-ecs
 schema_file: json-schema/amazon-ecs-deployment-schema.json
 slug: amazon-ecs-deployment
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Deployment\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"taskDefinition\": {\n      \"type\": \"string\"\n    },\n    \"desiredCount\": {\n      \"type\": \"integer\"\n    },\n    \"pendingCount\": {\n      \"type\": \"integer\"\n    },\n    \"runningCount\": {\n      \"type\": \"integer\"\n    },\n    \"failedTasks\": {\n      \"type\": \"integer\"\n    },\n    \"createdAt\": {\n      \"type\": \"number\"\n    },\n    \"updatedAt\": {\n      \"type\": \"number\"\n    },\n    \"launchType\": {\n      \"type\": \"string\"\n    },\n    \"platformVersion\": {\n      \"type\": \"string\"\n    },\n    \"platformFamily\": {\n      \"type\": \"string\"\n    },\n    \"rolloutState\": {\n      \"type\": \"string\"\n    },\n    \"rolloutStateReason\": {\n      \"type\": \"string\"\n    },\n\
+  \    \"capacityProviderStrategy\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/json-schema/amazon-ecs-deployment-schema.json
 tags:
 - Amazon
 - Aws

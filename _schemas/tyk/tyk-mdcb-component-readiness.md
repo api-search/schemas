@@ -16,6 +16,8 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-mdcb-component-readiness-schema.json
 slug: tyk-mdcb-component-readiness
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ComponentReadiness\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"observation_ts\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-mdcb-component-readiness-schema.json
 tags:
 - API Gateway
 - API Management

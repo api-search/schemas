@@ -16,6 +16,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/payments-merchant-device-schema.json
 slug: payments-merchant-device
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/payments-merchant-device-schema.json\",\n  \"title\": \"MerchantDevice\",\n  \"description\": \"MerchantDevice schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"os\": {\n      \"description\": \"Operating system running on the merchant device.\",\n      \"type\": \"string\"\n    },\n    \"osVersion\": {\n      \"description\": \"Version of the operating system on the merchant device.\",\n      \"type\": \"string\"\n    },\n    \"reference\": {\n      \"description\": \"Merchant device reference.\",\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/payments-merchant-device-schema.json
 tags:
 - Payments
 - Financial Services

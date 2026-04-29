@@ -40,6 +40,9 @@ provider_name: Airbus OneAtlas
 provider_slug: airbus-oneatlas
 schema_file: json-schema/oneatlas-segment-schema.json
 slug: oneatlas-segment
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-segment-schema.json\",\n  \"title\": \"segment\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"footprint\": {\n      \"$ref\": \"#/components/schemas/footprint\"\n    },\n    \"instrumentMode\": {\n      \"type\": \"string\"\n    },\n    \"orderDeadline\": {\n      \"format\": \"datetime\",\n      \"type\": \"string\"\n    },\n    \"extendedAngle\": {\n      \"type\": \"boolean\"\n    },\n    \"acquisitionStartDate\": {\n      \"format\": \"datetime\",\n      \"type\": \"string\"\n    },\n    \"acquisitionEndDate\": {\n      \"format\": \"datetime\",\n      \"type\": \"string\"\n    },\n    \"incidenceAngle\": {\n      \"format\": \"float\",\n      \"type\": \"number\"\n    },\n    \"segmentKey\": {\n      \"type\": \"string\"\n    },\n\
+  \    \"acrossTrackIncidenceAngle\": {\n      \"format\": \"float\",\n      \"type\": \"number\"\n    },\n    \"maxIncidenceAngle\": {\n      \"format\": \"float\",\n      \"type\": \"number\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-segment-schema.json
 tags:
 - Imagery
 - Satellites

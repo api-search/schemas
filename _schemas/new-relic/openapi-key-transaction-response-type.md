@@ -34,6 +34,9 @@ provider_name: New Relic
 provider_slug: new-relic
 schema_file: json-schema/openapi-key-transaction-response-type-schema.json
 slug: openapi-key-transaction-response-type
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-schema/openapi-key-transaction-response-type-schema.json\",\n  \"title\": \"KeyTransactionResponseType\",\n  \"description\": \"KeyTransactionResponseType schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"application_summary\": {\n      \"$ref\": \"#/components/schemas/AppSummaryResponse\"\n    },\n    \"end_user_summary\": {\n      \"$ref\": \"#/components/schemas/EndUserSummaryResponse\"\n    },\n    \"health_status\": {\n      \"type\": \"string\",\n      \"example\": \"active\"\n    },\n    \"id\": {\n      \"type\": \"integer\",\n      \"example\": 100\n    },\n    \"last_reported_at\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"example\": \"2026-04-18T14:30:00Z\"\n    },\n    \"links\": {\n      \"$ref\": \"#/components/schemas/KeyTransactionLinksResponse\"\n    },\n\
+  \    \"name\": {\n      \"type\": \"string\",\n      \"example\": \"example-resource-01\"\n    },\n    \"reporting\": {\n      \"type\": \"boolean\",\n      \"example\": true\n    },\n    \"transaction_name\": {\n      \"type\": \"string\",\n      \"example\": \"example_string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-schema/openapi-key-transaction-response-type-schema.json
 tags:
 - Analysis
 - Analytics

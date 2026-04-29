@@ -16,6 +16,9 @@ provider_name: Amazon EC2 Image Builder
 provider_slug: amazon-ec2-image-builder
 schema_file: json-schema/ec2-image-builder-update-distribution-configuration-response-schema.json
 slug: ec2-image-builder-update-distribution-configuration-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/json-schema/ec2-image-builder-update-distribution-configuration-response-schema.json\",\n  \"title\": \"UpdateDistributionConfigurationResponse\",\n  \"description\": \"UpdateDistributionConfigurationResponse schema from EC2 Image Builder\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"requestId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NonEmptyString\"\n        },\n        {\n          \"description\": \"The request ID that uniquely identifies this request.\"\n        }\n      ]\n    },\n    \"clientToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ClientToken\"\n        },\n        {\n          \"description\": \"The idempotency token used to make this request idempotent.\"\n        }\n      ]\n    },\n    \"distributionConfigurationArn\"\
+  : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DistributionConfigurationArn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the distribution configuration that was updated by this request.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/json-schema/ec2-image-builder-update-distribution-configuration-response-schema.json
 tags:
 - Amazon Web Services
 - Automation

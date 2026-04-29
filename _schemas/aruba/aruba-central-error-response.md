@@ -16,6 +16,8 @@ provider_name: Aruba
 provider_slug: aruba
 schema_file: json-schema/aruba-central-error-response-schema.json
 slug: aruba-central-error-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ErrorResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"Human-readable error message.\"\n    },\n    \"error_code\": {\n      \"type\": \"string\",\n      \"description\": \"Machine-readable error code.\"\n    },\n    \"service_name\": {\n      \"type\": \"string\",\n      \"description\": \"The API service that generated the error.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/json-schema/aruba-central-error-response-schema.json
 tags:
 - Cloud
 - Infrastructure

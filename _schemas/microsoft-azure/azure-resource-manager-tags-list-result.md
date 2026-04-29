@@ -13,6 +13,8 @@ provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 schema_file: json-schema/azure-resource-manager-tags-list-result-schema.json
 slug: azure-resource-manager-tags-list-result
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TagsListResult\",\n  \"type\": \"object\",\n  \"description\": \"List of subscription tags.\",\n  \"properties\": {\n    \"value\": {\n      \"type\": \"array\",\n      \"description\": \"An array of tags.\"\n    },\n    \"nextLink\": {\n      \"type\": \"string\",\n      \"description\": \"The URL to get the next set of results.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/json-schema/azure-resource-manager-tags-list-result-schema.json
 tags:
 - API Management
 - Cloud

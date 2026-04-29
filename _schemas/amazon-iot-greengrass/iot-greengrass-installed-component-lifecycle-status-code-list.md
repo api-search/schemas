@@ -7,6 +7,8 @@ provider_name: Amazon IoT Greengrass
 provider_slug: amazon-iot-greengrass
 schema_file: json-schema/iot-greengrass-installed-component-lifecycle-status-code-list-schema.json
 slug: iot-greengrass-installed-component-lifecycle-status-code-list
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-installed-component-lifecycle-status-code-list-schema.json\",\n  \"title\": \"InstalledComponentLifecycleStatusCodeList\",\n  \"description\": \"InstalledComponentLifecycleStatusCodeList schema\",\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"string\",\n    \"minLength\": 1,\n    \"maxLength\": 255\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-installed-component-lifecycle-status-code-list-schema.json
 tags:
 - AWS
 - Edge Computing

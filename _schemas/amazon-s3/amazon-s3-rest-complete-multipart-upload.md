@@ -10,6 +10,8 @@ provider_name: Amazon S3
 provider_slug: amazon-s3
 schema_file: json-schema/amazon-s3-rest-complete-multipart-upload-schema.json
 slug: amazon-s3-rest-complete-multipart-upload
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CompleteMultipartUpload\",\n  \"type\": \"object\",\n  \"description\": \"The container for the completed multipart upload request.\",\n  \"properties\": {\n    \"Part\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/json-schema/amazon-s3-rest-complete-multipart-upload-schema.json
 tags:
 - Archive
 - AWS

@@ -10,6 +10,8 @@ provider_name: Amazon Cognito
 provider_slug: amazon-cognito
 schema_file: json-schema/identity-pools-list-tags-for-resource-response-schema.json
 slug: identity-pools-list-tags-for-resource-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/json-schema/identity-pools-list-tags-for-resource-response-schema.json\",\n  \"title\": \"ListTagsForResourceResponse\",\n  \"description\": \"ListTagsForResourceResponse schema from Amazon Cognito API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IdentityPoolTagsType\"\n        },\n        {\n          \"description\": \"The tags that are assigned to the identity pool.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/json-schema/identity-pools-list-tags-for-resource-response-schema.json
 tags:
 - Authentication
 - AWS

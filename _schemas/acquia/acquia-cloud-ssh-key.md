@@ -25,6 +25,9 @@ provider_name: Acquia
 provider_slug: acquia
 schema_file: json-schema/acquia-cloud-ssh-key-schema.json
 slug: acquia-cloud-ssh-key
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/json-schema/acquia-cloud-ssh-key-schema.json\",\n  \"title\": \"Ssh Key\",\n  \"description\": \"Details an SSH key.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"uuid\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier of the SSH key.\",\n      \"format\": \"uuid\"\n    },\n    \"label\": {\n      \"type\": \"string\",\n      \"description\": \"The human-readable key label.\"\n    },\n    \"public_key\": {\n      \"type\": \"string\",\n      \"description\": \"The public key.\",\n      \"minLength\": 64\n    },\n    \"fingerprint\": {\n      \"type\": \"string\",\n      \"description\": \"The public key fingerprint.\"\n    },\n    \"created_at\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The key creation date.\"\n    },\n    \"_links\"\
+  : {\n      \"$ref\": \"#/components/schemas/Acquia_Cloud_API_Documentation_links\"\n    }\n  },\n  \"required\": [\n    \"uuid\",\n    \"label\",\n    \"public_key\",\n    \"fingerprint\",\n    \"created_at\",\n    \"_links\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/json-schema/acquia-cloud-ssh-key-schema.json
 tags:
 - Content
 - Experience

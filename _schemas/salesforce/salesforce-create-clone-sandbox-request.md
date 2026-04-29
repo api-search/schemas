@@ -34,6 +34,9 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-create-clone-sandbox-request-schema.json
 slug: salesforce-create-clone-sandbox-request
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"SandboxName\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"LicenseType\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"TemplateId\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"500123\"\n    },\n    \"HistoryDays\": {\n      \"type\": \"integer\",\n      \"example\": 10\n    },\n    \"CopyChatter\": {\n      \"type\": \"boolean\",\n      \"example\": true\n    },\n    \"AutoActivate\": {\n      \"type\": \"boolean\",\n      \"example\": true\n    },\n    \"ApexClassId\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"500123\"\n    },\n    \"Description\": {\n      \"type\": \"string\",\n      \"example\": \"A sample description.\"\n    },\n    \"SourceId\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"500123\"\n    }\n  },\n  \"required\": [\n    \"SandboxName\",\n    \"LicenseType\"\
+  ,\n    \"TemplateId\",\n    \"HistoryDays\",\n    \"CopyChatter\",\n    \"AutoActivate\",\n    \"ApexClassId\",\n    \"Description\",\n    \"SourceId\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateCloneSandboxRequest\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-create-clone-sandbox-request-schema.json
 tags:
 - AI
 - Analytics

@@ -22,6 +22,9 @@ provider_name: Informatica
 provider_slug: informatica
 schema_file: json-schema/informatica-platform-rest-job-stop-request-schema.json
 slug: informatica-platform-rest-job-stop-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"JobStopRequest\",\n  \"type\": \"object\",\n  \"description\": \"Request body for stopping a running job.\",\n  \"properties\": {\n    \"@type\": {\n      \"type\": \"string\",\n      \"description\": \"The resource type identifier. Must be set to \\\"job\\\".\"\n    },\n    \"taskId\": {\n      \"type\": \"string\",\n      \"description\": \"The ID of the task to stop. Either taskId or taskName must be provided.\"\n    },\n    \"taskName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the task to stop. Either taskId or taskName must be provided.\"\n    },\n    \"taskType\": {\n      \"type\": \"string\",\n      \"description\": \"The type of the task to stop.\"\n    },\n    \"cleanStop\": {\n      \"type\": \"boolean\",\n      \"description\": \"When true, allows the job to finish processing the current row before stopping. When false, stops the job immediately.\"\n\
+  \    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/json-schema/informatica-platform-rest-job-stop-request-schema.json
 tags:
 - Address Verification
 - B2B Gateway

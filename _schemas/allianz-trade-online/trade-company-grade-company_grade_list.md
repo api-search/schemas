@@ -10,6 +10,8 @@ provider_name: Allianz Trade
 provider_slug: allianz-trade-online
 schema_file: json-schema/trade-company-grade-company_grade_list-schema.json
 slug: trade-company-grade-company_grade_list
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api.allianz-trade.com/schemas/trade-company-grade-company_grade_list-schema.json\",\n  \"title\": \"CompanyGradeList\",\n  \"type\": \"object\",\n  \"description\": \"Paginated list of company grades\",\n  \"properties\": {\n    \"data\": {\n      \"type\": \"array\",\n      \"description\": \"List of company grade records\",\n      \"items\": {\n        \"$ref\": \"#/$defs/CompanyGrade\"\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/json-schema/trade-company-grade-company_grade_list-schema.json
 tags:
 - Credit Insurance
 - Insurance

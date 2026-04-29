@@ -10,6 +10,8 @@ provider_name: ServiceNow
 provider_slug: servicenow
 schema_file: json-schema/contact-error-schema.json
 slug: contact-error
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"error\": {\n      \"type\": \"object\",\n      \"example\": \"example_value\",\n      \"properties\": {\n        \"message\": {\n          \"type\": \"string\",\n          \"description\": \"Error message\"\n        },\n        \"detail\": {\n          \"type\": \"string\",\n          \"description\": \"Detailed error information\"\n        }\n      }\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Error\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-schema/contact-error-schema.json
 tags:
 - Automation
 - Cloud Services

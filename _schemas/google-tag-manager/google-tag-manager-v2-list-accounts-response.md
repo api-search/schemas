@@ -13,6 +13,8 @@ provider_name: Google Tag Manager
 provider_slug: google-tag-manager
 schema_file: json-schema/google-tag-manager-v2-list-accounts-response-schema.json
 slug: google-tag-manager-v2-list-accounts-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ListAccountsResponse\",\n  \"type\": \"object\",\n  \"description\": \"List Accounts Response.\",\n  \"properties\": {\n    \"account\": {\n      \"type\": \"array\",\n      \"description\": \"List of GTM Accounts that a user has access to.\"\n    },\n    \"nextPageToken\": {\n      \"type\": \"string\",\n      \"description\": \"Continuation token for fetching the next page of results.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/json-schema/google-tag-manager-v2-list-accounts-response-schema.json
 tags:
 - Analytics
 - Conversion Tracking

@@ -13,6 +13,8 @@ provider_name: Ambassador
 provider_slug: ambassador
 schema_file: json-schema/ambassador-mapping-status-schema.json
 slug: ambassador-mapping-status
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"MappingStatus\",\n  \"type\": \"object\",\n  \"description\": \"Status information for a Mapping resource\",\n  \"properties\": {\n    \"state\": {\n      \"type\": \"string\",\n      \"description\": \"Current state of the Mapping\"\n    },\n    \"reason\": {\n      \"type\": \"string\",\n      \"description\": \"Human-readable reason for the current state\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/json-schema/ambassador-mapping-status-schema.json
 tags:
 - API Development
 - Gateways

@@ -46,6 +46,9 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-version-info-schema.json
 slug: tyk-gateway-version-info
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"VersionInfo\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"expires\": {\n      \"type\": \"string\"\n    },\n    \"global_headers\": {\n      \"type\": \"object\"\n    },\n    \"global_headers_disabled\": {\n      \"type\": \"boolean\"\n    },\n    \"global_headers_remove\": {\n      \"type\": \"array\"\n    },\n    \"global_response_headers\": {\n      \"type\": \"object\"\n    },\n    \"global_response_headers_disabled\": {\n      \"type\": \"boolean\"\n    },\n    \"global_response_headers_remove\": {\n      \"type\": \"array\"\n    },\n    \"global_size_limit\": {\n      \"type\": \"integer\"\n    },\n    \"ignore_endpoint_case\": {\n      \"type\": \"boolean\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"override_target\": {\n      \"type\": \"string\"\n    },\n    \"paths\": {\n      \"type\": \"object\"\n    },\n    \"use_extended_paths\": {\n      \"type\"\
+  : \"boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-version-info-schema.json
 tags:
 - API Gateway
 - API Management

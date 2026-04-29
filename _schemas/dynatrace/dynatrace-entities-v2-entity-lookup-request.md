@@ -13,6 +13,8 @@ provider_name: Dynatrace
 provider_slug: dynatrace
 schema_file: json-schema/dynatrace-entities-v2-entity-lookup-request-schema.json
 slug: dynatrace-entities-v2-entity-lookup-request
+source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Request body for looking up an entity by name and type.\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The display name of the entity to look up.\",\n      \"example\": \"Production Service\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"The entity type to search within, e.g., SERVICE, HOST.\",\n      \"example\": \"STANDARD\"\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"type\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"EntityLookupRequest\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-schema/dynatrace-entities-v2-entity-lookup-request-schema.json
 tags:
 - AI Operations
 - Analytics

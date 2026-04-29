@@ -16,6 +16,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/management-key-schema.json
 slug: management-key
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/management-key-schema.json\",\n  \"title\": \"Key\",\n  \"description\": \"Key schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"identifier\": {\n      \"description\": \"The unique identifier of the shared key.\",\n      \"type\": \"string\"\n    },\n    \"passphrase\": {\n      \"description\": \"The secure passphrase to protect the shared key.\",\n      \"type\": \"string\"\n    },\n    \"version\": {\n      \"description\": \"The version number of the shared key.\",\n      \"format\": \"int32\",\n      \"type\": \"integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/management-key-schema.json
 tags:
 - Payments
 - Financial Services

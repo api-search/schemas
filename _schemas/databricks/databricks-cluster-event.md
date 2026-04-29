@@ -19,6 +19,8 @@ provider_name: Databricks
 provider_slug: databricks
 schema_file: json-schema/databricks-cluster-event-schema.json
 slug: databricks-cluster-event
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ClusterEvent\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"cluster_id\": {\n      \"type\": \"string\"\n    },\n    \"timestamp\": {\n      \"type\": \"integer\"\n    },\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"details\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/json-schema/databricks-cluster-event-schema.json
 tags:
 - AI
 - Analytics

@@ -13,6 +13,8 @@ provider_name: ZoomInfo
 provider_slug: zoominfo
 schema_file: json-schema/zoominfo-company-master-data-enrich-request-schema.json
 slug: zoominfo-company-master-data-enrich-request
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"matchCompanyInput\": {\n      \"type\": \"array\",\n      \"description\": \"\",\n      \"example\": [],\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"zi_c_url\": {\n            \"type\": \"string\",\n            \"example\": \"https://www.example.com/resource\"\n          }\n        },\n        \"required\": [\n          \"zi_c_url\"\n        ]\n      }\n    },\n    \"outputFields\": {\n      \"type\": \"array\",\n      \"description\": \"\",\n      \"example\": [],\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"matchCompanyInput\",\n    \"outputFields\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CompanyMasterDataEnrichRequest\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/json-schema/zoominfo-company-master-data-enrich-request-schema.json
 tags:
 - B2B
 - B2B Data

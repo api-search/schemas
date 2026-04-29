@@ -13,6 +13,8 @@ provider_name: Cloudflare
 provider_slug: cloudflare
 schema_file: json-schema/cloudflare-queues-consumer-input-schema.json
 slug: cloudflare-queues-consumer-input
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ConsumerInput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"script_name\": {\n      \"type\": \"string\",\n      \"description\": \"The Worker script name that will consume messages.\"\n    },\n    \"settings\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-queues-consumer-input-schema.json
 tags:
 - AI Gateway
 - API Gateway

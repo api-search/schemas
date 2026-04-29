@@ -7,6 +7,8 @@ provider_name: Amazon Managed Service for Apache Flink
 provider_slug: amazon-managed-apache-flink
 schema_file: json-schema/amazon-managed-apache-flink-snapshot-summaries-schema.json
 slug: amazon-managed-apache-flink-snapshot-summaries
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/json-schema/amazon-managed-apache-flink-snapshot-summaries-schema.json\",\n  \"title\": \"SnapshotSummaries\",\n  \"description\": \"SnapshotSummaries schema from Amazon Managed Service for Apache Flink API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/SnapshotDetails\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/json-schema/amazon-managed-apache-flink-snapshot-summaries-schema.json
 tags:
 - Apache Flink
 - AWS

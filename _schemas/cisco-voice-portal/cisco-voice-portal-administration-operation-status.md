@@ -25,6 +25,8 @@ provider_name: Cisco Voice Portal
 provider_slug: cisco-voice-portal
 schema_file: json-schema/cisco-voice-portal-administration-operation-status-schema.json
 slug: cisco-voice-portal-administration-operation-status
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"OperationStatus\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"operationId\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    },\n    \"startedAt\": {\n      \"type\": \"string\"\n    },\n    \"completedAt\": {\n      \"type\": \"string\"\n    },\n    \"progress\": {\n      \"type\": \"number\",\n      \"description\": \"Progress percentage (0-100)\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-administration-operation-status-schema.json
 tags:
 - Contact Center
 - IVR

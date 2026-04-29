@@ -25,6 +25,9 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/snowflake-sql-rest-query-failure-status-schema.json
 slug: snowflake-sql-rest-query-failure-status
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"QueryFailureStatus\",\n  \"type\": \"object\",\n  \"description\": \"Status returned when a query execution fails.\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"string\",\n      \"description\": \"Error code for the query failure.\"\n    },\n    \"sqlState\": {\n      \"type\": \"string\",\n      \"description\": \"SQL state code indicating the error category.\"\n    },\n    \"message\": {\n      \"type\": \"string\",\n      \"description\": \"Error message describing the failure.\"\n    },\n    \"statementHandle\": {\n      \"type\": \"string\",\n      \"description\": \"Handle that uniquely identifies the failed statement.\"\n    },\n    \"createdOn\": {\n      \"type\": \"integer\",\n      \"description\": \"Timestamp that specifies when the statement execution started. The timestamp is expressed in milliseconds since the epoch.\"\n    },\n    \"statementStatusUrl\": {\n   \
+  \   \"type\": \"string\",\n      \"description\": \"URL for checking the status of the failed statement.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/snowflake-sql-rest-query-failure-status-schema.json
 tags:
 - Data Lakes
 - Data Sharing

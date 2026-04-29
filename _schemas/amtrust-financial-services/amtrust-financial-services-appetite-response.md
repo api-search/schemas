@@ -19,6 +19,9 @@ provider_name: AmTrust Financial Services
 provider_slug: amtrust-financial-services
 schema_file: json-schema/amtrust-financial-services-appetite-response-schema.json
 slug: amtrust-financial-services-appetite-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/json-schema/amtrust-financial-services-appetite-response-schema.json\",\n  \"title\": \"AppetiteResponse\",\n  \"description\": \"Coverage appetite check result\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"eligible\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether AmTrust has appetite for this risk\",\n      \"example\": true\n    },\n    \"products\": {\n      \"type\": \"array\",\n      \"description\": \"Available products for this risk\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"example\": [\n        \"workers_compensation\"\n      ]\n    },\n    \"bind_online\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the policy can be bound online\",\n      \"example\": true\n    },\n    \"reason\": {\n      \"type\": \"string\",\n\
+  \      \"description\": \"Reason if not eligible\",\n      \"example\": \"Eligible for online quoting and binding\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/json-schema/amtrust-financial-services-appetite-response-schema.json
 tags:
 - Commercial Insurance
 - Insurance

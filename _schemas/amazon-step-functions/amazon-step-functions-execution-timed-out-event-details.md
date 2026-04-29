@@ -13,6 +13,8 @@ provider_name: Amazon Step Functions
 provider_slug: amazon-step-functions
 schema_file: json-schema/amazon-step-functions-execution-timed-out-event-details-schema.json
 slug: amazon-step-functions-execution-timed-out-event-details
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-execution-timed-out-event-details-schema.json\",\n  \"title\": \"ExecutionTimedOutEventDetails\",\n  \"description\": \"Contains details about the execution timeout that occurred during the execution.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"error\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SensitiveError\"\n        },\n        {\n          \"description\": \"The error code of the failure.\"\n        }\n      ]\n    },\n    \"cause\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SensitiveCause\"\n        },\n        {\n          \"description\": \"A more detailed explanation of the cause of the timeout.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-execution-timed-out-event-details-schema.json
 tags:
 - AWS
 - Orchestration

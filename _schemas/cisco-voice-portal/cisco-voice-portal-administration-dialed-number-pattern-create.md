@@ -22,6 +22,8 @@ provider_name: Cisco Voice Portal
 provider_slug: cisco-voice-portal
 schema_file: json-schema/cisco-voice-portal-administration-dialed-number-pattern-create-schema.json
 slug: cisco-voice-portal-administration-dialed-number-pattern-create
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DialedNumberPatternCreate\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"pattern\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"callType\": {\n      \"type\": \"string\"\n    },\n    \"applicationName\": {\n      \"type\": \"string\"\n    },\n    \"enabled\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-administration-dialed-number-pattern-create-schema.json
 tags:
 - Contact Center
 - IVR

@@ -28,6 +28,9 @@ provider_name: Basecamp
 provider_slug: basecamp
 schema_file: json-schema/todocreaterequest-schema.json
 slug: todocreaterequest
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/basecamp/json-schema/todocreaterequest-schema.json\",\n  \"title\": \"TodoCreateRequest\",\n  \"type\": \"object\",\n  \"required\": [\n    \"content\"\n  ],\n  \"properties\": {\n    \"content\": {\n      \"type\": \"string\",\n      \"description\": \"To-do text description\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"Additional details in HTML format\"\n    },\n    \"assignee_ids\": {\n      \"type\": \"array\",\n      \"description\": \"Person IDs to assign to this to-do\",\n      \"items\": {\n        \"type\": \"integer\"\n      }\n    },\n    \"completion_subscriber_ids\": {\n      \"type\": \"array\",\n      \"description\": \"Person IDs to notify when this to-do is completed\",\n      \"items\": {\n        \"type\": \"integer\"\n      }\n    },\n    \"notify\": {\n      \"type\": \"boolean\",\n      \"description\"\
+  : \"Whether to immediately notify assignees\"\n    },\n    \"due_on\": {\n      \"type\": \"string\",\n      \"format\": \"date\",\n      \"description\": \"Due date in ISO 8601 format\"\n    },\n    \"starts_on\": {\n      \"type\": \"string\",\n      \"format\": \"date\",\n      \"description\": \"Start date in ISO 8601 format\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/json-schema/todocreaterequest-schema.json
 tags:
 - Collaboration
 - Project Management

@@ -13,6 +13,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/checkout-response-additional-data-domestic-error-schema.json
 slug: checkout-response-additional-data-domestic-error
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-response-additional-data-domestic-error-schema.json\",\n  \"title\": \"ResponseAdditionalDataDomesticError\",\n  \"description\": \"ResponseAdditionalDataDomesticError schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"domesticRefusalReasonRaw\": {\n      \"description\": \"The reason the transaction was declined, given by the local issuer. \\nCurrently available for merchants in Japan.\",\n      \"type\": \"string\"\n    },\n    \"domesticShopperAdvice\": {\n      \"description\": \"The action the shopper should take, in a local language. \\nCurrently available in Japanese, for merchants in Japan.\",\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-response-additional-data-domestic-error-schema.json
 tags:
 - Payments
 - Financial Services

@@ -34,6 +34,9 @@ provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 schema_file: json-schema/azure-container-registry-manifest-attributes-base-schema.json
 slug: azure-container-registry-manifest-attributes-base
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ManifestAttributesBase\",\n  \"type\": \"object\",\n  \"description\": \"Manifest attribute details.\",\n  \"properties\": {\n    \"digest\": {\n      \"type\": \"string\",\n      \"description\": \"Manifest digest.\"\n    },\n    \"imageSize\": {\n      \"type\": \"integer\",\n      \"description\": \"Image size.\"\n    },\n    \"createdTime\": {\n      \"type\": \"string\"\n    },\n    \"lastUpdateTime\": {\n      \"type\": \"string\"\n    },\n    \"architecture\": {\n      \"type\": \"string\",\n      \"description\": \"CPU architecture.\"\n    },\n    \"os\": {\n      \"type\": \"string\",\n      \"description\": \"Operating system.\"\n    },\n    \"mediaType\": {\n      \"type\": \"string\",\n      \"description\": \"Media type.\"\n    },\n    \"configMediaType\": {\n      \"type\": \"string\",\n      \"description\": \"Config media type.\"\n    },\n    \"tags\": {\n      \"type\": \"array\"\
+  ,\n      \"description\": \"List of tags.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/json-schema/azure-container-registry-manifest-attributes-base-schema.json
 tags:
 - API Management
 - Cloud

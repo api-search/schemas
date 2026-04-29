@@ -13,6 +13,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-real-time-news-post-news-article-list-by-chain-request-schema.json
 slug: factset-real-time-news-post-news-article-list-by-chain-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PostNewsArticleListByChainRequest\",\n  \"type\": \"object\",\n  \"description\": \"Request Body\",\n  \"properties\": {\n    \"data\": {\n      \"type\": \"object\",\n      \"description\": \"The data member contains the request's primary data.\"\n    },\n    \"meta\": {\n      \"type\": \"object\",\n      \"description\": \"The meta member contains the meta information of the request.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-real-time-news-post-news-article-list-by-chain-request-schema.json
 tags:
 - Financial
 - Financial Data

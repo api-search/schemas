@@ -13,6 +13,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/checkout-mobile-pay-details-schema.json
 slug: checkout-mobile-pay-details
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-mobile-pay-details-schema.json\",\n  \"title\": \"MobilePayDetails\",\n  \"description\": \"MobilePayDetails schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"checkoutAttemptId\": {\n      \"x-addedInVersion\": \"68\",\n      \"description\": \"The checkout attempt identifier.\",\n      \"type\": \"string\"\n    },\n    \"type\": {\n      \"default\": \"mobilepay\",\n      \"description\": \"**mobilepay**\",\n      \"enum\": [\n        \"mobilepay\"\n      ],\n      \"type\": \"string\"\n    }\n  },\n  \"additionalProperties\": false\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-mobile-pay-details-schema.json
 tags:
 - Payments
 - Financial Services

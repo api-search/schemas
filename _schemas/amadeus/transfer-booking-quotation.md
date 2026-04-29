@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/transfer-booking-quotation-schema.json
 slug: transfer-booking-quotation
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Quotation\",\n  \"description\": \"quotation representing a price valuation and its components. The monetaryAmount at the root are the sum of base and all the taxes/fees/discounts\",\n  \"type\": \"object\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/transfer-booking-quotation-schema.json
 tags:
 - Airlines
 - Aviation

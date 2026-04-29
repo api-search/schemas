@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/travel-recommendations-recommendedlocation-schema.json
 slug: travel-recommendations-recommendedlocation
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"RecommendedLocation\",\n  \"description\": \"Similar Location\",\n  \"type\": \"object\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/travel-recommendations-recommendedlocation-schema.json
 tags:
 - Airlines
 - Aviation

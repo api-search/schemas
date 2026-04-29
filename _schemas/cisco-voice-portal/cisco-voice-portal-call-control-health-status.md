@@ -37,6 +37,8 @@ provider_name: Cisco Voice Portal
 provider_slug: cisco-voice-portal
 schema_file: json-schema/cisco-voice-portal-call-control-health-status-schema.json
 slug: cisco-voice-portal-call-control-health-status
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"HealthStatus\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"serverName\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"uptime\": {\n      \"type\": \"string\",\n      \"description\": \"Server uptime duration\"\n    },\n    \"version\": {\n      \"type\": \"string\"\n    },\n    \"activeCalls\": {\n      \"type\": \"integer\"\n    },\n    \"maxCalls\": {\n      \"type\": \"integer\",\n      \"description\": \"Maximum concurrent call capacity\"\n    },\n    \"sipStackStatus\": {\n      \"type\": \"string\"\n    },\n    \"cpuUsage\": {\n      \"type\": \"number\"\n    },\n    \"memoryUsage\": {\n      \"type\": \"number\"\n    },\n    \"timestamp\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-call-control-health-status-schema.json
 tags:
 - Contact Center
 - IVR

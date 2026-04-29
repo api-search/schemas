@@ -16,6 +16,9 @@ provider_name: Amazon Proton
 provider_slug: amazon-proton
 schema_file: json-schema/amazon-proton-repository-branch-input-schema.json
 slug: amazon-proton-repository-branch-input
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-branch-input-schema.json\",\n  \"title\": \"RepositoryBranchInput\",\n  \"description\": \"Detail input data for a linked repository branch.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"branch\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GitBranchName\"\n        },\n        {\n          \"description\": \"The repository branch.\"\n        }\n      ]\n    },\n    \"name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RepositoryName\"\n        },\n        {\n          \"description\": \"The repository name.\"\n        }\n      ]\n    },\n    \"provider\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RepositoryProvider\"\n        },\n        {\n          \"description\": \"\
+  The repository provider.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"branch\",\n    \"name\",\n    \"provider\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-branch-input-schema.json
 tags:
 - AWS
 - DevOps

@@ -16,6 +16,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-procure-to-pay-scim-location-resource-reference-schema.json
 slug: factset-procure-to-pay-scim-location-resource-reference
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"LocationResourceReference\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"value\": {\n      \"type\": \"string\",\n      \"description\": \"Identifier of the Location.\"\n    },\n    \"$ref\": {\n      \"type\": \"string\",\n      \"description\": \"The URI corresponding to a SCIM resource that is this Location.\"\n    },\n    \"display\": {\n      \"type\": \"string\",\n      \"description\": \"A human-readable name, primarily used for display purposes.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-procure-to-pay-scim-location-resource-reference-schema.json
 tags:
 - Financial
 - Financial Data

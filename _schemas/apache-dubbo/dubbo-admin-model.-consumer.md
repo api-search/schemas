@@ -67,6 +67,9 @@ provider_name: Apache Dubbo
 provider_slug: apache-dubbo
 schema_file: json-schema/dubbo-admin-model.-consumer-schema.json
 slug: dubbo-admin-model.-consumer
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/json-schema/dubbo-admin-model.-consumer-schema.json\",\n  \"title\": \"model.Consumer\",\n  \"description\": \"model.Consumer schema from Dubbo Admin API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"address\": {\n      \"type\": \"string\"\n    },\n    \"alived\": {\n      \"type\": \"integer\"\n    },\n    \"application\": {\n      \"type\": \"string\"\n    },\n    \"collected\": {\n      \"$ref\": \"#/definitions/time.Duration\"\n    },\n    \"created\": {\n      \"type\": \"string\"\n    },\n    \"expired\": {\n      \"$ref\": \"#/definitions/time.Duration\"\n    },\n    \"hash\": {\n      \"type\": \"string\"\n    },\n    \"id\": {\n      \"type\": \"integer\"\n    },\n    \"ids\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"integer\"\n      }\n    },\n    \"miss\": {\n     \
+  \ \"type\": \"boolean\"\n    },\n    \"modified\": {\n      \"type\": \"string\"\n    },\n    \"now\": {\n      \"type\": \"string\"\n    },\n    \"operator\": {\n      \"type\": \"string\"\n    },\n    \"operatorAddress\": {\n      \"type\": \"string\"\n    },\n    \"parameters\": {\n      \"type\": \"string\"\n    },\n    \"registry\": {\n      \"type\": \"string\"\n    },\n    \"result\": {\n      \"type\": \"string\"\n    },\n    \"service\": {\n      \"type\": \"string\"\n    },\n    \"statistics\": {\n      \"type\": \"string\"\n    },\n    \"username\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/json-schema/dubbo-admin-model.-consumer-schema.json
 tags:
 - Apache
 - Go

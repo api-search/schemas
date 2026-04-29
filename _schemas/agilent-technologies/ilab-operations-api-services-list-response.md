@@ -10,6 +10,8 @@ provider_name: agilent-technologies
 provider_slug: agilent-technologies
 schema_file: json-schema/ilab-operations-api-services-list-response-schema.json
 slug: ilab-operations-api-services-list-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/json-schema/ilab-operations-api-services-list-response-schema.json\",\n  \"title\": \"Services List Response\",\n  \"description\": \"List of services for a core facility.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"services\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Service\"\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/json-schema/ilab-operations-api-services-list-response-schema.json
 tags:
 - Life Sciences
 - Diagnostics

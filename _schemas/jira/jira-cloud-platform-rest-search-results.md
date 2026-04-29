@@ -31,6 +31,9 @@ provider_name: Jira
 provider_slug: jira
 schema_file: json-schema/jira-cloud-platform-rest-search-results-schema.json
 slug: jira-cloud-platform-rest-search-results
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SearchResults\",\n  \"type\": \"object\",\n  \"description\": \"The result of a JQL search.\",\n  \"properties\": {\n    \"expand\": {\n      \"type\": \"string\",\n      \"description\": \"The expand options applied.\"\n    },\n    \"startAt\": {\n      \"type\": \"integer\",\n      \"description\": \"The index of the first result returned.\"\n    },\n    \"maxResults\": {\n      \"type\": \"integer\",\n      \"description\": \"The maximum number of results returned per page.\"\n    },\n    \"total\": {\n      \"type\": \"integer\",\n      \"description\": \"The total number of results matching the JQL query.\"\n    },\n    \"issues\": {\n      \"type\": \"array\",\n      \"description\": \"The list of issues matching the JQL query.\"\n    },\n    \"warningMessages\": {\n      \"type\": \"array\",\n      \"description\": \"Warning messages about the JQL query.\"\n    },\n    \"names\": {\n\
+  \      \"type\": \"object\",\n      \"description\": \"Field name mapping.\"\n    },\n    \"schema\": {\n      \"type\": \"object\",\n      \"description\": \"JSON Schema for each field.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/json-schema/jira-cloud-platform-rest-search-results-schema.json
 tags:
 - Agile
 - Issue Tracking

@@ -19,6 +19,8 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/automation-extension-upload-schema.json
 slug: automation-extension-upload
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ExtensionUpload\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"systemId\": {\n      \"type\": \"string\"\n    },\n    \"schedule\": {\n      \"type\": \"string\",\n      \"description\": \"When to schedule the installation\"\n    },\n    \"schemaSyncMode\": {\n      \"type\": \"string\",\n      \"description\": \"Schema synchronization mode\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/automation-extension-upload-schema.json
 tags:
 - Business Management
 - Dynamics NAV

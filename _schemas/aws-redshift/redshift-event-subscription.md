@@ -40,6 +40,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-event-subscription-schema.json
 slug: redshift-event-subscription
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"CustomerAwsId\": {},\n    \"CustSubscriptionId\": {},\n    \"SnsTopicArn\": {},\n    \"Status\": {},\n    \"SubscriptionCreationTime\": {},\n    \"SourceType\": {},\n    \"SourceIdsList\": {},\n    \"EventCategoriesList\": {},\n    \"Severity\": {},\n    \"Enabled\": {},\n    \"Tags\": {}\n  },\n  \"description\": \"Describes event subscriptions.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-event-subscription-schema.json\",\n  \"title\": \"EventSubscription\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-event-subscription-schema.json
 tags:
 - Analytics
 - Big Data

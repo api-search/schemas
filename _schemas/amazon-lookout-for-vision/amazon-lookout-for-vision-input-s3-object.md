@@ -16,6 +16,9 @@ provider_name: Amazon Lookout for Vision
 provider_slug: amazon-lookout-for-vision
 schema_file: json-schema/amazon-lookout-for-vision-input-s3-object-schema.json
 slug: amazon-lookout-for-vision-input-s3-object
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-input-s3-object-schema.json\",\n  \"title\": \"InputS3Object\",\n  \"description\": \"Amazon S3 Location information for an input manifest file. \",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Bucket\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3BucketName\"\n        },\n        {\n          \"description\": \"The Amazon S3 bucket that contains the manifest.\"\n        }\n      ]\n    },\n    \"Key\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3ObjectKey\"\n        },\n        {\n          \"description\": \"The name and location of the manifest file withiin the bucket.\"\n        }\n      ]\n    },\n    \"VersionId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3ObjectVersion\"\
+  \n        },\n        {\n          \"description\": \"The version ID of the bucket.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Bucket\",\n    \"Key\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-input-s3-object-schema.json
 tags:
 - AWS
 - Computer Vision

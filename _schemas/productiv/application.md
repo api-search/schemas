@@ -22,6 +22,8 @@ provider_name: Productiv
 provider_slug: productiv
 schema_file: json-schema/application.json
 slug: application
+source_json: "{\n  \"$id\": \"application.json\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Application\",\n  \"description\": \"Represents a custom application registered in the Productiv platform.\",\n  \"type\": \"object\",\n  \"required\": [\n    \"appName\"\n  ],\n  \"properties\": {\n    \"appId\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier for the application.\"\n    },\n    \"appName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the application.\"\n    },\n    \"appDescription\": {\n      \"type\": \"string\",\n      \"description\": \"A description of the application.\"\n    },\n    \"appCategory\": {\n      \"type\": \"string\",\n      \"description\": \"The category of the application.\"\n    },\n    \"appUrl\": {\n      \"type\": \"string\",\n      \"format\": \"uri\",\n      \"description\": \"The URL of the application.\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/json-schema/application.json
 tags:
 - Application Portfolio
 - Provisioning

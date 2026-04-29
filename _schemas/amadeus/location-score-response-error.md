@@ -10,6 +10,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/location-score-response-error-schema.json
 slug: location-score-response-error
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"response_error\",\n  \"description\": \"A set of errors\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"errors\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/errors\"\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/location-score-response-error-schema.json
 tags:
 - Airlines
 - Aviation

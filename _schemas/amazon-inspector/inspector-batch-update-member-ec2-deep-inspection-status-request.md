@@ -10,6 +10,8 @@ provider_name: Amazon Inspector
 provider_slug: amazon-inspector
 schema_file: json-schema/inspector-batch-update-member-ec2-deep-inspection-status-request-schema.json
 slug: inspector-batch-update-member-ec2-deep-inspection-status-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-batch-update-member-ec2-deep-inspection-status-request-schema.json\",\n  \"title\": \"BatchUpdateMemberEc2DeepInspectionStatusRequest\",\n  \"description\": \"BatchUpdateMemberEc2DeepInspectionStatusRequest schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"accountIds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MemberAccountEc2DeepInspectionStatusList\"\n        },\n        {\n          \"description\": \"The unique identifiers for the Amazon Web Services accounts to change Amazon Inspector deep inspection status for.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"accountIds\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-batch-update-member-ec2-deep-inspection-status-request-schema.json
 tags:
 - AWS
 - Compliance

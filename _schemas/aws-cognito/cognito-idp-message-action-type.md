@@ -7,6 +7,8 @@ provider_name: Amazon Cognito
 provider_slug: aws-cognito
 schema_file: json-schema/cognito-idp-message-action-type-schema.json
 slug: cognito-idp-message-action-type
+source_json: "{\n  \"type\": \"string\",\n  \"enum\": [\n    \"RESEND\",\n    \"SUPPRESS\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-message-action-type-schema.json\",\n  \"title\": \"MessageActionType\",\n  \"description\": \"MessageActionType schema from Amazon Cognito\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-message-action-type-schema.json
 tags:
 - Authentication
 - Authorization

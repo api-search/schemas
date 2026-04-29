@@ -7,6 +7,8 @@ provider_name: Amazon EventBridge Pipes
 provider_slug: amazon-eventbridge-pipes
 schema_file: json-schema/amazon-eventbridge-pipes-ecs-environment-file-type-schema.json
 slug: amazon-eventbridge-pipes-ecs-environment-file-type
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/json-schema/amazon-eventbridge-pipes-ecs-environment-file-type-schema.json\",\n  \"title\": \"EcsEnvironmentFileType\",\n  \"description\": \"EcsEnvironmentFileType schema from Amazon EventBridge Pipes\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"s3\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/json-schema/amazon-eventbridge-pipes-ecs-environment-file-type-schema.json
 tags:
 - Amazon Web Services
 - AWS

@@ -16,6 +16,8 @@ provider_name: AeroDataBox
 provider_slug: aerodatabox
 schema_file: json-schema/aerodatabox-pressure-schema.json
 slug: aerodatabox-pressure
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/json-schema/aerodatabox-pressure-schema.json\",\n  \"title\": \"Pressure\",\n  \"description\": \"Pressure schema from AeroDataBox API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"hPa\": {\n      \"type\": \"number\",\n      \"description\": \"Pressure in hectopascals\",\n      \"format\": \"double\"\n    },\n    \"inHg\": {\n      \"type\": \"number\",\n      \"description\": \"Pressure in inches mercury\",\n      \"format\": \"double\"\n    },\n    \"mmHg\": {\n      \"type\": \"number\",\n      \"description\": \"Pressure in millimeters mercury\",\n      \"format\": \"double\"\n    }\n  },\n  \"required\": [\n    \"hPa\",\n    \"inHg\",\n    \"mmHg\"\n  ],\n  \"additionalProperties\": false\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/json-schema/aerodatabox-pressure-schema.json
 tags:
 - Aviation
 - Flights

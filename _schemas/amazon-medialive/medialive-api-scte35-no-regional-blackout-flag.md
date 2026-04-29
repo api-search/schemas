@@ -7,6 +7,8 @@ provider_name: Amazon MediaLive
 provider_slug: amazon-medialive
 schema_file: json-schema/medialive-api-scte35-no-regional-blackout-flag-schema.json
 slug: medialive-api-scte35-no-regional-blackout-flag
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-scte35-no-regional-blackout-flag-schema.json\",\n  \"title\": \"Scte35NoRegionalBlackoutFlag\",\n  \"description\": \"Corresponds to the no_regional_blackout_flag parameter. A value of REGIONAL_BLACKOUT corresponds to 0 (false) in the SCTE-35 specification. If you include one of the \\\"restriction\\\" flags then you must include all four of them.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"REGIONAL_BLACKOUT\",\n    \"NO_REGIONAL_BLACKOUT\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-scte35-no-regional-blackout-flag-schema.json
 tags:
 - AWS
 - Broadcasting

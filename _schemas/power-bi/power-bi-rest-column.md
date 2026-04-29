@@ -22,6 +22,8 @@ provider_name: Power BI
 provider_slug: power-bi
 schema_file: json-schema/power-bi-rest-column-schema.json
 slug: power-bi-rest-column
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Column\",\n  \"type\": \"object\",\n  \"description\": \"A column in a dataset table\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The column name\"\n    },\n    \"dataType\": {\n      \"type\": \"string\",\n      \"description\": \"The data type of the column\"\n    },\n    \"formatString\": {\n      \"type\": \"string\",\n      \"description\": \"Optional format string for the column\"\n    },\n    \"sortByColumn\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the column to sort by\"\n    },\n    \"isHidden\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the column is hidden in reports\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/json-schema/power-bi-rest-column-schema.json
 tags:
 - Analytics
 - Business Intelligence

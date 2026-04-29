@@ -7,6 +7,8 @@ provider_name: Amazon WorkSpaces Web
 provider_slug: amazon-workspaces-web
 schema_file: json-schema/workspaces-web-authentication-type-schema.json
 slug: workspaces-web-authentication-type
+source_json: "{\n  \"type\": \"string\",\n  \"enum\": [\n    \"Standard\",\n    \"IAM_Identity_Center\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AuthenticationType\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-authentication-type-schema.json\",\n  \"description\": \"AuthenticationType schema from Amazon WorkSpaces Web API\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-authentication-type-schema.json
 tags:
 - AWS
 - End User Computing

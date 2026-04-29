@@ -46,6 +46,9 @@ provider_name: SAP Ariba
 provider_slug: sap-ariba
 schema_file: json-schema/sap-ariba-procurement-requisition-schema.json
 slug: sap-ariba-procurement-requisition
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Requisition\",\n  \"type\": \"object\",\n  \"description\": \"A purchase requisition requesting procurement of goods or services\",\n  \"properties\": {\n    \"requisitionId\": {\n      \"type\": \"string\",\n      \"description\": \"Unique requisition identifier\"\n    },\n    \"title\": {\n      \"type\": \"string\",\n      \"description\": \"Requisition title or name\"\n    },\n    \"requestor\": {\n      \"type\": \"string\",\n      \"description\": \"User ID of the person who created the requisition\"\n    },\n    \"requestorName\": {\n      \"type\": \"string\",\n      \"description\": \"Full name of the requestor\"\n    },\n    \"department\": {\n      \"type\": \"string\",\n      \"description\": \"Department of the requestor\"\n    },\n    \"companyCode\": {\n      \"type\": \"string\",\n      \"description\": \"Company code\"\n    },\n    \"needByDate\": {\n      \"type\": \"string\"\
+  ,\n      \"description\": \"Desired delivery date\"\n    },\n    \"lineItems\": {\n      \"type\": \"array\"\n    },\n    \"purchaseOrderIds\": {\n      \"type\": \"array\",\n      \"description\": \"Purchase order IDs generated from this requisition after approval\"\n    },\n    \"comments\": {\n      \"type\": \"string\",\n      \"description\": \"Requisition comments\"\n    },\n    \"createdDate\": {\n      \"type\": \"string\"\n    },\n    \"lastModifiedDate\": {\n      \"type\": \"string\"\n    },\n    \"approvedDate\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/json-schema/sap-ariba-procurement-requisition-schema.json
 tags:
 - B2B
 - Contract Management

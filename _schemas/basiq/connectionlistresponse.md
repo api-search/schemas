@@ -16,6 +16,8 @@ provider_name: Basiq
 provider_slug: basiq
 schema_file: json-schema/connectionlistresponse.json
 slug: connectionlistresponse
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/json-schema/connectionlistresponse.json\",\n  \"title\": \"ConnectionListResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\",\n      \"default\": \"list\"\n    },\n    \"data\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Connection\"\n      }\n    },\n    \"size\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/json-schema/connectionlistresponse.json
 tags:
 - Australia
 - Banking

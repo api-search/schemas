@@ -28,6 +28,8 @@ provider_name: Jira
 provider_slug: jira
 schema_file: json-schema/jira-cloud-platform-rest-worklog-schema.json
 slug: jira-cloud-platform-rest-worklog
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Worklog\",\n  \"type\": \"object\",\n  \"description\": \"A worklog entry.\",\n  \"properties\": {\n    \"self\": {\n      \"type\": \"string\"\n    },\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"created\": {\n      \"type\": \"string\"\n    },\n    \"updated\": {\n      \"type\": \"string\"\n    },\n    \"started\": {\n      \"type\": \"string\"\n    },\n    \"timeSpent\": {\n      \"type\": \"string\",\n      \"description\": \"The time spent on the worklog (e.g., 3h 20m).\"\n    },\n    \"timeSpentSeconds\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/json-schema/jira-cloud-platform-rest-worklog-schema.json
 tags:
 - Agile
 - Issue Tracking

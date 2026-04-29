@@ -43,6 +43,9 @@ provider_name: Apache Flink
 provider_slug: apache-flink
 schema_file: json-schema/flink-rest-task-manager-info-schema.json
 slug: flink-rest-task-manager-info
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-task-manager-info-schema.json\",\n  \"title\": \"TaskManagerInfo\",\n  \"description\": \"TaskManagerInfo schema from Apache Flink REST API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"blocked\": {\n      \"type\": \"boolean\"\n    },\n    \"dataPort\": {\n      \"type\": \"integer\",\n      \"format\": \"int32\"\n    },\n    \"freeResource\": {\n      \"$ref\": \"#/components/schemas/ResourceProfileInfo\"\n    },\n    \"freeSlots\": {\n      \"type\": \"integer\",\n      \"format\": \"int32\"\n    },\n    \"hardware\": {\n      \"$ref\": \"#/components/schemas/HardwareDescription\"\n    },\n    \"id\": {\n      \"$ref\": \"#/components/schemas/ResourceID\"\n    },\n    \"jmxPort\": {\n      \"type\": \"integer\",\n      \"format\": \"int32\"\n    },\n    \"memoryConfiguration\": {\n\
+  \      \"$ref\": \"#/components/schemas/TaskExecutorMemoryConfiguration\"\n    },\n    \"path\": {\n      \"type\": \"string\"\n    },\n    \"slotsNumber\": {\n      \"type\": \"integer\",\n      \"format\": \"int32\"\n    },\n    \"timeSinceLastHeartbeat\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    },\n    \"totalResource\": {\n      \"$ref\": \"#/components/schemas/ResourceProfileInfo\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-task-manager-info-schema.json
 tags:
 - Apache
 - Batch Processing

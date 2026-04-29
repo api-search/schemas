@@ -16,6 +16,8 @@ provider_name: OpenAI
 provider_slug: openai
 schema_file: json-schema/openai-images-image-schema.json
 slug: openai-images-image
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Image\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"url\": {\n      \"type\": \"string\",\n      \"description\": \"The URL of the generated image, if response_format is url. The URL is valid for 60 minutes.\"\n    },\n    \"b64_json\": {\n      \"type\": \"string\",\n      \"description\": \"The base64-encoded JSON of the generated image, if response_format is b64_json.\"\n    },\n    \"revised_prompt\": {\n      \"type\": \"string\",\n      \"description\": \"The prompt that was used to generate the image, if there was any revision to the prompt. Only present for DALL-E 3 and gpt-image-1.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/json-schema/openai-images-image-schema.json
 tags:
 - AI
 - Artificial Intelligence

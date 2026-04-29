@@ -22,6 +22,8 @@ provider_name: SAP Ariba
 provider_slug: sap-ariba
 schema_file: json-schema/sap-ariba-procurement-contact-info-schema.json
 slug: sap-ariba-procurement-contact-info
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ContactInfo\",\n  \"type\": \"object\",\n  \"description\": \"Contact information for a person or department\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Contact person name\"\n    },\n    \"email\": {\n      \"type\": \"string\",\n      \"description\": \"Contact email address\"\n    },\n    \"phone\": {\n      \"type\": \"string\",\n      \"description\": \"Contact phone number\"\n    },\n    \"fax\": {\n      \"type\": \"string\",\n      \"description\": \"Contact fax number\"\n    },\n    \"department\": {\n      \"type\": \"string\",\n      \"description\": \"Department name\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/json-schema/sap-ariba-procurement-contact-info-schema.json
 tags:
 - B2B
 - Contract Management

@@ -16,6 +16,8 @@ provider_name: Google Docs
 provider_slug: google-docs
 schema_file: json-schema/google-docs-v1-rgb-color-schema.json
 slug: google-docs-v1-rgb-color
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RgbColor\",\n  \"type\": \"object\",\n  \"description\": \"An RGB color.\",\n  \"properties\": {\n    \"red\": {\n      \"type\": \"number\",\n      \"description\": \"The red component of the color, from 0.0 to 1.0.\"\n    },\n    \"green\": {\n      \"type\": \"number\",\n      \"description\": \"The green component of the color, from 0.0 to 1.0.\"\n    },\n    \"blue\": {\n      \"type\": \"number\",\n      \"description\": \"The blue component of the color, from 0.0 to 1.0.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/json-schema/google-docs-v1-rgb-color-schema.json
 tags:
 - Collaboration
 - Documents

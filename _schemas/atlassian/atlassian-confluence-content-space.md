@@ -40,6 +40,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-space-schema.json
 slug: atlassian-confluence-content-space
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Space\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\"\n    },\n    \"key\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"object\"\n    },\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"metadata\": {\n      \"type\": \"object\"\n    },\n    \"operations\": {\n      \"type\": \"array\"\n    },\n    \"permissions\": {\n      \"type\": \"array\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"history\": {\n      \"type\": \"object\"\n    },\n    \"_expandable\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-space-schema.json
 tags:
 - Code
 - Collaboration

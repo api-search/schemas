@@ -7,6 +7,8 @@ provider_name: Amazon HealthImaging
 provider_slug: amazon-healthimaging
 schema_file: json-schema/healthimaging-string-schema.json
 slug: healthimaging-string
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-string-schema.json\",\n  \"title\": \"String\",\n  \"type\": \"string\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-string-schema.json
 tags:
 - AWS
 - Healthcare

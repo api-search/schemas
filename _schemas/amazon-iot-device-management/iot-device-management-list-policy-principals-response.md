@@ -13,6 +13,8 @@ provider_name: Amazon IoT Device Management
 provider_slug: amazon-iot-device-management
 schema_file: json-schema/iot-device-management-list-policy-principals-response-schema.json
 slug: iot-device-management-list-policy-principals-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-list-policy-principals-response-schema.json\",\n  \"title\": \"ListPolicyPrincipalsResponse\",\n  \"description\": \"The output from the ListPolicyPrincipals operation.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"principals\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Principals\"\n        },\n        {\n          \"description\": \"The descriptions of the principals.\"\n        }\n      ]\n    },\n    \"nextMarker\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Marker\"\n        },\n        {\n          \"description\": \"The marker for the next set of results, or null if there are no additional results.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-list-policy-principals-response-schema.json
 tags:
 - AWS
 - Device Management

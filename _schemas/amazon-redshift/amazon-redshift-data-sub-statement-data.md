@@ -40,6 +40,9 @@ provider_name: Amazon Redshift
 provider_slug: amazon-redshift
 schema_file: json-schema/amazon-redshift-data-sub-statement-data-schema.json
 slug: amazon-redshift-data-sub-statement-data
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SubStatementData\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Id\": {\n      \"type\": \"string\",\n      \"description\": \"The identifier of the sub-statement\"\n    },\n    \"Status\": {\n      \"type\": \"string\",\n      \"description\": \"The status of the sub-statement\"\n    },\n    \"CreatedAt\": {\n      \"type\": \"string\",\n      \"description\": \"The date and time the sub-statement was created\"\n    },\n    \"UpdatedAt\": {\n      \"type\": \"string\",\n      \"description\": \"The date and time the sub-statement was last updated\"\n    },\n    \"Duration\": {\n      \"type\": \"integer\",\n      \"description\": \"The time in nanoseconds the sub-statement ran\"\n    },\n    \"QueryString\": {\n      \"type\": \"string\",\n      \"description\": \"The SQL statement text\"\n    },\n    \"RedshiftQueryId\": {\n      \"type\": \"integer\",\n      \"description\": \"The\
+  \ Redshift query identifier\"\n    },\n    \"ResultRows\": {\n      \"type\": \"integer\",\n      \"description\": \"Total number of rows in the result set\"\n    },\n    \"ResultSize\": {\n      \"type\": \"integer\",\n      \"description\": \"The size of the result set in bytes\"\n    },\n    \"HasResultSet\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the sub-statement has a result set\"\n    },\n    \"Error\": {\n      \"type\": \"string\",\n      \"description\": \"The error message if the sub-statement failed\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/json-schema/amazon-redshift-data-sub-statement-data-schema.json
 tags:
 - Analytics
 - Big Data

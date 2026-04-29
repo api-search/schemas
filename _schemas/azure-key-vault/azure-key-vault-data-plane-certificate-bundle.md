@@ -28,6 +28,9 @@ provider_name: Azure Key Vault
 provider_slug: azure-key-vault
 schema_file: json-schema/azure-key-vault-data-plane-certificate-bundle-schema.json
 slug: azure-key-vault-data-plane-certificate-bundle
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CertificateBundle\",\n  \"type\": \"object\",\n  \"description\": \"A certificate bundle consists of a certificate (X509) plus its attributes.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The certificate id.\"\n    },\n    \"kid\": {\n      \"type\": \"string\",\n      \"description\": \"The key id.\"\n    },\n    \"sid\": {\n      \"type\": \"string\",\n      \"description\": \"The secret id.\"\n    },\n    \"x5t\": {\n      \"type\": \"string\",\n      \"description\": \"Thumbprint of the certificate.\"\n    },\n    \"cer\": {\n      \"type\": \"string\",\n      \"description\": \"CER contents of x509 certificate.\"\n    },\n    \"contentType\": {\n      \"type\": \"string\",\n      \"description\": \"The content type of the secret.\"\n    },\n    \"tags\": {\n      \"type\": \"object\",\n      \"description\": \"Application specific metadata\
+  \ in the form of key-value pairs.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-key-vault/refs/heads/main/json-schema/azure-key-vault-data-plane-certificate-bundle-schema.json
 tags:
 - Certificates
 - Cloud Security

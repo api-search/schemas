@@ -13,6 +13,8 @@ provider_name: Argo CD
 provider_slug: argo-cd
 schema_file: json-schema/argo-cd-v1alpha1-git-directory-generator-item-schema.json
 slug: argo-cd-v1alpha1-git-directory-generator-item
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-schema/argo-cd-v1alpha1-git-directory-generator-item-schema.json\",\n  \"title\": \"v1alpha1GitDirectoryGeneratorItem\",\n  \"description\": \"v1alpha1GitDirectoryGeneratorItem schema from Argo CD API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"exclude\": {\n      \"type\": \"boolean\"\n    },\n    \"path\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-schema/argo-cd-v1alpha1-git-directory-generator-item-schema.json
 tags:
 - Continuous Delivery
 - Containers

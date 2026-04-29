@@ -13,6 +13,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-client-info-schema.json
 slug: salesforce-client-info
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"applicationName\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"applicationUrl\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"https://www.example.com\"\n    }\n  },\n  \"required\": [\n    \"applicationName\",\n    \"applicationUrl\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ClientInfo\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-client-info-schema.json
 tags:
 - AI
 - Analytics

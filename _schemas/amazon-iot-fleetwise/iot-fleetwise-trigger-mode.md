@@ -7,6 +7,8 @@ provider_name: Amazon IoT FleetWise
 provider_slug: amazon-iot-fleetwise
 schema_file: json-schema/iot-fleetwise-trigger-mode-schema.json
 slug: iot-fleetwise-trigger-mode
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/json-schema/iot-fleetwise-trigger-mode-schema.json\",\n  \"title\": \"TriggerMode\",\n  \"description\": \"TriggerMode schema\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ALWAYS\",\n    \"RISING_EDGE\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/json-schema/iot-fleetwise-trigger-mode-schema.json
 tags:
 - Automotive
 - AWS

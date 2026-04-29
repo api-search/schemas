@@ -19,6 +19,9 @@ provider_name: aflac
 provider_slug: aflac
 schema_file: json-schema/enterprise-connect-dependent-schema.json
 slug: enterprise-connect-dependent
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-dependent-schema.json\",\n  \"title\": \"Dependent\",\n  \"description\": \"A dependent to be covered under a family enrollment.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"first_name\": {\n      \"type\": \"string\",\n      \"description\": \"Dependent's first name.\",\n      \"example\": \"Jane\"\n    },\n    \"last_name\": {\n      \"type\": \"string\",\n      \"description\": \"Dependent's last name.\",\n      \"example\": \"Smith\"\n    },\n    \"date_of_birth\": {\n      \"type\": \"string\",\n      \"format\": \"date\",\n      \"description\": \"Dependent's date of birth.\",\n      \"example\": \"1990-06-15\"\n    },\n    \"relationship\": {\n      \"type\": \"string\",\n      \"description\": \"Relationship to the employee.\",\n      \"enum\": [\n        \"spouse\",\n     \
+  \   \"child\"\n      ],\n      \"example\": \"spouse\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-dependent-schema.json
 tags: []
 title: Dependent
 ---

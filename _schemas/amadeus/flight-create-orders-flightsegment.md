@@ -31,6 +31,9 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-create-orders-flightsegment-schema.json
 slug: flight-create-orders-flightsegment
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"FlightSegment\",\n  \"description\": \"defining a flight segment; including both operating and marketing details when applicable\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"departure\": {\n      \"$ref\": \"#/definitions/FlightEndPoint\"\n    },\n    \"arrival\": {\n      \"$ref\": \"#/definitions/FlightEndPoint\"\n    },\n    \"carrierCode\": {\n      \"type\": \"string\",\n      \"description\": \"providing the airline / carrier code\"\n    },\n    \"number\": {\n      \"type\": \"string\",\n      \"description\": \"the flight number as assigned by the carrier\"\n    },\n    \"aircraft\": {\n      \"$ref\": \"#/definitions/AircraftEquipment\"\n    },\n    \"operating\": {\n      \"$ref\": \"#/definitions/OperatingFlight\"\n    },\n    \"duration\": {\n      \"type\": \"string\",\n      \"description\": \"stop duration in [ISO8601](https://en.wikipedia.org/wiki/ISO_8601) PnYnMnDTnHnMnS\
+  \ format, e.g. PT2H10M\"\n    },\n    \"stops\": {\n      \"type\": \"array\",\n      \"description\": \"information regarding the different stops composing the flight segment. E.g. technical stop, change of gauge...\",\n      \"items\": {\n        \"$ref\": \"#/definitions/FlightStop\"\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-create-orders-flightsegment-schema.json
 tags:
 - Airlines
 - Aviation

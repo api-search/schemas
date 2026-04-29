@@ -28,6 +28,8 @@ provider_name: Jira
 provider_slug: jira
 schema_file: json-schema/jira-cloud-platform-rest-change-item-schema.json
 slug: jira-cloud-platform-rest-change-item
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ChangeItem\",\n  \"type\": \"object\",\n  \"description\": \"An individual field change within a changelog entry.\",\n  \"properties\": {\n    \"field\": {\n      \"type\": \"string\"\n    },\n    \"fieldtype\": {\n      \"type\": \"string\"\n    },\n    \"fieldId\": {\n      \"type\": \"string\"\n    },\n    \"from\": {\n      \"type\": \"['string', 'null']\"\n    },\n    \"fromString\": {\n      \"type\": \"['string', 'null']\"\n    },\n    \"to\": {\n      \"type\": \"['string', 'null']\"\n    },\n    \"toString\": {\n      \"type\": \"['string', 'null']\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/json-schema/jira-cloud-platform-rest-change-item-schema.json
 tags:
 - Agile
 - Issue Tracking

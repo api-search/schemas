@@ -37,6 +37,8 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-version-definition-schema.json
 slug: tyk-gateway-version-definition
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"VersionDefinition\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"default\": {\n      \"type\": \"string\"\n    },\n    \"enabled\": {\n      \"type\": \"boolean\"\n    },\n    \"fallback_to_default\": {\n      \"type\": \"boolean\"\n    },\n    \"key\": {\n      \"type\": \"string\"\n    },\n    \"location\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"strip_path\": {\n      \"type\": \"boolean\"\n    },\n    \"strip_versioning_data\": {\n      \"type\": \"boolean\"\n    },\n    \"url_versioning_pattern\": {\n      \"type\": \"string\"\n    },\n    \"versions\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-version-definition-schema.json
 tags:
 - API Gateway
 - API Management

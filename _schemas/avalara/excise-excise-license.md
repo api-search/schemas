@@ -28,6 +28,8 @@ provider_name: Avalara
 provider_slug: avalara
 schema_file: json-schema/excise-excise-license-schema.json
 slug: excise-excise-license
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/json-schema/excise-excise-license-schema.json\",\n  \"title\": \"ExciseLicense\",\n  \"description\": \"ExciseLicense schema from Avalara API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"licenseId\": {\n      \"type\": \"string\"\n    },\n    \"licenseNumber\": {\n      \"type\": \"string\"\n    },\n    \"licenseType\": {\n      \"type\": \"string\"\n    },\n    \"issuingJurisdiction\": {\n      \"type\": \"string\"\n    },\n    \"effectiveDate\": {\n      \"type\": \"string\",\n      \"format\": \"date\"\n    },\n    \"expirationDate\": {\n      \"type\": \"string\",\n      \"format\": \"date\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"Active\",\n        \"Expired\",\n        \"Suspended\",\n        \"Revoked\"\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/json-schema/excise-excise-license-schema.json
 tags:
 - Taxes
 title: ExciseLicense

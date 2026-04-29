@@ -22,6 +22,9 @@ provider_name: Amazon Redshift
 provider_slug: amazon-redshift
 schema_file: json-schema/amazon-redshift-data-list-statements-request-schema.json
 slug: amazon-redshift-data-list-statements-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ListStatementsRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"MaxResults\": {\n      \"type\": \"integer\",\n      \"description\": \"The maximum number of SQL statements to return in the response. Valid range is 0 to 100. Default is 100.\"\n    },\n    \"NextToken\": {\n      \"type\": \"string\",\n      \"description\": \"A value that indicates the starting point for the next set of response records in a subsequent request.\"\n    },\n    \"RoleLevel\": {\n      \"type\": \"boolean\",\n      \"description\": \"When true, returns statements submitted by all IAM users in the account. Default is false, which returns only statements from the calling user.\"\n    },\n    \"StatementName\": {\n      \"type\": \"string\",\n      \"description\": \"Filter results by a specific statement name\"\n    },\n    \"Status\": {\n      \"type\": \"string\",\n      \"description\": \"Filter\
+  \ results by statement status\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/json-schema/amazon-redshift-data-list-statements-request-schema.json
 tags:
 - Analytics
 - Big Data

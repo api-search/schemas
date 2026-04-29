@@ -40,6 +40,9 @@ provider_name: Cisco Voice Portal
 provider_slug: cisco-voice-portal
 schema_file: json-schema/cisco-voice-portal-vxml-services-vxml-session-detail-schema.json
 slug: cisco-voice-portal-vxml-services-vxml-session-detail
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"VxmlSessionDetail\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"sessionId\": {\n      \"type\": \"string\"\n    },\n    \"callGuid\": {\n      \"type\": \"string\"\n    },\n    \"applicationName\": {\n      \"type\": \"string\"\n    },\n    \"startTime\": {\n      \"type\": \"string\"\n    },\n    \"duration\": {\n      \"type\": \"integer\"\n    },\n    \"currentElement\": {\n      \"type\": \"string\"\n    },\n    \"callingNumber\": {\n      \"type\": \"string\"\n    },\n    \"calledNumber\": {\n      \"type\": \"string\"\n    },\n    \"sessionVariables\": {\n      \"type\": \"object\",\n      \"description\": \"VXML session-level variables\"\n    },\n    \"elementHistory\": {\n      \"type\": \"array\",\n      \"description\": \"History of elements visited in this session\"\n    },\n    \"lastUserInput\": {\n      \"type\": \"string\",\n      \"description\": \"Last input received\
+  \ from the caller (DTMF or ASR result)\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-vxml-services-vxml-session-detail-schema.json
 tags:
 - Contact Center
 - IVR

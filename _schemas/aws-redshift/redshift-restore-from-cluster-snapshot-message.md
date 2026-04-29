@@ -106,6 +106,9 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-restore-from-cluster-snapshot-message-schema.json
 slug: redshift-restore-from-cluster-snapshot-message
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ClusterIdentifier\": {},\n    \"SnapshotIdentifier\": {},\n    \"SnapshotArn\": {},\n    \"SnapshotClusterIdentifier\": {},\n    \"Port\": {},\n    \"AvailabilityZone\": {},\n    \"AllowVersionUpgrade\": {},\n    \"ClusterSubnetGroupName\": {},\n    \"PubliclyAccessible\": {},\n    \"OwnerAccount\": {},\n    \"HsmClientCertificateIdentifier\": {},\n    \"HsmConfigurationIdentifier\": {},\n    \"ElasticIp\": {},\n    \"ClusterParameterGroupName\": {},\n    \"ClusterSecurityGroups\": {},\n    \"VpcSecurityGroupIds\": {},\n    \"PreferredMaintenanceWindow\": {},\n    \"AutomatedSnapshotRetentionPeriod\": {},\n    \"ManualSnapshotRetentionPeriod\": {},\n    \"KmsKeyId\": {},\n    \"NodeType\": {},\n    \"EnhancedVpcRouting\": {},\n    \"AdditionalInfo\": {},\n    \"IamRoles\": {},\n    \"MaintenanceTrackName\": {},\n    \"SnapshotScheduleIdentifier\": {},\n    \"NumberOfNodes\": {},\n    \"AvailabilityZoneRelocation\": {},\n\
+  \    \"AquaConfigurationStatus\": {},\n    \"DefaultIamRoleArn\": {},\n    \"ReservedNodeId\": {},\n    \"TargetReservedNodeOfferingId\": {},\n    \"Encrypted\": {}\n  },\n  \"required\": [\n    \"ClusterIdentifier\"\n  ],\n  \"description\": \"<p/>\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-restore-from-cluster-snapshot-message-schema.json\",\n  \"title\": \"RestoreFromClusterSnapshotMessage\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-restore-from-cluster-snapshot-message-schema.json
 tags:
 - Analytics
 - Big Data

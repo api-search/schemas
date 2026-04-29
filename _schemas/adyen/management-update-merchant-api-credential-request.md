@@ -19,6 +19,9 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/management-update-merchant-api-credential-request-schema.json
 slug: management-update-merchant-api-credential-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/management-update-merchant-api-credential-request-schema.json\",\n  \"title\": \"UpdateMerchantApiCredentialRequest\",\n  \"description\": \"UpdateMerchantApiCredentialRequest schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"active\": {\n      \"description\": \"Indicates if the API credential is enabled.\",\n      \"type\": \"boolean\"\n    },\n    \"allowedOrigins\": {\n      \"description\": \"The new list of [allowed origins](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) for the API credential.\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"type\": \"array\"\n    },\n    \"description\": {\n      \"description\": \"Description of the API credential.\",\n      \"type\": \"string\"\n    },\n    \"roles\": {\n     \
+  \ \"description\": \"List of [roles](https://docs.adyen.com/development-resources/api-credentials#roles-1) for the API credential. Only roles assigned to 'ws@Company.<CompanyName>' can be assigned to other API credentials.\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/management-update-merchant-api-credential-request-schema.json
 tags:
 - Payments
 - Financial Services

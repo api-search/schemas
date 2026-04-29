@@ -34,6 +34,9 @@ provider_name: Vantage
 provider_slug: vantage
 schema_file: json-schema/vantage-cost-management-cost-schema.json
 slug: vantage-cost-management-cost
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Cost\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"date\": {\n      \"type\": \"string\",\n      \"description\": \"The date of the cost entry.\"\n    },\n    \"amount\": {\n      \"type\": \"string\",\n      \"description\": \"The cost amount.\"\n    },\n    \"currency\": {\n      \"type\": \"string\",\n      \"description\": \"The currency of the cost amount.\"\n    },\n    \"provider\": {\n      \"type\": \"string\",\n      \"description\": \"The cloud provider (e.g., aws, azure, gcp).\"\n    },\n    \"service\": {\n      \"type\": \"string\",\n      \"description\": \"The cloud service name.\"\n    },\n    \"account_id\": {\n      \"type\": \"string\",\n      \"description\": \"The cloud account identifier.\"\n    },\n    \"region\": {\n      \"type\": \"string\",\n      \"description\": \"The cloud region.\"\n    },\n    \"category\": {\n      \"type\": \"string\",\n      \"description\"\
+  : \"The cost category.\"\n    },\n    \"subcategory\": {\n      \"type\": \"string\",\n      \"description\": \"The cost subcategory.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/json-schema/vantage-cost-management-cost-schema.json
 tags:
 - Budgets
 - Cloud Pricing

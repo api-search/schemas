@@ -16,6 +16,8 @@ provider_name: Azure Active Directory
 provider_slug: azure-active-directory
 schema_file: json-schema/microsoft-graph-identity-directory-object-schema.json
 slug: microsoft-graph-identity-directory-object
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DirectoryObject\",\n  \"type\": \"object\",\n  \"description\": \"Represents an Azure Active Directory directory object. This is the base type for most directory resources.\",\n  \"properties\": {\n    \"@odata.type\": {\n      \"type\": \"string\",\n      \"description\": \"The OData type of the directory object.\"\n    },\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier for the object. Globally unique across all directory objects.\"\n    },\n    \"deletedDateTime\": {\n      \"type\": \"string\",\n      \"description\": \"Date and time when this object was deleted.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-active-directory/refs/heads/main/json-schema/microsoft-graph-identity-directory-object-schema.json
 tags:
 - Authentication
 - Authorization

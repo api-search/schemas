@@ -7,6 +7,8 @@ provider_name: Airbyte
 provider_slug: airbyte
 schema_file: json-schema/airbyte-actor-type-enum-schema.json
 slug: airbyte-actor-type-enum
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-actor-type-enum-schema.json\",\n  \"title\": \"ActorTypeEnum\",\n  \"description\": \"Whether you're setting this override for a source or destination\",\n  \"enum\": [\n    \"source\",\n    \"destination\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-actor-type-enum-schema.json
 tags:
 - Data Integration
 - ETL

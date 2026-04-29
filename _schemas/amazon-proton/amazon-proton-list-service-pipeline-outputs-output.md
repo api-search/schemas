@@ -13,6 +13,9 @@ provider_name: Amazon Proton
 provider_slug: amazon-proton
 schema_file: json-schema/amazon-proton-list-service-pipeline-outputs-output-schema.json
 slug: amazon-proton-list-service-pipeline-outputs-output
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-pipeline-outputs-output-schema.json\",\n  \"title\": \"ListServicePipelineOutputsOutput\",\n  \"description\": \"ListServicePipelineOutputsOutput schema from Amazon Proton API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"nextToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EmptyNextToken\"\n        },\n        {\n          \"description\": \"A token that indicates the location of the next output in the array of outputs, after the current requested list of outputs.\"\n        }\n      ]\n    },\n    \"outputs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OutputsList\"\n        },\n        {\n          \"description\": \"An array of service pipeline Infrastructure as Code (IaC) outputs.\"\n        }\n\
+  \      ]\n    }\n  },\n  \"required\": [\n    \"outputs\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-pipeline-outputs-output-schema.json
 tags:
 - AWS
 - DevOps

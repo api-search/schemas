@@ -19,6 +19,8 @@ provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 schema_file: json-schema/flight-order-management-contact-dictionary-schema.json
 slug: flight-order-management-contact-dictionary
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-order-management-contact-dictionary-schema.json\",\n  \"title\": \"ContactDictionary\",\n  \"description\": \"represents a contact\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"addresseeName\": {\n      \"description\": \"the name of the person addressed by these contact details\",\n      \"$ref\": \"#/definitions/Name\"\n    },\n    \"address\": {\n      \"$ref\": \"#/definitions/Address\"\n    },\n    \"language\": {\n      \"description\": \"the preferred language of communication with this Contact\",\n      \"type\": \"string\"\n    },\n    \"purpose\": {\n      \"$ref\": \"#/definitions/ContactPurpose\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-order-management-contact-dictionary-schema.json
 tags:
 - Booking
 - Flights

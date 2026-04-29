@@ -28,6 +28,8 @@ provider_name: Workday
 provider_slug: workday
 schema_file: json-schema/prismAnalytics-data-change-task-schema.json
 slug: prismAnalytics-data-change-task
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DataChangeTask\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The Workday ID of the data change task.\"\n    },\n    \"descriptor\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"object\",\n      \"description\": \"The status of the task (e.g., New, Processing, Complete, Error).\"\n    },\n    \"operation\": {\n      \"type\": \"object\",\n      \"description\": \"The operation type (e.g., FullReplace, Append).\"\n    },\n    \"createdOn\": {\n      \"type\": \"string\"\n    },\n    \"completedOn\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/json-schema/prismAnalytics-data-change-task-schema.json
 tags:
 - Cloud Computing
 - Enterprise Software

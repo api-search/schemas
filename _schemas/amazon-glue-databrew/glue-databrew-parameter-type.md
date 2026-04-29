@@ -7,6 +7,8 @@ provider_name: Amazon Glue DataBrew
 provider_slug: amazon-glue-databrew
 schema_file: json-schema/glue-databrew-parameter-type-schema.json
 slug: glue-databrew-parameter-type
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-parameter-type-schema.json\",\n  \"title\": \"ParameterType\",\n  \"description\": \"ParameterType schema from Amazon Glue DataBrew API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"Datetime\",\n    \"Number\",\n    \"String\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-parameter-type-schema.json
 tags:
 - AWS
 - Data Analytics

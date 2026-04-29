@@ -10,6 +10,8 @@ provider_name: Oracle Enterprise Manager
 provider_slug: oracle-enterprise-manager
 schema_file: json-schema/oracle-enterprise-manager-cloud-control-blackout-target-collection-schema.json
 slug: oracle-enterprise-manager-cloud-control-blackout-target-collection
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"BlackoutTargetCollection\",\n  \"type\": \"object\",\n  \"description\": \"Collection of targets in a blackout.\",\n  \"properties\": {\n    \"items\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/json-schema/oracle-enterprise-manager-cloud-control-blackout-target-collection-schema.json
 tags:
 - Cloud Management
 - Database Management

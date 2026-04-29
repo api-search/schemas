@@ -22,6 +22,9 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/hubspot-authors-error-detail-schema.json
 slug: hubspot-authors-error-detail
+source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Detailed information about a specific error\",\n  \"properties\": {\n    \"message\": {\n      \"type\": \"string\",\n      \"description\": \"Human-readable error message\",\n      \"example\": \"This is an example description.\"\n    },\n    \"code\": {\n      \"type\": \"string\",\n      \"description\": \"Machine-readable error code\",\n      \"example\": \"example-value\"\n    },\n    \"subCategory\": {\n      \"type\": \"string\",\n      \"description\": \"Specific error subcategory\",\n      \"example\": \"standard\"\n    },\n    \"in\": {\n      \"type\": \"string\",\n      \"description\": \"Location where the error occurred\",\n      \"example\": \"example-value\"\n    },\n    \"context\": {\n      \"type\": \"object\",\n      \"description\": \"Additional context about the error\",\n      \"example\": {\n        \"key\": \"value\"\n      }\n    }\n  },\n  \"required\": [\n    \"message\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"\
+  ,\n  \"title\": \"ErrorDetail\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/hubspot-authors-error-detail-schema.json
 tags:
 - Analytics
 - Commerce

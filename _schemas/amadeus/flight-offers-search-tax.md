@@ -13,6 +13,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-offers-search-tax-schema.json
 slug: flight-offers-search-tax
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Tax\",\n  \"description\": \"a tax\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"amount\": {\n      \"type\": \"string\"\n    },\n    \"code\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-offers-search-tax-schema.json
 tags:
 - Airlines
 - Aviation

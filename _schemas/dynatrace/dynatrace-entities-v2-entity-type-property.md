@@ -16,6 +16,8 @@ provider_name: Dynatrace
 provider_slug: dynatrace
 schema_file: json-schema/dynatrace-entities-v2-entity-type-property-schema.json
 slug: dynatrace-entities-v2-entity-type-property
+source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Describes a single property of an entity type.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The property key identifier.\",\n      \"example\": \"abc123\"\n    },\n    \"displayName\": {\n      \"type\": \"string\",\n      \"description\": \"The human-readable display name of the property.\",\n      \"example\": \"Production Service\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"The data type of the property value.\",\n      \"example\": \"STANDARD\"\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"EntityTypeProperty\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-schema/dynatrace-entities-v2-entity-type-property-schema.json
 tags:
 - AI Operations
 - Analytics

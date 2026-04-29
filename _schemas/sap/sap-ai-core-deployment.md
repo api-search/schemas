@@ -28,6 +28,8 @@ provider_name: SAP
 provider_slug: sap
 schema_file: json-schema/sap-ai-core-deployment-schema.json
 slug: sap-ai-core-deployment
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Deployment\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Deployment identifier\"\n    },\n    \"configurationId\": {\n      \"type\": \"string\",\n      \"description\": \"Configuration used for this deployment\"\n    },\n    \"scenarioId\": {\n      \"type\": \"string\",\n      \"description\": \"Associated scenario\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Current deployment status\"\n    },\n    \"deploymentUrl\": {\n      \"type\": \"string\",\n      \"description\": \"URL for sending inference requests\"\n    },\n    \"createdAt\": {\n      \"type\": \"string\"\n    },\n    \"modifiedAt\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/json-schema/sap-ai-core-deployment-schema.json
 tags:
 - AI
 - BTP

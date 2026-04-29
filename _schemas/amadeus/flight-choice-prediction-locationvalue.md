@@ -13,6 +13,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-choice-prediction-locationvalue-schema.json
 slug: flight-choice-prediction-locationvalue
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"LocationValue\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"cityCode\": {\n      \"type\": \"string\",\n      \"description\": \"City code associated to the airport\"\n    },\n    \"countryCode\": {\n      \"type\": \"string\",\n      \"description\": \"Country code of the airport\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-choice-prediction-locationvalue-schema.json
 tags:
 - Airlines
 - Aviation

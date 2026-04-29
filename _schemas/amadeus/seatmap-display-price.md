@@ -22,6 +22,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/seatmap-display-price-schema.json
 slug: seatmap-display-price
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Price\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"currency\": {\n      \"type\": \"string\"\n    },\n    \"total\": {\n      \"type\": \"string\",\n      \"description\": \"Total amount paid by the user\"\n    },\n    \"base\": {\n      \"type\": \"string\",\n      \"description\": \"Amount without taxes\"\n    },\n    \"fees\": {\n      \"type\": \"array\",\n      \"description\": \"List of applicable fees\",\n      \"items\": {\n        \"$ref\": \"#/definitions/Fee\"\n      }\n    },\n    \"taxes\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/Tax\"\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/seatmap-display-price-schema.json
 tags:
 - Airlines
 - Aviation

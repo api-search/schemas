@@ -13,6 +13,8 @@ provider_name: OpenShift
 provider_slug: openshift
 schema_file: json-schema/openshift-rest-deployment-trigger-policy-schema.json
 slug: openshift-rest-deployment-trigger-policy
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DeploymentTriggerPolicy\",\n  \"type\": \"object\",\n  \"description\": \"A policy that triggers new deployments.\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"The type of deployment trigger.\"\n    },\n    \"imageChangeParams\": {\n      \"type\": \"object\",\n      \"description\": \"Parameters for an ImageChange trigger.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/json-schema/openshift-rest-deployment-trigger-policy-schema.json
 tags:
 - CI/CD
 - Cloud Native

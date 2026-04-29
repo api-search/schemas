@@ -64,6 +64,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-data-describe-statement-response-schema.json
 slug: redshift-data-describe-statement-response
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ClusterIdentifier\": {},\n    \"CreatedAt\": {},\n    \"Database\": {},\n    \"DbUser\": {},\n    \"Duration\": {},\n    \"Error\": {},\n    \"HasResultSet\": {},\n    \"Id\": {},\n    \"QueryParameters\": {},\n    \"QueryString\": {},\n    \"RedshiftPid\": {},\n    \"RedshiftQueryId\": {},\n    \"ResultRows\": {},\n    \"ResultSize\": {},\n    \"SecretArn\": {},\n    \"Status\": {},\n    \"SubStatements\": {},\n    \"UpdatedAt\": {},\n    \"WorkgroupName\": {}\n  },\n  \"required\": [\n    \"Id\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-describe-statement-response-schema.json\",\n  \"title\": \"DescribeStatementResponse\",\n  \"description\": \"DescribeStatementResponse schema from Amazon Redshift\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-describe-statement-response-schema.json
 tags:
 - Analytics
 - Big Data

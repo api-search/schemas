@@ -22,6 +22,9 @@ provider_name: Amadeus Solutions
 provider_slug: amadeus-solutions
 schema_file: json-schema/seat-map-display-stakeholder-schema.json
 slug: seat-map-display-stakeholder
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/json-schema/seat-map-display-stakeholder-schema.json\",\n  \"title\": \"Stakeholder\",\n  \"description\": \"stakeholder definition\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"description\": \"item identifier\",\n      \"type\": \"string\"\n    },\n    \"dateOfBirth\": {\n      \"type\": \"string\",\n      \"format\": \"date\",\n      \"description\": \"The date of birth in ISO 8601 format (yyyy-mm-dd)\"\n    },\n    \"gender\": {\n      \"$ref\": \"#/definitions/StakeholderGender\"\n    },\n    \"name\": {\n      \"$ref\": \"#/definitions/Name\"\n    },\n    \"documents\": {\n      \"type\": \"array\",\n      \"description\": \"Advanced Passenger Information - regulatory identity documents - SSR DOCS & DOCO elements\",\n      \"items\": {\n        \"$ref\": \"#/definitions/IdentityDocument\"\
+  \n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/json-schema/seat-map-display-stakeholder-schema.json
 tags:
 - Airlines
 - Booking

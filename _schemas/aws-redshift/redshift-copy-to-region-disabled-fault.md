@@ -7,6 +7,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-copy-to-region-disabled-fault-schema.json
 slug: redshift-copy-to-region-disabled-fault
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-copy-to-region-disabled-fault-schema.json\",\n  \"title\": \"CopyToRegionDisabledFault\",\n  \"description\": \"CopyToRegionDisabledFault schema from Amazon Redshift\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-copy-to-region-disabled-fault-schema.json
 tags:
 - Analytics
 - Big Data

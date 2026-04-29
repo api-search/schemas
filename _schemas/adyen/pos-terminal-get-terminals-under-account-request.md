@@ -16,6 +16,9 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/pos-terminal-get-terminals-under-account-request-schema.json
 slug: pos-terminal-get-terminals-under-account-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/pos-terminal-get-terminals-under-account-request-schema.json\",\n  \"title\": \"GetTerminalsUnderAccountRequest\",\n  \"description\": \"GetTerminalsUnderAccountRequest schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"companyAccount\": {\n      \"description\": \"Your company account. If you only specify this parameter, the response includes all terminals at all account levels.\",\n      \"type\": \"string\"\n    },\n    \"merchantAccount\": {\n      \"description\": \"The merchant account. This is required if you are retrieving the terminals assigned to a store.If you don't specify a `store` the response includes the terminals assigned to the specified merchant account and the terminals assigned to the stores under this merchant account.\",\n      \"type\": \"string\"\n    },\n    \"\
+  store\": {\n      \"description\": \"The store code of the store. With this parameter, the response only includes the terminals assigned to the specified store.\",\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"companyAccount\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/pos-terminal-get-terminals-under-account-request-schema.json
 tags:
 - Payments
 - Financial Services

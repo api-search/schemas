@@ -19,6 +19,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-most-booked-destinations-air-traffic-schema.json
 slug: flight-most-booked-destinations-air-traffic
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Air_Traffic\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"subType\": {\n      \"type\": \"string\"\n    },\n    \"destination\": {\n      \"type\": \"string\",\n      \"description\": \"IATA code of the destination city - [IATA table codes](http://www.iata.org/publications/Pages/code-search.aspx)\"\n    },\n    \"analytics\": {\n      \"$ref\": \"#/definitions/Analytics\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-most-booked-destinations-air-traffic-schema.json
 tags:
 - Airlines
 - Aviation

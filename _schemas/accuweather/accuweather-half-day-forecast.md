@@ -31,6 +31,9 @@ provider_name: AccuWeather
 provider_slug: accuweather
 schema_file: json-schema/accuweather-half-day-forecast-schema.json
 slug: accuweather-half-day-forecast
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/json-schema/accuweather-half-day-forecast-schema.json\",\n  \"title\": \"HalfDayForecast\",\n  \"description\": \"HalfDayForecast schema from AccuWeather API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"temperature\": {\n      \"type\": \"number\",\n      \"format\": \"float\",\n      \"nullable\": true\n    },\n    \"displayTemperature\": {\n      \"type\": \"string\",\n      \"nullable\": true\n    },\n    \"icon\": {\n      \"type\": \"integer\",\n      \"format\": \"int32\"\n    },\n    \"iconPhrase\": {\n      \"type\": \"string\",\n      \"nullable\": true\n    },\n    \"phrase\": {\n      \"type\": \"string\",\n      \"nullable\": true\n    },\n    \"longPhrase\": {\n      \"type\": \"string\",\n      \"nullable\": true\n    },\n    \"precip\": {\n      \"type\": \"string\",\n      \"nullable\": true\n\
+  \    },\n    \"realFeelValue\": {\n      \"type\": \"number\",\n      \"format\": \"float\",\n      \"nullable\": true\n    }\n  },\n  \"additionalProperties\": false\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/json-schema/accuweather-half-day-forecast-schema.json
 tags:
 - Weather
 - Forecasts

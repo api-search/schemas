@@ -43,6 +43,9 @@ provider_name: Apache OpenMeetings
 provider_slug: apache-openmeetings
 schema_file: json-schema/apache-openmeetings-invitation-dto-schema.json
 slug: apache-openmeetings-invitation-dto
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/json-schema/apache-openmeetings-invitation-dto-schema.json\",\n  \"title\": \"InvitationDTO\",\n  \"description\": \"InvitationDTO schema from Apache OpenMeetings REST API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"email\": {\n      \"type\": \"string\"\n    },\n    \"firstname\": {\n      \"type\": \"string\"\n    },\n    \"lastname\": {\n      \"type\": \"string\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    },\n    \"subject\": {\n      \"type\": \"string\"\n    },\n    \"roomId\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    },\n    \"passwordProtected\": {\n      \"type\": \"boolean\"\n    },\n    \"password\": {\n      \"type\": \"string\"\n    },\n    \"valid\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"ONE_TIME\",\n        \"PERIOD\"\
+  ,\n        \"ENDLESS\"\n      ]\n    },\n    \"validFrom\": {\n      \"type\": \"string\"\n    },\n    \"validTo\": {\n      \"type\": \"string\"\n    },\n    \"languageId\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/json-schema/apache-openmeetings-invitation-dto-schema.json
 tags:
 - Collaboration
 - Video Conferencing

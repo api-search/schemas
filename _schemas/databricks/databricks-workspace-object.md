@@ -31,6 +31,9 @@ provider_name: Databricks
 provider_slug: databricks
 schema_file: json-schema/databricks-workspace-object-schema.json
 slug: databricks-workspace-object
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkspaceObject\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"object_type\": {\n      \"type\": \"string\",\n      \"description\": \"The type of the workspace object.\"\n    },\n    \"path\": {\n      \"type\": \"string\",\n      \"description\": \"The absolute path of the object in the workspace.\"\n    },\n    \"language\": {\n      \"type\": \"string\",\n      \"description\": \"The language of the notebook, if applicable. Only present for notebook objects.\"\n    },\n    \"object_id\": {\n      \"type\": \"integer\",\n      \"description\": \"The unique identifier of the object.\"\n    },\n    \"created_at\": {\n      \"type\": \"integer\",\n      \"description\": \"The creation time in epoch milliseconds.\"\n    },\n    \"modified_at\": {\n      \"type\": \"integer\",\n      \"description\": \"The last modified time in epoch milliseconds.\"\n    },\n    \"resource_id\": {\n \
+  \     \"type\": \"string\",\n      \"description\": \"Unique identifier for SCIM compliance.\"\n    },\n    \"size\": {\n      \"type\": \"integer\",\n      \"description\": \"The file size in bytes (for FILE objects).\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/json-schema/databricks-workspace-object-schema.json
 tags:
 - AI
 - Analytics

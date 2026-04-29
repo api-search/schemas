@@ -28,6 +28,9 @@ provider_name: Solaris Zones
 provider_slug: solaris-zones
 schema_file: json-schema/solaris-zone-stats-cpu-cap-stats-schema.json
 slug: solaris-zone-stats-cpu-cap-stats
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CpuCapStats\",\n  \"type\": \"object\",\n  \"description\": \"CPU cap statistics\",\n  \"properties\": {\n    \"value\": {\n      \"type\": \"integer\",\n      \"description\": \"CPU cap value in microseconds per second\"\n    },\n    \"usage\": {\n      \"type\": \"integer\",\n      \"description\": \"Current CPU usage in microseconds per second\"\n    },\n    \"nwait\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of times threads waited due to cap\"\n    },\n    \"below\": {\n      \"type\": \"integer\",\n      \"description\": \"Time spent below the cap in nanoseconds\"\n    },\n    \"above\": {\n      \"type\": \"integer\",\n      \"description\": \"Time spent above the cap in nanoseconds\"\n    },\n    \"maxusage\": {\n      \"type\": \"integer\",\n      \"description\": \"Maximum CPU usage observed\"\n    },\n    \"zonename\": {\n      \"type\": \"string\",\n     \
+  \ \"description\": \"Zone name\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-zone-stats-cpu-cap-stats-schema.json
 tags:
 - Containers
 - Kernel Zones

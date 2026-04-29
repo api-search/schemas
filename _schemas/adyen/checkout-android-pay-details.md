@@ -13,6 +13,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/checkout-android-pay-details-schema.json
 slug: checkout-android-pay-details
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-android-pay-details-schema.json\",\n  \"title\": \"AndroidPayDetails\",\n  \"description\": \"AndroidPayDetails schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"checkoutAttemptId\": {\n      \"x-addedInVersion\": \"68\",\n      \"description\": \"The checkout attempt identifier.\",\n      \"type\": \"string\"\n    },\n    \"type\": {\n      \"default\": \"androidpay\",\n      \"description\": \"**androidpay**\",\n      \"enum\": [\n        \"androidpay\"\n      ],\n      \"type\": \"string\"\n    }\n  },\n  \"additionalProperties\": false\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-android-pay-details-schema.json
 tags:
 - Payments
 - Financial Services

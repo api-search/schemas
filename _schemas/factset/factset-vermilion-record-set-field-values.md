@@ -16,6 +16,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-vermilion-record-set-field-values-schema.json
 slug: factset-vermilion-record-set-field-values
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RecordSetFieldValues\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"fieldId\": {\n      \"type\": \"integer\"\n    },\n    \"fieldType\": {\n      \"type\": \"string\"\n    },\n    \"fieldValue\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-vermilion-record-set-field-values-schema.json
 tags:
 - Financial
 - Financial Data

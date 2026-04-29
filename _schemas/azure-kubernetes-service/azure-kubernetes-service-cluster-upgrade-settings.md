@@ -10,6 +10,8 @@ provider_name: Azure Kubernetes Service
 provider_slug: azure-kubernetes-service
 schema_file: json-schema/azure-kubernetes-service-cluster-upgrade-settings-schema.json
 slug: azure-kubernetes-service-cluster-upgrade-settings
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ClusterUpgradeSettings\",\n  \"type\": \"object\",\n  \"description\": \"Settings for upgrading a cluster.\",\n  \"properties\": {\n    \"overrideSettings\": {\n      \"type\": \"object\",\n      \"description\": \"Settings for overrides during upgrade.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-kubernetes-service/refs/heads/main/json-schema/azure-kubernetes-service-cluster-upgrade-settings-schema.json
 tags:
 - Azure
 - Cloud

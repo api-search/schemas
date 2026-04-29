@@ -25,6 +25,8 @@ provider_name: Apache Kafka
 provider_slug: apache-kafka
 schema_file: json-schema/kafka-rest-proxy-broker-schema.json
 slug: kafka-rest-proxy-broker
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-schema/kafka-rest-proxy-broker-schema.json\",\n  \"title\": \"Broker\",\n  \"description\": \"Broker schema from Apache kafka\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"kind\": {\n      \"type\": \"string\"\n    },\n    \"metadata\": {\n      \"type\": \"object\"\n    },\n    \"cluster_id\": {\n      \"type\": \"string\"\n    },\n    \"broker_id\": {\n      \"type\": \"integer\"\n    },\n    \"host\": {\n      \"type\": \"string\"\n    },\n    \"port\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-schema/kafka-rest-proxy-broker-schema.json
 tags:
 - Distributed Systems
 - Event Streaming

@@ -13,6 +13,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/webhooks-recurring-contract-notification-request-schema.json
 slug: webhooks-recurring-contract-notification-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/webhooks-recurring-contract-notification-request-schema.json\",\n  \"title\": \"RecurringContractNotificationRequest\",\n  \"description\": \"RecurringContractNotificationRequest schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"live\": {\n      \"description\": \"Informs about the origin of the notification. The value is **true** when originating from the live environment, **false** for the test environment.\",\n      \"type\": \"string\"\n    },\n    \"notificationItems\": {\n      \"description\": \"A container object for the details included in the notification.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/RecurringContractNotificationRequestItemWrapper\"\n      },\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/webhooks-recurring-contract-notification-request-schema.json
 tags:
 - Payments
 - Financial Services

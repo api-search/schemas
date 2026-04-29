@@ -37,6 +37,9 @@ provider_name: Tableau
 provider_slug: tableau
 schema_file: json-schema/tableau-rest-user-schema.json
 slug: tableau-rest-user
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"User\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier for the user.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name (user name) of the user.\"\n    },\n    \"fullName\": {\n      \"type\": \"string\",\n      \"description\": \"The display name of the user.\"\n    },\n    \"email\": {\n      \"type\": \"string\",\n      \"description\": \"The email address of the user.\"\n    },\n    \"siteRole\": {\n      \"type\": \"string\",\n      \"description\": \"The role of the user on the site.\"\n    },\n    \"authSetting\": {\n      \"type\": \"string\",\n      \"description\": \"The authentication type for the user.\"\n    },\n    \"lastLogin\": {\n      \"type\": \"string\",\n      \"description\": \"The date and time of the user's last login.\"\n    },\n    \"externalAuthUserId\"\
+  : {\n      \"type\": \"string\",\n      \"description\": \"The external authentication user ID.\"\n    },\n    \"locale\": {\n      \"type\": \"string\",\n      \"description\": \"The user's locale setting.\"\n    },\n    \"language\": {\n      \"type\": \"string\",\n      \"description\": \"The user's language setting.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/json-schema/tableau-rest-user-schema.json
 tags:
 - Analytics
 - Business Intelligence

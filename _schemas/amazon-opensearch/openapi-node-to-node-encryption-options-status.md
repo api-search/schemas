@@ -13,6 +13,9 @@ provider_name: Amazon OpenSearch Service API
 provider_slug: amazon-opensearch
 schema_file: json-schema/openapi-node-to-node-encryption-options-status-schema.json
 slug: openapi-node-to-node-encryption-options-status
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-node-to-node-encryption-options-status-schema.json\",\n  \"title\": \"NodeToNodeEncryptionOptionsStatus\",\n  \"description\": \"Status of the node-to-node encryption options for the specified Elasticsearch domain.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Options\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NodeToNodeEncryptionOptions\"\n        },\n        {\n          \"description\": \"Specifies the node-to-node encryption options for the specified Elasticsearch domain.\"\n        }\n      ]\n    },\n    \"Status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OptionStatus\"\n        },\n        {\n          \"description\": \"Specifies the status of the node-to-node encryption options for the specified Elasticsearch\
+  \ domain.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Options\",\n    \"Status\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-node-to-node-encryption-options-status-schema.json
 tags:
 - Analytics
 - AWS

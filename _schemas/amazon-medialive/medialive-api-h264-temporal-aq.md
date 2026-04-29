@@ -7,6 +7,8 @@ provider_name: Amazon MediaLive
 provider_slug: amazon-medialive
 schema_file: json-schema/medialive-api-h264-temporal-aq-schema.json
 slug: medialive-api-h264-temporal-aq
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-h264-temporal-aq-schema.json\",\n  \"title\": \"H264TemporalAq\",\n  \"description\": \"H264 Temporal Aq\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"DISABLED\",\n    \"ENABLED\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-h264-temporal-aq-schema.json
 tags:
 - AWS
 - Broadcasting

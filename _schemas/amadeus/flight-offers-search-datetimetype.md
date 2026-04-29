@@ -13,6 +13,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-offers-search-datetimetype-schema.json
 slug: flight-offers-search-datetimetype
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"DateTimeType\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"date\": {\n      \"type\": \"string\",\n      \"format\": \"date\",\n      \"description\": \"Dates are specified in the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) YYYY-MM-DD format, e.g. 2018-12-25\"\n    },\n    \"time\": {\n      \"type\": \"string\",\n      \"description\": \"Local time. hh:mm:ss format, e.g 10:30:00\"\n    }\n  },\n  \"required\": [\n    \"date\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-offers-search-datetimetype-schema.json
 tags:
 - Airlines
 - Aviation

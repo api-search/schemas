@@ -16,6 +16,9 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/transfers-capital-grant-info-schema.json
 slug: transfers-capital-grant-info
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/transfers-capital-grant-info-schema.json\",\n  \"title\": \"CapitalGrantInfo\",\n  \"description\": \"CapitalGrantInfo schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"counterparty\": {\n      \"description\": \"An object containing the details of the receiving party of the grant. Setting either an `accountHolderId`, `balanceAccountId`, or both is required.\",\n      \"$ref\": \"#/components/schemas/Counterparty\"\n    },\n    \"grantAccountId\": {\n      \"description\": \"The identifier of the grant account used for the grant.\",\n      \"type\": \"string\"\n    },\n    \"grantOfferId\": {\n      \"description\": \"The identifier of the grant offer that has been selected and from which the grant details will be used.\",\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n\
+  \    \"grantAccountId\",\n    \"grantOfferId\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/transfers-capital-grant-info-schema.json
 tags:
 - Payments
 - Financial Services

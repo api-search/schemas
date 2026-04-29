@@ -10,6 +10,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-invitees-schema.json
 slug: salesforce-invitees
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"emails\": {\n      \"type\": \"array\",\n      \"description\": \"\",\n      \"example\": \"user@example.com\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"emails\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Invitees\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-invitees-schema.json
 tags:
 - AI
 - Analytics

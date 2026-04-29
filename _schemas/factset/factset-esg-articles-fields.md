@@ -7,6 +7,9 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-esg-articles-fields-schema.json
 slug: factset-esg-articles-fields
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"articlesFields\",\n  \"type\": \"array\",\n  \"description\": \"Request available Articles data fields to be included in the response.\\n Default is all fields. _fsymId_ and _articleId_ are always included.\\n \\n <h3>Common Fields</h3> \\n  |field|description|\\n  |||\\n  |fsymId|Factset Regional Security Identifier|\\n  |articleId|Unique ID of the article assigned by Truvalue|          \\n  \\n <h3> Articles Fields</h3>\\n \\n  |field|description|\\n  |||\\n  |datePub|Publication date of the article expressed in YYYY-MM-DD format|\\n  |title|Title of the article|\\n  |source|Source of the article|\\n  |categories|categories assigned by Truvalue|\\n  |bullets|AI-generated bullet point summary for each article. Note, including bullets increases response size drastically|\\n  |author|Author of the article|\\n  |url|URL of the article|\\n  |language|Language code of the article|\\n  |orgName|\
+  \ Organization name assigned by Truvalue|\\n  |orgId| Unique identifier assigned by Truvalue that is applied on an organization level\\n  \\n\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-esg-articles-fields-schema.json
 tags:
 - Financial
 - Financial Data

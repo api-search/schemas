@@ -19,6 +19,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-label-schema.json
 slug: atlassian-confluence-content-label
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Label\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"prefix\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"label\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-label-schema.json
 tags:
 - Code
 - Collaboration

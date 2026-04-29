@@ -37,6 +37,8 @@ provider_name: Spot
 provider_slug: spot
 schema_file: json-schema/spot-ocean-ocean-cluster-schema.json
 slug: spot-ocean-ocean-cluster
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"OceanCluster\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"controllerClusterId\": {\n      \"type\": \"string\"\n    },\n    \"region\": {\n      \"type\": \"string\"\n    },\n    \"autoScaler\": {\n      \"type\": \"object\"\n    },\n    \"capacity\": {\n      \"type\": \"object\"\n    },\n    \"strategy\": {\n      \"type\": \"object\"\n    },\n    \"compute\": {\n      \"type\": \"object\"\n    },\n    \"createdAt\": {\n      \"type\": \"string\"\n    },\n    \"updatedAt\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/json-schema/spot-ocean-ocean-cluster-schema.json
 tags:
 - Autoscaling
 - Cloud Infrastructure

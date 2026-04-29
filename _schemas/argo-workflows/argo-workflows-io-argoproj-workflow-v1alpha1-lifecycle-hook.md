@@ -19,6 +19,9 @@ provider_name: Argo Workflows
 provider_slug: argo-workflows
 schema_file: json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-lifecycle-hook-schema.json
 slug: argo-workflows-io-argoproj-workflow-v1alpha1-lifecycle-hook
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-lifecycle-hook-schema.json\",\n  \"title\": \"io.argoproj.workflow.v1alpha1.LifecycleHook\",\n  \"description\": \"io.argoproj.workflow.v1alpha1.LifecycleHook schema from Argo Workflows API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"arguments\": {\n      \"description\": \"Arguments hold arguments to the template\",\n      \"$ref\": \"#/definitions/io.argoproj.workflow.v1alpha1.Arguments\"\n    },\n    \"expression\": {\n      \"description\": \"Expression is a condition expression for when a node will be retried. If it evaluates to false, the node will not be retried and the retry strategy will be ignored\",\n      \"type\": \"string\"\n    },\n    \"template\": {\n      \"description\": \"Template is the name of the template to execute by the hook\"\
+  ,\n      \"type\": \"string\"\n    },\n    \"templateRef\": {\n      \"description\": \"TemplateRef is the reference to the template resource to execute by the hook\",\n      \"$ref\": \"#/definitions/io.argoproj.workflow.v1alpha1.TemplateRef\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-lifecycle-hook-schema.json
 tags:
 - CNCF
 - Containers

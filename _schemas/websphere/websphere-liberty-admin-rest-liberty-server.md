@@ -34,6 +34,9 @@ provider_name: IBM WebSphere
 provider_slug: websphere
 schema_file: json-schema/websphere-liberty-admin-rest-liberty-server-schema.json
 slug: websphere-liberty-admin-rest-liberty-server
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"LibertyServer\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Server name\"\n    },\n    \"wlpVersion\": {\n      \"type\": \"string\",\n      \"description\": \"Liberty version\"\n    },\n    \"productEdition\": {\n      \"type\": \"string\",\n      \"description\": \"Product edition\"\n    },\n    \"javaVersion\": {\n      \"type\": \"string\",\n      \"description\": \"Java version\"\n    },\n    \"javaVendor\": {\n      \"type\": \"string\",\n      \"description\": \"Java vendor\"\n    },\n    \"serverStatus\": {\n      \"type\": \"string\"\n    },\n    \"uptime\": {\n      \"type\": \"integer\",\n      \"description\": \"Server uptime in milliseconds\"\n    },\n    \"installDirectory\": {\n      \"type\": \"string\",\n      \"description\": \"Liberty installation directory\"\n    },\n    \"serverDirectory\": {\n  \
+  \    \"type\": \"string\",\n      \"description\": \"Server configuration directory\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/json-schema/websphere-liberty-admin-rest-liberty-server-schema.json
 tags:
 - Application Server
 - Cloud Native

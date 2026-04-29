@@ -13,6 +13,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-create-orders-chargeableseat-schema.json
 slug: flight-create-orders-chargeableseat
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"ChargeableSeat\",\n  \"description\": \"Details of chargeable seat\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Id of the chargeable seat\"\n    },\n    \"number\": {\n      \"type\": \"string\",\n      \"description\": \"seat number\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-create-orders-chargeableseat-schema.json
 tags:
 - Airlines
 - Aviation

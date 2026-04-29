@@ -40,6 +40,9 @@ provider_name: Zoom
 provider_slug: zoom
 schema_file: json-schema/zoom-meeting-recording-file-schema.json
 slug: zoom-meeting-recording-file
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RecordingFile\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Recording file ID.\"\n    },\n    \"meeting_id\": {\n      \"type\": \"string\",\n      \"description\": \"Meeting ID.\"\n    },\n    \"recording_start\": {\n      \"type\": \"string\",\n      \"description\": \"Recording start time.\"\n    },\n    \"recording_end\": {\n      \"type\": \"string\",\n      \"description\": \"Recording end time.\"\n    },\n    \"file_type\": {\n      \"type\": \"string\",\n      \"description\": \"Recording file type.\"\n    },\n    \"file_extension\": {\n      \"type\": \"string\",\n      \"description\": \"File extension.\"\n    },\n    \"file_size\": {\n      \"type\": \"number\",\n      \"description\": \"File size in bytes.\"\n    },\n    \"download_url\": {\n      \"type\": \"string\",\n      \"description\": \"URL to download\
+  \ the recording file.\"\n    },\n    \"play_url\": {\n      \"type\": \"string\",\n      \"description\": \"URL to play the recording file.\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Recording status.\"\n    },\n    \"recording_type\": {\n      \"type\": \"string\",\n      \"description\": \"Recording type.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/json-schema/zoom-meeting-recording-file-schema.json
 tags:
 - Chat
 - Collaboration

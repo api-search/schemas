@@ -25,6 +25,8 @@ provider_name: Google Campaign Manager
 provider_slug: google-campaign-manager
 schema_file: json-schema/google-campaign-manager-geo-targeting-schema.json
 slug: google-campaign-manager-geo-targeting
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"GeoTargeting\",\n  \"type\": \"object\",\n  \"description\": \"Geographic targeting configuration.\",\n  \"properties\": {\n    \"countries\": {\n      \"type\": \"array\",\n      \"description\": \"Countries to target.\"\n    },\n    \"regions\": {\n      \"type\": \"array\",\n      \"description\": \"Regions to target.\"\n    },\n    \"cities\": {\n      \"type\": \"array\",\n      \"description\": \"Cities to target.\"\n    },\n    \"metros\": {\n      \"type\": \"array\",\n      \"description\": \"Metros to target.\"\n    },\n    \"postalCodes\": {\n      \"type\": \"array\",\n      \"description\": \"Postal codes to target.\"\n    },\n    \"excludeCountries\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to exclude the specified geographic locations.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/json-schema/google-campaign-manager-geo-targeting-schema.json
 tags:
 - Advertising
 - Analytics

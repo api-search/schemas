@@ -10,6 +10,8 @@ provider_name: Amazon Global Accelerator
 provider_slug: amazon-global-accelerator
 schema_file: json-schema/global-accelerator-describe-custom-routing-endpoint-group-response-schema.json
 slug: global-accelerator-describe-custom-routing-endpoint-group-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/json-schema/global-accelerator-describe-custom-routing-endpoint-group-response-schema.json\",\n  \"title\": \"DescribeCustomRoutingEndpointGroupResponse\",\n  \"description\": \"DescribeCustomRoutingEndpointGroupResponse schema from Amazon Global Accelerator API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"EndpointGroup\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CustomRoutingEndpointGroup\"\n        },\n        {\n          \"description\": \"The description of an endpoint group for a custom routing accelerator.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/json-schema/global-accelerator-describe-custom-routing-endpoint-group-response-schema.json
 tags:
 - Availability
 - AWS

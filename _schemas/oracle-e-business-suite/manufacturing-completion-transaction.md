@@ -28,6 +28,8 @@ provider_name: Oracle E-Business Suite
 provider_slug: oracle-e-business-suite
 schema_file: json-schema/manufacturing-completion-transaction-schema.json
 slug: manufacturing-completion-transaction
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CompletionTransaction\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"wipEntityId\": {\n      \"type\": \"integer\",\n      \"description\": \"WIP entity identifier\"\n    },\n    \"organizationId\": {\n      \"type\": \"integer\",\n      \"description\": \"Organization identifier\"\n    },\n    \"transactionQuantity\": {\n      \"type\": \"number\",\n      \"description\": \"Completion quantity\"\n    },\n    \"transactionUom\": {\n      \"type\": \"string\",\n      \"description\": \"Transaction unit of measure\"\n    },\n    \"subinventoryCode\": {\n      \"type\": \"string\",\n      \"description\": \"Completion subinventory\"\n    },\n    \"locatorId\": {\n      \"type\": \"integer\",\n      \"description\": \"Completion locator\"\n    },\n    \"transactionDate\": {\n      \"type\": \"string\",\n      \"description\": \"Transaction date\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/json-schema/manufacturing-completion-transaction-schema.json
 tags:
 - Business Applications
 - E-Business Suite

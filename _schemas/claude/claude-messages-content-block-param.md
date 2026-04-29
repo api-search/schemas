@@ -7,6 +7,8 @@ provider_name: Claude
 provider_slug: claude
 schema_file: json-schema/claude-messages-content-block-param-schema.json
 slug: claude-messages-content-block-param
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ContentBlockParam\",\n  \"type\": \"object\",\n  \"description\": \"A content block in a message request.\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/json-schema/claude-messages-content-block-param-schema.json
 tags:
 - Artificial Intelligence
 - Chatbot

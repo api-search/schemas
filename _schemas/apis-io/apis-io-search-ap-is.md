@@ -7,6 +7,8 @@ provider_name: APIs.io
 provider_slug: apis-io
 schema_file: json-schema/apis-io-search-ap-is-schema.json
 slug: apis-io-search-ap-is
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/json-schema/apis-io-search-ap-is-schema.json\",\n  \"title\": \"APIs\",\n  \"description\": \"Listing of APIs in the APIs.json format.\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/API\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/json-schema/apis-io-search-ap-is-schema.json
 tags:
 - API Aggregation
 - API Directory

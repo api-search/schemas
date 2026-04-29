@@ -34,6 +34,9 @@ provider_name: ARGUS Enterprise
 provider_slug: argus-enterprise
 schema_file: json-schema/argus-enterprise-user-schema.json
 slug: argus-enterprise-user
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/json-schema/argus-enterprise-user-schema.json\",\n  \"title\": \"User\",\n  \"description\": \"User schema from ARGUS Enterprise API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"format\": \"uuid\",\n      \"description\": \"Unique user identifier\"\n    },\n    \"username\": {\n      \"type\": \"string\",\n      \"description\": \"Username\"\n    },\n    \"email\": {\n      \"type\": \"string\",\n      \"format\": \"email\",\n      \"description\": \"User email address\"\n    },\n    \"firstName\": {\n      \"type\": \"string\",\n      \"description\": \"First name\"\n    },\n    \"lastName\": {\n      \"type\": \"string\",\n      \"description\": \"Last name\"\n    },\n    \"role\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"Admin\",\n  \
+  \      \"Analyst\",\n        \"Viewer\"\n      ],\n      \"description\": \"User role\"\n    },\n    \"lastLogin\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Last login timestamp\"\n    },\n    \"active\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the user account is active\"\n    },\n    \"createdAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/json-schema/argus-enterprise-user-schema.json
 tags:
 - Altus Group
 - Asset Management

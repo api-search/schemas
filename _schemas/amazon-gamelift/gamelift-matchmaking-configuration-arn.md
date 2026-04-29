@@ -7,6 +7,8 @@ provider_name: Amazon GameLift
 provider_slug: amazon-gamelift
 schema_file: json-schema/gamelift-matchmaking-configuration-arn-schema.json
 slug: gamelift-matchmaking-configuration-arn
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-matchmaking-configuration-arn-schema.json\",\n  \"title\": \"MatchmakingConfigurationArn\",\n  \"description\": \"Data type used for Matchmaking Configuration ARN.\",\n  \"type\": \"string\",\n  \"pattern\": \"^arn:.*:matchmakingconfiguration\\\\/[a-zA-Z0-9-\\\\.]*\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-matchmaking-configuration-arn-schema.json
 tags:
 - AWS
 - Cloud Computing

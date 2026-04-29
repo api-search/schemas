@@ -31,6 +31,9 @@ provider_name: Azure Databricks
 provider_slug: azure-databricks
 schema_file: json-schema/azure-databricks-node-type-schema.json
 slug: azure-databricks-node-type
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"NodeType\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"node_type_id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the node type\"\n    },\n    \"memory_mb\": {\n      \"type\": \"integer\",\n      \"description\": \"Memory in megabytes\"\n    },\n    \"num_cores\": {\n      \"type\": \"number\",\n      \"description\": \"Number of CPU cores\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"Human-readable description\"\n    },\n    \"instance_type_id\": {\n      \"type\": \"string\",\n      \"description\": \"Azure instance type identifier\"\n    },\n    \"is_deprecated\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the node type is deprecated\"\n    },\n    \"num_gpus\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of GPUs available\"\n    },\n    \"category\": {\n \
+  \     \"type\": \"string\",\n      \"description\": \"Category of the node type (General Purpose, Memory Optimized, etc.)\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/json-schema/azure-databricks-node-type-schema.json
 tags:
 - Analytics
 - Apache Spark

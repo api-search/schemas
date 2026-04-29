@@ -31,6 +31,9 @@ provider_name: Ambassador
 provider_slug: ambassador
 schema_file: json-schema/ambassador-object-meta-schema.json
 slug: ambassador-object-meta
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ObjectMeta\",\n  \"type\": \"object\",\n  \"description\": \"Standard Kubernetes object metadata\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the resource, unique within a namespace\"\n    },\n    \"namespace\": {\n      \"type\": \"string\",\n      \"description\": \"Kubernetes namespace the resource belongs to\"\n    },\n    \"labels\": {\n      \"type\": \"object\",\n      \"description\": \"Key-value pairs for organizing and selecting resources\"\n    },\n    \"annotations\": {\n      \"type\": \"object\",\n      \"description\": \"Key-value pairs for storing arbitrary non-identifying metadata\"\n    },\n    \"creationTimestamp\": {\n      \"type\": \"string\",\n      \"description\": \"Timestamp when the resource was created\"\n    },\n    \"generation\": {\n      \"type\": \"integer\",\n      \"description\": \"Sequence number\
+  \ representing a specific generation of the resource\"\n    },\n    \"resourceVersion\": {\n      \"type\": \"string\",\n      \"description\": \"Opaque value for optimistic concurrency control\"\n    },\n    \"uid\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the resource\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/json-schema/ambassador-object-meta-schema.json
 tags:
 - API Development
 - Gateways

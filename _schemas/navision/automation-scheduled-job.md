@@ -28,6 +28,8 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/automation-scheduled-job-schema.json
 slug: automation-scheduled-job
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ScheduledJob\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"category\": {\n      \"type\": \"string\",\n      \"description\": \"The job category\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The job status\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"The job description\"\n    },\n    \"errorMessage\": {\n      \"type\": \"string\",\n      \"description\": \"Error message if the job failed\"\n    },\n    \"startDateTime\": {\n      \"type\": \"string\"\n    },\n    \"endDateTime\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/automation-scheduled-job-schema.json
 tags:
 - Business Management
 - Dynamics NAV

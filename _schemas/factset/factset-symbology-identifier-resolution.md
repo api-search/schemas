@@ -22,6 +22,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-symbology-identifier-resolution-schema.json
 slug: factset-symbology-identifier-resolution
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"identifierResolution\",\n  \"type\": \"object\",\n  \"description\": \"Identifier Resolution data object.\",\n  \"properties\": {\n    \"requestId\": {\n      \"type\": \"string\",\n      \"description\": \"Identifier inputted in the request.\"\n    },\n    \"inputSymbolType\": {\n      \"type\": \"string\",\n      \"description\": \"The type of identifier inputted in the request\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the requested identifier\"\n    },\n    \"frefListingExchange\": {\n      \"type\": \"string\",\n      \"description\": \"The 3 digit fref exchange code for the primary exchange of the security\"\n    },\n    \"currency\": {\n      \"type\": \"string\",\n      \"description\": \"The 3 digit ISO code for the currency\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-symbology-identifier-resolution-schema.json
 tags:
 - Financial
 - Financial Data

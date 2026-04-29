@@ -25,6 +25,9 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/configuration-delivery-contact-schema.json
 slug: configuration-delivery-contact
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/configuration-delivery-contact-schema.json\",\n  \"title\": \"DeliveryContact\",\n  \"description\": \"DeliveryContact schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"address\": {\n      \"description\": \"The address of the contact.\",\n      \"$ref\": \"#/components/schemas/DeliveryAddress\"\n    },\n    \"email\": {\n      \"description\": \"The email address of the contact.\",\n      \"type\": \"string\"\n    },\n    \"fullPhoneNumber\": {\n      \"description\": \"The full phone number of the contact provided as a single string. It will be handled as a landline phone.\\n**Examples:** \\\"0031 6 11 22 33 44\\\", \\\"+316/1122-3344\\\", \\\"(0031) 611223344\\\"\",\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"description\": \"The name of the contact.\",\n      \"\
+  $ref\": \"#/components/schemas/Name\"\n    },\n    \"phoneNumber\": {\n      \"description\": \"The phone number of the contact.\",\n      \"$ref\": \"#/components/schemas/PhoneNumber\"\n    },\n    \"webAddress\": {\n      \"description\": \"The URL of the contact's website.\",\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"address\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/configuration-delivery-contact-schema.json
 tags:
 - Payments
 - Financial Services

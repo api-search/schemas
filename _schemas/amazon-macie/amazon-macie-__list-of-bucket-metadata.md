@@ -7,6 +7,8 @@ provider_name: Amazon Macie
 provider_slug: amazon-macie
 schema_file: json-schema/amazon-macie-__list-of-bucket-metadata-schema.json
 slug: amazon-macie-__list-of-bucket-metadata
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-__list-of-bucket-metadata-schema.json\",\n  \"title\": \"__listOfBucketMetadata\",\n  \"description\": \"__listOfBucketMetadata schema from Amazon Macie API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/BucketMetadata\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-__list-of-bucket-metadata-schema.json
 tags:
 - AWS
 - Data Security

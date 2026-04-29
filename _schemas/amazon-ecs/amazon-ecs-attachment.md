@@ -19,6 +19,8 @@ provider_name: Amazon ECS
 provider_slug: amazon-ecs
 schema_file: json-schema/amazon-ecs-attachment-schema.json
 slug: amazon-ecs-attachment
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Attachment\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"details\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/json-schema/amazon-ecs-attachment-schema.json
 tags:
 - Amazon
 - Aws

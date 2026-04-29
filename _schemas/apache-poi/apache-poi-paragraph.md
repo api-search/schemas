@@ -16,6 +16,8 @@ provider_name: Apache POI
 provider_slug: apache-poi
 schema_file: json-schema/apache-poi-paragraph-schema.json
 slug: apache-poi-paragraph
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/json-schema/apache-poi-paragraph-schema.json\",\n  \"title\": \"Paragraph\",\n  \"description\": \"Paragraph in a Word document\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"index\": {\n      \"type\": \"integer\",\n      \"description\": \"Paragraph index\"\n    },\n    \"text\": {\n      \"type\": \"string\",\n      \"description\": \"Paragraph text content\"\n    },\n    \"style\": {\n      \"type\": \"string\",\n      \"description\": \"Paragraph style name\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/json-schema/apache-poi-paragraph-schema.json
 tags:
 - Document Processing
 - Excel

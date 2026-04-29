@@ -13,6 +13,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-create-orders-originalflightendpoint-schema.json
 slug: flight-create-orders-originalflightendpoint
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"OriginalFlightEndPoint\",\n  \"description\": \"departure or arrival information\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"iataCode\": {\n      \"type\": \"string\",\n      \"description\": \"[IATA airline codes](http://www.iata.org/publications/Pages/code-search.aspx)\"\n    },\n    \"terminal\": {\n      \"type\": \"string\",\n      \"description\": \"terminal name / number\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-create-orders-originalflightendpoint-schema.json
 tags:
 - Airlines
 - Aviation

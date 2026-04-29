@@ -82,6 +82,9 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-modify-cluster-message-schema.json
 slug: redshift-modify-cluster-message
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ClusterIdentifier\": {},\n    \"ClusterType\": {},\n    \"NodeType\": {},\n    \"NumberOfNodes\": {},\n    \"ClusterSecurityGroups\": {},\n    \"VpcSecurityGroupIds\": {},\n    \"MasterUserPassword\": {},\n    \"ClusterParameterGroupName\": {},\n    \"AutomatedSnapshotRetentionPeriod\": {},\n    \"ManualSnapshotRetentionPeriod\": {},\n    \"PreferredMaintenanceWindow\": {},\n    \"ClusterVersion\": {},\n    \"AllowVersionUpgrade\": {},\n    \"HsmClientCertificateIdentifier\": {},\n    \"HsmConfigurationIdentifier\": {},\n    \"NewClusterIdentifier\": {},\n    \"PubliclyAccessible\": {},\n    \"ElasticIp\": {},\n    \"EnhancedVpcRouting\": {},\n    \"MaintenanceTrackName\": {},\n    \"Encrypted\": {},\n    \"KmsKeyId\": {},\n    \"AvailabilityZoneRelocation\": {},\n    \"AvailabilityZone\": {},\n    \"Port\": {}\n  },\n  \"required\": [\n    \"ClusterIdentifier\"\n  ],\n  \"description\": \"<p/>\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"\
+  ,\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-modify-cluster-message-schema.json\",\n  \"title\": \"ModifyClusterMessage\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-modify-cluster-message-schema.json
 tags:
 - Analytics
 - Big Data

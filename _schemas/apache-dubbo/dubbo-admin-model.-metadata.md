@@ -25,6 +25,8 @@ provider_name: Apache Dubbo
 provider_slug: apache-dubbo
 schema_file: json-schema/dubbo-admin-model.-metadata-schema.json
 slug: dubbo-admin-model.-metadata
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/json-schema/dubbo-admin-model.-metadata-schema.json\",\n  \"title\": \"model.Metadata\",\n  \"description\": \"model.Metadata schema from Dubbo Admin API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"configCenter\": {\n      \"type\": \"string\"\n    },\n    \"metadataCenter\": {\n      \"type\": \"string\"\n    },\n    \"protocols\": {\n      \"type\": \"array\",\n      \"items\": {}\n    },\n    \"registry\": {\n      \"type\": \"string\"\n    },\n    \"rules\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"versions\": {\n      \"type\": \"array\",\n      \"items\": {}\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/json-schema/dubbo-admin-model.-metadata-schema.json
 tags:
 - Apache
 - Go

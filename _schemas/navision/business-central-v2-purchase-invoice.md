@@ -52,6 +52,9 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/business-central-v2-purchase-invoice-schema.json
 slug: business-central-v2-purchase-invoice
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PurchaseInvoice\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"number\": {\n      \"type\": \"string\"\n    },\n    \"invoiceDate\": {\n      \"type\": \"string\"\n    },\n    \"postingDate\": {\n      \"type\": \"string\"\n    },\n    \"dueDate\": {\n      \"type\": \"string\"\n    },\n    \"vendorId\": {\n      \"type\": \"string\"\n    },\n    \"vendorNumber\": {\n      \"type\": \"string\"\n    },\n    \"vendorName\": {\n      \"type\": \"string\"\n    },\n    \"currencyCode\": {\n      \"type\": \"string\"\n    },\n    \"pricesIncludeTax\": {\n      \"type\": \"boolean\"\n    },\n    \"totalAmountExcludingTax\": {\n      \"type\": \"number\"\n    },\n    \"totalTaxAmount\": {\n      \"type\": \"number\"\n    },\n    \"totalAmountIncludingTax\": {\n      \"type\": \"number\"\n    },\n    \"status\": {\n      \"type\": \"string\"\
+  \n    },\n    \"lastModifiedDateTime\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-purchase-invoice-schema.json
 tags:
 - Business Management
 - Dynamics NAV

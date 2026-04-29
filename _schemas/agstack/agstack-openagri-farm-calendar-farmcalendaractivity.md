@@ -34,6 +34,9 @@ provider_name: AgStack Foundation
 provider_slug: agstack
 schema_file: json-schema/agstack-openagri-farm-calendar-farmcalendaractivity-schema.json
 slug: agstack-openagri-farm-calendar-farmcalendaractivity
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://agstack.org/schemas/FarmCalendarActivity.json\",\n  \"title\": \"FarmCalendarActivity\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"format\": \"uuid\",\n      \"readOnly\": true\n    },\n    \"activityType\": {\n      \"type\": \"string\",\n      \"format\": \"uuid\"\n    },\n    \"title\": {\n      \"type\": \"string\",\n      \"maxLength\": 200\n    },\n    \"details\": {\n      \"type\": \"string\",\n      \"nullable\": true\n    },\n    \"hasStartDatetime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"hasEndDatetime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"nullable\": true\n    },\n    \"hasAgriParcel\": {\n      \"type\": \"string\",\n      \"format\": \"uuid\"\n    },\n    \"responsibleAgent\": {\n      \"type\": \"string\",\n      \"nullable\": true\n  \
+  \  },\n    \"usesAgriculturalMachinery\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\",\n        \"format\": \"uuid\"\n      }\n    }\n  },\n  \"required\": [\n    \"activityType\",\n    \"hasAgriParcel\",\n    \"hasStartDatetime\",\n    \"id\",\n    \"usesAgriculturalMachinery\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/json-schema/agstack-openagri-farm-calendar-farmcalendaractivity-schema.json
 tags:
 - Agriculture
 - Linux Foundation

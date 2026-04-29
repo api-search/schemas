@@ -31,6 +31,8 @@ provider_name: Oracle GoldenGate
 provider_slug: oracle-goldengate
 schema_file: json-schema/oracle-goldengate-rest-create-extract-request-schema.json
 slug: oracle-goldengate-rest-create-extract-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateExtractRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"begin\": {\n      \"type\": \"string\",\n      \"description\": \"Begin position (NOW, SCN value, or timestamp)\"\n    },\n    \"trail\": {\n      \"type\": \"string\",\n      \"description\": \"Trail file prefix (e.g., aa)\"\n    },\n    \"trailSize\": {\n      \"type\": \"integer\",\n      \"description\": \"Trail file size in MB (default 500)\"\n    },\n    \"config\": {\n      \"type\": \"array\",\n      \"description\": \"Parameter file content\"\n    },\n    \"registration\": {\n      \"type\": \"string\"\n    },\n    \"credentials\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/json-schema/oracle-goldengate-rest-create-extract-request-schema.json
 tags:
 - CDC
 - Data Integration

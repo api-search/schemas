@@ -22,6 +22,8 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-policy-partitions-schema.json
 slug: tyk-gateway-policy-partitions
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PolicyPartitions\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"acl\": {\n      \"type\": \"boolean\"\n    },\n    \"complexity\": {\n      \"type\": \"boolean\"\n    },\n    \"per_api\": {\n      \"type\": \"boolean\"\n    },\n    \"quota\": {\n      \"type\": \"boolean\"\n    },\n    \"rate_limit\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-policy-partitions-schema.json
 tags:
 - API Gateway
 - API Management

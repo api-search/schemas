@@ -16,6 +16,8 @@ provider_name: Amazon API Gateway
 provider_slug: amazon-api-gateway
 schema_file: json-schema/amazon-api-gateway-basepathmapping-schema.json
 slug: amazon-api-gateway-basepathmapping
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"BasePathMapping\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"basePath\": {\n      \"type\": \"string\"\n    },\n    \"restApiId\": {\n      \"type\": \"string\"\n    },\n    \"stage\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-basepathmapping-schema.json
 tags:
 - AWS
 - Gateway

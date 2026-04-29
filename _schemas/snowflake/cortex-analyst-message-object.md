@@ -13,6 +13,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/cortex-analyst-message-object-schema.json
 slug: cortex-analyst-message-object
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"MessageObject\",\n  \"type\": \"object\",\n  \"description\": \"Represents a message within a chat.\",\n  \"properties\": {\n    \"role\": {\n      \"type\": \"string\",\n      \"description\": \"The entity that produced the message. One of `user` or `analyst`.\"\n    },\n    \"content\": {\n      \"type\": \"array\",\n      \"description\": \"The content of the message in array of text or SQL.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/cortex-analyst-message-object-schema.json
 tags:
 - Data Lakes
 - Data Sharing

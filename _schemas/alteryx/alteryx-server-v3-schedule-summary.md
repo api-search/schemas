@@ -25,6 +25,8 @@ provider_name: Alteryx
 provider_slug: alteryx
 schema_file: json-schema/alteryx-server-v3-schedule-summary-schema.json
 slug: alteryx-server-v3-schedule-summary
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ScheduleSummary\",\n  \"type\": \"object\",\n  \"description\": \"Summary representation of a schedule\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique schedule identifier\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the schedule\"\n    },\n    \"workflowId\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the associated workflow\"\n    },\n    \"ownerId\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the schedule owner\"\n    },\n    \"runDateTime\": {\n      \"type\": \"string\",\n      \"description\": \"Next scheduled run date and time\"\n    },\n    \"timeZone\": {\n      \"type\": \"string\",\n      \"description\": \"Time zone for the schedule\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/json-schema/alteryx-server-v3-schedule-summary-schema.json
 tags:
 - Analytics
 - Automation

@@ -16,6 +16,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/hubspot-crm-associations-create-label-input-schema.json
 slug: hubspot-crm-associations-create-label-input
+source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Input for creating an association label\",\n  \"properties\": {\n    \"label\": {\n      \"type\": \"string\",\n      \"description\": \"Display text for the label\",\n      \"example\": \"Example Record\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Internal name for the label\",\n      \"example\": \"Example Record\"\n    },\n    \"inverseLabel\": {\n      \"type\": \"string\",\n      \"description\": \"Label for the inverse direction\",\n      \"example\": \"Example Record\"\n    }\n  },\n  \"required\": [\n    \"label\",\n    \"name\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateLabelInput\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/hubspot-crm-associations-create-label-input-schema.json
 tags:
 - Analytics
 - Commerce

@@ -22,6 +22,9 @@ provider_name: Amazon Keyspaces
 provider_slug: amazon-keyspaces
 schema_file: json-schema/amazon-keyspaces-table-schema.json
 slug: amazon-keyspaces-table
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/json-schema/amazon-keyspaces-table-schema.json\",\n  \"title\": \"Table\",\n  \"description\": \"An Amazon Keyspaces table.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"keyspaceName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the keyspace that the table is associated with.\",\n      \"example\": \"my_keyspace\"\n    },\n    \"tableName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the table.\",\n      \"example\": \"my_table\"\n    },\n    \"resourceArn\": {\n      \"type\": \"string\",\n      \"description\": \"The Amazon Resource Name (ARN) of the table.\",\n      \"example\": \"arn:aws:cassandra:us-east-1:123456789012:/keyspace/my_keyspace/table/my_table\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The current\
+  \ status of the table.\",\n      \"example\": \"ACTIVE\",\n      \"enum\": [\n        \"ACTIVE\",\n        \"CREATING\",\n        \"UPDATING\",\n        \"DELETING\",\n        \"DELETED\",\n        \"RESTORING\",\n        \"INACCESSIBLE_ENCRYPTION_CREDENTIALS\"\n      ]\n    },\n    \"creationTimestamp\": {\n      \"type\": \"string\",\n      \"description\": \"The timestamp of when the table was created.\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/json-schema/amazon-keyspaces-table-schema.json
 tags:
 - AWS
 - Cassandra

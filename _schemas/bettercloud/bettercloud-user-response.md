@@ -10,6 +10,8 @@ provider_name: BetterCloud
 provider_slug: bettercloud
 schema_file: json-schema/bettercloud-user-response-schema.json
 slug: bettercloud-user-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/json-schema/bettercloud-user-response-schema.json\",\n  \"title\": \"UserResponse\",\n  \"description\": \"Single user response.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"data\": {\n      \"$ref\": \"#/components/schemas/User\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/json-schema/bettercloud-user-response-schema.json
 tags:
 - Automation
 - Compliance

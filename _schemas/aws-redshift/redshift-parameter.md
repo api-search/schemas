@@ -34,6 +34,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-parameter-schema.json
 slug: redshift-parameter
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ParameterName\": {},\n    \"ParameterValue\": {},\n    \"Description\": {},\n    \"Source\": {},\n    \"DataType\": {},\n    \"AllowedValues\": {},\n    \"ApplyType\": {},\n    \"IsModifiable\": {},\n    \"MinimumEngineVersion\": {}\n  },\n  \"description\": \"Describes a parameter in a cluster parameter group.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-parameter-schema.json\",\n  \"title\": \"Parameter\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-parameter-schema.json
 tags:
 - Analytics
 - Big Data

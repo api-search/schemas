@@ -37,6 +37,8 @@ provider_name: AWS CloudFormation
 provider_slug: cloudformation
 schema_file: json-schema/cloudformation-stack-instance-schema.json
 slug: cloudformation-stack-instance
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"StackInstance\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"StackSetId\": {\n      \"type\": \"string\"\n    },\n    \"Region\": {\n      \"type\": \"string\"\n    },\n    \"Account\": {\n      \"type\": \"string\"\n    },\n    \"StackId\": {\n      \"type\": \"string\"\n    },\n    \"ParameterOverrides\": {\n      \"type\": \"array\"\n    },\n    \"Status\": {\n      \"type\": \"string\"\n    },\n    \"StackInstanceStatus\": {\n      \"type\": \"object\"\n    },\n    \"StatusReason\": {\n      \"type\": \"string\"\n    },\n    \"DriftStatus\": {\n      \"type\": \"string\"\n    },\n    \"LastDriftCheckTimestamp\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-stack-instance-schema.json
 tags:
 - Automation
 - AWS

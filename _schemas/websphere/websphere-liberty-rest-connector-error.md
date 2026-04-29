@@ -13,6 +13,8 @@ provider_name: IBM WebSphere
 provider_slug: websphere
 schema_file: json-schema/websphere-liberty-rest-connector-error-schema.json
 slug: websphere-liberty-rest-connector-error
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Error\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"string\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/json-schema/websphere-liberty-rest-connector-error-schema.json
 tags:
 - Application Server
 - Cloud Native

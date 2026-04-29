@@ -16,6 +16,8 @@ provider_name: Airbyte
 provider_slug: airbyte
 schema_file: json-schema/airbyte-group-create-request-schema.json
 slug: airbyte-group-create-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-group-create-request-schema.json\",\n  \"title\": \"GroupCreateRequest\",\n  \"description\": \"Request body for creating a group\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the group\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"nullable\": true,\n      \"description\": \"Optional description of the group\"\n    },\n    \"organizationId\": {\n      \"type\": \"string\",\n      \"format\": \"uuid\",\n      \"description\": \"The ID of the organization the group belongs to\"\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"organizationId\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-group-create-request-schema.json
 tags:
 - Data Integration
 - ETL

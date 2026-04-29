@@ -25,6 +25,9 @@ provider_name: ArchiMate
 provider_slug: archimate
 schema_file: json-schema/archimate-model-exchange-api-model-schema.json
 slug: archimate-model-exchange-api-model
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique model identifier\",\n      \"example\": \"model-001\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Model name\",\n      \"example\": \"Enterprise Architecture Baseline\"\n    },\n    \"version\": {\n      \"type\": \"string\",\n      \"description\": \"Model version\",\n      \"example\": \"2025.1\"\n    },\n    \"language\": {\n      \"type\": \"string\",\n      \"description\": \"ArchiMate language version\",\n      \"example\": \"ArchiMate 3.2\"\n    },\n    \"createdAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Model creation timestamp\",\n      \"example\": \"2026-01-15T10:00:00Z\"\n    },\n    \"modifiedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Last modification timestamp\",\n      \"example\": \"2026-04-19T10:00:00Z\"\
+  \n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/json-schema/archimate-model-exchange-api-model-schema.json\",\n  \"title\": \"Model\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/json-schema/archimate-model-exchange-api-model-schema.json
 tags:
 - Enterprise Architecture
 - Architecture Framework

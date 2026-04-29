@@ -22,6 +22,8 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-health-check-item-schema.json
 slug: tyk-gateway-health-check-item
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"HealthCheckItem\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"componentId\": {\n      \"type\": \"string\"\n    },\n    \"componentType\": {\n      \"type\": \"string\"\n    },\n    \"output\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"time\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-health-check-item-schema.json
 tags:
 - API Gateway
 - API Management

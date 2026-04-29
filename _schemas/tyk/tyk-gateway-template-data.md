@@ -19,6 +19,8 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-template-data-schema.json
 slug: tyk-gateway-template-data
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TemplateData\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"enable_session\": {\n      \"type\": \"boolean\"\n    },\n    \"input_type\": {\n      \"type\": \"string\"\n    },\n    \"template_mode\": {\n      \"type\": \"string\"\n    },\n    \"template_source\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-template-data-schema.json
 tags:
 - API Gateway
 - API Management

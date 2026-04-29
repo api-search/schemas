@@ -13,6 +13,9 @@ provider_name: Amazon Cognito
 provider_slug: amazon-cognito
 schema_file: json-schema/user-pools-user-context-data-type-schema.json
 slug: user-pools-user-context-data-type
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/json-schema/user-pools-user-context-data-type-schema.json\",\n  \"title\": \"UserContextDataType\",\n  \"description\": \"Contextual data, such as the user's device fingerprint, IP address, or location, used for evaluating the risk of an unexpected event by Amazon Cognito advanced security.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"IpAddress\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StringType\"\n        },\n        {\n          \"description\": \"The source IP address of your user's device.\"\n        }\n      ]\n    },\n    \"EncodedData\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StringType\"\n        },\n        {\n          \"description\": \"Encoded device-fingerprint details that your app collected with the Amazon Cognito\
+  \ context data collection library. For more information, see <a href=\\\"https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pool-settings-adaptive-authentication.html#user-pool-settings-adaptive-authentication-device-fingerprint\\\">Adding user device and session data to API requests</a>.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/json-schema/user-pools-user-context-data-type-schema.json
 tags:
 - Authentication
 - AWS

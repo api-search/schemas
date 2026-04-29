@@ -10,6 +10,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-most-booked-destinations-travelers-schema.json
 slug: flight-most-booked-destinations-travelers
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Travelers\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"score\": {\n      \"type\": \"number\",\n      \"format\": \"integer\",\n      \"description\": \"Approximate score for ranking purposes calculated based on number of travelers in the location.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-most-booked-destinations-travelers-schema.json
 tags:
 - Airlines
 - Aviation

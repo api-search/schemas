@@ -10,6 +10,8 @@ provider_name: Airbyte
 provider_slug: airbyte
 schema_file: json-schema/airbyte-embedded-widget-response-schema.json
 slug: airbyte-embedded-widget-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-embedded-widget-response-schema.json\",\n  \"title\": \"EmbeddedWidgetResponse\",\n  \"description\": \"EmbeddedWidgetResponse schema from Airbyte API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"token\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"token\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-embedded-widget-response-schema.json
 tags:
 - Data Integration
 - ETL

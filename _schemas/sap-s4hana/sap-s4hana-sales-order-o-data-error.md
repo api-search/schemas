@@ -10,6 +10,8 @@ provider_name: SAP S/4HANA
 provider_slug: sap-s4hana
 schema_file: json-schema/sap-s4hana-sales-order-o-data-error-schema.json
 slug: sap-s4hana-sales-order-o-data-error
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ODataError\",\n  \"type\": \"object\",\n  \"description\": \"OData error response envelope\",\n  \"properties\": {\n    \"error\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/json-schema/sap-s4hana-sales-order-o-data-error-schema.json
 tags:
 - Business Applications
 - Cloud

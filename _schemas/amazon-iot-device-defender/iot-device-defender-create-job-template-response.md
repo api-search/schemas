@@ -13,6 +13,8 @@ provider_name: Amazon IoT Device Defender
 provider_slug: amazon-iot-device-defender
 schema_file: json-schema/iot-device-defender-create-job-template-response-schema.json
 slug: iot-device-defender-create-job-template-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-create-job-template-response-schema.json\",\n  \"title\": \"CreateJobTemplateResponse\",\n  \"description\": \"CreateJobTemplateResponse schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"jobTemplateArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/JobTemplateArn\"\n        },\n        {\n          \"description\": \"The ARN of the job template.\"\n        }\n      ]\n    },\n    \"jobTemplateId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/JobTemplateId\"\n        },\n        {\n          \"description\": \"The unique identifier of the job template.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-create-job-template-response-schema.json
 tags:
 - AWS
 - Compliance

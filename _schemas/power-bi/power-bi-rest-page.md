@@ -16,6 +16,8 @@ provider_name: Power BI
 provider_slug: power-bi
 schema_file: json-schema/power-bi-rest-page-schema.json
 slug: power-bi-rest-page
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Page\",\n  \"type\": \"object\",\n  \"description\": \"A page within a Power BI report\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The internal name of the page\"\n    },\n    \"displayName\": {\n      \"type\": \"string\",\n      \"description\": \"The display name shown in the report\"\n    },\n    \"order\": {\n      \"type\": \"integer\",\n      \"description\": \"The order of the page within the report\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/json-schema/power-bi-rest-page-schema.json
 tags:
 - Analytics
 - Business Intelligence

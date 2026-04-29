@@ -34,6 +34,9 @@ provider_name: activision-blizzard
 provider_slug: activision-blizzard
 schema_file: json-schema/activision-blizzard-wo-w-item-schema.json
 slug: activision-blizzard-wo-w-item
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/json-schema/activision-blizzard-wo-w-item-schema.json\",\n  \"title\": \"WoWItem\",\n  \"description\": \"A World of Warcraft item\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\",\n      \"description\": \"Item ID\",\n      \"example\": 19019\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Item name\",\n      \"example\": \"Thunderfury, Blessed Blade of the Windseeker\"\n    },\n    \"quality\": {\n      \"type\": \"object\",\n      \"description\": \"Item quality (Common, Rare, Epic, etc.)\"\n    },\n    \"level\": {\n      \"type\": \"integer\",\n      \"description\": \"Item level\",\n      \"example\": 80\n    },\n    \"item_class\": {\n      \"type\": \"object\",\n      \"description\": \"Item class\"\n    },\n    \"item_subclass\"\
+  : {\n      \"type\": \"object\",\n      \"description\": \"Item subclass\"\n    },\n    \"inventory_type\": {\n      \"type\": \"object\",\n      \"description\": \"Inventory type\"\n    },\n    \"purchase_price\": {\n      \"type\": \"integer\",\n      \"description\": \"Purchase price in copper\"\n    },\n    \"sell_price\": {\n      \"type\": \"integer\",\n      \"description\": \"Sell price in copper\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/json-schema/activision-blizzard-wo-w-item-schema.json
 tags: []
 title: WoWItem
 ---

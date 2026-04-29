@@ -16,6 +16,8 @@ provider_name: Agave
 provider_slug: agave
 schema_file: json-schema/unified-api-contract-list-schema.json
 slug: unified-api-contract-list
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-contract-list-schema.json\",\n  \"title\": \"ContractList\",\n  \"description\": \"Paginated list of contracts.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"data\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Contract\"\n      },\n      \"example\": [\n        \"example_value\"\n      ]\n    },\n    \"next_cursor\": {\n      \"type\": \"string\",\n      \"example\": \"eyJpZCI6MTIzfQ==\"\n    },\n    \"count\": {\n      \"type\": \"integer\",\n      \"example\": 10\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-contract-list-schema.json
 tags:
 - Accounting
 - Construction

@@ -10,6 +10,9 @@ provider_name: Amazon Cognito
 provider_slug: aws-cognito
 schema_file: json-schema/cognito-idp-analytics-metadata-type-schema.json
 slug: cognito-idp-analytics-metadata-type
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"AnalyticsEndpointId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StringType\"\n        },\n        {\n          \"description\": \"The endpoint ID.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"<p>An Amazon Pinpoint analytics endpoint.</p> <p>An endpoint uniquely identifies a mobile device, email address, or phone number that can receive messages from Amazon Pinpoint analytics. For more information about Amazon Web Services Regions that can contain Amazon Pinpoint resources for use with Amazon Cognito user pools, see <a href=\\\"https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-pinpoint-integration.html\\\">Using Amazon Pinpoint analytics with Amazon Cognito user pools</a>.</p>\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-analytics-metadata-type-schema.json\"\
+  ,\n  \"title\": \"AnalyticsMetadataType\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-analytics-metadata-type-schema.json
 tags:
 - Authentication
 - Authorization

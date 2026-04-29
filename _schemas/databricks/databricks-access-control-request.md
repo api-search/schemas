@@ -19,6 +19,8 @@ provider_name: Databricks
 provider_slug: databricks
 schema_file: json-schema/databricks-access-control-request-schema.json
 slug: databricks-access-control-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AccessControlRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"user_name\": {\n      \"type\": \"string\"\n    },\n    \"group_name\": {\n      \"type\": \"string\"\n    },\n    \"service_principal_name\": {\n      \"type\": \"string\"\n    },\n    \"permission_level\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/json-schema/databricks-access-control-request-schema.json
 tags:
 - AI
 - Analytics

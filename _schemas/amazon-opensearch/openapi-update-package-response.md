@@ -10,6 +10,8 @@ provider_name: Amazon OpenSearch Service API
 provider_slug: amazon-opensearch
 schema_file: json-schema/openapi-update-package-response-schema.json
 slug: openapi-update-package-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-update-package-response-schema.json\",\n  \"title\": \"UpdatePackageResponse\",\n  \"description\": \" Container for response returned by <code> <a>UpdatePackage</a> </code> operation. \",\n  \"type\": \"object\",\n  \"properties\": {\n    \"PackageDetails\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PackageDetails\"\n        },\n        {\n          \"description\": \"Information about the package <code>PackageDetails</code>.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-update-package-response-schema.json
 tags:
 - Analytics
 - AWS

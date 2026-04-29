@@ -43,6 +43,9 @@ provider_name: Oracle E-Business Suite
 provider_slug: oracle-e-business-suite
 schema_file: json-schema/human-resources-benefit-enrollment-schema.json
 slug: human-resources-benefit-enrollment
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"BenefitEnrollment\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"enrollmentResultId\": {\n      \"type\": \"integer\",\n      \"description\": \"Enrollment result identifier\"\n    },\n    \"personId\": {\n      \"type\": \"integer\",\n      \"description\": \"Person identifier\"\n    },\n    \"planId\": {\n      \"type\": \"integer\",\n      \"description\": \"Benefit plan identifier\"\n    },\n    \"planName\": {\n      \"type\": \"string\",\n      \"description\": \"Plan name\"\n    },\n    \"optionId\": {\n      \"type\": \"integer\",\n      \"description\": \"Option identifier\"\n    },\n    \"optionName\": {\n      \"type\": \"string\",\n      \"description\": \"Option name\"\n    },\n    \"coverageLevelCode\": {\n      \"type\": \"string\",\n      \"description\": \"Coverage level\"\n    },\n    \"effectiveStartDate\": {\n      \"type\": \"string\"\n    },\n    \"effectiveEndDate\"\
+  : {\n      \"type\": \"string\"\n    },\n    \"enrollmentStartDate\": {\n      \"type\": \"string\"\n    },\n    \"enrollmentEndDate\": {\n      \"type\": \"string\"\n    },\n    \"benefitAmount\": {\n      \"type\": \"number\",\n      \"description\": \"Benefit coverage amount\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/json-schema/human-resources-benefit-enrollment-schema.json
 tags:
 - Business Applications
 - E-Business Suite

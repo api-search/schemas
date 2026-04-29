@@ -40,6 +40,9 @@ provider_name: Oracle E-Business Suite
 provider_slug: oracle-e-business-suite
 schema_file: json-schema/financial-services-ap-payment-schema.json
 slug: financial-services-ap-payment
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ApPayment\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"checkId\": {\n      \"type\": \"integer\",\n      \"description\": \"Payment check identifier\"\n    },\n    \"checkNumber\": {\n      \"type\": \"integer\",\n      \"description\": \"Check number\"\n    },\n    \"amount\": {\n      \"type\": \"number\",\n      \"description\": \"Payment amount\"\n    },\n    \"currencyCode\": {\n      \"type\": \"string\",\n      \"description\": \"Payment currency code\"\n    },\n    \"checkDate\": {\n      \"type\": \"string\",\n      \"description\": \"Check date\"\n    },\n    \"vendorId\": {\n      \"type\": \"integer\",\n      \"description\": \"Vendor identifier\"\n    },\n    \"vendorName\": {\n      \"type\": \"string\",\n      \"description\": \"Vendor name\"\n    },\n    \"bankAccountId\": {\n      \"type\": \"integer\",\n      \"description\": \"Bank account identifier\"\n    },\n\
+  \    \"paymentMethodCode\": {\n      \"type\": \"string\",\n      \"description\": \"Payment method\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Payment status\"\n    },\n    \"orgId\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/json-schema/financial-services-ap-payment-schema.json
 tags:
 - Business Applications
 - E-Business Suite

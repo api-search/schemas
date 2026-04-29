@@ -19,6 +19,9 @@ provider_name: Amazon HealthOmics
 provider_slug: amazon-healthomics
 schema_file: json-schema/healthomics-start-read-set-export-job-request-schema.json
 slug: healthomics-start-read-set-export-job-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-start-read-set-export-job-request-schema.json\",\n  \"title\": \"StartReadSetExportJobRequest\",\n  \"type\": \"object\",\n  \"required\": [\n    \"destination\",\n    \"roleArn\",\n    \"sources\"\n  ],\n  \"properties\": {\n    \"destination\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3Destination\"\n        },\n        {\n          \"description\": \"A location for exported files in Amazon S3.\"\n        }\n      ]\n    },\n    \"roleArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RoleArn\"\n        },\n        {\n          \"description\": \"A service role for the job.\"\n        }\n      ]\n    },\n    \"clientToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ClientToken\"\n\
+  \        },\n        {\n          \"description\": \"To ensure that jobs don't run multiple times, specify a unique token for each job.\"\n        }\n      ]\n    },\n    \"sources\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StartReadSetExportJobRequestSourcesList\"\n        },\n        {\n          \"description\": \"The job's source files.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-start-read-set-export-job-request-schema.json
 tags:
 - AWS
 - Bioinformatics

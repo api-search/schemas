@@ -16,6 +16,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/management-terminal-connectivity-ethernet-schema.json
 slug: management-terminal-connectivity-ethernet
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/management-terminal-connectivity-ethernet-schema.json\",\n  \"title\": \"TerminalConnectivityEthernet\",\n  \"description\": \"TerminalConnectivityEthernet schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ipAddress\": {\n      \"description\": \"The terminal's ethernet IP address.\",\n      \"type\": \"string\"\n    },\n    \"linkNegotiation\": {\n      \"description\": \"The ethernet link negotiation that the terminal uses.\",\n      \"type\": \"string\"\n    },\n    \"macAddress\": {\n      \"description\": \"The terminal's ethernet MAC address.\",\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/management-terminal-connectivity-ethernet-schema.json
 tags:
 - Payments
 - Financial Services

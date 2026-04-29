@@ -19,6 +19,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/hubspot-authors-attach-to-language-group-request-schema.json
 slug: hubspot-authors-attach-to-language-group-request
+source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Request to attach an author to a multi-language group\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the author to attach\",\n      \"example\": \"500123\"\n    },\n    \"language\": {\n      \"type\": \"string\",\n      \"description\": \"Language code for the author (e.g., es, fr, de)\",\n      \"example\": \"en\"\n    },\n    \"primaryId\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the primary language author\",\n      \"example\": \"500123\"\n    },\n    \"primaryLanguage\": {\n      \"type\": \"string\",\n      \"description\": \"Language code of the primary author\",\n      \"example\": \"en\"\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"language\",\n    \"primaryId\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AttachToLanguageGroupRequest\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/hubspot-authors-attach-to-language-group-request-schema.json
 tags:
 - Analytics
 - Commerce

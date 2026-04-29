@@ -19,6 +19,8 @@ provider_name: Azure Databricks
 provider_slug: azure-databricks
 schema_file: json-schema/azure-databricks-cluster-event-schema.json
 slug: azure-databricks-cluster-event
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ClusterEvent\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"cluster_id\": {\n      \"type\": \"string\",\n      \"description\": \"Cluster ID associated with the event\"\n    },\n    \"timestamp\": {\n      \"type\": \"integer\",\n      \"description\": \"Timestamp of the event in epoch milliseconds\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Type of event\"\n    },\n    \"details\": {\n      \"type\": \"object\",\n      \"description\": \"Event-specific details\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/json-schema/azure-databricks-cluster-event-schema.json
 tags:
 - Analytics
 - Apache Spark

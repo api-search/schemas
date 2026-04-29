@@ -7,6 +7,8 @@ provider_name: Amazon GameLift
 provider_slug: amazon-gamelift
 schema_file: json-schema/gamelift-queue-custom-event-data-schema.json
 slug: gamelift-queue-custom-event-data
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-queue-custom-event-data-schema.json\",\n  \"title\": \"QueueCustomEventData\",\n  \"description\": \"QueueCustomEventData schema from Amazon GameLift API\",\n  \"type\": \"string\",\n  \"pattern\": \"[\\\\s\\\\S]*\",\n  \"minLength\": 0,\n  \"maxLength\": 256\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-queue-custom-event-data-schema.json
 tags:
 - AWS
 - Cloud Computing

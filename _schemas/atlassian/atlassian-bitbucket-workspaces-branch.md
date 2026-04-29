@@ -7,6 +7,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-bitbucket-workspaces-branch-schema.json
 slug: atlassian-bitbucket-workspaces-branch
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"branch\",\n  \"type\": \"object\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-bitbucket-workspaces-branch-schema.json
 tags:
 - Code
 - Collaboration

@@ -7,6 +7,8 @@ provider_name: Amazon CodePipeline
 provider_slug: amazon-codepipeline
 schema_file: json-schema/amazon-codepipeline-match-equals-schema.json
 slug: amazon-codepipeline-match-equals
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/json-schema/amazon-codepipeline-match-equals-schema.json\",\n  \"title\": \"MatchEquals\",\n  \"description\": \"MatchEquals schema from Amazon CodePipeline\",\n  \"type\": \"string\",\n  \"minLength\": 1,\n  \"maxLength\": 150\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/json-schema/amazon-codepipeline-match-equals-schema.json
 tags:
 - Amazon
 - AWS

@@ -13,6 +13,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/iceberg-table-foreign-key-schema.json
 slug: iceberg-table-foreign-key
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ForeignKey\",\n  \"type\": \"object\",\n  \"description\": \"Foreign keys link data in one table to the data in another table.\",\n  \"properties\": {\n    \"referenced_table_name\": {\n      \"type\": \"string\"\n    },\n    \"referenced_column_names\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/iceberg-table-foreign-key-schema.json
 tags:
 - Data Lakes
 - Data Sharing

@@ -10,6 +10,8 @@ provider_name: Tableau
 provider_slug: tableau
 schema_file: json-schema/tableau-rest-permission-schema.json
 slug: tableau-rest-permission
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Permission\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"granteeCapabilities\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/json-schema/tableau-rest-permission-schema.json
 tags:
 - Analytics
 - Business Intelligence

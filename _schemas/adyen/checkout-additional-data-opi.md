@@ -10,6 +10,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/checkout-additional-data-opi-schema.json
 slug: checkout-additional-data-opi
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-additional-data-opi-schema.json\",\n  \"title\": \"AdditionalDataOpi\",\n  \"description\": \"AdditionalDataOpi schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"opi.includeTransToken\": {\n      \"description\": \"Optional boolean indicator. Set to **true** if you want an ecommerce transaction to return an `opi.transToken` as additional data in the response.\\n\\nYou can store this Oracle Payment Interface token in your Oracle Opera database. For more information and required settings, see [Oracle Opera](https://docs.adyen.com/plugins/oracle-opera#opi-token-ecommerce).\",\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-additional-data-opi-schema.json
 tags:
 - Payments
 - Financial Services

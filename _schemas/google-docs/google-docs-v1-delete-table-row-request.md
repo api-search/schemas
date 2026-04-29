@@ -7,6 +7,8 @@ provider_name: Google Docs
 provider_slug: google-docs
 schema_file: json-schema/google-docs-v1-delete-table-row-request-schema.json
 slug: google-docs-v1-delete-table-row-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DeleteTableRowRequest\",\n  \"type\": \"object\",\n  \"description\": \"Deletes a row from a table.\",\n  \"properties\": {}\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/json-schema/google-docs-v1-delete-table-row-request-schema.json
 tags:
 - Collaboration
 - Documents

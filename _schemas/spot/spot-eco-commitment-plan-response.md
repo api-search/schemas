@@ -13,6 +13,8 @@ provider_name: Spot
 provider_slug: spot
 schema_file: json-schema/spot-eco-commitment-plan-response-schema.json
 slug: spot-eco-commitment-plan-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CommitmentPlanResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"request\": {\n      \"type\": \"object\"\n    },\n    \"response\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/json-schema/spot-eco-commitment-plan-response-schema.json
 tags:
 - Autoscaling
 - Cloud Infrastructure

@@ -22,6 +22,9 @@ provider_name: Amazon Connect
 provider_slug: amazon-connect
 schema_file: json-schema/user-identity-info-schema.json
 slug: user-identity-info
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/user-identity-info-schema.json\",\n  \"title\": \"UserIdentityInfo\",\n  \"description\": \"Contains information about the identity of a user.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"FirstName\": {\n      \"type\": \"string\",\n      \"description\": \"The first name.\",\n      \"example\": \"Jane\"\n    },\n    \"LastName\": {\n      \"type\": \"string\",\n      \"description\": \"The last name.\",\n      \"example\": \"Smith\"\n    },\n    \"Email\": {\n      \"type\": \"string\",\n      \"format\": \"email\",\n      \"description\": \"The email address.\",\n      \"example\": \"jsmith@example.com\"\n    },\n    \"SecondaryEmail\": {\n      \"type\": \"string\",\n      \"format\": \"email\",\n      \"description\": \"The secondary email address.\"\n    },\n    \"Mobile\": {\n      \"type\"\
+  : \"string\",\n      \"description\": \"The user's mobile number.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/user-identity-info-schema.json
 tags:
 - AWS
 - Chat

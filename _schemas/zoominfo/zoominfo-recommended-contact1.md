@@ -22,6 +22,9 @@ provider_name: ZoomInfo
 provider_slug: zoominfo
 schema_file: json-schema/zoominfo-recommended-contact1-schema.json
 slug: zoominfo-recommended-contact1
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\",\n      \"example\": 500123\n    },\n    \"firstName\": {\n      \"type\": \"string\",\n      \"example\": \"Acme Corporation\"\n    },\n    \"lastName\": {\n      \"type\": \"string\",\n      \"example\": \"Acme Corporation\"\n    },\n    \"jobTitle\": {\n      \"type\": \"string\",\n      \"example\": \"Vice President of Sales\"\n    },\n    \"jobFunction\": {\n      \"type\": \"array\",\n      \"description\": \"\",\n      \"example\": [],\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"name\": {\n            \"type\": \"string\",\n            \"example\": \"Acme Corporation\"\n          },\n          \"department\": {\n            \"type\": \"string\",\n            \"example\": \"example_value\"\n          }\n        },\n        \"required\": [\n          \"name\",\n          \"department\"\n        ]\n      }\n    }\n  },\n  \"required\"\
+  : [\n    \"id\",\n    \"firstName\",\n    \"lastName\",\n    \"jobTitle\",\n    \"jobFunction\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RecommendedContact1\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/json-schema/zoominfo-recommended-contact1-schema.json
 tags:
 - B2B
 - B2B Data

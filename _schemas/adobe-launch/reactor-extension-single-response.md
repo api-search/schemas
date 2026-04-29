@@ -7,6 +7,8 @@ provider_name: Adobe Launch
 provider_slug: adobe-launch
 schema_file: json-schema/reactor-extension-single-response-schema.json
 slug: reactor-extension-single-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ExtensionSingleResponse\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/json-schema/reactor-extension-single-response-schema.json
 tags:
 - Data Collection
 - Edge Network

@@ -16,6 +16,8 @@ provider_name: OpenAI
 provider_slug: openai
 schema_file: json-schema/openai-embeddings-create-embedding-response-schema.json
 slug: openai-embeddings-create-embedding-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateEmbeddingResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"object\": {\n      \"type\": \"string\",\n      \"description\": \"The object type, always list.\"\n    },\n    \"data\": {\n      \"type\": \"array\",\n      \"description\": \"The list of embedding objects.\"\n    },\n    \"model\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the model used to generate the embedding.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/json-schema/openai-embeddings-create-embedding-response-schema.json
 tags:
 - AI
 - Artificial Intelligence

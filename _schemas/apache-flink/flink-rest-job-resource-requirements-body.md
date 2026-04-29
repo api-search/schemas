@@ -7,6 +7,8 @@ provider_name: Apache Flink
 provider_slug: apache-flink
 schema_file: json-schema/flink-rest-job-resource-requirements-body-schema.json
 slug: flink-rest-job-resource-requirements-body
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-job-resource-requirements-body-schema.json\",\n  \"title\": \"JobResourceRequirementsBody\",\n  \"description\": \"JobResourceRequirementsBody schema from Apache Flink REST API\",\n  \"type\": \"object\",\n  \"additionalProperties\": {\n    \"$ref\": \"#/components/schemas/JobVertexResourceRequirements\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-job-resource-requirements-body-schema.json
 tags:
 - Apache
 - Batch Processing

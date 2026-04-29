@@ -16,6 +16,9 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-fields38-schema.json
 slug: salesforce-fields38
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Id\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"displayValue\": {\n          \"type\": \"['string', 'null']\",\n          \"example\": \"example_value\"\n        },\n        \"value\": {\n          \"type\": \"string\",\n          \"example\": \"example_value\"\n        }\n      },\n      \"required\": [\n        \"displayValue\",\n        \"value\"\n      ]\n    },\n    \"Name\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"displayValue\": {\n          \"type\": \"['string', 'null']\",\n          \"example\": \"example_value\"\n        },\n        \"value\": {\n          \"type\": \"string\",\n          \"example\": \"example_value\"\n        }\n      },\n      \"required\": [\n        \"displayValue\",\n        \"value\"\n      ]\n    },\n    \"Site\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"displayValue\": {\n          \"type\": \"['string', 'null']\"\
+  ,\n          \"example\": \"example_value\"\n        },\n        \"value\": {\n          \"type\": \"['string', 'null']\",\n          \"example\": \"example_value\"\n        }\n      },\n      \"required\": [\n        \"displayValue\",\n        \"value\"\n      ]\n    }\n  },\n  \"required\": [\n    \"Id\",\n    \"Name\",\n    \"Site\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Fields38\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-fields38-schema.json
 tags:
 - AI
 - Analytics

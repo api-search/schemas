@@ -7,6 +7,8 @@ provider_name: Amazon Entity Resolution
 provider_slug: amazon-entity-resolution
 schema_file: json-schema/amazon-entity-resolution-boolean-schema.json
 slug: amazon-entity-resolution-boolean
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/json-schema/amazon-entity-resolution-boolean-schema.json\",\n  \"title\": \"Boolean\",\n  \"description\": \"Boolean schema from AWS EntityResolution\",\n  \"type\": \"boolean\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/json-schema/amazon-entity-resolution-boolean-schema.json
 tags:
 - Amazon Web Services
 - AWS

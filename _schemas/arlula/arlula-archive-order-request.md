@@ -25,6 +25,9 @@ provider_name: Arlula
 provider_slug: arlula
 schema_file: json-schema/arlula-archive-order-request-schema.json
 slug: arlula-archive-order-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://arlula.com/json-schema/archive-order-request.json\",\n  \"title\": \"ArchiveOrderRequest\",\n  \"description\": \"Request body for ordering archive imagery.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Ordering ID of the archive scene to purchase.\",\n      \"examples\": [\n        \"a1b2c3d4-e5f6-7890-abcd-ef1234567890\"\n      ]\n    },\n    \"bundleKey\": {\n      \"type\": \"string\",\n      \"description\": \"Bundle key selected from search results.\",\n      \"examples\": [\n        \"bundle-basic\"\n      ]\n    },\n    \"eula\": {\n      \"type\": \"string\",\n      \"description\": \"EULA identifier accepted for this order.\",\n      \"examples\": [\n        \"EULA-001\"\n      ]\n    },\n    \"emails\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n  \
+  \  \"webhooks\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"coupon\": {\n      \"type\": \"string\",\n      \"description\": \"Optional coupon code for discounts.\",\n      \"examples\": [\n        \"COUPON-001\"\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/json-schema/arlula-archive-order-request-schema.json
 tags:
 - Earth Observation
 - Geospatial

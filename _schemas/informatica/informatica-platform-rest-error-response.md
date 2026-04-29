@@ -22,6 +22,8 @@ provider_name: Informatica
 provider_slug: informatica
 schema_file: json-schema/informatica-platform-rest-error-response-schema.json
 slug: informatica-platform-rest-error-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ErrorResponse\",\n  \"type\": \"object\",\n  \"description\": \"Error response returned when a request fails.\",\n  \"properties\": {\n    \"@type\": {\n      \"type\": \"string\",\n      \"description\": \"The error type identifier.\"\n    },\n    \"statusCode\": {\n      \"type\": \"integer\",\n      \"description\": \"The HTTP status code.\"\n    },\n    \"message\": {\n      \"type\": \"string\",\n      \"description\": \"A human-readable error message.\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"A detailed description of the error.\"\n    },\n    \"requestId\": {\n      \"type\": \"string\",\n      \"description\": \"The unique request ID for troubleshooting.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/json-schema/informatica-platform-rest-error-response-schema.json
 tags:
 - Address Verification
 - B2B Gateway

@@ -31,6 +31,8 @@ provider_name: Oracle E-Business Suite
 provider_slug: oracle-e-business-suite
 schema_file: json-schema/human-resources-organization-schema.json
 slug: human-resources-organization
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Organization\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"organizationId\": {\n      \"type\": \"integer\",\n      \"description\": \"Organization identifier\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Organization name\"\n    },\n    \"businessGroupId\": {\n      \"type\": \"integer\",\n      \"description\": \"Business group identifier\"\n    },\n    \"dateFrom\": {\n      \"type\": \"string\",\n      \"description\": \"Organization start date\"\n    },\n    \"dateTo\": {\n      \"type\": \"string\",\n      \"description\": \"Organization end date\"\n    },\n    \"locationId\": {\n      \"type\": \"integer\",\n      \"description\": \"Location identifier\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Organization type\"\n    },\n    \"internalExternalFlag\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/json-schema/human-resources-organization-schema.json
 tags:
 - Business Applications
 - E-Business Suite

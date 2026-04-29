@@ -22,6 +22,8 @@ provider_name: AWS Step Functions
 provider_slug: aws-step-functions
 schema_file: json-schema/step-functions-lambdafunctionscheduledeventdetails-schema.json
 slug: step-functions-lambdafunctionscheduledeventdetails
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"LambdaFunctionScheduledEventDetails\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"resource\": {},\n    \"input\": {},\n    \"inputDetails\": {},\n    \"timeoutInSeconds\": {},\n    \"taskCredentials\": {}\n  },\n  \"required\": [\n    \"resource\"\n  ],\n  \"description\": \"Contains details about a Lambda function scheduled during an execution.\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/json-schema/step-functions-lambdafunctionscheduledeventdetails-schema.json
 tags:
 - AWS
 - iPaaS

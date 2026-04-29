@@ -22,6 +22,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-rest-frame-info-schema.json
 slug: figma-rest-frame-info
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"FrameInfo\",\n  \"type\": \"object\",\n  \"description\": \"Information about the frame containing a component.\",\n  \"properties\": {\n    \"nodeId\": {\n      \"type\": \"string\",\n      \"description\": \"The ID of the containing frame node.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the containing frame.\"\n    },\n    \"backgroundColor\": {\n      \"type\": \"string\",\n      \"description\": \"The background color of the containing frame.\"\n    },\n    \"pageId\": {\n      \"type\": \"string\",\n      \"description\": \"The ID of the page containing the frame.\"\n    },\n    \"pageName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the page containing the frame.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-rest-frame-info-schema.json
 tags:
 - Collaboration
 - Design

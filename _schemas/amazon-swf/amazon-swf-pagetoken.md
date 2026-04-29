@@ -7,6 +7,8 @@ provider_name: Amazon Simple Workflow Service
 provider_slug: amazon-swf
 schema_file: json-schema/amazon-swf-pagetoken-schema.json
 slug: amazon-swf-pagetoken
+source_json: "{\n  \"type\": \"string\",\n  \"maxLength\": 2048,\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"PageToken\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-pagetoken-schema.json
 tags:
 - Automation
 - AWS

@@ -7,6 +7,8 @@ provider_name: Amazon CodeDeploy
 provider_slug: amazon-codedeploy
 schema_file: json-schema/amazon-codedeploy-target-filters-schema.json
 slug: amazon-codedeploy-target-filters
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-target-filters-schema.json\",\n  \"title\": \"TargetFilters\",\n  \"description\": \"TargetFilters schema from Amazon CodeDeploy\",\n  \"type\": \"object\",\n  \"additionalProperties\": {\n    \"$ref\": \"#/components/schemas/FilterValueList\"\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-target-filters-schema.json
 tags:
 - Amazon
 - AWS

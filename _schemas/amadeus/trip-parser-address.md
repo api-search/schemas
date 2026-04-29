@@ -34,6 +34,9 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/trip-parser-address-schema.json
 slug: trip-parser-address
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"address\",\n  \"description\": \"Address information\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"category\": {\n      \"type\": \"string\",\n      \"description\": \"Category of the contact element\"\n    },\n    \"lines\": {\n      \"type\": \"array\",\n      \"description\": \"Line 1 = Street address, Line 2 = Apartment, suite, unit, building, floor, etc\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"postalCode\": {\n      \"type\": \"string\",\n      \"description\": \"Example: 74130\"\n    },\n    \"countryCode\": {\n      \"type\": \"string\",\n      \"description\": \"ISO 3166-1 country code\"\n    },\n    \"cityName\": {\n      \"type\": \"string\",\n      \"description\": \"Full city name. Example: Dublin\"\n    },\n    \"stateCode\": {\n      \"type\": \"string\",\n      \"description\": \"State code (two character standard IATA state code)\"\n \
+  \   },\n    \"postalBox\": {\n      \"type\": \"string\",\n      \"description\": \"E.g. BP 220\"\n    },\n    \"text\": {\n      \"type\": \"string\",\n      \"description\": \"Field containing a full unformatted address. Only applicable when the fields lines, postalCode, countryCode, cityName are not filled.\"\n    },\n    \"state\": {\n      \"type\": \"string\",\n      \"description\": \"State, province or country name\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/trip-parser-address-schema.json
 tags:
 - Airlines
 - Aviation

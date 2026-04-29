@@ -22,6 +22,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-rest-project-file-schema.json
 slug: figma-rest-project-file
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ProjectFile\",\n  \"type\": \"object\",\n  \"description\": \"A file within a Figma project.\",\n  \"properties\": {\n    \"key\": {\n      \"type\": \"string\",\n      \"description\": \"The file key.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the file.\"\n    },\n    \"thumbnail_url\": {\n      \"type\": \"string\",\n      \"description\": \"A URL to a thumbnail image of the file.\"\n    },\n    \"last_modified\": {\n      \"type\": \"string\",\n      \"description\": \"The UTC ISO 8601 time at which the file was last modified.\"\n    },\n    \"branches\": {\n      \"type\": \"array\",\n      \"description\": \"Branches of this file, if branch_data was requested.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-rest-project-file-schema.json
 tags:
 - Collaboration
 - Design

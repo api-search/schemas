@@ -13,6 +13,8 @@ provider_name: Amazon Detective
 provider_slug: amazon-detective
 schema_file: json-schema/amazon-detective-batch-get-membership-datasources-response-schema.json
 slug: amazon-detective-batch-get-membership-datasources-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-batch-get-membership-datasources-response-schema.json\",\n  \"title\": \"BatchGetMembershipDatasourcesResponse\",\n  \"description\": \"Response from getting membership datasource history\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"MembershipDatasources\": {\n      \"type\": \"array\",\n      \"description\": \"Details on the data source packages active in the behavior graph.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/MembershipDatasources\"\n      }\n    },\n    \"UnprocessedGraphs\": {\n      \"type\": \"array\",\n      \"description\": \"Graphs that data source package information could not be retrieved for.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/UnprocessedGraph\"\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-batch-get-membership-datasources-response-schema.json
 tags:
 - AWS
 - Forensics

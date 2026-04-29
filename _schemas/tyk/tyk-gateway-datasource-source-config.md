@@ -13,6 +13,8 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-datasource-source-config-schema.json
 slug: tyk-gateway-datasource-source-config
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DatasourceSourceConfig\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"data_source_config\": {\n      \"type\": \"string\"\n    },\n    \"kind\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-datasource-source-config-schema.json
 tags:
 - API Gateway
 - API Management

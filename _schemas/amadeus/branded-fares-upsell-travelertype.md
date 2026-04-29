@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/branded-fares-upsell-travelertype-schema.json
 slug: branded-fares-upsell-travelertype
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"TravelerType\",\n  \"description\": \"traveler type\\nage restrictions : CHILD < 12y, HELD_INFANT < 2y, SEATED_INFANT < 2y, SENIOR >=60y\\n\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ADULT\",\n    \"CHILD\",\n    \"SENIOR\",\n    \"YOUNG\",\n    \"HELD_INFANT\",\n    \"SEATED_INFANT\",\n    \"STUDENT\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/branded-fares-upsell-travelertype-schema.json
 tags:
 - Airlines
 - Aviation

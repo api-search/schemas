@@ -7,6 +7,8 @@ provider_name: Amazon MediaConvert
 provider_slug: amazon-mediaconvert
 schema_file: json-schema/mediaconvert-api-cancel-job-request-schema.json
 slug: mediaconvert-api-cancel-job-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-cancel-job-request-schema.json\",\n  \"title\": \"CancelJobRequest\",\n  \"description\": \"CancelJobRequest schema from Amazon MediaConvert API\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-cancel-job-request-schema.json
 tags:
 - AWS
 - Broadcasting

@@ -16,6 +16,8 @@ provider_name: Abstract API
 provider_slug: abstract-api
 schema_file: json-schema/ip-intelligence-company-basic-schema.json
 slug: ip-intelligence-company-basic
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-schema/ip-intelligence-company-basic-schema.json\",\n  \"title\": \"CompanyBasic\",\n  \"description\": \"Company information for the IP owner\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Company name\",\n      \"example\": \"Google LLC\"\n    },\n    \"domain\": {\n      \"type\": \"string\",\n      \"description\": \"Company domain\",\n      \"example\": \"google.com\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Company type\",\n      \"example\": \"hosting\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-schema/ip-intelligence-company-basic-schema.json
 tags:
 - Avatars
 - Company Enrichment

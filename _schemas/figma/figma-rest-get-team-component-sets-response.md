@@ -16,6 +16,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-rest-get-team-component-sets-response-schema.json
 slug: figma-rest-get-team-component-sets-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"GetTeamComponentSetsResponse\",\n  \"type\": \"object\",\n  \"description\": \"Response from the Get Team Component Sets endpoint.\",\n  \"properties\": {\n    \"error\": {\n      \"type\": \"boolean\"\n    },\n    \"status\": {\n      \"type\": \"integer\"\n    },\n    \"meta\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-rest-get-team-component-sets-response-schema.json
 tags:
 - Collaboration
 - Design

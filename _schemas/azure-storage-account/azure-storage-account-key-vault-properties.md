@@ -16,6 +16,8 @@ provider_name: Azure Storage Account
 provider_slug: azure-storage-account
 schema_file: json-schema/azure-storage-account-key-vault-properties-schema.json
 slug: azure-storage-account-key-vault-properties
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/azure-storage-account/refs/heads/main/json-schema/azure-storage-account-key-vault-properties-schema.json\",\n  \"title\": \"KeyVaultProperties\",\n  \"description\": \"Properties of key vault.\",\n  \"properties\": {\n    \"keyname\": {\n      \"description\": \"The name of KeyVault key.\",\n      \"type\": \"string\",\n      \"x-ms-client-name\": \"KeyName\"\n    },\n    \"keyvaulturi\": {\n      \"description\": \"The Uri of KeyVault.\",\n      \"type\": \"string\",\n      \"x-ms-client-name\": \"KeyVaultUri\"\n    },\n    \"keyversion\": {\n      \"description\": \"The version of KeyVault key.\",\n      \"type\": \"string\",\n      \"x-ms-client-name\": \"KeyVersion\"\n    }\n  },\n  \"type\": \"object\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-storage-account/refs/heads/main/json-schema/azure-storage-account-key-vault-properties-schema.json
 tags:
 - Azure
 - Blob Storage

@@ -7,6 +7,8 @@ provider_name: Blockfrost
 provider_slug: blockfrost
 schema_file: json-schema/blockfrost-onchain-metadata-cip68-rft-444-schema.json
 slug: blockfrost-onchain-metadata-cip68-rft-444
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/blockfrost/refs/heads/main/json-schema/blockfrost-onchain-metadata-cip68-rft-444-schema.json\",\n  \"title\": \"onchain_metadata_cip68_rft_444\",\n  \"description\": \"onchain_metadata_cip68_rft_444 schema from Blockfrost API\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/blockfrost/refs/heads/main/json-schema/blockfrost-onchain-metadata-cip68-rft-444-schema.json
 tags:
 - Blockchain
 - Cardano

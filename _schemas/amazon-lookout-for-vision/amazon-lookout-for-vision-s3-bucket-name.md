@@ -7,6 +7,8 @@ provider_name: Amazon Lookout for Vision
 provider_slug: amazon-lookout-for-vision
 schema_file: json-schema/amazon-lookout-for-vision-s3-bucket-name-schema.json
 slug: amazon-lookout-for-vision-s3-bucket-name
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-s3-bucket-name-schema.json\",\n  \"title\": \"S3BucketName\",\n  \"description\": \"S3BucketName schema from Amazon Lookout for Vision API\",\n  \"type\": \"string\",\n  \"pattern\": \"[0-9A-Za-z\\\\.\\\\-_]*\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-s3-bucket-name-schema.json
 tags:
 - AWS
 - Computer Vision

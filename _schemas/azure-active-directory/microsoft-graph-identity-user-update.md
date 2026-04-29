@@ -67,6 +67,9 @@ provider_name: Azure Active Directory
 provider_slug: azure-active-directory
 schema_file: json-schema/microsoft-graph-identity-user-update-schema.json
 slug: microsoft-graph-identity-user-update
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"UserUpdate\",\n  \"type\": \"object\",\n  \"description\": \"Properties that can be updated on an existing user.\",\n  \"properties\": {\n    \"accountEnabled\": {\n      \"type\": \"boolean\"\n    },\n    \"displayName\": {\n      \"type\": \"string\"\n    },\n    \"givenName\": {\n      \"type\": \"string\"\n    },\n    \"surname\": {\n      \"type\": \"string\"\n    },\n    \"jobTitle\": {\n      \"type\": \"string\"\n    },\n    \"department\": {\n      \"type\": \"string\"\n    },\n    \"mail\": {\n      \"type\": \"string\"\n    },\n    \"mobilePhone\": {\n      \"type\": \"string\"\n    },\n    \"businessPhones\": {\n      \"type\": \"array\"\n    },\n    \"city\": {\n      \"type\": \"string\"\n    },\n    \"state\": {\n      \"type\": \"string\"\n    },\n    \"country\": {\n      \"type\": \"string\"\n    },\n    \"postalCode\": {\n      \"type\": \"string\"\n    },\n    \"streetAddress\"\
+  : {\n      \"type\": \"string\"\n    },\n    \"officeLocation\": {\n      \"type\": \"string\"\n    },\n    \"usageLocation\": {\n      \"type\": \"string\"\n    },\n    \"preferredLanguage\": {\n      \"type\": \"string\"\n    },\n    \"employeeId\": {\n      \"type\": \"string\"\n    },\n    \"employeeType\": {\n      \"type\": \"string\"\n    },\n    \"companyName\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-active-directory/refs/heads/main/json-schema/microsoft-graph-identity-user-update-schema.json
 tags:
 - Authentication
 - Authorization

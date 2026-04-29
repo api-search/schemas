@@ -16,6 +16,9 @@ provider_name: Amazon Managed Service for Apache Flink
 provider_slug: amazon-managed-apache-flink
 schema_file: json-schema/amazon-managed-apache-flink-s3-content-location-schema.json
 slug: amazon-managed-apache-flink-s3-content-location
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/json-schema/amazon-managed-apache-flink-s3-content-location-schema.json\",\n  \"title\": \"S3ContentLocation\",\n  \"description\": \"For a Kinesis Data Analytics application provides a description of an Amazon S3 object, including the Amazon Resource Name (ARN) of the S3 bucket, the name of the Amazon S3 object that contains the data, and the version number of the Amazon S3 object that contains the data. \",\n  \"type\": \"object\",\n  \"properties\": {\n    \"BucketARN\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BucketARN\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) for the S3 bucket containing the application code.\"\n        }\n      ]\n    },\n    \"FileKey\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FileKey\"\
+  \n        },\n        {\n          \"description\": \"The file key for the object containing the application code.\"\n        }\n      ]\n    },\n    \"ObjectVersion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ObjectVersion\"\n        },\n        {\n          \"description\": \"The version of the object containing the application code.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"BucketARN\",\n    \"FileKey\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/json-schema/amazon-managed-apache-flink-s3-content-location-schema.json
 tags:
 - Apache Flink
 - AWS

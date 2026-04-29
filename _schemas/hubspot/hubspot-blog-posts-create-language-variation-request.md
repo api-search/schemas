@@ -13,6 +13,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/hubspot-blog-posts-create-language-variation-request-schema.json
 slug: hubspot-blog-posts-create-language-variation-request
+source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Request to create language variation\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the source post\",\n      \"example\": \"500123\"\n    },\n    \"language\": {\n      \"type\": \"string\",\n      \"description\": \"Language code for the new variation\",\n      \"example\": \"en\"\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"language\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateLanguageVariationRequest\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/hubspot-blog-posts-create-language-variation-request-schema.json
 tags:
 - Analytics
 - Commerce

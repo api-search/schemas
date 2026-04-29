@@ -34,6 +34,8 @@ provider_name: Chase
 provider_slug: chase
 schema_file: json-schema/chase-account-schema.json
 slug: chase-account
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://developer.chase.com/schemas/account.json\",\n  \"title\": \"Chase FDX Account\",\n  \"type\": \"object\",\n  \"required\": [\"accountId\", \"accountType\"],\n  \"properties\": {\n    \"accountId\": { \"type\": \"string\" },\n    \"accountType\": { \"type\": \"string\" },\n    \"accountCategory\": { \"type\": \"string\" },\n    \"displayName\": { \"type\": \"string\" },\n    \"currency\": { \"type\": \"string\" },\n    \"currentBalance\": { \"type\": \"number\" },\n    \"availableBalance\": { \"type\": \"number\" },\n    \"accountNumberDisplay\": { \"type\": \"string\" },\n    \"status\": { \"type\": \"string\" }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/json-schema/chase-account-schema.json
 tags:
 - Account Aggregation
 - Banking

@@ -16,6 +16,8 @@ provider_name: Moody's
 provider_slug: moodys
 schema_file: json-schema/moodys-data-buffet-access-token-schema.json
 slug: moodys-data-buffet-access-token
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AccessToken\",\n  \"type\": \"object\",\n  \"description\": \"OAuth2 access token response.\",\n  \"properties\": {\n    \"access_token\": {\n      \"type\": \"string\",\n      \"description\": \"The bearer access token for authenticating API requests.\"\n    },\n    \"token_type\": {\n      \"type\": \"string\",\n      \"description\": \"The type of token issued. Always \\\"Bearer\\\".\"\n    },\n    \"expires_in\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of seconds until the access token expires.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/json-schema/moodys-data-buffet-access-token-schema.json
 tags:
 - Climate Risk
 - Compliance

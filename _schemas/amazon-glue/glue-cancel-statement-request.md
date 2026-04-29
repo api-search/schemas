@@ -16,6 +16,9 @@ provider_name: Amazon Glue
 provider_slug: amazon-glue
 schema_file: json-schema/glue-cancel-statement-request-schema.json
 slug: glue-cancel-statement-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-cancel-statement-request-schema.json\",\n  \"title\": \"CancelStatementRequest\",\n  \"description\": \"CancelStatementRequest schema from Amazon Glue API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"SessionId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NameString\"\n        },\n        {\n          \"description\": \"The Session ID of the statement to be cancelled.\"\n        }\n      ]\n    },\n    \"Id\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IntegerValue\"\n        },\n        {\n          \"description\": \"The ID of the statement to be cancelled.\"\n        }\n      ]\n    },\n    \"RequestOrigin\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OrchestrationNameString\"\n        },\n\
+  \        {\n          \"description\": \"The origin of the request to cancel the statement.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SessionId\",\n    \"Id\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-cancel-statement-request-schema.json
 tags:
 - Analytics
 - AWS

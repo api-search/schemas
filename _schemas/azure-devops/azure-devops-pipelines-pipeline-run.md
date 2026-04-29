@@ -37,6 +37,8 @@ provider_name: Azure DevOps
 provider_slug: azure-devops
 schema_file: json-schema/azure-devops-pipelines-pipeline-run-schema.json
 slug: azure-devops-pipelines-pipeline-run
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PipelineRun\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"state\": {\n      \"type\": \"string\"\n    },\n    \"result\": {\n      \"type\": \"string\"\n    },\n    \"createdDate\": {\n      \"type\": \"string\"\n    },\n    \"finishedDate\": {\n      \"type\": \"string\"\n    },\n    \"pipeline\": {\n      \"type\": \"object\"\n    },\n    \"resources\": {\n      \"type\": \"object\"\n    },\n    \"variables\": {\n      \"type\": \"object\"\n    },\n    \"url\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/json-schema/azure-devops-pipelines-pipeline-run-schema.json
 tags:
 - Azure
 - CI/CD

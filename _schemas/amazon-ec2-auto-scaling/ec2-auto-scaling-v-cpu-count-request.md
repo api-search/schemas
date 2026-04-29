@@ -13,6 +13,8 @@ provider_name: Amazon EC2 Auto Scaling
 provider_slug: amazon-ec2-auto-scaling
 schema_file: json-schema/ec2-auto-scaling-v-cpu-count-request-schema.json
 slug: ec2-auto-scaling-v-cpu-count-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/json-schema/ec2-auto-scaling-v-cpu-count-request-schema.json\",\n  \"title\": \"VCpuCountRequest\",\n  \"description\": \"Specifies the minimum and maximum for the <code>VCpuCount</code> object when you specify <a>InstanceRequirements</a> for an Auto Scaling group.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Min\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NullablePositiveInteger\"\n        },\n        {\n          \"description\": \"The minimum number of vCPUs.\"\n        }\n      ]\n    },\n    \"Max\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NullablePositiveInteger\"\n        },\n        {\n          \"description\": \"The maximum number of vCPUs.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Min\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/json-schema/ec2-auto-scaling-v-cpu-count-request-schema.json
 tags:
 - Amazon Web Services
 - Auto Scaling

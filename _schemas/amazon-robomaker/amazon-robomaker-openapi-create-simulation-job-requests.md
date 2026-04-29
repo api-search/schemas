@@ -7,6 +7,8 @@ provider_name: Amazon RoboMaker
 provider_slug: amazon-robomaker
 schema_file: json-schema/amazon-robomaker-openapi-create-simulation-job-requests-schema.json
 slug: amazon-robomaker-openapi-create-simulation-job-requests
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-job-requests-schema.json\",\n  \"title\": \"CreateSimulationJobRequests\",\n  \"description\": \"CreateSimulationJobRequests schema from openapi\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/SimulationJobRequest\"\n  },\n  \"minItems\": 1,\n  \"maxItems\": 1000\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-job-requests-schema.json
 tags:
 - AWS
 - Robotics

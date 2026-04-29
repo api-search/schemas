@@ -10,6 +10,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-body-async-id-schema.json
 slug: atlassian-confluence-content-body-async-id
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AsyncId\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"asyncId\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-body-async-id-schema.json
 tags:
 - Code
 - Collaboration

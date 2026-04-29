@@ -16,6 +16,8 @@ provider_name: ServiceNow
 provider_slug: servicenow
 schema_file: json-schema/trouble-ticket-related-party-schema.json
 slug: trouble-ticket-related-party
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Sys_id of the related party\",\n      \"example\": \"abc123\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the related party\",\n      \"example\": \"Example Title\"\n    },\n    \"@referredType\": {\n      \"type\": \"string\",\n      \"description\": \"Type of related party:\\n- assigned_to: User assigned to work on the ticket\\n- assignment_group: Group assigned to work on the ticket\\n- customer: Company or account for the ticket\\n- customer_contact: Caller or contact for the ticket\\n\",\n      \"example\": \"assigned_to\",\n      \"enum\": [\n        \"assigned_to\",\n        \"assignment_group\",\n        \"customer\",\n        \"customer_contact\"\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RelatedParty\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-schema/trouble-ticket-related-party-schema.json
 tags:
 - Automation
 - Cloud Services

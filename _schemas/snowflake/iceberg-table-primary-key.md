@@ -7,6 +7,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/iceberg-table-primary-key-schema.json
 slug: iceberg-table-primary-key
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PrimaryKey\",\n  \"type\": \"object\",\n  \"description\": \"A primary key is the column or columns that contain values that uniquely identify each row in a table.\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/iceberg-table-primary-key-schema.json
 tags:
 - Data Lakes
 - Data Sharing

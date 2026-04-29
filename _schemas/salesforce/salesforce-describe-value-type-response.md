@@ -10,6 +10,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-describe-value-type-response-schema.json
 slug: salesforce-describe-value-type-response
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"result\": {\n      \"type\": \"object\",\n      \"example\": \"example_value\"\n    }\n  },\n  \"required\": [\n    \"result\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"describeValueTypeResponse\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-describe-value-type-response-schema.json
 tags:
 - AI
 - Analytics

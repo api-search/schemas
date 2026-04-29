@@ -7,6 +7,8 @@ provider_name: Amazon MediaConnect
 provider_slug: amazon-mediaconnect
 schema_file: json-schema/mediaconnect-api-encoder-profile-schema.json
 slug: mediaconnect-api-encoder-profile
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-encoder-profile-schema.json\",\n  \"title\": \"EncoderProfile\",\n  \"description\": \"EncoderProfile schema from AWS Elemental MediaConnect API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"main\",\n    \"high\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-encoder-profile-schema.json
 tags:
 - AWS
 - Broadcasting

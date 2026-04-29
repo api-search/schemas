@@ -25,6 +25,9 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/conversations-api-inbox-schema.json
 slug: conversations-api-inbox
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/conversations-api-inbox-schema.json\",\n  \"title\": \"Inbox\",\n  \"description\": \"Represents a conversation inbox configuration where messages are organized and routed.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the inbox\",\n      \"example\": \"12345678\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Display name of the inbox\",\n      \"example\": \"Support Inbox\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Type of inbox (e.g., CONVERSATIONS_INBOX)\",\n      \"example\": \"CONVERSATIONS_INBOX\"\n    },\n    \"createdAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"ISO 8601 timestamp when the\
+  \ inbox was created\",\n      \"example\": \"2024-01-10T09:00:00Z\"\n    },\n    \"updatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"ISO 8601 timestamp when the inbox was last updated\",\n      \"example\": \"2024-01-15T14:30:00Z\"\n    },\n    \"archived\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the inbox is archived\",\n      \"example\": false\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"name\",\n    \"createdAt\",\n    \"updatedAt\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/conversations-api-inbox-schema.json
 tags:
 - Analytics
 - Commerce

@@ -25,6 +25,9 @@ provider_name: airbnb
 provider_slug: airbnb
 schema_file: json-schema/airbnb-photo-schema.json
 slug: airbnb-photo
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-photo-schema.json\",\n  \"title\": \"Photo\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier of the photo.\"\n    },\n    \"url\": {\n      \"type\": \"string\",\n      \"format\": \"uri\",\n      \"description\": \"The URL where the photo is hosted.\"\n    },\n    \"caption\": {\n      \"type\": \"string\",\n      \"description\": \"A caption describing the photo.\"\n    },\n    \"sort_order\": {\n      \"type\": \"integer\",\n      \"description\": \"The display position of the photo in the listing gallery.\"\n    },\n    \"width\": {\n      \"type\": \"integer\",\n      \"description\": \"The width of the photo in pixels.\"\n    },\n    \"height\": {\n      \"type\": \"integer\",\n      \"description\": \"The height\
+  \ of the photo in pixels.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-photo-schema.json
 tags: []
 title: Photo
 ---

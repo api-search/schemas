@@ -40,6 +40,8 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/business-central-v2-general-ledger-entry-schema.json
 slug: business-central-v2-general-ledger-entry
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"GeneralLedgerEntry\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"entryNumber\": {\n      \"type\": \"integer\"\n    },\n    \"postingDate\": {\n      \"type\": \"string\"\n    },\n    \"documentNumber\": {\n      \"type\": \"string\"\n    },\n    \"documentType\": {\n      \"type\": \"string\"\n    },\n    \"accountId\": {\n      \"type\": \"string\"\n    },\n    \"accountNumber\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"debitAmount\": {\n      \"type\": \"number\"\n    },\n    \"creditAmount\": {\n      \"type\": \"number\"\n    },\n    \"lastModifiedDateTime\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-general-ledger-entry-schema.json
 tags:
 - Business Management
 - Dynamics NAV

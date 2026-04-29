@@ -13,6 +13,8 @@ provider_name: Amazon Ground Station
 provider_slug: amazon-ground-station
 schema_file: json-schema/ground-station-get-minute-usage-request-schema.json
 slug: ground-station-get-minute-usage-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-get-minute-usage-request-schema.json\",\n  \"title\": \"GetMinuteUsageRequest\",\n  \"description\": \"<p/>\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"month\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Month\"\n        },\n        {\n          \"description\": \"The month being requested, with a value of 1-12.\"\n        }\n      ]\n    },\n    \"year\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Year\"\n        },\n        {\n          \"description\": \"The year being requested, in the format of YYYY.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"month\",\n    \"year\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-get-minute-usage-request-schema.json
 tags:
 - AWS
 - Data Processing

@@ -49,6 +49,9 @@ provider_name: Cisco Voice Portal
 provider_slug: cisco-voice-portal
 schema_file: json-schema/cisco-voice-portal-call-control-active-call-detail-schema.json
 slug: cisco-voice-portal-call-control-active-call-detail
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ActiveCallDetail\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"callGuid\": {\n      \"type\": \"string\"\n    },\n    \"state\": {\n      \"type\": \"string\"\n    },\n    \"callingNumber\": {\n      \"type\": \"string\"\n    },\n    \"calledNumber\": {\n      \"type\": \"string\"\n    },\n    \"startTime\": {\n      \"type\": \"string\"\n    },\n    \"duration\": {\n      \"type\": \"integer\"\n    },\n    \"applicationName\": {\n      \"type\": \"string\"\n    },\n    \"sipCallId\": {\n      \"type\": \"string\",\n      \"description\": \"SIP Call-ID\"\n    },\n    \"sipFromTag\": {\n      \"type\": \"string\"\n    },\n    \"sipToTag\": {\n      \"type\": \"string\"\n    },\n    \"icmRouteResult\": {\n      \"type\": \"object\"\n    },\n    \"vxmlServer\": {\n      \"type\": \"string\",\n      \"description\": \"VXML Server currently handling the call\"\n    },\n    \"callHistory\"\
+  : {\n      \"type\": \"array\",\n      \"description\": \"Chronological list of call events\"\n    },\n    \"eccVariables\": {\n      \"type\": \"object\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/json-schema/cisco-voice-portal-call-control-active-call-detail-schema.json
 tags:
 - Contact Center
 - IVR

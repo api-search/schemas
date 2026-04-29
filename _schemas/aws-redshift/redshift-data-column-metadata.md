@@ -46,6 +46,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-data-column-metadata-schema.json
 slug: redshift-data-column-metadata
+source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"columnDefault\": {},\n    \"isCaseSensitive\": {},\n    \"isCurrency\": {},\n    \"isSigned\": {},\n    \"label\": {},\n    \"length\": {},\n    \"name\": {},\n    \"nullable\": {},\n    \"precision\": {},\n    \"scale\": {},\n    \"schemaName\": {},\n    \"tableName\": {},\n    \"typeName\": {}\n  },\n  \"description\": \"The properties (metadata) of a column. \",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-column-metadata-schema.json\",\n  \"title\": \"ColumnMetadata\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-column-metadata-schema.json
 tags:
 - Analytics
 - Big Data

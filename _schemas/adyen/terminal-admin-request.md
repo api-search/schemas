@@ -10,6 +10,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/terminal-admin-request-schema.json
 slug: terminal-admin-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/terminal-admin-request-schema.json\",\n  \"title\": \"AdminRequest\",\n  \"description\": \"Empty. Content of the Custom Admin Request message.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ServiceIdentification\": {\n      \"type\": \"string\",\n      \"pattern\": \"^.+$\",\n      \"description\": \"Identification of the administrative service to process.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/terminal-admin-request-schema.json
 tags:
 - Payments
 - Financial Services

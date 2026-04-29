@@ -16,6 +16,8 @@ provider_name: Splunk
 provider_slug: splunk
 schema_file: json-schema/splunk-enterprise-rest-index-list-schema.json
 slug: splunk-enterprise-rest-index-list
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"IndexList\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"origin\": {\n      \"type\": \"string\"\n    },\n    \"updated\": {\n      \"type\": \"string\"\n    },\n    \"entry\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/json-schema/splunk-enterprise-rest-index-list-schema.json
 tags:
 - Analytics
 - Data Analysis

@@ -25,6 +25,9 @@ provider_name: Abstract API
 provider_slug: abstract-api
 schema_file: json-schema/vat-validation-vat-rates-response-schema.json
 slug: vat-validation-vat-rates-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-schema/vat-validation-vat-rates-response-schema.json\",\n  \"title\": \"VATRatesResponse\",\n  \"description\": \"VATRatesResponse schema from Abstract API vat-validation\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"country_code\": {\n      \"type\": \"string\",\n      \"example\": \"DE\"\n    },\n    \"country_name\": {\n      \"type\": \"string\",\n      \"example\": \"Germany\"\n    },\n    \"standard_rate\": {\n      \"type\": \"number\",\n      \"description\": \"Standard VAT rate percentage\",\n      \"example\": 19\n    },\n    \"reduced_rates\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"number\"\n      },\n      \"description\": \"Reduced VAT rate percentages\",\n      \"example\": [\n        7\n      ]\n    },\n    \"super_reduced_rate\": {\n      \"type\": \"number\"\
+  ,\n      \"nullable\": true,\n      \"description\": \"Super reduced VAT rate if applicable\",\n      \"example\": null\n    },\n    \"parking_rate\": {\n      \"type\": \"number\",\n      \"nullable\": true,\n      \"description\": \"Parking VAT rate if applicable\",\n      \"example\": null\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-schema/vat-validation-vat-rates-response-schema.json
 tags:
 - Avatars
 - Company Enrichment

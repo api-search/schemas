@@ -13,6 +13,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/hubspot-authors-paging-next-schema.json
 slug: hubspot-authors-paging-next
+source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Pagination cursor for retrieving the next page of results\",\n  \"properties\": {\n    \"after\": {\n      \"type\": \"string\",\n      \"description\": \"Cursor token for the next page\",\n      \"example\": \"example-value\"\n    },\n    \"link\": {\n      \"type\": \"string\",\n      \"description\": \"API link to the next page of results\",\n      \"example\": \"https://app.hubspot.com/contacts/12345\"\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PagingNext\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/hubspot-authors-paging-next-schema.json
 tags:
 - Analytics
 - Commerce

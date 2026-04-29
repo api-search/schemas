@@ -7,6 +7,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-payments-internal-server-error-schema.json
 slug: figma-payments-internal-server-error
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"InternalServerError\",\n  \"type\": \"object\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-payments-internal-server-error-schema.json
 tags:
 - Collaboration
 - Design

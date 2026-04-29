@@ -7,6 +7,8 @@ provider_name: Mastercard
 provider_slug: mastercard
 schema_file: json-schema/mastercard-card-issuance-card-type-schema.json
 slug: mastercard-card-issuance-card-type
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CardType\",\n  \"type\": \"string\",\n  \"description\": \"The type indicates the card category. <br/> **Valid values: **\\n* `EMV_CARD`\\n* `MAGNETIC_STRIPE_CARD`\\n* `STATIC_VIRTUAL_CARD`\\n* `LIMITED_VALIDITY_VIRTUAL_CARD`\\n* `NFC_PAYPASS`\\n* `NFC_EMV_PAYPASS`\\n* `NFC_MAG_STRIPE_PAYPASS`\\n* `MOBILE`\\n* `NFC_PAYWAVE`\\n* `NFC_EMV_PAYWAVE`\\n* `NFC_MAG_STRIPE_PAYWAVE`\\n* `ATM_ADMIN_CARD`\\n* `EXPRESSPAY_MAG_STRIPE`\\n* `EXPRESSPAY_EMV`\\n* `RUPAY_NFC_EMV`\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-schema/mastercard-card-issuance-card-type-schema.json
 tags:
 - Credit Cards
 - Digital Identity

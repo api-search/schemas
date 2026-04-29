@@ -10,6 +10,8 @@ provider_name: Amazon Proton
 provider_slug: amazon-proton
 schema_file: json-schema/amazon-proton-create-environment-template-output-schema.json
 slug: amazon-proton-create-environment-template-output
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-template-output-schema.json\",\n  \"title\": \"CreateEnvironmentTemplateOutput\",\n  \"description\": \"CreateEnvironmentTemplateOutput schema from Amazon Proton API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"environmentTemplate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EnvironmentTemplate\"\n        },\n        {\n          \"description\": \"The environment template detail data that's returned by Proton.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"environmentTemplate\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-template-output-schema.json
 tags:
 - AWS
 - DevOps

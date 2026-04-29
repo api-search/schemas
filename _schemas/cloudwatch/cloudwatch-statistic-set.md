@@ -19,6 +19,8 @@ provider_name: AWS CloudWatch
 provider_slug: cloudwatch
 schema_file: json-schema/cloudwatch-statistic-set-schema.json
 slug: cloudwatch-statistic-set
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"StatisticSet\",\n  \"type\": \"object\",\n  \"description\": \"Represents a set of statistics that describes a specific metric.\",\n  \"properties\": {\n    \"SampleCount\": {\n      \"type\": \"number\",\n      \"description\": \"The number of samples used for the statistic set.\"\n    },\n    \"Sum\": {\n      \"type\": \"number\",\n      \"description\": \"The sum of values for the sample set.\"\n    },\n    \"Minimum\": {\n      \"type\": \"number\",\n      \"description\": \"The minimum value of the sample set.\"\n    },\n    \"Maximum\": {\n      \"type\": \"number\",\n      \"description\": \"The maximum value of the sample set.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/json-schema/cloudwatch-statistic-set-schema.json
 tags:
 - Alarms
 - Aws

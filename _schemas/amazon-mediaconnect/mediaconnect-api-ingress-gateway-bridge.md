@@ -16,6 +16,9 @@ provider_name: Amazon MediaConnect
 provider_slug: amazon-mediaconnect
 schema_file: json-schema/mediaconnect-api-ingress-gateway-bridge-schema.json
 slug: mediaconnect-api-ingress-gateway-bridge
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-ingress-gateway-bridge-schema.json\",\n  \"title\": \"IngressGatewayBridge\",\n  \"description\": \"IngressGatewayBridge schema from AWS Elemental MediaConnect API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"InstanceId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"instanceId\"\n          },\n          \"description\": \"The ID of the instance running this bridge.\"\n        }\n      ]\n    },\n    \"MaxBitrate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"maxBitrate\"\n          },\n          \"description\": \"The maximum expected bitrate (in\
+  \ bps) of the ingress bridge.\"\n        }\n      ]\n    },\n    \"MaxOutputs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"maxOutputs\"\n          },\n          \"description\": \"The maximum number of outputs on the ingress bridge.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MaxOutputs\",\n    \"MaxBitrate\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-ingress-gateway-bridge-schema.json
 tags:
 - AWS
 - Broadcasting

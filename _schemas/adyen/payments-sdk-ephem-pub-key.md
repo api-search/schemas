@@ -19,6 +19,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/payments-sdk-ephem-pub-key-schema.json
 slug: payments-sdk-ephem-pub-key
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/payments-sdk-ephem-pub-key-schema.json\",\n  \"title\": \"SDKEphemPubKey\",\n  \"description\": \"SDKEphemPubKey schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"crv\": {\n      \"description\": \"The `crv` value as received from the 3D Secure 2 SDK.\",\n      \"type\": \"string\"\n    },\n    \"kty\": {\n      \"description\": \"The `kty` value as received from the 3D Secure 2 SDK.\",\n      \"type\": \"string\"\n    },\n    \"x\": {\n      \"description\": \"The `x` value as received from the 3D Secure 2 SDK.\",\n      \"type\": \"string\"\n    },\n    \"y\": {\n      \"description\": \"The `y` value as received from the 3D Secure 2 SDK.\",\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/payments-sdk-ephem-pub-key-schema.json
 tags:
 - Payments
 - Financial Services

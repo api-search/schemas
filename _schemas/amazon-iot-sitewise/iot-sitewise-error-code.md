@@ -7,6 +7,8 @@ provider_name: Amazon IoT SiteWise
 provider_slug: amazon-iot-sitewise
 schema_file: json-schema/iot-sitewise-error-code-schema.json
 slug: iot-sitewise-error-code
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-error-code-schema.json\",\n  \"title\": \"ErrorCode\",\n  \"description\": \"ErrorCode schema\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"VALIDATION_ERROR\",\n    \"INTERNAL_FAILURE\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-error-code-schema.json
 tags:
 - AWS
 - Asset Management

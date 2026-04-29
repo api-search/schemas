@@ -13,6 +13,8 @@ provider_name: Argo Workflows
 provider_slug: argo-workflows
 schema_file: json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-client-cert-auth-schema.json
 slug: argo-workflows-io-argoproj-workflow-v1alpha1-client-cert-auth
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-client-cert-auth-schema.json\",\n  \"title\": \"io.argoproj.workflow.v1alpha1.ClientCertAuth\",\n  \"description\": \"ClientCertAuth holds necessary information for client authentication via certificates\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"clientCertSecret\": {\n      \"$ref\": \"#/definitions/io.k8s.api.core.v1.SecretKeySelector\"\n    },\n    \"clientKeySecret\": {\n      \"$ref\": \"#/definitions/io.k8s.api.core.v1.SecretKeySelector\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-client-cert-auth-schema.json
 tags:
 - CNCF
 - Containers

@@ -31,6 +31,9 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/iceberg-table-iceberg-table-from-iceberg-rest-schema.json
 slug: iceberg-table-iceberg-table-from-iceberg-rest
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"IcebergTableFromIcebergRest\",\n  \"type\": \"object\",\n  \"description\": \"Creates or replaces an Apache Iceberg\\u2122 table in the current/specified schema for an Iceberg REST catalog.\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Specifies the name for the table, must be unique for the schema in which the table is created\"\n    },\n    \"external_volume\": {\n      \"type\": \"string\",\n      \"description\": \"Specifies the name of the external volume to use for the table\"\n    },\n    \"catalog_table_name\": {\n      \"type\": \"string\",\n      \"description\": \"Specifies the table name as recognized by the AWS Glue Data Catalog.\"\n    },\n    \"catalog_namespace\": {\n      \"type\": \"string\",\n      \"description\": \"Specifies the catalog namespace for the table.\"\n    },\n    \"replace_invalid_characters\": {\n      \"type\"\
+  : \"boolean\",\n      \"description\": \"Specifies whether to replace invalid characters in the column names\"\n    },\n    \"auto_refresh\": {\n      \"type\": \"boolean\",\n      \"description\": \"Specifies whether to automatically refresh the table metadata\"\n    },\n    \"catalog\": {\n      \"type\": \"string\",\n      \"description\": \"Specifies the name of the catalog integration to use for the table\"\n    },\n    \"comment\": {\n      \"type\": \"string\",\n      \"description\": \"Specifies a comment for the table\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/iceberg-table-iceberg-table-from-iceberg-rest-schema.json
 tags:
 - Data Lakes
 - Data Sharing

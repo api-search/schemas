@@ -16,6 +16,8 @@ provider_name: Google Maps Platform
 provider_slug: google-maps
 schema_file: json-schema/google-maps-geocoding-address-component-schema.json
 slug: google-maps-geocoding-address-component
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AddressComponent\",\n  \"type\": \"object\",\n  \"description\": \"An individual address component of a geocoding result\",\n  \"properties\": {\n    \"long_name\": {\n      \"type\": \"string\",\n      \"description\": \"The full text description of the address component\"\n    },\n    \"short_name\": {\n      \"type\": \"string\",\n      \"description\": \"An abbreviated textual name for the address component\"\n    },\n    \"types\": {\n      \"type\": \"array\",\n      \"description\": \"Array indicating the type of the address component\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/json-schema/google-maps-geocoding-address-component-schema.json
 tags:
 - Environment
 - Geocoding

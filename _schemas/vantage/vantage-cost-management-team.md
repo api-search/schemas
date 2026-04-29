@@ -25,6 +25,8 @@ provider_name: Vantage
 provider_slug: vantage
 schema_file: json-schema/vantage-cost-management-team-schema.json
 slug: vantage-cost-management-team
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Team\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"token\": {\n      \"type\": \"string\",\n      \"description\": \"The unique token identifier for the Team.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the Team.\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"The description of the Team.\"\n    },\n    \"workspace_token\": {\n      \"type\": \"string\",\n      \"description\": \"The token of the Workspace this Team belongs to.\"\n    },\n    \"user_tokens\": {\n      \"type\": \"array\",\n      \"description\": \"Tokens of users who are members of the Team.\"\n    },\n    \"created_at\": {\n      \"type\": \"string\",\n      \"description\": \"The date and time the Team was created.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/json-schema/vantage-cost-management-team-schema.json
 tags:
 - Budgets
 - Cloud Pricing

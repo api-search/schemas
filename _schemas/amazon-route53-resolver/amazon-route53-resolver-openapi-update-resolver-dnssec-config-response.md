@@ -10,6 +10,8 @@ provider_name: Amazon Route 53 Resolver
 provider_slug: amazon-route53-resolver
 schema_file: json-schema/amazon-route53-resolver-openapi-update-resolver-dnssec-config-response-schema.json
 slug: amazon-route53-resolver-openapi-update-resolver-dnssec-config-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-dnssec-config-response-schema.json\",\n  \"title\": \"UpdateResolverDnssecConfigResponse\",\n  \"description\": \"UpdateResolverDnssecConfigResponse schema from openapi\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ResolverDNSSECConfig\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResolverDnssecConfig\"\n        },\n        {\n          \"description\": \"A complex type that contains settings for the specified DNSSEC configuration.\"\n        }\n      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-dnssec-config-response-schema.json
 tags:
 - AWS
 - DNS

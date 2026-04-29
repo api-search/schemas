@@ -7,6 +7,8 @@ provider_name: Amazon Route 53 Resolver
 provider_slug: amazon-route53-resolver
 schema_file: json-schema/amazon-route53-resolver-openapi-rule-type-option-schema.json
 slug: amazon-route53-resolver-openapi-rule-type-option
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-rule-type-option-schema.json\",\n  \"title\": \"RuleTypeOption\",\n  \"description\": \"RuleTypeOption schema from openapi\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"FORWARD\",\n    \"SYSTEM\",\n    \"RECURSIVE\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-rule-type-option-schema.json
 tags:
 - AWS
 - DNS

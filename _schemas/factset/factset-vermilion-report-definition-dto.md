@@ -19,6 +19,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-vermilion-report-definition-dto-schema.json
 slug: factset-vermilion-report-definition-dto
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ReportDefinitionDTO\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"code\": {\n      \"type\": \"string\"\n    },\n    \"releaseTag\": {\n      \"type\": \"string\"\n    },\n    \"entities\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-vermilion-report-definition-dto-schema.json
 tags:
 - Financial
 - Financial Data

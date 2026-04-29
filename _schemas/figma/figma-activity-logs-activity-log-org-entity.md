@@ -16,6 +16,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-activity-logs-activity-log-org-entity-schema.json
 slug: figma-activity-logs-activity-log-org-entity
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ActivityLogOrgEntity\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-activity-logs-activity-log-org-entity-schema.json
 tags:
 - Collaboration
 - Design

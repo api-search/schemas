@@ -19,6 +19,8 @@ provider_name: Amazon AppSync
 provider_slug: amazon-appsync
 schema_file: json-schema/appsync-api-key-schema.json
 slug: appsync-api-key
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-appsync/json-schema/appsync-api-key-schema.json\",\n  \"title\": \"ApiKey\",\n  \"description\": \"An API key for AppSync API authentication\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The API key ID\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"The API key description\"\n    },\n    \"expires\": {\n      \"type\": \"integer\",\n      \"description\": \"Unix timestamp when the key expires\"\n    },\n    \"deletes\": {\n      \"type\": \"integer\",\n      \"description\": \"Unix timestamp when the key is scheduled for deletion\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/json-schema/appsync-api-key-schema.json
 tags:
 - Amazon AppSync
 - GraphQL

@@ -13,6 +13,8 @@ provider_name: Oracle GoldenGate
 provider_slug: oracle-goldengate
 schema_file: json-schema/oracle-goldengate-rest-validation-result-schema.json
 slug: oracle-goldengate-rest-validation-result
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ValidationResult\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"valid\": {\n      \"type\": \"boolean\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/json-schema/oracle-goldengate-rest-validation-result-schema.json
 tags:
 - CDC
 - Data Integration

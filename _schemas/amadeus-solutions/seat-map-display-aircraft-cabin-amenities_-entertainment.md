@@ -7,6 +7,8 @@ provider_name: Amadeus Solutions
 provider_slug: amadeus-solutions
 schema_file: json-schema/seat-map-display-aircraft-cabin-amenities_-entertainment-schema.json
 slug: seat-map-display-aircraft-cabin-amenities_-entertainment
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/json-schema/seat-map-display-aircraft-cabin-amenities_-entertainment-schema.json\",\n  \"title\": \"AircraftCabinAmenities_Entertainment\",\n  \"description\": \"AircraftCabinAmenities_Entertainment schema\",\n  \"allOf\": [\n    {\n      \"$ref\": \"#/definitions/Amenity\"\n    },\n    {\n      \"type\": \"object\",\n      \"description\": \"Type of entertainment contents for a given flight\",\n      \"properties\": {\n        \"entertainmentType\": {\n          \"type\": \"string\",\n          \"enum\": [\n            \"LIVE_TV\",\n            \"MOVIES\",\n            \"AUDIO_VIDEO_ON_DEMAND\",\n            \"TV_SHOWS\",\n            \"IP_TV\"\n          ]\n        }\n      }\n    }\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/json-schema/seat-map-display-aircraft-cabin-amenities_-entertainment-schema.json
 tags:
 - Airlines
 - Booking

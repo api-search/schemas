@@ -25,6 +25,8 @@ provider_name: SolarWinds
 provider_slug: solarwinds
 schema_file: json-schema/solarwinds-pingdom-check-create-schema.json
 slug: solarwinds-pingdom-check-create
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CheckCreate\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Check name\"\n    },\n    \"host\": {\n      \"type\": \"string\",\n      \"description\": \"Target hostname or IP\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Check type\"\n    },\n    \"resolution\": {\n      \"type\": \"integer\",\n      \"description\": \"Check interval in minutes\"\n    },\n    \"paused\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the check is paused\"\n    },\n    \"encryption\": {\n      \"type\": \"boolean\",\n      \"description\": \"Use SSL/TLS\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/json-schema/solarwinds-pingdom-check-create-schema.json
 tags:
 - Application Monitoring
 - Database Monitoring

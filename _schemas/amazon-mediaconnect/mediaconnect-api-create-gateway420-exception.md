@@ -7,6 +7,8 @@ provider_name: Amazon MediaConnect
 provider_slug: amazon-mediaconnect
 schema_file: json-schema/mediaconnect-api-create-gateway420-exception-schema.json
 slug: mediaconnect-api-create-gateway420-exception
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-create-gateway420-exception-schema.json\",\n  \"title\": \"CreateGateway420Exception\",\n  \"description\": \"CreateGateway420Exception schema from AWS Elemental MediaConnect API\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-create-gateway420-exception-schema.json
 tags:
 - AWS
 - Broadcasting

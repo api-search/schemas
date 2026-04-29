@@ -7,6 +7,8 @@ provider_name: Argo Workflows
 provider_slug: argo-workflows
 schema_file: json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-supplied-value-from-schema.json
 slug: argo-workflows-io-argoproj-workflow-v1alpha1-supplied-value-from
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-supplied-value-from-schema.json\",\n  \"title\": \"io.argoproj.workflow.v1alpha1.SuppliedValueFrom\",\n  \"description\": \"SuppliedValueFrom is a placeholder for a value to be filled in directly, either through the CLI, API, etc.\",\n  \"type\": \"object\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-supplied-value-from-schema.json
 tags:
 - CNCF
 - Containers

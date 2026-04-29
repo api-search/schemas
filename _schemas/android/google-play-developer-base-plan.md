@@ -25,6 +25,9 @@ provider_name: Android
 provider_slug: android
 schema_file: json-schema/google-play-developer-base-plan-schema.json
 slug: google-play-developer-base-plan
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"BasePlan\",\n  \"type\": \"object\",\n  \"description\": \"A base plan specifies the billing period and renewal type for a subscription. A subscription must have at least one base plan.\",\n  \"properties\": {\n    \"basePlanId\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier for this base plan.\"\n    },\n    \"state\": {\n      \"type\": \"string\",\n      \"description\": \"The state of the base plan.\"\n    },\n    \"regionalConfigs\": {\n      \"type\": \"array\",\n      \"description\": \"Regional pricing configurations.\"\n    },\n    \"autoRenewingBasePlanType\": {\n      \"type\": \"object\",\n      \"description\": \"Details for auto-renewing base plans.\"\n    },\n    \"prepaidBasePlanType\": {\n      \"type\": \"object\",\n      \"description\": \"Details for prepaid base plans.\"\n    },\n    \"offerTags\": {\n      \"type\": \"array\",\n      \"\
+  description\": \"List of up to 20 custom tags for this base plan.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/json-schema/google-play-developer-base-plan-schema.json
 tags:
 - AI
 - Android

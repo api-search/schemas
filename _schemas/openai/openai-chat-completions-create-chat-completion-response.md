@@ -28,6 +28,9 @@ provider_name: OpenAI
 provider_slug: openai
 schema_file: json-schema/openai-chat-completions-create-chat-completion-response-schema.json
 slug: openai-chat-completions-create-chat-completion-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateChatCompletionResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"A unique identifier for the chat completion.\"\n    },\n    \"object\": {\n      \"type\": \"string\",\n      \"description\": \"The object type, always chat.completion.\"\n    },\n    \"created\": {\n      \"type\": \"integer\",\n      \"description\": \"The Unix timestamp (in seconds) of when the completion was created.\"\n    },\n    \"model\": {\n      \"type\": \"string\",\n      \"description\": \"The model used for the chat completion.\"\n    },\n    \"choices\": {\n      \"type\": \"array\",\n      \"description\": \"A list of chat completion choices.\"\n    },\n    \"system_fingerprint\": {\n      \"type\": \"string\",\n      \"description\": \"This fingerprint represents the backend configuration that the model runs with. Can be used with\
+  \ the seed parameter to detect backend changes.\"\n    },\n    \"service_tier\": {\n      \"type\": \"string\",\n      \"description\": \"The service tier used for processing the request.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/json-schema/openai-chat-completions-create-chat-completion-response-schema.json
 tags:
 - AI
 - Artificial Intelligence

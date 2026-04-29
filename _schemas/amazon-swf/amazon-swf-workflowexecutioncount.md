@@ -13,6 +13,8 @@ provider_name: Amazon Simple Workflow Service
 provider_slug: amazon-swf
 schema_file: json-schema/amazon-swf-workflowexecutioncount-schema.json
 slug: amazon-swf-workflowexecutioncount
+source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"count\"\n  ],\n  \"properties\": {\n    \"count\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Count\"\n        },\n        {\n          \"description\": \"The number of workflow executions.\"\n        }\n      ]\n    },\n    \"truncated\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Truncated\"\n        },\n        {\n          \"description\": \"If set to true, indicates that the actual count was more than the maximum supported by this API and the count returned is the truncated value.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Contains the count of workflow executions returned from <a>CountOpenWorkflowExecutions</a> or <a>CountClosedWorkflowExecutions</a> \",\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"WorkflowExecutionCount\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-workflowexecutioncount-schema.json
 tags:
 - Automation
 - AWS

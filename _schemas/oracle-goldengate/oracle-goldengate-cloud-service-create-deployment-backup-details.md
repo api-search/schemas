@@ -25,6 +25,8 @@ provider_name: Oracle GoldenGate
 provider_slug: oracle-goldengate
 schema_file: json-schema/oracle-goldengate-cloud-service-create-deployment-backup-details-schema.json
 slug: oracle-goldengate-cloud-service-create-deployment-backup-details
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateDeploymentBackupDetails\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"displayName\": {\n      \"type\": \"string\"\n    },\n    \"compartmentId\": {\n      \"type\": \"string\"\n    },\n    \"deploymentId\": {\n      \"type\": \"string\"\n    },\n    \"namespaceName\": {\n      \"type\": \"string\"\n    },\n    \"bucketName\": {\n      \"type\": \"string\"\n    },\n    \"objectName\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/json-schema/oracle-goldengate-cloud-service-create-deployment-backup-details-schema.json
 tags:
 - CDC
 - Data Integration

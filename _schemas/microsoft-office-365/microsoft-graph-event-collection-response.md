@@ -19,6 +19,8 @@ provider_name: Microsoft Office 365
 provider_slug: microsoft-office-365
 schema_file: json-schema/microsoft-graph-event-collection-response-schema.json
 slug: microsoft-graph-event-collection-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"EventCollectionResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"@odata.context\": {\n      \"type\": \"string\"\n    },\n    \"@odata.count\": {\n      \"type\": \"integer\"\n    },\n    \"@odata.nextLink\": {\n      \"type\": \"string\"\n    },\n    \"value\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/json-schema/microsoft-graph-event-collection-response-schema.json
 tags:
 - Cloud
 - Collaboration

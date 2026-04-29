@@ -16,6 +16,9 @@ provider_name: Amazon IoT Core
 provider_slug: amazon-iot-core
 schema_file: json-schema/iot-core-create-job-response-schema.json
 slug: iot-core-create-job-response
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-create-job-response-schema.json\",\n  \"title\": \"CreateJobResponse\",\n  \"description\": \"CreateJobResponse schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"jobArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/JobArn\"\n        },\n        {\n          \"description\": \"The job ARN.\"\n        }\n      ]\n    },\n    \"jobId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/JobId\"\n        },\n        {\n          \"description\": \"The unique identifier you assigned to this job.\"\n        }\n      ]\n    },\n    \"description\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/JobDescription\"\n        },\n        {\n          \"description\": \"The job description.\"\n        }\n\
+  \      ]\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-create-job-response-schema.json
 tags:
 - AWS
 - Device Management

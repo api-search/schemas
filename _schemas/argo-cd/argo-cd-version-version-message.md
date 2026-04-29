@@ -46,6 +46,9 @@ provider_name: Argo CD
 provider_slug: argo-cd
 schema_file: json-schema/argo-cd-version-version-message-schema.json
 slug: argo-cd-version-version-message
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-schema/argo-cd-version-version-message-schema.json\",\n  \"title\": \"versionVersionMessage\",\n  \"description\": \"versionVersionMessage schema from Argo CD API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"BuildDate\": {\n      \"type\": \"string\"\n    },\n    \"Compiler\": {\n      \"type\": \"string\"\n    },\n    \"ExtraBuildInfo\": {\n      \"type\": \"string\"\n    },\n    \"GitCommit\": {\n      \"type\": \"string\"\n    },\n    \"GitTag\": {\n      \"type\": \"string\"\n    },\n    \"GitTreeState\": {\n      \"type\": \"string\"\n    },\n    \"GoVersion\": {\n      \"type\": \"string\"\n    },\n    \"HelmVersion\": {\n      \"type\": \"string\"\n    },\n    \"JsonnetVersion\": {\n      \"type\": \"string\"\n    },\n    \"KubectlVersion\": {\n      \"type\": \"string\"\n    },\n    \"KustomizeVersion\"\
+  : {\n      \"type\": \"string\"\n    },\n    \"Platform\": {\n      \"type\": \"string\"\n    },\n    \"Version\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-schema/argo-cd-version-version-message-schema.json
 tags:
 - Continuous Delivery
 - Containers

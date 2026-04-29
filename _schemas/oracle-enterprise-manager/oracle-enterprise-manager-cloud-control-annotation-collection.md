@@ -10,6 +10,8 @@ provider_name: Oracle Enterprise Manager
 provider_slug: oracle-enterprise-manager
 schema_file: json-schema/oracle-enterprise-manager-cloud-control-annotation-collection-schema.json
 slug: oracle-enterprise-manager-cloud-control-annotation-collection
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AnnotationCollection\",\n  \"type\": \"object\",\n  \"description\": \"Collection of annotations.\",\n  \"properties\": {\n    \"items\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/json-schema/oracle-enterprise-manager-cloud-control-annotation-collection-schema.json
 tags:
 - Cloud Management
 - Database Management

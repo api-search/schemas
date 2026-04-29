@@ -22,6 +22,8 @@ provider_name: Microsoft Azure
 provider_slug: microsoft-azure
 schema_file: json-schema/azure-resource-manager-deployment-extended-schema.json
 slug: azure-resource-manager-deployment-extended
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DeploymentExtended\",\n  \"type\": \"object\",\n  \"description\": \"Deployment information.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The ID of the deployment.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the deployment.\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"The type of the deployment.\"\n    },\n    \"location\": {\n      \"type\": \"string\",\n      \"description\": \"The location of the deployment.\"\n    },\n    \"tags\": {\n      \"type\": \"object\",\n      \"description\": \"Deployment tags.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/json-schema/azure-resource-manager-deployment-extended-schema.json
 tags:
 - API Management
 - Cloud

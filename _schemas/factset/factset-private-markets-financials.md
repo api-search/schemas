@@ -13,6 +13,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-private-markets-financials-schema.json
 slug: factset-private-markets-financials
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"financials\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"fsymId\": {\n      \"type\": \"string\",\n      \"description\": \"Unique FactSet-generated identifier representing an entity for the current entity identifier (-E)\"\n    },\n    \"requestId\": {\n      \"type\": \"string\",\n      \"description\": \"Identifier used in `ids`.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-private-markets-financials-schema.json
 tags:
 - Financial
 - Financial Data

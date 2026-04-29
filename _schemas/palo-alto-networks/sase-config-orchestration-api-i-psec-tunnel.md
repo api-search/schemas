@@ -16,6 +16,8 @@ provider_name: Palo Alto Networks
 provider_slug: palo-alto-networks
 schema_file: json-schema/sase-config-orchestration-api-i-psec-tunnel-schema.json
 slug: sase-config-orchestration-api-i-psec-tunnel
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"IPsecTunnel\",\n  \"description\": \"IPsecTunnel schema from Palo Alto Networks SASE Configuration Orchestration API\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/json-schema/sase-config-orchestration-api-i-psec-tunnel-schema.json\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"local_address\": {\n      \"type\": \"string\",\n      \"description\": \"Local tunnel IP address assigned by Prisma Access.\"\n    },\n    \"remote_address\": {\n      \"type\": \"string\",\n      \"description\": \"Remote tunnel IP address.\"\n    },\n    \"tunnel_interface\": {\n      \"type\": \"string\",\n      \"description\": \"Tunnel interface name.\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/json-schema/sase-config-orchestration-api-i-psec-tunnel-schema.json
 tags:
 - Cloud Security
 - Cybersecurity

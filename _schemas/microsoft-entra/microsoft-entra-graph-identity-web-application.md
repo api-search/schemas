@@ -19,6 +19,8 @@ provider_name: Microsoft Entra
 provider_slug: microsoft-entra
 schema_file: json-schema/microsoft-entra-graph-identity-web-application-schema.json
 slug: microsoft-entra-graph-identity-web-application
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WebApplication\",\n  \"type\": \"object\",\n  \"description\": \"Web application configuration including redirect URIs\",\n  \"properties\": {\n    \"redirectUris\": {\n      \"type\": \"array\",\n      \"description\": \"URIs to which Microsoft Entra ID will redirect after authentication\"\n    },\n    \"homePageUrl\": {\n      \"type\": \"['string', 'null']\",\n      \"description\": \"Home page URL of the application\"\n    },\n    \"logoutUrl\": {\n      \"type\": \"['string', 'null']\",\n      \"description\": \"URL used by the authorization service to sign out the user\"\n    },\n    \"implicitGrantSettings\": {\n      \"type\": \"object\",\n      \"description\": \"Settings for implicit grant flow tokens\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/json-schema/microsoft-entra-graph-identity-web-application-schema.json
 tags:
 - Access Management
 - Authentication

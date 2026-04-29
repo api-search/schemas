@@ -13,6 +13,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-bitbucket-repositories-comment_resolution-schema.json
 slug: atlassian-bitbucket-repositories-comment_resolution
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"comment_resolution\",\n  \"type\": \"object\",\n  \"description\": \"The resolution object for a Comment.\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"created_on\": {\n      \"type\": \"string\",\n      \"description\": \"The ISO8601 timestamp the resolution was created.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-bitbucket-repositories-comment_resolution-schema.json
 tags:
 - Code
 - Collaboration

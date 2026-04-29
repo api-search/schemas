@@ -16,6 +16,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-order-management-automatedprocesscommon-schema.json
 slug: flight-order-management-automatedprocesscommon
+source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"AutomatedProcessCommon\",\n  \"description\": \"Provides information on ticketing arrangements and Amadeus Time Limits\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"$ref\": \"#/definitions/AutomatedProcessCode\"\n    },\n    \"queue\": {\n      \"type\": \"object\",\n      \"description\": \"Identifies the queue onto which PNR must be automatically placed upon process execution.\",\n      \"properties\": {\n        \"number\": {\n          \"type\": \"string\"\n        },\n        \"category\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"text\": {\n      \"type\": \"string\",\n      \"description\": \"Free text\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-order-management-automatedprocesscommon-schema.json
 tags:
 - Airlines
 - Aviation

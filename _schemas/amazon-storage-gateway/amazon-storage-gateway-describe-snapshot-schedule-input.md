@@ -10,6 +10,8 @@ provider_name: Amazon Storage Gateway
 provider_slug: amazon-storage-gateway
 schema_file: json-schema/amazon-storage-gateway-describe-snapshot-schedule-input-schema.json
 slug: amazon-storage-gateway-describe-snapshot-schedule-input
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-describe-snapshot-schedule-input-schema.json\",\n  \"title\": \"DescribeSnapshotScheduleInput\",\n  \"description\": \"A JSON object containing the <a>DescribeSnapshotScheduleInput$VolumeARN</a> of the volume.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"VolumeARN\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VolumeARN\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the volume. Use the <a>ListVolumes</a> operation to return a list of gateway volumes.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"VolumeARN\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-describe-snapshot-schedule-input-schema.json
 tags:
 - AWS
 - Backup

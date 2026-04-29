@@ -7,6 +7,8 @@ provider_name: Amazon Managed Service for Prometheus
 provider_slug: amazon-managed-prometheus
 schema_file: json-schema/amazon-managed-prometheus-service-quota-exceeded-exception-schema.json
 slug: amazon-managed-prometheus-service-quota-exceeded-exception
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/json-schema/amazon-managed-prometheus-service-quota-exceeded-exception-schema.json\",\n  \"title\": \"ServiceQuotaExceededException\",\n  \"description\": \"ServiceQuotaExceededException schema from Amazon Managed Service for Prometheus API\"\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/json-schema/amazon-managed-prometheus-service-quota-exceeded-exception-schema.json
 tags:
 - AWS
 - Containers

@@ -10,6 +10,8 @@ provider_name: Azure Storage Accounts
 provider_slug: azure-storage-accounts
 schema_file: json-schema/azure-storage-accounts-immutability-policy-schema.json
 slug: azure-storage-accounts-immutability-policy
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/json-schema/azure-storage-accounts-immutability-policy-schema.json\",\n  \"title\": \"ImmutabilityPolicy\",\n  \"description\": \"The ImmutabilityPolicy property of a blob container, including Id, resource name, resource type, Etag.\",\n  \"properties\": {\n    \"properties\": {\n      \"$ref\": \"#/definitions/ImmutabilityPolicyProperty\",\n      \"description\": \"The properties of an ImmutabilityPolicy of a blob container.\",\n      \"x-ms-client-flatten\": true\n    }\n  },\n  \"type\": \"object\",\n  \"required\": [\n    \"properties\"\n  ]\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/json-schema/azure-storage-accounts-immutability-policy-schema.json
 tags:
 - Azure
 - Blob Storage

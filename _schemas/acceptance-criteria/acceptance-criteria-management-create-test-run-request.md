@@ -13,6 +13,8 @@ provider_name: Acceptance Criteria
 provider_slug: acceptance-criteria
 schema_file: json-schema/acceptance-criteria-management-create-test-run-request-schema.json
 slug: acceptance-criteria-management-create-test-run-request
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api.example.com/schemas/create-test-run-request.json\",\n  \"title\": \"CreateTestRunRequest\",\n  \"type\": \"object\",\n  \"description\": \"Request body for creating and triggering a test run\",\n  \"properties\": {\n    \"storyIds\": {\n      \"type\": \"array\",\n      \"description\": \"User story IDs to test (all scenarios for these stories)\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"scenarioIds\": {\n      \"type\": \"array\",\n      \"description\": \"Specific scenario IDs to execute\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/acceptance-criteria/refs/heads/main/json-schema/acceptance-criteria-management-create-test-run-request-schema.json
 tags:
 - Agile
 - Behavior Driven Development

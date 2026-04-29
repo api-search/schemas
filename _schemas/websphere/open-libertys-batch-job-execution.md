@@ -40,6 +40,8 @@ provider_name: IBM WebSphere
 provider_slug: websphere
 schema_file: json-schema/open-libertys-batch-job-execution-schema.json
 slug: open-libertys-batch-job-execution
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"BatchJobExecution\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"executionId\": {\n      \"type\": \"integer\"\n    },\n    \"jobInstanceId\": {\n      \"type\": \"integer\"\n    },\n    \"jobName\": {\n      \"type\": \"string\"\n    },\n    \"batchStatus\": {\n      \"type\": \"string\"\n    },\n    \"exitStatus\": {\n      \"type\": \"string\"\n    },\n    \"createTime\": {\n      \"type\": \"string\"\n    },\n    \"startTime\": {\n      \"type\": \"string\"\n    },\n    \"endTime\": {\n      \"type\": \"string\"\n    },\n    \"lastUpdatedTime\": {\n      \"type\": \"string\"\n    },\n    \"jobParameters\": {\n      \"type\": \"object\"\n    },\n    \"stepExecutions\": {\n      \"type\": \"array\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/json-schema/open-libertys-batch-job-execution-schema.json
 tags:
 - Application Server
 - Cloud Native

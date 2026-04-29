@@ -7,6 +7,8 @@ provider_name: Amazon GuardDuty
 provider_slug: amazon-guardduty
 schema_file: json-schema/guardduty-coverage-resources-schema.json
 slug: guardduty-coverage-resources
+source_filename: guardduty-coverage-resources-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/json-schema/guardduty-coverage-resources-schema.json\",\n  \"title\": \"CoverageResources\",\n  \"description\": \"CoverageResources schema from Amazon GuardDuty API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/CoverageResource\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/json-schema/guardduty-coverage-resources-schema.json
 tags:

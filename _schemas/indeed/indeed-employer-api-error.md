@@ -16,6 +16,8 @@ provider_name: Indeed
 provider_slug: indeed
 schema_file: json-schema/indeed-employer-api-error-schema.json
 slug: indeed-employer-api-error
+source_filename: indeed-employer-api-error-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ApiError\",\n  \"type\": \"object\",\n  \"description\": \"An error returned by the Indeed API.\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"string\",\n      \"description\": \"A machine-readable error code.\"\n    },\n    \"message\": {\n      \"type\": \"string\",\n      \"description\": \"A human-readable description of the error.\"\n    },\n    \"field\": {\n      \"type\": \"string\",\n      \"description\": \"The field that caused the error, if applicable.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/json-schema/indeed-employer-api-error-schema.json
 tags:

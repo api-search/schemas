@@ -10,6 +10,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/blog-posts-api-reset-draft-request-schema.json
 slug: blog-posts-api-reset-draft-request
+source_filename: blog-posts-api-reset-draft-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/blog-posts-api-reset-draft-request-schema.json\",\n  \"title\": \"ResetDraftRequest\",\n  \"description\": \"Request to reset draft to live version\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the blog post\",\n      \"example\": \"500123\"\n    }\n  },\n  \"required\": [\n    \"id\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/blog-posts-api-reset-draft-request-schema.json
 tags:

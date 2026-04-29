@@ -16,6 +16,8 @@ provider_name: AhaSend
 provider_slug: ahasend
 schema_file: json-schema/openapi-v2-paginated-routes-response-schema.json
 slug: openapi-v2-paginated-routes-response
+source_filename: openapi-v2-paginated-routes-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/json-schema/openapi-v2-paginated-routes-response-schema.json\",\n  \"title\": \"PaginatedRoutesResponse\",\n  \"description\": \"PaginatedRoutesResponse schema from AhaSend API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"object\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"list\"\n      ],\n      \"description\": \"Object type identifier\",\n      \"example\": \"list\"\n    },\n    \"data\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Route\"\n      },\n      \"description\": \"Array of routes\",\n      \"example\": [\n        {\n          \"object\": \"route\",\n          \"id\": \"500123\",\n          \"created_at\": \"2025-03-15T14:30:00Z\",\n          \"updated_at\": \"2025-03-15T14:30:00Z\",\n          \"name\": \"Example Name\"\n        }\n\
   \      ]\n    },\n    \"pagination\": {\n      \"$ref\": \"#/components/schemas/PaginationInfo\"\n    }\n  },\n  \"required\": [\n    \"object\",\n    \"data\",\n    \"pagination\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/json-schema/openapi-v2-paginated-routes-response-schema.json

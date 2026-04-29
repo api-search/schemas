@@ -13,6 +13,8 @@ provider_name: Amazon API Gateway
 provider_slug: amazon-api-gateway
 schema_file: json-schema/amazon-api-gateway-requestvalidators-schema.json
 slug: amazon-api-gateway-requestvalidators
+source_filename: amazon-api-gateway-requestvalidators-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"RequestValidators\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"position\": {\n      \"type\": \"string\"\n    },\n    \"item\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/RequestValidator\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-requestvalidators-schema.json
 tags:

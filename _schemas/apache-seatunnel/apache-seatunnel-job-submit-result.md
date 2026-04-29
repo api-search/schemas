@@ -13,6 +13,8 @@ provider_name: Apache SeaTunnel
 provider_slug: apache-seatunnel
 schema_file: json-schema/apache-seatunnel-job-submit-result-schema.json
 slug: apache-seatunnel-job-submit-result
+source_filename: apache-seatunnel-job-submit-result-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/json-schema/apache-seatunnel-job-submit-result-schema.json\",\n  \"title\": \"JobSubmitResult\",\n  \"description\": \"Result of submitting a job\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"jobId\": {\n      \"type\": \"string\",\n      \"description\": \"Assigned job identifier\"\n    },\n    \"jobName\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/json-schema/apache-seatunnel-job-submit-result-schema.json
 tags:

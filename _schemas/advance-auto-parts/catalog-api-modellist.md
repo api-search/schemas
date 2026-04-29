@@ -10,6 +10,8 @@ provider_name: Advance Auto Parts
 provider_slug: advance-auto-parts
 schema_file: json-schema/catalog-api-modellist-schema.json
 slug: catalog-api-modellist
+source_filename: catalog-api-modellist-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ModelList\",\n  \"description\": \"List of vehicle models.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"models\": {\n      \"type\": \"array\",\n      \"description\": \"Array of vehicle models.\",\n      \"items\": {\n        \"$ref\": \"#/$defs/VehicleModel\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/json-schema/catalog-api-modellist-schema.json
 tags:

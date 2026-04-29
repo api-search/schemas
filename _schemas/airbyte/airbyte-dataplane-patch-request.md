@@ -13,6 +13,8 @@ provider_name: Airbyte
 provider_slug: airbyte
 schema_file: json-schema/airbyte-dataplane-patch-request-schema.json
 slug: airbyte-dataplane-patch-request
+source_filename: airbyte-dataplane-patch-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-dataplane-patch-request-schema.json\",\n  \"title\": \"DataplanePatchRequest\",\n  \"description\": \"DataplanePatchRequest schema from Airbyte API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"enabled\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-dataplane-patch-request-schema.json
 tags:

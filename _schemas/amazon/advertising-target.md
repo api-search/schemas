@@ -28,6 +28,8 @@ provider_name: Amazon
 provider_slug: amazon
 schema_file: json-schema/advertising-target-schema.json
 slug: advertising-target
+source_filename: advertising-target-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"targetId\": {\n      \"type\": \"string\"\n    },\n    \"campaignId\": {\n      \"type\": \"string\"\n    },\n    \"adGroupId\": {\n      \"type\": \"string\"\n    },\n    \"state\": {\n      \"type\": \"string\"\n    },\n    \"bid\": {\n      \"type\": \"number\"\n    },\n    \"expressionType\": {\n      \"type\": \"string\"\n    },\n    \"expression\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Target\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/json-schema/advertising-target-schema.json\",\n  \"description\": \"Target schema from Amazon Advertising API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/json-schema/advertising-target-schema.json
 tags:

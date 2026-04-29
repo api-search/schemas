@@ -16,6 +16,8 @@ provider_name: Amazon API Gateway
 provider_slug: amazon-api-gateway
 schema_file: json-schema/amazon-api-gateway-deploymentcanarysettings-schema.json
 slug: amazon-api-gateway-deploymentcanarysettings
+source_filename: amazon-api-gateway-deploymentcanarysettings-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"DeploymentCanarySettings\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"percentTraffic\": {\n      \"type\": \"number\"\n    },\n    \"stageVariableOverrides\": {\n      \"type\": \"object\"\n    },\n    \"useStageCache\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-deploymentcanarysettings-schema.json
 tags:

@@ -19,6 +19,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/hubspot-crm-feature-flags-batch-error-schema.json
 slug: hubspot-crm-feature-flags-batch-error
+source_filename: hubspot-crm-feature-flags-batch-error-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Represents an error that occurred for a specific item in a batch operation\",\n  \"properties\": {\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Error status code\",\n      \"example\": \"error\"\n    },\n    \"category\": {\n      \"type\": \"string\",\n      \"description\": \"Error category\",\n      \"example\": \"VALIDATION_ERROR\"\n    },\n    \"message\": {\n      \"type\": \"string\",\n      \"description\": \"Human-readable error message\",\n      \"example\": \"Invalid portal ID\"\n    },\n    \"context\": {\n      \"type\": \"object\",\n      \"description\": \"Additional context about the error\",\n      \"example\": {\n        \"key\": \"value\"\n      }\n    }\n  },\n  \"required\": [\n    \"status\",\n    \"category\",\n    \"message\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"BatchError\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/hubspot-crm-feature-flags-batch-error-schema.json
 tags:

@@ -16,6 +16,8 @@ provider_name: Mastercard
 provider_slug: mastercard
 schema_file: json-schema/mastercard-card-issuance-debit-card-profile-schema.json
 slug: mastercard-card-issuance-debit-card-profile
+source_filename: mastercard-card-issuance-debit-card-profile-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DebitCardProfile\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"branchCode\": {\n      \"type\": \"string\",\n      \"description\": \"Echo back the branchCode.\"\n    },\n    \"cards\": {\n      \"type\": \"array\",\n      \"description\": \"List of cards.\"\n    },\n    \"accounts\": {\n      \"type\": \"array\",\n      \"description\": \"List of accounts linked to the card returned\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-schema/mastercard-card-issuance-debit-card-profile-schema.json
 tags:

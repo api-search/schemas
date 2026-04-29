@@ -19,6 +19,8 @@ provider_name: Axon Framework
 provider_slug: axon-framework
 schema_file: json-schema/axon-queryhandler-schema.json
 slug: axon-queryhandler
+source_filename: axon-queryhandler-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"QueryHandler\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"query\": {\n      \"type\": \"string\"\n    },\n    \"clientId\": {\n      \"type\": \"string\"\n    },\n    \"componentName\": {\n      \"type\": \"string\"\n    },\n    \"resultName\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/json-schema/axon-queryhandler-schema.json
 tags:

@@ -40,6 +40,8 @@ provider_name: Bloomberg AIM
 provider_slug: bloomberg-aim
 schema_file: json-schema/bloomberg-emsx-fill-schema.json
 slug: bloomberg-emsx-fill
+source_filename: bloomberg-emsx-fill-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Fill\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"EMSX_SEQUENCE\": {\n      \"type\": \"integer\",\n      \"description\": \"Parent order sequence number\"\n    },\n    \"EMSX_ROUTE_ID\": {\n      \"type\": \"integer\",\n      \"description\": \"Route that was filled\"\n    },\n    \"EMSX_FILL_ID\": {\n      \"type\": \"integer\",\n      \"description\": \"Unique fill identifier\"\n    },\n    \"EMSX_TICKER\": {\n      \"type\": \"string\"\n    },\n    \"EMSX_SIDE\": {\n      \"type\": \"string\"\n    },\n    \"EMSX_FILL_AMOUNT\": {\n      \"type\": \"integer\",\n      \"description\": \"Quantity filled\"\n    },\n    \"EMSX_FILL_PRICE\": {\n      \"type\": \"number\",\n      \"description\": \"Fill price\"\n    },\n    \"EMSX_FILL_DATE\": {\n      \"type\": \"string\",\n      \"description\": \"Fill date (YYYYMMDD)\"\n    },\n    \"EMSX_FILL_TIME\": {\n      \"type\": \"string\"\
   ,\n      \"description\": \"Fill time (HHMMSS)\"\n    },\n    \"EMSX_BROKER\": {\n      \"type\": \"string\"\n    },\n    \"EMSX_EXCHANGE\": {\n      \"type\": \"string\",\n      \"description\": \"Exchange where the fill occurred\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/json-schema/bloomberg-emsx-fill-schema.json

@@ -16,6 +16,8 @@ provider_name: Apache Airflow
 provider_slug: airflow
 schema_file: json-schema/airflow-bulk-create-action_-variable-body_-schema.json
 slug: airflow-bulk-create-action_-variable-body_
+source_filename: airflow-bulk-create-action_-variable-body_-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-bulk-create-action_-variable-body_-schema.json\",\n  \"title\": \"BulkCreateAction_VariableBody_\",\n  \"description\": \"BulkCreateAction_VariableBody_ schema from Apache Airflow API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"action\": {\n      \"type\": \"string\",\n      \"const\": \"create\",\n      \"title\": \"Action\",\n      \"description\": \"The action to be performed on the entities.\"\n    },\n    \"entities\": {\n      \"items\": {\n        \"$ref\": \"#/components/schemas/VariableBody\"\n      },\n      \"type\": \"array\",\n      \"title\": \"Entities\",\n      \"description\": \"A list of entities to be created.\"\n    },\n    \"action_on_existence\": {\n      \"$ref\": \"#/components/schemas/BulkActionOnExistence\",\n      \"default\": \"fail\"\n    }\n  },\n  \"required\"\
   : [\n    \"action\",\n    \"entities\"\n  ],\n  \"additionalProperties\": false\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-bulk-create-action_-variable-body_-schema.json

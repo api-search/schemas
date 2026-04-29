@@ -10,6 +10,8 @@ provider_name: Azure Databricks
 provider_slug: azure-databricks
 schema_file: json-schema/azure-databricks-job-cluster-schema.json
 slug: azure-databricks-job-cluster
+source_filename: azure-databricks-job-cluster-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"JobCluster\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"job_cluster_key\": {\n      \"type\": \"string\",\n      \"description\": \"Unique key identifying this cluster specification\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/json-schema/azure-databricks-job-cluster-schema.json
 tags:

@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-availibilities-search-extended-searchcriteria-schema.json
 slug: flight-availibilities-search-extended-searchcriteria
+source_filename: flight-availibilities-search-extended-searchcriteria-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Extended_SearchCriteria\",\n  \"type\": \"object\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-availibilities-search-extended-searchcriteria-schema.json
 tags:

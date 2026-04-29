@@ -7,6 +7,8 @@ provider_name: Amazon Pinpoint
 provider_slug: amazon-pinpoint
 schema_file: json-schema/amazon-pinpoint-delete-endpoint-request-schema.json
 slug: amazon-pinpoint-delete-endpoint-request
+source_filename: amazon-pinpoint-delete-endpoint-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-delete-endpoint-request-schema.json\",\n  \"title\": \"DeleteEndpointRequest\",\n  \"description\": \"DeleteEndpointRequest schema from Amazon Pinpoint API\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-delete-endpoint-request-schema.json
 tags:

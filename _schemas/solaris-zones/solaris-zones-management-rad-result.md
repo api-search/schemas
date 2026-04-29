@@ -13,6 +13,8 @@ provider_name: Solaris Zones
 provider_slug: solaris-zones
 schema_file: json-schema/solaris-zones-management-rad-result-schema.json
 slug: solaris-zones-management-rad-result
+source_filename: solaris-zones-management-rad-result-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RadResult\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"payload\": {\n      \"type\": \"object\",\n      \"description\": \"Result payload\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-zones-management-rad-result-schema.json
 tags:

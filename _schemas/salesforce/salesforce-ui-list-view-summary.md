@@ -19,6 +19,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-ui-list-view-summary-schema.json
 slug: salesforce-ui-list-view-summary
+source_filename: salesforce-ui-list-view-summary-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Summary information about a list view\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"example\": \"abc123\"\n    },\n    \"apiName\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"label\": {\n      \"type\": \"string\",\n      \"example\": \"Example Title\"\n    },\n    \"url\": {\n      \"type\": \"string\",\n      \"example\": \"https://www.example.com\"\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ListViewSummary\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-ui-list-view-summary-schema.json
 tags:

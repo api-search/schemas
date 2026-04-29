@@ -7,6 +7,8 @@ provider_name: AeroDataBox
 provider_slug: aerodatabox
 schema_file: json-schema/aerodatabox-subscription-billing-type-schema.json
 slug: aerodatabox-subscription-billing-type
+source_filename: aerodatabox-subscription-billing-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/json-schema/aerodatabox-subscription-billing-type-schema.json\",\n  \"title\": \"SubscriptionBillingType\",\n  \"description\": \"Flight alert subscription billing type<p>Possible values:</p>\\r\\n<ul>\\r\\n<li><b>0 - LifetimeBased</b>: Subscription billed upon creation based on the life-time with set expiration date-time (BEING DEPRECATED)</li>\\r\\n<li><b>1 - CreditBased</b>: Subscription with no expiration date, billed based on the amount of notifications sent</li>\\r\\n</ul>\\r\\n\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"LifetimeBased\",\n    \"CreditBased\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/json-schema/aerodatabox-subscription-billing-type-schema.json
 tags:

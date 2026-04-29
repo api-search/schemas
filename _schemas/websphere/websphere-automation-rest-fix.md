@@ -34,6 +34,8 @@ provider_name: IBM WebSphere
 provider_slug: websphere
 schema_file: json-schema/websphere-automation-rest-fix-schema.json
 slug: websphere-automation-rest-fix
+source_filename: websphere-automation-rest-fix-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Fix\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Fix identifier\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Fix name\"\n    },\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"resolvedCVEs\": {\n      \"type\": \"array\",\n      \"description\": \"CVEs resolved by this fix\"\n    },\n    \"applicableVersions\": {\n      \"type\": \"array\",\n      \"description\": \"WebSphere versions this fix applies to\"\n    },\n    \"downloadURL\": {\n      \"type\": \"string\"\n    },\n    \"releaseDate\": {\n      \"type\": \"string\"\n    },\n    \"size\": {\n      \"type\": \"integer\",\n      \"description\": \"Fix size in bytes\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/json-schema/websphere-automation-rest-fix-schema.json
 tags:

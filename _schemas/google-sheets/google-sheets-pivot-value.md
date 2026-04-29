@@ -22,6 +22,8 @@ provider_name: Google Sheets
 provider_slug: google-sheets
 schema_file: json-schema/google-sheets-pivot-value-schema.json
 slug: google-sheets-pivot-value
+source_filename: google-sheets-pivot-value-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PivotValue\",\n  \"type\": \"object\",\n  \"description\": \"The definition of how a value in a pivot table should be calculated.\",\n  \"properties\": {\n    \"summarizeFunction\": {\n      \"type\": \"string\",\n      \"description\": \"A function to summarize the value.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"A name to use for the value.\"\n    },\n    \"calculatedDisplayType\": {\n      \"type\": \"string\",\n      \"description\": \"If specified, indicates that pivot values should be displayed as the result of a calculation with another pivot value.\"\n    },\n    \"sourceColumnOffset\": {\n      \"type\": \"integer\",\n      \"description\": \"The column offset of the source range that this value reads from.\"\n    },\n    \"formula\": {\n      \"type\": \"string\",\n      \"description\": \"A custom formula to calculate the value.\"\n    }\n \
   \ }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/json-schema/google-sheets-pivot-value-schema.json

@@ -46,6 +46,8 @@ provider_name: Apache OpenMeetings
 provider_slug: apache-openmeetings
 schema_file: json-schema/apache-openmeetings-address-schema.json
 slug: apache-openmeetings-address
+source_filename: apache-openmeetings-address-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/json-schema/apache-openmeetings-address-schema.json\",\n  \"title\": \"Address\",\n  \"description\": \"Address schema from Apache OpenMeetings REST API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"inserted\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"xml\": {\n        \"name\": \"created\"\n      }\n    },\n    \"updated\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"deleted\": {\n      \"type\": \"boolean\"\n    },\n    \"id\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    },\n    \"additionalname\": {\n      \"type\": \"string\"\n    },\n    \"comment\": {\n      \"type\": \"string\"\n    },\n    \"fax\": {\n      \"type\": \"string\"\n    },\n    \"country\": {\n      \"type\": \"string\"\n    },\n    \"street\"\
   : {\n      \"type\": \"string\"\n    },\n    \"town\": {\n      \"type\": \"string\"\n    },\n    \"zip\": {\n      \"type\": \"string\"\n    },\n    \"email\": {\n      \"type\": \"string\",\n      \"xml\": {\n        \"name\": \"mail\"\n      }\n    },\n    \"phone\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/json-schema/apache-openmeetings-address-schema.json

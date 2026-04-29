@@ -25,6 +25,8 @@ provider_name: Amazon Cloud Map
 provider_slug: amazon-cloud-map
 schema_file: json-schema/cloud-map-service-schema.json
 slug: cloud-map-service
+source_filename: cloud-map-service-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/json-schema/cloud-map-service-schema.json\",\n  \"title\": \"Service\",\n  \"description\": \"Represents a Cloud Map service used for service discovery.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Id\": {\n      \"type\": \"string\",\n      \"description\": \"The ID of the service.\",\n      \"example\": \"svc-abc12345\"\n    },\n    \"Arn\": {\n      \"type\": \"string\",\n      \"description\": \"The Amazon Resource Name (ARN) of the service.\"\n    },\n    \"Name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the service.\",\n      \"example\": \"payment-service\"\n    },\n    \"NamespaceId\": {\n      \"type\": \"string\",\n      \"description\": \"The ID of the namespace.\"\n    },\n    \"Description\": {\n      \"type\": \"string\",\n      \"description\": \"The description\
   \ of the service.\"\n    },\n    \"InstanceCount\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of instances that are currently associated with the service.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/json-schema/cloud-map-service-schema.json

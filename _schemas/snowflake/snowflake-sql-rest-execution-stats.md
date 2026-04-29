@@ -19,6 +19,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/snowflake-sql-rest-execution-stats-schema.json
 slug: snowflake-sql-rest-execution-stats
+source_filename: snowflake-sql-rest-execution-stats-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ExecutionStats\",\n  \"type\": \"object\",\n  \"description\": \"Statistics about the execution of the statement. These stats might not be available for each request.\",\n  \"properties\": {\n    \"numRowsInserted\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of rows that were inserted.\"\n    },\n    \"numRowsUpdated\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of rows that were updated.\"\n    },\n    \"numRowsDeleted\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of rows that were deleted.\"\n    },\n    \"numDuplicateRowsUpdated\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of duplicate rows that were updated.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/snowflake-sql-rest-execution-stats-schema.json
 tags:

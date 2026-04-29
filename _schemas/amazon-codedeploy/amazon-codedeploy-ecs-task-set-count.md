@@ -7,6 +7,8 @@ provider_name: Amazon CodeDeploy
 provider_slug: amazon-codedeploy
 schema_file: json-schema/amazon-codedeploy-ecs-task-set-count-schema.json
 slug: amazon-codedeploy-ecs-task-set-count
+source_filename: amazon-codedeploy-ecs-task-set-count-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-ecs-task-set-count-schema.json\",\n  \"title\": \"ECSTaskSetCount\",\n  \"description\": \"ECSTaskSetCount schema from Amazon CodeDeploy\",\n  \"type\": \"integer\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-ecs-task-set-count-schema.json
 tags:

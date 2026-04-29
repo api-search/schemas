@@ -28,6 +28,8 @@ provider_name: Workday
 provider_slug: workday
 schema_file: json-schema/compensation-compensation-grade-schema.json
 slug: compensation-compensation-grade
+source_filename: compensation-compensation-grade-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CompensationGrade\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"descriptor\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"isInactive\": {\n      \"type\": \"boolean\"\n    },\n    \"minimumAmount\": {\n      \"type\": \"number\"\n    },\n    \"midpointAmount\": {\n      \"type\": \"number\"\n    },\n    \"maximumAmount\": {\n      \"type\": \"number\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/json-schema/compensation-compensation-grade-schema.json
 tags:

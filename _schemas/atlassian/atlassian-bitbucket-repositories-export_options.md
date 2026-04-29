@@ -22,6 +22,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-bitbucket-repositories-export_options-schema.json
 slug: atlassian-bitbucket-repositories-export_options
+source_filename: atlassian-bitbucket-repositories-export_options-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"export_options\",\n  \"type\": \"object\",\n  \"description\": \"Options for issue export.\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"project_key\": {\n      \"type\": \"string\"\n    },\n    \"project_name\": {\n      \"type\": \"string\"\n    },\n    \"send_email\": {\n      \"type\": \"boolean\"\n    },\n    \"include_attachments\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-bitbucket-repositories-export_options-schema.json
 tags:

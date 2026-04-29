@@ -16,6 +16,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/trip-purpose-prediction-links-schema.json
 slug: trip-purpose-prediction-links
+source_filename: trip-purpose-prediction-links-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Links\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"self\": {\n      \"type\": \"string\",\n      \"format\": \"uri\"\n    },\n    \"related\": {\n      \"type\": \"string\",\n      \"format\": \"uri\"\n    },\n    \"type\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/trip-purpose-prediction-links-schema.json
 tags:

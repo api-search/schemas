@@ -13,6 +13,8 @@ provider_name: SAP Ariba
 provider_slug: sap-ariba
 schema_file: json-schema/sap-ariba-procurement-money-schema.json
 slug: sap-ariba-procurement-money
+source_filename: sap-ariba-procurement-money-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Money\",\n  \"type\": \"object\",\n  \"description\": \"Monetary amount with currency code following ISO 4217\",\n  \"properties\": {\n    \"amount\": {\n      \"type\": \"number\",\n      \"description\": \"The monetary value\"\n    },\n    \"currencyCode\": {\n      \"type\": \"string\",\n      \"description\": \"ISO 4217 currency code\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/json-schema/sap-ariba-procurement-money-schema.json
 tags:

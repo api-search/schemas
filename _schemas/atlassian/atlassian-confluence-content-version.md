@@ -37,6 +37,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-version-schema.json
 slug: atlassian-confluence-content-version
+source_filename: atlassian-confluence-content-version-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Version\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"when\": {\n      \"type\": \"string\"\n    },\n    \"friendlyWhen\": {\n      \"type\": \"string\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    },\n    \"number\": {\n      \"type\": \"integer\",\n      \"description\": \"Set this to the current version number incremented by one\"\n    },\n    \"minorEdit\": {\n      \"type\": \"boolean\",\n      \"description\": \"If `minorEdit` is set to 'true', no notification email or activity\\nstream will be generated for the change.\"\n    },\n    \"_expandable\": {\n      \"type\": \"object\"\n    },\n    \"contentTypeModified\": {\n      \"type\": \"boolean\",\n      \"description\": \"True if content type is modifed in this version (e.g. page to blog)\"\n    },\n    \"confRev\": {\n      \"type\": \"string\",\n      \"description\": \"The revision id provided by confluence\
   \ to be used as a revision in Synchrony\"\n    },\n    \"syncRev\": {\n      \"type\": \"string\",\n      \"description\": \"The revision id provided by Synchrony\"\n    },\n    \"syncRevSource\": {\n      \"type\": \"string\",\n      \"description\": \"Source of the synchrony revision\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-version-schema.json

@@ -16,6 +16,8 @@ provider_name: Salesforce Marketing Cloud
 provider_slug: salesforce-marketing-cloud
 schema_file: json-schema/salesforce-marketing-cloud-entry-event-schema.json
 slug: salesforce-marketing-cloud-entry-event
+source_filename: salesforce-marketing-cloud-entry-event-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"EntryEvent\",\n  \"type\": \"object\",\n  \"description\": \"Event payload used to inject a contact into a journey via the API event trigger.\",\n  \"properties\": {\n    \"ContactKey\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the contact entering the journey\"\n    },\n    \"EventDefinitionKey\": {\n      \"type\": \"string\",\n      \"description\": \"Key of the event definition matching the journey entry trigger\"\n    },\n    \"Data\": {\n      \"type\": \"object\",\n      \"description\": \"Additional data to pass to the journey as key-value pairs. These values are available to activities within the journey.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/json-schema/salesforce-marketing-cloud-entry-event-schema.json
 tags:

@@ -37,6 +37,8 @@ provider_name: ADP
 provider_slug: adp
 schema_file: json-schema/adp-workers-work-assignment-schema.json
 slug: adp-workers-work-assignment
+source_filename: adp-workers-work-assignment-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkAssignment\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"itemID\": {\n      \"type\": \"string\"\n    },\n    \"primaryIndicator\": {\n      \"type\": \"boolean\"\n    },\n    \"hireDate\": {\n      \"type\": \"string\"\n    },\n    \"assignmentStatus\": {\n      \"type\": \"object\"\n    },\n    \"positionID\": {\n      \"type\": \"string\"\n    },\n    \"jobCode\": {\n      \"type\": \"object\"\n    },\n    \"jobTitle\": {\n      \"type\": \"string\"\n    },\n    \"standardHours\": {\n      \"type\": \"object\"\n    },\n    \"annualBaseRemuneration\": {\n      \"type\": \"object\"\n    },\n    \"homeOrganizationalUnits\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/json-schema/adp-workers-work-assignment-schema.json
 tags:

@@ -19,6 +19,8 @@ provider_name: Apache Kafka
 provider_slug: apache-kafka
 schema_file: json-schema/kafka-connect-task-status-schema.json
 slug: kafka-connect-task-status
+source_filename: kafka-connect-task-status-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-schema/kafka-connect-task-status-schema.json\",\n  \"title\": \"TaskStatus\",\n  \"description\": \"TaskStatus schema from Apache kafka\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\"\n    },\n    \"state\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"UNASSIGNED\",\n        \"RUNNING\",\n        \"PAUSED\",\n        \"FAILED\"\n      ]\n    },\n    \"worker_id\": {\n      \"type\": \"string\"\n    },\n    \"trace\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-schema/kafka-connect-task-status-schema.json
 tags:

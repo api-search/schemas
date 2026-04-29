@@ -7,6 +7,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-reserved-node-exchange-status-type-schema.json
 slug: redshift-reserved-node-exchange-status-type
+source_filename: redshift-reserved-node-exchange-status-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"string\",\n  \"enum\": [\n    \"REQUESTED\",\n    \"PENDING\",\n    \"IN_PROGRESS\",\n    \"RETRYING\",\n    \"SUCCEEDED\",\n    \"FAILED\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-reserved-node-exchange-status-type-schema.json\",\n  \"title\": \"ReservedNodeExchangeStatusType\",\n  \"description\": \"ReservedNodeExchangeStatusType schema from Amazon Redshift\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-reserved-node-exchange-status-type-schema.json
 tags:

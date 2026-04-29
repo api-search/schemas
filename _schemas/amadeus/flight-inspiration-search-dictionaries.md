@@ -13,6 +13,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-inspiration-search-dictionaries-schema.json
 slug: flight-inspiration-search-dictionaries
+source_filename: flight-inspiration-search-dictionaries-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Dictionaries\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"currencies\": {\n      \"$ref\": \"#/definitions/CurrencyDictionary\"\n    },\n    \"locations\": {\n      \"$ref\": \"#/definitions/LocationDictionary\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-inspiration-search-dictionaries-schema.json
 tags:

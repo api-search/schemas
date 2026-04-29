@@ -13,6 +13,8 @@ provider_name: Splunk
 provider_slug: splunk
 schema_file: json-schema/splunk-enterprise-rest-hec-token-schema.json
 slug: splunk-enterprise-rest-hec-token
+source_filename: splunk-enterprise-rest-hec-token-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"HecToken\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The token name\"\n    },\n    \"content\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/json-schema/splunk-enterprise-rest-hec-token-schema.json
 tags:

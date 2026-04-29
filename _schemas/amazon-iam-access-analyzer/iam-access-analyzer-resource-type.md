@@ -7,6 +7,8 @@ provider_name: Amazon IAM Access Analyzer
 provider_slug: amazon-iam-access-analyzer
 schema_file: json-schema/iam-access-analyzer-resource-type-schema.json
 slug: iam-access-analyzer-resource-type
+source_filename: iam-access-analyzer-resource-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/json-schema/iam-access-analyzer-resource-type-schema.json\",\n  \"title\": \"ResourceType\",\n  \"description\": \"ResourceType schema from AWS IAM Access Analyzer API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"AWS::S3::Bucket\",\n    \"AWS::IAM::Role\",\n    \"AWS::SQS::Queue\",\n    \"AWS::Lambda::Function\",\n    \"AWS::Lambda::LayerVersion\",\n    \"AWS::KMS::Key\",\n    \"AWS::SecretsManager::Secret\",\n    \"AWS::EFS::FileSystem\",\n    \"AWS::EC2::Snapshot\",\n    \"AWS::ECR::Repository\",\n    \"AWS::RDS::DBSnapshot\",\n    \"AWS::RDS::DBClusterSnapshot\",\n    \"AWS::SNS::Topic\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/json-schema/iam-access-analyzer-resource-type-schema.json
 tags:

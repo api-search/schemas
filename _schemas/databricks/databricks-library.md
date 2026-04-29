@@ -28,6 +28,8 @@ provider_name: Databricks
 provider_slug: databricks
 schema_file: json-schema/databricks-library-schema.json
 slug: databricks-library
+source_filename: databricks-library-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Library\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"jar\": {\n      \"type\": \"string\",\n      \"description\": \"URI of a JAR to install.\"\n    },\n    \"egg\": {\n      \"type\": \"string\",\n      \"description\": \"URI of an egg to install (deprecated).\"\n    },\n    \"whl\": {\n      \"type\": \"string\",\n      \"description\": \"URI of a wheel to install.\"\n    },\n    \"pypi\": {\n      \"type\": \"object\"\n    },\n    \"maven\": {\n      \"type\": \"object\"\n    },\n    \"cran\": {\n      \"type\": \"object\"\n    },\n    \"requirements\": {\n      \"type\": \"string\",\n      \"description\": \"Path to a requirements.txt file.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/json-schema/databricks-library-schema.json
 tags:

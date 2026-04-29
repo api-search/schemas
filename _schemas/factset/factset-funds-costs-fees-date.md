@@ -7,6 +7,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-funds-costs-fees-date-schema.json
 slug: factset-funds-costs-fees-date
+source_filename: factset-funds-costs-fees-date-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"costsFeesDate\",\n  \"type\": \"string\",\n  \"description\": \"The date requested in **YYYY-MM-DD** format. If left blank, the API will default to previous close. Future dates (T+1) are not accepted in this endpoint.\\n\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-funds-costs-fees-date-schema.json
 tags:

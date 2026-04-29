@@ -25,6 +25,8 @@ provider_name: Acceptance Criteria
 provider_slug: acceptance-criteria
 schema_file: json-schema/acceptance-criteria-management-update-acceptance-criterion-request-schema.json
 slug: acceptance-criteria-management-update-acceptance-criterion-request
+source_filename: acceptance-criteria-management-update-acceptance-criterion-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api.example.com/schemas/update-acceptance-criterion-request.json\",\n  \"title\": \"UpdateAcceptanceCriterionRequest\",\n  \"type\": \"object\",\n  \"description\": \"Request body for updating an acceptance criterion\",\n  \"properties\": {\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"Updated description\"\n    },\n    \"given\": {\n      \"type\": \"string\",\n      \"description\": \"Updated Given clause\"\n    },\n    \"when\": {\n      \"type\": \"string\",\n      \"description\": \"Updated When clause\"\n    },\n    \"then\": {\n      \"type\": \"string\",\n      \"description\": \"Updated Then clause\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Updated verification status\",\n      \"enum\": [\n        \"not-verified\",\n        \"passing\",\n        \"failing\"\n      ]\n    },\n    \"order\": {\n      \"type\"\
   : \"integer\",\n      \"description\": \"Updated display order\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/acceptance-criteria/refs/heads/main/json-schema/acceptance-criteria-management-update-acceptance-criterion-request-schema.json

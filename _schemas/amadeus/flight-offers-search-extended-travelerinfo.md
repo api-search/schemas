@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-offers-search-extended-travelerinfo-schema.json
 slug: flight-offers-search-extended-travelerinfo
+source_filename: flight-offers-search-extended-travelerinfo-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Extended_TravelerInfo\",\n  \"type\": \"object\",\n  \"required\": [\n    \"id\",\n    \"travelerType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-offers-search-extended-travelerinfo-schema.json
 tags:

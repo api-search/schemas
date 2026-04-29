@@ -16,6 +16,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-space-description-schema.json
 slug: atlassian-confluence-content-space-description
+source_filename: atlassian-confluence-content-space-description-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SpaceDescription\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"value\": {\n      \"type\": \"string\"\n    },\n    \"representation\": {\n      \"type\": \"string\"\n    },\n    \"embeddedContent\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-space-description-schema.json
 tags:

@@ -10,6 +10,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/pos-terminal-get-terminal-details-request-schema.json
 slug: pos-terminal-get-terminal-details-request
+source_filename: pos-terminal-get-terminal-details-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/pos-terminal-get-terminal-details-request-schema.json\",\n  \"title\": \"GetTerminalDetailsRequest\",\n  \"description\": \"GetTerminalDetailsRequest schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"terminal\": {\n      \"description\": \"The unique terminal ID in the format `[Device model]-[Serial number]`. \\n\\nFor example, **V400m-324689776**.\",\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"terminal\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/pos-terminal-get-terminal-details-request-schema.json
 tags:

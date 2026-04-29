@@ -16,6 +16,8 @@ provider_name: Apache Flink
 provider_slug: apache-flink
 schema_file: json-schema/flink-rest-log-info-schema.json
 slug: flink-rest-log-info
+source_filename: flink-rest-log-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-log-info-schema.json\",\n  \"title\": \"LogInfo\",\n  \"description\": \"LogInfo schema from Apache Flink REST API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"mtime\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"size\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-log-info-schema.json
 tags:

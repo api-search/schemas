@@ -10,6 +10,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-body7-schema.json
 slug: salesforce-body7
+source_filename: salesforce-body7-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"messageSegments\": {\n      \"type\": \"array\",\n      \"description\": \"\",\n      \"example\": [],\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"type\": {\n            \"type\": \"string\",\n            \"example\": \"example_value\"\n          },\n          \"text\": {\n            \"type\": \"string\",\n            \"example\": \"example_value\"\n          },\n          \"fileId\": {\n            \"type\": \"string\",\n            \"example\": \"500123\"\n          },\n          \"altText\": {\n            \"type\": \"string\",\n            \"example\": \"example_value\"\n          }\n        },\n        \"required\": [\n          \"type\",\n          \"text\"\n        ]\n      }\n    }\n  },\n  \"required\": [\n    \"messageSegments\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Body7\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-body7-schema.json
 tags:

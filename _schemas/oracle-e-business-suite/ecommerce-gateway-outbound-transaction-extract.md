@@ -22,6 +22,8 @@ provider_name: Oracle E-Business Suite
 provider_slug: oracle-e-business-suite
 schema_file: json-schema/ecommerce-gateway-outbound-transaction-extract-schema.json
 slug: ecommerce-gateway-outbound-transaction-extract
+source_filename: ecommerce-gateway-outbound-transaction-extract-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"OutboundTransactionExtract\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"transactionType\": {\n      \"type\": \"string\",\n      \"description\": \"Outbound transaction type\"\n    },\n    \"tradingPartnerId\": {\n      \"type\": \"integer\"\n    },\n    \"tradingPartnerSiteId\": {\n      \"type\": \"integer\"\n    },\n    \"dateFrom\": {\n      \"type\": \"string\",\n      \"description\": \"Extract documents from this date\"\n    },\n    \"dateTo\": {\n      \"type\": \"string\",\n      \"description\": \"Extract documents to this date\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/json-schema/ecommerce-gateway-outbound-transaction-extract-schema.json
 tags:

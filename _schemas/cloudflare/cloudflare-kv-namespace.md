@@ -16,6 +16,8 @@ provider_name: Cloudflare
 provider_slug: cloudflare
 schema_file: json-schema/cloudflare-kv-namespace-schema.json
 slug: cloudflare-kv-namespace
+source_filename: cloudflare-kv-namespace-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Namespace\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier of the namespace.\"\n    },\n    \"title\": {\n      \"type\": \"string\",\n      \"description\": \"The human-readable title of the namespace.\"\n    },\n    \"supports_url_encoding\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the namespace supports URL-encoded keys.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-kv-namespace-schema.json
 tags:

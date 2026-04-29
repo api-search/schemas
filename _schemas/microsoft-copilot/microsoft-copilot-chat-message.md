@@ -19,6 +19,8 @@ provider_name: Microsoft Copilot
 provider_slug: microsoft-copilot
 schema_file: json-schema/microsoft-copilot-chat-message-schema.json
 slug: microsoft-copilot-chat-message
+source_filename: microsoft-copilot-chat-message-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ChatMessage\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier for the message.\"\n    },\n    \"body\": {\n      \"type\": \"object\"\n    },\n    \"citations\": {\n      \"type\": \"array\",\n      \"description\": \"Sources referenced in the Copilot response.\"\n    },\n    \"createdDateTime\": {\n      \"type\": \"string\",\n      \"description\": \"The timestamp when the message was created.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/json-schema/microsoft-copilot-chat-message-schema.json
 tags:

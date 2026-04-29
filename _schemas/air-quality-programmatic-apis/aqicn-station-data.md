@@ -28,6 +28,8 @@ provider_name: Air Quality Programmatic APIs
 provider_slug: air-quality-programmatic-apis
 schema_file: json-schema/aqicn-station-data-schema.json
 slug: aqicn-station-data
+source_filename: aqicn-station-data-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/json-schema/aqicn-station-data-schema.json\",\n  \"title\": \"StationData\",\n  \"description\": \"Station data including AQI and pollutant readings\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"aqi\": {\n      \"type\": \"integer\",\n      \"description\": \"Overall Air Quality Index value\",\n      \"example\": 45\n    },\n    \"idx\": {\n      \"type\": \"integer\",\n      \"description\": \"Station ID in AQICN database\",\n      \"example\": 8502\n    },\n    \"city\": {\n      \"$ref\": \"#/components/schemas/CityInfo\"\n    },\n    \"time\": {\n      \"$ref\": \"#/components/schemas/TimeInfo\"\n    },\n    \"iaqi\": {\n      \"$ref\": \"#/components/schemas/PollutantData\"\n    },\n    \"forecast\": {\n      \"$ref\": \"#/components/schemas/ForecastData\"\n    },\n    \"attributions\"\
   : {\n      \"type\": \"array\",\n      \"description\": \"Data source attributions\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Attribution\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/json-schema/aqicn-station-data-schema.json

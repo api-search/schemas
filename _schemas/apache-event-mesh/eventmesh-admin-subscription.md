@@ -19,6 +19,8 @@ provider_name: Apache EventMesh
 provider_slug: apache-event-mesh
 schema_file: json-schema/eventmesh-admin-subscription-schema.json
 slug: eventmesh-admin-subscription
+source_filename: eventmesh-admin-subscription-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/json-schema/eventmesh-admin-subscription-schema.json\",\n  \"title\": \"Subscription\",\n  \"description\": \"Subscription schema from Apache EventMesh Admin API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"topic\": {\n      \"type\": \"string\"\n    },\n    \"url\": {\n      \"type\": \"string\"\n    },\n    \"group\": {\n      \"type\": \"string\"\n    },\n    \"protocol\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/json-schema/eventmesh-admin-subscription-schema.json
 tags:

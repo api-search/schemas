@@ -16,6 +16,8 @@ provider_name: Microsoft Power Platform APIs
 provider_slug: power-platform
 schema_file: json-schema/power-platform-billing-policy-create-request-schema.json
 slug: power-platform-billing-policy-create-request
+source_filename: power-platform-billing-policy-create-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"BillingPolicyCreateRequest\",\n  \"type\": \"object\",\n  \"description\": \"Request body for creating a new billing policy.\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The display name of the billing policy.\"\n    },\n    \"location\": {\n      \"type\": \"string\",\n      \"description\": \"The geographic location of the billing policy.\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The initial status of the billing policy.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/json-schema/power-platform-billing-policy-create-request-schema.json
 tags:

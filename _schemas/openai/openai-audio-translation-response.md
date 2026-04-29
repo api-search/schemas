@@ -22,6 +22,8 @@ provider_name: OpenAI
 provider_slug: openai
 schema_file: json-schema/openai-audio-translation-response-schema.json
 slug: openai-audio-translation-response
+source_filename: openai-audio-translation-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TranslationResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"text\": {\n      \"type\": \"string\",\n      \"description\": \"The translated text in English.\"\n    },\n    \"task\": {\n      \"type\": \"string\",\n      \"description\": \"The task performed, always translate.\"\n    },\n    \"language\": {\n      \"type\": \"string\",\n      \"description\": \"The detected language of the input audio.\"\n    },\n    \"duration\": {\n      \"type\": \"number\",\n      \"description\": \"The duration of the input audio in seconds.\"\n    },\n    \"segments\": {\n      \"type\": \"array\",\n      \"description\": \"Segments of the translated text with timestamps.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/json-schema/openai-audio-translation-response-schema.json
 tags:

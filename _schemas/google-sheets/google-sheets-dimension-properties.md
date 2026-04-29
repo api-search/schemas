@@ -19,6 +19,8 @@ provider_name: Google Sheets
 provider_slug: google-sheets
 schema_file: json-schema/google-sheets-dimension-properties-schema.json
 slug: google-sheets-dimension-properties
+source_filename: google-sheets-dimension-properties-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DimensionProperties\",\n  \"type\": \"object\",\n  \"description\": \"Properties about a dimension.\",\n  \"properties\": {\n    \"hiddenByFilter\": {\n      \"type\": \"boolean\",\n      \"description\": \"True if this dimension is being filtered.\"\n    },\n    \"hiddenByUser\": {\n      \"type\": \"boolean\",\n      \"description\": \"True if this dimension is explicitly hidden.\"\n    },\n    \"pixelSize\": {\n      \"type\": \"integer\",\n      \"description\": \"The height (for rows) or width (for columns) of the dimension in pixels.\"\n    },\n    \"developerMetadata\": {\n      \"type\": \"array\",\n      \"description\": \"The developer metadata associated with a single row or column.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/json-schema/google-sheets-dimension-properties-schema.json
 tags:

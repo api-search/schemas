@@ -25,6 +25,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-vault-configuration-account-schema.json
 slug: factset-vault-configuration-account
+source_filename: factset-vault-configuration-account-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ConfigurationAccount\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"benchmarkCode\": {\n      \"type\": \"string\",\n      \"description\": \"Benchmark code.\"\n    },\n    \"benchmarkName\": {\n      \"type\": \"string\",\n      \"description\": \"Benchmark name.\"\n    },\n    \"maxEndDate\": {\n      \"type\": \"string\",\n      \"description\": \"Maximum end date.\"\n    },\n    \"minStartDate\": {\n      \"type\": \"string\",\n      \"description\": \"Minimum start date.\"\n    },\n    \"lockingDate\": {\n      \"type\": \"string\",\n      \"description\": \"Locking date.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Account name.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-vault-configuration-account-schema.json
 tags:

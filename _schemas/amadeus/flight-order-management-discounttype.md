@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-order-management-discounttype-schema.json
 slug: flight-order-management-discounttype
+source_filename: flight-order-management-discounttype-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"DiscountType\",\n  \"description\": \"type of discount applied\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"SPANISH_RESIDENT\",\n    \"AIR_FRANCE_DOMESTIC\",\n    \"AIR_FRANCE_COMBINED\",\n    \"AIR_FRANCE_METROPOLITAN\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-order-management-discounttype-schema.json
 tags:

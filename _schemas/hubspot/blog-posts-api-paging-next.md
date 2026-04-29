@@ -13,6 +13,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/blog-posts-api-paging-next-schema.json
 slug: blog-posts-api-paging-next
+source_filename: blog-posts-api-paging-next-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/blog-posts-api-paging-next-schema.json\",\n  \"title\": \"PagingNext\",\n  \"description\": \"Pagination cursor for next page\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"after\": {\n      \"type\": \"string\",\n      \"description\": \"Cursor token for the next page\",\n      \"example\": \"example-value\"\n    },\n    \"link\": {\n      \"type\": \"string\",\n      \"description\": \"API link to the next page\",\n      \"example\": \"https://app.hubspot.com/contacts/12345\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/blog-posts-api-paging-next-schema.json
 tags:

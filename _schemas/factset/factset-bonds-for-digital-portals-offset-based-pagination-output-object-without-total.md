@@ -10,6 +10,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-bonds-for-digital-portals-offset-based-pagination-output-object-without-total-schema.json
 slug: factset-bonds-for-digital-portals-offset-based-pagination-output-object-without-total
+source_filename: factset-bonds-for-digital-portals-offset-based-pagination-output-object-without-total-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"OffsetBasedPaginationOutputObjectWithoutTotal\",\n  \"type\": \"object\",\n  \"description\": \"Pagination attributes for the offset-based pagination strategy; a total element count is not supported.\",\n  \"properties\": {\n    \"hasNext\": {\n      \"type\": \"boolean\",\n      \"description\": \"Flag indicating that a subsequent request with the same parameters, except that the parameter `pagination.offset` is incremented by `pagination.limit`, would yield additional results.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-bonds-for-digital-portals-offset-based-pagination-output-object-without-total-schema.json
 tags:

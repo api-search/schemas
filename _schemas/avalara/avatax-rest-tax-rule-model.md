@@ -40,6 +40,8 @@ provider_name: Avalara
 provider_slug: avalara
 schema_file: json-schema/avatax-rest-tax-rule-model-schema.json
 slug: avatax-rest-tax-rule-model
+source_filename: avatax-rest-tax-rule-model-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/json-schema/avatax-rest-tax-rule-model-schema.json\",\n  \"title\": \"TaxRuleModel\",\n  \"description\": \"TaxRuleModel schema from Avalara API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\"\n    },\n    \"companyId\": {\n      \"type\": \"integer\"\n    },\n    \"taxCodeId\": {\n      \"type\": \"integer\"\n    },\n    \"taxCode\": {\n      \"type\": \"string\"\n    },\n    \"stateFIPS\": {\n      \"type\": \"string\"\n    },\n    \"jurisName\": {\n      \"type\": \"string\"\n    },\n    \"jurisCode\": {\n      \"type\": \"string\"\n    },\n    \"jurisTypeId\": {\n      \"type\": \"string\"\n    },\n    \"rateTypeId\": {\n      \"type\": \"string\"\n    },\n    \"ruleTypeId\": {\n      \"type\": \"string\"\n    },\n    \"isAllJuris\": {\n      \"type\": \"boolean\"\n    }\n\
   \  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/json-schema/avatax-rest-tax-rule-model-schema.json

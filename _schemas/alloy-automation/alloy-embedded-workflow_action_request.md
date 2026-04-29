@@ -13,6 +13,8 @@ provider_name: Alloy Automation
 provider_slug: alloy-automation
 schema_file: json-schema/alloy-embedded-workflow_action_request-schema.json
 slug: alloy-embedded-workflow_action_request
+source_filename: alloy-embedded-workflow_action_request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://docs.runalloy.com/schemas/alloy-embedded-workflow_action_request-schema.json\",\n  \"title\": \"WorkflowActionRequest\",\n  \"type\": \"object\",\n  \"description\": \"Request body for workflow lifecycle actions\",\n  \"properties\": {\n    \"workflowId\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier of the workflow\"\n    },\n    \"userId\": {\n      \"type\": \"string\",\n      \"description\": \"Identifier of the user\"\n    }\n  },\n  \"required\": [\n    \"workflowId\",\n    \"userId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/json-schema/alloy-embedded-workflow_action_request-schema.json
 tags:

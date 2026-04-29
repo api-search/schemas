@@ -10,6 +10,8 @@ provider_name: ZoomInfo
 provider_slug: zoominfo
 schema_file: json-schema/zoominfo-bulk-company-search-preview-schema.json
 slug: zoominfo-bulk-company-search-preview
+source_filename: zoominfo-bulk-company-search-preview-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"jobId\": {\n      \"type\": \"string\",\n      \"example\": \"500123\"\n    }\n  },\n  \"required\": [\n    \"jobId\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"BulkCompanySearch-Preview\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/json-schema/zoominfo-bulk-company-search-preview-schema.json
 tags:

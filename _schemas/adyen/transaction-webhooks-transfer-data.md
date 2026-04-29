@@ -13,6 +13,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/transaction-webhooks-transfer-data-schema.json
 slug: transaction-webhooks-transfer-data
+source_filename: transaction-webhooks-transfer-data-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/transaction-webhooks-transfer-data-schema.json\",\n  \"title\": \"TransferData\",\n  \"description\": \"TransferData schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"description\": \"The ID of the resource.\",\n      \"type\": \"string\"\n    },\n    \"reference\": {\n      \"x-addedInVersion\": \"4\",\n      \"description\": \"The [`reference`](https://docs.adyen.com/api-explorer/#/transfers/latest/post/transfers__reqParam_reference) from the `/transfers` request. If you haven't provided any, Adyen generates a unique reference.\",\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"reference\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/transaction-webhooks-transfer-data-schema.json
 tags:

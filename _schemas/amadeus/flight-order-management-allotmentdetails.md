@@ -13,6 +13,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-order-management-allotmentdetails-schema.json
 slug: flight-order-management-allotmentdetails
+source_filename: flight-order-management-allotmentdetails-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"AllotmentDetails\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"tourName\": {\n      \"type\": \"string\",\n      \"description\": \"The tour name agreed for this specific allotment.\"\n    },\n    \"tourReference\": {\n      \"type\": \"string\",\n      \"description\": \"The tour reference agreed for this specific allotment.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-order-management-allotmentdetails-schema.json
 tags:

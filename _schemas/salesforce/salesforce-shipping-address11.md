@@ -31,6 +31,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-shipping-address11-schema.json
 slug: salesforce-shipping-address11
+source_filename: salesforce-shipping-address11-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"city\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"example_value\"\n    },\n    \"country\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": 42\n    },\n    \"geocodeAccuracy\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"example_value\"\n    },\n    \"latitude\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"example_value\"\n    },\n    \"longitude\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"example_value\"\n    },\n    \"postalCode\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"example_value\"\n    },\n    \"state\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"example_value\"\n    },\n    \"street\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    }\n  },\n  \"required\": [\n    \"city\",\n    \"country\",\n    \"geocodeAccuracy\",\n    \"latitude\",\n\
   \    \"longitude\",\n    \"postalCode\",\n    \"state\",\n    \"street\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ShippingAddress11\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-shipping-address11-schema.json

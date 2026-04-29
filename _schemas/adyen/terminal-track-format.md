@@ -7,6 +7,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/terminal-track-format-schema.json
 slug: terminal-track-format
+source_filename: terminal-track-format-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/terminal-track-format-schema.json\",\n  \"title\": \"TrackFormat\",\n  \"description\": \"TrackFormat schema from Adyen API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"AAMVA\",\n    \"ISO\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/terminal-track-format-schema.json
 tags:

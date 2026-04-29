@@ -19,6 +19,8 @@ provider_name: Adobe Launch
 provider_slug: adobe-launch
 schema_file: json-schema/reactor-library-resource-schema.json
 slug: reactor-library-resource
+source_filename: reactor-library-resource-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"LibraryResource\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"relationships\": {\n      \"type\": \"object\"\n    },\n    \"links\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/json-schema/reactor-library-resource-schema.json
 tags:

@@ -13,6 +13,8 @@ provider_name: Spot
 provider_slug: spot
 schema_file: json-schema/spot-administration-organization-response-schema.json
 slug: spot-administration-organization-response
+source_filename: spot-administration-organization-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"OrganizationResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"request\": {\n      \"type\": \"object\"\n    },\n    \"response\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/json-schema/spot-administration-organization-response-schema.json
 tags:

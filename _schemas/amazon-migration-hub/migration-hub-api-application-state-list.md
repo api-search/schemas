@@ -7,6 +7,8 @@ provider_name: Amazon Migration Hub
 provider_slug: amazon-migration-hub
 schema_file: json-schema/migration-hub-api-application-state-list-schema.json
 slug: migration-hub-api-application-state-list
+source_filename: migration-hub-api-application-state-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/json-schema/migration-hub-api-application-state-list-schema.json\",\n  \"title\": \"ApplicationStateList\",\n  \"description\": \"ApplicationStateList schema from Amazon Migration Hub API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/ApplicationState\"\n  },\n  \"minItems\": 0,\n  \"maxItems\": 1000\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/json-schema/migration-hub-api-application-state-list-schema.json
 tags:

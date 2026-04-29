@@ -37,6 +37,8 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/business-central-v2-item-create-schema.json
 slug: business-central-v2-item-create
+source_filename: business-central-v2-item-create-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ItemCreate\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"number\": {\n      \"type\": \"string\"\n    },\n    \"displayName\": {\n      \"type\": \"string\"\n    },\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"itemCategoryCode\": {\n      \"type\": \"string\"\n    },\n    \"blocked\": {\n      \"type\": \"boolean\"\n    },\n    \"gtin\": {\n      \"type\": \"string\"\n    },\n    \"unitPrice\": {\n      \"type\": \"number\"\n    },\n    \"unitCost\": {\n      \"type\": \"number\"\n    },\n    \"taxGroupCode\": {\n      \"type\": \"string\"\n    },\n    \"baseUnitOfMeasureCode\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-item-create-schema.json
 tags:

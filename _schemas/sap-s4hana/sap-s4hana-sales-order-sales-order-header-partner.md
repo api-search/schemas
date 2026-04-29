@@ -25,6 +25,8 @@ provider_name: SAP S/4HANA
 provider_slug: sap-s4hana
 schema_file: json-schema/sap-s4hana-sales-order-sales-order-header-partner-schema.json
 slug: sap-s4hana-sales-order-sales-order-header-partner
+source_filename: sap-s4hana-sales-order-sales-order-header-partner-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SalesOrderHeaderPartner\",\n  \"type\": \"object\",\n  \"description\": \"Sales order header partner entity (A_SalesOrderHeaderPartner) representing a business partner in a specific partner function role at the header level.\",\n  \"properties\": {\n    \"SalesOrder\": {\n      \"type\": \"string\",\n      \"description\": \"Sales order number\"\n    },\n    \"PartnerFunction\": {\n      \"type\": \"string\",\n      \"description\": \"Partner function code (e.g., AG=Sold-to, WE=Ship-to, RE=Bill-to, RG=Payer)\"\n    },\n    \"Customer\": {\n      \"type\": \"string\",\n      \"description\": \"Customer number\"\n    },\n    \"Supplier\": {\n      \"type\": \"string\",\n      \"description\": \"Supplier number\"\n    },\n    \"Personnel\": {\n      \"type\": \"string\",\n      \"description\": \"Personnel number\"\n    },\n    \"ContactPerson\": {\n      \"type\": \"string\",\n      \"description\"\
   : \"Contact person number\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/json-schema/sap-s4hana-sales-order-sales-order-header-partner-schema.json

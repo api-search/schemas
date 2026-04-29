@@ -40,6 +40,8 @@ provider_name: Apollo Config
 provider_slug: apollo-config
 schema_file: json-schema/apollo-open-api-namespace-schema.json
 slug: apollo-open-api-namespace
+source_filename: apollo-open-api-namespace-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/json-schema/apollo-open-api-namespace-schema.json\",\n  \"title\": \"Namespace\",\n  \"description\": \"Namespace schema from Apollo Config Open API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"appId\": {\n      \"type\": \"string\"\n    },\n    \"clusterName\": {\n      \"type\": \"string\"\n    },\n    \"namespaceName\": {\n      \"type\": \"string\"\n    },\n    \"comment\": {\n      \"type\": \"string\"\n    },\n    \"format\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"properties\",\n        \"xml\",\n        \"json\",\n        \"yml\",\n        \"yaml\",\n        \"txt\"\n      ]\n    },\n    \"isPublic\": {\n      \"type\": \"boolean\"\n    },\n    \"items\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Item\"\n      }\n    },\n    \"\
   dataChangeCreatedBy\": {\n      \"type\": \"string\"\n    },\n    \"dataChangeLastModifiedBy\": {\n      \"type\": \"string\"\n    },\n    \"dataChangeCreatedTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"dataChangeLastModifiedTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/json-schema/apollo-open-api-namespace-schema.json

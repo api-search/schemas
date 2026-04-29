@@ -7,6 +7,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-data-boxed-double-schema.json
 slug: redshift-data-boxed-double
+source_filename: redshift-data-boxed-double-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"number\",\n  \"format\": \"double\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-boxed-double-schema.json\",\n  \"title\": \"BoxedDouble\",\n  \"description\": \"BoxedDouble schema from Amazon Redshift\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-boxed-double-schema.json
 tags:

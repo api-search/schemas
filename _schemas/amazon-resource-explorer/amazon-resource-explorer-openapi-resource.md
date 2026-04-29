@@ -25,6 +25,8 @@ provider_name: Amazon Resource Explorer
 provider_slug: amazon-resource-explorer
 schema_file: json-schema/amazon-resource-explorer-openapi-resource-schema.json
 slug: amazon-resource-explorer-openapi-resource
+source_filename: amazon-resource-explorer-openapi-resource-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-schema/amazon-resource-explorer-openapi-resource-schema.json\",\n  \"title\": \"Resource\",\n  \"description\": \"Resource schema from openapi\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Arn\": {\n      \"type\": \"string\",\n      \"description\": \"The Amazon Resource Name (ARN) of the resource.\"\n    },\n    \"LastReportedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The date and time the resource was last updated.\"\n    },\n    \"OwningAccountId\": {\n      \"type\": \"string\",\n      \"description\": \"The AWS account ID of the account that owns the resource.\"\n    },\n    \"Region\": {\n      \"type\": \"string\",\n      \"description\": \"The AWS Region where the resource exists.\"\n    },\n    \"ResourceType\": {\n      \"type\"\
   : \"string\",\n      \"description\": \"The type of the resource.\"\n    },\n    \"Service\": {\n      \"type\": \"string\",\n      \"description\": \"The AWS service that owns the resource.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-schema/amazon-resource-explorer-openapi-resource-schema.json

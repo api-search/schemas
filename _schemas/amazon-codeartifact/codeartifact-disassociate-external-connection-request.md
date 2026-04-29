@@ -7,6 +7,8 @@ provider_name: Amazon CodeArtifact
 provider_slug: amazon-codeartifact
 schema_file: json-schema/codeartifact-disassociate-external-connection-request-schema.json
 slug: codeartifact-disassociate-external-connection-request
+source_filename: codeartifact-disassociate-external-connection-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-disassociate-external-connection-request-schema.json\",\n  \"title\": \"DisassociateExternalConnectionRequest\",\n  \"description\": \"DisassociateExternalConnectionRequest schema from Amazon CodeArtifact API\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-disassociate-external-connection-request-schema.json
 tags:

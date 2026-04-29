@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/hotel-search-type-schema.json
 slug: hotel-search-type
+source_filename: hotel-search-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Type\",\n  \"description\": \"data type\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"hotel-offer\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/hotel-search-type-schema.json
 tags:

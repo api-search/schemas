@@ -13,6 +13,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-rest-get-component-response-schema.json
 slug: figma-rest-get-component-response
+source_filename: figma-rest-get-component-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"GetComponentResponse\",\n  \"type\": \"object\",\n  \"description\": \"Response from the Get Component endpoint.\",\n  \"properties\": {\n    \"error\": {\n      \"type\": \"boolean\"\n    },\n    \"status\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-rest-get-component-response-schema.json
 tags:

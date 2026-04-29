@@ -10,6 +10,8 @@ provider_name: ZoomInfo
 provider_slug: zoominfo
 schema_file: json-schema/zoominfo-hashtags-enrich-request-schema.json
 slug: zoominfo-hashtags-enrich-request
+source_filename: zoominfo-hashtags-enrich-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"companyId\": {\n      \"type\": \"string\",\n      \"example\": \"500123\"\n    }\n  },\n  \"required\": [\n    \"companyId\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"HashtagsEnrichRequest\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/json-schema/zoominfo-hashtags-enrich-request-schema.json
 tags:

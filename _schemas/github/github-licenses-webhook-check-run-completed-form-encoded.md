@@ -10,6 +10,8 @@ provider_name: GitHub
 provider_slug: github
 schema_file: json-schema/github-licenses-webhook-check-run-completed-form-encoded-schema.json
 slug: github-licenses-webhook-check-run-completed-form-encoded
+source_filename: github-licenses-webhook-check-run-completed-form-encoded-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/json-schema/github-licenses-webhook-check-run-completed-form-encoded-schema.json\",\n  \"title\": \"webhook-check-run-completed-form-encoded\",\n  \"description\": \"The check_run.completed webhook encoded with URL encoding\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"payload\": {\n      \"description\": \"A URL-encoded string of the check_run.completed JSON payload. The decoded payload is a JSON object.\",\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    }\n  },\n  \"required\": [\n    \"payload\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/json-schema/github-licenses-webhook-check-run-completed-form-encoded-schema.json
 tags:

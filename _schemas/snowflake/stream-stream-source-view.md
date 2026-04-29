@@ -16,6 +16,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/stream-stream-source-view-schema.json
 slug: stream-stream-source-view
+source_filename: stream-stream-source-view-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"StreamSourceView\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"append_only\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether this stream is an append only stream or not\"\n    },\n    \"show_initial_rows\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether this stream show initial rows on first consumption\"\n    },\n    \"base_tables\": {\n      \"type\": \"array\",\n      \"description\": \"List of base tables for the stream\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/stream-stream-source-view-schema.json
 tags:

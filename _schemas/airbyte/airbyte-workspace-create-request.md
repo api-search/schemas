@@ -19,6 +19,8 @@ provider_name: Airbyte
 provider_slug: airbyte
 schema_file: json-schema/airbyte-workspace-create-request-schema.json
 slug: airbyte-workspace-create-request
+source_filename: airbyte-workspace-create-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-workspace-create-request-schema.json\",\n  \"title\": \"WorkspaceCreateRequest\",\n  \"description\": \"WorkspaceCreateRequest schema from Airbyte API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"description\": \"Name of the workspace\",\n      \"type\": \"string\"\n    },\n    \"organizationId\": {\n      \"description\": \"ID of organization to add workspace to.\",\n      \"format\": \"uuid\",\n      \"type\": \"string\"\n    },\n    \"notifications\": {\n      \"$ref\": \"#/components/schemas/NotificationsConfig\"\n    },\n    \"regionId\": {\n      \"type\": \"string\",\n      \"format\": \"uuid\"\n    }\n  },\n  \"required\": [\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-workspace-create-request-schema.json
 tags:

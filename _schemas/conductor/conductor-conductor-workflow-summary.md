@@ -52,6 +52,8 @@ provider_name: Conductor
 provider_slug: conductor
 schema_file: json-schema/conductor-conductor-workflow-summary-schema.json
 slug: conductor-conductor-workflow-summary
+source_filename: conductor-conductor-workflow-summary-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkflowSummary\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"workflowId\": {\n      \"type\": \"string\"\n    },\n    \"workflowType\": {\n      \"type\": \"string\"\n    },\n    \"version\": {\n      \"type\": \"integer\"\n    },\n    \"correlationId\": {\n      \"type\": \"string\"\n    },\n    \"startTime\": {\n      \"type\": \"string\"\n    },\n    \"updateTime\": {\n      \"type\": \"string\"\n    },\n    \"endTime\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"input\": {\n      \"type\": \"string\"\n    },\n    \"output\": {\n      \"type\": \"string\"\n    },\n    \"reasonForIncompletion\": {\n      \"type\": \"string\"\n    },\n    \"executionTime\": {\n      \"type\": \"integer\"\n    },\n    \"event\": {\n      \"type\": \"string\"\n    },\n    \"failedReferenceTaskNames\": {\n      \"type\": \"string\"\n    },\n \
   \   \"priority\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/json-schema/conductor-conductor-workflow-summary-schema.json

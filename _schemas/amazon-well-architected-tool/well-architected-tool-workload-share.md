@@ -28,6 +28,8 @@ provider_name: Amazon Well-Architected Tool
 provider_slug: amazon-well-architected-tool
 schema_file: json-schema/well-architected-tool-workload-share-schema.json
 slug: well-architected-tool-workload-share
+source_filename: well-architected-tool-workload-share-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ShareId\": {\n      \"$ref\": \"#/components/schemas/ShareId\"\n    },\n    \"SharedBy\": {\n      \"$ref\": \"#/components/schemas/AwsAccountId\"\n    },\n    \"SharedWith\": {\n      \"$ref\": \"#/components/schemas/SharedWith\"\n    },\n    \"PermissionType\": {\n      \"$ref\": \"#/components/schemas/PermissionType\"\n    },\n    \"Status\": {\n      \"$ref\": \"#/components/schemas/ShareStatus\"\n    },\n    \"WorkloadName\": {\n      \"$ref\": \"#/components/schemas/WorkloadName\"\n    },\n    \"WorkloadId\": {\n      \"$ref\": \"#/components/schemas/WorkloadId\"\n    }\n  },\n  \"description\": \"A workload share return object.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkloadShare\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/json-schema/well-architected-tool-workload-share-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/json-schema/well-architected-tool-workload-share-schema.json
 tags:

@@ -16,6 +16,8 @@ provider_name: Dynatrace
 provider_slug: dynatrace
 schema_file: json-schema/problems-api-v2-comment-collection-schema.json
 slug: problems-api-v2-comment-collection
+source_filename: problems-api-v2-comment-collection-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-schema/problems-api-v2-comment-collection-schema.json\",\n  \"title\": \"CommentCollection\",\n  \"description\": \"A paginated collection of problem comments.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"nextPageKey\": {\n      \"type\": \"string\",\n      \"description\": \"Cursor for the next page of results.\",\n      \"nullable\": true,\n      \"example\": \"example-value\"\n    },\n    \"totalCount\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\",\n      \"description\": \"The total number of comments.\",\n      \"example\": 500\n    },\n    \"comments\": {\n      \"type\": \"array\",\n      \"description\": \"The list of comments on this page.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Comment\"\n      },\n      \"example\": [\n        {\n          \"id\": \"abc123\"\
   ,\n          \"createdAtTimestamp\": 1718153645993,\n          \"authorName\": \"Production Service\",\n          \"content\": \"example-value\",\n          \"context\": \"example-value\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-schema/problems-api-v2-comment-collection-schema.json

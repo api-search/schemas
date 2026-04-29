@@ -34,6 +34,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-restore-table-from-cluster-snapshot-message-schema.json
 slug: redshift-restore-table-from-cluster-snapshot-message
+source_filename: redshift-restore-table-from-cluster-snapshot-message-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ClusterIdentifier\": {},\n    \"SnapshotIdentifier\": {},\n    \"SourceDatabaseName\": {},\n    \"SourceSchemaName\": {},\n    \"SourceTableName\": {},\n    \"TargetDatabaseName\": {},\n    \"TargetSchemaName\": {},\n    \"NewTableName\": {},\n    \"EnableCaseSensitiveIdentifier\": {}\n  },\n  \"required\": [\n    \"ClusterIdentifier\",\n    \"SnapshotIdentifier\",\n    \"SourceDatabaseName\",\n    \"SourceTableName\",\n    \"NewTableName\"\n  ],\n  \"description\": \"<p/>\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-restore-table-from-cluster-snapshot-message-schema.json\",\n  \"title\": \"RestoreTableFromClusterSnapshotMessage\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-restore-table-from-cluster-snapshot-message-schema.json
 tags:

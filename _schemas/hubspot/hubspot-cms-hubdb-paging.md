@@ -10,6 +10,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/hubspot-cms-hubdb-paging-schema.json
 slug: hubspot-cms-hubdb-paging
+source_filename: hubspot-cms-hubdb-paging-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Pagination information.\",\n  \"properties\": {\n    \"next\": {\n      \"type\": \"object\",\n      \"example\": {\n        \"after\": \"example-value\"\n      },\n      \"properties\": {\n        \"after\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Paging\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/hubspot-cms-hubdb-paging-schema.json
 tags:

@@ -22,6 +22,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-content-feeds-data-dictionary-table-schema.json
 slug: factset-content-feeds-data-dictionary-table
+source_filename: factset-content-feeds-data-dictionary-table-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Table\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the table\"\n    },\n    \"dbSchema\": {\n      \"type\": \"string\",\n      \"description\": \"Schema prefix for Standard DataFeeds\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the table\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"A description of the table\"\n    },\n    \"entitled\": {\n      \"type\": \"boolean\",\n      \"description\": \"Flag indicating if the user is entitled to access the data in their subscriptions\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-content-feeds-data-dictionary-table-schema.json
 tags:

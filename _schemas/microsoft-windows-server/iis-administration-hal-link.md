@@ -10,6 +10,8 @@ provider_name: Microsoft Windows Server
 provider_slug: microsoft-windows-server
 schema_file: json-schema/iis-administration-hal-link-schema.json
 slug: iis-administration-hal-link
+source_filename: iis-administration-hal-link-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"HalLink\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"href\": {\n      \"type\": \"string\",\n      \"description\": \"The URI of the linked resource.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/json-schema/iis-administration-hal-link-schema.json
 tags:

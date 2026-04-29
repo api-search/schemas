@@ -7,6 +7,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-ownership-id-fund-holdings-schema.json
 slug: factset-ownership-id-fund-holdings
+source_filename: factset-ownership-id-fund-holdings-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"idFundHoldings\",\n  \"type\": \"array\",\n  \"description\": \"List of Fund identifiers.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-ownership-id-fund-holdings-schema.json
 tags:

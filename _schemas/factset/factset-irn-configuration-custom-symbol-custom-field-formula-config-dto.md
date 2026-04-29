@@ -13,6 +13,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-irn-configuration-custom-symbol-custom-field-formula-config-dto-schema.json
 slug: factset-irn-configuration-custom-symbol-custom-field-formula-config-dto
+source_filename: factset-irn-configuration-custom-symbol-custom-field-formula-config-dto-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CustomSymbolCustomFieldFormulaConfigDto\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"formula\": {\n      \"type\": \"string\"\n    },\n    \"formulaType\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-irn-configuration-custom-symbol-custom-field-formula-config-dto-schema.json
 tags:

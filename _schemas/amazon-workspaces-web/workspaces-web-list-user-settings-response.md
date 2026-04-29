@@ -13,6 +13,8 @@ provider_name: Amazon WorkSpaces Web
 provider_slug: amazon-workspaces-web
 schema_file: json-schema/workspaces-web-list-user-settings-response-schema.json
 slug: workspaces-web-list-user-settings-response
+source_filename: workspaces-web-list-user-settings-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"nextToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PaginationToken\"\n        },\n        {\n          \"description\": \"The pagination token used to retrieve the next page of results for this operation. \"\n        }\n      ]\n    },\n    \"userSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UserSettingsList\"\n        },\n        {\n          \"description\": \"The user settings.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ListUserSettingsResponse\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-list-user-settings-response-schema.json\",\n  \"description\": \"ListUserSettingsResponse schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-list-user-settings-response-schema.json
 tags:

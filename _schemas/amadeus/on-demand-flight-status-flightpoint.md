@@ -16,6 +16,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/on-demand-flight-status-flightpoint-schema.json
 slug: on-demand-flight-status-flightpoint
+source_filename: on-demand-flight-status-flightpoint-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"FlightPoint\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"iataCode\": {\n      \"type\": \"string\",\n      \"description\": \"3-letter IATA code of the airport. e.g. CDG\"\n    },\n    \"departure\": {\n      \"$ref\": \"#/definitions/Departure\"\n    },\n    \"arrival\": {\n      \"$ref\": \"#/definitions/Arrival\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/on-demand-flight-status-flightpoint-schema.json
 tags:

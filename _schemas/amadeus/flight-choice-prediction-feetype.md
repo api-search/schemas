@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-choice-prediction-feetype-schema.json
 slug: flight-choice-prediction-feetype
+source_filename: flight-choice-prediction-feetype-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"FeeType\",\n  \"description\": \"type of fee\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"TICKETING\",\n    \"FORM_OF_PAYMENT\",\n    \"SUPPLIER\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-choice-prediction-feetype-schema.json
 tags:

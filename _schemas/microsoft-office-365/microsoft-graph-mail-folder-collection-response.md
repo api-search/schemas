@@ -16,6 +16,8 @@ provider_name: Microsoft Office 365
 provider_slug: microsoft-office-365
 schema_file: json-schema/microsoft-graph-mail-folder-collection-response-schema.json
 slug: microsoft-graph-mail-folder-collection-response
+source_filename: microsoft-graph-mail-folder-collection-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"MailFolderCollectionResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"@odata.context\": {\n      \"type\": \"string\"\n    },\n    \"@odata.nextLink\": {\n      \"type\": \"string\"\n    },\n    \"value\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/json-schema/microsoft-graph-mail-folder-collection-response-schema.json
 tags:

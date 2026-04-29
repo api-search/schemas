@@ -16,6 +16,8 @@ provider_name: Apache Flink
 provider_slug: apache-flink
 schema_file: json-schema/flink-rest-garbage-collector-info-schema.json
 slug: flink-rest-garbage-collector-info
+source_filename: flink-rest-garbage-collector-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-garbage-collector-info-schema.json\",\n  \"title\": \"GarbageCollectorInfo\",\n  \"description\": \"GarbageCollectorInfo schema from Apache Flink REST API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"count\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"time\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-garbage-collector-info-schema.json
 tags:

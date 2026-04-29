@@ -43,6 +43,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-irn-contacts-contact-save-dto-schema.json
 slug: factset-irn-contacts-contact-save-dto
+source_filename: factset-irn-contacts-contact-save-dto-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ContactSaveDto\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"primaryEmailAddress\": {\n      \"type\": \"string\"\n    },\n    \"fullName\": {\n      \"type\": \"string\"\n    },\n    \"notes\": {\n      \"type\": \"string\"\n    },\n    \"linkedInProfile\": {\n      \"type\": \"string\"\n    },\n    \"personSymbol\": {\n      \"type\": \"string\"\n    },\n    \"roleId\": {\n      \"type\": \"string\"\n    },\n    \"typeId\": {\n      \"type\": \"string\"\n    },\n    \"phoneNumbers\": {\n      \"type\": \"array\"\n    },\n    \"leftRelationships\": {\n      \"type\": \"array\"\n    },\n    \"rightRelationships\": {\n      \"type\": \"array\"\n    },\n    \"alternativeEmailAddresses\": {\n      \"type\": \"array\"\n    },\n    \"customFields\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-irn-contacts-contact-save-dto-schema.json
 tags:

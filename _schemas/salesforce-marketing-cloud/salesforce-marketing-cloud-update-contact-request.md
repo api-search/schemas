@@ -10,6 +10,8 @@ provider_name: Salesforce Marketing Cloud
 provider_slug: salesforce-marketing-cloud
 schema_file: json-schema/salesforce-marketing-cloud-update-contact-request-schema.json
 slug: salesforce-marketing-cloud-update-contact-request
+source_filename: salesforce-marketing-cloud-update-contact-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"UpdateContactRequest\",\n  \"type\": \"object\",\n  \"description\": \"Request body for updating contact attributes\",\n  \"properties\": {\n    \"attributeSets\": {\n      \"type\": \"array\",\n      \"description\": \"Attribute sets and values to update\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/json-schema/salesforce-marketing-cloud-update-contact-request-schema.json
 tags:

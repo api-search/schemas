@@ -34,6 +34,8 @@ provider_name: Amazon
 provider_slug: amazon
 schema_file: json-schema/pay-charge-schema.json
 slug: pay-charge
+source_filename: pay-charge-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"chargeId\": {\n      \"type\": \"string\"\n    },\n    \"chargePermissionId\": {\n      \"type\": \"string\"\n    },\n    \"chargeAmount\": {\n      \"$ref\": \"#/components/schemas/Price\"\n    },\n    \"captureAmount\": {\n      \"$ref\": \"#/components/schemas/Price\"\n    },\n    \"refundedAmount\": {\n      \"$ref\": \"#/components/schemas/Price\"\n    },\n    \"softDescriptor\": {\n      \"type\": \"string\"\n    },\n    \"statusDetails\": {\n      \"$ref\": \"#/components/schemas/StatusDetails\"\n    },\n    \"creationTimestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"expirationTimestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Charge\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/json-schema/pay-charge-schema.json\"\
   ,\n  \"description\": \"Charge schema from Amazon Pay API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/json-schema/pay-charge-schema.json

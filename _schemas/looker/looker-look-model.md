@@ -13,6 +13,8 @@ provider_name: Looker
 provider_slug: looker
 schema_file: json-schema/looker-look-model-schema.json
 slug: looker-look-model
+source_filename: looker-look-model-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"LookModel\",\n  \"type\": \"object\",\n  \"description\": \"Basic LookML model information\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Model name/identifier\"\n    },\n    \"label\": {\n      \"type\": \"string\",\n      \"description\": \"Display label for the model\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/json-schema/looker-look-model-schema.json
 tags:

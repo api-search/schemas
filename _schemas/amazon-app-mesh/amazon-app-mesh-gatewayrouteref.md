@@ -34,6 +34,8 @@ provider_name: Amazon App Mesh
 provider_slug: amazon-app-mesh
 schema_file: json-schema/amazon-app-mesh-gatewayrouteref-schema.json
 slug: amazon-app-mesh-gatewayrouteref
+source_filename: amazon-app-mesh-gatewayrouteref-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"GatewayRouteRef\",\n  \"description\": \"An object that represents a gateway route returned by a list operation.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"arn\": {},\n    \"createdAt\": {},\n    \"gatewayRouteName\": {},\n    \"lastUpdatedAt\": {},\n    \"meshName\": {},\n    \"meshOwner\": {},\n    \"resourceOwner\": {},\n    \"version\": {},\n    \"virtualGatewayName\": {}\n  },\n  \"required\": [\n    \"arn\",\n    \"createdAt\",\n    \"gatewayRouteName\",\n    \"lastUpdatedAt\",\n    \"meshName\",\n    \"meshOwner\",\n    \"resourceOwner\",\n    \"version\",\n    \"virtualGatewayName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/json-schema/amazon-app-mesh-gatewayrouteref-schema.json
 tags:

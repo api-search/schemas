@@ -7,6 +7,8 @@ provider_name: Amazon Entity Resolution
 provider_slug: amazon-entity-resolution
 schema_file: json-schema/amazon-entity-resolution-schema-mapping-list-schema.json
 slug: amazon-entity-resolution-schema-mapping-list
+source_filename: amazon-entity-resolution-schema-mapping-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/json-schema/amazon-entity-resolution-schema-mapping-list-schema.json\",\n  \"title\": \"SchemaMappingList\",\n  \"description\": \"SchemaMappingList schema from AWS EntityResolution\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/SchemaMappingSummary\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/json-schema/amazon-entity-resolution-schema-mapping-list-schema.json
 tags:

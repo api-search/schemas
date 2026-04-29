@@ -13,6 +13,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/transfer-search-baggage-schema.json
 slug: transfer-search-baggage
+source_filename: transfer-search-baggage-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Baggage\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"count\": {\n      \"type\": \"integer\",\n      \"description\": \"baggage capacity\"\n    },\n    \"size\": {\n      \"type\": \"string\",\n      \"description\": \"baggage size\\n\\ncode   | name                                 \\n | - \\nS \\t   | Small\\nM \\t   | Medium\\nL \\t   | Large\\n\",\n      \"enum\": [\n        \"S\",\n        \"M\",\n        \"L\"\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/transfer-search-baggage-schema.json
 tags:

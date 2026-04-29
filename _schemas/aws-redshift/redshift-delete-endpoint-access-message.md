@@ -10,6 +10,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-delete-endpoint-access-message-schema.json
 slug: redshift-delete-endpoint-access-message
+source_filename: redshift-delete-endpoint-access-message-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"EndpointName\": {}\n  },\n  \"required\": [\n    \"EndpointName\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-delete-endpoint-access-message-schema.json\",\n  \"title\": \"DeleteEndpointAccessMessage\",\n  \"description\": \"DeleteEndpointAccessMessage schema from Amazon Redshift\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-delete-endpoint-access-message-schema.json
 tags:

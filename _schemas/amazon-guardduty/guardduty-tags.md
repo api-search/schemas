@@ -7,6 +7,8 @@ provider_name: Amazon GuardDuty
 provider_slug: amazon-guardduty
 schema_file: json-schema/guardduty-tags-schema.json
 slug: guardduty-tags
+source_filename: guardduty-tags-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/json-schema/guardduty-tags-schema.json\",\n  \"title\": \"Tags\",\n  \"description\": \"Tags schema from Amazon GuardDuty API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/Tag\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/json-schema/guardduty-tags-schema.json
 tags:

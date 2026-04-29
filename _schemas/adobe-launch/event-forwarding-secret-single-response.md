@@ -7,6 +7,8 @@ provider_name: Adobe Launch
 provider_slug: adobe-launch
 schema_file: json-schema/event-forwarding-secret-single-response-schema.json
 slug: event-forwarding-secret-single-response
+source_filename: event-forwarding-secret-single-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SecretSingleResponse\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/json-schema/event-forwarding-secret-single-response-schema.json
 tags:

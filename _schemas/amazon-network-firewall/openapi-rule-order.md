@@ -7,6 +7,8 @@ provider_name: Amazon Network Firewall
 provider_slug: amazon-network-firewall
 schema_file: json-schema/openapi-rule-order-schema.json
 slug: openapi-rule-order
+source_filename: openapi-rule-order-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-rule-order-schema.json\",\n  \"title\": \"RuleOrder\",\n  \"description\": \"RuleOrder schema from Amazon Network Firewall\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"DEFAULT_ACTION_ORDER\",\n    \"STRICT_ORDER\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-rule-order-schema.json
 tags:

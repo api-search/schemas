@@ -13,6 +13,8 @@ provider_name: Mastercard
 provider_slug: mastercard
 schema_file: json-schema/mastercard-atm-locations-country-schema.json
 slug: mastercard-atm-locations-country
+source_filename: mastercard-atm-locations-country-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Country\",\n  \"type\": \"object\",\n  \"description\": \"Available information for the Country such as the name and code\",\n  \"properties\": {\n    \"countryCode\": {\n      \"type\": \"string\",\n      \"description\": \"Three digit alpha country code as defined in ISO 3166-1\"\n    },\n    \"countryName\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the country\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-schema/mastercard-atm-locations-country-schema.json
 tags:

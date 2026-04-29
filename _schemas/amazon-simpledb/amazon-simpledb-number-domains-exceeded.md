@@ -10,6 +10,8 @@ provider_name: Amazon SimpleDB
 provider_slug: amazon-simpledb
 schema_file: json-schema/amazon-simpledb-number-domains-exceeded-schema.json
 slug: amazon-simpledb-number-domains-exceeded
+source_filename: amazon-simpledb-number-domains-exceeded-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/json-schema/amazon-simpledb-number-domains-exceeded-schema.json\",\n  \"title\": \"NumberDomainsExceeded\",\n  \"description\": \"Too many domains exist per this account.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"BoxUsage\": {\n      \"$ref\": \"#/components/schemas/Float\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/json-schema/amazon-simpledb-number-domains-exceeded-schema.json
 tags:

@@ -13,6 +13,8 @@ provider_name: Amazon Glue
 provider_slug: amazon-glue
 schema_file: json-schema/glue-get-workflow-runs-response-schema.json
 slug: glue-get-workflow-runs-response
+source_filename: glue-get-workflow-runs-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-get-workflow-runs-response-schema.json\",\n  \"title\": \"GetWorkflowRunsResponse\",\n  \"description\": \"GetWorkflowRunsResponse schema from Amazon Glue API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Runs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WorkflowRuns\"\n        },\n        {\n          \"description\": \"A list of workflow run metadata objects.\"\n        }\n      ]\n    },\n    \"NextToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GenericString\"\n        },\n        {\n          \"description\": \"A continuation token, if not all requested workflow runs have been returned.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-get-workflow-runs-response-schema.json
 tags:

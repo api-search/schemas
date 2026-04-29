@@ -10,6 +10,8 @@ provider_name: Amazon Global Accelerator
 provider_slug: amazon-global-accelerator
 schema_file: json-schema/global-accelerator-update-custom-routing-listener-response-schema.json
 slug: global-accelerator-update-custom-routing-listener-response
+source_filename: global-accelerator-update-custom-routing-listener-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/json-schema/global-accelerator-update-custom-routing-listener-response-schema.json\",\n  \"title\": \"UpdateCustomRoutingListenerResponse\",\n  \"description\": \"UpdateCustomRoutingListenerResponse schema from Amazon Global Accelerator API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Listener\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CustomRoutingListener\"\n        },\n        {\n          \"description\": \"Information for the updated listener for a custom routing accelerator.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/json-schema/global-accelerator-update-custom-routing-listener-response-schema.json
 tags:

@@ -13,6 +13,8 @@ provider_name: ServiceNow
 provider_slug: servicenow
 schema_file: json-schema/trouble-ticket-related-party-input-schema.json
 slug: trouble-ticket-related-party-input
+source_filename: trouble-ticket-related-party-input-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Sys_id of the related party\",\n      \"example\": \"abc123\"\n    },\n    \"@referredType\": {\n      \"type\": \"string\",\n      \"description\": \"Type of related party:\\n- customer: Company or account for the ticket\\n- customer_contact: Caller or contact for the ticket\\n\",\n      \"example\": \"customer\",\n      \"enum\": [\n        \"customer\",\n        \"customer_contact\"\n      ]\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"@referredType\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RelatedPartyInput\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/json-schema/trouble-ticket-related-party-input-schema.json
 tags:

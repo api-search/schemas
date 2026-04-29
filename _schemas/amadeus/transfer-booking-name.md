@@ -19,6 +19,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/transfer-booking-name-schema.json
 slug: transfer-booking-name
+source_filename: transfer-booking-name-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Name\",\n  \"description\": \"description of the name of a physical person\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"The type of the Name\"\n    },\n    \"firstName\": {\n      \"type\": \"string\",\n      \"description\": \"First name.\"\n    },\n    \"lastName\": {\n      \"type\": \"string\",\n      \"description\": \"Last name.\"\n    },\n    \"title\": {\n      \"type\": \"string\",\n      \"description\": \"Contains all the suffixes and prefixes that can be appended to a name - Mr, Miss, Pr. - E.g. \\\" Mr\\\".\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/transfer-booking-name-schema.json
 tags:

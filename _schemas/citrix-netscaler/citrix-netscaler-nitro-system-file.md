@@ -31,6 +31,8 @@ provider_name: Citrix NetScaler
 provider_slug: citrix-netscaler
 schema_file: json-schema/citrix-netscaler-nitro-system-file-schema.json
 slug: citrix-netscaler-nitro-system-file
+source_filename: citrix-netscaler-nitro-system-file-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SystemFile\",\n  \"type\": \"object\",\n  \"description\": \"A system file on the NetScaler appliance.\",\n  \"properties\": {\n    \"filename\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the file.\"\n    },\n    \"filelocation\": {\n      \"type\": \"string\",\n      \"description\": \"Location of the file on the appliance filesystem (e.g., /nsconfig/ssl).\"\n    },\n    \"filecontent\": {\n      \"type\": \"string\",\n      \"description\": \"Base64-encoded file content. Used when uploading files.\"\n    },\n    \"fileencoding\": {\n      \"type\": \"string\",\n      \"description\": \"Encoding of the file content.\"\n    },\n    \"fileaccesstime\": {\n      \"type\": \"string\",\n      \"description\": \"Last access time of the file.\"\n    },\n    \"filemodifiedtime\": {\n      \"type\": \"string\",\n      \"description\": \"Last modification time of the file.\"\n\
   \    },\n    \"filemode\": {\n      \"type\": \"string\",\n      \"description\": \"File permissions mode.\"\n    },\n    \"filesize\": {\n      \"type\": \"integer\",\n      \"description\": \"Size of the file in bytes.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/json-schema/citrix-netscaler-nitro-system-file-schema.json

@@ -13,6 +13,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/configuration-counterparty-bank-restriction-schema.json
 slug: configuration-counterparty-bank-restriction
+source_filename: configuration-counterparty-bank-restriction-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/configuration-counterparty-bank-restriction-schema.json\",\n  \"title\": \"CounterpartyBankRestriction\",\n  \"description\": \"CounterpartyBankRestriction schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"operation\": {\n      \"description\": \"Defines how the condition must be evaluated.\",\n      \"type\": \"string\"\n    },\n    \"value\": {\n      \"description\": \"List of counterparty Bank Institutions and the operation.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/BankIdentification\"\n      },\n      \"type\": \"array\"\n    }\n  },\n  \"required\": [\n    \"operation\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/configuration-counterparty-bank-restriction-schema.json
 tags:

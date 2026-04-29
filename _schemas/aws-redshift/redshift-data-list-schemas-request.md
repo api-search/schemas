@@ -34,6 +34,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-data-list-schemas-request-schema.json
 slug: redshift-data-list-schemas-request
+source_filename: redshift-data-list-schemas-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ClusterIdentifier\": {},\n    \"ConnectedDatabase\": {},\n    \"Database\": {},\n    \"DbUser\": {},\n    \"MaxResults\": {},\n    \"NextToken\": {},\n    \"SchemaPattern\": {},\n    \"SecretArn\": {},\n    \"WorkgroupName\": {}\n  },\n  \"required\": [\n    \"Database\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-list-schemas-request-schema.json\",\n  \"title\": \"ListSchemasRequest\",\n  \"description\": \"ListSchemasRequest schema from Amazon Redshift\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-data-list-schemas-request-schema.json
 tags:

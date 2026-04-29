@@ -13,6 +13,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-content-body-create-schema.json
 slug: atlassian-confluence-content-content-body-create
+source_filename: atlassian-confluence-content-content-body-create-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ContentBodyCreate\",\n  \"type\": \"object\",\n  \"description\": \"This object is used when creating or updating content.\",\n  \"properties\": {\n    \"value\": {\n      \"type\": \"string\",\n      \"description\": \"The body of the content in the relevant format.\"\n    },\n    \"representation\": {\n      \"type\": \"string\",\n      \"description\": \"The content format type. Set the value of this property to\\nthe name of the format being used, e.g. 'storage'.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-content-body-create-schema.json
 tags:

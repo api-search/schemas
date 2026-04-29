@@ -16,6 +16,8 @@ provider_name: ZoomInfo
 provider_slug: zoominfo
 schema_file: json-schema/zoominfo-matchbycompanyaddress1-schema.json
 slug: zoominfo-matchbycompanyaddress1
+source_filename: zoominfo-matchbycompanyaddress1-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"responseCode\": {\n      \"type\": \"integer\",\n      \"example\": 100\n    },\n    \"message\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"invalidOutputFields\": {\n      \"type\": \"array\",\n      \"description\": \"\",\n      \"example\": [],\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"responseCode\",\n    \"message\",\n    \"invalidOutputFields\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Matchbycompanyaddress1\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/json-schema/zoominfo-matchbycompanyaddress1-schema.json
 tags:

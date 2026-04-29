@@ -19,6 +19,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/seatmap-display-baggageallowance-schema.json
 slug: seatmap-display-baggageallowance
+source_filename: seatmap-display-baggageallowance-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"BaggageAllowance\",\n  \"description\": \"baggageAllowance\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"excessRate\": {\n      \"$ref\": \"#/definitions/ElementaryPrice\"\n    },\n    \"quantity\": {\n      \"type\": \"integer\",\n      \"description\": \"Total number of units\"\n    },\n    \"weight\": {\n      \"type\": \"integer\",\n      \"description\": \"Weight of the baggage allowance\"\n    },\n    \"weightUnit\": {\n      \"type\": \"string\",\n      \"description\": \"Code to qualify unit as pounds or kilos\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/seatmap-display-baggageallowance-schema.json
 tags:

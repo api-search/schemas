@@ -16,6 +16,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-top-navigation-look-and-feel-schema.json
 slug: atlassian-confluence-content-top-navigation-look-and-feel
+source_filename: atlassian-confluence-content-top-navigation-look-and-feel-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TopNavigationLookAndFeel\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"color\": {\n      \"type\": \"string\"\n    },\n    \"highlightColor\": {\n      \"type\": \"string\"\n    },\n    \"hoverOrFocus\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-top-navigation-look-and-feel-schema.json
 tags:

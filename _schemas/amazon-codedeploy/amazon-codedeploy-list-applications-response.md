@@ -13,6 +13,8 @@ provider_name: Amazon CodeDeploy
 provider_slug: amazon-codedeploy
 schema_file: json-schema/amazon-codedeploy-list-applications-response-schema.json
 slug: amazon-codedeploy-list-applications-response
+source_filename: amazon-codedeploy-list-applications-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-list-applications-response-schema.json\",\n  \"title\": \"ListApplicationsResponse\",\n  \"description\": \"ListApplicationsResponse schema from Amazon CodeDeploy\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"applications\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"nextToken\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-list-applications-response-schema.json
 tags:

@@ -13,6 +13,8 @@ provider_name: Mastercard
 provider_slug: mastercard
 schema_file: json-schema/mastercard-ethoca-merchant-self-services-search-field-schema.json
 slug: mastercard-ethoca-merchant-self-services-search-field
+source_filename: mastercard-ethoca-merchant-self-services-search-field-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SearchField\",\n  \"type\": \"object\",\n  \"description\": \"Schema for a Search Field\",\n  \"properties\": {\n    \"searchParameter\": {\n      \"type\": \"string\",\n      \"description\": \"Merchant api search parameter\"\n    },\n    \"required\": {\n      \"type\": \"boolean\",\n      \"description\": \"If the search field is required\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-schema/mastercard-ethoca-merchant-self-services-search-field-schema.json
 tags:

@@ -22,6 +22,8 @@ provider_name: Docusign
 provider_slug: docusign
 schema_file: json-schema/docusign-esignature-witness-schema.json
 slug: docusign-esignature-witness
+source_filename: docusign-esignature-witness-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Witness\",\n  \"type\": \"object\",\n  \"description\": \"A witness recipient who verifies the identity of a signer.\",\n  \"properties\": {\n    \"recipientId\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"email\": {\n      \"type\": \"string\"\n    },\n    \"routingOrder\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/json-schema/docusign-esignature-witness-schema.json
 tags:

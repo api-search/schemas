@@ -16,6 +16,8 @@ provider_name: Airbyte
 provider_slug: airbyte
 schema_file: json-schema/airbyte-workspace-o-auth-credentials-request-schema.json
 slug: airbyte-workspace-o-auth-credentials-request
+source_filename: airbyte-workspace-o-auth-credentials-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-workspace-o-auth-credentials-request-schema.json\",\n  \"title\": \"WorkspaceOAuthCredentialsRequest\",\n  \"description\": \"POST body for creating/updating workspace level OAuth credentials\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"actorType\": {\n      \"$ref\": \"#/components/schemas/ActorTypeEnum\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the source i.e. google-ads\"\n    },\n    \"configuration\": {\n      \"$ref\": \"#/components/schemas/OAuthCredentialsConfiguration\"\n    }\n  },\n  \"required\": [\n    \"actorType\",\n    \"name\",\n    \"configuration\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-workspace-o-auth-credentials-request-schema.json
 tags:

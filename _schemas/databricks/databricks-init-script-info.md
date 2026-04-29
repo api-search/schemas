@@ -16,6 +16,8 @@ provider_name: Databricks
 provider_slug: databricks
 schema_file: json-schema/databricks-init-script-info-schema.json
 slug: databricks-init-script-info
+source_filename: databricks-init-script-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"InitScriptInfo\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"workspace\": {\n      \"type\": \"object\"\n    },\n    \"volumes\": {\n      \"type\": \"object\"\n    },\n    \"dbfs\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/json-schema/databricks-init-script-info-schema.json
 tags:

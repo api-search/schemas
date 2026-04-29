@@ -22,6 +22,8 @@ provider_name: Databricks
 provider_slug: databricks
 schema_file: json-schema/databricks-job-email-notifications-schema.json
 slug: databricks-job-email-notifications
+source_filename: databricks-job-email-notifications-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"JobEmailNotifications\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"on_start\": {\n      \"type\": \"array\",\n      \"description\": \"Email addresses to notify when a run starts.\"\n    },\n    \"on_success\": {\n      \"type\": \"array\",\n      \"description\": \"Email addresses to notify when a run succeeds.\"\n    },\n    \"on_failure\": {\n      \"type\": \"array\",\n      \"description\": \"Email addresses to notify when a run fails.\"\n    },\n    \"on_duration_warning_threshold_exceeded\": {\n      \"type\": \"array\"\n    },\n    \"no_alert_for_skipped_runs\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/json-schema/databricks-job-email-notifications-schema.json
 tags:

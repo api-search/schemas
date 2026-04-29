@@ -67,6 +67,8 @@ provider_name: CharityAPI
 provider_slug: charityapi
 schema_file: json-schema/charityapi-organization-schema.json
 slug: charityapi-organization
+source_filename: charityapi-organization-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://charityapi.org/schemas/organization.json\",\n  \"title\": \"CharityAPI Organization\",\n  \"description\": \"A US nonprofit organization record sourced from the IRS Business Master File.\",\n  \"type\": \"object\",\n  \"required\": [\"ein\", \"name\"],\n  \"properties\": {\n    \"ein\": {\n      \"type\": \"string\",\n      \"pattern\": \"^[0-9]{9}$\",\n      \"description\": \"Employer Identification Number.\"\n    },\n    \"name\": { \"type\": \"string\" },\n    \"ico\": { \"type\": \"string\" },\n    \"street\": { \"type\": \"string\" },\n    \"city\": { \"type\": \"string\" },\n    \"state\": { \"type\": \"string\" },\n    \"zip\": { \"type\": \"string\" },\n    \"subsection\": { \"type\": \"string\" },\n    \"affiliation\": { \"type\": \"string\" },\n    \"classification\": { \"type\": \"string\" },\n    \"ruling\": { \"type\": \"string\" },\n    \"deductibility\": { \"type\": \"\
   string\" },\n    \"foundation\": { \"type\": \"string\" },\n    \"activity\": { \"type\": \"string\" },\n    \"status\": { \"type\": \"string\" },\n    \"tax_period\": { \"type\": \"string\" },\n    \"asset_amt\": { \"type\": \"integer\" },\n    \"income_amt\": { \"type\": \"integer\" },\n    \"revenue_amt\": { \"type\": \"integer\" },\n    \"ntee_cd\": { \"type\": \"string\" }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/json-schema/charityapi-organization-schema.json

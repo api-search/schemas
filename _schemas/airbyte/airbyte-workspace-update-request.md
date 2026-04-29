@@ -16,6 +16,8 @@ provider_name: Airbyte
 provider_slug: airbyte
 schema_file: json-schema/airbyte-workspace-update-request-schema.json
 slug: airbyte-workspace-update-request
+source_filename: airbyte-workspace-update-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-workspace-update-request-schema.json\",\n  \"title\": \"WorkspaceUpdateRequest\",\n  \"description\": \"WorkspaceUpdateRequest schema from Airbyte API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"description\": \"Name of the workspace\",\n      \"type\": \"string\"\n    },\n    \"notifications\": {\n      \"$ref\": \"#/components/schemas/NotificationsConfig\"\n    },\n    \"regionId\": {\n      \"type\": \"string\",\n      \"format\": \"uuid\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-workspace-update-request-schema.json
 tags:

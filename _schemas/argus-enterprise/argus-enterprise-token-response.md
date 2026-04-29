@@ -19,6 +19,8 @@ provider_name: ARGUS Enterprise
 provider_slug: argus-enterprise
 schema_file: json-schema/argus-enterprise-token-response-schema.json
 slug: argus-enterprise-token-response
+source_filename: argus-enterprise-token-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/json-schema/argus-enterprise-token-response-schema.json\",\n  \"title\": \"TokenResponse\",\n  \"description\": \"TokenResponse schema from ARGUS Enterprise API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"access_token\": {\n      \"type\": \"string\",\n      \"description\": \"Bearer token for API authentication\"\n    },\n    \"token_type\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"Bearer\"\n      ]\n    },\n    \"expires_in\": {\n      \"type\": \"integer\",\n      \"description\": \"Token validity duration in seconds\"\n    },\n    \"scope\": {\n      \"type\": \"string\",\n      \"description\": \"Granted scopes\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/json-schema/argus-enterprise-token-response-schema.json
 tags:

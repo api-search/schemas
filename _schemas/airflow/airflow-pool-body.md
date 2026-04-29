@@ -22,6 +22,8 @@ provider_name: Apache Airflow
 provider_slug: airflow
 schema_file: json-schema/airflow-pool-body-schema.json
 slug: airflow-pool-body
+source_filename: airflow-pool-body-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-pool-body-schema.json\",\n  \"title\": \"PoolBody\",\n  \"description\": \"Pool serializer for post bodies.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"maxLength\": 256,\n      \"title\": \"Name\"\n    },\n    \"slots\": {\n      \"type\": \"integer\",\n      \"minimum\": -1.0,\n      \"title\": \"Slots\",\n      \"description\": \"Number of slots. Use -1 for unlimited.\"\n    },\n    \"description\": {\n      \"anyOf\": [\n        {\n          \"type\": \"string\"\n        },\n        {\n          \"type\": \"null\"\n        }\n      ],\n      \"title\": \"Description\"\n    },\n    \"include_deferred\": {\n      \"type\": \"boolean\",\n      \"title\": \"Include Deferred\",\n      \"default\": false\n    },\n    \"team_name\": {\n      \"anyOf\"\
   : [\n        {\n          \"type\": \"string\",\n          \"maxLength\": 50\n        },\n        {\n          \"type\": \"null\"\n        }\n      ],\n      \"title\": \"Team Name\"\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"slots\"\n  ],\n  \"additionalProperties\": false\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-pool-body-schema.json

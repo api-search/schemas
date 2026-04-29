@@ -7,6 +7,8 @@ provider_name: Amazon Glue
 provider_slug: amazon-glue
 schema_file: json-schema/glue-access-denied-exception-schema.json
 slug: glue-access-denied-exception
+source_filename: glue-access-denied-exception-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-access-denied-exception-schema.json\",\n  \"title\": \"AccessDeniedException\",\n  \"description\": \"AccessDeniedException schema from Amazon Glue API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-access-denied-exception-schema.json
 tags:

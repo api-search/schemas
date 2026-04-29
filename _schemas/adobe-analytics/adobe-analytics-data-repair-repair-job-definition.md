@@ -10,6 +10,8 @@ provider_name: Adobe Analytics
 provider_slug: adobe-analytics
 schema_file: json-schema/adobe-analytics-data-repair-repair-job-definition-schema.json
 slug: adobe-analytics-data-repair-repair-job-definition
+source_filename: adobe-analytics-data-repair-repair-job-definition-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Definition of a data repair job\",\n  \"properties\": {\n    \"variables\": {\n      \"type\": \"object\",\n      \"description\": \"Map of variable names to repair actions. Keys are Analytics variable names (e.g. eVar1, prop5, activitymap) and values are action objects.\",\n      \"example\": \"example_value\"\n    }\n  },\n  \"required\": [\n    \"variables\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RepairJobDefinition\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/json-schema/adobe-analytics-data-repair-repair-job-definition-schema.json
 tags:

@@ -22,6 +22,8 @@ provider_name: Amazon IAM
 provider_slug: amazon-iam
 schema_file: json-schema/amazon-iam-group-schema.json
 slug: amazon-iam-group
+source_filename: amazon-iam-group-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/json-schema/amazon-iam-group-schema.json\",\n  \"title\": \"Group\",\n  \"description\": \"Group schema from AWS IAM API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Path\": {\n      \"type\": \"string\",\n      \"description\": \"The path to the group.\"\n    },\n    \"GroupName\": {\n      \"type\": \"string\",\n      \"description\": \"The friendly name that identifies the group.\"\n    },\n    \"GroupId\": {\n      \"type\": \"string\",\n      \"description\": \"The stable and unique string identifying the group.\"\n    },\n    \"Arn\": {\n      \"type\": \"string\",\n      \"description\": \"The Amazon Resource Name (ARN) specifying the group.\"\n    },\n    \"CreateDate\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The date and time when the group was created.\"\
   \n    }\n  },\n  \"required\": [\n    \"GroupName\",\n    \"GroupId\",\n    \"Arn\",\n    \"CreateDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/json-schema/amazon-iam-group-schema.json

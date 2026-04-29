@@ -22,6 +22,8 @@ provider_name: Amazon App Mesh
 provider_slug: amazon-app-mesh
 schema_file: json-schema/amazon-app-mesh-virtualgatewaydata-schema.json
 slug: amazon-app-mesh-virtualgatewaydata
+source_filename: amazon-app-mesh-virtualgatewaydata-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"VirtualGatewayData\",\n  \"description\": \"An object that represents a virtual gateway returned by a describe operation.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"meshName\": {},\n    \"metadata\": {\n      \"$ref\": \"#/definitions/ResourceMetadata\"\n    },\n    \"spec\": {},\n    \"status\": {},\n    \"virtualGatewayName\": {}\n  },\n  \"required\": [\n    \"meshName\",\n    \"metadata\",\n    \"spec\",\n    \"status\",\n    \"virtualGatewayName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/json-schema/amazon-app-mesh-virtualgatewaydata-schema.json
 tags:

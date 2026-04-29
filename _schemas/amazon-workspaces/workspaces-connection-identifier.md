@@ -7,6 +7,8 @@ provider_name: Amazon WorkSpaces
 provider_slug: amazon-workspaces
 schema_file: json-schema/workspaces-connection-identifier-schema.json
 slug: workspaces-connection-identifier
+source_filename: workspaces-connection-identifier-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"string\",\n  \"pattern\": \"^[a-zA-Z0-9]+$\",\n  \"minLength\": 1,\n  \"maxLength\": 20,\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ConnectionIdentifier\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-connection-identifier-schema.json\",\n  \"description\": \"ConnectionIdentifier schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-connection-identifier-schema.json
 tags:

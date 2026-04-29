@@ -19,6 +19,8 @@ provider_name: Apache Pinot
 provider_slug: apache-pinot
 schema_file: json-schema/apache-pinot-table-config-schema.json
 slug: apache-pinot-table-config
+source_filename: apache-pinot-table-config-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/json-schema/apache-pinot-table-config-schema.json\",\n  \"title\": \"TableConfig\",\n  \"description\": \"TableConfig schema from Apache Pinot\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"tableName\": {\n      \"type\": \"string\",\n      \"example\": \"myTable\"\n    },\n    \"tableType\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"OFFLINE\",\n        \"REALTIME\"\n      ],\n      \"example\": \"OFFLINE\"\n    },\n    \"segmentsConfig\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"replication\": {\n          \"type\": \"string\",\n          \"example\": \"1\"\n        },\n        \"timeColumnName\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"tenants\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"broker\": {\n       \
   \   \"type\": \"string\",\n          \"example\": \"DefaultTenant\"\n        },\n        \"server\": {\n          \"type\": \"string\",\n          \"example\": \"DefaultTenant\"\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/json-schema/apache-pinot-table-config-schema.json

@@ -7,6 +7,8 @@ provider_name: Amazon Macie
 provider_slug: amazon-macie
 schema_file: json-schema/amazon-macie-severity-description-schema.json
 slug: amazon-macie-severity-description
+source_filename: amazon-macie-severity-description-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-severity-description-schema.json\",\n  \"title\": \"SeverityDescription\",\n  \"description\": \"The qualitative representation of the finding's severity. Possible values are:\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"Low\",\n    \"Medium\",\n    \"High\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-severity-description-schema.json
 tags:

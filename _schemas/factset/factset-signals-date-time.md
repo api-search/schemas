@@ -7,6 +7,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-signals-date-time-schema.json
 slug: factset-signals-date-time
+source_filename: factset-signals-date-time-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DateTime\",\n  \"type\": \"string\",\n  \"description\": \"A date/time string in ISO 8601 format.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-signals-date-time-schema.json
 tags:

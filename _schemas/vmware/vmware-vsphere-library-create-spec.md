@@ -19,6 +19,8 @@ provider_name: VMware
 provider_slug: vmware
 schema_file: json-schema/vmware-vsphere-library-create-spec-schema.json
 slug: vmware-vsphere-library-create-spec
+source_filename: vmware-vsphere-library-create-spec-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"LibraryCreateSpec\",\n  \"type\": \"object\",\n  \"description\": \"Specification for creating a content library\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name for the new content library\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"Description of the content library\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Library type\"\n    },\n    \"storage_backings\": {\n      \"type\": \"array\",\n      \"description\": \"Storage backings for the library content\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/json-schema/vmware-vsphere-library-create-spec-schema.json
 tags:

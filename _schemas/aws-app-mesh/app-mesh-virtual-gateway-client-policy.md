@@ -10,6 +10,8 @@ provider_name: AWS App Mesh
 provider_slug: aws-app-mesh
 schema_file: json-schema/app-mesh-virtual-gateway-client-policy-schema.json
 slug: app-mesh-virtual-gateway-client-policy
+source_filename: app-mesh-virtual-gateway-client-policy-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"tls\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VirtualGatewayClientPolicyTls\"\n        },\n        {\n          \"description\": \"A reference to an object that represents a Transport Layer Security (TLS) client policy.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"An object that represents a client policy.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-client-policy-schema.json\",\n  \"title\": \"VirtualGatewayClientPolicy\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-client-policy-schema.json
 tags:

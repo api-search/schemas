@@ -25,6 +25,8 @@ provider_name: Looker
 provider_slug: looker
 schema_file: json-schema/looker-permission-set-schema.json
 slug: looker-permission-set
+source_filename: looker-permission-set-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PermissionSet\",\n  \"type\": \"object\",\n  \"description\": \"A set of permissions that can be assigned to a role\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\",\n      \"description\": \"Unique numeric identifier\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Display name\"\n    },\n    \"permissions\": {\n      \"type\": \"array\",\n      \"description\": \"List of permission strings\"\n    },\n    \"built_in\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether this is a built-in permission set\"\n    },\n    \"all_access\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether this grants all permissions\"\n    },\n    \"url\": {\n      \"type\": \"string\",\n      \"description\": \"Relative URL\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/json-schema/looker-permission-set-schema.json
 tags:

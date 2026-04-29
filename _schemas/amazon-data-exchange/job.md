@@ -31,6 +31,8 @@ provider_name: Amazon Data Exchange
 provider_slug: amazon-data-exchange
 schema_file: json-schema/job-schema.json
 slug: job
+source_filename: job-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-data-exchange/json-schema/job-schema.json\",\n  \"title\": \"Job\",\n  \"description\": \"A Data Exchange job for importing or exporting assets.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Id\": {\n      \"type\": \"string\"\n    },\n    \"Arn\": {\n      \"type\": \"string\"\n    },\n    \"Type\": {\n      \"type\": \"string\"\n    },\n    \"State\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"WAITING\",\n        \"IN_PROGRESS\",\n        \"ERROR\",\n        \"COMPLETED\",\n        \"CANCELLED\",\n        \"TIMED_OUT\"\n      ]\n    },\n    \"Details\": {\n      \"type\": \"object\"\n    },\n    \"Errors\": {\n      \"type\": \"array\"\n    },\n    \"CreatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"UpdatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n\
   \  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/json-schema/job-schema.json

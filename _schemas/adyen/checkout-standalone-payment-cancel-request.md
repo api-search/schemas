@@ -19,6 +19,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/checkout-standalone-payment-cancel-request-schema.json
 slug: checkout-standalone-payment-cancel-request
+source_filename: checkout-standalone-payment-cancel-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-standalone-payment-cancel-request-schema.json\",\n  \"title\": \"StandalonePaymentCancelRequest\",\n  \"description\": \"StandalonePaymentCancelRequest schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"applicationInfo\": {\n      \"description\": \"Information about your application. For more details, see [Building Adyen solutions](https://docs.adyen.com/development-resources/building-adyen-solutions).\",\n      \"$ref\": \"#/components/schemas/ApplicationInfo\"\n    },\n    \"merchantAccount\": {\n      \"description\": \"The merchant account that is used to process the payment.\",\n      \"type\": \"string\"\n    },\n    \"paymentReference\": {\n      \"description\": \"The [`reference`](https://docs.adyen.com/api-explorer/#/CheckoutService/latest/post/payments__reqParam_reference)\
   \ of the payment that you want to cancel.\",\n      \"type\": \"string\"\n    },\n    \"reference\": {\n      \"description\": \"Your reference for the cancel request. Maximum length: 80 characters.\",\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"merchantAccount\",\n    \"paymentReference\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/checkout-standalone-payment-cancel-request-schema.json

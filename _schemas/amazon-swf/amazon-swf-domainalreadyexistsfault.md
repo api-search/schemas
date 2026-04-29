@@ -7,6 +7,8 @@ provider_name: Amazon Simple Workflow Service
 provider_slug: amazon-swf
 schema_file: json-schema/amazon-swf-domainalreadyexistsfault-schema.json
 slug: amazon-swf-domainalreadyexistsfault
+source_filename: amazon-swf-domainalreadyexistsfault-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"DomainAlreadyExistsFault\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-domainalreadyexistsfault-schema.json
 tags:

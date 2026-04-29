@@ -34,6 +34,8 @@ provider_name: Tyk
 provider_slug: tyk
 schema_file: json-schema/tyk-gateway-versioning-schema.json
 slug: tyk-gateway-versioning
+source_filename: tyk-gateway-versioning-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Versioning\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"default\": {\n      \"type\": \"string\"\n    },\n    \"enabled\": {\n      \"type\": \"boolean\"\n    },\n    \"fallbackToDefault\": {\n      \"type\": \"boolean\"\n    },\n    \"key\": {\n      \"type\": \"string\"\n    },\n    \"location\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"stripVersioningData\": {\n      \"type\": \"boolean\"\n    },\n    \"urlVersioningPattern\": {\n      \"type\": \"string\"\n    },\n    \"versions\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/json-schema/tyk-gateway-versioning-schema.json
 tags:

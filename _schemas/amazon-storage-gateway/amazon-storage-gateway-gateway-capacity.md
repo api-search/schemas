@@ -7,6 +7,8 @@ provider_name: Amazon Storage Gateway
 provider_slug: amazon-storage-gateway
 schema_file: json-schema/amazon-storage-gateway-gateway-capacity-schema.json
 slug: amazon-storage-gateway-gateway-capacity
+source_filename: amazon-storage-gateway-gateway-capacity-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-gateway-capacity-schema.json\",\n  \"title\": \"GatewayCapacity\",\n  \"description\": \"GatewayCapacity schema from Amazon Storage Gateway API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"Small\",\n    \"Medium\",\n    \"Large\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-gateway-capacity-schema.json
 tags:

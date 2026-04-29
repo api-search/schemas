@@ -13,6 +13,8 @@ provider_name: Amazon HealthLake
 provider_slug: amazon-healthlake
 schema_file: json-schema/healthlake-list-fhir-export-jobs-response-schema.json
 slug: healthlake-list-fhir-export-jobs-response
+source_filename: healthlake-list-fhir-export-jobs-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-list-fhir-export-jobs-response-schema.json\",\n  \"title\": \"ListFHIRExportJobsResponse\",\n  \"type\": \"object\",\n  \"required\": [\n    \"ExportJobPropertiesList\"\n  ],\n  \"properties\": {\n    \"ExportJobPropertiesList\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ExportJobPropertiesList\"\n        },\n        {\n          \"description\": \" The properties of listed FHIR export jobs, including the ID, ARN, name, and the status of the job. \"\n        }\n      ]\n    },\n    \"NextToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NextToken\"\n        },\n        {\n          \"description\": \" A pagination token used to identify the next page of results to return for a ListFHIRExportJobs query. \"\n        }\n \
   \     ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-list-fhir-export-jobs-response-schema.json

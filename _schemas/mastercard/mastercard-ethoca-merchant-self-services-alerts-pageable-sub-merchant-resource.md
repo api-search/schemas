@@ -10,6 +10,8 @@ provider_name: Mastercard
 provider_slug: mastercard
 schema_file: json-schema/mastercard-ethoca-merchant-self-services-alerts-pageable-sub-merchant-resource-schema.json
 slug: mastercard-ethoca-merchant-self-services-alerts-pageable-sub-merchant-resource
+source_filename: mastercard-ethoca-merchant-self-services-alerts-pageable-sub-merchant-resource-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AlertsPageableSubMerchantResource\",\n  \"type\": \"object\",\n  \"description\": \"Pageable response containing sub-merchants with their details\",\n  \"properties\": {\n    \"subMerchants\": {\n      \"type\": \"array\",\n      \"description\": \"List of sub-merchants with all details\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-schema/mastercard-ethoca-merchant-self-services-alerts-pageable-sub-merchant-resource-schema.json
 tags:

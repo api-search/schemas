@@ -19,6 +19,8 @@ provider_name: Amazon Application Migration Service
 provider_slug: amazon-application-migration-service
 schema_file: json-schema/application-migration-service-describe-jobs-request-schema.json
 slug: application-migration-service-describe-jobs-request
+source_filename: application-migration-service-describe-jobs-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-application-migration-service/json-schema/application-migration-service-describe-jobs-request-schema.json\",\n  \"title\": \"DescribeJobsRequest\",\n  \"description\": \"Request to describe migration jobs\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"filters\": {\n      \"type\": \"string\",\n      \"description\": \"filters\"\n    },\n    \"maxResults\": {\n      \"type\": \"integer\",\n      \"description\": \"Maximum results to return\"\n    },\n    \"nextToken\": {\n      \"type\": \"string\",\n      \"description\": \"Pagination token\"\n    },\n    \"accountID\": {\n      \"type\": \"string\",\n      \"description\": \"Account ID for cross-account access\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/json-schema/application-migration-service-describe-jobs-request-schema.json
 tags:

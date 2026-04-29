@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-create-orders-otherpaymentmethod-schema.json
 slug: flight-create-orders-otherpaymentmethod
+source_filename: flight-create-orders-otherpaymentmethod-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"OtherPaymentMethod\",\n  \"description\": \"other payment method\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ACCOUNT\",\n    \"CHECK\",\n    \"CASH\",\n    \"NONREFUNDABLE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-create-orders-otherpaymentmethod-schema.json
 tags:

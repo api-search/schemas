@@ -25,6 +25,8 @@ provider_name: Looker
 provider_slug: looker
 schema_file: json-schema/looker-role-schema.json
 slug: looker-role
+source_filename: looker-role-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Role\",\n  \"type\": \"object\",\n  \"description\": \"A role defines a set of permissions and model access controls that can be assigned to users and groups.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\",\n      \"description\": \"Unique numeric identifier\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Display name of the role\"\n    },\n    \"permission_set_id\": {\n      \"type\": \"integer\",\n      \"description\": \"ID of the permission set assigned to this role\"\n    },\n    \"model_set_id\": {\n      \"type\": \"integer\",\n      \"description\": \"ID of the model set assigned to this role\"\n    },\n    \"user_count\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of users with this role\"\n    },\n    \"url\": {\n      \"type\": \"string\",\n      \"description\": \"Relative URL for this role\"\n    }\n  }\n\
   }"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/json-schema/looker-role-schema.json

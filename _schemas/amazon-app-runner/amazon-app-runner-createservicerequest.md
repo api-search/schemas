@@ -34,6 +34,8 @@ provider_name: Amazon App Runner
 provider_slug: amazon-app-runner
 schema_file: json-schema/amazon-app-runner-createservicerequest-schema.json
 slug: amazon-app-runner-createservicerequest
+source_filename: amazon-app-runner-createservicerequest-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"CreateServiceRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ServiceName\": {},\n    \"SourceConfiguration\": {},\n    \"InstanceConfiguration\": {},\n    \"Tags\": {},\n    \"EncryptionConfiguration\": {},\n    \"HealthCheckConfiguration\": {},\n    \"AutoScalingConfigurationArn\": {},\n    \"NetworkConfiguration\": {},\n    \"ObservabilityConfiguration\": {}\n  },\n  \"required\": [\n    \"ServiceName\",\n    \"SourceConfiguration\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/json-schema/amazon-app-runner-createservicerequest-schema.json
 tags:

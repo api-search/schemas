@@ -7,6 +7,8 @@ provider_name: Amazon MediaConvert
 provider_slug: amazon-mediaconvert
 schema_file: json-schema/mediaconvert-api-hls-stream-inf-resolution-schema.json
 slug: mediaconvert-api-hls-stream-inf-resolution
+source_filename: mediaconvert-api-hls-stream-inf-resolution-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-hls-stream-inf-resolution-schema.json\",\n  \"title\": \"HlsStreamInfResolution\",\n  \"description\": \"Include or exclude RESOLUTION attribute for video in EXT-X-STREAM-INF tag of variant manifest.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"INCLUDE\",\n    \"EXCLUDE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-hls-stream-inf-resolution-schema.json
 tags:

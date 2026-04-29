@@ -25,6 +25,8 @@ provider_name: Microsoft Entra
 provider_slug: microsoft-entra
 schema_file: json-schema/microsoft-entra-graph-identity-app-role-schema.json
 slug: microsoft-entra-graph-identity-app-role
+source_filename: microsoft-entra-graph-identity-app-role-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AppRole\",\n  \"type\": \"object\",\n  \"description\": \"Represents a role defined by an application that can be assigned to users, groups, or service principals\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the app role\"\n    },\n    \"allowedMemberTypes\": {\n      \"type\": \"array\",\n      \"description\": \"Specifies whether the role can be assigned to users/groups, applications, or both\"\n    },\n    \"displayName\": {\n      \"type\": \"string\",\n      \"description\": \"Display name for the app role\"\n    },\n    \"description\": {\n      \"type\": \"['string', 'null']\",\n      \"description\": \"Description of the app role\"\n    },\n    \"value\": {\n      \"type\": \"['string', 'null']\",\n      \"description\": \"Value that is included in the roles claim in authentication tokens\"\n    },\n    \"isEnabled\"\
   : {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the app role is enabled\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/json-schema/microsoft-entra-graph-identity-app-role-schema.json

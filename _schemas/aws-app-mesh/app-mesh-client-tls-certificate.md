@@ -13,6 +13,8 @@ provider_name: AWS App Mesh
 provider_slug: aws-app-mesh
 schema_file: json-schema/app-mesh-client-tls-certificate-schema.json
 slug: app-mesh-client-tls-certificate
+source_filename: app-mesh-client-tls-certificate-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"file\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ListenerTlsFileCertificate\"\n        },\n        {\n          \"description\": \"An object that represents a local file certificate. The certificate must meet specific requirements and you must have proxy authorization enabled. For more information, see <a href=\\\"https://docs.aws.amazon.com/app-mesh/latest/userguide/tls.html\\\">Transport Layer Security (TLS)</a>.\"\n        }\n      ]\n    },\n    \"sds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ListenerTlsSdsCertificate\"\n        },\n        {\n          \"description\": \"A reference to an object that represents a client's TLS Secret Discovery Service certificate.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"An object that represents the client's certificate.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"\
   $id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-client-tls-certificate-schema.json\",\n  \"title\": \"ClientTlsCertificate\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-client-tls-certificate-schema.json

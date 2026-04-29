@@ -25,6 +25,8 @@ provider_name: OpenShift
 provider_slug: openshift
 schema_file: json-schema/openshift-rest-status-schema.json
 slug: openshift-rest-status
+source_filename: openshift-rest-status-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Status\",\n  \"type\": \"object\",\n  \"description\": \"Status is a return value for calls that do not return other objects.\",\n  \"properties\": {\n    \"apiVersion\": {\n      \"type\": \"string\"\n    },\n    \"kind\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    },\n    \"reason\": {\n      \"type\": \"string\"\n    },\n    \"code\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/json-schema/openshift-rest-status-schema.json
 tags:

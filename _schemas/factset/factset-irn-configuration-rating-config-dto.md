@@ -22,6 +22,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-irn-configuration-rating-config-dto-schema.json
 slug: factset-irn-configuration-rating-config-dto
+source_filename: factset-irn-configuration-rating-config-dto-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RatingConfigDto\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ratingsVisibleToAuthor\": {\n      \"type\": \"boolean\"\n    },\n    \"ratingsVisibleToViewers\": {\n      \"type\": \"boolean\"\n    },\n    \"ratingsVisibleToAll\": {\n      \"type\": \"boolean\"\n    },\n    \"viewerIds\": {\n      \"type\": \"array\"\n    },\n    \"optionValues\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-irn-configuration-rating-config-dto-schema.json
 tags:

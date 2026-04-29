@@ -19,6 +19,8 @@ provider_name: Claude
 provider_slug: claude
 schema_file: json-schema/claude-messages-tool-result-block-param-schema.json
 slug: claude-messages-tool-result-block-param
+source_filename: claude-messages-tool-result-block-param-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ToolResultBlockParam\",\n  \"type\": \"object\",\n  \"description\": \"A tool result content block, providing the output from a tool invocation.\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\"\n    },\n    \"tool_use_id\": {\n      \"type\": \"string\",\n      \"description\": \"The id of the tool use request this is a result for. Must match a tool_use block id.\"\n    },\n    \"content\": {\n      \"type\": \"string\",\n      \"description\": \"The result of the tool call. Can be a string or array of content blocks.\"\n    },\n    \"is_error\": {\n      \"type\": \"boolean\",\n      \"description\": \"Set to true if the tool execution resulted in an error.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/json-schema/claude-messages-tool-result-block-param-schema.json
 tags:

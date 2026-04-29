@@ -7,6 +7,8 @@ provider_name: Amazon IoT Greengrass
 provider_slug: amazon-iot-greengrass
 schema_file: json-schema/iot-greengrass-component-dependency-type-schema.json
 slug: iot-greengrass-component-dependency-type
+source_filename: iot-greengrass-component-dependency-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-component-dependency-type-schema.json\",\n  \"title\": \"ComponentDependencyType\",\n  \"description\": \"ComponentDependencyType schema\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"HARD\",\n    \"SOFT\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-component-dependency-type-schema.json
 tags:

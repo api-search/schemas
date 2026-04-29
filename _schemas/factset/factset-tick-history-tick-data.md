@@ -22,6 +22,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-tick-history-tick-data-schema.json
 slug: factset-tick-history-tick-data
+source_filename: factset-tick-history-tick-data-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TickData\",\n  \"type\": \"object\",\n  \"description\": \" Returns Tick History Response.\",\n  \"properties\": {\n    \"requestTimestamp\": {\n      \"type\": \"string\",\n      \"description\": \"Timestamp of when request was made\"\n    },\n    \"updateTimestamp\": {\n      \"type\": \"string\",\n      \"description\": \"Timestamp when the file was last updated\"\n    },\n    \"notAuthorizedTickers\": {\n      \"type\": \"array\",\n      \"description\": \"Returns not Authorized Tickers\"\n    },\n    \"invalidTickers\": {\n      \"type\": \"array\",\n      \"description\": \"Returns invalid Tickers\"\n    },\n    \"listOfFiles\": {\n      \"type\": \"array\",\n      \"description\": \"Contains list of Files\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-tick-history-tick-data-schema.json
 tags:

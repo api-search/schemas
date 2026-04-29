@@ -28,6 +28,8 @@ provider_name: Apache Airflow
 provider_slug: apache-airflow
 schema_file: json-schema/openapi.yaml-dataset-schema.json
 slug: openapi.yaml-dataset
+source_filename: openapi.yaml-dataset-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/json-schema/openapi.yaml-dataset-schema.json\",\n  \"title\": \"Dataset\",\n  \"description\": \"A dataset item.\\n\\n*New in version 2.4.0*\\n\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"consuming_dags\": {\n      \"items\": {\n        \"$ref\": \"#/components/schemas/DagScheduleDatasetReference\"\n      },\n      \"type\": \"array\"\n    },\n    \"created_at\": {\n      \"description\": \"The dataset creation time\",\n      \"nullable\": false,\n      \"type\": \"string\"\n    },\n    \"extra\": {\n      \"description\": \"The dataset extra\",\n      \"nullable\": true,\n      \"type\": \"object\"\n    },\n    \"id\": {\n      \"description\": \"The dataset id\",\n      \"type\": \"integer\"\n    },\n    \"producing_tasks\": {\n      \"items\": {\n        \"$ref\": \"#/components/schemas/TaskOutletDatasetReference\"\
   \n      },\n      \"type\": \"array\"\n    },\n    \"updated_at\": {\n      \"description\": \"The dataset update time\",\n      \"nullable\": false,\n      \"type\": \"string\"\n    },\n    \"uri\": {\n      \"description\": \"The dataset uri\",\n      \"nullable\": false,\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/json-schema/openapi.yaml-dataset-schema.json

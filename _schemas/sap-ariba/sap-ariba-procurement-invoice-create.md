@@ -28,6 +28,8 @@ provider_name: SAP Ariba
 provider_slug: sap-ariba
 schema_file: json-schema/sap-ariba-procurement-invoice-create-schema.json
 slug: sap-ariba-procurement-invoice-create
+source_filename: sap-ariba-procurement-invoice-create-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"InvoiceCreate\",\n  \"type\": \"object\",\n  \"description\": \"Request body for creating a new invoice\",\n  \"properties\": {\n    \"invoiceNumber\": {\n      \"type\": \"string\",\n      \"description\": \"Supplier-assigned invoice number\"\n    },\n    \"invoiceDate\": {\n      \"type\": \"string\",\n      \"description\": \"Invoice issue date\"\n    },\n    \"invoiceType\": {\n      \"type\": \"string\"\n    },\n    \"purchaseOrderReference\": {\n      \"type\": \"string\",\n      \"description\": \"Purchase order number\"\n    },\n    \"currency\": {\n      \"type\": \"string\"\n    },\n    \"lineItems\": {\n      \"type\": \"array\"\n    },\n    \"comments\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/json-schema/sap-ariba-procurement-invoice-create-schema.json
 tags:

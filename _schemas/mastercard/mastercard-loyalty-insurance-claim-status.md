@@ -16,6 +16,8 @@ provider_name: Mastercard
 provider_slug: mastercard
 schema_file: json-schema/mastercard-loyalty-insurance-claim-status-schema.json
 slug: mastercard-loyalty-insurance-claim-status
+source_filename: mastercard-loyalty-insurance-claim-status-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ClaimStatus\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"features\": {\n      \"type\": \"array\",\n      \"description\": \"Array of insurance claim features associated with the claim.\"\n    },\n    \"uploadDocumentsUrl\": {\n      \"type\": \"string\",\n      \"description\": \"URL to web page that facilitates uploading documents.\"\n    },\n    \"requiredDocuments\": {\n      \"type\": \"array\",\n      \"description\": \"Array of required documents for this claim.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-schema/mastercard-loyalty-insurance-claim-status-schema.json
 tags:

@@ -13,6 +13,8 @@ provider_name: Apache Airflow
 provider_slug: airflow
 schema_file: json-schema/airflow-dry-run-backfill-collection-response-schema.json
 slug: airflow-dry-run-backfill-collection-response
+source_filename: airflow-dry-run-backfill-collection-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-dry-run-backfill-collection-response-schema.json\",\n  \"title\": \"DryRunBackfillCollectionResponse\",\n  \"description\": \"Backfill collection serializer for responses in dry-run mode.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"backfills\": {\n      \"items\": {\n        \"$ref\": \"#/components/schemas/DryRunBackfillResponse\"\n      },\n      \"type\": \"array\",\n      \"title\": \"Backfills\"\n    },\n    \"total_entries\": {\n      \"type\": \"integer\",\n      \"title\": \"Total Entries\"\n    }\n  },\n  \"required\": [\n    \"backfills\",\n    \"total_entries\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-dry-run-backfill-collection-response-schema.json
 tags:

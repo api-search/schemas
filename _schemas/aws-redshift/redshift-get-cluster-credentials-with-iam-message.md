@@ -16,6 +16,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-get-cluster-credentials-with-iam-message-schema.json
 slug: redshift-get-cluster-credentials-with-iam-message
+source_filename: redshift-get-cluster-credentials-with-iam-message-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"DbName\": {},\n    \"ClusterIdentifier\": {},\n    \"DurationSeconds\": {}\n  },\n  \"required\": [\n    \"ClusterIdentifier\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-get-cluster-credentials-with-iam-message-schema.json\",\n  \"title\": \"GetClusterCredentialsWithIAMMessage\",\n  \"description\": \"GetClusterCredentialsWithIAMMessage schema from Amazon Redshift\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-get-cluster-credentials-with-iam-message-schema.json
 tags:

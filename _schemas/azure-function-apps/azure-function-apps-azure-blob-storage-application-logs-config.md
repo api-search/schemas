@@ -16,6 +16,8 @@ provider_name: Azure Function Apps
 provider_slug: azure-function-apps
 schema_file: json-schema/azure-function-apps-azure-blob-storage-application-logs-config-schema.json
 slug: azure-function-apps-azure-blob-storage-application-logs-config
+source_filename: azure-function-apps-azure-blob-storage-application-logs-config-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/json-schema/azure-function-apps-azure-blob-storage-application-logs-config-schema.json\",\n  \"title\": \"AzureBlobStorageApplicationLogsConfig\",\n  \"description\": \"Application logs azure blob storage configuration.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"level\": {\n      \"description\": \"Log level.\",\n      \"enum\": [\n        \"Off\",\n        \"Verbose\",\n        \"Information\",\n        \"Warning\",\n        \"Error\"\n      ],\n      \"type\": \"string\",\n      \"x-ms-enum\": {\n        \"modelAsString\": false,\n        \"name\": \"LogLevel\"\n      }\n    },\n    \"retentionInDays\": {\n      \"description\": \"Retention in days.\\nRemove blobs older than X days.\\n0 or lower means no retention.\",\n      \"format\": \"int32\",\n      \"type\": \"integer\"\n    },\n    \"sasUrl\"\
   : {\n      \"description\": \"SAS url to a azure blob container with read/write/list/delete permissions.\",\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/json-schema/azure-function-apps-azure-blob-storage-application-logs-config-schema.json

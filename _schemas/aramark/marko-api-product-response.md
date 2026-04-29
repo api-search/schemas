@@ -13,6 +13,8 @@ provider_name: Aramark
 provider_slug: aramark
 schema_file: json-schema/marko-api-product-response-schema.json
 slug: marko-api-product-response
+source_filename: marko-api-product-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"data\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Product\"\n      }\n    },\n    \"count\": {\n      \"type\": \"integer\",\n      \"description\": \"Total record count\",\n      \"example\": 50\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/json-schema/marko-api-product-response-schema.json\",\n  \"title\": \"ProductResponse\",\n  \"description\": \"ProductResponse schema from Aramark Marko API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/json-schema/marko-api-product-response-schema.json
 tags:

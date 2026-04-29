@@ -13,6 +13,8 @@ provider_name: Adobe
 provider_slug: adobe
 schema_file: json-schema/adobe-pdf-services-page-range-schema.json
 slug: adobe-pdf-services-page-range
+source_filename: adobe-pdf-services-page-range-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PageRange\",\n  \"type\": \"object\",\n  \"description\": \"Specifies a range of pages in a PDF document.\",\n  \"properties\": {\n    \"start\": {\n      \"type\": \"integer\",\n      \"description\": \"The starting page number (1-based).\"\n    },\n    \"end\": {\n      \"type\": \"integer\",\n      \"description\": \"The ending page number (1-based, inclusive).\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/json-schema/adobe-pdf-services-page-range-schema.json
 tags:

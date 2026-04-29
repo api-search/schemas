@@ -28,6 +28,8 @@ provider_name: Looker
 provider_slug: looker
 schema_file: json-schema/looker-write-look-with-query-schema.json
 slug: looker-write-look-with-query
+source_filename: looker-write-look-with-query-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WriteLookWithQuery\",\n  \"type\": \"object\",\n  \"description\": \"Writable fields for creating or updating a Look\",\n  \"properties\": {\n    \"title\": {\n      \"type\": \"string\",\n      \"description\": \"Display title\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"Description of the Look\"\n    },\n    \"space_id\": {\n      \"type\": \"string\",\n      \"description\": \"Space (folder) ID to place the Look in\"\n    },\n    \"folder_id\": {\n      \"type\": \"string\",\n      \"description\": \"Folder ID to place the Look in\"\n    },\n    \"query_id\": {\n      \"type\": \"integer\",\n      \"description\": \"ID of the query to use\"\n    },\n    \"public\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the Look is public\"\n    },\n    \"is_run_on_load\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether\
   \ to auto-run the query on load\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/json-schema/looker-write-look-with-query-schema.json

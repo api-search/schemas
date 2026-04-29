@@ -34,6 +34,8 @@ provider_name: BNY Mellon
 provider_slug: bank-of-new-york-mellon
 schema_file: json-schema/paymentresponse-schema.json
 slug: paymentresponse
+source_filename: paymentresponse-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/bank-of-new-york-mellon/json-schema/paymentresponse-schema.json\",\n  \"title\": \"PaymentResponse\",\n  \"type\": \"object\",\n  \"description\": \"Payment response\",\n  \"properties\": {\n    \"paymentId\": {\n      \"type\": \"string\"\n    },\n    \"clientReference\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"pending\",\n        \"processing\",\n        \"completed\",\n        \"rejected\",\n        \"returned\"\n      ]\n    },\n    \"paymentType\": {\n      \"type\": \"string\"\n    },\n    \"amount\": {\n      \"type\": \"number\",\n      \"format\": \"double\"\n    },\n    \"currency\": {\n      \"type\": \"string\"\n    },\n    \"valueDate\": {\n      \"type\": \"string\",\n      \"format\": \"date\"\n    },\n    \"createdAt\": {\n      \"type\": \"string\",\n      \"format\": \"\
   date-time\"\n    },\n    \"statusMessage\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/json-schema/paymentresponse-schema.json

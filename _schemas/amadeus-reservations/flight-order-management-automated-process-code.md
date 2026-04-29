@@ -7,6 +7,8 @@ provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 schema_file: json-schema/flight-order-management-automated-process-code-schema.json
 slug: flight-order-management-automated-process-code
+source_filename: flight-order-management-automated-process-code-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-order-management-automated-process-code-schema.json\",\n  \"title\": \"AutomatedProcessCode\",\n  \"description\": \"queuing action to be taken\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"IMMEDIATE\",\n    \"DELAYED\",\n    \"ERROR\"\n  ],\n  \"example\": \"IMMEDIATE\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-order-management-automated-process-code-schema.json
 tags:

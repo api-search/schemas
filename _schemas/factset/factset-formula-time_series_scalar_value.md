@@ -7,6 +7,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-formula-time_series_scalar_value-schema.json
 slug: factset-formula-time_series_scalar_value
+source_filename: factset-formula-time_series_scalar_value-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"time_series_scalar_value\",\n  \"type\": \"object\",\n  \"description\": \"The `result` attribute in the Time-Series Non-Flattened Response Object will be a SCALAR.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-formula-time_series_scalar_value-schema.json
 tags:

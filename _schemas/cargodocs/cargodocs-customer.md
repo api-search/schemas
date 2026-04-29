@@ -13,6 +13,8 @@ provider_name: CargoDocs
 provider_slug: cargodocs
 schema_file: json-schema/cargodocs-customer.json
 slug: cargodocs-customer
+source_filename: cargodocs-customer.json
+source_heading: JSON Schema
 source_json: "{\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/json-schema/cargodocs-customer.json\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CargoDocs Customer\",\n  \"description\": \"A customer in the CargoDocs platform representing an organization that uses CargoDocs services for managing electronic trade documents.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"customerId\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier for the customer.\"\n    },\n    \"customerName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the customer.\"\n    }\n  },\n  \"required\": [\n    \"customerId\",\n    \"customerName\"\n  ]\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/json-schema/cargodocs-customer.json
 tags:

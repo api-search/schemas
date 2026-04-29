@@ -16,6 +16,8 @@ provider_name: Workday
 provider_slug: workday
 schema_file: json-schema/person-person-summary-schema.json
 slug: person-person-summary
+source_filename: person-person-summary-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PersonSummary\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"descriptor\": {\n      \"type\": \"string\"\n    },\n    \"href\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/json-schema/person-person-summary-schema.json
 tags:

@@ -7,6 +7,8 @@ provider_name: AWS App Mesh
 provider_slug: aws-app-mesh
 schema_file: json-schema/app-mesh-aws-cloud-map-instance-attribute-key-schema.json
 slug: app-mesh-aws-cloud-map-instance-attribute-key
+source_filename: app-mesh-aws-cloud-map-instance-attribute-key-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"string\",\n  \"pattern\": \"^[a-zA-Z0-9!-~]+$\",\n  \"minLength\": 1,\n  \"maxLength\": 255,\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-aws-cloud-map-instance-attribute-key-schema.json\",\n  \"title\": \"AwsCloudMapInstanceAttributeKey\",\n  \"description\": \"AwsCloudMapInstanceAttributeKey schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-aws-cloud-map-instance-attribute-key-schema.json
 tags:

@@ -13,6 +13,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-id-lookup-lookup_object-schema.json
 slug: factset-id-lookup-lookup_object
+source_filename: factset-id-lookup-lookup_object-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"lookup_object\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"pattern\": {\n      \"type\": \"string\",\n      \"description\": \"The string or keyword being searched on. Concurrent searches for multiple patterns is NOT supported\\n\"\n    },\n    \"entities\": {\n      \"type\": \"array\",\n      \"description\": \"Asset class that is being searched against\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-id-lookup-lookup_object-schema.json
 tags:

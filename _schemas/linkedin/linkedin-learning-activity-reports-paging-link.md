@@ -16,6 +16,8 @@ provider_name: LinkedIn
 provider_slug: linkedin
 schema_file: json-schema/linkedin-learning-activity-reports-paging-link-schema.json
 slug: linkedin-learning-activity-reports-paging-link
+source_filename: linkedin-learning-activity-reports-paging-link-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/json-schema/linkedin-learning-activity-reports-paging-link-schema.json\",\n  \"title\": \"PagingLink\",\n  \"description\": \"PagingLink from LinkedIn API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"rel\": {\n      \"type\": \"string\",\n      \"example\": \"next\"\n    },\n    \"href\": {\n      \"type\": \"string\",\n      \"example\": \"/v2/learningActivityReports?aggregationCriteria.primary=ACCOUNT&count=1&q=criteria&start=1&startedAt=1627267600000&timeOffset.duration=7&timeOffset.unit=DAY\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"example\": \"application/json\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/json-schema/linkedin-learning-activity-reports-paging-link-schema.json
 tags:

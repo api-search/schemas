@@ -7,6 +7,8 @@ provider_name: Amazon Audit Manager
 provider_slug: amazon-audit-manager
 schema_file: json-schema/audit-manager-assessment-reports-destination-schema.json
 slug: audit-manager-assessment-reports-destination
+source_filename: audit-manager-assessment-reports-destination-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/json-schema/audit-manager-assessment-reports-destination-schema.json\",\n  \"title\": \"AssessmentReportsDestination\",\n  \"description\": \"JSON Schema for the Amazon Audit Manager AssessmentReportsDestination object.\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/json-schema/audit-manager-assessment-reports-destination-schema.json
 tags:

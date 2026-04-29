@@ -22,6 +22,8 @@ provider_name: Confluence
 provider_slug: confluence
 schema_file: json-schema/confluence-cloud-v2-version-schema.json
 slug: confluence-cloud-v2-version
+source_filename: confluence-cloud-v2-version-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Version\",\n  \"type\": \"object\",\n  \"description\": \"Version information for content.\",\n  \"properties\": {\n    \"createdAt\": {\n      \"type\": \"string\",\n      \"description\": \"The ISO 8601 timestamp of this version.\"\n    },\n    \"message\": {\n      \"type\": \"string\",\n      \"description\": \"The message associated with this version.\"\n    },\n    \"number\": {\n      \"type\": \"integer\",\n      \"description\": \"The version number.\"\n    },\n    \"minorEdit\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether this was a minor edit.\"\n    },\n    \"authorId\": {\n      \"type\": \"string\",\n      \"description\": \"The Atlassian account ID of the version author.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/json-schema/confluence-cloud-v2-version-schema.json
 tags:

@@ -7,6 +7,8 @@ provider_name: Amazon CodeDeploy
 provider_slug: amazon-codedeploy
 schema_file: json-schema/amazon-codedeploy-auto-scaling-group-name-list-schema.json
 slug: amazon-codedeploy-auto-scaling-group-name-list
+source_filename: amazon-codedeploy-auto-scaling-group-name-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-auto-scaling-group-name-list-schema.json\",\n  \"title\": \"AutoScalingGroupNameList\",\n  \"description\": \"AutoScalingGroupNameList schema from Amazon CodeDeploy\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/AutoScalingGroupName\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-auto-scaling-group-name-list-schema.json
 tags:

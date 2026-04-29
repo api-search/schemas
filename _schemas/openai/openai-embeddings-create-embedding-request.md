@@ -22,6 +22,8 @@ provider_name: OpenAI
 provider_slug: openai
 schema_file: json-schema/openai-embeddings-create-embedding-request-schema.json
 slug: openai-embeddings-create-embedding-request
+source_filename: openai-embeddings-create-embedding-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateEmbeddingRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"model\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the model to use. You can use the List Models API to see all available models, or see the Model overview for descriptions.\"\n    },\n    \"input\": {\n      \"type\": \"string\",\n      \"description\": \"Input text to embed, encoded as a string or array of tokens. To embed multiple inputs in a single request, pass an array of strings or array of token arrays. The input must not exceed the max input tokens for the model.\"\n    },\n    \"encoding_format\": {\n      \"type\": \"string\",\n      \"description\": \"The format to return the embeddings in. Can be either float or base64. Defaults to float.\"\n    },\n    \"dimensions\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of dimensions the resulting output embeddings\
   \ should have. Only supported in text-embedding-3 and later models.\"\n    },\n    \"user\": {\n      \"type\": \"string\",\n      \"description\": \"A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/json-schema/openai-embeddings-create-embedding-request-schema.json

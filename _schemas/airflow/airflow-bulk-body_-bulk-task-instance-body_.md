@@ -10,6 +10,8 @@ provider_name: Apache Airflow
 provider_slug: airflow
 schema_file: json-schema/airflow-bulk-body_-bulk-task-instance-body_-schema.json
 slug: airflow-bulk-body_-bulk-task-instance-body_
+source_filename: airflow-bulk-body_-bulk-task-instance-body_-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-bulk-body_-bulk-task-instance-body_-schema.json\",\n  \"title\": \"BulkBody_BulkTaskInstanceBody_\",\n  \"description\": \"BulkBody_BulkTaskInstanceBody_ schema from Apache Airflow API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"actions\": {\n      \"items\": {\n        \"oneOf\": [\n          {\n            \"$ref\": \"#/components/schemas/BulkCreateAction_BulkTaskInstanceBody_\"\n          },\n          {\n            \"$ref\": \"#/components/schemas/BulkUpdateAction_BulkTaskInstanceBody_\"\n          },\n          {\n            \"$ref\": \"#/components/schemas/BulkDeleteAction_BulkTaskInstanceBody_\"\n          }\n        ]\n      },\n      \"type\": \"array\",\n      \"title\": \"Actions\"\n    }\n  },\n  \"required\": [\n    \"actions\"\n  ],\n  \"additionalProperties\": false\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/json-schema/airflow-bulk-body_-bulk-task-instance-body_-schema.json
 tags:

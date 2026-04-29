@@ -16,6 +16,8 @@ provider_name: Argo CD
 provider_slug: argo-cd
 schema_file: json-schema/argo-cd-v1alpha1-cluster-cache-info-schema.json
 slug: argo-cd-v1alpha1-cluster-cache-info
+source_filename: argo-cd-v1alpha1-cluster-cache-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-schema/argo-cd-v1alpha1-cluster-cache-info-schema.json\",\n  \"title\": \"v1alpha1ClusterCacheInfo\",\n  \"description\": \"v1alpha1ClusterCacheInfo schema from Argo CD API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"apisCount\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\",\n      \"title\": \"APIsCount holds number of observed Kubernetes API count\"\n    },\n    \"lastCacheSyncTime\": {\n      \"$ref\": \"#/definitions/v1Time\"\n    },\n    \"resourcesCount\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\",\n      \"title\": \"ResourcesCount holds number of observed Kubernetes resources\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-schema/argo-cd-v1alpha1-cluster-cache-info-schema.json
 tags:

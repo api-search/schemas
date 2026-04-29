@@ -25,6 +25,8 @@ provider_name: Workday
 provider_slug: workday
 schema_file: json-schema/staffing-job-profile-schema.json
 slug: staffing-job-profile
+source_filename: staffing-job-profile-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"JobProfile\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The Workday ID of the job profile.\"\n    },\n    \"descriptor\": {\n      \"type\": \"string\",\n      \"description\": \"A display descriptor for the job profile.\"\n    },\n    \"jobProfileName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the job profile.\"\n    },\n    \"isInactive\": {\n      \"type\": \"boolean\"\n    },\n    \"jobCode\": {\n      \"type\": \"string\",\n      \"description\": \"The job code identifier.\"\n    },\n    \"summary\": {\n      \"type\": \"string\",\n      \"description\": \"Summary description of the job profile.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/json-schema/staffing-job-profile-schema.json
 tags:

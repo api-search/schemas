@@ -7,6 +7,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-bitbucket-workspaces-participant-schema.json
 slug: atlassian-bitbucket-workspaces-participant
+source_filename: atlassian-bitbucket-workspaces-participant-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"participant\",\n  \"type\": \"object\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-bitbucket-workspaces-participant-schema.json
 tags:

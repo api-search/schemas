@@ -37,6 +37,8 @@ provider_name: Apache Kafka
 provider_slug: apache-kafka
 schema_file: json-schema/kafka-rest-proxy-acl-schema.json
 slug: kafka-rest-proxy-acl
+source_filename: kafka-rest-proxy-acl-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-schema/kafka-rest-proxy-acl-schema.json\",\n  \"title\": \"Acl\",\n  \"description\": \"Acl schema from Apache kafka\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"kind\": {\n      \"type\": \"string\"\n    },\n    \"metadata\": {\n      \"type\": \"object\"\n    },\n    \"cluster_id\": {\n      \"type\": \"string\"\n    },\n    \"resource_type\": {\n      \"type\": \"string\"\n    },\n    \"resource_name\": {\n      \"type\": \"string\"\n    },\n    \"pattern_type\": {\n      \"type\": \"string\"\n    },\n    \"principal\": {\n      \"type\": \"string\"\n    },\n    \"host\": {\n      \"type\": \"string\"\n    },\n    \"operation\": {\n      \"type\": \"string\"\n    },\n    \"permission\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-schema/kafka-rest-proxy-acl-schema.json
 tags:

@@ -7,6 +7,8 @@ provider_name: Amazon Glue
 provider_slug: amazon-glue
 schema_file: json-schema/glue-update-connection-response-schema.json
 slug: glue-update-connection-response
+source_filename: glue-update-connection-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-update-connection-response-schema.json\",\n  \"title\": \"UpdateConnectionResponse\",\n  \"description\": \"UpdateConnectionResponse schema from Amazon Glue API\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-update-connection-response-schema.json
 tags:

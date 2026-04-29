@@ -7,6 +7,8 @@ provider_name: Amazon EC2 Image Builder
 provider_slug: amazon-ec2-image-builder
 schema_file: json-schema/ec2-image-builder-call-rate-limit-exceeded-exception-schema.json
 slug: ec2-image-builder-call-rate-limit-exceeded-exception
+source_filename: ec2-image-builder-call-rate-limit-exceeded-exception-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/json-schema/ec2-image-builder-call-rate-limit-exceeded-exception-schema.json\",\n  \"title\": \"CallRateLimitExceededException\",\n  \"description\": \"CallRateLimitExceededException schema from EC2 Image Builder\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/json-schema/ec2-image-builder-call-rate-limit-exceeded-exception-schema.json
 tags:

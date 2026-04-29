@@ -19,6 +19,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-rest-version-schema.json
 slug: figma-rest-version
+source_filename: figma-rest-version-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Version\",\n  \"type\": \"object\",\n  \"description\": \"A recorded version in the file's version history.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the version.\"\n    },\n    \"created_at\": {\n      \"type\": \"string\",\n      \"description\": \"The UTC ISO 8601 time at which the version was created.\"\n    },\n    \"label\": {\n      \"type\": \"['string', 'null']\",\n      \"description\": \"The label given to the version in the editor.\"\n    },\n    \"description\": {\n      \"type\": \"['string', 'null']\",\n      \"description\": \"The description of the version as entered in the editor.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-rest-version-schema.json
 tags:

@@ -7,6 +7,8 @@ provider_name: Amazon WorkSpaces
 provider_slug: amazon-workspaces
 schema_file: json-schema/workspaces-failed-start-workspace-requests-schema.json
 slug: workspaces-failed-start-workspace-requests
+source_filename: workspaces-failed-start-workspace-requests-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/FailedWorkspaceChangeRequest\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"FailedStartWorkspaceRequests\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-failed-start-workspace-requests-schema.json\",\n  \"description\": \"FailedStartWorkspaceRequests schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-failed-start-workspace-requests-schema.json
 tags:

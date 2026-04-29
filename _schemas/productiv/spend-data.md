@@ -19,6 +19,8 @@ provider_name: Productiv
 provider_slug: productiv
 schema_file: json-schema/spend-data.json
 slug: spend-data
+source_filename: spend-data.json
+source_heading: JSON Schema
 source_json: "{\n  \"$id\": \"spend-data.json\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SpendData\",\n  \"description\": \"Represents spend data for an application tracked in the Productiv platform.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"amount\": {\n      \"type\": \"number\",\n      \"description\": \"The spend amount.\"\n    },\n    \"currency\": {\n      \"type\": \"string\",\n      \"description\": \"The currency code (e.g., USD).\"\n    },\n    \"date\": {\n      \"type\": \"string\",\n      \"format\": \"date\",\n      \"description\": \"The date of the spend.\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"A description of the spend.\"\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/json-schema/spend-data.json
 tags:

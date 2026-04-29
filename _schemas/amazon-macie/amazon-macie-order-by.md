@@ -7,6 +7,8 @@ provider_name: Amazon Macie
 provider_slug: amazon-macie
 schema_file: json-schema/amazon-macie-order-by-schema.json
 slug: amazon-macie-order-by
+source_filename: amazon-macie-order-by-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-order-by-schema.json\",\n  \"title\": \"OrderBy\",\n  \"description\": \"OrderBy schema from Amazon Macie API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ASC\",\n    \"DESC\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-order-by-schema.json
 tags:

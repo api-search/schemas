@@ -19,6 +19,8 @@ provider_name: Canva
 provider_slug: canva
 schema_file: json-schema/canva-connect-folder-schema.json
 slug: canva-connect-folder
+source_filename: canva-connect-folder-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Folder\",\n  \"type\": \"object\",\n  \"description\": \"A Canva folder\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The folder ID\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The folder name\"\n    },\n    \"created_at\": {\n      \"type\": \"integer\",\n      \"description\": \"Unix timestamp in seconds when the folder was created\"\n    },\n    \"updated_at\": {\n      \"type\": \"integer\",\n      \"description\": \"Unix timestamp in seconds when the folder was last updated\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/json-schema/canva-connect-folder-schema.json
 tags:

@@ -22,6 +22,8 @@ provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 schema_file: json-schema/flight-create-orders-discount-schema.json
 slug: flight-create-orders-discount
+source_filename: flight-create-orders-discount-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-create-orders-discount-schema.json\",\n  \"title\": \"Discount\",\n  \"description\": \"traveler discount\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"subType\": {\n      \"$ref\": \"#/definitions/DiscountType\"\n    },\n    \"cityName\": {\n      \"type\": \"string\",\n      \"description\": \"city of residence\",\n      \"example\": \"MADRID\"\n    },\n    \"travelerType\": {\n      \"$ref\": \"#/definitions/DiscountTravelerType\"\n    },\n    \"cardNumber\": {\n      \"type\": \"string\",\n      \"description\": \"resident card number\",\n      \"example\": \"12568215Z\",\n      \"pattern\": \"[0-9A-Z][0-9]{0,12}[A-Z]\"\n    },\n    \"certificateNumber\": {\n      \"type\": \"string\",\n      \"description\": \"resident certificate number\",\n      \"example\": \"12568215Z\",\n\
   \      \"pattern\": \"[0-9A-Z][0-9]{0,12}[A-Z]\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-create-orders-discount-schema.json

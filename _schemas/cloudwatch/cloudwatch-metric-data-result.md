@@ -25,6 +25,8 @@ provider_name: AWS CloudWatch
 provider_slug: cloudwatch
 schema_file: json-schema/cloudwatch-metric-data-result-schema.json
 slug: cloudwatch-metric-data-result
+source_filename: cloudwatch-metric-data-result-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"MetricDataResult\",\n  \"type\": \"object\",\n  \"description\": \"A GetMetricData call returns an array of MetricDataResult structures.\",\n  \"properties\": {\n    \"Id\": {\n      \"type\": \"string\",\n      \"description\": \"The short name you specified to represent this metric.\"\n    },\n    \"Label\": {\n      \"type\": \"string\",\n      \"description\": \"The human-readable label associated with the data.\"\n    },\n    \"Timestamps\": {\n      \"type\": \"array\",\n      \"description\": \"The timestamps for the data points, formatted in Unix epoch time.\"\n    },\n    \"Values\": {\n      \"type\": \"array\",\n      \"description\": \"The data points for the metric corresponding to Timestamps.\"\n    },\n    \"StatusCode\": {\n      \"type\": \"string\",\n      \"description\": \"The status of the returned data.\"\n    },\n    \"Messages\": {\n      \"type\": \"array\",\n      \"\
   description\": \"A list of messages with additional information about the data returned.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/json-schema/cloudwatch-metric-data-result-schema.json

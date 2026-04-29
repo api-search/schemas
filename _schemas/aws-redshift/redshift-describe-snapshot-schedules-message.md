@@ -25,6 +25,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-describe-snapshot-schedules-message-schema.json
 slug: redshift-describe-snapshot-schedules-message
+source_filename: redshift-describe-snapshot-schedules-message-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ClusterIdentifier\": {},\n    \"ScheduleIdentifier\": {},\n    \"TagKeys\": {},\n    \"TagValues\": {},\n    \"Marker\": {},\n    \"MaxRecords\": {}\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-describe-snapshot-schedules-message-schema.json\",\n  \"title\": \"DescribeSnapshotSchedulesMessage\",\n  \"description\": \"DescribeSnapshotSchedulesMessage schema from Amazon Redshift\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-describe-snapshot-schedules-message-schema.json
 tags:

@@ -58,6 +58,8 @@ provider_name: Red Hat Satellite
 provider_slug: red-hat-satellite
 schema_file: json-schema/red-hat-satellite-host-update-schema.json
 slug: red-hat-satellite-host-update
+source_filename: red-hat-satellite-host-update-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"HostUpdate\",\n  \"type\": \"object\",\n  \"description\": \"Parameters for updating an existing host.\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"ip\": {\n      \"type\": \"string\"\n    },\n    \"mac\": {\n      \"type\": \"string\"\n    },\n    \"architecture_id\": {\n      \"type\": \"integer\"\n    },\n    \"domain_id\": {\n      \"type\": \"integer\"\n    },\n    \"subnet_id\": {\n      \"type\": \"integer\"\n    },\n    \"operatingsystem_id\": {\n      \"type\": \"integer\"\n    },\n    \"hostgroup_id\": {\n      \"type\": \"integer\"\n    },\n    \"location_id\": {\n      \"type\": \"integer\"\n    },\n    \"organization_id\": {\n      \"type\": \"integer\"\n    },\n    \"owner_id\": {\n      \"type\": \"integer\"\n    },\n    \"owner_type\": {\n      \"type\": \"string\"\n    },\n    \"build\": {\n      \"type\": \"boolean\"\n    },\n    \"managed\"\
   : {\n      \"type\": \"boolean\"\n    },\n    \"comment\": {\n      \"type\": \"string\"\n    },\n    \"content_facet_attributes\": {\n      \"type\": \"object\"\n    },\n    \"interfaces_attributes\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/json-schema/red-hat-satellite-host-update-schema.json

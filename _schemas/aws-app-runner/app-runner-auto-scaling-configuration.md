@@ -43,6 +43,8 @@ provider_name: AWS App Runner
 provider_slug: aws-app-runner
 schema_file: json-schema/app-runner-auto-scaling-configuration-schema.json
 slug: app-runner-auto-scaling-configuration
+source_filename: app-runner-auto-scaling-configuration-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"AutoScalingConfigurationArn\": {\n      \"type\": \"string\"\n    },\n    \"AutoScalingConfigurationName\": {\n      \"type\": \"string\"\n    },\n    \"AutoScalingConfigurationRevision\": {\n      \"type\": \"integer\"\n    },\n    \"Latest\": {\n      \"type\": \"boolean\"\n    },\n    \"Status\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"ACTIVE\",\n        \"INACTIVE\"\n      ]\n    },\n    \"MaxConcurrency\": {\n      \"type\": \"integer\"\n    },\n    \"MinSize\": {\n      \"type\": \"integer\"\n    },\n    \"MaxSize\": {\n      \"type\": \"integer\"\n    },\n    \"CreatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"DeletedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"HasAssociatedService\": {\n      \"type\": \"boolean\"\n    },\n    \"IsDefault\": {\n      \"type\": \"boolean\"\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"\
   ,\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-auto-scaling-configuration-schema.json\",\n  \"title\": \"AutoScalingConfiguration\",\n  \"description\": \"AutoScalingConfiguration schema from AWS App Runner\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-auto-scaling-configuration-schema.json

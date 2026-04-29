@@ -37,6 +37,8 @@ provider_name: NetApp
 provider_slug: netapp
 schema_file: json-schema/netapp-ontap-cluster-schema.json
 slug: netapp-ontap-cluster
+source_filename: netapp-ontap-cluster-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Cluster\",\n  \"type\": \"object\",\n  \"description\": \"ONTAP cluster configuration and status\",\n  \"properties\": {\n    \"uuid\": {\n      \"type\": \"string\",\n      \"description\": \"Cluster UUID\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Cluster name\"\n    },\n    \"contact\": {\n      \"type\": \"string\",\n      \"description\": \"Contact information for the cluster administrator\"\n    },\n    \"location\": {\n      \"type\": \"string\",\n      \"description\": \"Physical location of the cluster\"\n    },\n    \"version\": {\n      \"type\": \"object\",\n      \"description\": \"ONTAP software version\"\n    },\n    \"dns_domains\": {\n      \"type\": \"array\",\n      \"description\": \"DNS domain names for the cluster\"\n    },\n    \"ntp_servers\": {\n      \"type\": \"array\",\n      \"description\": \"NTP server addresses\"\n    },\n\
   \    \"timezone\": {\n      \"type\": \"object\",\n      \"description\": \"Cluster timezone setting\"\n    },\n    \"management_interfaces\": {\n      \"type\": \"array\",\n      \"description\": \"Cluster management network interfaces\"\n    },\n    \"nodes\": {\n      \"type\": \"array\",\n      \"description\": \"Nodes in the cluster\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/json-schema/netapp-ontap-cluster-schema.json

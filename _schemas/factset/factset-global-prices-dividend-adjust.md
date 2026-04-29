@@ -7,6 +7,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-global-prices-dividend-adjust-schema.json
 slug: factset-global-prices-dividend-adjust
+source_filename: factset-global-prices-dividend-adjust-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"dividendAdjust\",\n  \"type\": \"string\",\n  \"description\": \"Controls the dividend reinvestment for the returns calculation.\\n  * **PRICE** = Price Change - Dividends Excluded.\\n  * **EXDATE** = Simple Return - Dividends Received on exdate but not reinvested.\\n  * **PAYDATE** = Simple Return - Dividends Received on paydate but not reinvested.\\n  * **EXDATE_C** = Compound Return - Dividends reinvested on exdate.\\n  * **PAYDATE_C** = Compound Return - Dividends reinvested on paydate.\\n\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-global-prices-dividend-adjust-schema.json
 tags:

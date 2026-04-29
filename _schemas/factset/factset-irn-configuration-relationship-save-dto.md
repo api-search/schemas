@@ -31,6 +31,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-irn-configuration-relationship-save-dto-schema.json
 slug: factset-irn-configuration-relationship-save-dto
+source_filename: factset-irn-configuration-relationship-save-dto-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RelationshipSaveDto\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"relationshipCategoryId\": {\n      \"type\": \"string\"\n    },\n    \"relationshipCode\": {\n      \"type\": \"string\"\n    },\n    \"bidirectionalName\": {\n      \"type\": \"string\"\n    },\n    \"leftToRightName\": {\n      \"type\": \"string\"\n    },\n    \"rightToLeftName\": {\n      \"type\": \"string\"\n    },\n    \"hideDates\": {\n      \"type\": \"boolean\"\n    },\n    \"hideComment\": {\n      \"type\": \"boolean\"\n    },\n    \"hideCompany\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-irn-configuration-relationship-save-dto-schema.json
 tags:

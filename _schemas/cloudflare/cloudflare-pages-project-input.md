@@ -16,6 +16,8 @@ provider_name: Cloudflare
 provider_slug: cloudflare
 schema_file: json-schema/cloudflare-pages-project-input-schema.json
 slug: cloudflare-pages-project-input
+source_filename: cloudflare-pages-project-input-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ProjectInput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the project.\"\n    },\n    \"production_branch\": {\n      \"type\": \"string\",\n      \"description\": \"The production branch name.\"\n    },\n    \"build_config\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-pages-project-input-schema.json
 tags:

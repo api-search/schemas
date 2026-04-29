@@ -25,6 +25,8 @@ provider_name: Databricks
 provider_slug: databricks
 schema_file: json-schema/databricks-spark-node-schema.json
 slug: databricks-spark-node
+source_filename: databricks-spark-node-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SparkNode\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"private_ip\": {\n      \"type\": \"string\"\n    },\n    \"public_dns\": {\n      \"type\": \"string\"\n    },\n    \"node_id\": {\n      \"type\": \"string\"\n    },\n    \"instance_id\": {\n      \"type\": \"string\"\n    },\n    \"start_timestamp\": {\n      \"type\": \"integer\"\n    },\n    \"host_private_ip\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/json-schema/databricks-spark-node-schema.json
 tags:

@@ -7,6 +7,8 @@ provider_name: Amazon Lookout for Metrics
 provider_slug: amazon-lookout-for-metrics
 schema_file: json-schema/amazon-lookout-for-metrics-security-group-id-schema.json
 slug: amazon-lookout-for-metrics-security-group-id
+source_filename: amazon-lookout-for-metrics-security-group-id-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/json-schema/amazon-lookout-for-metrics-security-group-id-schema.json\",\n  \"title\": \"SecurityGroupId\",\n  \"description\": \"SecurityGroupId schema from Amazon Lookout for Metrics API\",\n  \"type\": \"string\",\n  \"pattern\": \"[-0-9a-zA-Z]+\",\n  \"minLength\": 1,\n  \"maxLength\": 255\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/json-schema/amazon-lookout-for-metrics-security-group-id-schema.json
 tags:

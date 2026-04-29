@@ -16,6 +16,8 @@ provider_name: Workday
 provider_slug: workday
 schema_file: json-schema/hcm-worker-history-entry-schema.json
 slug: hcm-worker-history-entry
+source_filename: hcm-worker-history-entry-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkerHistoryEntry\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"descriptor\": {\n      \"type\": \"string\"\n    },\n    \"effectiveDate\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/json-schema/hcm-worker-history-entry-schema.json
 tags:

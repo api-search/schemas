@@ -7,6 +7,8 @@ provider_name: Amazon Comprehend
 provider_slug: amazon-comprehend
 schema_file: json-schema/openapi.yml-language-code-schema.json
 slug: openapi.yml-language-code
+source_filename: openapi.yml-language-code-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-language-code-schema.json\",\n  \"title\": \"LanguageCode\",\n  \"description\": \"LanguageCode schema\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"en\",\n    \"es\",\n    \"fr\",\n    \"de\",\n    \"it\",\n    \"pt\",\n    \"ar\",\n    \"hi\",\n    \"ja\",\n    \"ko\",\n    \"zh\",\n    \"zh-TW\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-language-code-schema.json
 tags:

@@ -28,6 +28,8 @@ provider_name: Azure Databricks
 provider_slug: azure-databricks
 schema_file: json-schema/azure-databricks-library-schema.json
 slug: azure-databricks-library
+source_filename: azure-databricks-library-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Library\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"jar\": {\n      \"type\": \"string\",\n      \"description\": \"URI of the JAR library to install\"\n    },\n    \"egg\": {\n      \"type\": \"string\",\n      \"description\": \"URI of the egg library to install\"\n    },\n    \"whl\": {\n      \"type\": \"string\",\n      \"description\": \"URI of the wheel library to install\"\n    },\n    \"pypi\": {\n      \"type\": \"object\"\n    },\n    \"maven\": {\n      \"type\": \"object\"\n    },\n    \"cran\": {\n      \"type\": \"object\"\n    },\n    \"requirements\": {\n      \"type\": \"string\",\n      \"description\": \"Path to a requirements.txt file. Only supported on clusters running Databricks Runtime 15.0+.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/json-schema/azure-databricks-library-schema.json
 tags:

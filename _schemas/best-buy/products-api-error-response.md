@@ -16,6 +16,8 @@ provider_name: Best Buy
 provider_slug: best-buy
 schema_file: json-schema/products-api-error-response-schema.json
 slug: products-api-error-response
+source_filename: products-api-error-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/json-schema/products-api-error-response-schema.json\",\n  \"title\": \"ErrorResponse\",\n  \"description\": \"Error response returned when a request fails.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"status\": {\n      \"type\": \"integer\",\n      \"description\": \"HTTP status code.\",\n      \"example\": 400\n    },\n    \"error\": {\n      \"type\": \"string\",\n      \"description\": \"Error type or code.\",\n      \"example\": \"Bad Request\"\n    },\n    \"message\": {\n      \"type\": \"string\",\n      \"description\": \"Human-readable description of the error.\",\n      \"example\": \"Invalid query parameter provided.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/json-schema/products-api-error-response-schema.json
 tags:

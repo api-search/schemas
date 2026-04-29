@@ -16,6 +16,8 @@ provider_name: Microsoft Windows Server
 provider_slug: microsoft-windows-server
 schema_file: json-schema/iis-administration-application-pool-reference-schema.json
 slug: iis-administration-application-pool-reference
+source_filename: iis-administration-application-pool-reference-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ApplicationPoolReference\",\n  \"type\": \"object\",\n  \"description\": \"A reference to an application pool resource.\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the application pool.\"\n    },\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier of the application pool.\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The current status of the application pool.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/json-schema/iis-administration-application-pool-reference-schema.json
 tags:

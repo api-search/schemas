@@ -28,6 +28,8 @@ provider_name: Power BI
 provider_slug: power-bi
 schema_file: json-schema/power-bi-rest-refresh-schema.json
 slug: power-bi-rest-refresh
+source_filename: power-bi-rest-refresh-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Refresh\",\n  \"type\": \"object\",\n  \"description\": \"A dataset refresh operation entry\",\n  \"properties\": {\n    \"requestId\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier of the refresh request\"\n    },\n    \"id\": {\n      \"type\": \"integer\",\n      \"description\": \"The sequential identifier of the refresh\"\n    },\n    \"refreshType\": {\n      \"type\": \"string\",\n      \"description\": \"The type of refresh\"\n    },\n    \"startTime\": {\n      \"type\": \"string\",\n      \"description\": \"The start time of the refresh\"\n    },\n    \"endTime\": {\n      \"type\": \"string\",\n      \"description\": \"The end time of the refresh\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The status of the refresh\"\n    },\n    \"serviceExceptionJson\": {\n      \"type\": \"string\",\n      \"description\"\
   : \"JSON-formatted error details if the refresh failed\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/json-schema/power-bi-rest-refresh-schema.json

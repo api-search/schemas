@@ -61,6 +61,8 @@ provider_name: Databricks
 provider_slug: databricks
 schema_file: json-schema/databricks-run-task-schema.json
 slug: databricks-run-task
+source_filename: databricks-run-task-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RunTask\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"run_id\": {\n      \"type\": \"integer\"\n    },\n    \"task_key\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"state\": {\n      \"type\": \"object\"\n    },\n    \"depends_on\": {\n      \"type\": \"array\"\n    },\n    \"existing_cluster_id\": {\n      \"type\": \"string\"\n    },\n    \"notebook_task\": {\n      \"type\": \"object\"\n    },\n    \"spark_jar_task\": {\n      \"type\": \"object\"\n    },\n    \"spark_python_task\": {\n      \"type\": \"object\"\n    },\n    \"sql_task\": {\n      \"type\": \"object\"\n    },\n    \"start_time\": {\n      \"type\": \"integer\"\n    },\n    \"setup_duration\": {\n      \"type\": \"integer\"\n    },\n    \"execution_duration\": {\n      \"type\": \"integer\"\n    },\n    \"cleanup_duration\": {\n      \"type\": \"integer\"\
   \n    },\n    \"end_time\": {\n      \"type\": \"integer\"\n    },\n    \"cluster_instance\": {\n      \"type\": \"object\"\n    },\n    \"attempt_number\": {\n      \"type\": \"integer\"\n    },\n    \"libraries\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/json-schema/databricks-run-task-schema.json

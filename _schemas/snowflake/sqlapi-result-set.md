@@ -34,6 +34,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/sqlapi-result-set-schema.json
 slug: sqlapi-result-set
+source_filename: sqlapi-result-set-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ResultSet\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"string\"\n    },\n    \"sqlState\": {\n      \"type\": \"string\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    },\n    \"statementHandle\": {\n      \"type\": \"string\"\n    },\n    \"createdOn\": {\n      \"type\": \"integer\",\n      \"description\": \"Timestamp that specifies when the statement execution started.\\u200c The timestamp is expressed in milliseconds since the epoch.\\u200c\"\n    },\n    \"statementStatusUrl\": {\n      \"type\": \"string\"\n    },\n    \"resultSetMetaData\": {\n      \"type\": \"object\"\n    },\n    \"data\": {\n      \"type\": \"array\",\n      \"description\": \"Result set data.\"\n    },\n    \"stats\": {\n      \"type\": \"object\",\n      \"description\": \"these stats might not be available for each request.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/sqlapi-result-set-schema.json
 tags:

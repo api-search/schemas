@@ -13,6 +13,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/accounting-notifications-transfer-notification-validation-fact-schema.json
 slug: accounting-notifications-transfer-notification-validation-fact
+source_filename: accounting-notifications-transfer-notification-validation-fact-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/accounting-notifications-transfer-notification-validation-fact-schema.json\",\n  \"title\": \"TransferNotificationValidationFact\",\n  \"description\": \"TransferNotificationValidationFact schema from Adyen API\",\n  \"properties\": {\n    \"result\": {\n      \"description\": \"The evaluation result of the validation fact.\",\n      \"type\": \"string\"\n    },\n    \"type\": {\n      \"description\": \"The type of the validation fact.\",\n      \"type\": \"string\"\n    }\n  },\n  \"type\": \"object\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/accounting-notifications-transfer-notification-validation-fact-schema.json
 tags:

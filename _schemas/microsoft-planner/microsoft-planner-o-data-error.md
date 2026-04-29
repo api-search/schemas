@@ -10,6 +10,8 @@ provider_name: Microsoft Planner
 provider_slug: microsoft-planner
 schema_file: json-schema/microsoft-planner-o-data-error-schema.json
 slug: microsoft-planner-o-data-error
+source_filename: microsoft-planner-o-data-error-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ODataError\",\n  \"type\": \"object\",\n  \"description\": \"OData error response\",\n  \"properties\": {\n    \"error\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/json-schema/microsoft-planner-o-data-error-schema.json
 tags:

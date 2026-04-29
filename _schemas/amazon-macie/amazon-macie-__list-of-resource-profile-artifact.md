@@ -7,6 +7,8 @@ provider_name: Amazon Macie
 provider_slug: amazon-macie
 schema_file: json-schema/amazon-macie-__list-of-resource-profile-artifact-schema.json
 slug: amazon-macie-__list-of-resource-profile-artifact
+source_filename: amazon-macie-__list-of-resource-profile-artifact-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-__list-of-resource-profile-artifact-schema.json\",\n  \"title\": \"__listOfResourceProfileArtifact\",\n  \"description\": \"__listOfResourceProfileArtifact schema from Amazon Macie API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/ResourceProfileArtifact\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-__list-of-resource-profile-artifact-schema.json
 tags:

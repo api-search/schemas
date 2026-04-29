@@ -13,6 +13,8 @@ provider_name: Amazon Glue
 provider_slug: amazon-glue
 schema_file: json-schema/glue-list-crawlers-response-schema.json
 slug: glue-list-crawlers-response
+source_filename: glue-list-crawlers-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-list-crawlers-response-schema.json\",\n  \"title\": \"ListCrawlersResponse\",\n  \"description\": \"ListCrawlersResponse schema from Amazon Glue API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"CrawlerNames\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CrawlerNameList\"\n        },\n        {\n          \"description\": \"The names of all crawlers in the account, or the crawlers with the specified tags.\"\n        }\n      ]\n    },\n    \"NextToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Token\"\n        },\n        {\n          \"description\": \"A continuation token, if the returned list does not contain the last metric available.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-list-crawlers-response-schema.json
 tags:

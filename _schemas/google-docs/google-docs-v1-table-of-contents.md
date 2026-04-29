@@ -16,6 +16,8 @@ provider_name: Google Docs
 provider_slug: google-docs
 schema_file: json-schema/google-docs-v1-table-of-contents-schema.json
 slug: google-docs-v1-table-of-contents
+source_filename: google-docs-v1-table-of-contents-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TableOfContents\",\n  \"type\": \"object\",\n  \"description\": \"A StructuralElement representing a table of contents.\",\n  \"properties\": {\n    \"content\": {\n      \"type\": \"array\",\n      \"description\": \"The content of the table of contents.\"\n    },\n    \"suggestedInsertionIds\": {\n      \"type\": \"array\"\n    },\n    \"suggestedDeletionIds\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/json-schema/google-docs-v1-table-of-contents-schema.json
 tags:

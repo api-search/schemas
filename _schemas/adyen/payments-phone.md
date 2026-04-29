@@ -13,6 +13,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/payments-phone-schema.json
 slug: payments-phone
+source_filename: payments-phone-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/payments-phone-schema.json\",\n  \"title\": \"Phone\",\n  \"description\": \"Phone schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"cc\": {\n      \"description\": \"Country code. Length: 1\\u20133 characters.\",\n      \"maxLength\": 3,\n      \"minLength\": 1,\n      \"type\": \"string\"\n    },\n    \"subscriber\": {\n      \"description\": \"Subscriber number. Maximum length: 15 characters.\",\n      \"maxLength\": 15,\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/payments-phone-schema.json
 tags:

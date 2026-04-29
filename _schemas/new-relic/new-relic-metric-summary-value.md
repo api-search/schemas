@@ -19,6 +19,8 @@ provider_name: New Relic
 provider_slug: new-relic
 schema_file: json-schema/new-relic-metric-summary-value-schema.json
 slug: new-relic-metric-summary-value
+source_filename: new-relic-metric-summary-value-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Summary metric value containing statistical aggregations\",\n  \"properties\": {\n    \"count\": {\n      \"type\": \"number\",\n      \"description\": \"The number of measurements in this summary\",\n      \"example\": 42.5\n    },\n    \"sum\": {\n      \"type\": \"number\",\n      \"description\": \"The sum of all measurement values\",\n      \"example\": 42.5\n    },\n    \"min\": {\n      \"type\": \"number\",\n      \"description\": \"The minimum measurement value\",\n      \"example\": 42.5\n    },\n    \"max\": {\n      \"type\": \"number\",\n      \"description\": \"The maximum measurement value\",\n      \"example\": 42.5\n    }\n  },\n  \"required\": [\n    \"count\",\n    \"sum\",\n    \"min\",\n    \"max\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SummaryValue\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-schema/new-relic-metric-summary-value-schema.json
 tags:

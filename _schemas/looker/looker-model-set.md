@@ -25,6 +25,8 @@ provider_name: Looker
 provider_slug: looker
 schema_file: json-schema/looker-model-set-schema.json
 slug: looker-model-set
+source_filename: looker-model-set-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ModelSet\",\n  \"type\": \"object\",\n  \"description\": \"A set of LookML models that can be assigned to a role\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"integer\",\n      \"description\": \"Unique numeric identifier\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Display name\"\n    },\n    \"models\": {\n      \"type\": \"array\",\n      \"description\": \"List of model names included in this set\"\n    },\n    \"built_in\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether this is a built-in model set\"\n    },\n    \"all_access\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether this grants access to all models\"\n    },\n    \"url\": {\n      \"type\": \"string\",\n      \"description\": \"Relative URL\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/json-schema/looker-model-set-schema.json
 tags:

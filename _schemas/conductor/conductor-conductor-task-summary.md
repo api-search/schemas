@@ -55,6 +55,8 @@ provider_name: Conductor
 provider_slug: conductor
 schema_file: json-schema/conductor-conductor-task-summary-schema.json
 slug: conductor-conductor-task-summary
+source_filename: conductor-conductor-task-summary-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TaskSummary\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"taskId\": {\n      \"type\": \"string\"\n    },\n    \"taskType\": {\n      \"type\": \"string\"\n    },\n    \"taskDefName\": {\n      \"type\": \"string\"\n    },\n    \"status\": {\n      \"type\": \"string\"\n    },\n    \"workflowId\": {\n      \"type\": \"string\"\n    },\n    \"workflowType\": {\n      \"type\": \"string\"\n    },\n    \"correlationId\": {\n      \"type\": \"string\"\n    },\n    \"scheduledTime\": {\n      \"type\": \"string\"\n    },\n    \"startTime\": {\n      \"type\": \"string\"\n    },\n    \"updateTime\": {\n      \"type\": \"string\"\n    },\n    \"endTime\": {\n      \"type\": \"string\"\n    },\n    \"input\": {\n      \"type\": \"string\"\n    },\n    \"output\": {\n      \"type\": \"string\"\n    },\n    \"reasonForIncompletion\": {\n      \"type\": \"string\"\n    },\n    \"queueWaitTime\"\
   : {\n      \"type\": \"integer\"\n    },\n    \"domain\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/json-schema/conductor-conductor-task-summary-schema.json

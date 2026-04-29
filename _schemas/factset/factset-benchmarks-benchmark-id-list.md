@@ -22,6 +22,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-benchmarks-benchmark-id-list-schema.json
 slug: factset-benchmarks-benchmark-id-list
+source_filename: factset-benchmarks-benchmark-id-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"benchmarkIdList\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"fsymId\": {\n      \"type\": \"string\",\n      \"description\": \"Benchmark Id\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the Benchmark ID\"\n    },\n    \"familyName\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the Benchmarks Family\"\n    },\n    \"market\": {\n      \"type\": \"string\",\n      \"description\": \"Market grouping related to the Benchmark Family\"\n    },\n    \"categoryDescription\": {\n      \"type\": \"string\",\n      \"description\": \"Extended name or description of Benchmark Family & Market\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-benchmarks-benchmark-id-list-schema.json
 tags:

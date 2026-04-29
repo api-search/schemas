@@ -28,6 +28,8 @@ provider_name: Hunter
 provider_slug: hunter
 schema_file: json-schema/hunter-domain-search-result-schema.json
 slug: hunter-domain-search-result
+source_filename: hunter-domain-search-result-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DomainSearchResult\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"domain\": {\n      \"type\": \"string\",\n      \"description\": \"The domain name searched.\"\n    },\n    \"disposable\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the domain is a disposable email service.\"\n    },\n    \"webmail\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the domain is a webmail provider.\"\n    },\n    \"accept_all\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the mail server accepts all email addresses.\"\n    },\n    \"pattern\": {\n      \"type\": \"['string', 'null']\",\n      \"description\": \"The email address pattern detected for the domain.\"\n    },\n    \"organization\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the organization associated with the domain.\"\n    },\n    \"emails\": {\n \
   \     \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/json-schema/hunter-domain-search-result-schema.json

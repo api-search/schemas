@@ -10,6 +10,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-esg-sasb-articles-response-schema.json
 slug: factset-esg-sasb-articles-response
+source_filename: factset-esg-sasb-articles-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"sasbArticlesResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"data\": {\n      \"type\": \"array\",\n      \"description\": \"Array of Articles Objects\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-esg-sasb-articles-response-schema.json
 tags:

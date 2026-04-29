@@ -13,6 +13,8 @@ provider_name: Google Slides
 provider_slug: google-slides
 schema_file: json-schema/google-slides-auto-text-schema.json
 slug: google-slides-auto-text
+source_filename: google-slides-auto-text-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AutoText\",\n  \"type\": \"object\",\n  \"description\": \"A TextElement kind that represents auto text.\\n\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"The type of this auto text.\"\n    },\n    \"content\": {\n      \"type\": \"string\",\n      \"description\": \"The rendered content of this auto text, if available.\\n\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/json-schema/google-slides-auto-text-schema.json
 tags:

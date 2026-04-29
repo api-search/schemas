@@ -10,6 +10,8 @@ provider_name: Amazon Storage Gateway
 provider_slug: amazon-storage-gateway
 schema_file: json-schema/amazon-storage-gateway-disable-gateway-output-schema.json
 slug: amazon-storage-gateway-disable-gateway-output
+source_filename: amazon-storage-gateway-disable-gateway-output-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-disable-gateway-output-schema.json\",\n  \"title\": \"DisableGatewayOutput\",\n  \"description\": \"DisableGatewayOutput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"GatewayARN\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GatewayARN\"\n        },\n        {\n          \"description\": \"The unique Amazon Resource Name (ARN) of the disabled gateway.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-disable-gateway-output-schema.json
 tags:

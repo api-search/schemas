@@ -19,6 +19,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/crm-feature-flags-api-feature-flag-schema.json
 slug: crm-feature-flags-api-feature-flag
+source_filename: crm-feature-flags-api-feature-flag-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/crm-feature-flags-api-feature-flag-schema.json\",\n  \"title\": \"FeatureFlag\",\n  \"description\": \"Represents a feature flag configuration for an application\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"appId\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\",\n      \"description\": \"The unique identifier for the HubSpot application\",\n      \"example\": 12345678\n    },\n    \"flagName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the feature flag\",\n      \"example\": \"new-dashboard-feature\"\n    },\n    \"defaultState\": {\n      \"type\": \"string\",\n      \"description\": \"The state of a feature flag\",\n      \"enum\": [\n        \"ON\",\n        \"OFF\",\n        \"ABSENT\"\n      ],\n      \"example\": \"ON\"\n    },\n    \"overrideState\":\
   \ {\n      \"type\": \"string\",\n      \"description\": \"The state of a feature flag\",\n      \"enum\": [\n        \"ON\",\n        \"OFF\",\n        \"ABSENT\"\n      ],\n      \"example\": \"ON\"\n    }\n  },\n  \"required\": [\n    \"appId\",\n    \"flagName\",\n    \"defaultState\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/crm-feature-flags-api-feature-flag-schema.json

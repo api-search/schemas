@@ -10,6 +10,8 @@ provider_name: Mastercard
 provider_slug: mastercard
 schema_file: json-schema/mastercard-atm-locations-countries-schema.json
 slug: mastercard-atm-locations-countries
+source_filename: mastercard-atm-locations-countries-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Countries\",\n  \"type\": \"object\",\n  \"description\": \"List of countries\",\n  \"properties\": {\n    \"countries\": {\n      \"type\": \"array\",\n      \"description\": \"countries\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-schema/mastercard-atm-locations-countries-schema.json
 tags:

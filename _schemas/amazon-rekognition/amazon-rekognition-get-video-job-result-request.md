@@ -22,6 +22,8 @@ provider_name: Amazon Rekognition
 provider_slug: amazon-rekognition
 schema_file: json-schema/amazon-rekognition-get-video-job-result-request-schema.json
 slug: amazon-rekognition-get-video-job-result-request
+source_filename: amazon-rekognition-get-video-job-result-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-get-video-job-result-request-schema.json\",\n  \"title\": \"GetVideoJobResultRequest\",\n  \"description\": \"GetVideoJobResultRequest schema from Amazon Rekognition\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"JobId\": {\n      \"type\": \"string\",\n      \"description\": \"Job identifier from the start job call.\",\n      \"example\": \"1234567890abcdef\"\n    },\n    \"MaxResults\": {\n      \"type\": \"integer\",\n      \"example\": 100\n    },\n    \"NextToken\": {\n      \"type\": \"string\"\n    },\n    \"SortBy\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"NAME\",\n        \"TIMESTAMP\"\n      ]\n    },\n    \"AggregateBy\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"TIMESTAMPS\",\n        \"SEGMENTS\"\n      ]\n    }\n  },\n\
   \  \"required\": [\n    \"JobId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-get-video-job-result-request-schema.json

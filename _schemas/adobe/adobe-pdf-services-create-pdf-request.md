@@ -25,6 +25,8 @@ provider_name: Adobe
 provider_slug: adobe
 schema_file: json-schema/adobe-pdf-services-create-pdf-request-schema.json
 slug: adobe-pdf-services-create-pdf-request
+source_filename: adobe-pdf-services-create-pdf-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreatePDFRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"assetID\": {\n      \"type\": \"string\",\n      \"description\": \"The asset ID of the source file to convert to PDF.\"\n    },\n    \"documentLanguage\": {\n      \"type\": \"string\",\n      \"description\": \"The language of the source document for OCR processing.\"\n    },\n    \"createPDFFromDOCXOptions\": {\n      \"type\": \"object\",\n      \"description\": \"Options specific to DOCX to PDF conversion.\"\n    },\n    \"createPDFFromPPTXOptions\": {\n      \"type\": \"object\",\n      \"description\": \"Options specific to PPTX to PDF conversion.\"\n    },\n    \"createPDFFromXLSXOptions\": {\n      \"type\": \"object\",\n      \"description\": \"Options specific to XLSX to PDF conversion.\"\n    },\n    \"createPDFFromHTMLOptions\": {\n      \"type\": \"object\",\n      \"description\": \"Options specific to HTML\
   \ to PDF conversion.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/json-schema/adobe-pdf-services-create-pdf-request-schema.json

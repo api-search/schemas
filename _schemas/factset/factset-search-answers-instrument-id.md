@@ -40,6 +40,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-search-answers-instrument-id-schema.json
 slug: factset-search-answers-instrument-id
+source_filename: factset-search-answers-instrument-id-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"InstrumentID\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"BBG\": {\n      \"type\": \"string\"\n    },\n    \"CUSIP\": {\n      \"type\": \"string\"\n    },\n    \"FDS_ID\": {\n      \"type\": \"string\"\n    },\n    \"FDS_TICKER_REGION\": {\n      \"type\": \"string\"\n    },\n    \"FDS_TICKER_EXCHANGE\": {\n      \"type\": \"string\"\n    },\n    \"FIGI\": {\n      \"type\": \"string\"\n    },\n    \"ISIN\": {\n      \"type\": \"string\"\n    },\n    \"PERMID\": {\n      \"type\": \"string\"\n    },\n    \"RIC\": {\n      \"type\": \"string\"\n    },\n    \"SEDOL\": {\n      \"type\": \"string\"\n    },\n    \"ticker\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-search-answers-instrument-id-schema.json
 tags:

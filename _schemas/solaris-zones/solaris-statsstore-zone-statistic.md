@@ -25,6 +25,8 @@ provider_name: Solaris Zones
 provider_slug: solaris-zones
 schema_file: json-schema/solaris-statsstore-zone-statistic-schema.json
 slug: solaris-statsstore-zone-statistic
+source_filename: solaris-statsstore-zone-statistic-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ZoneStatistic\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"zoneName\": {\n      \"type\": \"string\",\n      \"description\": \"Zone name\"\n    },\n    \"zoneId\": {\n      \"type\": \"integer\",\n      \"description\": \"Numeric zone ID\"\n    },\n    \"metric\": {\n      \"type\": \"string\",\n      \"description\": \"Metric name\"\n    },\n    \"value\": {\n      \"type\": \"number\",\n      \"description\": \"Current metric value\"\n    },\n    \"unit\": {\n      \"type\": \"string\",\n      \"description\": \"Unit of measurement\"\n    },\n    \"timestamp\": {\n      \"type\": \"string\",\n      \"description\": \"When the value was recorded\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-statsstore-zone-statistic-schema.json
 tags:

@@ -25,6 +25,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/sqlapi-query-status-schema.json
 slug: sqlapi-query-status
+source_filename: sqlapi-query-status-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"QueryStatus\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"string\"\n    },\n    \"sqlState\": {\n      \"type\": \"string\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    },\n    \"statementHandle\": {\n      \"type\": \"string\"\n    },\n    \"createdOn\": {\n      \"type\": \"integer\",\n      \"description\": \"Timestamp that specifies when the statement execution started. The timestamp is expressed in milliseconds since the epoch.\"\n    },\n    \"statementStatusUrl\": {\n      \"type\": \"string\",\n      \"description\": \"URL that you can use to check the status of the execution of the statement and the result set.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/sqlapi-query-status-schema.json
 tags:

@@ -22,6 +22,8 @@ provider_name: Productiv
 provider_slug: productiv
 schema_file: json-schema/productiv-developer-app-summary-schema.json
 slug: productiv-developer-app-summary
+source_filename: productiv-developer-app-summary-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AppSummary\",\n  \"type\": \"object\",\n  \"description\": \"Represents a single application with a limited set of attributes.\",\n  \"properties\": {\n    \"ApplicationId\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier of the application.\"\n    },\n    \"AppName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the application.\"\n    },\n    \"AppStatus\": {\n      \"type\": \"string\",\n      \"description\": \"The current status of the application.\"\n    },\n    \"VendorName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the vendor.\"\n    },\n    \"AppCategory\": {\n      \"type\": \"string\",\n      \"description\": \"The category of the application.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/json-schema/productiv-developer-app-summary-schema.json
 tags:

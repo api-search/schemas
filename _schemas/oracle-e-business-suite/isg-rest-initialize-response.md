@@ -10,6 +10,8 @@ provider_name: Oracle E-Business Suite
 provider_slug: oracle-e-business-suite
 schema_file: json-schema/isg-rest-initialize-response-schema.json
 slug: isg-rest-initialize-response
+source_filename: isg-rest-initialize-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"InitializeResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"response\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/json-schema/isg-rest-initialize-response-schema.json
 tags:

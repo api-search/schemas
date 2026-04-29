@@ -19,6 +19,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/image-repository-image-repository-schema.json
 slug: image-repository-image-repository
+source_filename: image-repository-image-repository-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ImageRepository\",\n  \"type\": \"object\",\n  \"description\": \"A Snowflake image repository.\",\n  \"properties\": {\n    \"created_on\": {\n      \"type\": \"string\",\n      \"description\": \"Time the image repository was created.\"\n    },\n    \"repository_url\": {\n      \"type\": \"string\",\n      \"description\": \"Current URL of the image repository.\"\n    },\n    \"owner\": {\n      \"type\": \"string\",\n      \"description\": \"Identifier for the current owner of the image repository.\"\n    },\n    \"owner_role_type\": {\n      \"type\": \"string\",\n      \"description\": \"Role type of the image repository owner.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/image-repository-image-repository-schema.json
 tags:

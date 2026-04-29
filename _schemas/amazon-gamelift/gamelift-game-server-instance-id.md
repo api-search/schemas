@@ -7,6 +7,8 @@ provider_name: Amazon GameLift
 provider_slug: amazon-gamelift
 schema_file: json-schema/gamelift-game-server-instance-id-schema.json
 slug: gamelift-game-server-instance-id
+source_filename: gamelift-game-server-instance-id-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-game-server-instance-id-schema.json\",\n  \"title\": \"GameServerInstanceId\",\n  \"description\": \"GameServerInstanceId schema from Amazon GameLift API\",\n  \"type\": \"string\",\n  \"pattern\": \"^i-[0-9a-zA-Z]{17}$\",\n  \"minLength\": 19,\n  \"maxLength\": 19\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-game-server-instance-id-schema.json
 tags:

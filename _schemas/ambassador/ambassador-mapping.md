@@ -13,6 +13,8 @@ provider_name: Ambassador
 provider_slug: ambassador
 schema_file: json-schema/ambassador-mapping-schema.json
 slug: ambassador-mapping
+source_filename: ambassador-mapping-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Mapping\",\n  \"type\": \"object\",\n  \"description\": \"An Ambassador Mapping resource that associates a URL prefix or path with a backend service. Mappings are the primary mechanism for configuring routing in Ambassador Edge Stack.\",\n  \"properties\": {\n    \"apiVersion\": {\n      \"type\": \"string\",\n      \"description\": \"API version for the Mapping resource\"\n    },\n    \"kind\": {\n      \"type\": \"string\",\n      \"description\": \"Resource kind\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/json-schema/ambassador-mapping-schema.json
 tags:

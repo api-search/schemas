@@ -16,6 +16,8 @@ provider_name: Google Slides
 provider_slug: google-slides
 schema_file: json-schema/google-slides-insert-table-rows-request-schema.json
 slug: google-slides-insert-table-rows-request
+source_filename: google-slides-insert-table-rows-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"InsertTableRowsRequest\",\n  \"type\": \"object\",\n  \"description\": \"Inserts rows into a table.\",\n  \"properties\": {\n    \"tableObjectId\": {\n      \"type\": \"string\",\n      \"description\": \"The table to insert rows into.\"\n    },\n    \"insertBelow\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to insert new rows below the reference cell location.\"\n    },\n    \"number\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of rows to be inserted.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/json-schema/google-slides-insert-table-rows-request-schema.json
 tags:

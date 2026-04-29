@@ -19,6 +19,8 @@ provider_name: Red Hat
 provider_slug: red-hat
 schema_file: json-schema/red-hat-ansible-automation-platform-paginated-job-list-schema.json
 slug: red-hat-ansible-automation-platform-paginated-job-list
+source_filename: red-hat-ansible-automation-platform-paginated-job-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PaginatedJobList\",\n  \"type\": \"object\",\n  \"description\": \"A paginated list of jobs.\",\n  \"properties\": {\n    \"count\": {\n      \"type\": \"integer\"\n    },\n    \"next\": {\n      \"type\": \"string\"\n    },\n    \"previous\": {\n      \"type\": \"string\"\n    },\n    \"results\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-ansible-automation-platform-paginated-job-list-schema.json
 tags:

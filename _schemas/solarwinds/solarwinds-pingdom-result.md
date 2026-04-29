@@ -25,6 +25,8 @@ provider_name: SolarWinds
 provider_slug: solarwinds
 schema_file: json-schema/solarwinds-pingdom-result-schema.json
 slug: solarwinds-pingdom-result
+source_filename: solarwinds-pingdom-result-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Result\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"probeid\": {\n      \"type\": \"integer\",\n      \"description\": \"Probe server ID\"\n    },\n    \"time\": {\n      \"type\": \"integer\",\n      \"description\": \"Test timestamp (Unix)\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Result status\"\n    },\n    \"responsetime\": {\n      \"type\": \"integer\",\n      \"description\": \"Response time in milliseconds\"\n    },\n    \"statusdesc\": {\n      \"type\": \"string\",\n      \"description\": \"Status description\"\n    },\n    \"statusdesclong\": {\n      \"type\": \"string\",\n      \"description\": \"Detailed status description\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/json-schema/solarwinds-pingdom-result-schema.json
 tags:

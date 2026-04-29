@@ -16,6 +16,8 @@ provider_name: Amazon DynamoDB
 provider_slug: dynamodb
 schema_file: json-schema/dynamodb-sse-specification-schema.json
 slug: dynamodb-sse-specification
+source_filename: dynamodb-sse-specification-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SSESpecification\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Enabled\": {\n      \"type\": \"boolean\",\n      \"description\": \"Indicates whether server-side encryption is enabled\"\n    },\n    \"SSEType\": {\n      \"type\": \"string\",\n      \"description\": \"Server-side encryption type\"\n    },\n    \"KMSMasterKeyId\": {\n      \"type\": \"string\",\n      \"description\": \"The KMS key that should be used for server-side encryption\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-sse-specification-schema.json
 tags:

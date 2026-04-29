@@ -43,6 +43,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-container-look-and-feel-schema.json
 slug: atlassian-confluence-content-container-look-and-feel
+source_filename: atlassian-confluence-content-container-look-and-feel-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ContainerLookAndFeel\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"background\": {\n      \"type\": \"string\"\n    },\n    \"backgroundAttachment\": {\n      \"type\": \"string\"\n    },\n    \"backgroundBlendMode\": {\n      \"type\": \"string\"\n    },\n    \"backgroundClip\": {\n      \"type\": \"string\"\n    },\n    \"backgroundColor\": {\n      \"type\": \"string\"\n    },\n    \"backgroundImage\": {\n      \"type\": \"string\"\n    },\n    \"backgroundOrigin\": {\n      \"type\": \"string\"\n    },\n    \"backgroundPosition\": {\n      \"type\": \"string\"\n    },\n    \"backgroundRepeat\": {\n      \"type\": \"string\"\n    },\n    \"backgroundSize\": {\n      \"type\": \"string\"\n    },\n    \"padding\": {\n      \"type\": \"string\"\n    },\n    \"borderRadius\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-container-look-and-feel-schema.json
 tags:

@@ -28,6 +28,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-streetaccount-news-views-object-schema.json
 slug: factset-streetaccount-news-views-object
+source_filename: factset-streetaccount-news-views-object-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"viewsObject\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"viewName\": {\n      \"type\": \"string\"\n    },\n    \"tickers\": {\n      \"type\": \"array\"\n    },\n    \"categories\": {\n      \"type\": \"array\"\n    },\n    \"topics\": {\n      \"type\": \"array\"\n    },\n    \"regions\": {\n      \"type\": \"array\"\n    },\n    \"sectors\": {\n      \"type\": \"array\"\n    },\n    \"isPrimary\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-streetaccount-news-views-object-schema.json
 tags:

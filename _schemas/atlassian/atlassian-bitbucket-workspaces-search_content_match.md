@@ -10,6 +10,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-bitbucket-workspaces-search_content_match-schema.json
 slug: atlassian-bitbucket-workspaces-search_content_match
+source_filename: atlassian-bitbucket-workspaces-search_content_match-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"search_content_match\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"lines\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-bitbucket-workspaces-search_content_match-schema.json
 tags:

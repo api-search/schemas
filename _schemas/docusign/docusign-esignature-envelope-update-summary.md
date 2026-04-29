@@ -22,6 +22,8 @@ provider_name: Docusign
 provider_slug: docusign
 schema_file: json-schema/docusign-esignature-envelope-update-summary-schema.json
 slug: docusign-esignature-envelope-update-summary
+source_filename: docusign-esignature-envelope-update-summary-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"EnvelopeUpdateSummary\",\n  \"type\": \"object\",\n  \"description\": \"Summary of an envelope update operation.\",\n  \"properties\": {\n    \"envelopeId\": {\n      \"type\": \"string\",\n      \"description\": \"The envelope ID.\"\n    },\n    \"bulkEnvelopeStatus\": {\n      \"type\": \"object\",\n      \"description\": \"Bulk envelope status information, if applicable.\"\n    },\n    \"listCustomFieldUpdateResults\": {\n      \"type\": \"array\"\n    },\n    \"recipientUpdateResults\": {\n      \"type\": \"array\"\n    },\n    \"textCustomFieldUpdateResults\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/json-schema/docusign-esignature-envelope-update-summary-schema.json
 tags:

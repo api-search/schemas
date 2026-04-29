@@ -13,6 +13,8 @@ provider_name: Adobe Launch
 provider_slug: adobe-launch
 schema_file: json-schema/reactor-search-response-schema.json
 slug: reactor-search-response
+source_filename: reactor-search-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SearchResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"data\": {\n      \"type\": \"array\"\n    },\n    \"meta\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/json-schema/reactor-search-response-schema.json
 tags:

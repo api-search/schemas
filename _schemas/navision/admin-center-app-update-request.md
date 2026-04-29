@@ -19,6 +19,8 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/admin-center-app-update-request-schema.json
 slug: admin-center-app-update-request
+source_filename: admin-center-app-update-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AppUpdateRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"targetVersion\": {\n      \"type\": \"string\",\n      \"description\": \"Target version to update to\"\n    },\n    \"allowPreviewVersion\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to allow preview versions\"\n    },\n    \"ignoreUpgradeWindow\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to ignore the update window\"\n    },\n    \"allowDependencyUpdate\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to also update dependent apps\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/admin-center-app-update-request-schema.json
 tags:

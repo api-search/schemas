@@ -31,6 +31,8 @@ provider_name: Databricks
 provider_slug: databricks
 schema_file: json-schema/databricks-aws-attributes-schema.json
 slug: databricks-aws-attributes
+source_filename: databricks-aws-attributes-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AwsAttributes\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"first_on_demand\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of on-demand instances to place first.\"\n    },\n    \"availability\": {\n      \"type\": \"string\"\n    },\n    \"zone_id\": {\n      \"type\": \"string\",\n      \"description\": \"The availability zone identifier (e.g., us-west-2a).\"\n    },\n    \"instance_profile_arn\": {\n      \"type\": \"string\",\n      \"description\": \"IAM instance profile ARN for the cluster instances.\"\n    },\n    \"spot_bid_price_percent\": {\n      \"type\": \"integer\",\n      \"description\": \"Max bid price as percentage of on-demand price.\"\n    },\n    \"ebs_volume_type\": {\n      \"type\": \"string\"\n    },\n    \"ebs_volume_count\": {\n      \"type\": \"integer\"\n    },\n    \"ebs_volume_size\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/json-schema/databricks-aws-attributes-schema.json
 tags:

@@ -16,6 +16,8 @@ provider_name: SAP Ariba
 provider_slug: sap-ariba
 schema_file: json-schema/sap-ariba-procurement-receipt-create-schema.json
 slug: sap-ariba-procurement-receipt-create
+source_filename: sap-ariba-procurement-receipt-create-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ReceiptCreate\",\n  \"type\": \"object\",\n  \"description\": \"Request body for creating a receipt\",\n  \"properties\": {\n    \"receiptDate\": {\n      \"type\": \"string\"\n    },\n    \"receiptType\": {\n      \"type\": \"string\"\n    },\n    \"lineItems\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/json-schema/sap-ariba-procurement-receipt-create-schema.json
 tags:

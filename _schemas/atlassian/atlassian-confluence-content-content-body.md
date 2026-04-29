@@ -22,6 +22,8 @@ provider_name: Atlassian
 provider_slug: atlassian
 schema_file: json-schema/atlassian-confluence-content-content-body-schema.json
 slug: atlassian-confluence-content-content-body
+source_filename: atlassian-confluence-content-content-body-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ContentBody\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"value\": {\n      \"type\": \"string\"\n    },\n    \"representation\": {\n      \"type\": \"string\"\n    },\n    \"embeddedContent\": {\n      \"type\": \"array\"\n    },\n    \"mediaToken\": {\n      \"type\": \"object\"\n    },\n    \"_expandable\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/json-schema/atlassian-confluence-content-content-body-schema.json
 tags:

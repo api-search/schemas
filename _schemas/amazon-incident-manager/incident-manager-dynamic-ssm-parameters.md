@@ -7,6 +7,8 @@ provider_name: Amazon Incident Manager
 provider_slug: amazon-incident-manager
 schema_file: json-schema/incident-manager-dynamic-ssm-parameters-schema.json
 slug: incident-manager-dynamic-ssm-parameters
+source_filename: incident-manager-dynamic-ssm-parameters-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/json-schema/incident-manager-dynamic-ssm-parameters-schema.json\",\n  \"title\": \"DynamicSsmParameters\",\n  \"description\": \"DynamicSsmParameters schema\",\n  \"type\": \"object\",\n  \"additionalProperties\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"variable\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/VariableType\"\n          },\n          {\n            \"description\": \"Variable dynamic parameters. A parameter value is determined when an incident is created.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"The dynamic SSM parameter value.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/json-schema/incident-manager-dynamic-ssm-parameters-schema.json
 tags:

@@ -19,6 +19,8 @@ provider_name: Salesforce Marketing Cloud
 provider_slug: salesforce-marketing-cloud
 schema_file: json-schema/salesforce-marketing-cloud-delete-contact-response-schema.json
 slug: salesforce-marketing-cloud-delete-contact-response
+source_filename: salesforce-marketing-cloud-delete-contact-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DeleteContactResponse\",\n  \"type\": \"object\",\n  \"description\": \"Response from a contact delete operation\",\n  \"properties\": {\n    \"operationStatus\": {\n      \"type\": \"string\"\n    },\n    \"requestServiceMessageID\": {\n      \"type\": \"string\"\n    },\n    \"responseDateTime\": {\n      \"type\": \"string\"\n    },\n    \"operationInitiated\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the asynchronous delete was successfully initiated\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/json-schema/salesforce-marketing-cloud-delete-contact-response-schema.json
 tags:

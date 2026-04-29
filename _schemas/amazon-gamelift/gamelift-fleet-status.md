@@ -7,6 +7,8 @@ provider_name: Amazon GameLift
 provider_slug: amazon-gamelift
 schema_file: json-schema/gamelift-fleet-status-schema.json
 slug: gamelift-fleet-status
+source_filename: gamelift-fleet-status-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-fleet-status-schema.json\",\n  \"title\": \"FleetStatus\",\n  \"description\": \"FleetStatus schema from Amazon GameLift API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"NEW\",\n    \"DOWNLOADING\",\n    \"VALIDATING\",\n    \"BUILDING\",\n    \"ACTIVATING\",\n    \"ACTIVE\",\n    \"DELETING\",\n    \"ERROR\",\n    \"TERMINATED\",\n    \"NOT_FOUND\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-fleet-status-schema.json
 tags:

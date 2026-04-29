@@ -25,6 +25,8 @@ provider_name: Google Sheets
 provider_slug: google-sheets
 schema_file: json-schema/google-sheets-developer-metadata-lookup-schema.json
 slug: google-sheets-developer-metadata-lookup
+source_filename: google-sheets-developer-metadata-lookup-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DeveloperMetadataLookup\",\n  \"type\": \"object\",\n  \"description\": \"Selects DeveloperMetadata that matches all of the specified fields.\",\n  \"properties\": {\n    \"locationType\": {\n      \"type\": \"string\",\n      \"description\": \"Limits the selected developer metadata to that which has a matching location type.\"\n    },\n    \"locationMatchingStrategy\": {\n      \"type\": \"string\",\n      \"description\": \"Determines how this lookup matches the location.\"\n    },\n    \"metadataId\": {\n      \"type\": \"integer\",\n      \"description\": \"Limits the selected developer metadata to that which has a matching metadata ID.\"\n    },\n    \"metadataKey\": {\n      \"type\": \"string\",\n      \"description\": \"Limits the selected developer metadata to that which has a matching metadata key.\"\n    },\n    \"metadataValue\": {\n      \"type\": \"string\",\n      \"description\"\
   : \"Limits the selected developer metadata to that which has a matching metadata value.\"\n    },\n    \"visibility\": {\n      \"type\": \"string\",\n      \"description\": \"Limits the selected developer metadata to that which has a matching visibility.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/json-schema/google-sheets-developer-metadata-lookup-schema.json

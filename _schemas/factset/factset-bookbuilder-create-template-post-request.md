@@ -16,6 +16,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-bookbuilder-create-template-post-request-schema.json
 slug: factset-bookbuilder-create-template-post-request
+source_filename: factset-bookbuilder-create-template-post-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"createTemplatePostRequest\",\n  \"type\": \"object\",\n  \"description\": \"The request body allows users to input the name of the template, ticker\",\n  \"properties\": {\n    \"tmpl_name\": {\n      \"type\": \"string\",\n      \"description\": \"name of the template\"\n    },\n    \"tmpl_type\": {\n      \"type\": \"string\",\n      \"description\": \"Type of the template (public,pc,pe,fi)\"\n    },\n    \"content\": {\n      \"type\": \"array\",\n      \"description\": \"Content sections\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-bookbuilder-create-template-post-request-schema.json
 tags:

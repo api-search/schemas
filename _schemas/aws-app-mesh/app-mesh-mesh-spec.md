@@ -13,6 +13,8 @@ provider_name: AWS App Mesh
 provider_slug: aws-app-mesh
 schema_file: json-schema/app-mesh-mesh-spec-schema.json
 slug: app-mesh-mesh-spec
+source_filename: app-mesh-mesh-spec-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"egressFilter\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EgressFilter\"\n        },\n        {\n          \"description\": \"The egress filter rules for the service mesh.\"\n        }\n      ]\n    },\n    \"serviceDiscovery\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"ipPreference\": {\n          \"allOf\": [\n            {\n              \"$ref\": \"#/components/schemas/IpPreference\"\n            },\n            {\n              \"description\": \"The IP version to use to control traffic within the mesh.\"\n            }\n          ]\n        }\n      },\n      \"description\": \"An object that represents the service discovery information for a service mesh.\"\n    }\n  },\n  \"description\": \"An object that represents the specification of a service mesh.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-mesh-spec-schema.json\"\
   ,\n  \"title\": \"MeshSpec\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-mesh-spec-schema.json

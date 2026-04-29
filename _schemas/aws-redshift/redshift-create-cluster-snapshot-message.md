@@ -19,6 +19,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-create-cluster-snapshot-message-schema.json
 slug: redshift-create-cluster-snapshot-message
+source_filename: redshift-create-cluster-snapshot-message-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"SnapshotIdentifier\": {},\n    \"ClusterIdentifier\": {},\n    \"ManualSnapshotRetentionPeriod\": {},\n    \"Tags\": {}\n  },\n  \"required\": [\n    \"SnapshotIdentifier\",\n    \"ClusterIdentifier\"\n  ],\n  \"description\": \"<p/>\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-create-cluster-snapshot-message-schema.json\",\n  \"title\": \"CreateClusterSnapshotMessage\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-create-cluster-snapshot-message-schema.json
 tags:

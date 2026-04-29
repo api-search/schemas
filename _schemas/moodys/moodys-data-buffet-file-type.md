@@ -19,6 +19,8 @@ provider_name: Moody's
 provider_slug: moodys
 schema_file: json-schema/moodys-data-buffet-file-type-schema.json
 slug: moodys-data-buffet-file-type
+source_filename: moodys-data-buffet-file-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"FileType\",\n  \"type\": \"object\",\n  \"description\": \"Metadata about a supported output file type.\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"string\",\n      \"description\": \"File type code used in order creation.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Human-readable file type name.\"\n    },\n    \"extension\": {\n      \"type\": \"string\",\n      \"description\": \"File extension (e.g., csv, xlsx, json, xml).\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"Description of the file format.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/json-schema/moodys-data-buffet-file-type-schema.json
 tags:

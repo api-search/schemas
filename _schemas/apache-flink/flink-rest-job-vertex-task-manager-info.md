@@ -34,6 +34,8 @@ provider_name: Apache Flink
 provider_slug: apache-flink
 schema_file: json-schema/flink-rest-job-vertex-task-manager-info-schema.json
 slug: flink-rest-job-vertex-task-manager-info
+source_filename: flink-rest-job-vertex-task-manager-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-job-vertex-task-manager-info-schema.json\",\n  \"title\": \"JobVertexTaskManagerInfo\",\n  \"description\": \"JobVertexTaskManagerInfo schema from Apache Flink REST API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"aggregated\": {\n      \"$ref\": \"#/components/schemas/AggregatedTaskDetailsInfo\"\n    },\n    \"duration\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    },\n    \"end-time\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    },\n    \"endpoint\": {\n      \"type\": \"string\"\n    },\n    \"metrics\": {\n      \"$ref\": \"#/components/schemas/IOMetricsInfo\"\n    },\n    \"start-time\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    },\n    \"status\": {\n      \"$ref\": \"#/components/schemas/ExecutionState\"\n   \
   \ },\n    \"status-counts\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"integer\",\n        \"format\": \"int32\"\n      }\n    },\n    \"taskmanager-id\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/json-schema/flink-rest-job-vertex-task-manager-info-schema.json

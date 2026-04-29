@@ -19,6 +19,8 @@ provider_name: GitHub
 provider_slug: github
 schema_file: json-schema/github-users-api-basic-error-schema.json
 slug: github-users-api-basic-error
+source_filename: github-users-api-basic-error-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/json-schema/github-users-api-basic-error-schema.json\",\n  \"title\": \"basic-error\",\n  \"description\": \"Basic Error\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"message\": {\n      \"type\": \"string\",\n      \"example\": \"Example body text\"\n    },\n    \"documentation_url\": {\n      \"type\": \"string\",\n      \"example\": \"https://api.github.com/repos/octocat/Hello-World\"\n    },\n    \"url\": {\n      \"type\": \"string\",\n      \"example\": \"https://api.github.com/repos/octocat/Hello-World\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"example\": \"open\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/json-schema/github-users-api-basic-error-schema.json
 tags:

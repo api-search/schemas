@@ -22,6 +22,8 @@ provider_name: Apache CloudStack
 provider_slug: apache-cloudstack
 schema_file: json-schema/cloudstack-api-zone-schema.json
 slug: cloudstack-api-zone
+source_filename: cloudstack-api-zone-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/json-schema/cloudstack-api-zone-schema.json\",\n  \"title\": \"Zone\",\n  \"description\": \"A CloudStack availability zone grouping compute, network, and storage resources.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": { \"type\": \"string\", \"description\": \"UUID of the zone.\", \"example\": \"zone-uuid-abcd\" },\n    \"name\": { \"type\": \"string\", \"description\": \"Name of the zone.\", \"example\": \"us-east-1\" },\n    \"networktype\": { \"type\": \"string\", \"description\": \"Network type of the zone (Basic or Advanced).\", \"enum\": [\"Basic\", \"Advanced\"], \"example\": \"Advanced\" },\n    \"allocationstate\": { \"type\": \"string\", \"description\": \"Allocation state of the zone (Enabled or Disabled).\", \"example\": \"Enabled\" },\n    \"securitygroupsenabled\": { \"type\": \"\
   boolean\", \"description\": \"Whether security groups are enabled in the zone.\", \"example\": false }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/json-schema/cloudstack-api-zone-schema.json

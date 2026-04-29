@@ -16,6 +16,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/procedure-java-function-schema.json
 slug: procedure-java-function
+source_filename: procedure-java-function-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"JavaFunction\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"external_access_integrations\": {\n      \"type\": \"array\",\n      \"description\": \"List of external access integrations attached to this function/procedure\"\n    },\n    \"secrets\": {\n      \"type\": \"object\",\n      \"description\": \"Secrets to be used with this function/procedure for external access\"\n    },\n    \"target_path\": {\n      \"type\": \"string\",\n      \"description\": \"Specifies where Snowflake should write the compiled code for inline procedures\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/procedure-java-function-schema.json
 tags:

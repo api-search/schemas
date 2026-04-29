@@ -10,6 +10,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/transfer-search-partnerinfo-schema.json
 slug: transfer-search-partnerinfo
+source_filename: transfer-search-partnerinfo-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"PartnerInfo\",\n  \"description\": \"Information about partner/subprovider. Below settings configuration is not applicable for sub-provider. Fields 'code', 'name' and 'logoUrl' are not mandatory for sub-provider.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"serviceProvider\": {\n      \"$ref\": \"#/definitions/ServiceProvider\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/transfer-search-partnerinfo-schema.json
 tags:

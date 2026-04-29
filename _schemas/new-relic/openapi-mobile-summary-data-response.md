@@ -31,6 +31,8 @@ provider_name: New Relic
 provider_slug: new-relic
 schema_file: json-schema/openapi-mobile-summary-data-response-schema.json
 slug: openapi-mobile-summary-data-response
+source_filename: openapi-mobile-summary-data-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-schema/openapi-mobile-summary-data-response-schema.json\",\n  \"title\": \"MobileSummaryDataResponse\",\n  \"description\": \"MobileSummaryDataResponse schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"active_users\": {\n      \"type\": \"integer\",\n      \"example\": 100\n    },\n    \"calls_per_session\": {\n      \"type\": \"number\",\n      \"format\": \"float\",\n      \"example\": 42.5\n    },\n    \"failed_call_rate\": {\n      \"type\": \"number\",\n      \"format\": \"float\",\n      \"example\": 12.3\n    },\n    \"interaction_time\": {\n      \"type\": \"number\",\n      \"format\": \"float\",\n      \"example\": 42.5\n    },\n    \"launch_count\": {\n      \"type\": \"integer\",\n      \"example\": 42\n    },\n    \"remote_error_rate\": {\n      \"type\": \"number\",\n      \"format\": \"\
   float\",\n      \"example\": 12.3\n    },\n    \"response_time\": {\n      \"type\": \"number\",\n      \"format\": \"float\",\n      \"example\": 42.5\n    },\n    \"throughput\": {\n      \"type\": \"number\",\n      \"format\": \"float\",\n      \"example\": 42.5\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-schema/openapi-mobile-summary-data-response-schema.json

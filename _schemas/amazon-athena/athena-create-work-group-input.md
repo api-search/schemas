@@ -7,6 +7,8 @@ provider_name: Amazon Athena
 provider_slug: amazon-athena
 schema_file: json-schema/athena-create-work-group-input-schema.json
 slug: athena-create-work-group-input
+source_filename: athena-create-work-group-input-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/json-schema/athena-create-work-group-input-schema.json\",\n  \"title\": \"CreateWorkGroupInput\",\n  \"description\": \"JSON Schema for the Amazon Athena CreateWorkGroupInput object.\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/json-schema/athena-create-work-group-input-schema.json
 tags:

@@ -13,6 +13,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-addfilterexpressioninchannelmember-request-schema.json
 slug: salesforce-addfilterexpressioninchannelmember-request
+source_filename: salesforce-addfilterexpressioninchannelmember-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"FullName\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"Metadata\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"eventChannel\": {\n          \"type\": \"string\",\n          \"example\": \"example_value\"\n        },\n        \"filterExpression\": {\n          \"type\": \"string\",\n          \"example\": \"example_value\"\n        },\n        \"selectedEntity\": {\n          \"type\": \"string\",\n          \"example\": \"example_value\"\n        },\n        \"urls\": {\n          \"type\": \"['string', 'null']\",\n          \"example\": \"https://www.example.com\"\n        }\n      },\n      \"required\": [\n        \"eventChannel\",\n        \"filterExpression\",\n        \"selectedEntity\",\n        \"urls\"\n      ]\n    }\n  },\n  \"required\": [\n    \"FullName\",\n    \"Metadata\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"\
   ,\n  \"title\": \"AddfilterexpressioninchannelmemberRequest\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-addfilterexpressioninchannelmember-request-schema.json

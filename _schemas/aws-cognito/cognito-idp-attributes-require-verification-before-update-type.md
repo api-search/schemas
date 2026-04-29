@@ -7,6 +7,8 @@ provider_name: Amazon Cognito
 provider_slug: aws-cognito
 schema_file: json-schema/cognito-idp-attributes-require-verification-before-update-type-schema.json
 slug: cognito-idp-attributes-require-verification-before-update-type
+source_filename: cognito-idp-attributes-require-verification-before-update-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"string\",\n    \"enum\": [\n      \"phone_number\",\n      \"email\"\n    ]\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-attributes-require-verification-before-update-type-schema.json\",\n  \"title\": \"AttributesRequireVerificationBeforeUpdateType\",\n  \"description\": \"AttributesRequireVerificationBeforeUpdateType schema from Amazon Cognito\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/json-schema/cognito-idp-attributes-require-verification-before-update-type-schema.json
 tags:

@@ -22,6 +22,8 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/automation-automation-company-schema.json
 slug: automation-automation-company
+source_filename: automation-automation-company-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AutomationCompany\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The company name\"\n    },\n    \"displayName\": {\n      \"type\": \"string\",\n      \"description\": \"The company display name\"\n    },\n    \"businessProfileId\": {\n      \"type\": \"string\",\n      \"description\": \"The business profile ID\"\n    },\n    \"evaluationCompany\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether this is an evaluation company\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/automation-automation-company-schema.json
 tags:

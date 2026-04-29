@@ -13,6 +13,8 @@ provider_name: Solaris Zones
 provider_slug: solaris-zones
 schema_file: json-schema/solaris-rad-zonemgr-rad-interface-schema.json
 slug: solaris-rad-zonemgr-rad-interface
+source_filename: solaris-rad-zonemgr-rad-interface-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RadInterface\",\n  \"type\": \"object\",\n  \"description\": \"A RAD interface entry describing an available management object\",\n  \"properties\": {\n    \"href\": {\n      \"type\": \"string\",\n      \"description\": \"Relative URI to the interface\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Interface type name\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-rad-zonemgr-rad-interface-schema.json
 tags:

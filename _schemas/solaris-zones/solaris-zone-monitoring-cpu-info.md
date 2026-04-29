@@ -34,6 +34,8 @@ provider_name: Solaris Zones
 provider_slug: solaris-zones
 schema_file: json-schema/solaris-zone-monitoring-cpu-info-schema.json
 slug: solaris-zone-monitoring-cpu-info
+source_filename: solaris-zone-monitoring-cpu-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CpuInfo\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"brand\": {\n      \"type\": \"string\",\n      \"description\": \"CPU brand string\"\n    },\n    \"chip_id\": {\n      \"type\": \"integer\",\n      \"description\": \"Physical chip ID\"\n    },\n    \"clock_MHz\": {\n      \"type\": \"integer\",\n      \"description\": \"CPU clock speed in MHz\"\n    },\n    \"core_id\": {\n      \"type\": \"integer\",\n      \"description\": \"Core ID within the chip\"\n    },\n    \"cpu_type\": {\n      \"type\": \"string\",\n      \"description\": \"CPU type identifier\"\n    },\n    \"implementation\": {\n      \"type\": \"string\",\n      \"description\": \"CPU implementation description\"\n    },\n    \"ncore_per_chip\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of cores per chip\"\n    },\n    \"state\": {\n      \"type\": \"string\",\n      \"description\": \"CPU\
   \ state (on-line, off-line)\"\n    },\n    \"vendor_id\": {\n      \"type\": \"string\",\n      \"description\": \"CPU vendor identifier\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/json-schema/solaris-zone-monitoring-cpu-info-schema.json

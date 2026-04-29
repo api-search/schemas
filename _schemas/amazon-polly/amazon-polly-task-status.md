@@ -7,6 +7,8 @@ provider_name: Amazon Polly
 provider_slug: amazon-polly
 schema_file: json-schema/amazon-polly-task-status-schema.json
 slug: amazon-polly-task-status
+source_filename: amazon-polly-task-status-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-task-status-schema.json\",\n  \"title\": \"TaskStatus\",\n  \"description\": \"TaskStatus schema from Amazon Polly API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"scheduled\",\n    \"inProgress\",\n    \"completed\",\n    \"failed\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-task-status-schema.json
 tags:

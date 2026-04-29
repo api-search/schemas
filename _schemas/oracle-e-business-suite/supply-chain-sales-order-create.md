@@ -31,6 +31,8 @@ provider_name: Oracle E-Business Suite
 provider_slug: oracle-e-business-suite
 schema_file: json-schema/supply-chain-sales-order-create-schema.json
 slug: supply-chain-sales-order-create
+source_filename: supply-chain-sales-order-create-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SalesOrderCreate\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"soldToOrgId\": {\n      \"type\": \"integer\"\n    },\n    \"orderTypeId\": {\n      \"type\": \"integer\"\n    },\n    \"orderedDate\": {\n      \"type\": \"string\"\n    },\n    \"transactionalCurrCode\": {\n      \"type\": \"string\"\n    },\n    \"shipToOrgId\": {\n      \"type\": \"integer\"\n    },\n    \"invoiceToOrgId\": {\n      \"type\": \"integer\"\n    },\n    \"salesrepId\": {\n      \"type\": \"integer\"\n    },\n    \"lines\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/json-schema/supply-chain-sales-order-create-schema.json
 tags:

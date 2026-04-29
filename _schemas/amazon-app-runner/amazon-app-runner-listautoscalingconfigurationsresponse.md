@@ -13,6 +13,8 @@ provider_name: Amazon App Runner
 provider_slug: amazon-app-runner
 schema_file: json-schema/amazon-app-runner-listautoscalingconfigurationsresponse-schema.json
 slug: amazon-app-runner-listautoscalingconfigurationsresponse
+source_filename: amazon-app-runner-listautoscalingconfigurationsresponse-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"ListAutoScalingConfigurationsResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"AutoScalingConfigurationSummaryList\": {},\n    \"NextToken\": {}\n  },\n  \"required\": [\n    \"AutoScalingConfigurationSummaryList\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/json-schema/amazon-app-runner-listautoscalingconfigurationsresponse-schema.json
 tags:

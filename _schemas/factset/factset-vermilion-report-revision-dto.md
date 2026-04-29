@@ -37,6 +37,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-vermilion-report-revision-dto-schema.json
 slug: factset-vermilion-report-revision-dto
+source_filename: factset-vermilion-report-revision-dto-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ReportRevisionDTO\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"reportStatus\": {\n      \"type\": \"string\"\n    },\n    \"startDate\": {\n      \"type\": \"string\"\n    },\n    \"finishDate\": {\n      \"type\": \"string\"\n    },\n    \"signOffStatus\": {\n      \"type\": \"string\"\n    },\n    \"signOffNotes\": {\n      \"type\": \"string\"\n    },\n    \"reportReasonCd\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"languageCode\": {\n      \"type\": \"string\"\n    },\n    \"outputFormat\": {\n      \"type\": \"string\"\n    },\n    \"percentageComplete\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-vermilion-report-revision-dto-schema.json
 tags:

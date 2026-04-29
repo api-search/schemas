@@ -7,6 +7,8 @@ provider_name: Amazon CodeArtifact
 provider_slug: amazon-codeartifact
 schema_file: json-schema/codeartifact-external-connection-status-schema.json
 slug: codeartifact-external-connection-status
+source_filename: codeartifact-external-connection-status-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-external-connection-status-schema.json\",\n  \"title\": \"ExternalConnectionStatus\",\n  \"description\": \"ExternalConnectionStatus schema from Amazon CodeArtifact API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"Available\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-external-connection-status-schema.json
 tags:

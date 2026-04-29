@@ -19,6 +19,8 @@ provider_name: AccuWeather
 provider_slug: accuweather
 schema_file: json-schema/accuweather-device-info-schema.json
 slug: accuweather-device-info
+source_filename: accuweather-device-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/json-schema/accuweather-device-info-schema.json\",\n  \"title\": \"DeviceInfo\",\n  \"description\": \"DeviceInfo schema from AccuWeather API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the user's browser.\\r\\nEg. 'Chrome'\",\n      \"nullable\": true\n    },\n    \"brand\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the user's device maker.\\r\\nEg. 'Apple' or 'Samsung'\",\n      \"nullable\": true\n    },\n    \"version\": {\n      \"type\": \"string\",\n      \"description\": \"Version of the user's browser.\\r\\nEg. '16'\",\n      \"nullable\": true\n    },\n    \"category\": {\n      \"type\": \"string\",\n      \"description\": \"One of 'mobile', 'tablet', or 'desktop'\",\n      \"nullable\": true\n    }\n\
   \  },\n  \"additionalProperties\": false\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/json-schema/accuweather-device-info-schema.json

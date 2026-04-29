@@ -7,6 +7,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/user-defined-function-sql-function-schema.json
 slug: user-defined-function-sql-function
+source_filename: user-defined-function-sql-function-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SQLFunction\",\n  \"type\": \"object\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/user-defined-function-sql-function-schema.json
 tags:

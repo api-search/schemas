@@ -16,6 +16,8 @@ provider_name: Vantage
 provider_slug: vantage
 schema_file: json-schema/vantage-cost-management-cost-provider-schema.json
 slug: vantage-cost-management-cost-provider
+source_filename: vantage-cost-management-cost-provider-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CostProvider\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"token\": {\n      \"type\": \"string\",\n      \"description\": \"The unique token identifier for the Cost Provider.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the Cost Provider.\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"A description of the Cost Provider.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/json-schema/vantage-cost-management-cost-provider-schema.json
 tags:

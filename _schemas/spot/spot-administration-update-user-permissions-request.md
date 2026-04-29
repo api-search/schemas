@@ -13,6 +13,8 @@ provider_name: Spot
 provider_slug: spot
 schema_file: json-schema/spot-administration-update-user-permissions-request-schema.json
 slug: spot-administration-update-user-permissions-request
+source_filename: spot-administration-update-user-permissions-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"UpdateUserPermissionsRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"role\": {\n      \"type\": \"string\"\n    },\n    \"accounts\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/json-schema/spot-administration-update-user-permissions-request-schema.json
 tags:

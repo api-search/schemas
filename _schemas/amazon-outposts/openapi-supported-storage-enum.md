@@ -7,6 +7,8 @@ provider_name: Amazon Outposts
 provider_slug: amazon-outposts
 schema_file: json-schema/openapi-supported-storage-enum-schema.json
 slug: openapi-supported-storage-enum
+source_filename: openapi-supported-storage-enum-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-supported-storage-enum-schema.json\",\n  \"title\": \"SupportedStorageEnum\",\n  \"description\": \"SupportedStorageEnum schema from Amazon Outposts\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"EBS\",\n    \"S3\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-supported-storage-enum-schema.json
 tags:

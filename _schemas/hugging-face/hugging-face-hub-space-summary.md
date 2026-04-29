@@ -40,6 +40,8 @@ provider_name: Hugging Face
 provider_slug: hugging-face
 schema_file: json-schema/hugging-face-hub-space-summary-schema.json
 slug: hugging-face-hub-space-summary
+source_filename: hugging-face-hub-space-summary-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SpaceSummary\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"_id\": {\n      \"type\": \"string\"\n    },\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Space repository ID\"\n    },\n    \"author\": {\n      \"type\": \"string\"\n    },\n    \"sha\": {\n      \"type\": \"string\"\n    },\n    \"lastModified\": {\n      \"type\": \"string\"\n    },\n    \"private\": {\n      \"type\": \"boolean\"\n    },\n    \"tags\": {\n      \"type\": \"array\"\n    },\n    \"likes\": {\n      \"type\": \"integer\"\n    },\n    \"sdk\": {\n      \"type\": \"string\",\n      \"description\": \"SDK used by the Space\"\n    },\n    \"runtime\": {\n      \"type\": \"object\"\n    },\n    \"createdAt\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/json-schema/hugging-face-hub-space-summary-schema.json
 tags: []

@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/location-score-category-rated-areas-schema.json
 slug: location-score-category-rated-areas
+source_filename: location-score-category-rated-areas-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"category-rated-areas\",\n  \"description\": \"\",\n  \"type\": \"object\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/location-score-category-rated-areas-schema.json
 tags:

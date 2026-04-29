@@ -13,6 +13,8 @@ provider_name: Docusign
 provider_slug: docusign
 schema_file: json-schema/docusign-esignature-envelope-documents-result-schema.json
 slug: docusign-esignature-envelope-documents-result
+source_filename: docusign-esignature-envelope-documents-result-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"EnvelopeDocumentsResult\",\n  \"type\": \"object\",\n  \"description\": \"Contains the list of documents in an envelope.\",\n  \"properties\": {\n    \"envelopeId\": {\n      \"type\": \"string\",\n      \"description\": \"The envelope ID.\"\n    },\n    \"envelopeDocuments\": {\n      \"type\": \"array\",\n      \"description\": \"The list of envelope documents.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/json-schema/docusign-esignature-envelope-documents-result-schema.json
 tags:

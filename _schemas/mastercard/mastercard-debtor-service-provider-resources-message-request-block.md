@@ -19,6 +19,8 @@ provider_name: Mastercard
 provider_slug: mastercard
 schema_file: json-schema/mastercard-debtor-service-provider-resources-message-request-block-schema.json
 slug: mastercard-debtor-service-provider-resources-message-request-block
+source_filename: mastercard-debtor-service-provider-resources-message-request-block-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"MessageRequestBlock\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"initiatingPartyId\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier of the message sender.\"\n    },\n    \"messageId\": {\n      \"type\": \"string\",\n      \"description\": \"A point-to-point unique identifier is assigned to every message by the message initiator.\"\n    },\n    \"creationDateTime\": {\n      \"type\": \"string\",\n      \"description\": \"ISO 8601 format date and time in Coordinated Universal Time (UTC) when this message was created.\"\n    },\n    \"businessType\": {\n      \"type\": \"number\",\n      \"description\": \"Unique identifier assigned by Mastercard to define the commercial product construct. * Refer to Codes and Formats section for more details.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-schema/mastercard-debtor-service-provider-resources-message-request-block-schema.json
 tags:

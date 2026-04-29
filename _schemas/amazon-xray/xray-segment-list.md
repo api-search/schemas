@@ -7,6 +7,8 @@ provider_name: Amazon X-Ray
 provider_slug: amazon-xray
 schema_file: json-schema/xray-segment-list-schema.json
 slug: xray-segment-list
+source_filename: xray-segment-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/Segment\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SegmentList\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-segment-list-schema.json\",\n  \"description\": \"SegmentList schema from Amazon X-Ray API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-segment-list-schema.json
 tags:

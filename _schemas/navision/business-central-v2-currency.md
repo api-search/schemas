@@ -28,6 +28,8 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/business-central-v2-currency-schema.json
 slug: business-central-v2-currency
+source_filename: business-central-v2-currency-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Currency\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"code\": {\n      \"type\": \"string\"\n    },\n    \"displayName\": {\n      \"type\": \"string\"\n    },\n    \"symbol\": {\n      \"type\": \"string\"\n    },\n    \"amountDecimalPlaces\": {\n      \"type\": \"string\"\n    },\n    \"amountRoundingPrecision\": {\n      \"type\": \"number\"\n    },\n    \"lastModifiedDateTime\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-currency-schema.json
 tags:

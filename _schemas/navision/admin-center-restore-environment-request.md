@@ -25,6 +25,8 @@ provider_name: Microsoft Dynamics NAV
 provider_slug: navision
 schema_file: json-schema/admin-center-restore-environment-request-schema.json
 slug: admin-center-restore-environment-request
+source_filename: admin-center-restore-environment-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RestoreEnvironmentRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"EnvironmentName\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the new restored environment\"\n    },\n    \"EnvironmentType\": {\n      \"type\": \"string\",\n      \"description\": \"Type of the new environment\"\n    },\n    \"PointInTime\": {\n      \"type\": \"string\",\n      \"description\": \"Point in time to restore to (ISO 8601 UTC)\"\n    },\n    \"SkipInstallingPTEs\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to uninstall per-tenant extensions\"\n    },\n    \"SkipInstallingThirdPartyGlobalApps\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to uninstall third-party AppSource apps\"\n    },\n    \"SkipEnvironmentCleanup\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to skip execution of cleanup codeunits\"\n   \
   \ }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/admin-center-restore-environment-request-schema.json

@@ -40,6 +40,8 @@ provider_name: Hugging Face
 provider_slug: hugging-face
 schema_file: json-schema/hugging-face-hub-user-info-schema.json
 slug: hugging-face-hub-user-info
+source_filename: hugging-face-hub-user-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"UserInfo\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Account type (user or organization)\"\n    },\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Username\"\n    },\n    \"fullname\": {\n      \"type\": \"string\",\n      \"description\": \"Full display name\"\n    },\n    \"email\": {\n      \"type\": \"string\"\n    },\n    \"emailVerified\": {\n      \"type\": \"boolean\"\n    },\n    \"plan\": {\n      \"type\": \"string\",\n      \"description\": \"Subscription plan\"\n    },\n    \"canPay\": {\n      \"type\": \"boolean\"\n    },\n    \"avatarUrl\": {\n      \"type\": \"string\"\n    },\n    \"orgs\": {\n      \"type\": \"array\"\n    },\n    \"auth\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/json-schema/hugging-face-hub-user-info-schema.json
 tags: []

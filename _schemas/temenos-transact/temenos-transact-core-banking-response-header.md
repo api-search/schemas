@@ -19,6 +19,8 @@ provider_name: Temenos Transact
 provider_slug: temenos-transact
 schema_file: json-schema/temenos-transact-core-banking-response-header-schema.json
 slug: temenos-transact-core-banking-response-header
+source_filename: temenos-transact-core-banking-response-header-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ResponseHeader\",\n  \"type\": \"object\",\n  \"description\": \"Standard response header returned by all Transact API operations\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the resource\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"Status of the operation (success, error)\"\n    },\n    \"transactionStatus\": {\n      \"type\": \"string\",\n      \"description\": \"Transaction lifecycle status\"\n    },\n    \"audit\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/json-schema/temenos-transact-core-banking-response-header-schema.json
 tags:

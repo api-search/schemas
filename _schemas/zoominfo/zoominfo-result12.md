@@ -16,6 +16,8 @@ provider_name: ZoomInfo
 provider_slug: zoominfo
 schema_file: json-schema/zoominfo-result12-schema.json
 slug: zoominfo-result12
+source_filename: zoominfo-result12-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"statusCode\": {\n      \"type\": \"integer\",\n      \"example\": 100\n    },\n    \"input\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"zi_c_id\": {\n          \"type\": \"integer\",\n          \"example\": 500123\n        }\n      },\n      \"required\": [\n        \"zi_c_id\"\n      ]\n    },\n    \"data\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"errorMessage\": {\n          \"type\": \"string\",\n          \"example\": \"example_value\"\n        }\n      },\n      \"required\": [\n        \"errorMessage\"\n      ]\n    }\n  },\n  \"required\": [\n    \"statusCode\",\n    \"input\",\n    \"data\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Result12\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/json-schema/zoominfo-result12-schema.json
 tags:

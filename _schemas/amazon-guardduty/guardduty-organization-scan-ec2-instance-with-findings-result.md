@@ -10,6 +10,8 @@ provider_name: Amazon GuardDuty
 provider_slug: amazon-guardduty
 schema_file: json-schema/guardduty-organization-scan-ec2-instance-with-findings-result-schema.json
 slug: guardduty-organization-scan-ec2-instance-with-findings-result
+source_filename: guardduty-organization-scan-ec2-instance-with-findings-result-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/json-schema/guardduty-organization-scan-ec2-instance-with-findings-result-schema.json\",\n  \"title\": \"OrganizationScanEc2InstanceWithFindingsResult\",\n  \"description\": \"An object that contains information on the status of scanning EC2 instances with findings for an organization.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"EbsVolumes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OrganizationEbsVolumesResult\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"ebsVolumes\"\n          },\n          \"description\": \"Describes the configuration for scanning EBS volumes for an organization.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/json-schema/guardduty-organization-scan-ec2-instance-with-findings-result-schema.json
 tags:

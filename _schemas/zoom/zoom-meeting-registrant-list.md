@@ -25,6 +25,8 @@ provider_name: Zoom
 provider_slug: zoom
 schema_file: json-schema/zoom-meeting-registrant-list-schema.json
 slug: zoom-meeting-registrant-list
+source_filename: zoom-meeting-registrant-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RegistrantList\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"page_count\": {\n      \"type\": \"integer\",\n      \"description\": \"Total number of pages.\"\n    },\n    \"page_number\": {\n      \"type\": \"integer\",\n      \"description\": \"Current page number.\"\n    },\n    \"page_size\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of records per page.\"\n    },\n    \"total_records\": {\n      \"type\": \"integer\",\n      \"description\": \"Total number of registrant records.\"\n    },\n    \"next_page_token\": {\n      \"type\": \"string\",\n      \"description\": \"Pagination token for the next page.\"\n    },\n    \"registrants\": {\n      \"type\": \"array\",\n      \"description\": \"List of registrant objects.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/json-schema/zoom-meeting-registrant-list-schema.json
 tags:

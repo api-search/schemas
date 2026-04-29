@@ -22,6 +22,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-portfolio-optimizer-optimal-portfolio-schema.json
 slug: factset-portfolio-optimizer-optimal-portfolio
+source_filename: factset-portfolio-optimizer-optimal-portfolio-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"OptimalPortfolio\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"acctName\": {\n      \"type\": \"string\",\n      \"description\": \"Account path\"\n    },\n    \"excludeZero\": {\n      \"type\": \"boolean\",\n      \"description\": \"Exclude zero\"\n    },\n    \"archiveDate\": {\n      \"type\": \"string\",\n      \"description\": \"Archive date\"\n    },\n    \"ifAcctExists\": {\n      \"type\": \"string\",\n      \"description\": \"Archive action if account exists\"\n    },\n    \"ifOfdbDateExists\": {\n      \"type\": \"string\",\n      \"description\": \"Action if ofdb date exists\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-portfolio-optimizer-optimal-portfolio-schema.json
 tags:

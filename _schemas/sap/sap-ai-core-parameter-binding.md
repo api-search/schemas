@@ -13,6 +13,8 @@ provider_name: SAP
 provider_slug: sap
 schema_file: json-schema/sap-ai-core-parameter-binding-schema.json
 slug: sap-ai-core-parameter-binding
+source_filename: sap-ai-core-parameter-binding-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ParameterBinding\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"key\": {\n      \"type\": \"string\",\n      \"description\": \"Parameter name\"\n    },\n    \"value\": {\n      \"type\": \"string\",\n      \"description\": \"Parameter value\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/json-schema/sap-ai-core-parameter-binding-schema.json
 tags:

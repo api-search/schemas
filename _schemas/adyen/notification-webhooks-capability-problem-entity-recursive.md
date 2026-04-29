@@ -13,6 +13,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/notification-webhooks-capability-problem-entity-recursive-schema.json
 slug: notification-webhooks-capability-problem-entity-recursive
+source_filename: notification-webhooks-capability-problem-entity-recursive-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/notification-webhooks-capability-problem-entity-recursive-schema.json\",\n  \"title\": \"CapabilityProblemEntity-recursive\",\n  \"description\": \"CapabilityProblemEntity-recursive schema from Adyen API\",\n  \"properties\": {\n    \"id\": {\n      \"description\": \"The ID of the entity.\",\n      \"type\": \"string\"\n    },\n    \"type\": {\n      \"description\": \"Type of entity. \\n\\nPossible values: **LegalEntity**, **BankAccount**, **Document**.\",\n      \"enum\": [\n        \"BankAccount\",\n        \"Document\",\n        \"LegalEntity\"\n      ],\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [],\n  \"type\": \"object\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/notification-webhooks-capability-problem-entity-recursive-schema.json
 tags:

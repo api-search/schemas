@@ -7,6 +7,8 @@ provider_name: Amazon CodeDeploy
 provider_slug: amazon-codedeploy
 schema_file: json-schema/amazon-codedeploy-revision-location-type-schema.json
 slug: amazon-codedeploy-revision-location-type
+source_filename: amazon-codedeploy-revision-location-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-revision-location-type-schema.json\",\n  \"title\": \"RevisionLocationType\",\n  \"description\": \"RevisionLocationType schema from Amazon CodeDeploy\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"S3\",\n    \"GitHub\",\n    \"String\",\n    \"AppSpecContent\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-revision-location-type-schema.json
 tags:

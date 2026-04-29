@@ -7,6 +7,8 @@ provider_name: Amazon Config
 provider_slug: amazon-config
 schema_file: json-schema/config-organization-config-rule-trigger-type-no-sn-schema.json
 slug: config-organization-config-rule-trigger-type-no-sn
+source_filename: config-organization-config-rule-trigger-type-no-sn-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/json-schema/config-organization-config-rule-trigger-type-no-sn-schema.json\",\n  \"title\": \"OrganizationConfigRuleTriggerTypeNoSN\",\n  \"description\": \"OrganizationConfigRuleTriggerTypeNoSN schema\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ConfigurationItemChangeNotification\",\n    \"OversizedConfigurationItemChangeNotification\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/json-schema/config-organization-config-rule-trigger-type-no-sn-schema.json
 tags:

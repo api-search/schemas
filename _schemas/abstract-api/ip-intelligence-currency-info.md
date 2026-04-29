@@ -16,6 +16,8 @@ provider_name: Abstract API
 provider_slug: abstract-api
 schema_file: json-schema/ip-intelligence-currency-info-schema.json
 slug: ip-intelligence-currency-info
+source_filename: ip-intelligence-currency-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-schema/ip-intelligence-currency-info-schema.json\",\n  \"title\": \"CurrencyInfo\",\n  \"description\": \"CurrencyInfo schema from Abstract API ip-intelligence\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"example\": \"US Dollar\"\n    },\n    \"iso_code\": {\n      \"type\": \"string\",\n      \"example\": \"USD\"\n    },\n    \"symbol\": {\n      \"type\": \"string\",\n      \"example\": \"$\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-schema/ip-intelligence-currency-info-schema.json
 tags:

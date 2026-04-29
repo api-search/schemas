@@ -7,6 +7,8 @@ provider_name: Amazon Cognito
 provider_slug: amazon-cognito
 schema_file: json-schema/user-pools-supported-identity-providers-list-type-schema.json
 slug: user-pools-supported-identity-providers-list-type
+source_filename: user-pools-supported-identity-providers-list-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/json-schema/user-pools-supported-identity-providers-list-type-schema.json\",\n  \"title\": \"SupportedIdentityProvidersListType\",\n  \"description\": \"SupportedIdentityProvidersListType schema from Amazon Cognito API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/ProviderNameType\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/json-schema/user-pools-supported-identity-providers-list-type-schema.json
 tags:

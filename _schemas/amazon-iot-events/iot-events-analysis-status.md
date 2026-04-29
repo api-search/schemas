@@ -7,6 +7,8 @@ provider_name: Amazon IoT Events
 provider_slug: amazon-iot-events
 schema_file: json-schema/iot-events-analysis-status-schema.json
 slug: iot-events-analysis-status
+source_filename: iot-events-analysis-status-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-analysis-status-schema.json\",\n  \"title\": \"AnalysisStatus\",\n  \"description\": \"AnalysisStatus schema\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"RUNNING\",\n    \"COMPLETE\",\n    \"FAILED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-analysis-status-schema.json
 tags:

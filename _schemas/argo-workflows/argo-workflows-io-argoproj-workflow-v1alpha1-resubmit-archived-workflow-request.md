@@ -22,6 +22,8 @@ provider_name: Argo Workflows
 provider_slug: argo-workflows
 schema_file: json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-resubmit-archived-workflow-request-schema.json
 slug: argo-workflows-io-argoproj-workflow-v1alpha1-resubmit-archived-workflow-request
+source_filename: argo-workflows-io-argoproj-workflow-v1alpha1-resubmit-archived-workflow-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-resubmit-archived-workflow-request-schema.json\",\n  \"title\": \"io.argoproj.workflow.v1alpha1.ResubmitArchivedWorkflowRequest\",\n  \"description\": \"io.argoproj.workflow.v1alpha1.ResubmitArchivedWorkflowRequest schema from Argo Workflows API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"memoized\": {\n      \"type\": \"boolean\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"namespace\": {\n      \"type\": \"string\"\n    },\n    \"parameters\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"uid\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/json-schema/argo-workflows-io-argoproj-workflow-v1alpha1-resubmit-archived-workflow-request-schema.json
 tags:

@@ -13,6 +13,8 @@ provider_name: Apache Ignite
 provider_slug: apache-ignite
 schema_file: json-schema/rest-api-node-version-schema.json
 slug: rest-api-node-version
+source_filename: rest-api-node-version-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/json-schema/rest-api-node-version-schema.json\",\n  \"title\": \"NodeVersion\",\n  \"description\": \"Node version.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"version\": {\n      \"type\": \"string\",\n      \"description\": \"Node version.\"\n    },\n    \"product\": {\n      \"type\": \"string\",\n      \"description\": \"Node product.\"\n    }\n  },\n  \"required\": [\n    \"product\",\n    \"version\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/json-schema/rest-api-node-version-schema.json
 tags:

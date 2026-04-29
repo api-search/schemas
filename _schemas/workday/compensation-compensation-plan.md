@@ -22,6 +22,8 @@ provider_name: Workday
 provider_slug: workday
 schema_file: json-schema/compensation-compensation-plan-schema.json
 slug: compensation-compensation-plan
+source_filename: compensation-compensation-plan-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CompensationPlan\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The Workday ID of the compensation plan.\"\n    },\n    \"descriptor\": {\n      \"type\": \"string\",\n      \"description\": \"A display descriptor for the plan.\"\n    },\n    \"compensationPlanType\": {\n      \"type\": \"string\",\n      \"description\": \"The type of compensation plan (e.g., Salary, Allowance, Bonus).\"\n    },\n    \"amount\": {\n      \"type\": \"number\",\n      \"description\": \"The compensation amount.\"\n    },\n    \"effectiveDate\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/json-schema/compensation-compensation-plan-schema.json
 tags:

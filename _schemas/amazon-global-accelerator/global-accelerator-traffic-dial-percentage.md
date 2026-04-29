@@ -7,6 +7,8 @@ provider_name: Amazon Global Accelerator
 provider_slug: amazon-global-accelerator
 schema_file: json-schema/global-accelerator-traffic-dial-percentage-schema.json
 slug: global-accelerator-traffic-dial-percentage
+source_filename: global-accelerator-traffic-dial-percentage-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/json-schema/global-accelerator-traffic-dial-percentage-schema.json\",\n  \"title\": \"TrafficDialPercentage\",\n  \"description\": \"TrafficDialPercentage schema from Amazon Global Accelerator API\",\n  \"type\": \"number\",\n  \"format\": \"float\",\n  \"minimum\": 0,\n  \"maximum\": 100\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/json-schema/global-accelerator-traffic-dial-percentage-schema.json
 tags:

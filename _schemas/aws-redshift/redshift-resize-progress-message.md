@@ -55,6 +55,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-resize-progress-message-schema.json
 slug: redshift-resize-progress-message
+source_filename: redshift-resize-progress-message-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"TargetNodeType\": {},\n    \"TargetNumberOfNodes\": {},\n    \"TargetClusterType\": {},\n    \"Status\": {},\n    \"ImportTablesCompleted\": {},\n    \"ImportTablesInProgress\": {},\n    \"ImportTablesNotStarted\": {},\n    \"AvgResizeRateInMegaBytesPerSecond\": {},\n    \"TotalResizeDataInMegaBytes\": {},\n    \"ProgressInMegaBytes\": {},\n    \"ElapsedTimeInSeconds\": {},\n    \"EstimatedTimeToCompletionInSeconds\": {},\n    \"ResizeType\": {},\n    \"Message\": {},\n    \"TargetEncryptionType\": {},\n    \"DataTransferProgressPercent\": {}\n  },\n  \"description\": \"Describes the result of a cluster resize operation.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-resize-progress-message-schema.json\",\n  \"title\": \"ResizeProgressMessage\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-resize-progress-message-schema.json
 tags:

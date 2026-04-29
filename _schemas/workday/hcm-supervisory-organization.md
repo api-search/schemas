@@ -25,6 +25,8 @@ provider_name: Workday
 provider_slug: workday
 schema_file: json-schema/hcm-supervisory-organization-schema.json
 slug: hcm-supervisory-organization
+source_filename: hcm-supervisory-organization-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SupervisoryOrganization\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The Workday ID of the organization.\"\n    },\n    \"descriptor\": {\n      \"type\": \"string\",\n      \"description\": \"A display descriptor for the organization.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the supervisory organization.\"\n    },\n    \"code\": {\n      \"type\": \"string\",\n      \"description\": \"The organization reference ID.\"\n    },\n    \"isInactive\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the organization is inactive.\"\n    },\n    \"staffingModel\": {\n      \"type\": \"string\",\n      \"description\": \"The staffing model for the organization.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/json-schema/hcm-supervisory-organization-schema.json
 tags:

@@ -7,6 +7,8 @@ provider_name: Amazon CodeGuru Security
 provider_slug: amazon-codeguru-security
 schema_file: json-schema/amazon-codeguru-security-header-key-schema.json
 slug: amazon-codeguru-security-header-key
+source_filename: amazon-codeguru-security-header-key-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/json-schema/amazon-codeguru-security-header-key-schema.json\",\n  \"title\": \"HeaderKey\",\n  \"description\": \"HeaderKey schema from Amazon CodeGuru Security\",\n  \"type\": \"string\",\n  \"minLength\": 1\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/json-schema/amazon-codeguru-security-header-key-schema.json
 tags:

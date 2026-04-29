@@ -7,6 +7,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-estimates-surprise-request-schema.json
 slug: factset-estimates-surprise-request
+source_filename: factset-estimates-surprise-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"surpriseRequest\",\n  \"type\": \"object\",\n  \"description\": \"Request object for requesting surprise estimates.\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-estimates-surprise-request-schema.json
 tags:

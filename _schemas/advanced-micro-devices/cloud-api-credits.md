@@ -22,6 +22,8 @@ provider_name: Advanced Micro Devices
 provider_slug: advanced-micro-devices
 schema_file: json-schema/cloud-api-credits-schema.json
 slug: cloud-api-credits
+source_filename: cloud-api-credits-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Credits\",\n  \"description\": \"GPU credit balance and usage.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"balance\": {\n      \"type\": \"number\"\n    },\n    \"used\": {\n      \"type\": \"number\"\n    },\n    \"total\": {\n      \"type\": \"number\"\n    },\n    \"currency\": {\n      \"type\": \"string\"\n    },\n    \"expiresAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/json-schema/cloud-api-credits-schema.json
 tags:

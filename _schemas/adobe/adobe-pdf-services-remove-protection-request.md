@@ -13,6 +13,8 @@ provider_name: Adobe
 provider_slug: adobe
 schema_file: json-schema/adobe-pdf-services-remove-protection-request-schema.json
 slug: adobe-pdf-services-remove-protection-request
+source_filename: adobe-pdf-services-remove-protection-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RemoveProtectionRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"assetID\": {\n      \"type\": \"string\",\n      \"description\": \"The asset ID of the protected PDF.\"\n    },\n    \"password\": {\n      \"type\": \"string\",\n      \"description\": \"The password to unlock the PDF.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/json-schema/adobe-pdf-services-remove-protection-request-schema.json
 tags:

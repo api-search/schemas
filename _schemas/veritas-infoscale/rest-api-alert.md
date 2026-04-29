@@ -28,6 +28,8 @@ provider_name: Veritas InfoScale
 provider_slug: veritas-infoscale
 schema_file: json-schema/rest-api-alert-schema.json
 slug: rest-api-alert
+source_filename: rest-api-alert-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/json-schema/rest-api-alert-schema.json\",\n  \"title\": \"Alert\",\n  \"description\": \"Cluster alert schema from Veritas InfoScale REST API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"alertId\": {\n      \"type\": \"string\",\n      \"format\": \"uuid\",\n      \"description\": \"Alert unique identifier\"\n    },\n    \"severity\": {\n      \"type\": \"string\",\n      \"enum\": [\"critical\", \"warning\", \"info\"],\n      \"description\": \"Alert severity\"\n    },\n    \"message\": {\n      \"type\": \"string\",\n      \"description\": \"Alert message\"\n    },\n    \"source\": {\n      \"type\": \"string\",\n      \"description\": \"Alert source component\"\n    },\n    \"timestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Alert timestamp\"\n\
   \    },\n    \"acknowledged\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the alert has been acknowledged\"\n    },\n    \"clusterId\": {\n      \"type\": \"string\",\n      \"description\": \"Related cluster identifier\"\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/json-schema/rest-api-alert-schema.json

@@ -13,6 +13,8 @@ provider_name: Azure Service Bus
 provider_slug: azure-service-bus
 schema_file: json-schema/azure-service-bus-sb-topic-list-result-schema.json
 slug: azure-service-bus-sb-topic-list-result
+source_filename: azure-service-bus-sb-topic-list-result-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SBTopicListResult\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"value\": {\n      \"type\": \"array\"\n    },\n    \"nextLink\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/json-schema/azure-service-bus-sb-topic-list-result-schema.json
 tags:

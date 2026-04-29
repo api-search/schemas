@@ -7,6 +7,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-choice-prediction-pricingoptionsfaretype-schema.json
 slug: flight-choice-prediction-pricingoptionsfaretype
+source_filename: flight-choice-prediction-pricingoptionsfaretype-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"PricingOptionsFareType\",\n  \"description\": \"type of fare of the flight-offer\",\n  \"type\": \"array\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-choice-prediction-pricingoptionsfaretype-schema.json
 tags:

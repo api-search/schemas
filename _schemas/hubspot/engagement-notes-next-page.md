@@ -13,6 +13,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/engagement-notes-next-page-schema.json
 slug: engagement-notes-next-page
+source_filename: engagement-notes-next-page-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/engagement-notes-next-page-schema.json\",\n  \"title\": \"NextPage\",\n  \"description\": \"Information about the next page\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"after\": {\n      \"type\": \"string\",\n      \"description\": \"Cursor for the next page\",\n      \"example\": \"MTAyNA%3D%3D\"\n    },\n    \"link\": {\n      \"type\": \"string\",\n      \"description\": \"Link to the next page\",\n      \"example\": \"https://app.hubspot.com/contacts/12345\"\n    }\n  },\n  \"required\": [\n    \"after\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/engagement-notes-next-page-schema.json
 tags:

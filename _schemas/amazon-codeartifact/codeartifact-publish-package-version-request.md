@@ -10,6 +10,8 @@ provider_name: Amazon CodeArtifact
 provider_slug: amazon-codeartifact
 schema_file: json-schema/codeartifact-publish-package-version-request-schema.json
 slug: codeartifact-publish-package-version-request
+source_filename: codeartifact-publish-package-version-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-publish-package-version-request-schema.json\",\n  \"title\": \"PublishPackageVersionRequest\",\n  \"description\": \"PublishPackageVersionRequest schema from Amazon CodeArtifact API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"assetContent\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Asset\"\n        },\n        {\n          \"description\": \"The content of the asset to publish.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"assetContent\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-publish-package-version-request-schema.json
 tags:

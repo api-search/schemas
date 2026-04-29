@@ -19,6 +19,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-files-branch-schema.json
 slug: figma-files-branch
+source_filename: figma-files-branch-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Branch\",\n  \"type\": \"object\",\n  \"description\": \"Information about a branch of the file.\",\n  \"properties\": {\n    \"key\": {\n      \"type\": \"string\",\n      \"description\": \"The key of the branch.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the branch.\"\n    },\n    \"thumbnailUrl\": {\n      \"type\": \"string\",\n      \"description\": \"A URL to a thumbnail image of the branch.\"\n    },\n    \"lastModified\": {\n      \"type\": \"string\",\n      \"description\": \"The UTC ISO 8601 time at which the branch was last modified.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-files-branch-schema.json
 tags:

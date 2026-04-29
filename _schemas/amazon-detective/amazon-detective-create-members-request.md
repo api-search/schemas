@@ -19,6 +19,8 @@ provider_name: Amazon Detective
 provider_slug: amazon-detective
 schema_file: json-schema/amazon-detective-create-members-request-schema.json
 slug: amazon-detective-create-members-request
+source_filename: amazon-detective-create-members-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-create-members-request-schema.json\",\n  \"title\": \"CreateMembersRequest\",\n  \"description\": \"Request to invite member accounts to a behavior graph\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"GraphArn\": {\n      \"type\": \"string\",\n      \"description\": \"The ARN of the behavior graph.\",\n      \"example\": \"arn:aws:detective:us-east-1:123456789012:graph:abc123def456\"\n    },\n    \"Message\": {\n      \"type\": \"string\",\n      \"description\": \"Customized message text to include in the invitation email message.\",\n      \"example\": \"Please join our security behavior graph.\"\n    },\n    \"DisableEmailNotification\": {\n      \"type\": \"boolean\",\n      \"description\": \"If set to true, invitation emails are not sent.\",\n      \"example\": false\n\
   \    },\n    \"Accounts\": {\n      \"type\": \"array\",\n      \"description\": \"The list of AWS accounts to invite to become member accounts.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Account\"\n      }\n    }\n  },\n  \"required\": [\n    \"GraphArn\",\n    \"Accounts\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-create-members-request-schema.json

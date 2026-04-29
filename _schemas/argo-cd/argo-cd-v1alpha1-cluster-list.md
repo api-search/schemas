@@ -13,6 +13,8 @@ provider_name: Argo CD
 provider_slug: argo-cd
 schema_file: json-schema/argo-cd-v1alpha1-cluster-list-schema.json
 slug: argo-cd-v1alpha1-cluster-list
+source_filename: argo-cd-v1alpha1-cluster-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-schema/argo-cd-v1alpha1-cluster-list-schema.json\",\n  \"title\": \"v1alpha1ClusterList\",\n  \"description\": \"ClusterList is a collection of Clusters.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"items\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/v1alpha1Cluster\"\n      }\n    },\n    \"metadata\": {\n      \"$ref\": \"#/definitions/v1ListMeta\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/json-schema/argo-cd-v1alpha1-cluster-list-schema.json
 tags:

@@ -19,6 +19,8 @@ provider_name: VMware
 provider_slug: vmware
 schema_file: json-schema/vmware-vsphere-host-summary-schema.json
 slug: vmware-vsphere-host-summary
+source_filename: vmware-vsphere-host-summary-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"HostSummary\",\n  \"type\": \"object\",\n  \"description\": \"Summary of an ESXi host in the vCenter inventory\",\n  \"properties\": {\n    \"host\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier of the host (e.g., host-10)\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Display name or hostname of the ESXi host\"\n    },\n    \"connection_state\": {\n      \"type\": \"string\",\n      \"description\": \"Connection state of the host\"\n    },\n    \"power_state\": {\n      \"type\": \"string\",\n      \"description\": \"Power state of the host\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/json-schema/vmware-vsphere-host-summary-schema.json
 tags:

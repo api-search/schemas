@@ -10,6 +10,8 @@ provider_name: Amazon Clean Rooms
 provider_slug: amazon-clean-rooms
 schema_file: json-schema/clean-rooms-create-collaboration-response-schema.json
 slug: clean-rooms-create-collaboration-response
+source_filename: clean-rooms-create-collaboration-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/json-schema/clean-rooms-create-collaboration-response-schema.json\",\n  \"title\": \"CreateCollaborationResponse\",\n  \"description\": \"Response for creating a collaboration.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"collaboration\": {\n      \"$ref\": \"#/components/schemas/Collaboration\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/json-schema/clean-rooms-create-collaboration-response-schema.json
 tags:

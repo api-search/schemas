@@ -16,6 +16,8 @@ provider_name: Apache Iceberg
 provider_slug: apache-iceberg
 schema_file: json-schema/rest-catalog-open-api-and-or-expression-schema.json
 slug: rest-catalog-open-api-and-or-expression
+source_filename: rest-catalog-open-api-and-or-expression-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/json-schema/rest-catalog-open-api-and-or-expression-schema.json\",\n  \"title\": \"AndOrExpression\",\n  \"description\": \"AndOrExpression schema from Apache Iceberg REST Catalog API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": {\n      \"$ref\": \"#/components/schemas/ExpressionType\",\n      \"enum\": [\n        \"and\",\n        \"or\"\n      ]\n    },\n    \"left\": {\n      \"$ref\": \"#/components/schemas/Expression\"\n    },\n    \"right\": {\n      \"$ref\": \"#/components/schemas/Expression\"\n    }\n  },\n  \"required\": [\n    \"type\",\n    \"left\",\n    \"right\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/json-schema/rest-catalog-open-api-and-or-expression-schema.json
 tags:

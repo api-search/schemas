@@ -40,6 +40,8 @@ provider_name: SAP S/4HANA
 provider_slug: sap-s4hana
 schema_file: json-schema/sap-s4hana-sales-order-sales-order-item-update-schema.json
 slug: sap-s4hana-sales-order-sales-order-item-update
+source_filename: sap-s4hana-sales-order-sales-order-item-update-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SalesOrderItemUpdate\",\n  \"type\": \"object\",\n  \"description\": \"Request payload for updating sales order item fields\",\n  \"properties\": {\n    \"RequestedQuantity\": {\n      \"type\": \"string\"\n    },\n    \"RequestedQuantityUnit\": {\n      \"type\": \"string\"\n    },\n    \"Plant\": {\n      \"type\": \"string\"\n    },\n    \"SalesOrderItemText\": {\n      \"type\": \"string\"\n    },\n    \"PricingDate\": {\n      \"type\": \"string\"\n    },\n    \"CustomerPaymentTerms\": {\n      \"type\": \"string\"\n    },\n    \"ItemBillingBlockReason\": {\n      \"type\": \"string\"\n    },\n    \"SalesDocumentRjcnReason\": {\n      \"type\": \"string\"\n    },\n    \"DeliveryPriority\": {\n      \"type\": \"string\"\n    },\n    \"IncotermsClassification\": {\n      \"type\": \"string\"\n    },\n    \"IncotermsTransferLocation\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/json-schema/sap-s4hana-sales-order-sales-order-item-update-schema.json
 tags:

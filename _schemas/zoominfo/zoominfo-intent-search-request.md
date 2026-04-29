@@ -34,6 +34,8 @@ provider_name: ZoomInfo
 provider_slug: zoominfo
 schema_file: json-schema/zoominfo-intent-search-request-schema.json
 slug: zoominfo-intent-search-request
+source_filename: zoominfo-intent-search-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"topics\": {\n      \"type\": \"array\",\n      \"description\": \"\",\n      \"example\": [],\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"signalScoreMin\": {\n      \"type\": \"integer\",\n      \"example\": 85\n    },\n    \"signalScoreMax\": {\n      \"type\": \"integer\",\n      \"example\": 85\n    },\n    \"audienceStrengthMin\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"audienceStrengthMax\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"metroRegion\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"industryCodes\": {\n      \"type\": \"string\",\n      \"example\": \"Software\"\n    },\n    \"sortBy\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"sortOrder\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n  \
   \  }\n  },\n  \"required\": [\n    \"topics\",\n    \"signalScoreMin\",\n    \"signalScoreMax\",\n    \"audienceStrengthMin\",\n    \"audienceStrengthMax\",\n    \"metroRegion\",\n    \"industryCodes\",\n    \"sortBy\",\n    \"sortOrder\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"IntentSearchRequest\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/json-schema/zoominfo-intent-search-request-schema.json

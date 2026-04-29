@@ -7,6 +7,8 @@ provider_name: Basecamp
 provider_slug: basecamp
 schema_file: json-schema/schedule-schema.json
 slug: schedule
+source_filename: schedule-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/basecamp/json-schema/schedule-schema.json\",\n  \"title\": \"Schedule\",\n  \"allOf\": [\n    {\n      \"$ref\": \"#/components/schemas/Recording\"\n    },\n    {\n      \"type\": \"object\",\n      \"properties\": {\n        \"include_due_assignments\": {\n          \"type\": \"boolean\",\n          \"description\": \"Whether the schedule displays due dates from to-dos, cards, and steps alongside scheduled entries\"\n        },\n        \"entries_count\": {\n          \"type\": \"integer\",\n          \"description\": \"Total number of schedule entries\"\n        },\n        \"entries_url\": {\n          \"type\": \"string\",\n          \"format\": \"uri\",\n          \"description\": \"API URL to list schedule entries\"\n        }\n      }\n    }\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/json-schema/schedule-schema.json
 tags:

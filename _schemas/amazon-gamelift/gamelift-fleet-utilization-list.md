@@ -7,6 +7,8 @@ provider_name: Amazon GameLift
 provider_slug: amazon-gamelift
 schema_file: json-schema/gamelift-fleet-utilization-list-schema.json
 slug: gamelift-fleet-utilization-list
+source_filename: gamelift-fleet-utilization-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-fleet-utilization-list-schema.json\",\n  \"title\": \"FleetUtilizationList\",\n  \"description\": \"FleetUtilizationList schema from Amazon GameLift API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/FleetUtilization\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-fleet-utilization-list-schema.json
 tags:

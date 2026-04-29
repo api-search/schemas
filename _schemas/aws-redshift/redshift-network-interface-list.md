@@ -7,6 +7,8 @@ provider_name: AWS Redshift
 provider_slug: aws-redshift
 schema_file: json-schema/redshift-network-interface-list-schema.json
 slug: redshift-network-interface-list
+source_filename: redshift-network-interface-list-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"array\",\n  \"items\": {},\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-network-interface-list-schema.json\",\n  \"title\": \"NetworkInterfaceList\",\n  \"description\": \"NetworkInterfaceList schema from Amazon Redshift\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/json-schema/redshift-network-interface-list-schema.json
 tags:

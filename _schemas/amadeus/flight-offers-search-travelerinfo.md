@@ -16,6 +16,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-offers-search-travelerinfo-schema.json
 slug: flight-offers-search-travelerinfo
+source_filename: flight-offers-search-travelerinfo-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"TravelerInfo\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"travelerType\": {\n      \"$ref\": \"#/definitions/TravelerType\"\n    },\n    \"associatedAdultId\": {\n      \"type\": \"string\",\n      \"description\": \"if type=\\\"HELD_INFANT\\\", corresponds to the adult travelers's id who will share the seat\"\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"travelerType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-offers-search-travelerinfo-schema.json
 tags:

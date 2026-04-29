@@ -16,6 +16,8 @@ provider_name: Pluralsight
 provider_slug: pluralsight
 schema_file: json-schema/pluralsight-practice-exams-graph-ql-request-schema.json
 slug: pluralsight-practice-exams-graph-ql-request
+source_filename: pluralsight-practice-exams-graph-ql-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/json-schema/pluralsight-practice-exams-graph-ql-request-schema.json\",\n  \"title\": \"GraphQLRequest\",\n  \"description\": \"GraphQLRequest from Pluralsight API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"query\": {\n      \"type\": \"string\",\n      \"description\": \"The GraphQL query string\",\n      \"example\": \"example_value\"\n    },\n    \"variables\": {\n      \"type\": \"object\",\n      \"description\": \"Variables for the GraphQL query\"\n    },\n    \"operationName\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the operation to execute\",\n      \"example\": \"Example Course\"\n    }\n  },\n  \"required\": [\n    \"query\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/json-schema/pluralsight-practice-exams-graph-ql-request-schema.json
 tags:

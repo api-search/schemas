@@ -10,6 +10,8 @@ provider_name: Spot
 provider_slug: spot
 schema_file: json-schema/spot-ocean-ocean-aws-cluster-request-schema.json
 slug: spot-ocean-ocean-aws-cluster-request
+source_filename: spot-ocean-ocean-aws-cluster-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"OceanAWSClusterRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"cluster\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/json-schema/spot-ocean-ocean-aws-cluster-request-schema.json
 tags:

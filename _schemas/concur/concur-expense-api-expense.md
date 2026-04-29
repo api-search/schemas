@@ -31,6 +31,8 @@ provider_name: SAP Concur
 provider_slug: concur
 schema_file: json-schema/concur-expense-api-expense-schema.json
 slug: concur-expense-api-expense
+source_filename: concur-expense-api-expense-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/json-schema/concur-expense-api-expense-schema.json\",\n  \"title\": \"Expense\",\n  \"description\": \"An individual expense entry.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"expenseId\": { \"type\": \"string\", \"description\": \"Unique identifier for the expense entry.\", \"example\": \"600456\" },\n    \"expenseTypeName\": { \"type\": \"string\", \"description\": \"Name of the expense type.\", \"example\": \"Airfare\" },\n    \"transactionDate\": { \"type\": \"string\", \"format\": \"date\", \"description\": \"Date of the transaction.\" },\n    \"transactionAmount\": { \"type\": \"number\", \"format\": \"double\", \"description\": \"Amount of the transaction.\" },\n    \"transactionCurrencyCode\": { \"type\": \"string\", \"description\": \"Currency code of the transaction.\" },\n    \"vendorName\": { \"type\"\
   : \"string\", \"description\": \"Name of the vendor.\", \"example\": \"United Airlines\" },\n    \"description\": { \"type\": \"string\", \"description\": \"Description of the expense.\" },\n    \"receiptRequired\": { \"type\": \"boolean\", \"description\": \"Whether a receipt is required.\" }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/json-schema/concur-expense-api-expense-schema.json

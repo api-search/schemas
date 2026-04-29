@@ -22,6 +22,8 @@ provider_name: Workday
 provider_slug: workday
 schema_file: json-schema/common-currency-schema.json
 slug: common-currency
+source_filename: common-currency-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Currency\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"descriptor\": {\n      \"type\": \"string\"\n    },\n    \"currencyCode\": {\n      \"type\": \"string\",\n      \"description\": \"The ISO 4217 currency code.\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"numericCode\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/json-schema/common-currency-schema.json
 tags:

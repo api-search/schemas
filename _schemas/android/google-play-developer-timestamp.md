@@ -13,6 +13,8 @@ provider_name: Android
 provider_slug: android
 schema_file: json-schema/google-play-developer-timestamp-schema.json
 slug: google-play-developer-timestamp
+source_filename: google-play-developer-timestamp-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Timestamp\",\n  \"type\": \"object\",\n  \"description\": \"A timestamp in seconds and nanoseconds.\",\n  \"properties\": {\n    \"seconds\": {\n      \"type\": \"string\",\n      \"description\": \"Seconds since Unix Epoch.\"\n    },\n    \"nanos\": {\n      \"type\": \"integer\",\n      \"description\": \"Non-negative fractions of a second at nanosecond resolution.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/json-schema/google-play-developer-timestamp-schema.json
 tags:

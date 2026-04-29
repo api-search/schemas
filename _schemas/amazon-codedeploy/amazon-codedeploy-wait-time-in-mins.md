@@ -7,6 +7,8 @@ provider_name: Amazon CodeDeploy
 provider_slug: amazon-codedeploy
 schema_file: json-schema/amazon-codedeploy-wait-time-in-mins-schema.json
 slug: amazon-codedeploy-wait-time-in-mins
+source_filename: amazon-codedeploy-wait-time-in-mins-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-wait-time-in-mins-schema.json\",\n  \"title\": \"WaitTimeInMins\",\n  \"description\": \"WaitTimeInMins schema from Amazon CodeDeploy\",\n  \"type\": \"integer\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/json-schema/amazon-codedeploy-wait-time-in-mins-schema.json
 tags:

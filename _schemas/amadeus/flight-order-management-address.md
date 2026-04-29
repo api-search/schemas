@@ -25,6 +25,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-order-management-address-schema.json
 slug: flight-order-management-address
+source_filename: flight-order-management-address-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Address\",\n  \"description\": \"address information\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"lines\": {\n      \"type\": \"array\",\n      \"description\": \"Line 1 = Street address, Line 2 = Apartment, suite, unit, building, floor, etc\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"postalCode\": {\n      \"type\": \"string\",\n      \"description\": \"Example: 74130\"\n    },\n    \"countryCode\": {\n      \"type\": \"string\",\n      \"description\": \"country code [ISO 3166-1 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)\"\n    },\n    \"cityName\": {\n      \"type\": \"string\",\n      \"description\": \"Full city name. Example: Dublin\"\n    },\n    \"stateName\": {\n      \"type\": \"string\",\n      \"description\": \"Full state name\"\n    },\n    \"postalBox\": {\n      \"type\": \"string\",\n      \"description\": \"E.g. BP\
   \ 220\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-order-management-address-schema.json

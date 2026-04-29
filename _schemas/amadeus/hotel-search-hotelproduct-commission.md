@@ -16,6 +16,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/hotel-search-hotelproduct-commission-schema.json
 slug: hotel-search-hotelproduct-commission
+source_filename: hotel-search-hotelproduct-commission-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"HotelProduct_Commission\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"percentage\": {\n      \"type\": \"string\",\n      \"description\": \"Percentage of the commission paid to the travel seller. Value is between 0 and 100\"\n    },\n    \"amount\": {\n      \"type\": \"string\",\n      \"description\": \"Amount of the commission paid to the travel seller. The amount is always linked to the currency code of the offer\"\n    },\n    \"description\": {\n      \"$ref\": \"#/definitions/QualifiedFreeText\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/hotel-search-hotelproduct-commission-schema.json
 tags:

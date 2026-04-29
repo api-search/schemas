@@ -19,6 +19,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/configuration-webhooks-contact-details-schema.json
 slug: configuration-webhooks-contact-details
+source_filename: configuration-webhooks-contact-details-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/configuration-webhooks-contact-details-schema.json\",\n  \"title\": \"ContactDetails\",\n  \"description\": \"ContactDetails schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"address\": {\n      \"description\": \"The address of the account holder.\",\n      \"$ref\": \"#/components/schemas/Address\"\n    },\n    \"email\": {\n      \"description\": \"The email address of the account holder.\",\n      \"type\": \"string\"\n    },\n    \"phone\": {\n      \"description\": \"The phone number of the account holder.\",\n      \"$ref\": \"#/components/schemas/Phone\"\n    },\n    \"webAddress\": {\n      \"description\": \"The URL of the account holder's website.\",\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"email\",\n    \"phone\",\n    \"address\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/configuration-webhooks-contact-details-schema.json
 tags:

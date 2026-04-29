@@ -7,6 +7,8 @@ provider_name: Figma
 provider_slug: figma
 schema_file: json-schema/figma-files-style-type-schema.json
 slug: figma-files-style-type
+source_filename: figma-files-style-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"StyleType\",\n  \"type\": \"string\",\n  \"description\": \"The type of style.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/json-schema/figma-files-style-type-schema.json
 tags:

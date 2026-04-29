@@ -16,6 +16,8 @@ provider_name: Microsoft Office 365
 provider_slug: microsoft-office-365
 schema_file: json-schema/microsoft-graph-directory-object-schema.json
 slug: microsoft-graph-directory-object
+source_filename: microsoft-graph-directory-object-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DirectoryObject\",\n  \"type\": \"object\",\n  \"description\": \"Represents an Azure Active Directory object. The directoryObject type is the base type for many other directory entity types.\",\n  \"properties\": {\n    \"@odata.type\": {\n      \"type\": \"string\",\n      \"description\": \"The OData type of the directory object.\"\n    },\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier for the directory object.\"\n    },\n    \"displayName\": {\n      \"type\": \"string\",\n      \"description\": \"The name displayed for the directory object.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/json-schema/microsoft-graph-directory-object-schema.json
 tags:

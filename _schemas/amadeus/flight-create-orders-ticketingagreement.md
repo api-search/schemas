@@ -19,6 +19,8 @@ provider_name: Amadeus
 provider_slug: amadeus
 schema_file: json-schema/flight-create-orders-ticketingagreement-schema.json
 slug: flight-create-orders-ticketingagreement
+source_filename: flight-create-orders-ticketingagreement-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"TicketingAgreement\",\n  \"description\": \"ticketing agreement\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"option\": {\n      \"$ref\": \"#/definitions/TicketingAgreementOption\"\n    },\n    \"delay\": {\n      \"type\": \"string\",\n      \"description\": \"Delay before applying automatic process if no issuance in days\"\n    },\n    \"dateTime\": {\n      \"type\": \"string\",\n      \"description\": \"Exact date to apply automatic process if no issuance. YYYY-MM-DD format, e.g. 2019-06-07\"\n    },\n    \"segmentIds\": {\n      \"type\": \"array\",\n      \"description\": \"Ids of the impacted segments\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-schema/flight-create-orders-ticketingagreement-schema.json
 tags:

@@ -7,6 +7,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-real-time-quotes-error-object-schema.json
 slug: factset-real-time-quotes-error-object
+source_filename: factset-real-time-quotes-error-object-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ErrorObject\",\n  \"type\": \"array\",\n  \"description\": \"The errors member contains additional information about a failed request.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-real-time-quotes-error-object-schema.json
 tags:

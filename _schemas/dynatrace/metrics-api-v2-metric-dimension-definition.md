@@ -19,6 +19,8 @@ provider_name: Dynatrace
 provider_slug: dynatrace
 schema_file: json-schema/metrics-api-v2-metric-dimension-definition-schema.json
 slug: metrics-api-v2-metric-dimension-definition
+source_filename: metrics-api-v2-metric-dimension-definition-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-schema/metrics-api-v2-metric-dimension-definition-schema.json\",\n  \"title\": \"MetricDimensionDefinition\",\n  \"description\": \"Defines a single dimension of a metric.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"key\": {\n      \"type\": \"string\",\n      \"description\": \"The unique key identifying this dimension.\",\n      \"example\": \"example-value\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The display name of the dimension.\",\n      \"example\": \"Production Service\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"The type of the dimension. For example, ENTITY for entity dimensions or STRING for string dimensions.\",\n      \"example\": \"STANDARD\"\n    },\n    \"displayName\": {\n      \"type\": \"string\",\n      \"\
   description\": \"The human-readable display name of the dimension.\",\n      \"example\": \"Production Service\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-schema/metrics-api-v2-metric-dimension-definition-schema.json

@@ -34,6 +34,8 @@ provider_name: VMware
 provider_slug: vmware
 schema_file: json-schema/vmware-vsphere-ethernet-info-schema.json
 slug: vmware-vsphere-ethernet-info
+source_filename: vmware-vsphere-ethernet-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"EthernetInfo\",\n  \"type\": \"object\",\n  \"description\": \"Detailed virtual network adapter configuration\",\n  \"properties\": {\n    \"label\": {\n      \"type\": \"string\",\n      \"description\": \"Display label of the adapter\"\n    },\n    \"type\": {\n      \"type\": \"string\",\n      \"description\": \"Adapter emulation type\"\n    },\n    \"mac_type\": {\n      \"type\": \"string\",\n      \"description\": \"MAC address type\"\n    },\n    \"mac_address\": {\n      \"type\": \"string\",\n      \"description\": \"MAC address of the adapter\"\n    },\n    \"state\": {\n      \"type\": \"string\",\n      \"description\": \"Connection state\"\n    },\n    \"start_connected\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the adapter connects at power on\"\n    },\n    \"backing\": {\n      \"type\": \"object\",\n      \"description\": \"Network backing information\"\
   \n    },\n    \"allow_guest_control\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether guest OS can change adapter settings\"\n    },\n    \"wake_on_lan_enabled\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/json-schema/vmware-vsphere-ethernet-info-schema.json

@@ -13,6 +13,8 @@ provider_name: Amazon
 provider_slug: amazon
 schema_file: json-schema/selling-partner-money-schema.json
 slug: selling-partner-money
+source_filename: selling-partner-money-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"CurrencyCode\": {\n      \"type\": \"string\"\n    },\n    \"Amount\": {\n      \"type\": \"string\"\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Money\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/json-schema/selling-partner-money-schema.json\",\n  \"description\": \"Money schema from Amazon Selling Partner API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/json-schema/selling-partner-money-schema.json
 tags:

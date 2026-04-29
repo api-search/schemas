@@ -7,6 +7,8 @@ provider_name: Amazon GameLift
 provider_slug: amazon-gamelift
 schema_file: json-schema/gamelift-launch-path-string-model-schema.json
 slug: gamelift-launch-path-string-model
+source_filename: gamelift-launch-path-string-model-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-launch-path-string-model-schema.json\",\n  \"title\": \"LaunchPathStringModel\",\n  \"description\": \"LaunchPathStringModel schema from Amazon GameLift API\",\n  \"type\": \"string\",\n  \"pattern\": \"[A-Za-z0-9_:.+\\\\/\\\\\\\\\\\\- ]+\",\n  \"minLength\": 1,\n  \"maxLength\": 1024\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-launch-path-string-model-schema.json
 tags:

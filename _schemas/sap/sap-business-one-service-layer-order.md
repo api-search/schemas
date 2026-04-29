@@ -31,6 +31,8 @@ provider_name: SAP
 provider_slug: sap
 schema_file: json-schema/sap-business-one-service-layer-order-schema.json
 slug: sap-business-one-service-layer-order
+source_filename: sap-business-one-service-layer-order-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Order\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"DocEntry\": {\n      \"type\": \"integer\",\n      \"description\": \"Unique document entry number\"\n    },\n    \"DocNum\": {\n      \"type\": \"integer\",\n      \"description\": \"Document number\"\n    },\n    \"CardCode\": {\n      \"type\": \"string\",\n      \"description\": \"Business partner code\"\n    },\n    \"DocDate\": {\n      \"type\": \"string\",\n      \"description\": \"Document date\"\n    },\n    \"DocDueDate\": {\n      \"type\": \"string\",\n      \"description\": \"Document due date\"\n    },\n    \"DocTotal\": {\n      \"type\": \"number\",\n      \"description\": \"Total document amount\"\n    },\n    \"DocCurrency\": {\n      \"type\": \"string\",\n      \"description\": \"Document currency\"\n    },\n    \"DocumentLines\": {\n      \"type\": \"array\",\n      \"description\": \"Order line items\"\n   \
   \ }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/json-schema/sap-business-one-service-layer-order-schema.json

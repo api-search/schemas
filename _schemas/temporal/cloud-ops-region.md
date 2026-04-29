@@ -16,6 +16,8 @@ provider_name: Temporal
 provider_slug: temporal
 schema_file: json-schema/cloud-ops-region-schema.json
 slug: cloud-ops-region
+source_filename: cloud-ops-region-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Region\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"cloudProvider\": {\n      \"type\": \"string\"\n    },\n    \"location\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/json-schema/cloud-ops-region-schema.json
 tags:

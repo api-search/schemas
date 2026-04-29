@@ -13,6 +13,8 @@ provider_name: Looker
 provider_slug: looker
 schema_file: json-schema/looker-error-response-schema.json
 slug: looker-error-response
+source_filename: looker-error-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ErrorResponse\",\n  \"type\": \"object\",\n  \"description\": \"Error response from the Looker API\",\n  \"properties\": {\n    \"message\": {\n      \"type\": \"string\",\n      \"description\": \"Human-readable error message\"\n    },\n    \"documentation_url\": {\n      \"type\": \"string\",\n      \"description\": \"URL to relevant API documentation\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/json-schema/looker-error-response-schema.json
 tags:

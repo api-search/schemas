@@ -19,6 +19,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-publisher-calculation-unit-status-schema.json
 slug: factset-publisher-calculation-unit-status
+source_filename: factset-publisher-calculation-unit-status-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CalculationUnitStatus\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The status of calculation unit.\"\n    },\n    \"errors\": {\n      \"type\": \"array\",\n      \"description\": \"The error in a calculation unit.\"\n    },\n    \"result\": {\n      \"type\": \"string\",\n      \"description\": \"The result URL of the calculation.\"\n    },\n    \"progress\": {\n      \"type\": \"string\",\n      \"description\": \"The progress of the calculation unit.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-publisher-calculation-unit-status-schema.json
 tags:

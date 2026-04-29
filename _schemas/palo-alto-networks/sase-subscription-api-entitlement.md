@@ -22,6 +22,8 @@ provider_name: Palo Alto Networks
 provider_slug: palo-alto-networks
 schema_file: json-schema/sase-subscription-api-entitlement-schema.json
 slug: sase-subscription-api-entitlement
+source_filename: sase-subscription-api-entitlement-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Entitlement\",\n  \"description\": \"Entitlement schema from Palo Alto Networks SASE Subscription Service API\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/json-schema/sase-subscription-api-entitlement-schema.json\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"feature\": {\n      \"type\": \"string\",\n      \"description\": \"Feature or capability name.\"\n    },\n    \"licensed_quantity\": {\n      \"type\": \"integer\",\n      \"description\": \"Licensed quantity for this entitlement.\"\n    },\n    \"allocated_quantity\": {\n      \"type\": \"integer\",\n      \"description\": \"Quantity already allocated to child TSGs.\"\n    },\n    \"available_quantity\": {\n      \"type\": \"integer\",\n      \"description\": \"Remaining quantity available for allocation.\"\n    },\n    \"unit\": {\n      \"type\": \"string\",\n      \"\
   description\": \"Unit of measure.\"\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/json-schema/sase-subscription-api-entitlement-schema.json

@@ -13,6 +13,8 @@ provider_name: Amadeus Solutions
 provider_slug: amadeus-solutions
 schema_file: json-schema/seat-map-display-fee-schema.json
 slug: seat-map-display-fee
+source_filename: seat-map-display-fee-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/json-schema/seat-map-display-fee-schema.json\",\n  \"title\": \"Fee\",\n  \"description\": \"a fee\",\n  \"properties\": {\n    \"amount\": {\n      \"type\": \"string\",\n      \"example\": \"332.70\"\n    },\n    \"type\": {\n      \"$ref\": \"#/definitions/FeeType\"\n    }\n  },\n  \"type\": \"object\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/json-schema/seat-map-display-fee-schema.json
 tags:

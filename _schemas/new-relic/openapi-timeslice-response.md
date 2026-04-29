@@ -16,6 +16,8 @@ provider_name: New Relic
 provider_slug: new-relic
 schema_file: json-schema/openapi-timeslice-response-schema.json
 slug: openapi-timeslice-response
+source_filename: openapi-timeslice-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-schema/openapi-timeslice-response-schema.json\",\n  \"title\": \"TimesliceResponse\",\n  \"description\": \"TimesliceResponse schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"from\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"example\": \"2026-04-18T14:30:00Z\"\n    },\n    \"to\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"example\": \"2026-04-18T14:30:00Z\"\n    },\n    \"values\": {\n      \"type\": \"object\",\n      \"properties\": {},\n      \"example\": {}\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/json-schema/openapi-timeslice-response-schema.json
 tags:

@@ -10,6 +10,8 @@ provider_name: HubSpot
 provider_slug: hubspot
 schema_file: json-schema/analytics-events-api-event-type-collection-schema.json
 slug: analytics-events-api-event-type-collection
+source_filename: analytics-events-api-event-type-collection-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/analytics-events-api-event-type-collection-schema.json\",\n  \"title\": \"EventTypeCollection\",\n  \"description\": \"Collection of available event type names\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"eventTypes\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"List of available event type names\",\n      \"example\": [\n        \"standard\"\n      ]\n    }\n  },\n  \"required\": [\n    \"eventTypes\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/json-schema/analytics-events-api-event-type-collection-schema.json
 tags:

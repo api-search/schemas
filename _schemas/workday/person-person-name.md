@@ -25,6 +25,8 @@ provider_name: Workday
 provider_slug: workday
 schema_file: json-schema/person-person-name-schema.json
 slug: person-person-name
+source_filename: person-person-name-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PersonName\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"firstName\": {\n      \"type\": \"string\"\n    },\n    \"middleName\": {\n      \"type\": \"string\"\n    },\n    \"lastName\": {\n      \"type\": \"string\"\n    },\n    \"fullName\": {\n      \"type\": \"string\"\n    },\n    \"prefix\": {\n      \"type\": \"string\"\n    },\n    \"suffix\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/json-schema/person-person-name-schema.json
 tags:

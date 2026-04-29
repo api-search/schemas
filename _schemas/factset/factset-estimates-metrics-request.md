@@ -7,6 +7,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-estimates-metrics-request-schema.json
 slug: factset-estimates-metrics-request
+source_filename: factset-estimates-metrics-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"metricsRequest\",\n  \"type\": \"object\",\n  \"description\": \"Metrics Request Body\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-estimates-metrics-request-schema.json
 tags:

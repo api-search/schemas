@@ -7,6 +7,8 @@ provider_name: Mastercard
 provider_slug: mastercard
 schema_file: json-schema/mastercard-unified-checkout-solutions-update-dpa-request-schema.json
 slug: mastercard-unified-checkout-solutions-update-dpa-request
+source_filename: mastercard-unified-checkout-solutions-update-dpa-request-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"UpdateDpaRequest\",\n  \"type\": \"object\",\n  \"description\": \"A limited number of DPA fields can be changed using the __UPDATE__ action. These are `supportedCardBrands`, `supportedCheckoutTypes`, `dpaPresentationName`, `originDomains`,  `debitTokenRequested`, `merchantCategoryCodes`, `defaultAcquirerBin`, `defaultAcquirerMerchantId`, `defaultMerchantCategoryCode`, `acquirerIca`, `acquirerBin` and `acquirerMerchantId`.\\n\\n__Note__: All DPA data from the original request (including non-updatable fields, such as `dpaUri` and `dpaAddress` if previously passed) will also need to be provided unchanged in the __PUT__ request for the update operation to process successfully. Any alterations contained in the request made outside of these updatable fields will cause the request to fail.\\n\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/json-schema/mastercard-unified-checkout-solutions-update-dpa-request-schema.json
 tags:

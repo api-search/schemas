@@ -22,6 +22,8 @@ provider_name: Microsoft Visio
 provider_slug: microsoft-visio
 schema_file: json-schema/visio-graph-api-visio-page-schema.json
 slug: visio-graph-api-visio-page
+source_filename: visio-graph-api-visio-page-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/json-schema/visio-graph-api-visio-page-schema.json\",\n  \"title\": \"VisioPage\",\n  \"description\": \"Represents a page in a Visio document.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": { \"type\": \"string\", \"description\": \"Unique identifier for the page.\" },\n    \"name\": { \"type\": \"string\", \"description\": \"The name of the page.\" },\n    \"index\": { \"type\": \"integer\", \"description\": \"Zero-based index of the page.\" },\n    \"height\": { \"type\": \"number\", \"format\": \"double\", \"description\": \"Height of the page in points.\" },\n    \"width\": { \"type\": \"number\", \"format\": \"double\", \"description\": \"Width of the page in points.\" }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/json-schema/visio-graph-api-visio-page-schema.json
 tags:

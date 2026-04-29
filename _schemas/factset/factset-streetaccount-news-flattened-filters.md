@@ -22,6 +22,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-streetaccount-news-flattened-filters-schema.json
 slug: factset-streetaccount-news-flattened-filters
+source_filename: factset-streetaccount-news-flattened-filters-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"flattenedFilters\",\n  \"type\": \"object\",\n  \"description\": \"Flattened Filters Object\",\n  \"properties\": {\n    \"categories\": {\n      \"type\": \"array\"\n    },\n    \"topics\": {\n      \"type\": \"array\"\n    },\n    \"regions\": {\n      \"type\": \"array\"\n    },\n    \"sectors\": {\n      \"type\": \"array\"\n    },\n    \"watchlists\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-streetaccount-news-flattened-filters-schema.json
 tags:

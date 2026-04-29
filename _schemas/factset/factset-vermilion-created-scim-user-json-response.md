@@ -55,6 +55,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-vermilion-created-scim-user-json-response-schema.json
 slug: factset-vermilion-created-scim-user-json-response
+source_filename: factset-vermilion-created-scim-user-json-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreatedScimUserJSONResponse\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"schemas\": {\n      \"type\": \"array\"\n    },\n    \"id\": {\n      \"type\": \"integer\"\n    },\n    \"userName\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"object\"\n    },\n    \"userType\": {\n      \"type\": \"string\"\n    },\n    \"preferredLanguage\": {\n      \"type\": \"string\"\n    },\n    \"active\": {\n      \"type\": \"boolean\"\n    },\n    \"authenticatedUserName\": {\n      \"type\": \"string\"\n    },\n    \"tenant\": {\n      \"type\": \"string\"\n    },\n    \"phoneNumbers\": {\n      \"type\": \"array\"\n    },\n    \"emails\": {\n      \"type\": \"array\"\n    },\n    \"tenancies\": {\n      \"type\": \"array\"\n    },\n    \"photos\": {\n      \"type\": \"array\"\n    },\n    \"domainCode\": {\n      \"type\": \"string\"\n    },\n    \"isAdministrator\"\
   : {\n      \"type\": \"boolean\"\n    },\n    \"meta\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-vermilion-created-scim-user-json-response-schema.json

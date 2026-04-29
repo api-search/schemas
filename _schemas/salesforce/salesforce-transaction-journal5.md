@@ -31,6 +31,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-transaction-journal5-schema.json
 slug: salesforce-transaction-journal5
+source_filename: salesforce-transaction-journal5-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ActivityDate\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"ExternalTransactionNumber\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"InvoiceDate\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"JournalTypeName\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"MembershipNumber\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"TransactionAmount\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"CurrencyIsoCode\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    },\n    \"Status\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    }\n  },\n  \"required\": [\n    \"ActivityDate\",\n    \"ExternalTransactionNumber\",\n    \"InvoiceDate\",\n    \"JournalTypeName\"\
   ,\n    \"MembershipNumber\",\n    \"TransactionAmount\",\n    \"CurrencyIsoCode\",\n    \"Status\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TransactionJournal5\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-transaction-journal5-schema.json

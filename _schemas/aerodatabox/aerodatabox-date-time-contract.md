@@ -13,6 +13,8 @@ provider_name: AeroDataBox
 provider_slug: aerodatabox
 schema_file: json-schema/aerodatabox-date-time-contract-schema.json
 slug: aerodatabox-date-time-contract
+source_filename: aerodatabox-date-time-contract-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/json-schema/aerodatabox-date-time-contract-schema.json\",\n  \"title\": \"DateTimeContract\",\n  \"description\": \"Descriptor date-time represented in both UTC and local timezones\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"utc\": {\n      \"type\": \"string\",\n      \"description\": \"UTC-time\",\n      \"format\": \"date-time\"\n    },\n    \"local\": {\n      \"type\": \"string\",\n      \"description\": \"Local time\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"required\": [\n    \"local\",\n    \"utc\"\n  ],\n  \"additionalProperties\": false\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/json-schema/aerodatabox-date-time-contract-schema.json
 tags:

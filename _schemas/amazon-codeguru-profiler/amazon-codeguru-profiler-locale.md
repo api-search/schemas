@@ -7,6 +7,8 @@ provider_name: Amazon CodeGuru Profiler
 provider_slug: amazon-codeguru-profiler
 schema_file: json-schema/amazon-codeguru-profiler-locale-schema.json
 slug: amazon-codeguru-profiler-locale
+source_filename: amazon-codeguru-profiler-locale-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/json-schema/amazon-codeguru-profiler-locale-schema.json\",\n  \"title\": \"Locale\",\n  \"description\": \"BCP47 language code. Supported locales: de-DE, en-GB, en-US, es-ES, fr-FR, it-IT, ja-JP, ko-KR, pt-BR, zh-CN, zh-TW\",\n  \"type\": \"string\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/json-schema/amazon-codeguru-profiler-locale-schema.json
 tags:

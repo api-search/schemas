@@ -37,6 +37,8 @@ provider_name: Microsoft Planner
 provider_slug: microsoft-planner
 schema_file: json-schema/microsoft-planner-planner-task-create-schema.json
 slug: microsoft-planner-planner-task-create
+source_filename: microsoft-planner-planner-task-create-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"PlannerTaskCreate\",\n  \"type\": \"object\",\n  \"description\": \"Request body for creating a new task\",\n  \"properties\": {\n    \"planId\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the plan the task belongs to\"\n    },\n    \"title\": {\n      \"type\": \"string\",\n      \"description\": \"Title of the task\"\n    },\n    \"bucketId\": {\n      \"type\": \"string\",\n      \"description\": \"ID of the bucket to place the task in\"\n    },\n    \"priority\": {\n      \"type\": \"integer\",\n      \"description\": \"Priority of the task (0 is highest, 10 is lowest)\"\n    },\n    \"percentComplete\": {\n      \"type\": \"integer\"\n    },\n    \"startDateTime\": {\n      \"type\": \"string\"\n    },\n    \"dueDateTime\": {\n      \"type\": \"string\"\n    },\n    \"conversationThreadId\": {\n      \"type\": \"string\"\n    },\n    \"orderHint\": {\n      \"type\"\
   : \"string\"\n    },\n    \"assigneePriority\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/json-schema/microsoft-planner-planner-task-create-schema.json

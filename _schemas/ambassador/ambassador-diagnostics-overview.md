@@ -22,6 +22,8 @@ provider_name: Ambassador
 provider_slug: ambassador
 schema_file: json-schema/ambassador-diagnostics-overview-schema.json
 slug: ambassador-diagnostics-overview
+source_filename: ambassador-diagnostics-overview-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DiagnosticsOverview\",\n  \"type\": \"object\",\n  \"description\": \"Diagnostic overview of an Ambassador instance\",\n  \"properties\": {\n    \"system\": {\n      \"type\": \"object\",\n      \"description\": \"System-level information\"\n    },\n    \"ambassador_config\": {\n      \"type\": \"object\",\n      \"description\": \"Active Ambassador configuration summary\"\n    },\n    \"envoy_status\": {\n      \"type\": \"object\",\n      \"description\": \"Status of the underlying Envoy proxy\"\n    },\n    \"route_info\": {\n      \"type\": \"array\",\n      \"description\": \"Summary of active routes\"\n    },\n    \"errors\": {\n      \"type\": \"array\",\n      \"description\": \"List of configuration errors\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/json-schema/ambassador-diagnostics-overview-schema.json
 tags:

@@ -19,6 +19,8 @@ provider_name: Airbyte
 provider_slug: airbyte
 schema_file: json-schema/airbyte-encryption-mapper-rsa-configuration-schema.json
 slug: airbyte-encryption-mapper-rsa-configuration
+source_filename: airbyte-encryption-mapper-rsa-configuration-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-encryption-mapper-rsa-configuration-schema.json\",\n  \"title\": \"EncryptionMapperRSAConfiguration\",\n  \"description\": \"EncryptionMapperRSAConfiguration schema from Airbyte API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"algorithm\": {\n      \"$ref\": \"#/components/schemas/EncryptionMapperAlgorithm\"\n    },\n    \"fieldNameSuffix\": {\n      \"type\": \"string\"\n    },\n    \"publicKey\": {\n      \"type\": \"string\"\n    },\n    \"targetField\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"algorithm\",\n    \"publicKey\",\n    \"targetField\",\n    \"fieldNameSuffix\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/json-schema/airbyte-encryption-mapper-rsa-configuration-schema.json
 tags:

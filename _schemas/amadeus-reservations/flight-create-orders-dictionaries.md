@@ -19,6 +19,8 @@ provider_name: Amadeus Reservations
 provider_slug: amadeus-reservations
 schema_file: json-schema/flight-create-orders-dictionaries-schema.json
 slug: flight-create-orders-dictionaries
+source_filename: flight-create-orders-dictionaries-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-create-orders-dictionaries-schema.json\",\n  \"title\": \"Dictionaries\",\n  \"description\": \"Dictionaries schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"locations\": {\n      \"$ref\": \"#/definitions/LocationEntry\"\n    },\n    \"aircraft\": {\n      \"$ref\": \"#/definitions/AircraftEntry\"\n    },\n    \"currencies\": {\n      \"$ref\": \"#/definitions/CurrencyEntry\"\n    },\n    \"carriers\": {\n      \"$ref\": \"#/definitions/CarrierEntry\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/json-schema/flight-create-orders-dictionaries-schema.json
 tags:

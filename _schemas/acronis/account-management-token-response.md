@@ -22,6 +22,8 @@ provider_name: Acronis
 provider_slug: acronis
 schema_file: json-schema/account-management-token-response-schema.json
 slug: account-management-token-response
+source_filename: account-management-token-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/json-schema/account-management-token-response-schema.json\",\n  \"title\": \"TokenResponse\",\n  \"description\": \"OAuth2 token response\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"access_token\": {\n      \"type\": \"string\",\n      \"description\": \"JWT access token\",\n      \"example\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...\"\n    },\n    \"token_type\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"Bearer\"\n      ],\n      \"example\": \"Bearer\"\n    },\n    \"expires_in\": {\n      \"type\": \"integer\",\n      \"description\": \"Token lifetime in seconds\",\n      \"example\": 3600\n    },\n    \"refresh_token\": {\n      \"type\": \"string\",\n      \"description\": \"Refresh token for obtaining new access tokens\"\n    },\n    \"scope\": {\n      \"type\": \"string\",\n      \"\
   description\": \"Granted OAuth2 scopes\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/json-schema/account-management-token-response-schema.json

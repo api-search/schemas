@@ -19,6 +19,8 @@ provider_name: Adyen
 provider_slug: adyen
 schema_file: json-schema/accounts-get-uploaded-documents-response-schema.json
 slug: accounts-get-uploaded-documents-response
+source_filename: accounts-get-uploaded-documents-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/accounts-get-uploaded-documents-response-schema.json\",\n  \"title\": \"GetUploadedDocumentsResponse\",\n  \"description\": \"GetUploadedDocumentsResponse schema from Adyen API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"documentDetails\": {\n      \"description\": \"A list of the documents and their details.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/DocumentDetail\"\n      },\n      \"type\": \"array\"\n    },\n    \"invalidFields\": {\n      \"x-addedInVersion\": \"5\",\n      \"description\": \"Contains field validation errors that would prevent requests from being processed.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/ErrorFieldType\"\n      },\n      \"type\": \"array\"\n    },\n    \"pspReference\": {\n      \"description\": \"The reference of a request.\
   \ Can be used to uniquely identify the request.\",\n      \"type\": \"string\"\n    },\n    \"resultCode\": {\n      \"description\": \"The result code.\",\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/json-schema/accounts-get-uploaded-documents-response-schema.json

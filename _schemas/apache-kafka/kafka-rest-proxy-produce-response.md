@@ -25,6 +25,8 @@ provider_name: Apache Kafka
 provider_slug: apache-kafka
 schema_file: json-schema/kafka-rest-proxy-produce-response-schema.json
 slug: kafka-rest-proxy-produce-response
+source_filename: kafka-rest-proxy-produce-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-schema/kafka-rest-proxy-produce-response-schema.json\",\n  \"title\": \"ProduceResponse\",\n  \"description\": \"ProduceResponse schema from Apache kafka\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"error_code\": {\n      \"type\": \"integer\"\n    },\n    \"cluster_id\": {\n      \"type\": \"string\"\n    },\n    \"topic_name\": {\n      \"type\": \"string\"\n    },\n    \"partition_id\": {\n      \"type\": \"integer\"\n    },\n    \"offset\": {\n      \"type\": \"integer\"\n    },\n    \"timestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-schema/kafka-rest-proxy-produce-response-schema.json
 tags:

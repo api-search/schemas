@@ -22,6 +22,8 @@ provider_name: Abstract API
 provider_slug: abstract-api
 schema_file: json-schema/ip-intelligence-timezone-info-schema.json
 slug: ip-intelligence-timezone-info
+source_filename: ip-intelligence-timezone-info-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-schema/ip-intelligence-timezone-info-schema.json\",\n  \"title\": \"TimezoneInfo\",\n  \"description\": \"TimezoneInfo schema from Abstract API ip-intelligence\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"example\": \"America/Los_Angeles\"\n    },\n    \"abbreviation\": {\n      \"type\": \"string\",\n      \"example\": \"PST\"\n    },\n    \"utc_offset\": {\n      \"type\": \"integer\",\n      \"example\": -8\n    },\n    \"local_time\": {\n      \"type\": \"string\",\n      \"example\": \"2026-04-19T10:30:00\"\n    },\n    \"is_dst\": {\n      \"type\": \"boolean\",\n      \"example\": false\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/json-schema/ip-intelligence-timezone-info-schema.json
 tags:

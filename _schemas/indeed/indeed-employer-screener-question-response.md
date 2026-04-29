@@ -16,6 +16,8 @@ provider_name: Indeed
 provider_slug: indeed
 schema_file: json-schema/indeed-employer-screener-question-response-schema.json
 slug: indeed-employer-screener-question-response
+source_filename: indeed-employer-screener-question-response-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ScreenerQuestionResponse\",\n  \"type\": \"object\",\n  \"description\": \"A candidate's response to a screener question on the job posting.\",\n  \"properties\": {\n    \"questionId\": {\n      \"type\": \"string\",\n      \"description\": \"The unique identifier of the screener question.\"\n    },\n    \"question\": {\n      \"type\": \"string\",\n      \"description\": \"The text of the screener question.\"\n    },\n    \"answer\": {\n      \"type\": \"string\",\n      \"description\": \"The candidate's answer to the question.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/json-schema/indeed-employer-screener-question-response-schema.json
 tags:

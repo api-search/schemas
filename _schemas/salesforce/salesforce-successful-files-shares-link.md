@@ -22,6 +22,8 @@ provider_name: Salesforce
 provider_slug: salesforce
 schema_file: json-schema/salesforce-successful-files-shares-link-schema.json
 slug: salesforce-successful-files-shares-link
+source_filename: salesforce-successful-files-shares-link-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"expirationDate\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"example_value\"\n    },\n    \"fileViewUrl\": {\n      \"type\": \"string\",\n      \"example\": \"https://www.example.com\"\n    },\n    \"isPasswordRequired\": {\n      \"type\": \"boolean\",\n      \"example\": true\n    },\n    \"password\": {\n      \"type\": \"['string', 'null']\",\n      \"example\": \"example_value\"\n    },\n    \"sharingType\": {\n      \"type\": \"string\",\n      \"example\": \"example_value\"\n    }\n  },\n  \"required\": [\n    \"expirationDate\",\n    \"fileViewUrl\",\n    \"isPasswordRequired\",\n    \"password\",\n    \"sharingType\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SuccessfulFilesSharesLink\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-successful-files-shares-link-schema.json
 tags:

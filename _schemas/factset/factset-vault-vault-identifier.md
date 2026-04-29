@@ -10,6 +10,8 @@ provider_name: Factset
 provider_slug: factset
 schema_file: json-schema/factset-vault-vault-identifier-schema.json
 slug: factset-vault-vault-identifier
+source_filename: factset-vault-vault-identifier-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"VaultIdentifier\",\n  \"type\": \"object\",\n  \"description\": \"The account/benchmark parameter for Vault calculation.\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"User's FactSet account path OR benchmark.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/json-schema/factset-vault-vault-identifier-schema.json
 tags:

@@ -13,6 +13,8 @@ provider_name: Snowflake
 provider_slug: snowflake
 schema_file: json-schema/user-defined-function-column-type-schema.json
 slug: user-defined-function-column-type
+source_filename: user-defined-function-column-type-schema.json
+source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ColumnType\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"Argument name\"\n    },\n    \"datatype\": {\n      \"type\": \"string\",\n      \"description\": \"Argument data type\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/json-schema/user-defined-function-column-type-schema.json
 tags:

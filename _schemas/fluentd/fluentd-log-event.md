@@ -1,0 +1,33 @@
+---
+description: A Fluentd log event consisting of a tag, a timestamp, and an arbitrary record payload. This is the fundamental data unit flowing through a Fluentd pipeline from inputs through filters to outputs.
+layout: schema
+name: Fluentd Log Event
+properties_list:
+- description: The Fluentd routing tag using dot-separated hierarchical notation. Tags are matched by match directives to route events to the appropriate output plugins.
+  name: tag
+  type: string
+- description: The event timestamp. Can be a Unix epoch integer in seconds or a Fluentd EventTime object with nanosecond precision.
+  name: time
+  type: object
+- description: ''
+  name: record
+  type: object
+provider_name: Fluentd
+provider_slug: fluentd
+schema_file: json-schema/fluentd-log-event-schema.json
+slug: fluentd-log-event
+source_filename: fluentd-log-event-schema.json
+source_heading: JSON Schema
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://github.com/api-evangelist/fluentd/blob/main/json-schema/fluentd-log-event-schema.json\",\n  \"title\": \"Fluentd Log Event\",\n  \"description\": \"A Fluentd log event consisting of a tag, a timestamp, and an arbitrary record payload. This is the fundamental data unit flowing through a Fluentd pipeline from inputs through filters to outputs.\",\n  \"type\": \"object\",\n  \"required\": [\"tag\", \"time\", \"record\"],\n  \"properties\": {\n    \"tag\": {\n      \"type\": \"string\",\n      \"description\": \"The Fluentd routing tag using dot-separated hierarchical notation. Tags are matched by match directives to route events to the appropriate output plugins.\",\n      \"pattern\": \"^[a-zA-Z0-9_][a-zA-Z0-9_.\\\\-]*$\",\n      \"examples\": [\"myapp.access\", \"production.web.error\", \"kubernetes.var.log\"]\n    },\n    \"time\": {\n      \"description\": \"The event timestamp. Can be\
+  \ a Unix epoch integer in seconds or a Fluentd EventTime object with nanosecond precision.\",\n      \"oneOf\": [\n        {\n          \"type\": \"integer\",\n          \"description\": \"Unix epoch timestamp in seconds.\",\n          \"minimum\": 0,\n          \"example\": 1700000000\n        },\n        {\n          \"$ref\": \"#/$defs/EventTime\"\n        }\n      ]\n    },\n    \"record\": {\n      \"$ref\": \"#/$defs/Record\"\n    }\n  },\n  \"$defs\": {\n    \"EventTime\": {\n      \"type\": \"object\",\n      \"title\": \"EventTime\",\n      \"description\": \"A Fluentd EventTime object providing nanosecond-precision timestamps. Corresponds to MessagePack extension type 0.\",\n      \"required\": [\"seconds\", \"nanoseconds\"],\n      \"properties\": {\n        \"seconds\": {\n          \"type\": \"integer\",\n          \"description\": \"Seconds since Unix epoch (1970-01-01T00:00:00Z).\",\n          \"minimum\": 0\n        },\n        \"nanoseconds\": {\n          \"type\": \"\
+  integer\",\n          \"description\": \"Nanosecond component of the timestamp.\",\n          \"minimum\": 0,\n          \"maximum\": 999999999\n        }\n      }\n    },\n    \"Record\": {\n      \"type\": \"object\",\n      \"title\": \"Record\",\n      \"description\": \"The log record payload. An arbitrary key-value map where keys are strings. Values can be strings, numbers, booleans, arrays, or nested objects as emitted by the source plugin or transformed by filter plugins.\",\n      \"additionalProperties\": true,\n      \"properties\": {\n        \"message\": {\n          \"type\": \"string\",\n          \"description\": \"Human-readable log message text.\"\n        },\n        \"level\": {\n          \"type\": \"string\",\n          \"description\": \"Log severity level.\",\n          \"enum\": [\"trace\", \"debug\", \"info\", \"warn\", \"error\", \"fatal\"]\n        },\n        \"host\": {\n          \"type\": \"string\",\n          \"description\": \"Hostname or IP address of\
+  \ the source system that generated the log event.\"\n        },\n        \"service\": {\n          \"type\": \"string\",\n          \"description\": \"Name of the service or application that emitted the log event.\"\n        },\n        \"pid\": {\n          \"type\": \"integer\",\n          \"description\": \"Process ID of the process that generated the log event.\",\n          \"minimum\": 1\n        }\n      }\n    },\n    \"HTTPEventPayload\": {\n      \"type\": \"object\",\n      \"title\": \"HTTPEventPayload\",\n      \"description\": \"The request body format for submitting a log event to the Fluentd HTTP Input plugin. The json property wraps the record payload.\",\n      \"properties\": {\n        \"json\": {\n          \"$ref\": \"#/$defs/Record\",\n          \"description\": \"The log record payload wrapped for HTTP submission.\"\n        },\n        \"time\": {\n          \"type\": \"integer\",\n          \"description\": \"Unix epoch timestamp for the event in seconds. If omitted,\
+  \ Fluentd uses the server receive time.\",\n          \"minimum\": 0\n        }\n      }\n    },\n    \"ForwardAck\": {\n      \"type\": \"object\",\n      \"title\": \"ForwardAck\",\n      \"description\": \"Acknowledgement response sent by a Fluentd aggregator to confirm receipt of a Forward Protocol message batch identified by a chunk ID.\",\n      \"required\": [\"ack\"],\n      \"properties\": {\n        \"ack\": {\n          \"type\": \"string\",\n          \"description\": \"The base64-encoded chunk ID from the received message's option map, echoed back to confirm delivery.\"\n        }\n      }\n    },\n    \"PluginConfig\": {\n      \"type\": \"object\",\n      \"title\": \"PluginConfig\",\n      \"description\": \"Common configuration fields shared across Fluentd input, output, filter, parser, and formatter plugins.\",\n      \"properties\": {\n        \"@type\": {\n          \"type\": \"string\",\n          \"description\": \"The plugin type identifier used in Fluentd configuration\
+  \ files (e.g., 'tail', 'forward', 'elasticsearch').\"\n        },\n        \"@id\": {\n          \"type\": \"string\",\n          \"description\": \"An optional unique identifier for this plugin instance, used for monitoring and management APIs.\"\n        },\n        \"@log_level\": {\n          \"type\": \"string\",\n          \"description\": \"Per-plugin log level override.\",\n          \"enum\": [\"trace\", \"debug\", \"info\", \"warn\", \"error\", \"fatal\"]\n        }\n      }\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/json-schema/fluentd-log-event-schema.json
+tags:
+- Data Collection
+- Logging
+- Open Source
+title: Fluentd Log Event
+---

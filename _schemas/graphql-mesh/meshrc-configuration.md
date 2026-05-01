@@ -1,0 +1,55 @@
+---
+description: JSON Schema for the .meshrc.yml configuration file that defines a GraphQL Mesh gateway.
+layout: schema
+name: GraphQL Mesh Configuration
+properties_list:
+- description: List of data sources to mesh together.
+  name: sources
+  type: array
+- description: Transformations to apply to the unified schema.
+  name: transforms
+  type: array
+- description: Additional SDL type definitions to add.
+  name: additionalTypeDefs
+  type: string
+- description: Additional resolvers for cross-source type merging.
+  name: additionalResolvers
+  type: object
+- description: ''
+  name: serve
+  type: object
+- description: Cache configuration.
+  name: cache
+  type: object
+- description: Glob patterns for GraphQL documents.
+  name: documents
+  type: array
+- description: SDK generation configuration.
+  name: sdk
+  type: object
+provider_name: GraphQL Mesh
+provider_slug: graphql-mesh
+schema_file: json-schema/meshrc-configuration.json
+slug: meshrc-configuration
+source_filename: meshrc-configuration.json
+source_heading: JSON Schema
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://github.com/api-evangelist/graphql-mesh/json-schema/meshrc-configuration.json\",\n  \"title\": \"GraphQL Mesh Configuration\",\n  \"description\": \"JSON Schema for the .meshrc.yml configuration file that defines a GraphQL Mesh gateway.\",\n  \"type\": \"object\",\n  \"required\": [\"sources\"],\n  \"properties\": {\n    \"sources\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/$defs/Source\"\n      },\n      \"description\": \"List of data sources to mesh together.\"\n    },\n    \"transforms\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/$defs/Transform\"\n      },\n      \"description\": \"Transformations to apply to the unified schema.\"\n    },\n    \"additionalTypeDefs\": {\n      \"type\": \"string\",\n      \"description\": \"Additional SDL type definitions to add.\"\n    },\n    \"additionalResolvers\": {\n      \"oneOf\"\
+  : [\n        { \"type\": \"string\" },\n        {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"targetTypeName\": { \"type\": \"string\" },\n              \"targetFieldName\": { \"type\": \"string\" },\n              \"sourceName\": { \"type\": \"string\" },\n              \"sourceTypeName\": { \"type\": \"string\" },\n              \"sourceFieldName\": { \"type\": \"string\" },\n              \"requiredSelectionSet\": { \"type\": \"string\" },\n              \"sourceArgs\": { \"type\": \"object\" }\n            }\n          }\n        }\n      ],\n      \"description\": \"Additional resolvers for cross-source type merging.\"\n    },\n    \"serve\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"hostname\": {\n          \"type\": \"string\",\n          \"default\": \"0.0.0.0\",\n          \"description\": \"Server hostname.\"\n        },\n        \"port\": {\n          \"type\"\
+  : \"integer\",\n          \"default\": 4000,\n          \"description\": \"Server port.\"\n        },\n        \"cors\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"origin\": {\n              \"oneOf\": [\n                { \"type\": \"string\" },\n                { \"type\": \"array\", \"items\": { \"type\": \"string\" } }\n              ]\n            },\n            \"credentials\": { \"type\": \"boolean\" },\n            \"allowedHeaders\": {\n              \"type\": \"array\",\n              \"items\": { \"type\": \"string\" }\n            },\n            \"methods\": {\n              \"type\": \"array\",\n              \"items\": { \"type\": \"string\" }\n            }\n          }\n        },\n        \"endpoint\": {\n          \"type\": \"string\",\n          \"default\": \"/graphql\",\n          \"description\": \"GraphQL endpoint path.\"\n        },\n        \"playground\": {\n          \"type\": \"boolean\",\n          \"default\": true,\n\
+  \          \"description\": \"Enable GraphQL Playground.\"\n        },\n        \"browser\": {\n          \"oneOf\": [\n            { \"type\": \"boolean\" },\n            { \"type\": \"string\" }\n          ],\n          \"description\": \"Open browser on start.\"\n        }\n      }\n    },\n    \"cache\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"redis\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"host\": { \"type\": \"string\" },\n            \"port\": { \"type\": \"integer\" },\n            \"password\": { \"type\": \"string\" }\n          }\n        },\n        \"file\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"path\": { \"type\": \"string\" }\n          }\n        }\n      },\n      \"description\": \"Cache configuration.\"\n    },\n    \"documents\": {\n      \"type\": \"array\",\n      \"items\": { \"type\": \"string\" },\n      \"description\": \"Glob patterns for GraphQL documents.\"\
+  \n    },\n    \"sdk\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"generateOperations\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"selectionSetDepth\": { \"type\": \"integer\" }\n          }\n        }\n      },\n      \"description\": \"SDK generation configuration.\"\n    }\n  },\n  \"$defs\": {\n    \"Source\": {\n      \"type\": \"object\",\n      \"required\": [\"name\", \"handler\"],\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\",\n          \"description\": \"Unique name for this data source.\"\n        },\n        \"handler\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"openapi\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"source\": { \"type\": \"string\", \"description\": \"URL or path to OpenAPI spec.\" },\n                \"baseUrl\": { \"type\": \"string\" },\n                \"operationHeaders\": { \"\
+  type\": \"object\", \"additionalProperties\": { \"type\": \"string\" } }\n              }\n            },\n            \"graphql\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"endpoint\": { \"type\": \"string\" },\n                \"operationHeaders\": { \"type\": \"object\", \"additionalProperties\": { \"type\": \"string\" } },\n                \"useGETForQueries\": { \"type\": \"boolean\" }\n              }\n            },\n            \"grpc\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"endpoint\": { \"type\": \"string\" },\n                \"protoFilePath\": { \"type\": \"string\" }\n              }\n            },\n            \"jsonSchema\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"baseUrl\": { \"type\": \"string\" },\n                \"operations\": {\n                  \"type\": \"array\",\n                  \"items\": {\n            \
+  \        \"type\": \"object\",\n                    \"properties\": {\n                      \"type\": { \"type\": \"string\", \"enum\": [\"Query\", \"Mutation\"] },\n                      \"field\": { \"type\": \"string\" },\n                      \"path\": { \"type\": \"string\" },\n                      \"method\": { \"type\": \"string\" },\n                      \"requestSchema\": { \"type\": \"string\" },\n                      \"responseSchema\": { \"type\": \"string\" }\n                    }\n                  }\n                }\n              }\n            },\n            \"soap\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"wsdl\": { \"type\": \"string\" }\n              }\n            },\n            \"postgraphile\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"connectionString\": { \"type\": \"string\" }\n              }\n            },\n            \"mysql\": {\n              \"\
+  type\": \"object\",\n              \"properties\": {\n                \"host\": { \"type\": \"string\" },\n                \"port\": { \"type\": \"integer\" },\n                \"user\": { \"type\": \"string\" },\n                \"password\": { \"type\": \"string\" },\n                \"database\": { \"type\": \"string\" }\n              }\n            }\n          },\n          \"description\": \"Handler configuration (one handler type per source).\"\n        },\n        \"transforms\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"$ref\": \"#/$defs/Transform\"\n          },\n          \"description\": \"Source-level transformations.\"\n        }\n      }\n    },\n    \"Transform\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"rename\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"renames\": {\n              \"type\": \"array\",\n              \"items\": {\n                \"type\": \"object\",\n     \
+  \           \"properties\": {\n                  \"from\": {\n                    \"type\": \"object\",\n                    \"properties\": {\n                      \"type\": { \"type\": \"string\" },\n                      \"field\": { \"type\": \"string\" }\n                    }\n                  },\n                  \"to\": {\n                    \"type\": \"object\",\n                    \"properties\": {\n                      \"type\": { \"type\": \"string\" },\n                      \"field\": { \"type\": \"string\" }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        },\n        \"prefix\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"value\": { \"type\": \"string\" },\n            \"includeRootOperations\": { \"type\": \"boolean\" }\n          }\n        },\n        \"filterSchema\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"filters\": {\n\
+  \              \"type\": \"array\",\n              \"items\": { \"type\": \"string\" }\n            }\n          }\n        },\n        \"cache\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"field\": { \"type\": \"string\" },\n              \"cacheKey\": { \"type\": \"string\" },\n              \"invalidate\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"ttl\": { \"type\": \"integer\" }\n                }\n              }\n            }\n          }\n        }\n      },\n      \"description\": \"Schema transformation.\"\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/graphql-mesh/refs/heads/main/json-schema/meshrc-configuration.json
+tags:
+- API Gateway
+- GraphQL
+- gRPC
+- Microservices
+- REST
+- Schema Stitching
+title: GraphQL Mesh Configuration
+---

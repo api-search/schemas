@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"EngineVersion\",\n    \"LatestRevision\",\n    \"AuthenticationStrategy\",\n    \"EngineType\",\n    \"Id\",\n    \"Arn\",\n    \"Name\",\n    \"Created\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-configuration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

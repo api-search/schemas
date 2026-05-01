@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ control XDS packets. If you select PASSTHROUGH, packets will not be changed. If you select STRIP, any packets will be removed in output captions.\"\n        }\n      ]\n    },\n    \"VchipAction\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VchipAction\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"vchipAction\"\n          },\n          \"description\": \"The action to take on content advisory XDS packets. If you select PASSTHROUGH, packets will not be changed. If you select STRIP, any packets will be removed in output captions.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-extended-data-services-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

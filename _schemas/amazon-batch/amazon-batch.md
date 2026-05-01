@@ -63,7 +63,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"targetNodes\": {\n                \"type\": \"string\"\n              },\n              \"container\": {\n                \"$ref\": \"#/$defs/ContainerProperties\"\n              }\n            }\n          }\n        }\n      }\n    },\n    \"JobTimeout\": {\n      \"type\": \"object\",\n      \"description\": \"Job timeout configuration.\",\n      \"properties\": {\n        \"attemptDurationSeconds\": {\n          \"type\": \"integer\",\n          \"minimum\": 60,\n          \"description\": \"The job timeout time, in seconds.\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/json-schema/amazon-batch-schema.json
 tags:
-- AWS
 - Batch Computing
 - Compute
 - Containers

@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     },\n        {\n          \"xml\": {\n            \"name\": \"startTime\"\n          },\n          \"description\": \"Specify when the motion overlay begins. Use timecode format (HH:MM:SS:FF or HH:MM:SS;FF). Make sure that the timecode you provide here takes into account how you have set up your timecode configuration under both job settings and input settings. The simplest way to do that is to set both to start at 0. If you need to set up your job to follow timecodes embedded in your source that don't start at zero, make sure that you specify a start time that is after the first embedded timecode. For more information, see https://docs.aws.amazon.com/mediaconvert/latest/ug/setting-up-timecode.html Find job-wide and input timecode configuration settings in your JSON job settings specification at settings>timecodeConfig>source and settings>inputs>timecodeSource.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-motion-image-inserter-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ model.\"\n        }\n      ]\n    },\n    \"assetProperty\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Property\"\n        },\n        {\n          \"description\": \"<p>The asset property's definition, alias, and notification state.</p> <p>This response includes this object for normal asset properties. If you describe an asset property in a composite model, this response includes the asset property information in <code>compositeModel</code>.</p>\"\n        }\n      ]\n    },\n    \"compositeModel\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CompositeModelProperty\"\n        },\n        {\n          \"description\": \"The composite asset model that declares this asset property, if this asset property exists in a composite model.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"assetId\",\n    \"assetName\",\n    \"assetModelId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-asset-property-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

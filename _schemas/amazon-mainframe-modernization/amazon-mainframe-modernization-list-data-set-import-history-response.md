@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ retrieve the next set of items.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"dataSetImportTasks\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-list-data-set-import-history-response-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

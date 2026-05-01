@@ -21,7 +21,6 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-ide
 tags:
 - Access Control
 - Authentication
-- AWS
 - Identity Management
 - Single Sign-On
 title: DescribeAccountAssignmentCreationStatusRequest

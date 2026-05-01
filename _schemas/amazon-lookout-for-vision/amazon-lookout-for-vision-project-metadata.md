@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  },\n        {\n          \"description\": \"The unix timestamp for the date and time that the project was created. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-project-metadata-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

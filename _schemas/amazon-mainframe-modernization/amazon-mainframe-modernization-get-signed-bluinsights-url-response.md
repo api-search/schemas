@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-get-signed-bluinsights-url-response-schema.json\",\n  \"title\": \"GetSignedBluinsightsUrlResponse\",\n  \"description\": \"GetSignedBluinsightsUrlResponse schema from AWS Mainframe Modernization API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"signedBiUrl\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"Single sign-on AWS Blu Insights URL.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"signedBiUrl\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-get-signed-bluinsights-url-response-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

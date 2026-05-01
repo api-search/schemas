@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"object\"\n    },\n    \"importTaskDetails\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"status\": {\n          \"type\": \"string\"\n        },\n        \"startTime\": {\n          \"type\": \"string\",\n          \"format\": \"date-time\"\n        },\n        \"timeElapsedSeconds\": {\n          \"type\": \"integer\"\n        },\n        \"progressPercentage\": {\n          \"type\": \"integer\"\n        },\n        \"errorCount\": {\n          \"type\": \"integer\"\n        },\n        \"errorDetails\": {\n          \"type\": \"string\"\n        },\n        \"statementCount\": {\n          \"type\": \"integer\"\n        },\n        \"dictionaryEntryCount\": {\n          \"type\": \"integer\"\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/analytics-import-task-output-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

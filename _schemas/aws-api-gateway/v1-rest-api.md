@@ -32,7 +32,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-schema/v1-rest-api-schema.json
 tags:
 - API Gateway
-- AWS
 - Cloud
 - REST
 - WebSocket

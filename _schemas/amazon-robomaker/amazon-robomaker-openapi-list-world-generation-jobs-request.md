@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <code>status</code> and <code>templateId</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-world-generation-jobs-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: ListWorldGenerationJobsRequest

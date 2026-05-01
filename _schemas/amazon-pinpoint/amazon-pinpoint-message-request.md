@@ -33,7 +33,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"TraceId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The unique identifier for tracing the message. This identifier is visible to message recipients.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MessageConfiguration\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-message-request-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

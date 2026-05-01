@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ if a recipient taps a push notification that's based on the message template and the value of the Action property is URL.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-android-push-notification-template-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

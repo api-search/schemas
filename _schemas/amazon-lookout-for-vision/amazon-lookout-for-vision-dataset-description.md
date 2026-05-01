@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The status message for the dataset. \"\n        }\n      ]\n    },\n    \"ImageStats\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DatasetImageStats\"\n        },\n        {\n          \"description\": \"Statistics about the images in a dataset.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-dataset-description-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ SYSTEM, sends the campaign or performs the activity when a system event occurs; and, ENDPOINT, sends the campaign or performs the activity when an endpoint event (<link  linkend=\\\"apps-application-id-events\\\">Events resource</link>) occurs.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"FilterType\",\n    \"Dimensions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-event-filter-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

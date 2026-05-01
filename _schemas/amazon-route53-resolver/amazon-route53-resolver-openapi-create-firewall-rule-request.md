@@ -47,7 +47,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <p>This setting is required if the <code>BlockResponse</code> setting is <code>OVERRIDE</code>.</p>\"\n        }\n      ]\n    },\n    \"Name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Name\"\n        },\n        {\n          \"description\": \"A name that lets you identify the rule in the rule group.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CreatorRequestId\",\n    \"FirewallRuleGroupId\",\n    \"FirewallDomainListId\",\n    \"Priority\",\n    \"Action\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-firewall-rule-request-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

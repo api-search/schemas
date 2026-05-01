@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ a subnet ID. If you specify a subnet ID, Resolver chooses an IP address for you from the available IPs in the specified subnet.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ResolverEndpointId\",\n    \"IpAddress\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-request-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

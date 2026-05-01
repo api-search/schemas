@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   : \"An object representing the metadata of the gateway route.\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-gateway-route-metadata-list-schema.json\",\n  \"title\": \"GrpcGatewayRouteMetadataList\",\n  \"description\": \"GrpcGatewayRouteMetadataList schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-gateway-route-metadata-list-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

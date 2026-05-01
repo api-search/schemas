@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ that are applied to a data store when it is created. \"\n        }\n      ]\n    },\n    \"IdentityProviderConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IdentityProviderConfiguration\"\n        },\n        {\n          \"description\": \"The configuration of the identity provider that you want to use for your data store.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-create-fhir-datastore-request-schema.json
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

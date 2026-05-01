@@ -29,7 +29,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"StartTime\",\
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-get-service-graph-request-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

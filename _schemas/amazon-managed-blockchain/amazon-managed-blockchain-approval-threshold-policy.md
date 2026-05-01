@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ aren't carried out.\"\n        }\n      ]\n    },\n    \"ThresholdComparator\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ThresholdComparator\"\n        },\n        {\n          \"description\": \"Determines whether the vote percentage must be greater than the <code>ThresholdPercentage</code> or must be greater than or equal to the <code>ThreholdPercentage</code> to be approved.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/json-schema/amazon-managed-blockchain-approval-threshold-policy-schema.json
 tags:
-- AWS
 - Blockchain
 - Distributed Ledger
 - Hyperledger Fabric

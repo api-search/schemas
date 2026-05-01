@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   string\",\n      \"description\": \"The name of the cluster parameter group to use.\"\n    },\n    \"VpcSecurityGroupIds\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"BackupRetentionPeriod\": {\n      \"type\": \"integer\"\n    },\n    \"PreferredBackupWindow\": {\n      \"type\": \"string\"\n    },\n    \"PreferredMaintenanceWindow\": {\n      \"type\": \"string\"\n    },\n    \"DeletionProtection\": {\n      \"type\": \"boolean\"\n    },\n    \"ApplyImmediately\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to apply changes immediately or during the next maintenance window.\"\n    }\n  },\n  \"required\": [\n    \"DBClusterIdentifier\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/management-modify-db-cluster-request-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

@@ -30,7 +30,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"identityProvi
   \    \"$ref\": \"#/components/schemas/IdentityProviderName\"\n        },\n        {\n          \"description\": \"The identity provider name.\"\n        }\n      ]\n    },\n    \"identityProviderType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IdentityProviderType\"\n        },\n        {\n          \"description\": \"The identity provider type.\"\n        }\n      ]\n    },\n    \"portalArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ARN\"\n        },\n        {\n          \"description\": \"The ARN of the web portal.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-create-identity-provider-request-schema.json\",\n  \"description\": \"CreateIdentityProviderRequest schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-create-identity-provider-request-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

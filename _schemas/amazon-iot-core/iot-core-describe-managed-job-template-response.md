@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ from a managed template.</p> <note> <p> <code>documentParameters</code> can only be used when creating jobs from Amazon Web Services managed templates. This parameter can't be used with custom job templates or to create jobs from them.</p> </note>\"\n        }\n      ]\n    },\n    \"document\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/JobDocument\"\n        },\n        {\n          \"description\": \"The document schema for a managed job template.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-describe-managed-job-template-response-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

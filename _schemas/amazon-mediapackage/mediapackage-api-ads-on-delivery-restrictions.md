@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   nand are always treated as ads if specified in AdTriggers.\\n\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"NONE\",\n    \"RESTRICTED\",\n    \"UNRESTRICTED\",\n    \"BOTH\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-ads-on-delivery-restrictions-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

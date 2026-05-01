@@ -47,7 +47,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ If the HITLayoutId is provided, any placeholder values must be filled in with values using the HITLayoutParameter structure. For more information, see HITLayout. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"HITTypeId\",\n    \"LifetimeInSeconds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-create-hit-with-hit-type-request-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

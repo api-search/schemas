@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"Name\",\n    
   \      },\n        {\n          \"description\": \"The identifier of the source Region.\"\n        }\n      ]\n    },\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagList\"\n        },\n        {\n          \"description\": \"The tags for the image.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-copy-workspace-image-request-schema.json\",\n  \"description\": \"CopyWorkspaceImageRequest schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-copy-workspace-image-request-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

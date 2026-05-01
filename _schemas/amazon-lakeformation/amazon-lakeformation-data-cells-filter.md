@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lakeformation/refs/heads/main/json-schema/amazon-lakeformation-data-cells-filter-schema.json
 tags:
 - Analytics
-- AWS
 - Data Lake
 - Governance
 title: DataCellsFilter

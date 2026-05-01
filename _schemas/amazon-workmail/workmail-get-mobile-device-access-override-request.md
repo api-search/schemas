@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"OrganizationI
   \n        }\n      ]\n    },\n    \"DeviceId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DeviceId\"\n        },\n        {\n          \"description\": \"The mobile device to which the override applies. <code>DeviceId</code> is case insensitive.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-mobile-device-access-override-request-schema.json\",\n  \"description\": \"GetMobileDeviceAccessOverrideRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-mobile-device-access-override-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

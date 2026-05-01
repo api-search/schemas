@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ requirements for. Macie can't determine whether the bucket policies for these buckets require server-side encryption of new objects.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-bucket-count-policy-allows-unencrypted-object-uploads-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

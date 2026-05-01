@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/KmsKeyId\"\n        },\n        {\n          \"description\": \"ID for the KMS key that Amazon Comprehend uses to encrypt the volume.\"\n        }\n      ]\n    },\n    \"DataLakeKmsKeyId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/KmsKeyId\"\n        },\n        {\n          \"description\": \"ID for the KMS key that Amazon Comprehend uses to encrypt the data in the data lake.\"\n        }\n      ]\n    },\n    \"VpcConfig\": {\n      \"$ref\": \"#/components/schemas/VpcConfig\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-data-security-config-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

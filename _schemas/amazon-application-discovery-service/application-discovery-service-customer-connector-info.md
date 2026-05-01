@@ -38,6 +38,5 @@ tags:
 - Migration
 - Discovery
 - Infrastructure
-- AWS
 title: CustomerConnectorInfo
 ---

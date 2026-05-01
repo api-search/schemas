@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"format\": {
   : \"An object that represents an access log file.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-file-access-log-schema.json\",\n  \"title\": \"VirtualGatewayFileAccessLog\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-file-access-log-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

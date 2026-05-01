@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n    },\n    \"AuditImages\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-get-face-liveness-session-results-response-schema.json
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

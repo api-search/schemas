@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Tagging Amazon Web Services Resources</a> for more information, including restrictions that apply to tags and \\\"Tag naming limits and requirements\\\"; Amazon IVS has no service-specific constraints beyond what is documented there.\"\n        }\n      ]\n    },\n    \"thumbnailConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ThumbnailConfiguration\"\n        },\n        {\n          \"description\": \"A complex type that allows you to enable/disable the recording of thumbnails for a live session and modify the interval at which thumbnails are generated for the live session.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"destinationConfiguration\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-create-recording-configuration-request-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

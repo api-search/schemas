@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The secret key that you received from the Baidu Cloud Push service to communicate with the service.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SecretKey\",\n    \"ApiKey\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-baidu-channel-request-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

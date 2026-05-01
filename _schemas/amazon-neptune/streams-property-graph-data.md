@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The property value with its data type.\",\n      \"properties\": {\n        \"value\": {\n          \"description\": \"The actual property value.\"\n        },\n        \"dataType\": {\n          \"type\": \"string\",\n          \"description\": \"The data type (String, Integer, Double, etc.).\"\n        }\n      }\n    },\n    \"from\": {\n      \"type\": \"string\",\n      \"description\": \"Source vertex ID (for edges only).\"\n    },\n    \"to\": {\n      \"type\": \"string\",\n      \"description\": \"Target vertex ID (for edges only).\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/streams-property-graph-data-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

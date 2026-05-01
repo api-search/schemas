@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/json-schema/incident-manager-tag-resource-request-schema.json
 tags:
 - Automation
-- AWS
 - DevOps
 - Incident Management
 - Operations

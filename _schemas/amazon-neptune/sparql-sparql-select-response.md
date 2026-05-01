@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ result bindings for each solution.\",\n          \"items\": {\n            \"type\": \"object\",\n            \"additionalProperties\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"type\": {\n                  \"type\": \"string\",\n                  \"enum\": [\n                    \"uri\",\n                    \"literal\",\n                    \"bnode\"\n                  ]\n                },\n                \"value\": {\n                  \"type\": \"string\"\n                },\n                \"datatype\": {\n                  \"type\": \"string\"\n                },\n                \"xml:lang\": {\n                  \"type\": \"string\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"boolean\": {\n      \"type\": \"boolean\",\n      \"description\": \"The result for ASK queries.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/sparql-sparql-select-response-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

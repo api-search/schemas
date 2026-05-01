@@ -45,7 +45,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"Sources\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOfBridgeSource\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"sources\"\n          },\n          \"description\": \"The sources on this bridge.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"BridgeArn\",\n    \"BridgeState\",\n    \"PlacementArn\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-bridge-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   name\": \"targetBrokerEBSVolumeInfo\"\n          },\n          \"description\": \"\\n            <p>Describes the target volume size and the ID of the broker to apply the update to.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"TargetBrokerEBSVolumeInfo\",\n    \"CurrentVersion\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-update-broker-storage-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

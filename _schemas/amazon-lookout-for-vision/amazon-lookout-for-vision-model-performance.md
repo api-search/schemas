@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The overall precision metric value for the trained model.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-model-performance-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/NonEmptyString\"\n          },\n          {\n            \"description\": \"The filter's value.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"A resource map filter for a software bill of material report.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-resource-map-filter-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

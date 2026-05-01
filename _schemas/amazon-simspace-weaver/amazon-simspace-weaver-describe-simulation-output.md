@@ -62,7 +62,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"An error message that SimSpace Weaver returns only if a problem occurs when the simulation is in the <code>STARTING</code> state.\"\n        }\n      ]\n    },\n    \"Status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SimulationStatus\"\n        },\n        {\n          \"description\": \"The current lifecycle state of the simulation.\"\n        }\n      ]\n    },\n    \"TargetStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SimulationTargetStatus\"\n        },\n        {\n          \"description\": \"The desired lifecycle state of the simulation.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/json-schema/amazon-simspace-weaver-describe-simulation-output-schema.json
 tags:
-- AWS
 - Defense
 - Digital Twin
 - Simulation

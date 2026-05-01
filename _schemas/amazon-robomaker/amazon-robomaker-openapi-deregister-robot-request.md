@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n    \"fleet\",\n    \"robot\"\n  ],\n  \"deprecated\": true\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deregister-robot-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: DeregisterRobotRequest

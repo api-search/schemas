@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   The authorizer's URI. For TOKEN or REQUEST authorizers, this is the Lambda function URI.\"\n    },\n    \"authorizerCredentials\": {\n      \"type\": \"string\",\n      \"description\": \"The credentials required for the authorizer as an IAM role ARN.\"\n    },\n    \"identitySource\": {\n      \"type\": \"string\",\n      \"description\": \"The identity source for which authorization is requested.\"\n    },\n    \"identityValidationExpression\": {\n      \"type\": \"string\",\n      \"description\": \"A validation expression for the incoming identity token.\"\n    },\n    \"authorizerResultTtlInSeconds\": {\n      \"type\": \"integer\",\n      \"description\": \"The TTL in seconds of cached authorizer results. Max 3600.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-authorizer-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

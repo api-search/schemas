@@ -15,7 +15,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ quantization (H264AdaptiveQuantization) to a value other than AUTO.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"DISABLED\",\n    \"ENABLED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-h264-spatial-adaptive-quantization-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

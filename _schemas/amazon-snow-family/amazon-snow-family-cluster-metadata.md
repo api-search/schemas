@@ -62,7 +62,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ after it will be shipped to its primary address. This field is not supported in most regions.\"\n        }\n      ]\n    },\n    \"TaxDocuments\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TaxDocuments\"\n        },\n        {\n          \"description\": \"The tax documents required in your Amazon Web Services Region.\"\n        }\n      ]\n    },\n    \"OnDeviceServiceConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OnDeviceServiceConfiguration\"\n        },\n        {\n          \"description\": \"Represents metadata and configuration settings for services on an Amazon Web Services Snow Family device.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-cluster-metadata-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

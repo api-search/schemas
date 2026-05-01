@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ index is used to preview the result of steps that have already been applied, so that the resulting view frame is from earlier in the view frame stack.\"\n        }\n      ]\n    },\n    \"ClientSessionId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ClientSessionId\"\n        },\n        {\n          \"description\": \"A unique identifier for an interactive session that's currently open and ready for work. The action will be performed on this session.\"\n        }\n      ]\n    },\n    \"ViewFrame\": {\n      \"$ref\": \"#/components/schemas/ViewFrame\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-send-project-session-action-request-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   items\": {\n        \"$ref\": \"#/components/schemas/Change\"\n      },\n      \"description\": \"A list of structures that describe the resources and their changes.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/json-schema/cloudformation-change-set-schema.json
 tags:
-- AWS
 - CloudFormation
 - Infrastructure as Code
 - DevOps

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n        {\n          \"description\": \" The token that you can use to return the next set of results. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"inputIdentifier\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-list-input-routings-request-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

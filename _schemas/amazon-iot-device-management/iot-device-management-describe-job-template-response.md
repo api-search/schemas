@@ -54,7 +54,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"description\": \"The configuration that determines how many retries are allowed for each failure type for a job.\"\n        }\n      ]\n    },\n    \"maintenanceWindows\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MaintenanceWindows\"\n        },\n        {\n          \"description\": \"Allows you to configure an optional maintenance window for the rollout of a job document to all devices in the target group for a job.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-describe-job-template-response-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

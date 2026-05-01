@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ when Macie attempted to parse the data.</p></li> <li><p>UNSUPPORTED_FILE_TYPE_EXCEPTION - The object is a file that uses an unsupported file or storage format.</p></li></ul> <p>For information about quotas, supported storage classes, and supported file and storage formats, see <a href=\\\"https://docs.aws.amazon.com/macie/latest/user/macie-quotas.html\\\">Quotas</a> and <a href=\\\"https://docs.aws.amazon.com/macie/latest/user/discovery-supported-storage.html\\\">Supported storage classes and formats</a> in the <i>Amazon Macie User Guide</i>.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-classification-result-status-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

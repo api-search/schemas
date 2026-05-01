@@ -47,7 +47,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \            dc=com.\"\n        }\n      ]\n    },\n    \"UserSearchSubtree\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__boolean\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"userSearchSubtree\"\n          },\n          \"description\": \"The directory search scope for the user. If set to true, scope is to search the entire subtree.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Hosts\",\n    \"UserSearchMatching\",\n    \"UserBase\",\n    \"RoleSearchMatching\",\n    \"ServiceAccountUsername\",\n    \"RoleBase\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-ldap-server-metadata-output-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rule-policy-schema.json\",\n  \"title\": \"ResolverRulePolicy\",\n  \"description\": \"ResolverRulePolicy schema from openapi\",\n  \"type\": \"string\",\n  \"maxLength\": 30000\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rule-policy-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

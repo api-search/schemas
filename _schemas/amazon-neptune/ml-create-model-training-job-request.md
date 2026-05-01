@@ -75,7 +75,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"type\": \"boolean\",\n      \"description\": \"Whether to use EC2 spot instances for training.\",\n      \"default\": false\n    },\n    \"customModelTrainingParameters\": {\n      \"type\": \"object\",\n      \"description\": \"Custom model training configuration.\",\n      \"properties\": {\n        \"sourceS3DirectoryPath\": {\n          \"type\": \"string\",\n          \"description\": \"S3 path to the custom training script directory.\"\n        },\n        \"trainingEntryPointScript\": {\n          \"type\": \"string\",\n          \"description\": \"Name of the training entry point script.\"\n        },\n        \"transformEntryPointScript\": {\n          \"type\": \"string\",\n          \"description\": \"Name of the transform entry point script.\"\n        }\n      }\n    }\n  },\n  \"required\": [\n    \"dataProcessingJobId\",\n    \"trainModelS3Location\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/ml-create-model-training-job-request-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

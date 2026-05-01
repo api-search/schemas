@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The IPv4 public address of the network interface.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-network-interface-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: NetworkInterface

@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"name\": \"programDateTimeIntervalSeconds\"\n          },\n          \"description\": \"The interval (in seconds) between each EXT-X-PROGRAM-DATE-TIME tag\\ninserted into manifests. Additionally, when an interval is specified\\nID3Timed Metadata messages will be generated every 5 seconds using the\\ningest time of the content.\\nIf the interval is not specified, or set to 0, then\\nno EXT-X-PROGRAM-DATE-TIME tags will be inserted into manifests and no\\nID3Timed Metadata messages will be generated. Note that irrespective\\nof this parameter, if any ID3 Timed Metadata is found in HTTP Live Streaming (HLS) input,\\nit will be passed through to HLS output.\\n\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Id\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-hls-manifest-create-or-update-parameters-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

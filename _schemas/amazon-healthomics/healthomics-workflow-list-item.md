@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ available for workflow. The information listed may vary depending on the workflow, and there may also be no metadata to return. \"\n        }\n      ]\n    }\n  },\n  \"description\": \"A workflow.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-workflow-list-item-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

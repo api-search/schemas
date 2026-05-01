@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ SSH public key is associated with the user profile, and can be used in conjunction with the associated private key for access to project resources, such as Amazon EC2 instances, if a project owner grants remote access to those resources.\"\n        }\n      ]\n    },\n    \"createdTimestamp\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CreatedTimestamp\"\n        },\n        {\n          \"description\": \"The date and time when the user profile was created in AWS CodeStar, in timestamp format.\"\n        }\n      ]\n    },\n    \"lastModifiedTimestamp\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LastModifiedTimestamp\"\n        },\n        {\n          \"description\": \"The date and time when the user profile was last modified, in timestamp format.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"userArn\",\n    \"createdTimestamp\",\n    \"lastModifiedTimestamp\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-schema/codestar-describe-user-profile-result-schema.json
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

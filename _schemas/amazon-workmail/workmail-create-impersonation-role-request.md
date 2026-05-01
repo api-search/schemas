@@ -32,7 +32,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"OrganizationI
   ,\n  \"description\": \"CreateImpersonationRoleRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-create-impersonation-role-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

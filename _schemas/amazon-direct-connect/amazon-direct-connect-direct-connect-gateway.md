@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Direct Connect gateway is ready for use.</p> </li> <li> <p> <code>deleting</code>: The initial state after calling <a>DeleteDirectConnectGateway</a>.</p> </li> <li> <p> <code>deleted</code>: The Direct Connect gateway is deleted and cannot pass traffic.</p> </li> </ul>\"\n        }\n      ]\n    },\n    \"stateChangeError\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StateChangeError\"\n        },\n        {\n          \"description\": \"The error message if the state of an object failed to advance.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/json-schema/amazon-direct-connect-direct-connect-gateway-schema.json
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

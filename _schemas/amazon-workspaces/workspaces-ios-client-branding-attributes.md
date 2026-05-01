@@ -37,7 +37,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"LogoUrl\": 
   \ are displayed on the iOS client login screen only.</p> <important> <p>Client branding attributes are public facing. Ensure you do not include sensitive information.</p> </important>\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"IosClientBrandingAttributes\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-ios-client-branding-attributes-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-ios-client-branding-attributes-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

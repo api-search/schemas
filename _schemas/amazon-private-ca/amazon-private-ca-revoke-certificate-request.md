@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"$ref\": \"#/components/schemas/RevocationReason\"\n        },\n        {\n          \"description\": \"Specifies why you revoked the certificate.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CertificateAuthorityArn\",\n    \"CertificateSerial\",\n    \"RevocationReason\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-revoke-certificate-request-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

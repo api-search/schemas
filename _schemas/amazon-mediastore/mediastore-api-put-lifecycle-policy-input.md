@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"LifecyclePolicy\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-put-lifecycle-policy-input-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

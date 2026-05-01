@@ -68,7 +68,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"kmsKeyId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/json-schema/amazon-finspace-kx-environment-schema.json
 tags:
-- AWS
 - Capital Markets
 - Data Analytics
 - Data Management

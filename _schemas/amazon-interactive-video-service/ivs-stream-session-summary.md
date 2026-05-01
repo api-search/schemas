@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   ]\n    },\n    \"startTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Time\"\n        },\n        {\n          \"description\": \"Time when the channel went live. This is an ISO 8601 timestamp; <i>note that this is returned as a string</i>.\"\n        }\n      ]\n    },\n    \"streamId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StreamId\"\n        },\n        {\n          \"description\": \"Unique identifier for a live or previously live stream in the specified channel.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-stream-session-summary-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

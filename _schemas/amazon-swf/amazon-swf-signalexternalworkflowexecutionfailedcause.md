@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"enum\": [\n    \"UNKNOWN_EXTERNAL_
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-signalexternalworkflowexecutionfailedcause-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: SignalExternalWorkflowExecutionFailedCause

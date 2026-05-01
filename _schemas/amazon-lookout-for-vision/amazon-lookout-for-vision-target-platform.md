@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <code>{'mattr': ['+neon', '+vfpv4']}</code> </p> </li> </ul>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Os\",\n    \"Arch\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-target-platform-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

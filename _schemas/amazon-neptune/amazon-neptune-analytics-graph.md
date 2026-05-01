@@ -66,7 +66,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"string\",\n      \"description\": \"The KMS key identifier used for encryption at rest.\"\n    },\n    \"sourceSnapshotId\": {\n      \"type\": \"string\",\n      \"description\": \"The ID of the source snapshot if the graph was restored from a snapshot.\"\n    },\n    \"deletionProtection\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether deletion protection is enabled for the graph.\",\n      \"default\": false\n    },\n    \"buildNumber\": {\n      \"type\": \"string\",\n      \"description\": \"The build number of the Neptune Analytics engine.\"\n    },\n    \"tags\": {\n      \"type\": \"object\",\n      \"description\": \"Tags assigned to the graph as key-value pairs.\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-analytics-graph-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

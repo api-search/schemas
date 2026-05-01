@@ -49,7 +49,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Arn\",\n    \"ChannelName\",\n    \"ChannelState\",\n    \"LogConfiguration\",\n    \"Outputs\",\n    \"PlaybackMode\",\n    \"Tier\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-channel-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

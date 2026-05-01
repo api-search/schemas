@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ and the evaluated result should be a double.\"\n        }\n      ]\n    },\n    \"booleanValue\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AssetPropertyBooleanValue\"\n        },\n        {\n          \"description\": \"The asset property value is a Boolean value that must be <code>'TRUE'</code> or <code>'FALSE'</code>. You must use an expression, and the evaluated result should be a Boolean value.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-asset-property-variant-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

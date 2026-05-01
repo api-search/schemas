@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The package's version.\"\n        }\n      ]\n    },\n    \"PatchVersion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NodePackagePatchVersion\"\n        },\n        {\n          \"description\": \"The package's patch version.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"OutputS3Location\",\n    \"PackageId\",\n    \"PackageVersion\",\n    \"PatchVersion\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-package-import-job-output-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

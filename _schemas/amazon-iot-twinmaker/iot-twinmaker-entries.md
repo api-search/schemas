@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ values.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"An object that specifies information about time series property values. This object is used and consumed by the <a href=\\\"https://docs.aws.amazon.com/iot-twinmaker/latest/apireference/API_BatchPutPropertyValues.html\\\">BatchPutPropertyValues</a> action.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-entries-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

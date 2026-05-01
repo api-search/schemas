@@ -29,7 +29,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"browserPolicy
   ,\n  \"description\": \"CreateBrowserSettingsRequest schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-create-browser-settings-request-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ is using. For example, in a policy using the metric PercentAvailableGameSessions, the target value should be the preferred size of the fleet's buffer (the percent of capacity that should be idle and ready for new game sessions).\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"TargetValue\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-target-configuration-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

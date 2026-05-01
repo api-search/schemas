@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"latestVersion\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/ComponentLatestVersion\"\n          },\n          {\n            \"description\": \"The latest version of the component and its details.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains information about a component.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-component-list-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

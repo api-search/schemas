@@ -64,7 +64,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ with the finding.\"\n        },\n        \"openPortRange\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"begin\": {\n              \"type\": \"integer\"\n            },\n            \"end\": {\n              \"type\": \"integer\"\n            }\n          },\n          \"description\": \"The open port range.\"\n        },\n        \"networkPath\": {\n          \"type\": \"object\",\n          \"description\": \"The network path details.\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/amazon-inspector-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

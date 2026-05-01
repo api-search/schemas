@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ commitment begins when you purchase the additional capacity. You can't cancel your commitment or revert to your original commitment after you increase the capacity.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Commitment\",\n    \"ReservedSlots\",\n    \"RenewalType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-reservation-plan-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

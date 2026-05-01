@@ -70,7 +70,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"maxLength\": 256\n        }\n      },\n      \"required\": [\"key\"]\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/json-schema/amazon-vpc-schema.json
 tags:
-- AWS
 - Networking
 - Private Cloud
 - Security

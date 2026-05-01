@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"Output\",\n    \"OutputConfig\",\n    \"Status\",\n    \"StatusMessage\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-describe-package-import-job-response-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

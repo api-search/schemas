@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The downstream service status code for delivering the message.\"\n        }\n      ]\n    },\n    \"StatusMessage\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The status message for delivering the message.\"\n        }\n      ]\n    },\n    \"UpdatedToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"For push notifications that are sent through the GCM channel, specifies whether the endpoint's device registration token was updated as part of delivering the message.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DeliveryStatus\",\n    \"StatusCode\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-message-result-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

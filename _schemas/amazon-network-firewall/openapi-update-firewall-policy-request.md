@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ with dry run set to <code>FALSE</code>, but doesn't make additions or changes to your resources. This option allows you to make sure that you have the required permissions to run the request and that your request parameters are valid. </p> <p>If set to <code>FALSE</code>, Network Firewall makes the requested changes to your resources. </p>\"\n        }\n      ]\n    },\n    \"EncryptionConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EncryptionConfiguration\"\n        },\n        {\n          \"description\": \"A complex type that contains settings for encryption of your firewall policy resources.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"UpdateToken\",\n    \"FirewallPolicy\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-update-firewall-policy-request-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

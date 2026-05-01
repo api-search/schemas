@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ The transcoder uses the signal processing instructions that you provide in the setting SCC XML (sccXml).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-esam-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

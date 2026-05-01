@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        }\n      ]\n    },\n    \"AuthToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComputeAuthToken\"\n        },\n        {\n          \"description\": \"The authentication token that your game server uses to authenticate with Amazon GameLift.\"\n        }\n      ]\n    },\n    \"ExpirationTimestamp\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The amount of time until the authentication token is no longer valid. To continue using the compute resource for game server hosting, renew the authentication token by using this operation again.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-get-compute-auth-token-output-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

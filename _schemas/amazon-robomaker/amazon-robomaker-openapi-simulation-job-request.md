@@ -51,7 +51,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ </p> <note> <p>There is a limit of 100 files and a combined size of 25GB for all <code>DataSourceConfig</code> objects. </p> </note>\"\n        }\n      ]\n    },\n    \"vpcConfig\": {\n      \"$ref\": \"#/components/schemas/VPCConfig\"\n    },\n    \"compute\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Compute\"\n        },\n        {\n          \"description\": \"Compute information for the simulation job\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"A map that contains tag keys and tag values that are attached to the simulation job request.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"maxJobDurationInSeconds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: SimulationJobRequest

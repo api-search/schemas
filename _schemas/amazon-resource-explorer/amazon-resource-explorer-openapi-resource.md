@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"string\",\n      \"description\": \"The type of the resource.\"\n    },\n    \"Service\": {\n      \"type\": \"string\",\n      \"description\": \"The AWS service that owns the resource.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-schema/amazon-resource-explorer-openapi-resource-schema.json
 tags:
-- AWS
 - Discovery
 - Inventory
 - Operations

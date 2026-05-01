@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"title\": \"DescribeWorkspaceDirect
   ,\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-describe-workspace-directories-request-schema.json\",\n  \"description\": \"DescribeWorkspaceDirectoriesRequest schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-describe-workspace-directories-request-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

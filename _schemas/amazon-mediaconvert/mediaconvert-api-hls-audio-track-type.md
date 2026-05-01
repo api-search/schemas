@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ back by default. Represented as an EXT-X-MEDIA in the HLS manifest with DEFAULT=NO, AUTOSELECT=NO\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ALTERNATE_AUDIO_AUTO_SELECT_DEFAULT\",\n    \"ALTERNATE_AUDIO_AUTO_SELECT\",\n    \"ALTERNATE_AUDIO_NOT_AUTO_SELECT\",\n    \"AUDIO_ONLY_VARIANT_STREAM\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-hls-audio-track-type-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"Accounts\": {\n      \"type\": \"array\",\n      \"description\": \"The list of AWS accounts to invite to become member accounts.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Account\"\n      }\n    }\n  },\n  \"required\": [\n    \"GraphArn\",\n    \"Accounts\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-create-members-request-schema.json
 tags:
-- AWS
 - Forensics
 - Investigation
 - Security

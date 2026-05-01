@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   portMapping\"\n    ],\n    \"description\": \"An object that represents a virtual router listener.\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-router-listeners-schema.json\",\n  \"title\": \"VirtualRouterListeners\",\n  \"description\": \"VirtualRouterListeners schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-router-listeners-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

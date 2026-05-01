@@ -21,7 +21,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       \"type\": \"integer\",\n              \"description\": \"Total parsing errors.\"\n            },\n            \"datatypeMismatchErrors\": {\n              \"type\": \"integer\",\n              \"description\": \"Total datatype mismatch errors.\"\n            },\n            \"insertErrors\": {\n              \"type\": \"integer\",\n              \"description\": \"Total insert errors.\"\n            }\n          }\n        },\n        \"failedFeeds\": {\n          \"type\": \"array\",\n          \"description\": \"Details about failed feeds.\",\n          \"items\": {\n            \"type\": \"object\"\n          }\n        },\n        \"errors\": {\n          \"type\": \"object\",\n          \"description\": \"Error details (when errors=true was requested).\"\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/loader-loader-status-response-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

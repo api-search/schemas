@@ -58,7 +58,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n    },\n    \"baseProcessingInstanceVolumeSizeInGB\": {\n      \"type\": \"integer\"\n    },\n    \"subnets\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"securityGroupIds\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"volumeEncryptionKMSKey\": {\n      \"type\": \"string\"\n    },\n    \"s3OutputEncryptionKMSKey\": {\n      \"type\": \"string\"\n    },\n    \"enableInterContainerTrafficEncryption\": {\n      \"type\": \"boolean\",\n      \"default\": true\n    },\n    \"customModelTransformParameters\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"sourceS3DirectoryPath\": {\n          \"type\": \"string\"\n        },\n        \"transformEntryPointScript\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  },\n  \"required\": [\n    \"modelTransformOutputS3Location\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/data-start-ml-model-transform-job-input-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

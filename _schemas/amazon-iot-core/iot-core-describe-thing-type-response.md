@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The thing type ARN.\"\n        }\n      ]\n    },\n    \"thingTypeProperties\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ThingTypeProperties\"\n        },\n        {\n          \"description\": \"The ThingTypeProperties contains information about the thing type including description, and a list of searchable thing attribute names.\"\n        }\n      ]\n    },\n    \"thingTypeMetadata\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ThingTypeMetadata\"\n        },\n        {\n          \"description\": \"The ThingTypeMetadata contains additional information about the thing type including: creation date and time, a value indicating whether the thing type is deprecated, and a date and time when it was deprecated.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-describe-thing-type-response-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

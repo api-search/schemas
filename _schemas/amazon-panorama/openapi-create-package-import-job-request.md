@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Tags for the package import job.\"\n        }\n      ]\n    },\n    \"JobType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PackageImportJobType\"\n        },\n        {\n          \"description\": \"A job type for the package import job.\"\n        }\n      ]\n    },\n    \"OutputConfig\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PackageImportJobOutputConfig\"\n        },\n        {\n          \"description\": \"An output config for the package import job.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ClientToken\",\n    \"InputConfig\",\n    \"JobType\",\n    \"OutputConfig\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-create-package-import-job-request-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ blocks it from going to its intended destination.</p> </li> <li> <p> <b>aws:forward_to_sfe</b> - Discontinues stateless inspection of the packet and forwards it to the stateful rule engine for inspection. </p> </li> </ul> <p>Additionally, you can specify a custom action. To do this, you define a custom action by name and type, then provide the name you've assigned to the action in this <code>Actions</code> setting. For information about the options, see <a>CustomAction</a>. </p> <p>To provide more than one action in this setting, separate the settings with a comma. For example, if you have a custom <code>PublishMetrics</code> action that you've named <code>MyMetricsAction</code>, then you could specify the standard action <code>aws:pass</code> and the custom action with <code>[\\u201caws:pass\\u201d, \\u201cMyMetricsAction\\u201d]</code>. </p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MatchAttributes\",\n    \"Actions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-rule-definition-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

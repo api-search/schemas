@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"repositoryProvider\",\n    \"templateName\",\n    \"templateType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-template-sync-config-input-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

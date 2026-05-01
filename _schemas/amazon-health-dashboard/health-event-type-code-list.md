@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-event-type-code-list-schema.json\",\n  \"title\": \"EventTypeCodeList\",\n  \"description\": \"EventTypeCodeList schema from Amazon Health Dashboard API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/eventTypeCode\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-event-type-code-list-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

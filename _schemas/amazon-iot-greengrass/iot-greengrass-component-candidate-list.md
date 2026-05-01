@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n          {\n            \"$ref\": \"#/components/schemas/ComponentVersionRequirementMap\"\n          },\n          {\n            \"description\": \"<p>The version requirements for the component's dependencies. Greengrass core devices get the version requirements from component recipes.</p> <p>IoT Greengrass V2 uses semantic version constraints. For more information, see <a href=\\\"https://semver.org/\\\">Semantic Versioning</a>.</p>\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains information about a component that is a candidate to deploy to a Greengrass core device.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-component-candidate-list-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   destinationPort\"\n          },\n          \"description\": \"The port that you want MediaConnect to use when it distributes the media stream to the output.\"\n        }\n      ]\n    },\n    \"Interface\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/InterfaceRequest\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"interface\"\n          },\n          \"description\": \"The VPC interface that you want to use for the media stream associated with the output.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DestinationIp\",\n    \"DestinationPort\",\n    \"Interface\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-destination-configuration-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

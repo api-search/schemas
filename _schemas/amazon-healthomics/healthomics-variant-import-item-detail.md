@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \" A message that provides additional context about a job \"\n        }\n      ]\n    }\n  },\n  \"description\": \"Details about an imported variant item.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-variant-import-item-detail-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

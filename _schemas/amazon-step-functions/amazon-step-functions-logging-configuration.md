@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      }\n      ]\n    },\n    \"destinations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LogDestinationList\"\n        },\n        {\n          \"description\": \"An array of objects that describes where your execution history events will be logged. Limited to size 1. Required, if your log level is not set to <code>OFF</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-logging-configuration-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

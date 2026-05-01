@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ code.\"\n          }\n        ]\n      },\n      \"message\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/String\"\n          },\n          {\n            \"description\": \"The error message returned.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Information about an error received while accessing free trail data for an account.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-free-trial-info-error-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

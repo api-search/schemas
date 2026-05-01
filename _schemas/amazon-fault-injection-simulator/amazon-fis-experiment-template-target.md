@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"Resource filters\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    },\n    \"selectionMode\": {\n      \"type\": \"string\",\n      \"description\": \"Selection mode\",\n      \"example\": \"ALL\",\n      \"enum\": [\n        \"ALL\",\n        \"COUNT(n)\",\n        \"PERCENT(n)\"\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/json-schema/amazon-fis-experiment-template-target-schema.json
 tags:
-- AWS
 - Chaos Engineering
 - DevOps
 - Fault Injection

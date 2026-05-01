@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"description\": \"The name of the service instance that this component is attached to. Provided when a component is attached to a service instance.\"\n        }\n      ]\n    },\n    \"serviceName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceName\"\n        },\n        {\n          \"description\": \"The name of the service that <code>serviceInstanceName</code> is associated with. Provided when a component is attached to a service instance.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"arn\",\n    \"createdAt\",\n    \"deploymentStatus\",\n    \"environmentName\",\n    \"lastModifiedAt\",\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-component-summary-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

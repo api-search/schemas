@@ -30,7 +30,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"AllowedHeaders\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-cors-rule-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

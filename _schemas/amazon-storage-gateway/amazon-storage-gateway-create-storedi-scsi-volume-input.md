@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  },\n  \"required\": [\n    \"GatewayARN\",\n    \"DiskId\",\n    \"PreserveExistingData\",\n    \"TargetName\",\n    \"NetworkInterfaceId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-create-storedi-scsi-volume-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

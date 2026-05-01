@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"An object that contains the count of matched findings per severity.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"instanceId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-ec2-instance-aggregation-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

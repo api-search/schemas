@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Availabilit
   ,\n  \"description\": \"ListAvailabilityConfigurationsResponse schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-list-availability-configurations-response-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

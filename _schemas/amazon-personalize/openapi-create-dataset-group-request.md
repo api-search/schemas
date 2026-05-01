@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/json-schema/openapi-create-dataset-group-request-schema.json
 tags:
 - AI
-- AWS
 - Customer Experience
 - Machine Learning
 - ML

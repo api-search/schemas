@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ in use on the service tasks.</p> </li> <li> <p> <code>Memory</code> \\u2014 The percentage of memory that's currently in use on the service tasks.</p> </li> </ul>\"\n        }\n      ]\n    },\n    \"timestamps\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamps\"\n        },\n        {\n          \"description\": \" The timestamps of the projected metric. \"\n        }\n      ]\n    },\n    \"upperBoundValues\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MetricValues\"\n        },\n        {\n          \"description\": \" The upper bound values for the projected metric. \"\n        }\n      ]\n    },\n    \"lowerBoundValues\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MetricValues\"\n        },\n        {\n          \"description\": \" The lower bound values for the projected metric. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-ecs-service-projected-metric-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

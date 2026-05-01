@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/json-schema/config-compliance-contributor-count-schema.json
 tags:
 - Auditing
-- AWS
 - Compliance
 - Configuration Management
 - Governance

@@ -27,7 +27,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         {\n              \"description\": \"The unit (such as <code>Newtons</code> or <code>RPM</code>) of the asset property.\"\n            }\n          ]\n        },\n        \"type\": {\n          \"allOf\": [\n            {\n              \"$ref\": \"#/components/schemas/PropertyType\"\n            },\n            {\n              \"description\": \"The property type (see <code>PropertyType</code>). A property contains one type.\"\n            }\n          ]\n        }\n      },\n      \"description\": \"Contains asset property information.\"\n    },\n    \"id\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ID\"\n        },\n        {\n          \"description\": \" The ID of the composite model that contains the property. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"type\",\n    \"assetProperty\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-composite-model-property-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

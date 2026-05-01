@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"<p>By default, Amazon Web Services Private CA injects an Amazon Web Services domain into certificates being validated by the Online Certificate Status Protocol (OCSP). A customer can alternatively use this object to define a CNAME specifying a customized OCSP domain.</p> <note> <p>The content of a Canonical Name (CNAME) record must conform to <a href=\\\"https://www.ietf.org/rfc/rfc2396.txt\\\">RFC2396</a> restrictions on the use of special characters in URIs. Additionally, the value of the CNAME must not include a protocol prefix such as \\\"http://\\\" or \\\"https://\\\".</p> </note> <p>For more information, see <a href=\\\"https://docs.aws.amazon.com/privateca/latest/userguide/ocsp-customize.html\\\">Customizing Online Certificate Status Protocol (OCSP) </a> in the <i>Amazon Web Services Private Certificate Authority User Guide</i>.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Enabled\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-ocsp-configuration-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

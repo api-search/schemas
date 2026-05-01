@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ message.\"\n          }\n        ]\n      },\n      \"timestamps\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/Timestamps\"\n          },\n          {\n            \"description\": \"A list of timestamps for each error, if any.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains error information from updating a batch of asset property values.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-batch-put-asset-property-errors-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

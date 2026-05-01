@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The encryption settings that are used by a journal export job to write data in an Amazon S3 bucket.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Bucket\",\n    \"Prefix\",\n    \"EncryptionConfiguration\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-s3export-configuration-schema.json
 tags:
-- AWS
 - Blockchain
 - Database
 - Ledger

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Lists the service instances to add and the existing service instances to remain. Omit the existing service instances to delete from the list. <i>Don't</i> include edits to the existing service instances or pipeline. For more information, see <a href=\\\"https://docs.aws.amazon.com/proton/latest/userguide/ag-svc-update.html\\\">Edit a service</a> in the <i>Proton User Guide</i>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-input-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

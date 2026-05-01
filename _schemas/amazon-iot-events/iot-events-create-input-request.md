@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"The definition of the input.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Tags\"\n        },\n        {\n          \"description\": \"Metadata that can be used to manage the input.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"inputName\",\n    \"inputDefinition\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-create-input-request-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

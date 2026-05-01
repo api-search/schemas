@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Arn\",\n    \"FirewallRuleGroupPolicy\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-request-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

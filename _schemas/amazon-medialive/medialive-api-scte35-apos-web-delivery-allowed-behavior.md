@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-scte35-apos-web-delivery-allowed-behavior-schema.json\",\n  \"title\": \"Scte35AposWebDeliveryAllowedBehavior\",\n  \"description\": \"Scte35 Apos Web Delivery Allowed Behavior\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"FOLLOW\",\n    \"IGNORE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-scte35-apos-web-delivery-allowed-behavior-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

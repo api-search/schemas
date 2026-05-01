@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-class-schema.json\",\n  \"title\": \"InputClass\",\n  \"description\": \"A standard input has two sources and a single pipeline input only has one.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"STANDARD\",\n    \"SINGLE_PIPELINE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-class-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

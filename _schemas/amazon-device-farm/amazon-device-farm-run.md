@@ -119,7 +119,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/json-schema/amazon-device-farm-run-schema.json
 tags:
 - Application Testing
-- AWS
 - Device Testing
 - Mobile Testing
 - Quality Assurance

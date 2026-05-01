@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the deployment job.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-progress-detail-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: ProgressDetail

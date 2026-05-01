@@ -33,7 +33,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ by 2.\"\n        }\n      ]\n    },\n    \"TileWidth\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin1Max512\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"tileWidth\"\n          },\n          \"description\": \"Number of thumbnails in each row of a tile image. Set a value between 1 and 512.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-dash-iso-image-based-trick-play-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

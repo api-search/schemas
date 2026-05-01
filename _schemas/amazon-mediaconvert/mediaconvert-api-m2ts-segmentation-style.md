@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ However, all segments after that will have a duration of $segmentation_time seconds. Note that EBP lookahead is a slight exception to this rule.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"MAINTAIN_CADENCE\",\n    \"RESET_CADENCE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-m2ts-segmentation-style-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

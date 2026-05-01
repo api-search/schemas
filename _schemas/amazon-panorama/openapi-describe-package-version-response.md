@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"RegisteredTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TimeStamp\"\n        },\n        {\n          \"description\": \"The version's registered time.\"\n        }\n      ]\n    },\n    \"Status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PackageVersionStatus\"\n        },\n        {\n          \"description\": \"The version's status.\"\n        }\n      ]\n    },\n    \"StatusDescription\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PackageVersionStatusDescription\"\n        },\n        {\n          \"description\": \"The version's status description.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"IsLatestPatch\",\n    \"PackageId\",\n    \"PackageName\",\n    \"PackageVersion\",\n    \"PatchVersion\",\n    \"Status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-describe-package-version-response-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

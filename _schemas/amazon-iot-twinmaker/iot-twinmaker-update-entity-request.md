@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"An object that maps strings to the component updates in the request. Each string in the mapping must be unique to this object.\"\n        }\n      ]\n    },\n    \"parentEntityUpdate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ParentEntityUpdateRequest\"\n        },\n        {\n          \"description\": \"An object that describes the update request for a parent entity.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-update-entity-request-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

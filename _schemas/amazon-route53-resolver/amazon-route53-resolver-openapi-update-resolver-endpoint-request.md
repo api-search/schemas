@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"$ref\": \"#/components/schemas/ResolverEndpointType\"\n        },\n        {\n          \"description\": \" Specifies the endpoint type for what type of IP address the endpoint uses to forward DNS queries. \"\n        }\n      ]\n    },\n    \"UpdateIpAddresses\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UpdateIpAddresses\"\n        },\n        {\n          \"description\": \" Updates the Resolver endpoint type to IpV4, Ipv6, or dual-stack. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ResolverEndpointId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-endpoint-request-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

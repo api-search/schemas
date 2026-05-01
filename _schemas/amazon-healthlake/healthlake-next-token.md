@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-next-token-schema.json\",\n  \"title\": \"NextToken\",\n  \"type\": \"string\",\n  \"pattern\": \"\\\\p{ASCII}{0,8192}\",\n  \"maxLength\": 8192\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-next-token-schema.json
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

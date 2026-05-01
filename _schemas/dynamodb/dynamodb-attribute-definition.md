@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AttributeDefinition\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"AttributeName\": {\n      \"type\": \"string\",\n      \"description\": \"A name for the attribute\"\n    },\n    \"AttributeType\": {\n      \"type\": \"string\",\n      \"description\": \"The data type for the attribute: S (String), N (Number), B (Binary)\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-attribute-definition-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

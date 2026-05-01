@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"OrganizationI
   \ and <code>WebMail</code>.\"\n        }\n      ]\n    },\n    \"UserId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WorkMailIdentifier\"\n        },\n        {\n          \"description\": \"The user ID.\"\n        }\n      ]\n    },\n    \"ImpersonationRoleId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ImpersonationRoleId\"\n        },\n        {\n          \"description\": \"The impersonation role ID.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-access-control-effect-request-schema.json\",\n  \"description\": \"GetAccessControlEffectRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-access-control-effect-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

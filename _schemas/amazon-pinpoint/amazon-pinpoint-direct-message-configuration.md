@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"$ref\": \"#/components/schemas/SMSMessage\"\n        },\n        {\n          \"description\": \"The default message for the SMS channel. This message overrides the default message (DefaultMessage).\"\n        }\n      ]\n    },\n    \"VoiceMessage\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VoiceMessage\"\n        },\n        {\n          \"description\": \"The default message for the voice channel. This message overrides the default message (DefaultMessage).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-direct-message-configuration-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

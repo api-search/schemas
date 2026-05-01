@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Compute Optimizer and Amazon Web Services Organizations trusted access</a> in the <i>Compute Optimizer User Guide</i>.</p> <p>Recommendations for member accounts of the organization are not included in the export file if this parameter is omitted.</p> <p>Recommendations for member accounts are not included in the export if this parameter, or the account IDs parameter, is omitted.</p>\"\n        }\n      ]\n    },\n    \"recommendationPreferences\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RecommendationPreferences\"\n        },\n        {\n          \"description\": \"An object to specify the preferences for the Amazon EC2 instance recommendations to export.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"s3DestinationConfig\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-export-ec2-instance-recommendations-request-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   \ represents a target and its relative weight. Traffic is distributed across targets according to their relative weight. For example, a weighted target with a relative weight of 50 receives five times as much traffic as one with a relative weight of 10. The total weight for all targets combined must be less than or equal to 100.\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-weighted-targets-schema.json\",\n  \"title\": \"WeightedTargets\",\n  \"description\": \"WeightedTargets schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-weighted-targets-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

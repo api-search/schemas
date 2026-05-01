@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"SearchService\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"Endpoint\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/json-schema/cloudsearch-domain-status-schema.json
 tags:
-- AWS
 - CloudSearch
 - Search
 - Full-Text Search

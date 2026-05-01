@@ -72,7 +72,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"DirectoryId
   \ \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-directory-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-directory-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

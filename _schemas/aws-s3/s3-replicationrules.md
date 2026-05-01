@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of delete markers differently. For more information, see <a href=\\\"https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-backward-compat-considerations\\\">Backward Compatibility</a>.</p> </note>\"\n      }\n    },\n    \"required\": [\n      \"Status\",\n      \"Destination\"\n    ],\n    \"description\": \"Specifies which Amazon S3 objects to replicate and where to store the replicas.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-replicationrules-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"The maximum number of inference units to use for auto-scaling the model. If you don't specify a value, Amazon Lookout for Vision doesn't auto-scale the model.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MinInferenceUnits\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-start-model-request-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

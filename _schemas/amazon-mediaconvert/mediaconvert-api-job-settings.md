@@ -55,7 +55,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"xml\": {\n            \"name\": \"timedMetadataInsertion\"\n          },\n          \"description\": \"Insert user-defined custom ID3 metadata (id3) at timecodes (timecode) that you specify. In each output that you want to include this metadata, you must set ID3 metadata (timedMetadata) to Passthrough (PASSTHROUGH).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-job-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

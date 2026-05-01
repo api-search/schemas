@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"array\",\n            \"items\": {\n              \"$ref\": \"#/components/schemas/HistogramEntry\"\n            }\n          }\n        }\n      }\n    },\n    \"ContainsOldGroupVersions\": {\n      \"type\": \"boolean\"\n    },\n    \"NextToken\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/json-schema/x-ray-getservicegraphresult-schema.json
 tags:
-- AWS
 - Debugging
 - Distributed Tracing
 - Microservices

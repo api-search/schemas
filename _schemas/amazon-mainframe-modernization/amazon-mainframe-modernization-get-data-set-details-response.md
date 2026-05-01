@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The location where the data set is stored.\"\n        }\n      ]\n    },\n    \"recordLength\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The length of records in the data set.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"dataSetName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-get-data-set-details-response-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

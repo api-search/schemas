@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"SourceAncillaryChannelNumber\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin1Max4\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"sourceAncillaryChannelNumber\"\n          },\n          \"description\": \"Specifies the 608 channel number in the ancillary data track from which to extract captions. Unused for passthrough.\"\n        }\n      ]\n    },\n    \"TerminateCaptions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AncillaryTerminateCaptions\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"terminateCaptions\"\n          },\n          \"description\": \"By default, the service terminates any unterminated captions at the end of each input. If you want the caption to continue onto your next input, disable this setting.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-ancillary-source-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

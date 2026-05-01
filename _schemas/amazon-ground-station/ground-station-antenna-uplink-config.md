@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Whether or not uplink transmit is disabled.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"spectrumConfig\",\n    \"targetEirp\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-antenna-uplink-config-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

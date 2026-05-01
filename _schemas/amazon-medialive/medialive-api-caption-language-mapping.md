@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"languageCode\"\n          },\n          \"description\": \"Three character ISO 639-2 language code (see http://www.loc.gov/standards/iso639-2)\"\n        }\n      ]\n    },\n    \"LanguageDescription\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMin1\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"languageDescription\"\n          },\n          \"description\": \"Textual description of language\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"LanguageCode\",\n    \"LanguageDescription\",\n    \"CaptionChannel\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-caption-language-mapping-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

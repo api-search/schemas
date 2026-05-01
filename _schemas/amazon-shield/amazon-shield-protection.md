@@ -35,7 +35,6 @@ source_json: "{\n  \"$id\": \"https://schema.api.io/amazon-shield/amazon-shield-
   ,\n          \"enum\": [\"ENABLED\", \"DISABLED\"]\n        },\n        \"Action\": {\n          \"type\": \"object\",\n          \"description\": \"Specifies the action setting for the automatic response.\",\n          \"properties\": {\n            \"Block\": {\n              \"type\": \"object\",\n              \"description\": \"Specifies that Shield Advanced should block requests.\"\n            },\n            \"Count\": {\n              \"type\": \"object\",\n              \"description\": \"Specifies that Shield Advanced should count requests.\"\n            }\n          }\n        }\n      }\n    },\n    \"Tag\": {\n      \"type\": \"object\",\n      \"required\": [\"Key\"],\n      \"properties\": {\n        \"Key\": {\n          \"type\": \"string\",\n          \"minLength\": 1,\n          \"maxLength\": 128\n        },\n        \"Value\": {\n          \"type\": \"string\",\n          \"maxLength\": 256\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/json-schema/amazon-shield-protection-schema.json
 tags:
-- AWS
 - DDoS Protection
 - Networking
 - Security

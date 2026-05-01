@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   The user-supplied name of the cluster.\",\n      \"type\": \"string\"\n    },\n    \"NodeType\": {\n      \"description\": \"The cluster's node type.\",\n      \"type\": \"string\"\n    },\n    \"NumberOfShards\": {\n      \"description\": \"The number of shards in the cluster.\",\n      \"type\": \"integer\"\n    },\n    \"Status\": {\n      \"description\": \"The status of the cluster.\",\n      \"type\": \"string\"\n    },\n    \"TLSEnabled\": {\n      \"description\": \"A flag to indicate if In-transit encryption is enabled.\",\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/json-schema/memorydb-api-cluster-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

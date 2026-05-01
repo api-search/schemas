@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Metrics analyzed by Compute Optimizer</a> in the <i>Compute Optimizer User Guide</i>.</p> </li> <li> <p> <code>Inactive</code> - Opts out your account from the Compute Optimizer service. Your account's recommendations and related metrics data will be deleted from Compute Optimizer after you opt out.</p> </li> </ul> <note> <p>The <code>Pending</code> and <code>Failed</code> options cannot be used to update the enrollment status of an account. They are returned in the response of a request to update the enrollment status of an account.</p> </note>\"\n        }\n      ]\n    },\n    \"includeMemberAccounts\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IncludeMemberAccounts\"\n        },\n        {\n          \"description\": \"Indicates whether to enroll member accounts of the organization if the account is the management account of an organization.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-update-enrollment-status-request-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

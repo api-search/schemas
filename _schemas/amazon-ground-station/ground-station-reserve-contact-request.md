@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ mission profile.\"\n        }\n      ]\n    },\n    \"satelliteArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/satelliteArn\"\n        },\n        {\n          \"description\": \"ARN of a satellite\"\n        }\n      ]\n    },\n    \"startTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"Start time of a contact in UTC.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagsMap\"\n        },\n        {\n          \"description\": \"Tags assigned to a contact.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"endTime\",\n    \"groundStation\",\n    \"missionProfileArn\",\n    \"satelliteArn\",\n    \"startTime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-reserve-contact-request-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

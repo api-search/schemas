@@ -78,7 +78,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ user is accepted and created when a broker is first provisioned. All subsequent broker users are created by making RabbitMQ API calls directly to brokers or via the RabbitMQ web console.</p></important>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"EngineVersion\",\n    \"HostInstanceType\",\n    \"AutoMinorVersionUpgrade\",\n    \"Users\",\n    \"BrokerName\",\n    \"DeploymentMode\",\n    \"EngineType\",\n    \"PubliclyAccessible\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-create-broker-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-reject-environment-account-connection-output-schema.json\",\n  \"title\": \"RejectEnvironmentAccountConnectionOutput\",\n  \"description\": \"RejectEnvironmentAccountConnectionOutput schema from Amazon Proton API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"environmentAccountConnection\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EnvironmentAccountConnection\"\n        },\n        {\n          \"description\": \"The environment connection account detail data that's returned by Proton.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"environmentAccountConnection\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-reject-environment-account-connection-output-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

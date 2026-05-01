@@ -90,7 +90,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Amazon Web Services Resources</a> in the <i>Amazon Web Services General Reference</i>.\"\n        }\n      ]\n    },\n    \"ComputeType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComputeType\"\n        },\n        {\n          \"description\": \"The type of compute resource used to host your game servers. You can use your own compute resources with Amazon GameLift Anywhere or use Amazon EC2 instances with managed Amazon GameLift. By default, this property is set to <code>EC2</code>.\"\n        }\n      ]\n    },\n    \"AnywhereConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AnywhereConfiguration\"\n        },\n        {\n          \"description\": \"Amazon GameLift Anywhere configuration options.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-create-fleet-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

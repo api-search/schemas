@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Specifies the mitigation actions that should be applied to specific audit checks.\"\n        }\n      ]\n    },\n    \"actionsDefinition\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MitigationActionList\"\n        },\n        {\n          \"description\": \"Specifies the mitigation actions and their parameters that are applied as part of this task.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-describe-audit-mitigation-actions-task-response-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

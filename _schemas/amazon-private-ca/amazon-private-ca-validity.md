@@ -21,7 +21,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for a certificate using relative time (<code>DAYS</code>) is one day. The minimum validity for a certificate using absolute time (<code>ABSOLUTE</code> or <code>END_DATE</code>) is one second.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Value\",\n    \"Type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-validity-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

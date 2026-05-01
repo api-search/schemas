@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The number of metric values\"\n          },\n          \"average\": {\n            \"type\": \"number\",\n            \"description\": \"The average of the metric values\"\n          },\n          \"sum\": {\n            \"type\": \"number\",\n            \"description\": \"The sum of the metric values\"\n          },\n          \"minimum\": {\n            \"type\": \"number\",\n            \"description\": \"The minimum metric value\"\n          },\n          \"maximum\": {\n            \"type\": \"number\",\n            \"description\": \"The maximum metric value\"\n          },\n          \"unit\": {\n            \"type\": \"string\",\n            \"description\": \"The standard unit for the data point\"\n          }\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/json-schema/cloudwatch-get-metric-statistics-response-schema.json
 tags:
-- AWS
 - CloudWatch
 - Monitoring
 - Observability

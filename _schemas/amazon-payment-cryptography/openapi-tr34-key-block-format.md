@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-tr34-key-block-format-schema.json\",\n  \"title\": \"Tr34KeyBlockFormat\",\n  \"description\": \"Tr34KeyBlockFormat schema from Amazon Payment Cryptography\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"X9_TR34_2012\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-tr34-key-block-format-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

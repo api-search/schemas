@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"InputConfigurations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOfInputConfigurationRequest\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"inputConfigurations\"\n          },\n          \"description\": \"The transport parameters that you want to associate with the media stream.\"\n        }\n      ]\n    },\n    \"MediaStreamName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"mediaStreamName\"\n          },\n          \"description\": \"The name of the media stream.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MediaStreamName\",\n    \"EncodingName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-media-stream-source-configuration-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

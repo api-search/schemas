@@ -15,7 +15,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"FRY\",\n    \"WOL\",\n    \"XHO\",\n    \"YID\",\n    \"YOR\",\n    \"ZHA\",\n    \"ZUL\",\n    \"ORJ\",\n    \"QPC\",\n    \"TNG\",\n    \"SRP\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-language-code-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

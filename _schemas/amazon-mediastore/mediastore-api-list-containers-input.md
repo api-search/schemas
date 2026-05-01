@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"description\": \"Enter the maximum number of containers in the response. Use from 1 to 255 characters. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-list-containers-input-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

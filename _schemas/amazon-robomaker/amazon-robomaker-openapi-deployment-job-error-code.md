@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"DownloadConditionFailed\",\n    \"BadLambdaAssociated\",\n    \"InternalServerError\",\n    \"RobotApplicationDoesNotExist\",\n    \"DeploymentFleetDoesNotExist\",\n    \"FleetDeploymentTimeout\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-job-error-code-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: DeploymentJobErrorCode

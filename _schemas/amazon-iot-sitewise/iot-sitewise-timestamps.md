@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ from <code>timeInSeconds</code>.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains a timestamp with optional nanosecond granularity.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-timestamps-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

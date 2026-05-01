@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Provides additional information about the limitation, and includes recommended actions that you can take to address or avoid this limitation.\"\n        }\n      ]\n    },\n    \"Impact\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The impact of the limitation. You can use this parameter to prioritize limitations that you want to address. Valid values include <code>\\\"Blocker\\\"</code>, <code>\\\"High\\\"</code>, <code>\\\"Medium\\\"</code>, and <code>\\\"Low\\\"</code>.\"\n        }\n      ]\n    },\n    \"Type\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The type of the limitation, such as action required, upgrade required, and limited feature.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-limitation-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

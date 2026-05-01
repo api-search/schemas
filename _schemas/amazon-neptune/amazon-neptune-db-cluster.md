@@ -101,7 +101,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"Status\": {\n          \"type\": \"string\",\n          \"description\": \"The status of the association between the IAM role and the cluster.\",\n          \"enum\": [\n            \"active\",\n            \"pending\",\n            \"error\"\n          ]\n        },\n        \"FeatureName\": {\n          \"type\": \"string\",\n          \"description\": \"The name of the feature associated with the role.\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-db-cluster-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

@@ -44,7 +44,6 @@ tags:
 - Access Management
 - Authentication
 - Authorization
-- AWS
 - Identity
 - Security
 title: AWS IAM User

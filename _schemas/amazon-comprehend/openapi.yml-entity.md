@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"BlockReferences\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ListOfBlockReferences\"\n        },\n        {\n          \"description\": \"A reference to each block for this entity. This field is empty for plain-text input.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-entity-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

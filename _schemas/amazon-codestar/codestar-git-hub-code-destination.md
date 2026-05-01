@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ be a private repository.\"\n        }\n      ]\n    },\n    \"issuesEnabled\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RepositoryEnableIssues\"\n        },\n        {\n          \"description\": \"Whether to enable issues for the GitHub repository.\"\n        }\n      ]\n    },\n    \"token\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GitHubPersonalToken\"\n        },\n        {\n          \"description\": \"The GitHub user's personal access token for the GitHub repository.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"type\",\n    \"owner\",\n    \"privateRepository\",\n    \"issuesEnabled\",\n    \"token\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-schema/codestar-git-hub-code-destination-schema.json
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

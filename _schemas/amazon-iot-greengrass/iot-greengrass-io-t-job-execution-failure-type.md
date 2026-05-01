@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-io-t-job-execution-failure-type-schema.json\",\n  \"title\": \"IoTJobExecutionFailureType\",\n  \"description\": \"IoTJobExecutionFailureType schema\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"FAILED\",\n    \"REJECTED\",\n    \"TIMED_OUT\",\n    \"ALL\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-io-t-job-execution-failure-type-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

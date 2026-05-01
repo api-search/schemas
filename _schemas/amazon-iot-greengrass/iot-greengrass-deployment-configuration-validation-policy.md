@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ IPC operation. For more information, see <a href=\\\"https://docs.aws.amazon.com/greengrass/v2/developerguide/create-deployments.html\\\">Create deployments</a> in the <i>IoT Greengrass V2 Developer Guide</i>.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"timeoutInSeconds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OptionalInteger\"\n        },\n        {\n          \"description\": \"<p>The amount of time in seconds that a component can validate its configuration updates. If the validation time exceeds this timeout, then the deployment proceeds for the device.</p> <p>Default: <code>30</code> </p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-deployment-configuration-validation-policy-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

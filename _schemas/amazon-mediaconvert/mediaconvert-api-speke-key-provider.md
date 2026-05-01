@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   Url\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringPatternHttps\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"url\"\n          },\n          \"description\": \"Specify the URL to the key server that your SPEKE-compliant DRM key provider uses to provide keys for encrypting your content.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-speke-key-provider-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

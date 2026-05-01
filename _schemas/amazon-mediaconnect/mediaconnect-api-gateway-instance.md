@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"The running bridge count.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GatewayArn\",\n    \"InstanceState\",\n    \"GatewayInstanceArn\",\n    \"InstanceId\",\n    \"RunningBridgeCount\",\n    \"BridgePlacement\",\n    \"ConnectionStatus\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-gateway-instance-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

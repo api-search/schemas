@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"Unauthenticated\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Unauthenticated\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"unauthenticated\"\n          },\n          \"description\": \"\\n            <p>Contains information about unauthenticated traffic to the cluster.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-client-authentication-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

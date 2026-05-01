@@ -88,6 +88,5 @@ tags:
 - MySQL
 - PostgreSQL
 - Relational Database
-- AWS
 title: Amazon Aurora DB Cluster
 ---

@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Then, components can respond with the <a href=\\\"https://docs.aws.amazon.com/greengrass/v2/developerguide/interprocess-communication.html#ipc-operation-defercomponentupdate\\\">DeferComponentUpdate</a> IPC operation. For more information, see <a href=\\\"https://docs.aws.amazon.com/greengrass/v2/developerguide/create-deployments.html\\\">Create deployments</a> in the <i>IoT Greengrass V2 Developer Guide</i>.</p> </li> <li> <p> <code>SKIP_NOTIFY_COMPONENTS</code> \\u2013 The deployment doesn't notify components or wait for them to be safe to update.</p> </li> </ul> <p>Default: <code>NOTIFY_COMPONENTS</code> </p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-deployment-component-update-policy-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

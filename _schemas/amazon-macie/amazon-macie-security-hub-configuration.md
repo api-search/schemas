@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Macie automatically publishes all sensitive data findings that weren't suppressed by a findings filter. The default value is false.\"\n        }\n      ]\n    },\n    \"publishPolicyFindings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__boolean\"\n        },\n        {\n          \"description\": \"Specifies whether to publish policy findings to Security Hub. If you set this value to true, Amazon Macie automatically publishes all new and updated policy findings that weren't suppressed by a findings filter. The default value is true.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"publishPolicyFindings\",\n    \"publishClassificationFindings\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-security-hub-configuration-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

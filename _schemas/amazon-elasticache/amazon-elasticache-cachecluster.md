@@ -92,7 +92,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/json-schema/amazon-elasticache-cachecluster-schema.json
 tags:
 - Amazon Web Services
-- AWS
 - Caching
 - Database
 - ElastiCache

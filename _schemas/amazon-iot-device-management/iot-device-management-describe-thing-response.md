@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  ]\n    },\n    \"attributes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Attributes\"\n        },\n        {\n          \"description\": \"The thing attributes.\"\n        }\n      ]\n    },\n    \"version\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Version\"\n        },\n        {\n          \"description\": \"<p>The current version of the thing record in the registry.</p> <note> <p>To avoid unintentional changes to the information in the registry, you can pass the version information in the <code>expectedVersion</code> parameter of the <code>UpdateThing</code> and <code>DeleteThing</code> calls.</p> </note>\"\n        }\n      ]\n    },\n    \"billingGroupName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BillingGroupName\"\n        },\n        {\n          \"description\": \"The name of the billing group the thing belongs to.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-describe-thing-response-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

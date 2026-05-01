@@ -32,7 +32,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"Alias\"\n  ],
   : \"CreateOrganizationRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-create-organization-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

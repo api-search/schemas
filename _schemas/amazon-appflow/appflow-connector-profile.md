@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ connector profile was created.\"\n    },\n    \"lastUpdatedAt\": {\n      \"type\": \"integer\",\n      \"format\": \"int64\",\n      \"example\": 1718153645993,\n      \"description\": \"Specifies when the connector profile was last updated.\"\n    },\n    \"privateConnectionProvisioningState\": {\n      \"type\": \"object\",\n      \"description\": \"Specifies the private connection provisioning state.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-connector-profile-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

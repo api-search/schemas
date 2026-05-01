@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n          \"type\": \"string\",\n          \"enum\": [\n            \"True\",\n            \"False\",\n            \"Conditional\"\n          ]\n        },\n        \"Scope\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/json-schema/cloudformation-change-schema.json
 tags:
-- AWS
 - CloudFormation
 - Infrastructure as Code
 - DevOps

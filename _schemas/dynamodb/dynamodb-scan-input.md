@@ -52,7 +52,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"integer\",\n      \"description\": \"The maximum number of items to evaluate\"\n    },\n    \"ConsistentRead\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to use strongly consistent reads\"\n    },\n    \"ExclusiveStartKey\": {\n      \"type\": \"object\",\n      \"description\": \"The primary key of the first item for this scan to evaluate\"\n    },\n    \"Segment\": {\n      \"type\": \"integer\",\n      \"description\": \"Identifies an individual segment to be scanned by a parallel scan\"\n    },\n    \"TotalSegments\": {\n      \"type\": \"integer\",\n      \"description\": \"Total number of segments for a parallel scan\"\n    },\n    \"ReturnConsumedCapacity\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-scan-input-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

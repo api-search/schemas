@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NonEmptyString\"\n        },\n        {\n          \"description\": \"The title that the findings were aggregated on.\"\n        }\n      ]\n    },\n    \"vulnerabilityId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The vulnerability ID of the finding.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"title\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-title-aggregation-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

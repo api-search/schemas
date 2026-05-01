@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ networkNameDescriptor inside the Network Information Table. Maximum length is 256 characters.\"\n        }\n      ]\n    },\n    \"RepInterval\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin25Max10000\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"repInterval\"\n          },\n          \"description\": \"The number of milliseconds between instances of this table in the output transport stream.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"NetworkName\",\n    \"NetworkId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-dvb-nit-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

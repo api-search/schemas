@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <code>DescribeAccountAuditConfiguration</code> to see the list of all checks, including those that are enabled or use <code>UpdateAccountAuditConfiguration</code> to select which checks are enabled.)\"\n        }\n      ]\n    },\n    \"scheduledAuditName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ScheduledAuditName\"\n        },\n        {\n          \"description\": \"The name of the scheduled audit.\"\n        }\n      ]\n    },\n    \"scheduledAuditArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ScheduledAuditArn\"\n        },\n        {\n          \"description\": \"The ARN of the scheduled audit.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-describe-scheduled-audit-response-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

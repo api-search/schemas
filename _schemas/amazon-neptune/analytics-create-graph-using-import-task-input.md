@@ -49,7 +49,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   OPEN_CYPHER\",\n        \"PARQUET\",\n        \"NTRIPLES\"\n      ]\n    },\n    \"tags\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    },\n    \"deletionProtection\": {\n      \"type\": \"boolean\"\n    },\n    \"publicConnectivity\": {\n      \"type\": \"boolean\"\n    },\n    \"kmsKeyIdentifier\": {\n      \"type\": \"string\"\n    },\n    \"vectorSearchConfiguration\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"dimension\": {\n          \"type\": \"integer\"\n        }\n      }\n    },\n    \"replicaCount\": {\n      \"type\": \"integer\"\n    },\n    \"importOptions\": {\n      \"type\": \"object\",\n      \"description\": \"Additional import configuration options.\"\n    }\n  },\n  \"required\": [\n    \"graphName\",\n    \"source\",\n    \"roleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/analytics-create-graph-using-import-task-input-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

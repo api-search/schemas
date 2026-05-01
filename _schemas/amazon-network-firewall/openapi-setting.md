@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-setting-schema.json\",\n  \"title\": \"Setting\",\n  \"description\": \"Setting schema from Amazon Network Firewall\",\n  \"type\": \"string\",\n  \"pattern\": \".*\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-setting-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

@@ -24,7 +24,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"LifecycleRuleAndOperator\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Prefix\": {},\n    \"Tags\": {},\n    \"ObjectSizeGreaterThan\": {},\n    \"ObjectSizeLessThan\": {}\n  },\n  \"description\": \"This is used in a Lifecycle Rule Filter to apply a logical AND to two or more predicates. The Lifecycle Rule will apply to any object matching all of the predicates configured inside the And operator.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-lifecycleruleandoperator-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

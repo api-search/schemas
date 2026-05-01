@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the Channel.\"\n        }\n      ]\n    },\n    \"IngressAccessLogs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IngressAccessLogs\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"ingressAccessLogs\"\n          }\n        }\n      ]\n    },\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Tags\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"tags\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-channel-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

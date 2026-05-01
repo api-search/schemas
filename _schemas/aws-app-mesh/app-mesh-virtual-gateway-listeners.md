@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   : [\n          {\n            \"$ref\": \"#/components/schemas/VirtualGatewayListenerTls\"\n          },\n          {\n            \"description\": \"A reference to an object that represents the Transport Layer Security (TLS) properties for the listener.\"\n          }\n        ]\n      }\n    },\n    \"required\": [\n      \"portMapping\"\n    ],\n    \"description\": \"An object that represents a listener for a virtual gateway.\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-listeners-schema.json\",\n  \"title\": \"VirtualGatewayListeners\",\n  \"description\": \"VirtualGatewayListeners schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-listeners-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

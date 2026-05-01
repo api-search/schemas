@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ it supports, and the cryptographic operations allowed with the key. This data is immutable after a trusted public key is imported.\"\n        }\n      ]\n    },\n    \"PublicKeyCertificate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CertificateType\"\n        },\n        {\n          \"description\": \"Parameter information for trusted public key certificate import.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CertificateAuthorityPublicKeyIdentifier\",\n    \"KeyAttributes\",\n    \"PublicKeyCertificate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-trusted-certificate-public-key-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

@@ -74,7 +74,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ data is passed to a game server process in the <code>GameSession</code> object with a request to start a new game session (see <a href=\\\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\\\">Start a Game Session</a>).\"\n        }\n      ]\n    },\n    \"MatchmakerData\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MatchmakerData\"\n        },\n        {\n          \"description\": \"Information on the matchmaking process for this game. Data is in JSON syntax, formatted as a string. It identifies the matchmaking configuration used to create the match, and contains data on all players assigned to the match, including player attributes and team assignments. For more details on matchmaker data, see <a href=\\\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-server.html#match-server-data\\\">Match Data</a>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-game-session-placement-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

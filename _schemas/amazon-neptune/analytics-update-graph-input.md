@@ -21,7 +21,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/analytics-update-graph-input-schema.json\",\n  \"title\": \"UpdateGraphInput\",\n  \"description\": \"UpdateGraphInput schema from Neptune\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"provisionedMemory\": {\n      \"type\": \"integer\",\n      \"description\": \"The new provisioned memory size in NCUs.\"\n    },\n    \"deletionProtection\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether deletion protection is enabled.\"\n    },\n    \"publicConnectivity\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/analytics-update-graph-input-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

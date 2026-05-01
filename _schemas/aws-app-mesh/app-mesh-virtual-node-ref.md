@@ -39,7 +39,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"arn\": {\n 
   : \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-node-ref-schema.json\",\n  \"title\": \"VirtualNodeRef\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-node-ref-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

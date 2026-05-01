@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ how the contact was initiated.\",\n      \"example\": \"INBOUND\"\n    },\n    \"InitiationTimestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"DisconnectTimestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/contact-summary-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

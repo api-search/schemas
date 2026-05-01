@@ -45,7 +45,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ state. This \\ufb01eld is returned only if the <code>executionArn</code> is a child workflow execution that was started by a Distributed Map state.\"\n        }\n      ]\n    },\n    \"revisionId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RevisionId\"\n        },\n        {\n          \"description\": \"<p>The revision identifier for the state machine. The first revision ID when you create the state machine is null.</p> <p>Use the state machine <code>revisionId</code> parameter to compare the revision of a state machine with the configuration of the state machine used for executions without performing a diff of the properties, such as <code>definition</code> and <code>roleArn</code>.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"stateMachineArn\",\n    \"name\",\n    \"definition\",\n    \"roleArn\",\n    \"updateDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-describe-state-machine-for-execution-output-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

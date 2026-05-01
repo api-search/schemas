@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"A list of input parameter values that are supplied to enable the control.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/EnabledControlParameter\"\n      }\n    },\n    \"tags\": {\n      \"type\": \"object\",\n      \"description\": \"Tags to apply to the EnabledControl resource.\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"controlIdentifier\",\n    \"targetIdentifier\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-schema/enable-control-request-schema.json
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

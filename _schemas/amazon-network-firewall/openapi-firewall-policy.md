@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ policy must have stateful rule options settings that are compatible with these settings.\"\n        }\n      ]\n    },\n    \"TLSInspectionConfigurationArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceArn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the TLS inspection configuration.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"StatelessDefaultActions\",\n    \"StatelessFragmentDefaultActions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-firewall-policy-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

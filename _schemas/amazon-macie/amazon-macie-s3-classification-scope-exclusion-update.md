@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Values are case sensitive.\"\n        }\n      ]\n    },\n    \"operation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ClassificationScopeUpdateOperation\"\n        },\n        {\n          \"description\": \"<p>Specifies how to apply the changes to the exclusion list. Valid values are:</p> <ul><li><p>ADD - Append the specified bucket names to the current list.</p></li> <li><p>REMOVE - Remove the specified bucket names from the current list.</p></li> <li><p>REPLACE - Overwrite the current list with the specified list of bucket names. If you specify this value, Amazon Macie removes all existing names from the list and adds all the specified names to the list.</p></li></ul>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"bucketNames\",\n    \"operation\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-s3-classification-scope-exclusion-update-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

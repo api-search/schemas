@@ -30,7 +30,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ journal data. If this parameter is not specified, the exported data defaults to <code>ION_TEXT</code> format.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"InclusiveStartTime\",\n    \"ExclusiveEndTime\",\n    \"S3ExportConfiguration\",\n    \"RoleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-export-journal-to-s3request-schema.json
 tags:
-- AWS
 - Blockchain
 - Database
 - Ledger

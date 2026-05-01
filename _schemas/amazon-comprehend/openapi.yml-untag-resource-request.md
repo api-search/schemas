@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to a resource to indicate its use by the sales department. Keys must be unique and cannot be duplicated for a particular resource. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ResourceArn\",\n    \"TagKeys\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-untag-resource-request-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

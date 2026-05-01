@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ ]\n    },\n    \"failed\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The number of resources of this type in the Amazon Web Services account that failed to deploy.\"\n        }\n      ]\n    },\n    \"total\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The total number of resources of this type in the Amazon Web Services account.\"\n        }\n      ]\n    },\n    \"upToDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The number of resources of this type in the Amazon Web Services account that are up-to-date with their template.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"total\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-counts-summary-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

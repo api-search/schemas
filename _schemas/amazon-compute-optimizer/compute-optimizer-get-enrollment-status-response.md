@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ your account is an organization management account.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-get-enrollment-status-response-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

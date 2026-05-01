@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"A list containing one object for each document that contained an error. The results are sorted in ascending order by the <code>Index</code> field and match the order of the documents in the input list. If there are no errors in the batch, the <code>ErrorList</code> is empty.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ResultList\",\n    \"ErrorList\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-batch-detect-key-phrases-response-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

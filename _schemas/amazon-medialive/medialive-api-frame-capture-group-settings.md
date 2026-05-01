@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the destination field (for example, \\\"curling-\\\") + name modifier + the counter (5 digits, starting from 00001) + extension (which is always .jpg).  For example, curling-low.00001.jpg\"\n        }\n      ]\n    },\n    \"FrameCaptureCdnSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FrameCaptureCdnSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"frameCaptureCdnSettings\"\n          },\n          \"description\": \"Parameters that control interactions with the CDN.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Destination\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-frame-capture-group-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

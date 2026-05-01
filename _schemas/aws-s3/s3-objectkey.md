@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ObjectKey\",\n  \"type\": \"string\",\n  \"minLength\": 1\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-objectkey-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

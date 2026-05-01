@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"ARN of the KMS encryption key used to encrypt the assessment run results.\"\n        }\n      ]\n    },\n    \"AssessmentRunName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"Unique name of the assessment run.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-replication-task-assessment-run-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

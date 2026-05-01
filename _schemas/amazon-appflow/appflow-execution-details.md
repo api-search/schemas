@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n      ],\n      \"example\": \"Successful\",\n      \"description\": \"Specifies the status of the most recent flow run.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-execution-details-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

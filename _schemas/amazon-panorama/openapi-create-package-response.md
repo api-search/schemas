@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ storage location.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"StorageLocation\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-create-package-response-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

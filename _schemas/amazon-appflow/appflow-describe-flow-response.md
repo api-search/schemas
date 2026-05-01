@@ -73,7 +73,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  },\n            \"databaseName\": {\n              \"type\": \"string\",\n              \"example\": \"appflow-catalog-db\",\n              \"description\": \"The name of an existing Glue Data Catalog database.\"\n            },\n            \"tablePrefix\": {\n              \"type\": \"string\",\n              \"example\": \"sf_\",\n              \"description\": \"A naming prefix for each Data Catalog table that Amazon AppFlow creates.\"\n            }\n          },\n          \"description\": \"Specifies the configuration that Amazon AppFlow uses when it catalogs data with the Glue Data Catalog.\"\n        }\n      }\n    },\n    \"lastRunMetadataCatalogDetails\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-describe-flow-response-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

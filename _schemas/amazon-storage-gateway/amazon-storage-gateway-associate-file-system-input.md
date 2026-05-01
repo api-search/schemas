@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"GatewayARN\",\n    \"LocationARN\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-associate-file-system-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

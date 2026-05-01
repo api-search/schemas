@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        \"$ref\": \"#/components/schemas/TagList\"\n        },\n        {\n          \"description\": \"The tags associated with the transitive virtual interface.\"\n        }\n      ]\n    },\n    \"enableSiteLink\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EnableSiteLink\"\n        },\n        {\n          \"description\": \"Indicates whether to enable or disable SiteLink.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/json-schema/amazon-direct-connect-new-transit-virtual-interface-schema.json
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

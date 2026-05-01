@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <p>For <code>AntennaDownlinkconfig</code>, valid values are between 10 kHz to 54 MHz.</p> </li> <li> <p>For <code>AntennaUplinkConfig</code>, valid values are between 10 kHz to 54 MHz.</p> </li> </ul>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"units\",\n    \"value\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-frequency-bandwidth-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

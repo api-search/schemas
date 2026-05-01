@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"IDs of subnets for interface endpoints\"\n    },\n    \"SecurityGroupId\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"IDs of security groups for interface endpoints\"\n    },\n    \"PolicyDocument\": {\n      \"type\": \"string\",\n      \"description\": \"Policy document for gateway endpoints\"\n    },\n    \"PrivateDnsEnabled\": {\n      \"type\": \"boolean\",\n      \"description\": \"Enable private DNS for interface endpoints\"\n    }\n  },\n  \"required\": [\n    \"VpcId\",\n    \"ServiceName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-create-vpc-endpoint-request-schema.json
 tags:
-- AWS
 - Networking
 - Private Connectivity
 - Security

@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \            \"format\": \"float\"\n          }\n        }\n      }\n    },\n    \"Confidence\": {\n      \"type\": \"number\",\n      \"format\": \"float\",\n      \"description\": \"Confidence level that the bounding box contains a face.\",\n      \"example\": 99.7\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-face-detail-schema.json
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

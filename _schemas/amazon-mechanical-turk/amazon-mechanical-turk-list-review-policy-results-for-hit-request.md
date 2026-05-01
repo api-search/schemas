@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResultSize\"\n        },\n        {\n          \"description\": \"Limit the number of results returned.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"HITId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-list-review-policy-results-for-hit-request-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

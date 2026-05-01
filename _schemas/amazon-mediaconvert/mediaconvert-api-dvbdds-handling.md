@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n  \"type\": \"string\",\n  \"enum\": [\n    \"NONE\",\n    \"SPECIFIED\",\n    \"NO_DISPLAY_WINDOW\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-dvbdds-handling-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

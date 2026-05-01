@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RuleGroups\"\n        },\n        {\n          \"description\": \"The rule group metadata objects that you've defined. Depending on your setting for max results and the number of rule groups, this might not be the full list. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-list-rule-groups-response-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

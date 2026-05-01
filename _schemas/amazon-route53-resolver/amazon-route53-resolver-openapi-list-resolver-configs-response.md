@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Route\\u00a053 returned in the previous response and include it in <code>NextToken</code> in the next request.</p>\"\n        }\n      ]\n    },\n    \"ResolverConfigs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResolverConfigList\"\n        },\n        {\n          \"description\": \"An array that contains one <code>ResolverConfigs</code> element for each Resolver configuration that is associated with the current Amazon Web Services account.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-configs-response-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

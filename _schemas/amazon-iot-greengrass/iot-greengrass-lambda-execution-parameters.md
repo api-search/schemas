@@ -49,7 +49,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The map of environment variables that are available to the Lambda function when it runs.\"\n        }\n      ]\n    },\n    \"linuxProcessParams\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LambdaLinuxProcessParams\"\n        },\n        {\n          \"description\": \"The parameters for the Linux process that contains the Lambda function.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-lambda-execution-parameters-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

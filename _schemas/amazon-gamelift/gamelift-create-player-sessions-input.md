@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/PlayerDataMap\"\n        },\n        {\n          \"description\": \"Map of string pairs, each specifying a player ID and a set of developer-defined information related to the player. Amazon GameLift does not use this data, so it can be formatted as needed for use in the game. Any player data strings for player IDs that are not included in the <code>PlayerIds</code> parameter are ignored. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GameSessionId\",\n    \"PlayerIds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-create-player-sessions-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

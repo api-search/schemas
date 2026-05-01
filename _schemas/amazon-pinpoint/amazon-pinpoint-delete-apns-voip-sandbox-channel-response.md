@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-delete-apns-voip-sandbox-channel-response-schema.json\",\n  \"title\": \"DeleteApnsVoipSandboxChannelResponse\",\n  \"description\": \"DeleteApnsVoipSandboxChannelResponse schema from Amazon Pinpoint API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"APNSVoipSandboxChannelResponse\": {\n      \"$ref\": \"#/components/schemas/APNSVoipSandboxChannelResponse\"\n    }\n  },\n  \"required\": [\n    \"APNSVoipSandboxChannelResponse\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-delete-apns-voip-sandbox-channel-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

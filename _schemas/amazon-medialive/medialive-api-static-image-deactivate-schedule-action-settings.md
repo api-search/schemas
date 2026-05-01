@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"The image overlay layer to deactivate, 0 to 7. Default is 0.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-static-image-deactivate-schedule-action-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

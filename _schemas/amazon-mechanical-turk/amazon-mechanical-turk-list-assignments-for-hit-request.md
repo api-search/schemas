@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/AssignmentStatusList\"\n        },\n        {\n          \"description\": \"The status of the assignments to return: Submitted | Approved | Rejected\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"HITId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-list-assignments-for-hit-request-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"title\": \"UpdatePortalRequest\",\
   \ access to your web portal, can be configured in the IAM Identity Center.</p>\"\n        }\n      ]\n    },\n    \"displayName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DisplayName\"\n        },\n        {\n          \"description\": \"The name of the web portal. This is not visible to users who log into the web portal.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-update-portal-request-schema.json\",\n  \"description\": \"UpdatePortalRequest schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-update-portal-request-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

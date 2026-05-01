@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the job completed.\"\n        }\n      ]\n    },\n    \"readSets\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ExportReadSetDetailList\"\n        },\n        {\n          \"description\": \"The job's read sets.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-get-read-set-export-job-response-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

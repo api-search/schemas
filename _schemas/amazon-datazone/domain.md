@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/json-schema/domain-schema.json
 tags:
-- AWS
 - Data Catalog
 - Data Governance
 - Data Management

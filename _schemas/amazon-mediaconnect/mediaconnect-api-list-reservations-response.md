@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ NextToken value.\"\n        }\n      ]\n    },\n    \"Reservations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOfReservation\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"reservations\"\n          },\n          \"description\": \"A list of all reservations that have been purchased by this account in the current AWS Region.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-list-reservations-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

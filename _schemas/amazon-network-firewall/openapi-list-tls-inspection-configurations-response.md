@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  }\n      ]\n    },\n    \"TLSInspectionConfigurations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TLSInspectionConfigurations\"\n        },\n        {\n          \"description\": \"The TLS inspection configuration metadata objects that you've defined. Depending on your setting for max results and the number of TLS inspection configurations, this might not be the full list.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-list-tls-inspection-configurations-response-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

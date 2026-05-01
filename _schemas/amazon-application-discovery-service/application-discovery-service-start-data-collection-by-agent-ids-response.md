@@ -20,6 +20,5 @@ tags:
 - Migration
 - Discovery
 - Infrastructure
-- AWS
 title: StartDataCollectionByAgentIdsResponse
 ---

@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"integer\",\n  \"minimum\": 0,\n  \"maximum\": 1,\
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-opendecisiontaskscount-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: OpenDecisionTasksCount

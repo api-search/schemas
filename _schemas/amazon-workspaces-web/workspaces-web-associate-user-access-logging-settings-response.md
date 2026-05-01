@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"portalArn\",\
   \ from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-associate-user-access-logging-settings-response-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

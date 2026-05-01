@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  ]\n    },\n    \"MaskCharacter\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MaskCharacter\"\n        },\n        {\n          \"description\": \"A character that replaces each character in the redacted PII entity.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-redaction-config-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

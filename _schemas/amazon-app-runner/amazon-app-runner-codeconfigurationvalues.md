@@ -30,7 +30,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"CodeConfigurationValues\",\n  \"description\": \"Describes the basic configuration needed for building and running an App Runner service. This type doesn't support the full set of possible configuration options. Fur full configuration capabilities, use a <code>apprunner.yaml</code> file in the source code repository.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Runtime\": {},\n    \"BuildCommand\": {},\n    \"StartCommand\": {},\n    \"Port\": {},\n    \"RuntimeEnvironmentVariables\": {},\n    \"RuntimeEnvironmentSecrets\": {}\n  },\n  \"required\": [\n    \"Runtime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/json-schema/amazon-app-runner-codeconfigurationvalues-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

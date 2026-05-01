@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"integer\",\n  \"minimum\": 1,\n  \"maximum\": 600,\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DisconnectTimeoutInMinutes\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-disconnect-timeout-in-minutes-schema.json\",\n  \"description\": \"DisconnectTimeoutInMinutes schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-disconnect-timeout-in-minutes-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

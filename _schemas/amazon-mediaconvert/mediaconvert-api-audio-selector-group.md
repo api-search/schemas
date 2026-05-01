@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ selector names are standardized, based on their order within the input (e.g., \\\"Audio Selector 1\\\"). The audio selector name parameter can be repeated to add any number of audio selectors to the group.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-audio-selector-group-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

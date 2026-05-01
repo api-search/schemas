@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/GroupIdentity\"\n        },\n        {\n          \"description\": \"An IAM Identity Center group identity.\"\n        }\n      ]\n    },\n    \"iamUser\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IAMUserIdentity\"\n        },\n        {\n          \"description\": \"An IAM user identity.\"\n        }\n      ]\n    },\n    \"iamRole\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IAMRoleIdentity\"\n        },\n        {\n          \"description\": \"An IAM role identity.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-identity-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

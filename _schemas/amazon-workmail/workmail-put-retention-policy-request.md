@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"OrganizationI
   \     \"description\": \"The retention policy description.\"\n        }\n      ]\n    },\n    \"FolderConfigurations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FolderConfigurations\"\n        },\n        {\n          \"description\": \"The retention policy folder configurations.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-put-retention-policy-request-schema.json\",\n  \"description\": \"PutRetentionPolicyRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-put-retention-policy-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

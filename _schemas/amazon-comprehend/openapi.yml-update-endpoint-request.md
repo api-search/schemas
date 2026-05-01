@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"$ref\": \"#/components/schemas/InferenceUnitsInteger\"\n        },\n        {\n          \"description\": \" The desired number of inference units to be used by the model using this endpoint. Each inference unit represents of a throughput of 100 characters per second.\"\n        }\n      ]\n    },\n    \"DesiredDataAccessRoleArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IamRoleArn\"\n        },\n        {\n          \"description\": \"Data access role ARN to use in case the new model is encrypted with a customer CMK.\"\n        }\n      ]\n    },\n    \"FlywheelArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComprehendFlywheelArn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Number (ARN) of the flywheel\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"EndpointArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-update-endpoint-request-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

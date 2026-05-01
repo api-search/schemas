@@ -52,7 +52,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"\\n            <p>Includes all encryption-related information.</p>\"\n        }\n      ]\n    },\n    \"ConnectivityInfo\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ConnectivityInfo\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"connectivityInfo\"\n          },\n          \"description\": \"\\n            <p>Information about the broker access configuration.</p>\"\n        }\n      ]\n    },\n    \"StorageMode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StorageMode\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"storageMode\"\n          },\n          \"description\": \"\\n            <p>This controls storage mode for supported storage tiers.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-mutable-cluster-info-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

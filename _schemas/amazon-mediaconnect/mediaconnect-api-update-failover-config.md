@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ },\n        {\n          \"xml\": {\n            \"name\": \"recoveryWindow\"\n          },\n          \"description\": \"Recovery window time to look for dash-7 packets\"\n        }\n      ]\n    },\n    \"SourcePriority\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SourcePriority\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"sourcePriority\"\n          },\n          \"description\": \"The priority you want to assign to a source. You can have a primary stream and a backup stream or two equally prioritized streams.\"\n        }\n      ]\n    },\n    \"State\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/State\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"state\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-update-failover-config-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

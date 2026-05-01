@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to Preserve 4:4:4 sampling, you must disable all video preprocessors except for Nexguard file marker (PartnerWatermarking). When you set Chroma sampling to Preserve 4:4:4 sampling and use framerate conversion, you must set Frame rate conversion algorithm (FramerateConversionAlgorithm) to Drop duplicate (DUPLICATE_DROP).\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"PRESERVE_444_SAMPLING\",\n    \"SUBSAMPLE_TO_422\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-prores-chroma-sampling-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

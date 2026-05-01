@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ </p>\"\n        }\n      ]\n    },\n    \"secondsToLive\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CreateWorkspaceApiKeyRequestSecondsToLiveInteger\"\n        },\n        {\n          \"description\": \"Specifies the time in seconds until the key expires. Keys can be valid for up to 30 days.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"keyName\",\n    \"keyRole\",\n    \"secondsToLive\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-create-workspace-api-key-request-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

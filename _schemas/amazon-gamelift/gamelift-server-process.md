@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <code>C:\\\\game</code>. Example: \\\"<code>C:\\\\game\\\\MyGame\\\\server.exe</code>\\\" </p> </li> <li> <p>Linux: <code>/local/game</code>. Examples: \\\"<code>/local/game/MyGame/server.exe</code>\\\" or \\\"<code>/local/game/MyRealtimeScript.js</code>\\\"</p> </li> </ul>\"\n        }\n      ]\n    },\n    \"Parameters\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LaunchParametersStringModel\"\n        },\n        {\n          \"description\": \"An optional list of parameters to pass to the server executable or Realtime script on launch.\"\n        }\n      ]\n    },\n    \"ConcurrentExecutions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PositiveInteger\"\n        },\n        {\n          \"description\": \"The number of server processes using this configuration that run concurrently on each instance.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"LaunchPath\",\n    \"ConcurrentExecutions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-server-process-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

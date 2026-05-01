@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/json-schema/amazon-lookout-for-metrics-data-quality-metric-description-schema.json
 tags:
 - Anomaly Detection
-- AWS
 - Business Intelligence
 - Machine Learning
 - Metrics

@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-data-pipeline/json-schema/describe-pipelines-output-schema.json\",\n  \"title\": \"Describe Pipelines Output\",\n  \"description\": \"Response containing pipeline descriptions.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"pipelineDescriptionList\": {\n      \"type\": \"array\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/json-schema/describe-pipelines-output-schema.json
 tags:
-- AWS
 - Data Processing
 - ETL
 - Workflows

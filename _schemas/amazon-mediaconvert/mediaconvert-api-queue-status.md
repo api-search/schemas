@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-queue-status-schema.json\",\n  \"title\": \"QueueStatus\",\n  \"description\": \"Queues can be ACTIVE or PAUSED. If you pause a queue, jobs in that queue won't begin. Jobs that are running when you pause a queue continue to run until they finish or result in an error.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ACTIVE\",\n    \"PAUSED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-queue-status-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

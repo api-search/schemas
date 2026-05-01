@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the service template that's used to create the service.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"spec\",\n    \"templateMajorVersion\",\n    \"templateName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-input-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

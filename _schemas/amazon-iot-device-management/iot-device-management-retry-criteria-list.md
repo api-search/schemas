@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of retries allowed for a failure type for the job.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"The criteria that determines how many retries are allowed for each failure type for a job.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-retry-criteria-list-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

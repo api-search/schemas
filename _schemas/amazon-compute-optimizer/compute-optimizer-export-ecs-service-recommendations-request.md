@@ -33,7 +33,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Optimizer must be enabled in the organization account. For more information, see <a href=\\\"https://docs.aws.amazon.com/compute-optimizer/latest/ug/security-iam.html#trusted-service-access\\\">Compute Optimizer and Amazon Web Services Organizations trusted access</a> in the <i>Compute Optimizer User Guide</i>.</p> <p>If this parameter is omitted, recommendations for member accounts of the organization aren't included in the export file.</p> <p>If this parameter or the account ID parameter is omitted, recommendations for member accounts aren't included in the export.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"s3DestinationConfig\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-export-ecs-service-recommendations-request-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

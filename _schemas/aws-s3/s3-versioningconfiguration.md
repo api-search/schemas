@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"VersioningConfiguration\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"MFADelete\": {},\n    \"Status\": {}\n  },\n  \"description\": \"Describes the versioning state of an Amazon S3 bucket. For more information, see <a href=\\\"https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTVersioningStatus.html\\\">PUT Bucket versioning</a> in the <i>Amazon S3 API Reference</i>.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-versioningconfiguration-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

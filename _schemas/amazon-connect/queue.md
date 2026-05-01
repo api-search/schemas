@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"OutboundCallerIdName\": {\n          \"type\": \"string\"\n        },\n        \"OutboundCallerIdNumberId\": {\n          \"type\": \"string\"\n        },\n        \"OutboundFlowId\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"HoursOfOperationId\": {\n      \"type\": \"string\",\n      \"description\": \"The identifier for the hours of operation.\"\n    },\n    \"MaxContacts\": {\n      \"type\": \"integer\",\n      \"description\": \"The maximum number of contacts that can be in the queue before it is considered full.\",\n      \"example\": 100\n    },\n    \"Status\": {\n      \"type\": \"string\",\n      \"description\": \"The status of the queue.\",\n      \"enum\": [\n        \"ENABLED\",\n        \"DISABLED\"\n      ],\n      \"example\": \"ENABLED\"\n    },\n    \"Tags\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/queue-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

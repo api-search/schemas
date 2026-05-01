@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"An array of key:value pairs that you define. These values can be anything that you want. Typically, the tag key represents a category (such as \\\"environment\\\") and the tag value represents a specific value within that category (such as \\\"test,\\\" \\\"development,\\\" or \\\"production\\\"). You can add up to 50 tags to each container. For more information about tagging, including naming and usage conventions, see <a href=\\\"https://docs.aws.amazon.com/mediastore/latest/ug/tagging.html\\\">Tagging Resources in MediaStore</a>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ContainerName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-create-container-input-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

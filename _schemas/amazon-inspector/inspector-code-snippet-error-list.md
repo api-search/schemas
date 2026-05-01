@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The error message received when Amazon Inspector failed to retrieve a code snippet.\"\n          }\n        ]\n      },\n      \"findingArn\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/FindingArn\"\n          },\n          {\n            \"description\": \"The ARN of the finding that a code snippet couldn't be retrieved for.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains information about any errors encountered while trying to retrieve a code snippet.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-code-snippet-error-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the access policy was created, in Unix epoch time.\"\n        }\n      ]\n    },\n    \"accessPolicyLastUpdateDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the access policy was last updated, in Unix epoch time.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"accessPolicyId\",\n    \"accessPolicyArn\",\n    \"accessPolicyIdentity\",\n    \"accessPolicyResource\",\n    \"accessPolicyPermission\",\n    \"accessPolicyCreationDate\",\n    \"accessPolicyLastUpdateDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-access-policy-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

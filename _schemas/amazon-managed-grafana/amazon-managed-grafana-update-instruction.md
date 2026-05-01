@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the user or the group specified in <code>users</code>.\"\n        }\n      ]\n    },\n    \"users\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UserList\"\n        },\n        {\n          \"description\": \"A structure that specifies the user or group to add or revoke the role for.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"action\",\n    \"role\",\n    \"users\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-update-instruction-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

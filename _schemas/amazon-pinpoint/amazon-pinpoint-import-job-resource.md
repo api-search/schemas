@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The custom name for the segment that's created by the import job, if the value of the DefineSegment property is true.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Format\",\n    \"S3Url\",\n    \"RoleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-import-job-resource-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

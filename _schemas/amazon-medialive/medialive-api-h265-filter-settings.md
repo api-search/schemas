@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-h265-filter-settings-schema.json\",\n  \"title\": \"H265FilterSettings\",\n  \"description\": \"H265 Filter Settings\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"TemporalFilterSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TemporalFilterSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"temporalFilterSettings\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-h265-filter-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

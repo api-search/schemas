@@ -27,7 +27,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/json-schema/amazon-supply-chain-data-lake-namespace-schema.json\",\n  \"title\": \"DataLakeNamespace\",\n  \"description\": \"A data lake namespace\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"instanceId\": {\n      \"type\": \"string\",\n      \"description\": \"The instance identifier\",\n      \"example\": \"inst-abc12345\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The namespace name\",\n      \"example\": \"asc\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"The namespace description\"\n    },\n    \"createdTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"lastModifiedTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/json-schema/amazon-supply-chain-data-lake-namespace-schema.json
 tags:
-- AWS
 - ERP Integration
 - Logistics
 - Machine Learning

@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   \      \"type\": \"string\",\n      \"enum\": [\n        \"HEADER\",\n        \"AUTHORIZER\"\n      ]\n    },\n    \"endpointConfiguration\": {\n      \"$ref\": \"#/definitions/EndpointConfiguration\"\n    },\n    \"policy\": {\n      \"type\": \"string\"\n    },\n    \"tags\": {\n      \"type\": \"object\"\n    },\n    \"disableExecuteApiEndpoint\": {\n      \"type\": \"boolean\"\n    }\n  },\n  \"required\": [\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-createrestapirequest-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ in HTTP Live Streaming (HLS) input,\\nit will be passed through to HLS output.\\n\"\n        }\n      ]\n    },\n    \"Url\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"url\"\n          },\n          \"description\": \"The URL of the packaged OriginEndpoint for consumption.\"\n        }\n      ]\n    },\n    \"AdTriggers\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AdTriggers\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"adTriggers\"\n          }\n        }\n      ]\n    },\n    \"AdsOnDeliveryRestrictions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AdsOnDeliveryRestrictions\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"adsOnDeliveryRestrictions\"\n          }\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Id\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-hls-manifest-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

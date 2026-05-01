@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-instance-state-schema.json\",\n  \"title\": \"InstanceState\",\n  \"description\": \"InstanceState schema from AWS Elemental MediaConnect API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"REGISTERING\",\n    \"ACTIVE\",\n    \"DEREGISTERING\",\n    \"DEREGISTERED\",\n    \"REGISTRATION_ERROR\",\n    \"DEREGISTRATION_ERROR\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-instance-state-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

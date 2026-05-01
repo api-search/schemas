@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  }\n      ]\n    },\n    \"greengrassGroupId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Id\"\n        },\n        {\n          \"description\": \"The Greengrass group id.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"A map that contains tag keys and tag values that are attached to the robot.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"architecture\",\n    \"greengrassGroupId\"\n  ],\n  \"deprecated\": true\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-robot-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: CreateRobotRequest

@@ -38,7 +38,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ImageId\": 
   \ },\n    \"OwnerAccountId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AwsAccount\"\n        },\n        {\n          \"description\": \"The identifier of the Amazon Web Services account that owns the image.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CreateWorkspaceImageResult\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-create-workspace-image-result-schema.json\",\n  \"description\": \"CreateWorkspaceImageResult schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-create-workspace-image-result-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

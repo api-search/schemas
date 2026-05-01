@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        \"HEALTHY\",\n        \"UNHEALTHY\",\n        \"ALL\",\n        \"HEALTHY_OR_ELSE_ALL\"\n      ],\n      \"description\": \"The health status of the instances that you want to discover.\"\n    }\n  },\n  \"required\": [\n    \"NamespaceName\",\n    \"ServiceName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/json-schema/cloud-map-discover-instances-request-schema.json
 tags:
-- AWS
 - Cloud Map
 - Service Discovery
 - Microservices

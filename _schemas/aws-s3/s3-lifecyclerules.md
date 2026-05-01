@@ -15,7 +15,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Multipart Uploads Using a Bucket Lifecycle Policy</a> in the <i>Amazon S3 User Guide</i>.\"\n      }\n    },\n    \"required\": [\n      \"Status\"\n    ],\n    \"description\": \"A lifecycle rule for individual objects in an Amazon S3 bucket.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-lifecyclerules-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

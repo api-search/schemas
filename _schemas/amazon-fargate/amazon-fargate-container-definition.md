@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Memory limit in MiB\",\n      \"example\": 512\n    },\n    \"environment\": {\n      \"type\": \"array\",\n      \"description\": \"Environment variables\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/KeyValuePair\"\n      }\n    },\n    \"portMappings\": {\n      \"type\": \"array\",\n      \"description\": \"Port mappings\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/PortMapping\"\n      }\n    },\n    \"logConfiguration\": {\n      \"$ref\": \"#/components/schemas/LogConfiguration\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/json-schema/amazon-fargate-container-definition-schema.json
 tags:
-- AWS
 - Compute
 - Containers
 - ECS

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.\"\n        }\n      ]\n    },\n    \"InitiatorName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IqnName\"\n        },\n        {\n          \"description\": \"The iSCSI initiator that connects to the target.\"\n        }\n      ]\n    },\n    \"SecretToAuthenticateTarget\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ChapSecret\"\n        },\n        {\n          \"description\": \"The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g., Windows client).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-chap-info-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

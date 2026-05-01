@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ capabilities that the authorization server supports.</p> <p> <code>code_challenge_methods_supported</code>: An array of strings of supported PKCE code challenge methods. You must include the <code>S256</code> method in the array of PKCE code challenge methods.</p>\"\n        }\n      ]\n    },\n    \"IdpLambdaArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LambdaArn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the Lambda function that you want to use to decode the access token created by the authorization server.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The identity provider configuration that you gave when the data store was created.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-identity-provider-configuration-schema.json
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

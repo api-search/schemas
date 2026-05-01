@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \            \"description\": \"The error message explaining why the account failed to activate Amazon Inspector deep inspection.\"\n          }\n        ]\n      },\n      \"status\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/Ec2DeepInspectionStatus\"\n          },\n          {\n            \"description\": \"The state of Amazon Inspector deep inspection in the member account.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"An object that contains details about the state of Amazon Inspector deep inspection for a member account.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-member-account-ec2-deep-inspection-status-state-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

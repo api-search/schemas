@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ property isn't supported.</p> </note>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-affected-entity-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

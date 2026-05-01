@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"A Boolean indicating whether to enable this port mapping on public IP.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"jobPort\",\n    \"applicationPort\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-port-mapping-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: PortMapping

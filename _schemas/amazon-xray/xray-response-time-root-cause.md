@@ -20,7 +20,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Services\":
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-response-time-root-cause-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

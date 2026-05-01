@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"packagePaths\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PathList\"\n        },\n        {\n          \"description\": \"The Amazon Inspector deep inspection custom paths for your account.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Ec2DeepInspectionStatus\"\n        },\n        {\n          \"description\": \"The activation status of Amazon Inspector deep inspection in your account.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-get-ec2-deep-inspection-configuration-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

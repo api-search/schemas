@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/json-schema/car-schema.json
 tags:
 - Autonomous Vehicles
-- AWS
 - Machine Learning
 - Reinforcement Learning
 - Robotics

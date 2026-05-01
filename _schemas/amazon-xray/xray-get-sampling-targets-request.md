@@ -16,7 +16,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"SamplingStati
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-get-sampling-targets-request-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"description\": \"The phone number for the user's desk phone.\"\n    }\n  },\n  \"required\": [\n    \"PhoneType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/user-phone-config-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

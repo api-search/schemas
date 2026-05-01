@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-update-application-settings-request-schema.json\",\n  \"title\": \"UpdateApplicationSettingsRequest\",\n  \"description\": \"UpdateApplicationSettingsRequest schema from Amazon Pinpoint API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"WriteApplicationSettingsRequest\": {\n      \"$ref\": \"#/components/schemas/WriteApplicationSettingsRequest\"\n    }\n  },\n  \"required\": [\n    \"WriteApplicationSettingsRequest\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-update-application-settings-request-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

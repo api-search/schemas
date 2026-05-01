@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ },\n        {\n          \"xml\": {\n            \"name\": \"provisionedThroughput\"\n          },\n          \"description\": \"\\n            <p>EBS volume provisioned throughput information.</p>\"\n        }\n      ]\n    },\n    \"VolumeSizeGB\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"volumeSizeGB\"\n          },\n          \"description\": \"\\n            <p>Size of the EBS volume to update.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KafkaBrokerNodeId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-broker-ebs-volume-info-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

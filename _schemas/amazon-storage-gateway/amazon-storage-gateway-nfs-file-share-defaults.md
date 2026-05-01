@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The default owner ID for files in the file share (unless the files have another owner ID specified). The default value is <code>nfsnobody</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-nfs-file-share-defaults-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

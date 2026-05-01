@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n        \"S3\": {\n          \"bucketName\": \"my-data-bucket\",\n          \"bucketPrefix\": \"appflow/salesforce/accounts\"\n        }\n      },\n      \"description\": \"This stores the information that is required to query a particular connector.\"\n    }\n  },\n  \"required\": [\n    \"connectorType\",\n    \"destinationConnectorProperties\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-destination-flow-config-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

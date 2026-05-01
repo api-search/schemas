@@ -55,7 +55,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ YYYY-MM-DD'T'HH:MM:SS'Z' format.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-tape-archive-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

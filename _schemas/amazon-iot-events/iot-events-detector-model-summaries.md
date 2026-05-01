@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/Timestamp\"\n          },\n          {\n            \"description\": \"The time the detector model was created.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Information about the detector model.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-detector-model-summaries-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

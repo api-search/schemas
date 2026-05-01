@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ device's <code>/sys</code> folder.</p> <p>Default: <code>false</code> </p>\"\n        }\n      ]\n    },\n    \"volumes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LambdaVolumeList\"\n        },\n        {\n          \"description\": \"The list of volumes that the container can access.\"\n        }\n      ]\n    },\n    \"devices\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LambdaDeviceList\"\n        },\n        {\n          \"description\": \"The list of system devices that the container can access.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-lambda-container-params-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

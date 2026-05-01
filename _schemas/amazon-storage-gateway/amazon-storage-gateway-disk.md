@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ disk is not defined as an iSCSI target. The format of this field is <i>targetIqn::LUNNumber::region-volumeId</i>.\"\n        }\n      ]\n    },\n    \"DiskAttributeList\": {\n      \"$ref\": \"#/components/schemas/DiskAttributeList\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-disk-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

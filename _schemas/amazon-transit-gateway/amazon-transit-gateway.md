@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"maxLength\": 128\n        },\n        \"Value\": {\n          \"type\": \"string\",\n          \"minLength\": 0,\n          \"maxLength\": 256\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/json-schema/amazon-transit-gateway-schema.json
 tags:
-- AWS
 - Cloud Networking
 - Network Hub
 - Networking

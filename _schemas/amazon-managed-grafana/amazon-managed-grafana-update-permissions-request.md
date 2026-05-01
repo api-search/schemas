@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-update-permissions-request-schema.json\",\n  \"title\": \"UpdatePermissionsRequest\",\n  \"description\": \"UpdatePermissionsRequest schema from Amazon Managed Grafana API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"updateInstructionBatch\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UpdateInstructionBatch\"\n        },\n        {\n          \"description\": \"An array of structures that contain the permission updates to make.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"updateInstructionBatch\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-update-permissions-request-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

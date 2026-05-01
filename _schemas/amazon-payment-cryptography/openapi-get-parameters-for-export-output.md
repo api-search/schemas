@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ certificate chain that signed the signing key certificate. This is the root certificate authority (CA) within your service account.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ExportToken\",\n    \"ParametersValidUntilTimestamp\",\n    \"SigningKeyAlgorithm\",\n    \"SigningKeyCertificate\",\n    \"SigningKeyCertificateChain\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-get-parameters-for-export-output-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

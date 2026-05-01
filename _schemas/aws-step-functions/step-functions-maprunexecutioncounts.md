@@ -36,7 +36,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"MapRunExecutionCounts\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"pending\": {},\n    \"running\": {},\n    \"succeeded\": {},\n    \"failed\": {},\n    \"timedOut\": {},\n    \"aborted\": {},\n    \"total\": {},\n    \"resultsWritten\": {}\n  },\n  \"required\": [\n    \"pending\",\n    \"running\",\n    \"succeeded\",\n    \"failed\",\n    \"timedOut\",\n    \"aborted\",\n    \"total\",\n    \"resultsWritten\"\n  ],\n  \"description\": \"Contains details about all of the child workflow executions started by a Map Run.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/json-schema/step-functions-maprunexecutioncounts-schema.json
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

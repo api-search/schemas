@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        \"description\": \"Specifies whether the state machine version is published. The default is <code>false</code>. To publish a version after updating the state machine, set <code>publish</code> to <code>true</code>.\"\n        }\n      ]\n    },\n    \"versionDescription\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VersionDescription\"\n        },\n        {\n          \"description\": \"<p>An optional description of the state machine version to publish.</p> <p>You can only specify the <code>versionDescription</code> parameter if you've set <code>publish</code> to <code>true</code>.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"stateMachineArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-update-state-machine-input-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

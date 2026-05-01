@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"type\": \"string\",\n      \"description\": \"Rule expression evaluated against event variables and model scores.\"\n    },\n    \"outcomes\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"Outcomes triggered when the rule matches.\"\n    },\n    \"arn\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"ruleId\",\n    \"detectorId\",\n    \"expression\",\n    \"language\",\n    \"outcomes\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/json-schema/amazon-fraud-detector-rule-schema.json
 tags:
-- AWS
 - Financial Services
 - Fraud Detection
 - Machine Learning

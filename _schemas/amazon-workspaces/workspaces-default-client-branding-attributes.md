@@ -30,7 +30,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"LogoUrl\": 
   \n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-default-client-branding-attributes-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

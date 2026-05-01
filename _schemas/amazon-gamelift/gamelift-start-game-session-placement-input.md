@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ session for.\"\n        }\n      ]\n    },\n    \"GameSessionData\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LargeGameSessionData\"\n        },\n        {\n          \"description\": \"A set of custom game session properties, formatted as a single string value. This data is passed to a game server process in the <code>GameSession</code> object with a request to start a new game session (see <a href=\\\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\\\">Start a Game Session</a>).\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"PlacementId\",\n    \"GameSessionQueueName\",\n    \"MaximumPlayerSessionCount\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-start-game-session-placement-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

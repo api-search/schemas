@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   tagValues\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOfTagValuePair\"\n        },\n        {\n          \"description\": \"The tag keys or tag key and value pairs to use in the condition. To specify only tag keys in a condition, specify the keys in this array and set the value for each associated tag value to an empty string.\"\n        }\n      ]\n    },\n    \"target\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagTarget\"\n        },\n        {\n          \"description\": \"The type of object to apply the condition to.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-tag-scope-term-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

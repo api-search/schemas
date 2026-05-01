@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"status\": {\n              \"type\": \"string\"\n            },\n            \"totalTimeSpent\": {\n              \"type\": \"integer\"\n            },\n            \"startTime\": {\n              \"type\": \"integer\"\n            },\n            \"totalRecords\": {\n              \"type\": \"integer\"\n            },\n            \"totalDuplicates\": {\n              \"type\": \"integer\"\n            },\n            \"parsingErrors\": {\n              \"type\": \"integer\"\n            },\n            \"datatypeMismatchErrors\": {\n              \"type\": \"integer\"\n            },\n            \"insertErrors\": {\n              \"type\": \"integer\"\n            }\n          }\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/data-loader-job-status-output-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

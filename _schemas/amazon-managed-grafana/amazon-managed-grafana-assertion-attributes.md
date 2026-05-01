@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the users' organizations.\"\n        }\n      ]\n    },\n    \"role\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AssertionAttribute\"\n        },\n        {\n          \"description\": \"The name of the attribute within the SAML assertion to use as the user roles.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-assertion-attributes-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

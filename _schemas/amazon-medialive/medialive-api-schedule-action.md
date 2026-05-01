@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"ScheduleActionSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ScheduleActionSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"scheduleActionSettings\"\n          },\n          \"description\": \"Settings for this schedule action.\"\n        }\n      ]\n    },\n    \"ScheduleActionStartSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ScheduleActionStartSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"scheduleActionStartSettings\"\n          },\n          \"description\": \"The time for the action to start in the channel.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ActionName\",\n    \"ScheduleActionStartSettings\",\n    \"ScheduleActionSettings\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-schedule-action-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

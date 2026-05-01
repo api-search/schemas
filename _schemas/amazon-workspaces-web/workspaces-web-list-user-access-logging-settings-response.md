@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"nextToken\"
   \ Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-list-user-access-logging-settings-response-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

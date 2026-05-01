@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ MQ action required codes</a>. Each code references a topic with detailed information, instructions, and recommendations for how to resolve the issue and prevent future occurrences.\"\n        }\n      ]\n    },\n    \"ActionRequiredInfo\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"actionRequiredInfo\"\n          },\n          \"description\": \"Information about the action required to resolve your broker issue when the broker is in a CRITICAL_ACTION_REQUIRED state.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-action-required-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"state\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PropertyNotificationState\"\n        },\n        {\n          \"description\": \"The current notification state.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"topic\",\n    \"state\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-property-notification-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

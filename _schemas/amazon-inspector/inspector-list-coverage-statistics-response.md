@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ value returned from the previous request to continue listing results after the first page.\"\n        }\n      ]\n    },\n    \"totalCounts\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Long\"\n        },\n        {\n          \"description\": \"The total number for all groups.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"totalCounts\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-list-coverage-statistics-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

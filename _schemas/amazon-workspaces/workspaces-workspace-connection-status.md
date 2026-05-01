@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"WorkspaceId
   \     {\n          \"description\": \"The timestamp of the last known user connection.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Describes the connection status of a WorkSpace.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkspaceConnectionStatus\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-connection-status-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-connection-status-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

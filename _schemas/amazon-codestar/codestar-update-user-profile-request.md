@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/Email\"\n        },\n        {\n          \"description\": \"The email address that is displayed as part of the user's profile in AWS CodeStar.\"\n        }\n      ]\n    },\n    \"sshPublicKey\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SshPublicKey\"\n        },\n        {\n          \"description\": \"The SSH public key associated with the user in AWS CodeStar. If a project owner allows the user remote access to project resources, this public key will be used along with the user's private key for SSH access.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"userArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-schema/codestar-update-user-profile-request-schema.json
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

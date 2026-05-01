@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"description\": \"An array that specifies the unique identifier and name of the sensitivity inspection template for the account.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-list-sensitivity-inspection-templates-response-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

@@ -27,7 +27,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/json-schema/memorydb-api-snapshot-schema.json\",\n  \"title\": \"Snapshot\",\n  \"description\": \"Represents a copy of an entire cluster.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ARN\": {\n      \"description\": \"The ARN of the snapshot.\",\n      \"type\": \"string\"\n    },\n    \"ClusterConfiguration\": {\n      \"description\": \"The configuration of the cluster from which the snapshot was taken.\",\n      \"type\": \"object\"\n    },\n    \"KmsKeyId\": {\n      \"description\": \"The ID of the KMS key used to encrypt the snapshot.\",\n      \"type\": \"string\"\n    },\n    \"Name\": {\n      \"description\": \"The name of the snapshot.\",\n      \"type\": \"string\"\n    },\n    \"Status\": {\n      \"description\": \"The status of the snapshot.\",\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/json-schema/memorydb-api-snapshot-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

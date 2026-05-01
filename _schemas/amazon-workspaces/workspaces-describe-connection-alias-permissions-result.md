@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"AliasId\": 
   ,\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-describe-connection-alias-permissions-result-schema.json\",\n  \"description\": \"DescribeConnectionAliasPermissionsResult schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-describe-connection-alias-permissions-result-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

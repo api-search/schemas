@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The policy version ID.\"\n        }\n      ]\n    },\n    \"isDefaultVersion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IsDefaultVersion\"\n        },\n        {\n          \"description\": \"Specifies whether the policy version is the default.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-create-policy-version-response-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        }\n      ]\n    },\n    \"AverageDownloadRateLimitInBitsPerSec\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BandwidthDownloadRateLimit\"\n        },\n        {\n          \"description\": \"The average download bandwidth rate limit in bits per second.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GatewayARN\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-update-bandwidth-rate-limit-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

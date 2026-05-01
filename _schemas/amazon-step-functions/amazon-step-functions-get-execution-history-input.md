@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <i>HTTP 400 InvalidToken</i> error.\"\n        }\n      ]\n    },\n    \"includeExecutionData\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IncludeExecutionDataGetExecutionHistory\"\n        },\n        {\n          \"description\": \"You can select whether execution data (input or output of a history event) is returned. The default is <code>true</code>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"executionArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-get-execution-history-input-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

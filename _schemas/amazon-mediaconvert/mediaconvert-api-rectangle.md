@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Specify only even numbers.\"\n        }\n      ]\n    },\n    \"X\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin0Max2147483647\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"x\"\n          },\n          \"description\": \"The distance, in pixels, between the rectangle and the left edge of the video frame. Specify only even numbers.\"\n        }\n      ]\n    },\n    \"Y\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin0Max2147483647\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"y\"\n          },\n          \"description\": \"The distance, in pixels, between the rectangle and the top edge of the video frame. Specify only even numbers.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-rectangle-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

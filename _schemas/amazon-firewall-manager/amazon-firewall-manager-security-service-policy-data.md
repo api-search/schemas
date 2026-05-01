@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Service-specific configuration details as JSON.\"\n    }\n  },\n  \"required\": [\n    \"Type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/json-schema/amazon-firewall-manager-security-service-policy-data-schema.json
 tags:
-- AWS
 - Compliance
 - Firewall
 - Network Security

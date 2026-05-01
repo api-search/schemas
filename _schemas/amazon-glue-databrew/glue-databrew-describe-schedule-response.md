@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The date or dates and time or times when the jobs are to be run for the schedule. For more information, see <a href=\\\"https://docs.aws.amazon.com/databrew/latest/dg/jobs.cron.html\\\">Cron expressions</a> in the <i>Glue DataBrew Developer Guide</i>.\"\n        }\n      ]\n    },\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"Metadata tags associated with this schedule.\"\n        }\n      ]\n    },\n    \"Name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ScheduleName\"\n        },\n        {\n          \"description\": \"The name of the schedule.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-describe-schedule-response-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

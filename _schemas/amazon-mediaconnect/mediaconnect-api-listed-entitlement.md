@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"The ARN of the entitlement.\"\n        }\n      ]\n    },\n    \"EntitlementName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"entitlementName\"\n          },\n          \"description\": \"The name of the entitlement.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"EntitlementArn\",\n    \"EntitlementName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-listed-entitlement-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        },\n        {\n          \"description\": \"The ARN of the KMS key used to encrypt data when exporting findings.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"bucketName\",\n    \"kmsKeyArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-destination-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

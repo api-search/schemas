@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"Contains information about an endpoint and port where client devices can connect to an MQTT broker on a Greengrass core device.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-connectivity-info-list-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

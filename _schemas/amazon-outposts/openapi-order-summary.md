@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \" The status of all line items in the order. \"\n        }\n      ]\n    },\n    \"OrderSubmissionDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ISO8601Timestamp\"\n        },\n        {\n          \"description\": \" The submission date for the order. \"\n        }\n      ]\n    },\n    \"OrderFulfilledDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ISO8601Timestamp\"\n        },\n        {\n          \"description\": \" The fulfilment date for the order. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-order-summary-schema.json
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

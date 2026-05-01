@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"How long the channel retains data (in hours).\",\n      \"example\": 24\n    },\n    \"CreationTime\": {\n      \"type\": \"string\",\n      \"description\": \"When the stream was created.\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/json-schema/amazon-kinesis-video-streams-stream-schema.json
 tags:
-- AWS
 - IoT
 - Machine Learning
 - Media

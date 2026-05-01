@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"An array containing the FileSystemAssociationStatusDetail data type, which provides detailed information on file system association status.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-file-system-association-info-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

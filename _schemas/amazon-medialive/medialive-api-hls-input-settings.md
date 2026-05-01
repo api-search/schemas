@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The number of seconds between retries when an attempt to read a manifest or segment fails.\"\n        }\n      ]\n    },\n    \"Scte35Source\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/HlsScte35SourceType\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"scte35Source\"\n          },\n          \"description\": \"Identifies the source for the SCTE-35 messages that MediaLive will ingest. Messages can be ingested from the content segments (in the stream) or from tags in the playlist (the HLS manifest). MediaLive ignores SCTE-35 information in the source that is not selected.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-hls-input-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

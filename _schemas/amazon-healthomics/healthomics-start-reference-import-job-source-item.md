@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"description\": \"The source's description.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"The source's tags.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"A source for a reference import job.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-start-reference-import-job-source-item-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

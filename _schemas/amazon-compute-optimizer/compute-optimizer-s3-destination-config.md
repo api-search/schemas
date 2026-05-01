@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Amazon S3 Bucket Policy for Compute Optimizer</a> in the <i>Compute Optimizer User Guide</i>.</p>\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"bucket\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DestinationBucket\"\n        },\n        {\n          \"description\": \"The name of the Amazon S3 bucket to use as the destination for an export job.\"\n        }\n      ]\n    },\n    \"keyPrefix\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DestinationKeyPrefix\"\n        },\n        {\n          \"description\": \"The Amazon S3 bucket prefix for an export job.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-s3-destination-config-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

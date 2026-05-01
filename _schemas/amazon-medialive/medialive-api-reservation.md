@@ -75,7 +75,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       \"description\": \"A collection of key-value pairs\"\n        }\n      ]\n    },\n    \"UsagePrice\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__double\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"usagePrice\"\n          },\n          \"description\": \"Recurring usage charge for each reserved resource, e.g. '157.0'\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-reservation-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

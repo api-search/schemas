@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"description\": \"The source's status message.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"A source for a read set activation job.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-activate-read-set-source-item-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

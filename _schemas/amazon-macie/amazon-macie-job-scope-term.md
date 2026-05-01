@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"A tag-based condition that defines the operator and tag keys or tag key and value pairs for including or excluding objects from the job.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-job-scope-term-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

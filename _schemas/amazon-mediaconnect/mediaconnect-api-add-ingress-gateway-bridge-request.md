@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ maximum number of expected outputs.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MaxOutputs\",\n    \"MaxBitrate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-add-ingress-gateway-bridge-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

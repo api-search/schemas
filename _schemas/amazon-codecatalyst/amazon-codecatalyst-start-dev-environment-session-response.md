@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/json-schema/amazon-codecatalyst-start-dev-environment-session-response-schema.json
 tags:
 - Amazon
-- AWS
 - Developer Tools
 - CI/CD
 - Collaboration

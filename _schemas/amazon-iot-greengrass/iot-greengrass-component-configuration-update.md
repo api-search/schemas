@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ each level in the object. For more information, see the <a href=\\\"https://tools.ietf.org/html/rfc6901\\\">JSON pointer specification</a> and <a href=\\\"https://docs.aws.amazon.com/greengrass/v2/developerguide/update-component-configurations.html#reset-configuration-update\\\">Reset configuration updates</a> in the <i>IoT Greengrass V2 Developer Guide</i>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-component-configuration-update-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

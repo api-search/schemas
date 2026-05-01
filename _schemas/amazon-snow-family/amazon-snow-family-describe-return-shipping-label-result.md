@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"ReturnShippingLabelURI\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The pre-signed Amazon S3 URI used to download the return shipping label.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-describe-return-shipping-label-result-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

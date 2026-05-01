@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Contains details on the permissions an account has to configure Amazon Inspector.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"permissions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-list-account-permissions-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

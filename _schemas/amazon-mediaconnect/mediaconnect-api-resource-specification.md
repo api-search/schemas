@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"description\": \"The type of resource and the unit that is being billed for.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ResourceType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-resource-specification-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

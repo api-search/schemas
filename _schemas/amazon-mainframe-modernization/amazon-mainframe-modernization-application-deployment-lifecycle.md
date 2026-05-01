@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-application-deployment-lifecycle-schema.json\",\n  \"title\": \"ApplicationDeploymentLifecycle\",\n  \"description\": \"ApplicationDeploymentLifecycle schema from AWS Mainframe Modernization API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"Deploying\",\n    \"Deployed\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-application-deployment-lifecycle-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

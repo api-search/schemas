@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"Additional options governing how Network Firewall handles stateful rules. The policies where you use your stateful rule group must have stateful rule options settings that are compatible with these settings.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"RulesSource\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-rule-group-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

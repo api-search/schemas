@@ -52,7 +52,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n    },\n    \"AllocatedStorage\": {\n      \"type\": \"integer\"\n    },\n    \"VpcId\": {\n      \"type\": \"string\"\n    },\n    \"Port\": {\n      \"type\": \"integer\"\n    },\n    \"StorageEncrypted\": {\n      \"type\": \"boolean\"\n    },\n    \"KmsKeyId\": {\n      \"type\": \"string\"\n    },\n    \"DBClusterSnapshotArn\": {\n      \"type\": \"string\"\n    },\n    \"SnapshotType\": {\n      \"type\": \"string\",\n      \"description\": \"The type of the snapshot (manual or automated).\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/management-db-cluster-snapshot-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

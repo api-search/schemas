@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Specifies a custom <code>ExtendedKeyUsage</code> with an object identifier (OID).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-extended-key-usage-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

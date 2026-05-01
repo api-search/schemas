@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"required\": [\n    \"Paths\",\n    \"CallerReference\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/json-schema/cloudfront-invalidation-batch-schema.json
 tags:
-- AWS
 - CloudFront
 - CDN
 - Content Delivery

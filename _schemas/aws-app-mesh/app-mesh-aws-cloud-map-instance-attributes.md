@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   \ for your virtual node.</p> <note> <p>Cloud Map is not available in the eu-south-1 Region.</p> </note>\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-aws-cloud-map-instance-attributes-schema.json\",\n  \"title\": \"AwsCloudMapInstanceAttributes\",\n  \"description\": \"AwsCloudMapInstanceAttributes schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-aws-cloud-map-instance-attributes-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

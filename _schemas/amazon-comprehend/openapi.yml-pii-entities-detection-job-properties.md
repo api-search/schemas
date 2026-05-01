@@ -55,7 +55,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The language code of the input documents\"\n        }\n      ]\n    },\n    \"DataAccessRoleArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IamRoleArn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the IAM role that grants Amazon Comprehend read access to your input data.\"\n        }\n      ]\n    },\n    \"Mode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PiiEntitiesDetectionMode\"\n        },\n        {\n          \"description\": \"Specifies whether the output provides the locations (offsets) of PII entities or a file in which PII entities are redacted.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-pii-entities-detection-job-properties-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

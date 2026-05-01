@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ For example, say that the default main manifest for your HLS group is film-name.m3u8. If you enter \\\"-no-premium\\\" for this setting, then the file name the service generates for this top-level manifest is film-name-no-premium.m3u8. For HLS output groups, specify a manifestNameModifier that is different from the nameModifier of the output. The service uses the output name modifier to create unique names for the individual variant manifests.\"\n        }\n      ]\n    },\n    \"SelectedOutputs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOf__stringMin1\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"selectedOutputs\"\n          },\n          \"description\": \"Specify the outputs that you want this additional top-level manifest to reference.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-cmaf-additional-manifest-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

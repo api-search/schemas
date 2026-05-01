@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/streams-stream-event-id-schema.json\",\n  \"title\": \"StreamEventId\",\n  \"description\": \"A sequence identifier for a stream event.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"commitNum\": {\n      \"type\": \"integer\",\n      \"description\": \"The commit (transaction) number.\"\n    },\n    \"opNum\": {\n      \"type\": \"integer\",\n      \"description\": \"The operation number within the commit.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/streams-stream-event-id-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

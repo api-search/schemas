@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n          {\n            \"$ref\": \"#/components/schemas/ID\"\n          },\n          {\n            \"description\": \" The ID of the composite model that contains the asset model property. \"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains a summary of a property associated with a model.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-model-property-summaries-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

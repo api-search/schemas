@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n      },\n      \"dynamoDBv2\": {\n        \"$ref\": \"#/components/schemas/DynamoDBv2Action\"\n      },\n      \"iotSiteWise\": {\n        \"$ref\": \"#/components/schemas/IotSiteWiseAction\"\n      }\n    },\n    \"description\": \"Specifies one of the following actions to receive notifications when the alarm state changes.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-alarm-actions-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

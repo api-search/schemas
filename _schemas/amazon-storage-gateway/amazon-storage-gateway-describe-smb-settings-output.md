@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ },\n        {\n          \"description\": \"A list of Active Directory users and groups that have special permissions for SMB file shares on the gateway.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-describe-smb-settings-output-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

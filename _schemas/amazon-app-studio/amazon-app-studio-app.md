@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Timestamp when the application was last updated.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/json-schema/amazon-app-studio-app-schema.json
 tags:
-- AWS
 - Generative AI
 - Internal Tools
 - Low-Code

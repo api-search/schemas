@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"One or more custom metrics that are associated with the event.\"\n        }\n      ]\n    },\n    \"SdkName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The name of the SDK that's being used to record the event.\"\n        }\n      ]\n    },\n    \"Session\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Session\"\n        },\n        {\n          \"description\": \"Information about the session in which the event occurred.\"\n        }\n      ]\n    },\n    \"Timestamp\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The date and time, in ISO 8601 format, when the event occurred.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"EventType\",\n    \"Timestamp\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-event-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

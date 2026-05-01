@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"array\",\n      \"description\": \"One or more local secondary indexes to create on the table\"\n    },\n    \"Tags\": {\n      \"type\": \"array\",\n      \"description\": \"Tags to associate with the table\"\n    },\n    \"TableClass\": {\n      \"type\": \"string\",\n      \"description\": \"The table class of the new table\"\n    },\n    \"DeletionProtectionEnabled\": {\n      \"type\": \"boolean\",\n      \"description\": \"Indicates whether deletion protection is enabled\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-create-table-input-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

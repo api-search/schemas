@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   \ configuration set to use when sending the email.\"\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-schema/amazon-ses-emailmessage-schema.json
 tags:
-- AWS
 - Email
 - Email Deliverability
 - Email Service

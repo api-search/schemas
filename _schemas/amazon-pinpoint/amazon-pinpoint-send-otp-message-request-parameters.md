@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"ValidityPeriod\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"description\": \"The time in minutes before the OTP is no longer valid.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"BrandName\",\n    \"ReferenceId\",\n    \"Channel\",\n    \"DestinationIdentity\",\n    \"OriginationIdentity\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-send-otp-message-request-parameters-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"audioSilenceThresholdMsec\"\n          },\n          \"description\": \"The amount of time (in milliseconds) that the active input must be silent before automatic input failover occurs. Silence is defined as audio loss or audio quieter than -50 dBFS.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"AudioSelectorName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-audio-silence-failover-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

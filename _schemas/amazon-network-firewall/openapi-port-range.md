@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The upper limit of the port range. This must be greater than or equal to the <code>FromPort</code> specification. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"FromPort\",\n    \"ToPort\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-port-range-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-aws-service-schema.json\",\n  \"title\": \"AwsService\",\n  \"description\": \"Provides information about an Amazon Web Service that performed an action on an affected resource.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"invokedBy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The name of the Amazon Web Service that performed the action.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-aws-service-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

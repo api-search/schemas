@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ gateway and virtual interface are attached and ready to pass traffic.</p> </li> <li> <p> <code>detaching</code>: The initial state after calling <a>DeleteVirtualInterface</a>.</p> </li> <li> <p> <code>detached</code>: The virtual interface is detached from the Direct Connect gateway. Traffic flow between the Direct Connect gateway and virtual interface is stopped.</p> </li> </ul>\"\n        }\n      ]\n    },\n    \"attachmentType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DirectConnectGatewayAttachmentType\"\n        },\n        {\n          \"description\": \"The type of attachment.\"\n        }\n      ]\n    },\n    \"stateChangeError\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StateChangeError\"\n        },\n        {\n          \"description\": \"The error message if the state of an object failed to advance.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/json-schema/amazon-direct-connect-direct-connect-gateway-attachment-schema.json
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

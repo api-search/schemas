@@ -69,7 +69,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"description\": \"Whether the DB cluster has instances in multiple AZs\"\n    },\n    \"clusterCreateTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The time when the DB cluster was created\"\n    },\n    \"allocatedStorage\": {\n      \"type\": \"integer\",\n      \"description\": \"The current allocated storage size in GiB for the cluster\"\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"description\": \"Tags assigned to the DB cluster\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-db-cluster-schema.json
 tags:
-- AWS
 - Cloud Databases
 - Database Service
 - DBaaS

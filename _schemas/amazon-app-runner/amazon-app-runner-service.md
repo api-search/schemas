@@ -58,7 +58,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   \  \"properties\": {\n    \"ServiceName\": {},\n    \"ServiceId\": {},\n    \"ServiceArn\": {},\n    \"ServiceUrl\": {},\n    \"CreatedAt\": {},\n    \"UpdatedAt\": {},\n    \"DeletedAt\": {},\n    \"Status\": {},\n    \"SourceConfiguration\": {},\n    \"InstanceConfiguration\": {},\n    \"EncryptionConfiguration\": {},\n    \"HealthCheckConfiguration\": {},\n    \"AutoScalingConfigurationSummary\": {},\n    \"NetworkConfiguration\": {},\n    \"ObservabilityConfiguration\": {}\n  },\n  \"required\": [\n    \"ServiceName\",\n    \"ServiceId\",\n    \"ServiceArn\",\n    \"CreatedAt\",\n    \"UpdatedAt\",\n    \"Status\",\n    \"SourceConfiguration\",\n    \"InstanceConfiguration\",\n    \"AutoScalingConfigurationSummary\",\n    \"NetworkConfiguration\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/json-schema/amazon-app-runner-service-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

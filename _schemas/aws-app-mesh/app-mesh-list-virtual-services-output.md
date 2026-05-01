@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"nextToken\"
   ,\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-list-virtual-services-output-schema.json\",\n  \"title\": \"ListVirtualServicesOutput\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-list-virtual-services-output-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

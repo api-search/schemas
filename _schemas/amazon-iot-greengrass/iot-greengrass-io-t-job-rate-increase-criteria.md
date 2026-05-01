@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"The number of devices to successfully run the configuration job before the rollout rate increases.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-io-t-job-rate-increase-criteria-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

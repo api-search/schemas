@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"#/components/schemas/Rec709Settings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"rec709Settings\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-h264-color-space-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

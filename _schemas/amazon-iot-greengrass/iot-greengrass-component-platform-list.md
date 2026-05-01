@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          {\n            \"description\": \"A dictionary of attributes for the platform. The IoT Greengrass Core software defines the <code>os</code> and <code>architecture</code> by default. You can specify additional platform attributes for a core device when you deploy the Greengrass nucleus component. For more information, see the <a href=\\\"https://docs.aws.amazon.com/greengrass/v2/developerguide/greengrass-nucleus-component.html\\\">Greengrass nucleus component</a> in the <i>IoT Greengrass V2 Developer Guide</i>.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains information about a platform that a component supports.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-component-platform-list-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

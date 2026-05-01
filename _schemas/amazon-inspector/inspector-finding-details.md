@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n          {\n            \"$ref\": \"#/components/schemas/RiskScore\"\n          },\n          {\n            \"description\": \"The risk score of the vulnerability.\"\n          }\n        ]\n      },\n      \"tools\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/Tools\"\n          },\n          {\n            \"description\": \"The known malware tools or kits that can exploit the vulnerability.\"\n          }\n        ]\n      },\n      \"ttps\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/Ttps\"\n          },\n          {\n            \"description\": \"The MITRE adversary tactics, techniques, or procedures (TTPs) associated with the vulnerability.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Details of the vulnerability identified in a finding.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-finding-details-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

@@ -88,7 +88,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ table are validated. If the table is updated, the status can change from Validated.</p> </li> <li> <p>Error \\u2013 The table couldn't be validated because of an unexpected error.</p> </li> <li> <p>Pending validation \\u2013 The table is waiting validation.</p> </li> <li> <p>Preparing table \\u2013 Preparing the table enabled in the migration task for validation.</p> </li> <li> <p>Pending revalidation \\u2013 All rows in the table are pending validation after the table was updated.</p> </li> </ul>\"\n        }\n      ]\n    },\n    \"ValidationStateDetails\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"Additional details about the state of validation.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-table-statistics-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

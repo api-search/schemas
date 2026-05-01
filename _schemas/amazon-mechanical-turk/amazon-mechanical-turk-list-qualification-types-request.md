@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MustBeRequestable\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-list-qualification-types-request-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

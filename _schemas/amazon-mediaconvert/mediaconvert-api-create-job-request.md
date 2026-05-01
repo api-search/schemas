@@ -58,7 +58,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"userMetadata\"\n          },\n          \"description\": \"Optional. User-defined metadata that you want to associate with an MediaConvert job. You specify metadata in key/value pairs.  Use only for existing integrations or workflows that rely on job metadata tags. Otherwise, we recommend that you use standard AWS tags.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Role\",\n    \"Settings\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-create-job-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

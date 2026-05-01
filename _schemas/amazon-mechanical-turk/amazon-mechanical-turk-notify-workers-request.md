@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"$ref\": \"#/components/schemas/CustomerIdList\"\n        },\n        {\n          \"description\": \"A list of Worker IDs you wish to notify. You can notify upto 100 Workers at a time.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Subject\",\n    \"MessageText\",\n    \"WorkerIds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-notify-workers-request-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"The account ID of the collaboration creator.\"\n    },\n    \"collaborationName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the collaboration.\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"ACTIVE\",\n        \"COLLABORATION_DELETED\",\n        \"REMOVED\"\n      ],\n      \"description\": \"The status of the membership.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/json-schema/clean-rooms-membership-schema.json
 tags:
-- AWS
 - Clean Rooms
 - Data Collaboration
 - Privacy

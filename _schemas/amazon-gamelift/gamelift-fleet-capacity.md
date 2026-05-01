@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ in use, including CPU, memory, storage, and networking capacity. See <a href=\\\"http://aws.amazon.com/ec2/instance-types/\\\">Amazon Elastic Compute Cloud Instance Types</a> for detailed descriptions.\"\n        }\n      ]\n    },\n    \"InstanceCounts\": {\n      \"$ref\": \"#/components/schemas/EC2InstanceCounts\"\n    },\n    \"Location\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LocationStringModel\"\n        },\n        {\n          \"description\": \"The fleet location for the instance count information, expressed as an Amazon Web Services Region code, such as <code>us-west-2</code>. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-fleet-capacity-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

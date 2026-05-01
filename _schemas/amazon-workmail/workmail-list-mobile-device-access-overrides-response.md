@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Overrides\"
   ,\n  \"description\": \"ListMobileDeviceAccessOverridesResponse schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-list-mobile-device-access-overrides-response-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

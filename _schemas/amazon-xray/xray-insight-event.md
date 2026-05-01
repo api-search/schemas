@@ -30,7 +30,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Summary\": 
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-insight-event-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

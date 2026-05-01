@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__timestampIso8601\"\n        },\n        {\n          \"description\": \"The first date and time, in UTC and extended ISO 8601 format, when any operation was invoked and produced the finding.\"\n        }\n      ]\n    },\n    \"lastSeen\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__timestampIso8601\"\n        },\n        {\n          \"description\": \"The most recent date and time, in UTC and extended ISO 8601 format, when the specified operation (api) was invoked and produced the finding.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-api-call-details-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

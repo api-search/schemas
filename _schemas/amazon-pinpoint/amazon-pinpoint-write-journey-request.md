@@ -73,7 +73,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/ClosedDays\"\n        },\n        {\n          \"description\": \"The time when journey will stop sending messages. QuietTime should be configured first and SendingSchedule should be set to true.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-write-journey-request-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

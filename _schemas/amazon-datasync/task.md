@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"string\",\n      \"description\": \"The ARN of the destination location. This ARN uniquely identifies the location.\"\n    },\n    \"CurrentTaskExecutionArn\": {\n      \"type\": \"string\"\n    },\n    \"CloudWatchLogGroupArn\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/json-schema/task-schema.json
 tags:
-- AWS
 - Data Transfer
 - Migration
 - Storage

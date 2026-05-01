@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The description of the app.\"\n        }\n      ]\n    },\n    \"Domain\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SimSpaceWeaverResourceName\"\n        },\n        {\n          \"description\": \"The name of the domain of the app.\"\n        }\n      ]\n    },\n    \"LaunchOverrides\": {\n      \"$ref\": \"#/components/schemas/LaunchOverrides\"\n    },\n    \"Name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SimSpaceWeaverResourceName\"\n        },\n        {\n          \"description\": \"The name of the app.\"\n        }\n      ]\n    },\n    \"Simulation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SimSpaceWeaverResourceName\"\n        },\n        {\n          \"description\": \"The name of the simulation of the app.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Domain\",\n    \"Name\",\n    \"Simulation\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/json-schema/amazon-simspace-weaver-start-app-input-schema.json
 tags:
-- AWS
 - Defense
 - Digital Twin
 - Simulation

@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-eac3-stereo-downmix-schema.json\",\n  \"title\": \"Eac3StereoDownmix\",\n  \"description\": \"Choose how the service does stereo downmixing. This setting only applies if you keep the default value of 3/2 - L, R, C, Ls, Rs (CODING_MODE_3_2) for the setting Coding mode (Eac3CodingMode). If you choose a different value for Coding mode, the service ignores Stereo downmix (Eac3StereoDownmix).\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"NOT_INDICATED\",\n    \"LO_RO\",\n    \"LT_RT\",\n    \"DPL2\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-eac3-stereo-downmix-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

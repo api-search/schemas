@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       \"enum\": [\n            \"CREATED\",\n            \"IN_PROGRESS\",\n            \"IN_PROGRESS_IN_ERROR\",\n            \"SUCCEEDED\",\n            \"FAILED\"\n          ]\n        },\n        \"ProvisionedProductId\": {\n          \"type\": \"string\",\n          \"description\": \"The identifier of the provisioned product.\"\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-schema/amazon-service-catalog-provisioned-product-schema.json
 tags:
-- AWS
 - Cloud Governance
 - Compliance
 - IT Governance

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ fleet resource and uniquely identifies it. ARNs are unique across all Regions. Format is <code>arn:aws:gamelift:&lt;region&gt;::fleet/fleet-a1234567-b8c9-0d1e-2fa3-b45c6d7e8912</code>.\"\n        }\n      ]\n    },\n    \"LocationStates\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LocationStateList\"\n        },\n        {\n          \"description\": \"The remote locations that are being deleted, with each location status set to <code>DELETING</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-delete-fleet-locations-output-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

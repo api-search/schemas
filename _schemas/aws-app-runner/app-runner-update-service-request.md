@@ -40,7 +40,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ServiceArn\
   ,\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-update-service-request-schema.json\",\n  \"title\": \"UpdateServiceRequest\",\n  \"description\": \"UpdateServiceRequest schema from AWS App Runner\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-update-service-request-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

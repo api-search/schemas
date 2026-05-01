@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  {\n          \"$ref\": \"#/components/schemas/__integerMin8Max12\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"slices\"\n          },\n          \"description\": \"Number of slices per picture. Must be less than or equal to the number of macroblock rows for progressive pictures, and less than or equal to half the number of macroblock rows for interlaced pictures.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-xavc4k-profile-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

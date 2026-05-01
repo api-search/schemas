@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   Specifies the date range for the records to import from the connector in the first flow run.\"\n    },\n    \"flowErrorDeactivationThreshold\": {\n      \"type\": \"integer\",\n      \"example\": 3,\n      \"description\": \"Defines how many times a scheduled flow fails consecutively before Amazon AppFlow deactivates it.\"\n    }\n  },\n  \"required\": [\n    \"scheduleExpression\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-scheduled-trigger-properties-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The Amazon Web Services Region for the location.\"\n        }\n      ]\n    },\n    \"availablePortSpeeds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AvailablePortSpeeds\"\n        },\n        {\n          \"description\": \"The available port speeds for the location.\"\n        }\n      ]\n    },\n    \"availableProviders\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ProviderList\"\n        },\n        {\n          \"description\": \"The name of the service provider for the location.\"\n        }\n      ]\n    },\n    \"availableMacSecPortSpeeds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AvailableMacSecPortSpeeds\"\n        },\n        {\n          \"description\": \"The available MAC Security (MACsec) port speeds for the location.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/json-schema/amazon-direct-connect-location-schema.json
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

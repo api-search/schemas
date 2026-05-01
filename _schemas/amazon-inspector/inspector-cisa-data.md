@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"$ref\": \"#/components/schemas/CisaDateDue\"\n        },\n        {\n          \"description\": \"The date and time CISA expects a fix to have been provided vulnerability.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-cisa-data-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

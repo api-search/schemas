@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   number\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"DataSnapshotTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/get-current-metric-data-response-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

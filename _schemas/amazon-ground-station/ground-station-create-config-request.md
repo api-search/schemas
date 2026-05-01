@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"configData\",\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-create-config-request-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ IPv6 address that you want to use for DNS queries. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"IpId\",\n    \"Ipv6\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-ip-address-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

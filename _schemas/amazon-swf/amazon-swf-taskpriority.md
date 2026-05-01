@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"$schema\": \"http://json-schema.or
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-taskpriority-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: TaskPriority

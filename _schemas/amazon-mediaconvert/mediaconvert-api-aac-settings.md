@@ -45,7 +45,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"VBR Quality Level - Only used if rate_control_mode is VBR.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-aac-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

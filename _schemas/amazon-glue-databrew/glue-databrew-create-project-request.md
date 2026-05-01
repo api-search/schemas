@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RecipeName\"\n        },\n        {\n          \"description\": \"The name of an existing recipe to associate with the project.\"\n        }\n      ]\n    },\n    \"Sample\": {\n      \"$ref\": \"#/components/schemas/Sample\"\n    },\n    \"RoleArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Arn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the Identity and Access Management (IAM) role to be assumed for this request.\"\n        }\n      ]\n    },\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"Metadata tags to apply to this project.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DatasetName\",\n    \"Name\",\n    \"RecipeName\",\n    \"RoleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-create-project-request-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

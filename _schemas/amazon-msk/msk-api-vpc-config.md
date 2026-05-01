@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          <p>The IDs of the security groups associated with the cluster.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SubnetIds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-vpc-config-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

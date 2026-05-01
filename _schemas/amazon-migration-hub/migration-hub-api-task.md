@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"ProgressPercent\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ProgressPercent\"\n        },\n        {\n          \"description\": \"Indication of the percentage completion of the task.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/json-schema/migration-hub-api-task-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

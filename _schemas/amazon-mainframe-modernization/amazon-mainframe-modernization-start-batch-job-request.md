@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Coding variables in JCL</a>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"batchJobIdentifier\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-start-batch-job-request-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

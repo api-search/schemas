@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"DeviceType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SetDimension\"\n        },\n        {\n          \"description\": \"The device type criteria for the segment.\"\n        }\n      ]\n    },\n    \"Make\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SetDimension\"\n        },\n        {\n          \"description\": \"The device make criteria for the segment.\"\n        }\n      ]\n    },\n    \"Model\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SetDimension\"\n        },\n        {\n          \"description\": \"The device model criteria for the segment.\"\n        }\n      ]\n    },\n    \"Platform\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SetDimension\"\n        },\n        {\n          \"description\": \"The device platform criteria for the segment.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-segment-demographics-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

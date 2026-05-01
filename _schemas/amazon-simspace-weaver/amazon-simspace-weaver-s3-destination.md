@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   $ref\": \"#/components/schemas/ObjectKeyPrefix\"\n        },\n        {\n          \"description\": \"A string prefix for an Amazon S3 object key. It's usually a folder name. For more information about folders in Amazon S3, see <a href=\\\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-folders.html\\\">Organizing objects in the Amazon S3 console using folders</a> in the <i>Amazon Simple Storage Service User Guide</i>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/json-schema/amazon-simspace-weaver-s3-destination-schema.json
 tags:
-- AWS
 - Defense
 - Digital Twin
 - Simulation

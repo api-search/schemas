@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Service rule action sends device location updates from an MQTT message to an Amazon Location tracker resource.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Describes the actions associated with a rule.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-action-list-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

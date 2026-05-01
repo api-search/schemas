@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-share-status-schema.json\",\n  \"title\": \"ShareStatus\",\n  \"description\": \"ShareStatus schema from openapi\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"NOT_SHARED\",\n    \"SHARED_WITH_ME\",\n    \"SHARED_BY_ME\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-share-status-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

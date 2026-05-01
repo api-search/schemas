@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-account-connection-status-schema.json\",\n  \"title\": \"EnvironmentAccountConnectionStatus\",\n  \"description\": \"EnvironmentAccountConnectionStatus schema from Amazon Proton API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"PENDING\",\n    \"CONNECTED\",\n    \"REJECTED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-account-connection-status-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

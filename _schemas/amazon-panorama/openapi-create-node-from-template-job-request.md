@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of node.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"NodeName\",\n    \"OutputPackageName\",\n    \"OutputPackageVersion\",\n    \"TemplateParameters\",\n    \"TemplateType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-create-node-from-template-job-request-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

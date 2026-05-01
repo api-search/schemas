@@ -38,7 +38,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Describes a NAT g
   ,\n  \"title\": \"NatGateway\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/json-schema/amazon-vpc-nat-gateway-schema.json
 tags:
-- AWS
 - Networking
 - Private Cloud
 - Security

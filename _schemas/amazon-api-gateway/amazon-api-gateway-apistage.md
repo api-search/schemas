@@ -21,7 +21,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"ApiStage\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"apiId\": {\n      \"type\": \"string\"\n    },\n    \"stage\": {\n      \"type\": \"string\"\n    },\n    \"throttle\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-apistage-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

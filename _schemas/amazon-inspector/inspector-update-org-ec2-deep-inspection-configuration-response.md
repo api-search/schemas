@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-update-org-ec2-deep-inspection-configuration-response-schema.json\",\n  \"title\": \"UpdateOrgEc2DeepInspectionConfigurationResponse\",\n  \"description\": \"UpdateOrgEc2DeepInspectionConfigurationResponse schema\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-update-org-ec2-deep-inspection-configuration-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

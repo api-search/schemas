@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \\u2014 If the Amazon ECS service is configured to use target scaling on memory, Compute Optimizer doesn't generate memory recommendations.</p> </li> </ul> <p>For more information about step scaling and target scaling, see <a href=\\\"https://docs.aws.amazon.com/autoscaling/application/userguide/application-auto-scaling-step-scaling-policies.html\\\"> Step scaling policies for Application Auto Scaling</a> and <a href=\\\"https://docs.aws.amazon.com/autoscaling/application/userguide/application-auto-scaling-target-tracking.html\\\"> Target tracking scaling policies for Application Auto Scaling</a> in the <i>Application Auto Scaling User Guide</i>.</p>\"\n        }\n      ]\n    },\n    \"taskDefinitionArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TaskDefinitionArn\"\n        },\n        {\n          \"description\": \" The task definition ARN used by the tasks in the Amazon ECS service. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-service-configuration-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

@@ -27,7 +27,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Model\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The identifier of the model.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the model.\"\n    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"The description of the model.\"\n    },\n    \"schema\": {\n      \"type\": \"string\",\n      \"description\": \"The schema for the model. For application/json models, this should be JSON schema draft 4 model.\"\n    },\n    \"contentType\": {\n      \"type\": \"string\",\n      \"description\": \"The content type for the model.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-model-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

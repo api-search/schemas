@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ most generic error to the most specific one. The error codes describe the reason for failure whenever the <code>coreDeviceExecutionStatus</code> is in a failed state. The response will be an empty list if there is no error.\"\n        }\n      ]\n    },\n    \"errorTypes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EffectiveDeploymentErrorTypeList\"\n        },\n        {\n          \"description\": \"Contains tags which describe the error. You can use the error types to classify errors to assist with remediating the failure. The response will be an empty list if there is no error.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-effective-deployment-status-details-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

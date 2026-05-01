@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Impersonati
   \     ]\n    },\n    \"DateModified\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date when the impersonation role was last modified.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"An impersonation role for the given WorkMail organization.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ImpersonationRole\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-impersonation-role-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-impersonation-role-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

@@ -31,7 +31,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Id\": {\n  
   allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date indicating when the group was enabled for WorkMail use.\"\n        }\n      ]\n    },\n    \"DisabledDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date indicating when the group was disabled from WorkMail use.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The representation of an WorkMail group.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Group\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-group-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-group-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

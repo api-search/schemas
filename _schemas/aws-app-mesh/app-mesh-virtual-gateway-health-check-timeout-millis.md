@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"integer\",\n  \"minimum\": 2000,\n  \"maximum\": 60000,\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-health-check-timeout-millis-schema.json\",\n  \"title\": \"VirtualGatewayHealthCheckTimeoutMillis\",\n  \"description\": \"VirtualGatewayHealthCheckTimeoutMillis schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-health-check-timeout-millis-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

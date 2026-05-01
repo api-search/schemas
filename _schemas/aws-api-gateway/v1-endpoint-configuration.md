@@ -16,7 +16,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"types\": {\
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-schema/v1-endpoint-configuration-schema.json
 tags:
 - API Gateway
-- AWS
 - Cloud
 - REST
 - WebSocket

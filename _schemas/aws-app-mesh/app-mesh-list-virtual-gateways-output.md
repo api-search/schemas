@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"nextToken\"
   ,\n  \"title\": \"ListVirtualGatewaysOutput\",\n  \"description\": \"ListVirtualGatewaysOutput schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-list-virtual-gateways-output-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

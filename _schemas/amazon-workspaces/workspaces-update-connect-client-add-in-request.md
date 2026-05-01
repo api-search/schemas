@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"AddInId\",\n 
   \     },\n        {\n          \"description\": \"The endpoint URL of the Amazon Connect client add-in.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-update-connect-client-add-in-request-schema.json\",\n  \"description\": \"UpdateConnectClientAddInRequest schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-update-connect-client-add-in-request-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

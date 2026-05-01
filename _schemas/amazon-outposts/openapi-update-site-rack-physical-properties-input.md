@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/MaximumSupportedWeightLbs\"\n        },\n        {\n          \"description\": \"The maximum rack weight that this site can support. <code>NO_LIMIT</code> is over 2000lbs. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-update-site-rack-physical-properties-input-schema.json
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

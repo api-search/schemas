@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"$ref\": \"#/components/schemas/VpcId\"\n        },\n        {\n          \"description\": \"The ID of the VPC.\"\n        }\n      ]\n    },\n    \"roleArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AwsArn\"\n        },\n        {\n          \"description\": \"The ARN of a role that has permission to create and attach to elastic network interfaces (ENIs).\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"subnetIds\",\n    \"vpcId\",\n    \"roleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-vpc-destination-configuration-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

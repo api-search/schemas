@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"neptuneIamRoleArn\": {\n      \"type\": \"string\"\n    },\n    \"modelName\": {\n      \"type\": \"string\",\n      \"description\": \"The model type.\",\n      \"enum\": [\n        \"rgcn\",\n        \"kge\",\n        \"transe\",\n        \"distmult\",\n        \"rotate\"\n      ]\n    },\n    \"instanceType\": {\n      \"type\": \"string\",\n      \"description\": \"ML instance type for the inference endpoint.\",\n      \"default\": \"ml.m5.xlarge\"\n    },\n    \"instanceCount\": {\n      \"type\": \"integer\",\n      \"description\": \"Minimum number of EC2 instances to deploy.\",\n      \"default\": 1\n    },\n    \"volumeEncryptionKMSKey\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/ml-create-inference-endpoint-request-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

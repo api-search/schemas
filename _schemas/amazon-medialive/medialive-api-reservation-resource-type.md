@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-reservation-resource-type-schema.json\",\n  \"title\": \"ReservationResourceType\",\n  \"description\": \"Resource type, 'INPUT', 'OUTPUT', 'MULTIPLEX', or 'CHANNEL'\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"INPUT\",\n    \"OUTPUT\",\n    \"MULTIPLEX\",\n    \"CHANNEL\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-reservation-resource-type-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

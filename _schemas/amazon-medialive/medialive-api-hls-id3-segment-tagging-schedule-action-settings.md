@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"id3\"\n          },\n          \"description\": \"Base64 string formatted according to the ID3 specification: http://id3.org/id3v2.4.0-structure\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-hls-id3-segment-tagging-schedule-action-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

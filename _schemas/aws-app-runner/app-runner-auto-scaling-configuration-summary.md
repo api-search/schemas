@@ -34,7 +34,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"AutoScaling
   \ App Runner\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-auto-scaling-configuration-summary-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

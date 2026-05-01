@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ status will be <code>TimedOut</code>. </p>\"\n        }\n      ]\n    },\n    \"maxConcurrency\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MaxConcurrency\"\n        },\n        {\n          \"description\": \"<p>The number of active simulation jobs create as part of the batch that can be in an active state at the same time. </p> <p>Active states include: <code>Pending</code>,<code>Preparing</code>, <code>Running</code>, <code>Restarting</code>, <code>RunningFailed</code> and <code>Terminating</code>. All other states are terminal states. </p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-batch-policy-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: BatchPolicy

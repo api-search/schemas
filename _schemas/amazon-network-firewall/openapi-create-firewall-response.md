@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ can retrieve this for a firewall by calling <a>DescribeFirewall</a> and providing the firewall name and ARN.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-create-firewall-response-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

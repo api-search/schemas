@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"$ref\": \"#/components/schemas/IamUser\"\n        },\n        {\n          \"description\": \"If the action was performed using the credentials for an Identity and Access Management (IAM) user, the name and other details about the user.\"\n        }\n      ]\n    },\n    \"root\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UserIdentityRoot\"\n        },\n        {\n          \"description\": \"If the action was performed using the credentials for your Amazon Web Services account, the details of your account.\"\n        }\n      ]\n    },\n    \"type\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UserIdentityType\"\n        },\n        {\n          \"description\": \"The type of entity that performed the action.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-user-identity-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

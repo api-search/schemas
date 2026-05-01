@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   \    },\n    \"requestParameters\": {\n      \"type\": \"object\",\n      \"description\": \"Request parameters that can be accepted by the method. Keys identify the parameter location and name.\"\n    },\n    \"requestModels\": {\n      \"type\": \"object\",\n      \"description\": \"Specifies the Model resources used for the request's content type.\"\n    },\n    \"methodResponses\": {\n      \"type\": \"object\",\n      \"description\": \"Method responses keyed by status code.\"\n    },\n    \"methodIntegration\": {\n      \"$ref\": \"#/definitions/Integration\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-method-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

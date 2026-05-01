@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-desired-capacity-schema.json\",\n  \"title\": \"DesiredCapacity\",\n  \"description\": \"DesiredCapacity schema\",\n  \"type\": \"integer\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-desired-capacity-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

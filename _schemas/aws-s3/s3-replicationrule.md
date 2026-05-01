@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Backward Compatibility</a>.</p> </note>\"\n    }\n  },\n  \"required\": [\n    \"Status\",\n    \"Destination\"\n  ],\n  \"description\": \"Specifies which Amazon S3 objects to replicate and where to store the replicas.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-replicationrule-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

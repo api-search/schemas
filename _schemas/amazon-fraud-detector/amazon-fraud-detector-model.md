@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"string\"\n    },\n    \"lastUpdatedTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"createdTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"required\": [\n    \"modelId\",\n    \"modelType\",\n    \"eventTypeName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/json-schema/amazon-fraud-detector-model-schema.json
 tags:
-- AWS
 - Financial Services
 - Fraud Detection
 - Machine Learning

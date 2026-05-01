@@ -17,7 +17,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ TLS inspection configuration from more than one firewall policy, and you can use a firewall policy in more than one firewall. For more information about using TLS inspection configurations, see <a href=\\\"https://docs.aws.amazon.com/network-firewall/latest/developerguide/tls-inspection.html\\\">Decrypting SSL/TLS traffic with TLS inspection configurations</a> in the <i>Network Firewall Developer Guide</i>.</p>\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ServerCertificateConfigurations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ServerCertificateConfigurations\"\n        },\n        {\n          \"description\": \"Lists the server certificate configurations that are associated with the TLS configuration.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-tls-inspection-configuration-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ on change types available for single-AMI products, see <a href=\\\"https://docs.aws.amazon.com/marketplace-catalog/latest/api-reference/ami-products.html#working-with-single-AMI-products\\\">Working with single-AMI products</a>. Also, for more information on change types available for container-based products, see <a href=\\\"https://docs.aws.amazon.com/marketplace-catalog/latest/api-reference/container-products.html#working-with-container-products\\\">Working with container products</a>.\"\n        }\n      ]\n    },\n    \"ChangeName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ChangeName\"\n        },\n        {\n          \"description\": \"Optional name for the change.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ChangeType\",\n    \"Entity\",\n    \"Details\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-change-schema.json
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

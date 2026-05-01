@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"List of errors that the operation can return.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ResultList\",\n    \"ErrorList\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-batch-detect-targeted-sentiment-response-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

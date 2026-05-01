@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ToleratedFailurePercentage\"\n        },\n        {\n          \"description\": \"The maximum percentage of failed items before the Map Run fails.\"\n        }\n      ]\n    },\n    \"toleratedFailureCount\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ToleratedFailureCount\"\n        },\n        {\n          \"description\": \"The maximum number of failed items before the Map Run fails.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"mapRunArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-update-map-run-input-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

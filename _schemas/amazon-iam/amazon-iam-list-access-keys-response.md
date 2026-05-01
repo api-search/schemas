@@ -18,7 +18,6 @@ tags:
 - Access Management
 - Authentication
 - Authorization
-- AWS
 - Identity
 - Security
 title: ListAccessKeysResponse

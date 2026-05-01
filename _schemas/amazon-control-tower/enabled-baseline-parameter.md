@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-schema/enabled-baseline-parameter-schema.json\",\n  \"title\": \"EnabledBaselineParameter\",\n  \"description\": \"A key-value pair for a baseline parameter.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"key\": {\n      \"type\": \"string\",\n      \"description\": \"The parameter key.\",\n      \"example\": \"IdentityCenterEnabled\"\n    },\n    \"value\": {\n      \"description\": \"The parameter value.\"\n    }\n  },\n  \"required\": [\n    \"key\",\n    \"value\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-schema/enabled-baseline-parameter-schema.json
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">ListResolverDnssecConfigs</a> request. Get the value of <code>NextToken</code> that Amazon Route 53 returned in the previous response and include it in <code>NextToken</code> in the next request.</p>\"\n        }\n      ]\n    },\n    \"ResolverDnssecConfigs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResolverDnssecConfigList\"\n        },\n        {\n          \"description\": \"An array that contains one <a href=\\\"https://docs.aws.amazon.com/Route53/latest/APIReference/API_ResolverDnssecConfig.html\\\">ResolverDnssecConfig</a> element for each configuration for DNSSEC validation that is associated with the current Amazon Web Services account.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-response-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

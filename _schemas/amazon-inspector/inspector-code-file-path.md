@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   $ref\": \"#/components/schemas/NonEmptyString\"\n        },\n        {\n          \"description\": \"The file path to the code that a vulnerability was found in.\"\n        }\n      ]\n    },\n    \"startLine\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The line number of the first line of code that a vulnerability was found in.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"endLine\",\n    \"fileName\",\n    \"filePath\",\n    \"startLine\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-code-file-path-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

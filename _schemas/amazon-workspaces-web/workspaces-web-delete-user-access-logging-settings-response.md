@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"properties\": {},\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DeleteUserAccessLoggingSettingsResponse\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-delete-user-access-logging-settings-response-schema.json\",\n  \"description\": \"DeleteUserAccessLoggingSettingsResponse schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-delete-user-access-logging-settings-response-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

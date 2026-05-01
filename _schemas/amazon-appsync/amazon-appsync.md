@@ -68,6 +68,5 @@ tags:
 - GraphQL
 - API Management
 - Serverless
-- AWS
 title: Amazon AppSync GraphQL API
 ---

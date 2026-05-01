@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"m5a.8xlarge\",\n    \"m5a.12xlarge\",\n    \"m5a.16xlarge\",\n    \"m5a.24xlarge\",\n    \"c5d.large\",\n    \"c5d.xlarge\",\n    \"c5d.2xlarge\",\n    \"c5d.4xlarge\",\n    \"c5d.9xlarge\",\n    \"c5d.12xlarge\",\n    \"c5d.18xlarge\",\n    \"c5d.24xlarge\",\n    \"c6a.large\",\n    \"c6a.xlarge\",\n    \"c6a.2xlarge\",\n    \"c6a.4xlarge\",\n    \"c6a.8xlarge\",\n    \"c6a.12xlarge\",\n    \"c6a.16xlarge\",\n    \"c6a.24xlarge\",\n    \"c6i.large\",\n    \"c6i.xlarge\",\n    \"c6i.2xlarge\",\n    \"c6i.4xlarge\",\n    \"c6i.8xlarge\",\n    \"c6i.12xlarge\",\n    \"c6i.16xlarge\",\n    \"c6i.24xlarge\",\n    \"r5d.large\",\n    \"r5d.xlarge\",\n    \"r5d.2xlarge\",\n    \"r5d.4xlarge\",\n    \"r5d.8xlarge\",\n    \"r5d.12xlarge\",\n    \"r5d.16xlarge\",\n    \"r5d.24xlarge\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-ec2-instance-type-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

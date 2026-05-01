@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"KafkaVersions\",\n    \"Arn\",\n    \"Name\",\n    \"State\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-configuration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

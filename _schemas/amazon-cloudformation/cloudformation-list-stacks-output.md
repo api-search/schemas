@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n            \"type\": \"string\",\n            \"format\": \"date-time\"\n          },\n          \"TemplateDescription\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    },\n    \"NextToken\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/json-schema/cloudformation-list-stacks-output-schema.json
 tags:
-- AWS
 - CloudFormation
 - Infrastructure as Code
 - DevOps

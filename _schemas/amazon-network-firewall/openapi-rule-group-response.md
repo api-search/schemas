@@ -59,7 +59,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for version expiration. For more information, see the <a href=\\\"https://docs.aws.amazon.com/sns/latest/dg/welcome.html\\\">Amazon Simple Notification Service Developer Guide.</a>.\"\n        }\n      ]\n    },\n    \"LastModifiedTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LastUpdateTime\"\n        },\n        {\n          \"description\": \"The last time that the rule group was changed.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"RuleGroupArn\",\n    \"RuleGroupName\",\n    \"RuleGroupId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-rule-group-response-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"MaxBitrate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"maxBitrate\"\n          },\n          \"description\": \"The maximum bitrate in bits per second. Set a value here to throttle the bitrate of the source video.\"\n        }\n      ]\n    },\n    \"LatencyMs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"latencyMs\"\n          },\n          \"description\": \"The Link device's buffer size (latency) in milliseconds (ms).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-device-configurable-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"Description\": {\n      \"type\": \"string\",\n      \"description\": \"The description of the contact flow.\"\n    },\n    \"Content\": {\n      \"type\": \"string\",\n      \"description\": \"The content of the contact flow.\"\n    },\n    \"Tags\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"Content\",\n    \"Name\",\n    \"Type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/create-contact-flow-request-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

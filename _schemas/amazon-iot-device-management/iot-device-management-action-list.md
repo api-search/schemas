@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/LocationAction\"\n          },\n          {\n            \"description\": \"The Amazon Location Service rule action sends device location updates from an MQTT message to an Amazon Location tracker resource.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Describes the actions associated with a rule.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-action-list-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

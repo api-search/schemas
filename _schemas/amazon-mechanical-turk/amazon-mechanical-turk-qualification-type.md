@@ -56,7 +56,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ granted immediately, without prompting the Worker with a Qualification test. Valid values are True | False.\"\n        }\n      ]\n    },\n    \"AutoGrantedValue\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \" The Qualification integer value to use for automatically granted Qualifications, if AutoGranted is true. This is 1 by default. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-qualification-type-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

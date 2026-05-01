@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"VirtualGatewayListenerTlsFileCertificate\",\n  \"description\": \"An object that represents a local file certificate. The certificate must meet specific requirements and you must have proxy authorization enabled. For more information, see <a href=\\\"https://docs.aws.amazon.com/app-mesh/latest/userguide/tls.html#virtual-node-tls-prerequisites\\\">Transport Layer Security (TLS)</a>.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"certificateChain\": {},\n    \"privateKey\": {}\n  },\n  \"required\": [\n    \"certificateChain\",\n    \"privateKey\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/json-schema/amazon-app-mesh-virtualgatewaylistenertlsfilecertificate-schema.json
 tags:
-- AWS
 - Microservices
 - Networking
 - Service Mesh

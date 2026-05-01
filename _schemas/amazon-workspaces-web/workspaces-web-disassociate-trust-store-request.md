@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"title\": \"DisassociateTrustStoreRequest\",\n  \"properties\": {},\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-disassociate-trust-store-request-schema.json\",\n  \"description\": \"DisassociateTrustStoreRequest schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-disassociate-trust-store-request-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

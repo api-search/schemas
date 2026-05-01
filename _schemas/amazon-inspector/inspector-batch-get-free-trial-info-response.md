@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    }\n  },\n  \"required\": [\n    \"accounts\",\n    \"failedAccounts\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-batch-get-free-trial-info-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

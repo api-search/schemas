@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/RunGroupListItemMaxGpusInteger\"\n        },\n        {\n          \"description\": \" The maximum GPUs that can be used by a run group. \"\n        }\n      ]\n    }\n  },\n  \"description\": \"A run group.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-run-group-list-item-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

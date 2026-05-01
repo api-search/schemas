@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The payment option.\"\n        }\n      ]\n    },\n    \"PaymentTerm\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PaymentTerm\"\n        },\n        {\n          \"description\": \"The payment terms.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"OutpostIdentifier\",\n    \"LineItems\",\n    \"PaymentOption\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-create-order-input-schema.json
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

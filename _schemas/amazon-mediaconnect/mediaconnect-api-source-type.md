@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-source-type-schema.json\",\n  \"title\": \"SourceType\",\n  \"description\": \"SourceType schema from AWS Elemental MediaConnect API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"OWNED\",\n    \"ENTITLED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-source-type-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

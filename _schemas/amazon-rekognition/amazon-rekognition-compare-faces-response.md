@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   Face\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"BoundingBox\": {\n                \"$ref\": \"#/components/schemas/BoundingBox\"\n              },\n              \"Confidence\": {\n                \"type\": \"number\",\n                \"format\": \"float\"\n              }\n            }\n          }\n        }\n      }\n    },\n    \"UnmatchedFaces\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-compare-faces-response-schema.json
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

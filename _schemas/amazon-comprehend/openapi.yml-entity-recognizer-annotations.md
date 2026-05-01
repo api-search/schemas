@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for an entity recognizer are located. The URI must be in the same Region as the API endpoint that you are calling.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"S3Uri\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-entity-recognizer-annotations-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

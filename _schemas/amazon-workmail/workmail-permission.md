@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"GranteeId\",\
   \ mentioned on these emails). SEND_ON_BEHALF allows the grantee to send email on behalf of the owner of the mailbox (the grantee is not mentioned as the physical sender of these emails). FULL_ACCESS allows the grantee full access to the mailbox, irrespective of other folder-level permissions set on the mailbox.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Permission granted to a user, group, or resource to access a certain aspect of another user, group, or resource mailbox.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Permission\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-permission-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-permission-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

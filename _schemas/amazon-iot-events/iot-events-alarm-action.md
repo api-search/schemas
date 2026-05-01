@@ -59,7 +59,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ property in AWS IoT SiteWise.</p> <p>For more information, see <a href=\\\"https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html\\\">Expressions</a> in the <i>AWS IoT Events Developer Guide</i>.</p>\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-alarm-action-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

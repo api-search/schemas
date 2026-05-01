@@ -24,7 +24,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"GrpcRouteMatch\",\n  \"description\": \"An object that represents the criteria for determining a request match.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"metadata\": {},\n    \"methodName\": {},\n    \"port\": {},\n    \"serviceName\": {}\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/json-schema/amazon-app-mesh-grpcroutematch-schema.json
 tags:
-- AWS
 - Microservices
 - Networking
 - Service Mesh

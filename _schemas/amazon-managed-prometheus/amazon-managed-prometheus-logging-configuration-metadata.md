@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"$ref\": \"#/components/schemas/LogGroupArn\"\n        },\n        {\n          \"description\": \"The ARN of the CW log group to which the vended log data will be published.\"\n        }\n      ]\n    },\n    \"createdAt\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The time when the logging configuration was created.\"\n        }\n      ]\n    },\n    \"modifiedAt\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The time when the logging configuration was modified.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"status\",\n    \"workspace\",\n    \"logGroupArn\",\n    \"createdAt\",\n    \"modifiedAt\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/json-schema/amazon-managed-prometheus-logging-configuration-metadata-schema.json
 tags:
-- AWS
 - Containers
 - Monitoring
 - Observability

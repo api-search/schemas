@@ -150,7 +150,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"description\": \"Specify the packet identifier (PID) of the elementary video stream in the transport stream.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-m2ts-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

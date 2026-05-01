@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/opencypher-open-cypher-query-request-schema.json\",\n  \"title\": \"OpenCypherQueryRequest\",\n  \"description\": \"OpenCypherQueryRequest schema from Neptune\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"query\": {\n      \"type\": \"string\",\n      \"description\": \"The openCypher query string.\"\n    }\n  },\n  \"required\": [\n    \"query\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/opencypher-open-cypher-query-request-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

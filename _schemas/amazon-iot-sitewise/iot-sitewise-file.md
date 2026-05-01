@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The version ID to identify a specific version of the Amazon S3 object that contains your data.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"bucket\",\n    \"key\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-file-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

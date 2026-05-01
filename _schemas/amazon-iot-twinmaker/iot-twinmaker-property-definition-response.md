@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"A mapping that specifies configuration information about the property.\"\n        }\n      ]\n    },\n    \"displayName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PropertyDisplayName\"\n        },\n        {\n          \"description\": \"A friendly name for the property.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"dataType\",\n    \"isTimeSeries\",\n    \"isRequiredInEntity\",\n    \"isExternalId\",\n    \"isStoredExternally\",\n    \"isImported\",\n    \"isFinal\",\n    \"isInherited\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-property-definition-response-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

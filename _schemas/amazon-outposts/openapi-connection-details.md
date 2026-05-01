@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"description\": \" The endpoint for the server. \"\n        }\n      ]\n    },\n    \"ClientTunnelAddress\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CIDR\"\n        },\n        {\n          \"description\": \" The client tunnel address. \"\n        }\n      ]\n    },\n    \"ServerTunnelAddress\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CIDR\"\n        },\n        {\n          \"description\": \" The server tunnel address. \"\n        }\n      ]\n    },\n    \"AllowedIps\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CIDRList\"\n        },\n        {\n          \"description\": \" The allowed IP addresses. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-connection-details-schema.json
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

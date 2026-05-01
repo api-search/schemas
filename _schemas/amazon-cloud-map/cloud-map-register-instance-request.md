@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"Attributes\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/json-schema/cloud-map-register-instance-request-schema.json
 tags:
-- AWS
 - Cloud Map
 - Service Discovery
 - Microservices

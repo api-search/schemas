@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ tag of the target HLS audio rendition.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"GroupId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-audio-hls-rendition-selection-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

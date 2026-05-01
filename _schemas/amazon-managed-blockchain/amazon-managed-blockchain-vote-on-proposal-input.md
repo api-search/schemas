@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/json-schema/amazon-managed-blockchain-vote-on-proposal-input-schema.json\",\n  \"title\": \"VoteOnProposalInput\",\n  \"description\": \"VoteOnProposalInput schema from Amazon Managed Blockchain API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"VoterMemberId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceIdString\"\n        },\n        {\n          \"description\": \"The unique identifier of the member casting the vote. \"\n        }\n      ]\n    },\n    \"Vote\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VoteValue\"\n        },\n        {\n          \"description\": \" The value of the vote. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"VoterMemberId\",\n    \"Vote\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/json-schema/amazon-managed-blockchain-vote-on-proposal-input-schema.json
 tags:
-- AWS
 - Blockchain
 - Distributed Ledger
 - Hyperledger Fabric

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ on a number of files that should be selected.\"\n        }\n      ]\n    },\n    \"Parameters\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PathParametersMap\"\n        },\n        {\n          \"description\": \"A structure that maps names of parameters used in the Amazon S3 path of a dataset to their definitions.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-path-options-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

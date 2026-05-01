@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-security-group-state-schema.json\",\n  \"title\": \"InputSecurityGroupState\",\n  \"description\": \"Placeholder documentation for InputSecurityGroupState\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"IDLE\",\n    \"IN_USE\",\n    \"UPDATING\",\n    \"DELETED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-security-group-state-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -35,7 +35,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"healthyThre
   \ check, in milliseconds.\"\n        }\n      ]\n    },\n    \"unhealthyThreshold\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/HealthCheckThreshold\"\n        },\n        {\n          \"description\": \"The number of consecutive failed health checks that must occur before declaring a virtual node unhealthy. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"healthyThreshold\",\n    \"intervalMillis\",\n    \"protocol\",\n    \"timeoutMillis\",\n    \"unhealthyThreshold\"\n  ],\n  \"description\": \"An object that represents the health check policy for a virtual node's listener.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-health-check-policy-schema.json\",\n  \"title\": \"HealthCheckPolicy\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-health-check-policy-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

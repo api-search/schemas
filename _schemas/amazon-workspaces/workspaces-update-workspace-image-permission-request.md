@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"ImageId\",\n 
   \ <important> <p>Before sharing the image, confirm that you are sharing to the correct Amazon Web Services account ID.</p> </important>\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-update-workspace-image-permission-request-schema.json\",\n  \"description\": \"UpdateWorkspaceImagePermissionRequest schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-update-workspace-image-permission-request-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

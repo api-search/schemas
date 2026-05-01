@@ -58,7 +58,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"type\": \"string\",\n              \"enum\": [\n                \"DEFAULT\",\n                \"VPC\"\n              ]\n            },\n            \"VpcConnectorArn\": {\n              \"type\": \"string\"\n            }\n          }\n        },\n        \"IngressConfiguration\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"IsPubliclyAccessible\": {\n              \"type\": \"boolean\"\n            }\n          }\n        }\n      }\n    },\n    \"ServiceObservabilityConfiguration\": {\n      \"type\": \"object\",\n      \"description\": \"Describes the observability configuration of the service.\",\n      \"properties\": {\n        \"ObservabilityEnabled\": {\n          \"type\": \"boolean\"\n        },\n        \"ObservabilityConfigurationArn\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/json-schema/amazon-app-runner-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

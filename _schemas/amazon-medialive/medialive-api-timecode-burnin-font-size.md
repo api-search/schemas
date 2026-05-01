@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-timecode-burnin-font-size-schema.json\",\n  \"title\": \"TimecodeBurninFontSize\",\n  \"description\": \"Timecode Burnin Font Size\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"EXTRA_SMALL_10\",\n    \"LARGE_48\",\n    \"MEDIUM_32\",\n    \"SMALL_16\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-timecode-burnin-font-size-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"Part of the key:value pair that defines a tag. You can use a tag key to describe a category of information, such as \\\"customer.\\\" Tag keys are case-sensitive.\"\n        }\n      ]\n    },\n    \"Value\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagValue\"\n        },\n        {\n          \"description\": \"Part of the key:value pair that defines a tag. You can use a tag value to describe a specific value within a category, such as \\\"companyA\\\" or \\\"companyB.\\\" Tag values are case-sensitive.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Key\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-tag-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

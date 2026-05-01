@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   name\": \"breakoutCode\"\n          },\n          \"description\": \"Nielsen has discontinued the use of breakout code functionality. If you must include this property, set the value to zero.\"\n        }\n      ]\n    },\n    \"DistributorId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"distributorId\"\n          },\n          \"description\": \"Use Distributor ID (DistributorID) to specify the distributor ID that is assigned to your organization by Neilsen.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-nielsen-configuration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

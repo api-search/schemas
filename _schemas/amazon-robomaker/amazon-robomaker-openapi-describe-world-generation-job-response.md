@@ -49,7 +49,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"A map that contains tag keys and tag values that are attached to the world generation job.\"\n        }\n      ]\n    },\n    \"worldTags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"A map that contains tag keys and tag values that are attached to the generated worlds.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-world-generation-job-response-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: DescribeWorldGenerationJobResponse

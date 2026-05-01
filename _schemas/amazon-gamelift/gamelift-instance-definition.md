@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   WeightedCapacity\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WeightedCapacity\"\n        },\n        {\n          \"description\": \"Instance weighting that indicates how much this instance type contributes to the total capacity of a game server group. Instance weights are used by Amazon GameLift FleetIQ to calculate the instance type's cost per unit hour and better identify the most cost-effective options. For detailed information on weighting instance capacity, see <a href=\\\"https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-weighting.html\\\">Instance Weighting</a> in the <i>Amazon Elastic Compute Cloud Auto Scaling User Guide</i>. Default value is \\\"1\\\".\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"InstanceType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-instance-definition-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

@@ -38,7 +38,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Id\": {\n  
   ,\n  \"title\": \"User\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-user-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-user-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

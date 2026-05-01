@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n    },\n    \"targets\": {\n      \"type\": \"object\",\n      \"description\": \"Resolved targets\",\n      \"additionalProperties\": {\n        \"type\": \"object\"\n      }\n    },\n    \"actions\": {\n      \"type\": \"object\",\n      \"description\": \"Experiment actions\",\n      \"additionalProperties\": {\n        \"type\": \"object\"\n      }\n    },\n    \"stopConditions\": {\n      \"type\": \"array\",\n      \"description\": \"Stop conditions\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    },\n    \"startTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Experiment start time\"\n    },\n    \"endTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Experiment end time\"\n    },\n    \"tags\": {\n      \"type\": \"object\",\n      \"description\": \"Resource tags\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/json-schema/amazon-fis-experiment-schema.json
 tags:
-- AWS
 - Chaos Engineering
 - DevOps
 - Fault Injection

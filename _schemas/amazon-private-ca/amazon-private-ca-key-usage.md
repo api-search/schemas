@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Key can be used to sign CRLs.\"\n        }\n      ]\n    },\n    \"EncipherOnly\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"Key can be used only to encipher data.\"\n        }\n      ]\n    },\n    \"DecipherOnly\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"Key can be used only to decipher data.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-key-usage-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

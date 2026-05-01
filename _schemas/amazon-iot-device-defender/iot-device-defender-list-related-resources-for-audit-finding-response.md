@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   }"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-list-related-resources-for-audit-finding-response-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

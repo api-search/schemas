@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"aggregateTypes\",\n    \"resolution\",\n    \"startDate\",\n    \"endDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-batch-get-asset-property-aggregates-entry-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

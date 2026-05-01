@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"username\"\n          },\n          \"description\": \"Documentation update needed\"\n        }\n      ]\n    },\n    \"ZoneIdentity\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMax256\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"zoneIdentity\"\n          },\n          \"description\": \"Optional data sent as zoneIdentity to identify the MediaLive channel to the POIS.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"AcquisitionPointId\",\n    \"PoisEndpoint\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-esam-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

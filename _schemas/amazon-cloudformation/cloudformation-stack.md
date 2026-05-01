@@ -76,7 +76,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        \"$ref\": \"#/components/schemas/Tag\"\n      },\n      \"description\": \"A list of tags associated with the stack.\"\n    },\n    \"EnableTerminationProtection\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether termination protection is enabled for the stack.\"\n    },\n    \"DriftInformation\": {\n      \"$ref\": \"#/components/schemas/StackDriftInformation\"\n    }\n  },\n  \"required\": [\n    \"StackName\",\n    \"StackStatus\",\n    \"CreationTime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/json-schema/cloudformation-stack-schema.json
 tags:
-- AWS
 - CloudFormation
 - Infrastructure as Code
 - DevOps

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"useAwsOwnedKey\"\n          },\n          \"description\": \"Enables the use of an AWS owned CMK using AWS Key Management Service (KMS). Set to true by default, if no value is provided, for example, for RabbitMQ brokers.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"UseAwsOwnedKey\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-encryption-options-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

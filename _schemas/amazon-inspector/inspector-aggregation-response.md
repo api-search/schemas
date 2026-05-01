@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"An object that contains details about an aggregation response based on operating system package type.\"\n        }\n      ]\n    },\n    \"repositoryAggregation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RepositoryAggregationResponse\"\n        },\n        {\n          \"description\": \"An object that contains details about an aggregation response based on Amazon ECR repositories.\"\n        }\n      ]\n    },\n    \"titleAggregation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TitleAggregationResponse\"\n        },\n        {\n          \"description\": \"An object that contains details about an aggregation response based on finding title.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-aggregation-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

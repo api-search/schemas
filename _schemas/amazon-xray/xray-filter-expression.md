@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"$schema\": \"https://json-schema.o
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-filter-expression-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

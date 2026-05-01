@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The number of data set imports that are pending.\"\n        }\n      ]\n    },\n    \"succeeded\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The number of data set imports that have succeeded.\"\n        }\n      ]\n    },\n    \"total\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The total number of data set imports.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"failed\",\n    \"inProgress\",\n    \"pending\",\n    \"succeeded\",\n    \"total\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-data-set-import-summary-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

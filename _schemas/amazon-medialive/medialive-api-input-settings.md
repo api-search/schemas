@@ -49,7 +49,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   n- IGNORE: Never extract any ancillary data from SMPTE-2038.\"\n        }\n      ]\n    },\n    \"SourceEndBehavior\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/InputSourceEndBehavior\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"sourceEndBehavior\"\n          },\n          \"description\": \"Loop input if it is a file. This allows a file input to be streamed indefinitely.\"\n        }\n      ]\n    },\n    \"VideoSelector\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VideoSelector\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"videoSelector\"\n          },\n          \"description\": \"Informs which video elementary stream to decode for input types that have multiple available.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

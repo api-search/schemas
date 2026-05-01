@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        \"CreateFailed\",\n        \"DeleteFailed\",\n        \"Deleting\",\n        \"Deleted\"\n      ],\n      \"description\": \"The state of the instance\",\n      \"example\": \"Active\"\n    },\n    \"kmsKeyArn\": {\n      \"type\": \"string\",\n      \"description\": \"The KMS key ARN used to encrypt instance data\",\n      \"example\": \"arn:aws:kms:us-east-1:123456789012:key/abc12345\"\n    },\n    \"webAppDnsDomain\": {\n      \"type\": \"string\",\n      \"description\": \"The DNS domain for the web application\",\n      \"example\": \"instance.scn.amazonaws.com\"\n    },\n    \"createdTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The creation timestamp\",\n      \"example\": \"2025-01-15T10:30:00Z\"\n    },\n    \"lastModifiedTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The last modification timestamp\",\n      \"example\": \"2025-03-01T08:00:00Z\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/json-schema/amazon-supply-chain-instance-schema.json
 tags:
-- AWS
 - ERP Integration
 - Logistics
 - Machine Learning

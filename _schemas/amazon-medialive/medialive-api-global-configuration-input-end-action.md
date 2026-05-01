@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-global-configuration-input-end-action-schema.json\",\n  \"title\": \"GlobalConfigurationInputEndAction\",\n  \"description\": \"Global Configuration Input End Action\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"NONE\",\n    \"SWITCH_AND_LOOP_INPUTS\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-global-configuration-input-end-action-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

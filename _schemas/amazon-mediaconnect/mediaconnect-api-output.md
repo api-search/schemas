@@ -62,7 +62,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"vpcInterfaceAttachment\"\n          },\n          \"description\": \"The name of the VPC interface attachment to use for this output.\"\n        }\n      ]\n    },\n    \"BridgeArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"bridgeArn\"\n          },\n          \"description\": \"The ARN of the bridge that added this output.\"\n        }\n      ]\n    },\n    \"BridgePorts\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOf__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"bridgePorts\"\n          },\n          \"description\": \"The bridge output ports currently in use.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"OutputArn\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-output-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

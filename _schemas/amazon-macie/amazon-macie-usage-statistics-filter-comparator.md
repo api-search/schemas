@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-usage-statistics-filter-comparator-schema.json\",\n  \"title\": \"UsageStatisticsFilterComparator\",\n  \"description\": \"The operator to use in a condition that filters the results of a query for Amazon Macie account quotas and usage data. Valid values are:\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"GT\",\n    \"GTE\",\n    \"LT\",\n    \"LTE\",\n    \"EQ\",\n    \"NE\",\n    \"CONTAINS\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-usage-statistics-filter-comparator-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

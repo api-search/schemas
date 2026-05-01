@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ {\n      \"type\": \"string\",\n      \"example\": \"MyCustomConnector\",\n      \"description\": \"The name of the connector.\"\n    },\n    \"maxResults\": {\n      \"type\": \"integer\",\n      \"minimum\": 1,\n      \"maximum\": 100,\n      \"example\": 20,\n      \"description\": \"Specifies the maximum number of items that should be returned in the result set. The default for maxResults is 20.\"\n    },\n    \"nextToken\": {\n      \"type\": \"string\",\n      \"maxLength\": 2048,\n      \"example\": \"\",\n      \"description\": \"The pagination token for next page of data.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-describe-connector-profiles-request-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

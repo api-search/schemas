@@ -23,7 +23,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Status\": {
   \ application session.</p> <p>To use SAML 2.0 authentication with WorkSpaces, the IdP must support IdP-initiated deep linking for the relay state URL. Consult your IdP documentation for more information.</p>\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Describes the enablement status, user access URL, and relay state parameter name that are used for configuring federation with an SAML 2.0 identity provider.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"SamlProperties\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-saml-properties-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-saml-properties-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

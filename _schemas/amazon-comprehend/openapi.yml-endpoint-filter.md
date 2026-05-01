@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the endpoint being returned. Possible values are: Creating, Ready, Updating, Deleting, Failed.\"\n        }\n      ]\n    },\n    \"CreationTimeBefore\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"Specifies a date before which the returned endpoint or endpoints were created.\"\n        }\n      ]\n    },\n    \"CreationTimeAfter\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"Specifies a date after which the returned endpoint or endpoints were created.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-endpoint-filter-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"targetInstanceType\"\n          },\n          \"description\": \"\\n            <p>The Amazon MSK broker type that you want all of the brokers in this cluster to be.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CurrentVersion\",\n    \"TargetInstanceType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-update-broker-type-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ {\n      \"type\": \"integer\",\n      \"format\": \"int64\"\n    },\n    \"TotalResponseTime\": {\n      \"type\": \"number\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/json-schema/x-ray-servicestatistics-schema.json
 tags:
-- AWS
 - Debugging
 - Distributed Tracing
 - Microservices

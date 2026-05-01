@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"referenceActionName\"\n          },\n          \"description\": \"The action name of another action that this one refers to.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ReferenceActionName\",\n    \"FollowPoint\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-follow-mode-schedule-action-start-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

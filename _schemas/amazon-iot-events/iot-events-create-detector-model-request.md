@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Tags\"\n        },\n        {\n          \"description\": \"Metadata that can be used to manage the detector model.\"\n        }\n      ]\n    },\n    \"evaluationMethod\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EvaluationMethod\"\n        },\n        {\n          \"description\": \"Information about the order in which events are evaluated and how actions are executed. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"detectorModelName\",\n    \"detectorModelDefinition\",\n    \"roleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-create-detector-model-request-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

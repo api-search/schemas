@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Amazon Resource Name (ARN) of the cluster operation.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-update-security-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

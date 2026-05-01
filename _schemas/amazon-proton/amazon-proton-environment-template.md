@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The name of the environment template.\"\n        }\n      ]\n    },\n    \"provisioning\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Provisioning\"\n        },\n        {\n          \"description\": \"When included, indicates that the environment template is for customer provisioned and managed infrastructure.\"\n        }\n      ]\n    },\n    \"recommendedVersion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FullTemplateVersionNumber\"\n        },\n        {\n          \"description\": \"The ID of the recommended version of the environment template.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"arn\",\n    \"createdAt\",\n    \"lastModifiedAt\",\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-template-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

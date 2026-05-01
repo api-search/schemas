@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   required\": [\n    \"CertificateAuthorityArn\",\n    \"Principal\",\n    \"Actions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-create-permission-request-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   },\n        {\n          \"description\": \"The import job status.\"\n        }\n      ]\n    },\n    \"submittedAt\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Date\"\n        },\n        {\n          \"description\": \"The timestamp when the import job was submitted.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-start-dicom-import-job-response-schema.json
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

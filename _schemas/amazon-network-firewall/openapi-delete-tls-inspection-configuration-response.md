@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   required\": [\n    \"TLSInspectionConfigurationResponse\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-delete-tls-inspection-configuration-response-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

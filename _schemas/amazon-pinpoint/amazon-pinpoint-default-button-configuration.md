@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"description\": \"Action triggered by the button.\"\n        }\n      ]\n    },\n    \"Link\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"Button destination.\"\n        }\n      ]\n    },\n    \"Text\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"Button text.\"\n        }\n      ]\n    },\n    \"TextColor\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The text color of the button.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ButtonAction\",\n    \"Text\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-default-button-configuration-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

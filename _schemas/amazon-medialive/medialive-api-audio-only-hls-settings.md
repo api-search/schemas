@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   n\\nAlternate Audio, Auto Select, Not Default\\nAlternate rendition that the client may try to play back by default. Represented as an EXT-X-MEDIA in the HLS manifest with DEFAULT=NO, AUTOSELECT=YES\\n\\nAlternate Audio, not Auto Select\\nAlternate rendition that the client will not try to play back by default. Represented as an EXT-X-MEDIA in the HLS manifest with DEFAULT=NO, AUTOSELECT=NO\"\n        }\n      ]\n    },\n    \"SegmentType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AudioOnlyHlsSegmentType\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"segmentType\"\n          },\n          \"description\": \"Specifies the segment type.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-audio-only-hls-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

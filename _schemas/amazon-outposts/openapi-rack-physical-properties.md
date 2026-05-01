@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Services Outposts User Guide. \"\n        }\n      ]\n    },\n    \"MaximumSupportedWeightLbs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MaximumSupportedWeightLbs\"\n        },\n        {\n          \"description\": \"The maximum rack weight that this site can support. <code>NO_LIMIT</code> is over 2000 lbs (907 kg). \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-rack-physical-properties-schema.json
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

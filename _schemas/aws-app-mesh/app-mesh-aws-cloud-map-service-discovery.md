@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"attributes\
   \n        },\n        {\n          \"description\": \"The name of the Cloud Map namespace to use.\"\n        }\n      ]\n    },\n    \"serviceName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AwsCloudMapName\"\n        },\n        {\n          \"description\": \"The name of the Cloud Map service to use.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"namespaceName\",\n    \"serviceName\"\n  ],\n  \"description\": \"<p>An object that represents the Cloud Map service discovery information for your virtual node.</p> <note> <p>Cloud Map is not available in the eu-south-1 Region.</p> </note>\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-aws-cloud-map-service-discovery-schema.json\",\n  \"title\": \"AwsCloudMapServiceDiscovery\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-aws-cloud-map-service-discovery-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

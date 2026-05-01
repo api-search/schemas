@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   DELETING\",\n        \"FAILED\",\n        \"MISCONFIGURED\",\n        \"PENDING\"\n      ]\n    },\n    \"Name\": {\n      \"type\": \"string\",\n      \"description\": \"Name of the SVM.\"\n    },\n    \"ResourceARN\": {\n      \"type\": \"string\"\n    },\n    \"StorageVirtualMachineId\": {\n      \"type\": \"string\"\n    },\n    \"Subtype\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"DEFAULT\",\n        \"DP_DESTINATION\",\n        \"SYNC_DESTINATION\",\n        \"SYNC_SOURCE\"\n      ]\n    },\n    \"Tags\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    },\n    \"UUID\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"FileSystemId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/json-schema/amazon-fsx-storage-virtual-machine-schema.json
 tags:
-- AWS
 - File Systems
 - Lustre
 - NetApp

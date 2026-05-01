@@ -17,7 +17,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Using IP set references</a> in the <i>Network Firewall Developer Guide</i>.</p> <p> Network Firewall currently supports <a href=\\\"https://docs.aws.amazon.com/vpc/latest/userguide/managed-prefix-lists.html\\\">Amazon VPC prefix lists</a> and <a href=\\\"https://docs.aws.amazon.com/network-firewall/latest/developerguide/rule-groups-ip-set-references.html#rule-groups-referencing-resource-groups\\\">resource groups</a> in IP set references. </p>\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ReferenceArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceArn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the resource that you are referencing in your rule group.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-ip-set-reference-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

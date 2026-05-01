@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The property definition type (see <code>PropertyType</code>). You can only specify one type in a property definition.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"dataType\",\n    \"type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-model-property-definition-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

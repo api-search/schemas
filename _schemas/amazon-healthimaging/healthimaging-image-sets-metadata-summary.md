@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ in AWS HealthImaging. Sample creation date is provided in <code>1985-04-12T23:20:50.52Z</code> format.\"\n        }\n      ]\n    },\n    \"updatedAt\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Date\"\n        },\n        {\n          \"description\": \"The time when an image was last updated in AWS HealthImaging.\"\n        }\n      ]\n    },\n    \"DICOMTags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DICOMTags\"\n        },\n        {\n          \"description\": \"The DICOM tags associated with the image set.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Summary of the image set metadata.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-image-sets-metadata-summary-schema.json
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n    \"ResourceARN\",\n    \"TagKeys\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-remove-tags-from-resource-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

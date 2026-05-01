@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"description\": \"The format and location of the training documents for your custom entity recognizer.\"\n        }\n      ]\n    },\n    \"EntityList\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DatasetEntityRecognizerEntityList\"\n        },\n        {\n          \"description\": \"The S3 location of the entity list for your custom entity recognizer.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Documents\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-dataset-entity-recognizer-input-data-config-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

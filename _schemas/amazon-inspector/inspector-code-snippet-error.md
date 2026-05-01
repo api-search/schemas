@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"findingArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FindingArn\"\n        },\n        {\n          \"description\": \"The ARN of the finding that a code snippet couldn't be retrieved for.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"errorCode\",\n    \"errorMessage\",\n    \"findingArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-code-snippet-error-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

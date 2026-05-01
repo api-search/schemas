@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AssetStatus\"\n        },\n        {\n          \"description\": \"The current status of the asset, which contains a state and any error message.\"\n        }\n      ]\n    },\n    \"assetDescription\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Description\"\n        },\n        {\n          \"description\": \"A description for the asset.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"assetId\",\n    \"assetArn\",\n    \"assetName\",\n    \"assetModelId\",\n    \"assetProperties\",\n    \"assetHierarchies\",\n    \"assetCreationDate\",\n    \"assetLastUpdateDate\",\n    \"assetStatus\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-asset-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

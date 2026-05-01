@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"A set of custom game server properties, formatted as a single string value. This data is passed to a game client or service when it requests information on game servers. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GameServerGroupName\",\n    \"GameServerId\",\n    \"InstanceId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-register-game-server-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

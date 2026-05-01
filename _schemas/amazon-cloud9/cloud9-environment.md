@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"string\",\n      \"enum\": [\n        \"CONNECT_SSH\",\n        \"CONNECT_SSM\"\n      ],\n      \"description\": \"The connection type for connecting to the environment.\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"error\",\n        \"creating\",\n        \"connecting\",\n        \"ready\",\n        \"stopping\",\n        \"stopped\",\n        \"deleting\"\n      ],\n      \"description\": \"The current status of the environment.\"\n    },\n    \"ownerArn\": {\n      \"type\": \"string\",\n      \"description\": \"The Amazon Resource Name (ARN) of the environment owner.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/json-schema/cloud9-environment-schema.json
 tags:
-- AWS
 - Cloud9
 - IDE
 - Development

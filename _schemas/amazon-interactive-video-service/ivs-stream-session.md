@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"$ref\": \"#/components/schemas/StreamId\"\n        },\n        {\n          \"description\": \"Unique identifier for a live or previously live stream in the specified channel.\"\n        }\n      ]\n    },\n    \"truncatedEvents\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StreamEvents\"\n        },\n        {\n          \"description\": \"List of Amazon IVS events that the stream encountered. The list is sorted by most recent events and contains up to 500 events. For Amazon IVS events, see <a href=\\\"https://docs.aws.amazon.com/ivs/latest/userguide/eventbridge.html\\\">Using Amazon EventBridge with Amazon IVS</a>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-stream-session-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

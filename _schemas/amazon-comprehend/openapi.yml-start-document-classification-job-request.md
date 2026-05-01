@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to use.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"InputDataConfig\",\n    \"OutputDataConfig\",\n    \"DataAccessRoleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-start-document-classification-job-request-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

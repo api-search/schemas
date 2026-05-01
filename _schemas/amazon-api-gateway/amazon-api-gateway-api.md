@@ -107,7 +107,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          ],\n          \"identitySource\": \"method.request.header.Authorization\",\n          \"authorizerResultTtlInSeconds\": 300\n        }\n      ],\n      \"stages\": [\n        {\n          \"stageName\": \"prod\",\n          \"deploymentId\": \"abc123\",\n          \"description\": \"Production stage\",\n          \"tracingEnabled\": true,\n          \"variables\": {\n            \"environment\": \"production\"\n          }\n        }\n      ]\n    }\n  ]\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-api-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

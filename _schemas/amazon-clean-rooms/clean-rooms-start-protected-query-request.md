@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for protected query results.\"\n    }\n  },\n  \"required\": [\n    \"type\",\n    \"resultConfiguration\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/json-schema/clean-rooms-start-protected-query-request-schema.json
 tags:
-- AWS
 - Clean Rooms
 - Data Collaboration
 - Privacy

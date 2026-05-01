@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/json-schema/amazon-cloudfront-distribution-schema.json
 tags:
-- AWS
 - CloudFront
 - CDN
 - Content Delivery

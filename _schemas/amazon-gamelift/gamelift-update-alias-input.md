@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NonZeroAndMaxString\"\n        },\n        {\n          \"description\": \"A human-readable description of the alias.\"\n        }\n      ]\n    },\n    \"RoutingStrategy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RoutingStrategy\"\n        },\n        {\n          \"description\": \"The routing configuration, including routing type and fleet target, for the alias.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"AliasId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-update-alias-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

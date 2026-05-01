@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ value for <code>SortOrder</code>, if any, as in the previous request.</p> </note>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-query-log-configs-request-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

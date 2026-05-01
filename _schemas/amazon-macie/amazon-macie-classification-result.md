@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The category, types, and number of occurrences of the sensitive data that produced the finding.\"\n        }\n      ]\n    },\n    \"sizeClassified\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__long\"\n        },\n        {\n          \"description\": \"The total size, in bytes, of the data that the finding applies to.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ClassificationResultStatus\"\n        },\n        {\n          \"description\": \"The status of the finding.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-classification-result-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

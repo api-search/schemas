@@ -41,7 +41,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"description\": \"An SSM Parameter 
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/json-schema/amazon-systems-manager-parameter-schema.json
 tags:
 - Automation
-- AWS
 - Management
 - Operations
 title: Parameter

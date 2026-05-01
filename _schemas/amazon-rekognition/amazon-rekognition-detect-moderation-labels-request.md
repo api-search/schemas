@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    }\n  },\n  \"required\": [\n    \"Image\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-moderation-labels-request-schema.json
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

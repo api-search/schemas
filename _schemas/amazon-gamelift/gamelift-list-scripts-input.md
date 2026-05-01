@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ call to this operation. To start at the beginning of the result set, don't specify a value.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-list-scripts-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

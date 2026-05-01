@@ -21,7 +21,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/start-chat-contact-response-schema.json\",\n  \"title\": \"StartChatContactResponse\",\n  \"description\": \"StartChatContactResponse schema from Amazon Connect Service API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ContactId\": {\n      \"type\": \"string\",\n      \"description\": \"The identifier of the contact.\",\n      \"example\": \"a1b2c3d4-5678-90ab-cdef-88888EXAMPLE\"\n    },\n    \"ParticipantId\": {\n      \"type\": \"string\",\n      \"description\": \"The identifier for a chat participant.\",\n      \"example\": \"a1b2c3d4-5678-90ab-cdef-99999EXAMPLE\"\n    },\n    \"ParticipantToken\": {\n      \"type\": \"string\",\n      \"description\": \"The token used by the chat participant to call CreateParticipantConnection.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/start-chat-contact-response-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

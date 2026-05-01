@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ information, such as passport numbers.\"\n        }\n      ]\n    },\n    \"detections\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DefaultDetections\"\n        },\n        {\n          \"description\": \"An array of objects, one for each type of sensitive data that was detected. Each object reports the number of occurrences of a specific type of sensitive data that was detected, and the location of up to 15 of those occurrences.\"\n        }\n      ]\n    },\n    \"totalCount\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__long\"\n        },\n        {\n          \"description\": \"The total number of occurrences of the sensitive data that was detected.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-sensitive-data-item-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

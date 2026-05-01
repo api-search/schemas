@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <ul> <li> <p> <code>IN_SYNC</code> \\u2013 The gateway is running the capability configuration.</p> </li> <li> <p> <code>OUT_OF_SYNC</code> \\u2013 The gateway hasn't received the capability configuration.</p> </li> <li> <p> <code>SYNC_FAILED</code> \\u2013 The gateway rejected the capability configuration.</p> </li> </ul> <p>After you update a capability configuration, its sync status is <code>OUT_OF_SYNC</code> until the gateway receives and applies or rejects the updated configuration.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"capabilityNamespace\",\n    \"capabilitySyncStatus\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-update-gateway-capability-configuration-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

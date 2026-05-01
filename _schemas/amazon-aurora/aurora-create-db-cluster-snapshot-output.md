@@ -16,6 +16,5 @@ tags:
 - MySQL
 - PostgreSQL
 - Relational Database
-- AWS
 title: CreateDBClusterSnapshotOutput
 ---

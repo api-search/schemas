@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the attribute/value pair or to add a new attribute/value pair. The default setting is <code>false</code>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"Value\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/json-schema/amazon-simpledb-replaceable-attribute-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Data Storage
 - Database

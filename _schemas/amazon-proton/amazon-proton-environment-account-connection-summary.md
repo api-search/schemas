@@ -45,7 +45,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   $ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The time when the environment account connection request was made.\"\n        }\n      ]\n    },\n    \"roleArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Arn\"\n        },\n        {\n          \"description\": \"The IAM service role that's associated with the environment account connection.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EnvironmentAccountConnectionStatus\"\n        },\n        {\n          \"description\": \"The status of the environment account connection.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"arn\",\n    \"environmentAccountId\",\n    \"environmentName\",\n    \"id\",\n    \"lastModifiedAt\",\n    \"managementAccountId\",\n    \"requestedAt\",\n    \"roleArn\",\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-account-connection-summary-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

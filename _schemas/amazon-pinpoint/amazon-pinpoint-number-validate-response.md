@@ -58,7 +58,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ and 5 (prepaid).\"\n        }\n      ]\n    },\n    \"Timezone\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The time zone for the location where the phone number was originally registered.\"\n        }\n      ]\n    },\n    \"ZipCode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The postal or ZIP code for the location where the phone number was originally registered.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-number-validate-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

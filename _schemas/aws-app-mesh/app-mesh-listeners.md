@@ -14,7 +14,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   \  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-listeners-schema.json\",\n  \"title\": \"Listeners\",\n  \"description\": \"Listeners schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-listeners-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

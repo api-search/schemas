@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-time-millis-schema.json\",\n  \"title\": \"SimulationTimeMillis\",\n  \"description\": \"SimulationTimeMillis schema from openapi\",\n  \"type\": \"integer\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-time-millis-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: SimulationTimeMillis

@@ -115,7 +115,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"timecodeBurninSettings\"\n          },\n          \"description\": \"Timecode burn-in settings\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"FramerateNumerator\",\n    \"FramerateDenominator\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-h265-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

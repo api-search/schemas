@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ or treatment.</p></li> <li><p>The URL for a web application or service that supports HTTPS and can receive the message. The URL has to be a full URL, including the HTTPS protocol.</p></li></ul> \"\n        }\n      ]\n    },\n    \"EndpointTypes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ListOf__EndpointTypesElement\"\n        },\n        {\n          \"description\": \"The types of endpoints to send the campaign or treatment to. Each valid value maps to a type of channel that you can associate with an endpoint by using the ChannelType property of an endpoint.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DeliveryUri\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-custom-delivery-configuration-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

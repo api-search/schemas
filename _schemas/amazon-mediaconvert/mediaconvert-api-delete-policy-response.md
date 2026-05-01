@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-delete-policy-response-schema.json\",\n  \"title\": \"DeletePolicyResponse\",\n  \"description\": \"DeletePolicyResponse schema from Amazon MediaConvert API\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-delete-policy-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

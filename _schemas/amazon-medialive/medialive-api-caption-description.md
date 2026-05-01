@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"languageDescription\"\n          },\n          \"description\": \"Human readable information to indicate captions available for players (eg. English, or Spanish).\"\n        }\n      ]\n    },\n    \"Name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"name\"\n          },\n          \"description\": \"Name of the caption description.  Used to associate a caption description with an output.  Names must be unique within an event.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CaptionSelectorName\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-caption-description-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

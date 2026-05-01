@@ -23,7 +23,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"taskList\"\n 
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-decisiontaskscheduledeventattributes-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: DecisionTaskScheduledEventAttributes

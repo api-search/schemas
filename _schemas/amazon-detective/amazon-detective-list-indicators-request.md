@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"enum\": [\n        \"TTP_OBSERVED\",\n        \"IMPOSSIBLE_TRAVEL\",\n        \"FLAGGED_IP_ADDRESS\",\n        \"NEW_GEOLOCATION\",\n        \"NEW_ASO\",\n        \"NEW_USER_AGENT\",\n        \"RELATED_FINDING\",\n        \"RELATED_FINDING_GROUP\"\n      ],\n      \"example\": \"FLAGGED_IP_ADDRESS\"\n    },\n    \"NextToken\": {\n      \"type\": \"string\",\n      \"description\": \"List if there are more results available.\",\n      \"example\": \"abc123token\"\n    },\n    \"MaxResults\": {\n      \"type\": \"integer\",\n      \"description\": \"The maximum number of results to return.\",\n      \"example\": 100\n    }\n  },\n  \"required\": [\n    \"GraphArn\",\n    \"InvestigationId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-list-indicators-request-schema.json
 tags:
-- AWS
 - Forensics
 - Investigation
 - Security

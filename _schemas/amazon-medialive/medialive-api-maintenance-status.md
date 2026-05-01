@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ date and time. Date and time is in ISO.\"\n        }\n      ]\n    },\n    \"MaintenanceScheduledDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"maintenanceScheduledDate\"\n          },\n          \"description\": \"The currently scheduled maintenance date and time. Date and time is in ISO.\"\n        }\n      ]\n    },\n    \"MaintenanceStartTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"maintenanceStartTime\"\n          },\n          \"description\": \"The currently selected maintenance start time. Time is in UTC.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-maintenance-status-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -81,7 +81,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"type\": \"boolean\",\n      \"description\": \"Whether IAM database authentication is enabled.\"\n    },\n    \"DBClusterMembers\": {\n      \"type\": \"array\",\n      \"description\": \"The list of instances in the cluster.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/DBClusterMember\"\n      }\n    },\n    \"AssociatedRoles\": {\n      \"type\": \"array\",\n      \"description\": \"IAM roles associated with the cluster.\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/DBClusterRole\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/management-db-cluster-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

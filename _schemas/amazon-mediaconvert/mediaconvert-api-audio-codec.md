@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n  \"type\": \"string\",\n  \"enum\": [\n    \"AAC\",\n    \"MP2\",\n    \"MP3\",\n    \"WAV\",\n    \"AIFF\",\n    \"AC3\",\n    \"EAC3\",\n    \"EAC3_ATMOS\",\n    \"VORBIS\",\n    \"OPUS\",\n    \"PASSTHROUGH\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-audio-codec-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

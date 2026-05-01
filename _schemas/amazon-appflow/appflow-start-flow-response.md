@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"exec-500123\",\n      \"description\": \"Returns the internal execution ID of an on-demand flow when the flow is started.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-start-flow-response-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

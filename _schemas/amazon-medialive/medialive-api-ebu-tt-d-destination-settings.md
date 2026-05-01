@@ -27,7 +27,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ This option is valid only if the source captions are Embedded or Teletext.\\n- exclude: In the font data attached to the EBU-TT captions, set the font family to \\\"monospaced\\\". Do not include any other style information.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-ebu-tt-d-destination-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     {\n          \"description\": \"The error message of the report.\"\n        }\n      ]\n    },\n    \"filterCriteria\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FilterCriteria\"\n        },\n        {\n          \"description\": \"The filter criteria associated with the report.\"\n        }\n      ]\n    },\n    \"reportId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ReportId\"\n        },\n        {\n          \"description\": \"The ID of the report.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ExternalReportStatus\"\n        },\n        {\n          \"description\": \"The status of the report.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-get-findings-report-status-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

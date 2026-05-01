@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ For more information, see <a href=\\\"https://docs.aws.amazon.com/databrew/latest/dg/recipes.html#recipes.structure\\\">Recipe structure</a> in the <i>Glue DataBrew Developer Guide</i>.\"\n        }\n      ]\n    },\n    \"Value\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ConditionValue\"\n        },\n        {\n          \"description\": \"A value that the condition must evaluate to for the condition to succeed.\"\n        }\n      ]\n    },\n    \"TargetColumn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TargetColumn\"\n        },\n        {\n          \"description\": \"A column to apply this condition to.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Condition\",\n    \"TargetColumn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-condition-expression-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

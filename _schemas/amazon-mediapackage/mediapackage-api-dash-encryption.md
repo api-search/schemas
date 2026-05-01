@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      }\n      ]\n    }\n  },\n  \"required\": [\n    \"SpekeKeyProvider\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-dash-encryption-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

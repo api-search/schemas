@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"VirtualGatewayTlsValidationContextAcmTrust\",\n  \"description\": \"An object that represents a Transport Layer Security (TLS) validation context trust for an Certificate Manager certificate.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"certificateAuthorityArns\": {}\n  },\n  \"required\": [\n    \"certificateAuthorityArns\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/json-schema/amazon-app-mesh-virtualgatewaytlsvalidationcontextacmtrust-schema.json
 tags:
-- AWS
 - Microservices
 - Networking
 - Service Mesh

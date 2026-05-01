@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"taskCredentials\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TaskCredentials\"\n        },\n        {\n          \"description\": \"The credentials that Step Functions uses for the task.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"resourceType\",\n    \"resource\",\n    \"region\",\n    \"parameters\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-task-scheduled-event-details-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

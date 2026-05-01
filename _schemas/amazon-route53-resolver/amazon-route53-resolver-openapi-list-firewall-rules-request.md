@@ -30,7 +30,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ your next request.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"FirewallRuleGroupId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-rules-request-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"FormatOptions\": {\n      \"$ref\": \"#/components/schemas/FormatOptions\"\n    },\n    \"Input\": {\n      \"$ref\": \"#/components/schemas/Input\"\n    },\n    \"PathOptions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PathOptions\"\n        },\n        {\n          \"description\": \"A set of options that defines how DataBrew interprets an Amazon S3 path of the dataset.\"\n        }\n      ]\n    },\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"Metadata tags to apply to this dataset.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"Input\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-create-dataset-request-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

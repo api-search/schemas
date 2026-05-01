@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-day-of-week-schema.json\",\n  \"title\": \"DayOfWeek\",\n  \"description\": \"DayOfWeek schema from Amazon Pinpoint API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"MONDAY\",\n    \"TUESDAY\",\n    \"WEDNESDAY\",\n    \"THURSDAY\",\n    \"FRIDAY\",\n    \"SATURDAY\",\n    \"SUNDAY\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-day-of-week-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

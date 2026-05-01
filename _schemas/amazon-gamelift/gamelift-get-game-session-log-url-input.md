@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-get-game-session-log-url-input-schema.json\",\n  \"title\": \"GetGameSessionLogUrlInput\",\n  \"description\": \"GetGameSessionLogUrlInput schema from Amazon GameLift API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"GameSessionId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ArnStringModel\"\n        },\n        {\n          \"description\": \"A unique identifier for the game session to get logs for. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GameSessionId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-get-game-session-log-url-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

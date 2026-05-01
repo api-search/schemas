@@ -23,7 +23,6 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lake-fo
 tags:
 - Access Control
 - Analytics
-- AWS
 - Data Governance
 - Data Lake
 - S3

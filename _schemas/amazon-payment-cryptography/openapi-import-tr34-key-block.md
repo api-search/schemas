@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"The public key component in PEM certificate format of the private key that signs the KDH TR-34 wrapped key block.\"\n        }\n      ]\n    },\n    \"WrappedKeyBlock\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Tr34WrappedKeyBlock\"\n        },\n        {\n          \"description\": \"The TR-34 wrapped key block to import.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CertificateAuthorityPublicKeyIdentifier\",\n    \"ImportToken\",\n    \"KeyBlockFormat\",\n    \"SigningKeyCertificate\",\n    \"WrappedKeyBlock\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-import-tr34-key-block-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

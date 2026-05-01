@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"The unique identifier for the request to create or update the endpoint.\"\n        }\n      ]\n    },\n    \"User\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EndpointUser\"\n        },\n        {\n          \"description\": \"One or more custom attributes that describe the user who's associated with the endpoint.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-endpoint-batch-item-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

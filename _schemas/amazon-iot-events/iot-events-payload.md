@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ input values (<code>$input.&lt;input-name&gt;.&lt;path-to-datum&gt;</code>), string concatenations, and quoted strings that contain <code>${}</code> as the content. The recommended maximum size of a content expression is 1 KB.\"\n        }\n      ]\n    },\n    \"type\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PayloadType\"\n        },\n        {\n          \"description\": \"The value of the payload type can be either <code>STRING</code> or <code>JSON</code>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"contentExpression\",\n    \"type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-payload-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

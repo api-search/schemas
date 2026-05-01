@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ about timecodes, see https://docs.aws.amazon.com/console/mediaconvert/timecode.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"EMBEDDED\",\n    \"ZEROBASED\",\n    \"SPECIFIEDSTART\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-input-timecode-source-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

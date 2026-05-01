@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The display name of the application. This name is displayed as the <b>Project name</b> on the Amazon Pinpoint console.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MapOf__string\"\n        },\n        {\n          \"description\": \"A string-to-string map of key-value pairs that identifies the tags that are associated with the application. Each tag consists of a required tag key and an associated tag value.\"\n        }\n      ]\n    },\n    \"CreationDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The date and time when the Application was created.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Id\",\n    \"Arn\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-application-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

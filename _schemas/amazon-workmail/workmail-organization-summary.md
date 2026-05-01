@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Organizatio
   \ with the organization. It is only present if unexpected behavior has occurred with regards to the organization. It provides insight or solutions regarding unexpected behavior.\"\n        }\n      ]\n    },\n    \"State\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The state associated with the organization.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The representation of an organization.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"OrganizationSummary\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-organization-summary-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-organization-summary-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

@@ -55,7 +55,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"description\": \"The total number of endpoint definitions that were processed by the export job.\"\n        }\n      ]\n    },\n    \"Type\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The job type. This value is EXPORT for export jobs.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"JobStatus\",\n    \"CreationDate\",\n    \"Type\",\n    \"Definition\",\n    \"Id\",\n    \"ApplicationId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-export-job-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

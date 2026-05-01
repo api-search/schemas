@@ -27,7 +27,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"InventoryS3BucketDestination\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"AccountId\": {},\n    \"Bucket\": {},\n    \"Format\": {},\n    \"Prefix\": {},\n    \"Encryption\": {}\n  },\n  \"required\": [\n    \"Bucket\",\n    \"Format\"\n  ],\n  \"description\": \"Contains the bucket name, file format, bucket owner (optional), and prefix (optional) where inventory results are published.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-inventorys3bucketdestination-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

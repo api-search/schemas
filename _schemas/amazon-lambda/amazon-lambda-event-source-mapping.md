@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"enum\": [\n        \"Creating\",\n        \"Enabling\",\n        \"Enabled\",\n        \"Disabling\",\n        \"Disabled\",\n        \"Updating\",\n        \"Deleting\"\n      ]\n    },\n    \"BatchSize\": {\n      \"type\": \"integer\",\n      \"description\": \"The maximum number of records in each batch.\",\n      \"example\": 10\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/json-schema/amazon-lambda-event-source-mapping-schema.json
 tags:
-- AWS
 - Compute
 - Event-Driven
 - FaaS

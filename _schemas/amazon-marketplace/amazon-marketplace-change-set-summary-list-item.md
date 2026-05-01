@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ set.\"\n        }\n      ]\n    },\n    \"EntityIdList\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceIdList\"\n        },\n        {\n          \"description\": \"This object is a list of entity IDs (string) that are a part of a change set. The entity ID list is a maximum of 20 entities. It must contain at least one entity.\"\n        }\n      ]\n    },\n    \"FailureCode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FailureCode\"\n        },\n        {\n          \"description\": \"Returned if the change set is in <code>FAILED</code> status. Can be either <code>CLIENT_ERROR</code>, which means that there are issues with the request (see the <code>ErrorDetailList</code> of <code>DescribeChangeSet</code>), or <code>SERVER_FAULT</code>, which means that there is a problem in the system, and you should retry your request.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-change-set-summary-list-item-schema.json
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

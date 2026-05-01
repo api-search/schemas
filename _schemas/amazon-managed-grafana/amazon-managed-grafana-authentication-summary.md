@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"Specifies whether the workplace's user authentication method is fully configured.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"providers\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-authentication-summary-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

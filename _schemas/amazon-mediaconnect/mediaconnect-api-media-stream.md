@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       },\n          \"description\": \"The type of media stream.\"\n        }\n      ]\n    },\n    \"VideoFormat\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"videoFormat\"\n          },\n          \"description\": \"The resolution of the video.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MediaStreamType\",\n    \"MediaStreamId\",\n    \"MediaStreamName\",\n    \"Fmt\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-media-stream-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

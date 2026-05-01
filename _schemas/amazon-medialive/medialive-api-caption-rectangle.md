@@ -27,7 +27,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/__doubleMin0Max100\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"width\"\n          },\n          \"description\": \"See the description in leftOffset.\\nFor width, specify the entire width of the rectangle as a percentage of the underlying frame width. For example, \\\\\\\"80\\\\\\\" means the rectangle width is 80% of the underlying frame width. The leftOffset and rectangleWidth must add up to 100% or less.\\nThis field corresponds to tts:extent - X in the TTML standard.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"TopOffset\",\n    \"Height\",\n    \"Width\",\n    \"LeftOffset\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-caption-rectangle-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

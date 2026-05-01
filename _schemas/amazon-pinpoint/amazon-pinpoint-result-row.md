@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"An array of objects that provides pre-aggregated values for a standard metric that applies to an application, campaign, or journey.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GroupedBys\",\n    \"Values\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-result-row-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

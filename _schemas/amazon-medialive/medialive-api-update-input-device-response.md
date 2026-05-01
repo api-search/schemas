@@ -55,7 +55,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"$ref\": \"#/components/schemas/InputDeviceType\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"type\"\n          },\n          \"description\": \"The type of the input device.\"\n        }\n      ]\n    },\n    \"UhdDeviceSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/InputDeviceUhdSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"uhdDeviceSettings\"\n          },\n          \"description\": \"Settings that describe an input device that is type UHD.\"\n        }\n      ]\n    },\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Tags\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"tags\"\n          },\n          \"description\": \"A collection of key-value pairs.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-update-input-device-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

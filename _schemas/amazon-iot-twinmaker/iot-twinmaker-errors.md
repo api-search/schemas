@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"$ref\": \"#/components/schemas/PropertyValueEntry\"\n          },\n          {\n            \"description\": \"An object that contains information about errors returned by the <code>BatchPutProperty</code> action.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"An error returned by the <code>BatchPutProperty</code> action.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-errors-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

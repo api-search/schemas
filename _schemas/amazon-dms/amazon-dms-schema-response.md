@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   }\n      ]\n    },\n    \"SchemaName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The name of a schema in a Fleet Advisor collector inventory.\"\n        }\n      ]\n    },\n    \"OriginalSchema\": {\n      \"$ref\": \"#/components/schemas/SchemaShortInfoResponse\"\n    },\n    \"Similarity\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DoubleOptional\"\n        },\n        {\n          \"description\": \"The similarity value for a schema in a Fleet Advisor collector inventory. A higher similarity value indicates that a schema is likely to be a duplicate.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-schema-response-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

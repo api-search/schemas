@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        },\n          {\n            \"description\": \"The status of the scan covering the resource.\"\n          }\n        ]\n      },\n      \"scanType\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/ScanType\"\n          },\n          {\n            \"description\": \"The Amazon Inspector scan type covering the resource.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"An object that contains details about a resource covered by Amazon Inspector.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-covered-resources-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

@@ -24,7 +24,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ S3 presigned URL where the job success log is located.\"\n        }\n      ]\n    },\n    \"JobFailureLogURI\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"A link to an Amazon S3 presigned URL where the job failure log is located.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-job-logs-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

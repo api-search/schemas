@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"componentType\",\n    \"dataflowId\",\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-component-status-data-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

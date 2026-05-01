@@ -56,7 +56,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"format\": \"date-time\",\n      \"description\": \"Time task was created\",\n      \"example\": \"2026-04-19T12:00:00Z\"\n    },\n    \"startedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Time task started running\",\n      \"example\": \"2026-04-19T12:00:30Z\"\n    },\n    \"stoppedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Time task stopped\"\n    },\n    \"stoppedReason\": {\n      \"type\": \"string\",\n      \"description\": \"Reason task stopped\"\n    },\n    \"networkInterfaces\": {\n      \"type\": \"array\",\n      \"description\": \"Network interfaces\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"description\": \"Tags\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/json-schema/amazon-fargate-task-schema.json
 tags:
-- AWS
 - Compute
 - Containers
 - ECS

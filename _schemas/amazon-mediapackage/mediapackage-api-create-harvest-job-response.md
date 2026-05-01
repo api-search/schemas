@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ will be harvested.\\n\"\n        }\n      ]\n    },\n    \"Status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Status\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"status\"\n          },\n          \"description\": \"The current status of the HarvestJob. Consider setting up a CloudWatch Event to listen for\\nHarvestJobs as they succeed or fail. In the event of failure, the CloudWatch Event will\\ninclude an explanation of why the HarvestJob failed.\\n\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-create-harvest-job-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

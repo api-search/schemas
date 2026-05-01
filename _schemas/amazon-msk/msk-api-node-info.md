@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    {\n          \"$ref\": \"#/components/schemas/ZookeeperNodeInfo\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"zookeeperNodeInfo\"\n          },\n          \"description\": \"\\n            <p>The ZookeeperNodeInfo.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-node-info-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

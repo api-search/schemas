@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ parameter is specific to connector implementation. Some connectors support multiple levels or categories of entities.\"\n    },\n    \"apiVersion\": {\n      \"type\": \"string\",\n      \"example\": \"v55.0\",\n      \"description\": \"The version of the API that's used by the connector.\"\n    },\n    \"maxResults\": {\n      \"type\": \"integer\",\n      \"minimum\": 1,\n      \"maximum\": 10000,\n      \"example\": 20,\n      \"description\": \"The maximum number of items that should be returned in the result set.\"\n    },\n    \"nextToken\": {\n      \"type\": \"string\",\n      \"example\": \"\",\n      \"description\": \"The pagination token for next page of data.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-list-connector-entities-request-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ request. In each object, the event ID is the key and an EventItemResponse object is the value.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-item-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

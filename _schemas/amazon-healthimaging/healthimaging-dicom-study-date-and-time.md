@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ time for search capabilities.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-dicom-study-date-and-time-schema.json
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

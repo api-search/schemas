@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      }\n    },\n    \"description\": \"The criteria that determine when and how a job abort takes place.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-aws-job-abort-criteria-list-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

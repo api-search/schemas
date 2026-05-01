@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    {\n          \"xml\": {\n            \"name\": \"networkId\"\n          },\n          \"description\": \"Provides Network ID that matches EIDR ID format (e.g., \\\"10.XXXX/XXXX-XXXX-XXXX-XXXX-XXXX-C\\\").\"\n        }\n      ]\n    },\n    \"State\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BlackoutSlateState\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"state\"\n          },\n          \"description\": \"When set to enabled, causes video, audio and captions to be blanked when indicated by program metadata.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-blackout-slate-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

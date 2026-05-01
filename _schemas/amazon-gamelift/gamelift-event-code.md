@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"SERVER_PROCESS_INVALID_PATH\",\n    \"SERVER_PROCESS_SDK_INITIALIZATION_TIMEOUT\",\n    \"SERVER_PROCESS_PROCESS_READY_TIMEOUT\",\n    \"SERVER_PROCESS_CRASHED\",\n    \"SERVER_PROCESS_TERMINATED_UNHEALTHY\",\n    \"SERVER_PROCESS_FORCE_TERMINATED\",\n    \"SERVER_PROCESS_PROCESS_EXIT_TIMEOUT\",\n    \"GAME_SESSION_ACTIVATION_TIMEOUT\",\n    \"FLEET_CREATION_EXTRACTING_BUILD\",\n    \"FLEET_CREATION_RUNNING_INSTALLER\",\n    \"FLEET_CREATION_VALIDATING_RUNTIME_CONFIG\",\n    \"FLEET_VPC_PEERING_SUCCEEDED\",\n    \"FLEET_VPC_PEERING_FAILED\",\n    \"FLEET_VPC_PEERING_DELETED\",\n    \"INSTANCE_INTERRUPTED\",\n    \"INSTANCE_RECYCLED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-event-code-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

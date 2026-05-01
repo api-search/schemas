@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ a template, use the <link  linkend=\\\"templates-template-name-template-type-versions\\\">Template Versions</link> resource.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-template-active-version-request-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

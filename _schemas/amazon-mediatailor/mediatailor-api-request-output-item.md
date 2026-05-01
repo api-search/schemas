@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The name of the manifest for the channel. The name appears in the <code>PlaybackUrl</code>.\"\n        }\n      ]\n    },\n    \"SourceGroup\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"A string used to match which <code>HttpPackageConfiguration</code> is used for each <code>VodSource</code>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ManifestName\",\n    \"SourceGroup\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-request-output-item-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

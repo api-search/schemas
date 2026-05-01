@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"hostname\":
   : \"An object that represents the DNS service discovery information for your virtual node.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-dns-service-discovery-schema.json\",\n  \"title\": \"DnsServiceDiscovery\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-dns-service-discovery-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"mp4MajorBrand\"\n          },\n          \"description\": \"Overrides the \\\"Major Brand\\\" field in the output file. Usually not necessary to specify.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-mp4-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

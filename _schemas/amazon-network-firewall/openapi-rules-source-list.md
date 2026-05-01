@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The protocols you want to inspect. Specify <code>TLS_SNI</code> for <code>HTTPS</code>. Specify <code>HTTP_HOST</code> for <code>HTTP</code>. You can specify either or both. \"\n        }\n      ]\n    },\n    \"GeneratedRulesType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GeneratedRulesType\"\n        },\n        {\n          \"description\": \"Whether you want to allow or deny access to the domains in your target list.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Targets\",\n    \"TargetTypes\",\n    \"GeneratedRulesType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-rules-source-list-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

@@ -61,7 +61,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"IsRestricted\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"If the address you are creating is a primary address, then set this option to true. This field is not supported in most regions.\"\n        }\n      ]\n    },\n    \"Type\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AddressType\"\n        },\n        {\n          \"description\": \"Differentiates between delivery address and pickup address in the customer account. Provided at job creation.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-address-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

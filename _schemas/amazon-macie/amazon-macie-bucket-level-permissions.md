@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"bucketPolicy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BucketPolicy\"\n        },\n        {\n          \"description\": \"The permissions settings of the bucket policy for the bucket. This value is null if a bucket policy hasn't been defined for the bucket.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-bucket-level-permissions-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

@@ -52,7 +52,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   NEVER\"\n      ]\n    },\n    \"contentHandling\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"CONVERT_TO_BINARY\",\n        \"CONVERT_TO_TEXT\"\n      ]\n    },\n    \"timeoutInMillis\": {\n      \"type\": \"integer\"\n    },\n    \"cacheNamespace\": {\n      \"type\": \"string\"\n    },\n    \"cacheKeyParameters\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-putintegrationrequest-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

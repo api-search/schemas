@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The Amazon S3 export destination for the report.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"reportFormat\",\n    \"s3Destination\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-create-findings-report-request-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

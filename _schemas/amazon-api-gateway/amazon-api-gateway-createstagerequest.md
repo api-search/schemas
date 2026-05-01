@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   \ {\n      \"type\": \"boolean\"\n    },\n    \"tags\": {\n      \"type\": \"object\"\n    }\n  },\n  \"required\": [\n    \"stageName\",\n    \"deploymentId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-createstagerequest-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

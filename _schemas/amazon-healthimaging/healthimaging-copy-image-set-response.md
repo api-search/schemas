@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/CopyDestinationImageSetProperties\"\n        },\n        {\n          \"description\": \"The properties of the destination image set.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-copy-image-set-response-schema.json
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

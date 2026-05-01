@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-generic-string-schema.json\",\n  \"title\": \"GenericString\",\n  \"description\": \"GenericString schema from openapi\",\n  \"type\": \"string\",\n  \"pattern\": \".*\",\n  \"minLength\": 0,\n  \"maxLength\": 1024\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-generic-string-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: GenericString

@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/json-schema/amazon-s3-control-get-access-point-result-schema.json
 tags:
 - Archive
-- AWS
 - Backup
 - Cloud Storage
 - Data Storage

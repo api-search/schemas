@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/json-schema/amazon-managed-prometheus-put-alert-manager-definition-response-schema.json\",\n  \"title\": \"PutAlertManagerDefinitionResponse\",\n  \"description\": \"Represents the output of a PutAlertManagerDefinition operation.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AlertManagerDefinitionStatus\"\n        },\n        {\n          \"description\": \"The status of alert manager definition.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/json-schema/amazon-managed-prometheus-put-alert-manager-definition-response-schema.json
 tags:
-- AWS
 - Containers
 - Monitoring
 - Observability

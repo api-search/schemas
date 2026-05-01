@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"The number of items in the table\"\n    },\n    \"GlobalSecondaryIndexes\": {\n      \"type\": \"array\",\n      \"description\": \"The global secondary indexes on the table\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    },\n    \"LocalSecondaryIndexes\": {\n      \"type\": \"array\",\n      \"description\": \"The local secondary indexes on the table\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    },\n    \"BillingModeSummary\": {\n      \"type\": \"object\",\n      \"description\": \"Contains details about the billing mode for the table\",\n      \"properties\": {\n        \"BillingMode\": {\n          \"type\": \"string\",\n          \"enum\": [\n            \"PROVISIONED\",\n            \"PAY_PER_REQUEST\"\n          ]\n        },\n        \"LastUpdateToPayPerRequestDateTime\": {\n          \"type\": \"number\"\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-schema/dynamodb-openapi-table-description-schema.json
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

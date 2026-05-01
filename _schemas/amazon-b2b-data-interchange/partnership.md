@@ -51,6 +51,5 @@ tags:
 - Healthcare
 - Financial Services
 - Amazon Web Services
-- AWS
 title: Partnership
 ---

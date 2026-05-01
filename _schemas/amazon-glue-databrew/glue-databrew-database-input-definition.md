@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"$ref\": \"#/components/schemas/S3Location\"\n    },\n    \"QueryString\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/QueryString\"\n        },\n        {\n          \"description\": \"Custom SQL to run against the provided Glue connection. This SQL will be used as the input for DataBrew projects and jobs.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GlueConnectionName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-database-input-definition-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

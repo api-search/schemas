@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The ID of the AMI that findings were aggregated for.\"\n        }\n      ]\n    },\n    \"severityCounts\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SeverityCounts\"\n        },\n        {\n          \"description\": \"An object that contains the count of matched findings per severity.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ami\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-ami-aggregation-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

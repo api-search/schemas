@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      {\n          \"$ref\": \"#/components/schemas/EntityName\"\n        },\n        {\n          \"description\": \"The name of the runtime environment.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EnvironmentLifecycle\"\n        },\n        {\n          \"description\": \"The status of the runtime environment\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"creationTime\",\n    \"engineType\",\n    \"engineVersion\",\n    \"environmentArn\",\n    \"environmentId\",\n    \"instanceType\",\n    \"name\",\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-environment-summary-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

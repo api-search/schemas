@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ (as an email message) to the email address that you specified for the recipient's account when you associated the account with your account. The default value is false.\"\n        }\n      ]\n    },\n    \"message\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"Custom text to include in the email message that contains the invitation. The text can contain as many as 80 alphanumeric characters.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"accountIds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-create-invitations-request-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

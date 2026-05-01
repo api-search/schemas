@@ -47,7 +47,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"description\": \"The task's stop time.\"\n        }\n      ]\n    },\n    \"statusMessage\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TaskStatusMessage\"\n        },\n        {\n          \"description\": \"The task's status message.\"\n        }\n      ]\n    },\n    \"logStream\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TaskLogStream\"\n        },\n        {\n          \"description\": \"The task's log stream.\"\n        }\n      ]\n    },\n    \"gpus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GetRunTaskResponseGpusInteger\"\n        },\n        {\n          \"description\": \" The number of Graphics Processing Units (GPU) specified in the task. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-get-run-task-response-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

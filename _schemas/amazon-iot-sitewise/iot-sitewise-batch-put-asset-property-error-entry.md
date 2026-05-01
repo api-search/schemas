@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The list of update property value errors.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"entryId\",\n    \"errors\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-batch-put-asset-property-error-entry-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

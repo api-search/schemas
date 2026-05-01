@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ aggregation field value counted for the particular bucket.</p> <p> <code>count</code>: The number of documents that have that value.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-get-buckets-aggregation-response-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

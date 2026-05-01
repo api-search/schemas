@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"type\": \"integer\"\n          },\n          \"Confidence\": {\n            \"type\": \"number\",\n            \"format\": \"float\"\n          },\n          \"Geometry\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"BoundingBox\": {\n                \"$ref\": \"#/components/schemas/BoundingBox\"\n              }\n            }\n          }\n        }\n      }\n    },\n    \"TextModelVersion\": {\n      \"type\": \"string\",\n      \"example\": \"3.1\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-text-response-schema.json
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

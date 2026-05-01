@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-channel-state-schema.json\",\n  \"title\": \"ChannelState\",\n  \"description\": \"Placeholder documentation for ChannelState\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"CREATING\",\n    \"CREATE_FAILED\",\n    \"IDLE\",\n    \"STARTING\",\n    \"RUNNING\",\n    \"RECOVERING\",\n    \"STOPPING\",\n    \"DELETING\",\n    \"DELETED\",\n    \"UPDATING\",\n    \"UPDATE_FAILED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-channel-state-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

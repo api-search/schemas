@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ IDs.\"\n        }\n      ]\n    },\n    \"AcceptanceType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AcceptanceType\"\n        },\n        {\n          \"description\": \"Player response to the proposed match.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"TicketId\",\n    \"PlayerIds\",\n    \"AcceptanceType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-accept-match-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

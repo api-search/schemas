@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        },\n        {\n          \"description\": \"A value that, if true, means that any data in the location specified for output is overwritten with new output. Not supported with DatabaseOptions.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DatabaseName\",\n    \"TableName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-data-catalog-output-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

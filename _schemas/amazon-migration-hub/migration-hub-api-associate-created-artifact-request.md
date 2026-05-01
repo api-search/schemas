@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"CreatedArtifact\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CreatedArtifact\"\n        },\n        {\n          \"description\": \"An ARN of the AWS resource related to the migration (e.g., AMI, EC2 instance, RDS instance, etc.) \"\n        }\n      ]\n    },\n    \"DryRun\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DryRun\"\n        },\n        {\n          \"description\": \"Optional boolean flag to indicate whether any effect should take place. Used to test if the caller has permission to make the call.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ProgressUpdateStream\",\n    \"MigrationTaskName\",\n    \"CreatedArtifact\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/json-schema/migration-hub-api-associate-created-artifact-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

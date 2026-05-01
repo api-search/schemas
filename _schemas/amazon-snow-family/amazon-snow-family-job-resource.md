@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ functions for this job.\"\n        }\n      ]\n    },\n    \"Ec2AmiResources\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Ec2AmiResourceList\"\n        },\n        {\n          \"description\": \"The Amazon Machine Images (AMIs) associated with this job.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-job-resource-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

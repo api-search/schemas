@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ and policy. For more information, see <a href=\\\"https://datatracker.ietf.org/doc/html/rfc5280#section-4.2.2.2\\\">Subject Information Access</a> in RFC 5280.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-csr-extensions-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

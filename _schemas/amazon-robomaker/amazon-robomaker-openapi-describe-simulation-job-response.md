@@ -82,7 +82,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"networkInterface\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NetworkInterface\"\n        },\n        {\n          \"description\": \"The network interface information for the simulation job.\"\n        }\n      ]\n    },\n    \"compute\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComputeResponse\"\n        },\n        {\n          \"description\": \"Compute information for the simulation job.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-simulation-job-response-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: DescribeSimulationJobResponse

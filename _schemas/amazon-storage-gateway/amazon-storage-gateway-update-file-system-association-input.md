@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the root share D$ of the Amazon FSx file system. The user account must belong to the Amazon FSx delegated admin user group.\"\n        }\n      ]\n    },\n    \"Password\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DomainUserPassword\"\n        },\n        {\n          \"description\": \"The password of the user credential.\"\n        }\n      ]\n    },\n    \"AuditDestinationARN\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AuditDestinationARN\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the storage used for the audit logs.\"\n        }\n      ]\n    },\n    \"CacheAttributes\": {\n      \"$ref\": \"#/components/schemas/CacheAttributes\"\n    }\n  },\n  \"required\": [\n    \"FileSystemAssociationARN\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-update-file-system-association-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

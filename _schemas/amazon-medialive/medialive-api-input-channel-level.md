@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the input channel used as a source.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"InputChannel\",\n    \"Gain\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-channel-level-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

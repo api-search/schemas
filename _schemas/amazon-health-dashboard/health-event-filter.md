@@ -55,7 +55,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"$ref\": \"#/components/schemas/tagFilter\"\n        },\n        {\n          \"description\": \"<p>A map of entity tags attached to the affected entity.</p> <note> <p>Currently, the <code>tags</code> property isn't supported.</p> </note>\"\n        }\n      ]\n    },\n    \"eventStatusCodes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/eventStatusCodeList\"\n        },\n        {\n          \"description\": \"A list of event status codes.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-event-filter-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

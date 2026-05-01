@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"inputDetails\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/HistoryEventExecutionDataDetails\"\n        },\n        {\n          \"description\": \"Contains details about the input for an execution history event.\"\n        }\n      ]\n    },\n    \"timeoutInSeconds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TimeoutInSeconds\"\n        },\n        {\n          \"description\": \"The maximum allowed duration of the activity task.\"\n        }\n      ]\n    },\n    \"heartbeatInSeconds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TimeoutInSeconds\"\n        },\n        {\n          \"description\": \"The maximum allowed duration between two heartbeats for the activity task.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"resource\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-activity-scheduled-event-details-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

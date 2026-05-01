@@ -77,7 +77,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ },\n          \"description\": \"Timestamp offset for the event.  Only used if timestampOffsetMode is set to useConfiguredOffset.\"\n        }\n      ]\n    },\n    \"TimestampOffsetMode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SmoothGroupTimestampOffsetMode\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timestampOffsetMode\"\n          },\n          \"description\": \"Type of timestamp date offset to use.\\n- useEventStartDate: Use the date the event was started as the offset\\n- useConfiguredOffset: Use an explicitly configured date as the offset\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Destination\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-ms-smooth-group-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

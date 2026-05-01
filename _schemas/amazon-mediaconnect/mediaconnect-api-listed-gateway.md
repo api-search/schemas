@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"name\"\n          },\n          \"description\": \"The name of the gateway.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GatewayArn\",\n    \"GatewayState\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-listed-gateway-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

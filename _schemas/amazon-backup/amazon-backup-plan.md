@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n              },\n              \"deleteAfterDays\": {\n                \"type\": \"integer\",\n                \"description\": \"Number of days after creation that a recovery point is deleted.\"\n              }\n            }\n          }\n        }\n      }\n    },\n    \"advancedBackupSettings\": {\n      \"type\": \"array\",\n      \"description\": \"Advanced backup settings for the backup plan.\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"resourceType\": {\n            \"type\": \"string\",\n            \"description\": \"The type of AWS resource to be backed up.\"\n          },\n          \"backupOptions\": {\n            \"type\": \"object\",\n            \"additionalProperties\": {\n              \"type\": \"string\"\n            }\n          }\n        }\n      }\n    }\n  },\n  \"additionalProperties\": false\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/json-schema/amazon-backup-plan-schema.json
 tags:
-- AWS
 - Backup
 - Data Protection
 - Disaster Recovery

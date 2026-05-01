@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to include index operation details.\"\n    }\n  },\n  \"required\": [\n    \"gremlin\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/data-execute-gremlin-profile-input-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

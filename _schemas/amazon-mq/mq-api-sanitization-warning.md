@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the XML element that has been sanitized.\"\n        }\n      ]\n    },\n    \"Reason\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SanitizationWarningReason\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"reason\"\n          },\n          \"description\": \"Required. The reason for which the XML elements or attributes were sanitized.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Reason\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-sanitization-warning-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

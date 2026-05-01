@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-m2ts-audio-buffer-model-schema.json\",\n  \"title\": \"M2tsAudioBufferModel\",\n  \"description\": \"M2ts Audio Buffer Model\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ATSC\",\n    \"DVB\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-m2ts-audio-buffer-model-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"description\": \"Maximum Frame Average Light Level\\nAn integer metadata value defining the maximum average light level, in nits,\\nfor any single frame within an encoded HDR video stream or file.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-hdr10-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

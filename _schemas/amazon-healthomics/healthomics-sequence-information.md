@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  },\n    \"alignment\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The sequence's alignment setting.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Details about a sequence.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-sequence-information-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

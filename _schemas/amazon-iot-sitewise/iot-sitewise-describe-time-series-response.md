@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \"https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html\\\">ARN</a> of the time series, which has the following format.</p> <p> <code>arn:${Partition}:iotsitewise:${Region}:${Account}:time-series/${TimeSeriesId}</code> </p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"timeSeriesId\",\n    \"dataType\",\n    \"timeSeriesCreationDate\",\n    \"timeSeriesLastUpdateDate\",\n    \"timeSeriesArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-time-series-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

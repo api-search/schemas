@@ -87,7 +87,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     },\n        {\n          \"description\": \"Send messages to an Amazon Managed Streaming for Apache Kafka (Amazon MSK) or self-managed Apache Kafka cluster.\"\n        }\n      ]\n    },\n    \"openSearch\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OpenSearchAction\"\n        },\n        {\n          \"description\": \"Write data to an Amazon OpenSearch Service domain.\"\n        }\n      ]\n    },\n    \"location\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LocationAction\"\n        },\n        {\n          \"description\": \"The Amazon Location Service rule action sends device location updates from an MQTT message to an Amazon Location tracker resource.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-action-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

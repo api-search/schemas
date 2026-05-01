@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ database.</a> </p>\"\n        }\n      ]\n    },\n    \"Value\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Base64String1To4096\"\n        },\n        {\n          \"description\": \"<p/> <p>Specifies the base64-encoded value of the X.509 extension.</p>\"\n        }\n      ]\n    },\n    \"Critical\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"<p/> <p>Specifies the critical flag of the X.509 extension.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ObjectIdentifier\",\n    \"Value\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-custom-extension-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

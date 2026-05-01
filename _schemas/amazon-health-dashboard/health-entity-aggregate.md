@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ </p>\"\n        }\n      ]\n    },\n    \"count\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/count\"\n        },\n        {\n          \"description\": \"The number of entities that match the criteria for the specified events.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-entity-aggregate-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

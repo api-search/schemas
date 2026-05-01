@@ -33,7 +33,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ReferenceId
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-insight-impact-graph-service-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

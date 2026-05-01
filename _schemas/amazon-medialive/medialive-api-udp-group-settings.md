@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ stream will continue to be produced normally with repeat frames, black frames, or slate frames substituted for the absent input video.\"\n        }\n      ]\n    },\n    \"TimedMetadataId3Frame\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UdpTimedMetadataId3Frame\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timedMetadataId3Frame\"\n          },\n          \"description\": \"Indicates ID3 frame that has the timecode.\"\n        }\n      ]\n    },\n    \"TimedMetadataId3Period\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin0\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timedMetadataId3Period\"\n          },\n          \"description\": \"Timed Metadata interval in seconds.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-udp-group-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

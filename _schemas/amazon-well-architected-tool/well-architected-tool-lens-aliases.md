@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"description\": \"<p>List of lens al
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/json-schema/well-architected-tool-lens-aliases-schema.json
 tags:
 - Architecture
-- AWS
 - Best Practices
 - Cloud Governance
 - Well-Architected

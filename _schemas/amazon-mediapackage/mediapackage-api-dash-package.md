@@ -66,7 +66,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        },\n          \"description\": \"Duration (in seconds) to delay live content before presentation.\"\n        }\n      ]\n    },\n    \"UtcTiming\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UtcTiming\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"utcTiming\"\n          },\n          \"description\": \"Determines the type of UTCTiming included in the Media Presentation Description (MPD)\"\n        }\n      ]\n    },\n    \"UtcTimingUri\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"utcTimingUri\"\n          },\n          \"description\": \"Specifies the value attribute of the UTCTiming field when utcTiming is set to HTTP-ISO, HTTP-HEAD or HTTP-XSDATE\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-dash-package-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

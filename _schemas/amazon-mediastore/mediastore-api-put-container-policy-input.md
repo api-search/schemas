@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the policy.</p> </li> </ul>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ContainerName\",\n    \"Policy\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-put-container-policy-input-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

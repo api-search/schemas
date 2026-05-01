@@ -48,7 +48,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ImageId\": 
   \n        },\n        {\n          \"description\": \"The updates (if any) that are available for the specified image.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Describes a WorkSpace image.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkspaceImage\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-image-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-image-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

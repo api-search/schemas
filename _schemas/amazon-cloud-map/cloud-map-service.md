@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the service.\"\n    },\n    \"InstanceCount\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of instances that are currently associated with the service.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/json-schema/cloud-map-service-schema.json
 tags:
-- AWS
 - Cloud Map
 - Service Discovery
 - Microservices

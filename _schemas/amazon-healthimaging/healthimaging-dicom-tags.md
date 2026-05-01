@@ -51,7 +51,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ study date.\"\n        }\n      ]\n    },\n    \"DICOMStudyTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DICOMStudyTime\"\n        },\n        {\n          \"description\": \"The study time.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The DICOM attributes returned as a part of a response. Each image set has these properties as part of a search result.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-dicom-tags-schema.json
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

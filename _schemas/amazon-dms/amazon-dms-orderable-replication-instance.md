@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"AvailabilityZones\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AvailabilityZonesList\"\n        },\n        {\n          \"description\": \"List of Availability Zones for this replication instance.\"\n        }\n      ]\n    },\n    \"ReleaseStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ReleaseStatusValues\"\n        },\n        {\n          \"description\": \"<p>The value returned when the specified <code>EngineVersion</code> of the replication instance is in Beta or test mode. This indicates some features might not work as expected.</p> <note> <p>DMS supports the <code>ReleaseStatus</code> parameter in versions 3.1.4 and later.</p> </note>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-orderable-replication-instance-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

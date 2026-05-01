@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"$ref\": \"#/components/schemas/RuleGroupsNamespaceStatus\"\n        },\n        {\n          \"description\": \"The status of rule groups namespace.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"The tags of this rule groups namespace.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"arn\",\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/json-schema/amazon-managed-prometheus-create-rule-groups-namespace-response-schema.json
 tags:
-- AWS
 - Containers
 - Monitoring
 - Observability

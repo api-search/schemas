@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/MapValue\"\n          },\n          {\n            \"description\": \"The tag value used in the filter.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"An object that describes details of a map filter.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-map-filter-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

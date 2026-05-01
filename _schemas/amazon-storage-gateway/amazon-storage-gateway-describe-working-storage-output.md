@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/long\"\n        },\n        {\n          \"description\": \"The total working storage in bytes in use by the gateway. If no working storage is configured for the gateway, this field returns 0.\"\n        }\n      ]\n    },\n    \"WorkingStorageAllocatedInBytes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/long\"\n        },\n        {\n          \"description\": \"The total working storage in bytes allocated for the gateway. If no working storage is configured for the gateway, this field returns 0.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-describe-working-storage-output-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"$ref\": \"#/components/schemas/RenditionConfigurationRenditionList\"\n        },\n        {\n          \"description\": \"Indicates which renditions are recorded for a stream, if <code>renditionSelection</code> is <code>CUSTOM</code>; otherwise, this field is irrelevant. The selected renditions are recorded if they are available during the stream. If a selected rendition is unavailable, the best available rendition is recorded. For details on the resolution dimensions of each rendition, see <a href=\\\"https://docs.aws.amazon.com/ivs/latest/userguide/record-to-s3.html\\\">Auto-Record to Amazon S3</a>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-rendition-configuration-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

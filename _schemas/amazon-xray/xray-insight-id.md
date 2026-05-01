@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"pattern\": \"[0-9a-fA-F]{8}-[0-9a-
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-insight-id-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

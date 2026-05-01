@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ AWS region to transfer the device.\"\n        }\n      ]\n    },\n    \"TransferMessage\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"transferMessage\"\n          },\n          \"description\": \"An optional message for the recipient. Maximum 280 characters.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-transfer-input-device-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-pipeline-id-schema.json\",\n  \"title\": \"PipelineId\",\n  \"description\": \"Pipeline ID\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"PIPELINE_0\",\n    \"PIPELINE_1\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-pipeline-id-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

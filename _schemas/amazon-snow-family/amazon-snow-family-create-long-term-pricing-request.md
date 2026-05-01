@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ should be renewed.\"\n        }\n      ]\n    },\n    \"SnowballType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SnowballType\"\n        },\n        {\n          \"description\": \"The type of Snow Family devices to use for the long-term pricing job.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"LongTermPricingType\",\n    \"SnowballType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-create-long-term-pricing-request-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

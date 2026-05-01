@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \\\"<code>000.000.000.000/[subnet mask]</code>\\\" or optionally the shortened version \\\"<code>0.0.0.0/[subnet mask]</code>\\\".\"\n        }\n      ]\n    },\n    \"Protocol\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IpProtocol\"\n        },\n        {\n          \"description\": \"The network communication protocol used by the fleet.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"FromPort\",\n    \"ToPort\",\n    \"IpRange\",\n    \"Protocol\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-ip-permission-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

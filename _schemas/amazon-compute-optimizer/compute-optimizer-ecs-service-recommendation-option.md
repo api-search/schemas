@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"$ref\": \"#/components/schemas/SavingsOpportunity\"\n    },\n    \"projectedUtilizationMetrics\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ECSServiceProjectedUtilizationMetrics\"\n        },\n        {\n          \"description\": \" An array of objects that describe the projected utilization metrics of the Amazon ECS service recommendation option. \"\n        }\n      ]\n    },\n    \"containerRecommendations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ContainerRecommendations\"\n        },\n        {\n          \"description\": \" The CPU and memory size recommendations for the containers within the task of your Amazon ECS service. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-ecs-service-recommendation-option-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

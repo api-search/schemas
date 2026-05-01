@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Whether the graph can be reached over the internet.\",\n      \"default\": false\n    },\n    \"kmsKeyIdentifier\": {\n      \"type\": \"string\",\n      \"description\": \"KMS key identifier for encryption at rest.\"\n    },\n    \"vectorSearchConfiguration\": {\n      \"type\": \"object\",\n      \"description\": \"Vector search configuration for the graph.\",\n      \"properties\": {\n        \"dimension\": {\n          \"type\": \"integer\",\n          \"description\": \"The number of dimensions for vector embeddings.\"\n        }\n      }\n    },\n    \"replicaCount\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of read replicas.\",\n      \"default\": 0\n    },\n    \"deletionProtection\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether deletion protection is enabled.\",\n      \"default\": false\n    }\n  },\n  \"required\": [\n    \"graphName\",\n    \"provisionedMemory\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/analytics-create-graph-input-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

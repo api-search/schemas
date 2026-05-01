@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \            \"description\": \"A request to perform a DeleteItem operation\"\n          },\n          \"Update\": {\n            \"type\": \"object\",\n            \"description\": \"A request to perform an UpdateItem operation\"\n          }\n        }\n      },\n      \"maxItems\": 100\n    },\n    \"ClientRequestToken\": {\n      \"type\": \"string\",\n      \"description\": \"A unique identifier for the client request to ensure idempotency\",\n      \"minLength\": 1,\n      \"maxLength\": 36\n    }\n  },\n  \"required\": [\n    \"TransactItems\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-schema/dynamodb-openapi-transact-write-items-input-schema.json
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

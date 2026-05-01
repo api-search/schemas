@@ -81,7 +81,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ submitted, returned, or abandoned.\"\n        }\n      ]\n    },\n    \"NumberOfAssignmentsAvailable\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \" The number of assignments for this HIT that are available for Workers to accept.\"\n        }\n      ]\n    },\n    \"NumberOfAssignmentsCompleted\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \" The number of assignments for this HIT that have been approved or rejected.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-hit-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

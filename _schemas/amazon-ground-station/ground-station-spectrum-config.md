@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ </li> </ul>\"\n        }\n      ]\n    },\n    \"centerFrequency\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Frequency\"\n        },\n        {\n          \"description\": \"Center frequency of a spectral <code>Config</code>. Valid values are between 2200 to 2300 MHz and 7750 to 8400 MHz for downlink and 2025 to 2120 MHz for uplink.\"\n        }\n      ]\n    },\n    \"polarization\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Polarization\"\n        },\n        {\n          \"description\": \"Polarization of a spectral <code>Config</code>. Capturing both <code>\\\"RIGHT_HAND\\\"</code> and <code>\\\"LEFT_HAND\\\"</code> polarization requires two separate configs.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"bandwidth\",\n    \"centerFrequency\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-spectrum-config-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

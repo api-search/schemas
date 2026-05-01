@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \\u2013 The gateway rejected the capability configuration.</p> </li> </ul>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"gatewayId\",\n    \"capabilityNamespace\",\n    \"capabilityConfiguration\",\n    \"capabilitySyncStatus\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-gateway-capability-configuration-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

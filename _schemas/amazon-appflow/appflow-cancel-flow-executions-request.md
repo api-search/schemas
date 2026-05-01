@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  },\n  \"required\": [\n    \"flowName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-cancel-flow-executions-request-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

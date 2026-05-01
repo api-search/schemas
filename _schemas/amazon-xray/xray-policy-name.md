@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"pattern\": \"[\\\\w+=,.@-]+\",\n  
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-policy-name-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

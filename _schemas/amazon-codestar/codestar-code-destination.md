@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"$ref\": \"#/components/schemas/GitHubCodeDestination\"\n        },\n        {\n          \"description\": \"Information about the GitHub repository to be created in AWS CodeStar. This is where the source code files provided with the project request will be uploaded after project creation.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-schema/codestar-code-destination-schema.json
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

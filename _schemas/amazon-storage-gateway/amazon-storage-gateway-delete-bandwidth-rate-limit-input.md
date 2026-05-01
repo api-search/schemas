@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   required\": [\n    \"GatewayARN\",\n    \"BandwidthType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-delete-bandwidth-rate-limit-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

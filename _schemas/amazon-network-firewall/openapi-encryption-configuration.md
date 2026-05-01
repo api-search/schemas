@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n    \"KeyId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/KeyId\"\n        },\n        {\n          \"description\": \"The ID of the Amazon Web Services Key Management Service (KMS) customer managed key. You can use any of the key identifiers that KMS supports, unless you're using a key that's managed by another account. If you're using a key managed by another account, then specify the key ARN. For more information, see <a href=\\\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-id\\\">Key ID</a> in the <i>Amazon Web Services KMS Developer Guide</i>.\"\n        }\n      ]\n    },\n    \"Type\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EncryptionType\"\n        },\n        {\n          \"description\": \"The type of Amazon Web Services KMS key to use for encryption of your Network Firewall resources.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-encryption-configuration-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

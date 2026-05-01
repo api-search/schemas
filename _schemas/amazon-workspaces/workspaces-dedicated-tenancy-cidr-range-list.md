@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/DedicatedTenancyManagementCidrRange\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DedicatedTenancyCidrRangeList\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-dedicated-tenancy-cidr-range-list-schema.json\",\n  \"description\": \"DedicatedTenancyCidrRangeList schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-dedicated-tenancy-cidr-range-list-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

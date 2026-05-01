@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ increases the transcoding time and incurs a significant add-on cost.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"DUPLICATE_DROP\",\n    \"INTERPOLATE\",\n    \"FRAMEFORMER\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-vp9-framerate-conversion-algorithm-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

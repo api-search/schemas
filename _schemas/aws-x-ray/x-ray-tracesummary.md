@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n          \"items\": {\n            \"type\": \"string\"\n          }\n        },\n        \"AccountId\": {\n          \"type\": \"string\"\n        },\n        \"Type\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"MatchedEventTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/json-schema/x-ray-tracesummary-schema.json
 tags:
-- AWS
 - Debugging
 - Distributed Tracing
 - Microservices

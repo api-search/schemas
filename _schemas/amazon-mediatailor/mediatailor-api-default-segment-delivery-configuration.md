@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ hostname of the server that will be used to serve segments. This string must include the protocol, such as <b>https://</b>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-default-segment-delivery-configuration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

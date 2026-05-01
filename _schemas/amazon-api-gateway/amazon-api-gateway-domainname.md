@@ -61,7 +61,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   type\": \"string\",\n      \"enum\": [\n        \"AVAILABLE\",\n        \"UPDATING\",\n        \"PENDING\",\n        \"PENDING_CERTIFICATE_REIMPORT\",\n        \"PENDING_OWNERSHIP_VERIFICATION\"\n      ]\n    },\n    \"domainNameStatusMessage\": {\n      \"type\": \"string\"\n    },\n    \"securityPolicy\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"TLS_1_0\",\n        \"TLS_1_2\"\n      ]\n    },\n    \"tags\": {\n      \"type\": \"object\"\n    },\n    \"mutualTlsAuthentication\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"truststoreUri\": {\n          \"type\": \"string\"\n        },\n        \"truststoreVersion\": {\n          \"type\": \"string\"\n        },\n        \"truststoreWarnings\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-domainname-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

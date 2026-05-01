@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/RuntimeRoleArn\"\n        },\n        {\n          \"description\": \"The ARN of a runtime role for the application instance.\"\n        }\n      ]\n    },\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"Tags for the application instance.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DefaultRuntimeContextDevice\",\n    \"ManifestPayload\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-create-application-instance-request-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

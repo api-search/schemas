@@ -16,6 +16,5 @@ tags:
 - Compliance
 - Audit
 - Risk Management
-- AWS
 title: Settings
 ---

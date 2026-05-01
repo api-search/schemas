@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ is only used for protocols 6 (TCP) and 17 (UDP). </p> <p>You can specify individual ports, for example <code>1994</code> and you can specify port ranges, for example <code>1990:1994</code>. </p>\"\n        }\n      ]\n    },\n    \"Protocols\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ProtocolNumbers\"\n        },\n        {\n          \"description\": \"The protocols to inspect for, specified using each protocol's assigned internet protocol number (IANA). If not specified, this matches with any protocol. \"\n        }\n      ]\n    },\n    \"TCPFlags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TCPFlags\"\n        },\n        {\n          \"description\": \"The TCP flags and masks to inspect for. If not specified, this matches with any settings. This setting is only used for protocol 6 (TCP).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-match-attributes-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ When AWS Elemental MediaTailor serves a manifest, it reports your CDN as the source for ad segments.\"\n        }\n      ]\n    },\n    \"ContentSegmentUrlPrefix\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"A content delivery network (CDN) to cache content segments, so that content requests don\\u2019t always have to go to the origin server. First, create a rule in your CDN for the content segment origin server. Then specify the rule's name in this <code>ContentSegmentUrlPrefix</code>. When AWS Elemental MediaTailor serves a manifest, it reports your CDN as the source for content segments.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-cdn-configuration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

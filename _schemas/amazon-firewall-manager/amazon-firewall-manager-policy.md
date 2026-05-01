@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"AWS resource type in scope.\"\n    },\n    \"ExcludeResourceTags\": {\n      \"type\": \"boolean\",\n      \"description\": \"If True, resources with specified tags are excluded.\"\n    },\n    \"RemediationEnabled\": {\n      \"type\": \"boolean\",\n      \"description\": \"If True, Firewall Manager auto-remediates non-compliant resources.\"\n    },\n    \"PolicyArn\": {\n      \"type\": \"string\",\n      \"description\": \"ARN of the policy.\"\n    }\n  },\n  \"required\": [\n    \"PolicyName\",\n    \"SecurityServicePolicyData\",\n    \"ResourceType\",\n    \"ExcludeResourceTags\",\n    \"RemediationEnabled\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/json-schema/amazon-firewall-manager-policy-schema.json
 tags:
-- AWS
 - Compliance
 - Firewall
 - Network Security

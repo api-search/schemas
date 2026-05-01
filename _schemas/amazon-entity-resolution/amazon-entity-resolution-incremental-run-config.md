@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/json-schema/amazon-entity-resolution-incremental-run-config-schema.json
 tags:
 - Amazon Web Services
-- AWS
 - Data Integration
 - Data Matching
 - Entity Resolution

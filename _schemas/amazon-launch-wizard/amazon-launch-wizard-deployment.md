@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"enum\": [\n        \"COMPLETED\",\n        \"CREATING\",\n        \"FAILED\",\n        \"IN_PROGRESS\",\n        \"VALIDATING\"\n      ]\n    },\n    \"createdAt\": {\n      \"type\": \"string\",\n      \"description\": \"The time the deployment was created.\",\n      \"format\": \"date-time\"\n    },\n    \"deletedAt\": {\n      \"type\": \"string\",\n      \"description\": \"The time the deployment was deleted.\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/json-schema/amazon-launch-wizard-deployment-schema.json
 tags:
-- AWS
 - Deployment
 - Enterprise Applications
 - SAP

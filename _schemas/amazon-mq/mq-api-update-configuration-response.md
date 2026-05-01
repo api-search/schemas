@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ periods, underscores, and tildes (- . _ ~). This value must be 1-150 characters long.\"\n        }\n      ]\n    },\n    \"Warnings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOfSanitizationWarning\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"warnings\"\n          },\n          \"description\": \"The list of the first 20 warnings about the configuration XML elements or attributes that were sanitized.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-update-configuration-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

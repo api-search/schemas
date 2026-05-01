@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-eac3-drc-rf-schema.json\",\n  \"title\": \"Eac3DrcRf\",\n  \"description\": \"Eac3 Drc Rf\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"FILM_LIGHT\",\n    \"FILM_STANDARD\",\n    \"MUSIC_LIGHT\",\n    \"MUSIC_STANDARD\",\n    \"NONE\",\n    \"SPEECH\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-eac3-drc-rf-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

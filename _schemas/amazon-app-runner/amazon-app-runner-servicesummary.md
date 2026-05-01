@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   \    \"ServiceId\": {},\n    \"ServiceArn\": {},\n    \"ServiceUrl\": {},\n    \"CreatedAt\": {},\n    \"UpdatedAt\": {},\n    \"Status\": {}\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/json-schema/amazon-app-runner-servicesummary-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

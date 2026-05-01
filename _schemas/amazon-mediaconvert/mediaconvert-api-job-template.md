@@ -56,7 +56,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"name\": \"type\"\n          },\n          \"description\": \"A job template can be of two types: system or custom. System or built-in job templates can't be modified or deleted by the user.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Settings\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-job-template-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

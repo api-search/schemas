@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"A setting to enable or disable metrics at the container level.\"\n        }\n      ]\n    },\n    \"MetricPolicyRules\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MetricPolicyRules\"\n        },\n        {\n          \"description\": \"A parameter that holds an array of rules that enable metrics at the object level. This parameter is optional, but if you choose to include it, you must also include at least one rule. By default, you can include up to five rules. You can also <a href=\\\"https://console.aws.amazon.com/servicequotas/home?region=us-east-1#!/services/mediastore/quotas\\\">request a quota increase</a> to allow up to 300 rules per policy.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ContainerLevelMetrics\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-metric-policy-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

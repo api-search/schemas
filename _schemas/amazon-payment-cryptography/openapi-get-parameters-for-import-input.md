@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    {\n          \"description\": \"The wrapping key algorithm to generate a wrapping key certificate. This certificate wraps the key under import within the TR-34 key block cryptogram. <code>RSA_2048</code> is the only wrapping key algorithm allowed.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KeyMaterialType\",\n    \"WrappingKeyAlgorithm\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-get-parameters-for-import-input-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

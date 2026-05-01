@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the tags (priority:High), you specify the key for the tag that you want to remove (priority).\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Resource\",\n    \"TagKeys\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-untag-resource-input-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

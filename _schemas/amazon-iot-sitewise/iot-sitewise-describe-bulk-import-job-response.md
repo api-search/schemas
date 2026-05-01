@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"$ref\": \"#/components/schemas/JobConfiguration\"\n        },\n        {\n          \"description\": \"Contains the configuration information of a job, such as the file format used to save data in Amazon S3.\"\n        }\n      ]\n    },\n    \"jobCreationDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the job was created, in Unix epoch TIME.\"\n        }\n      ]\n    },\n    \"jobLastUpdateDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the job was last updated, in Unix epoch time.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"jobId\",\n    \"jobName\",\n    \"jobStatus\",\n    \"jobRoleArn\",\n    \"files\",\n    \"errorReportLocation\",\n    \"jobConfiguration\",\n    \"jobCreationDate\",\n    \"jobLastUpdateDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-bulk-import-job-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

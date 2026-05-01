@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"RouteKey\":
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-schema/v2-create-route-request-schema.json
 tags:
 - API Gateway
-- AWS
 - Cloud
 - REST
 - WebSocket

@@ -17,7 +17,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ {\n            \"$ref\": \"#/components/schemas/IotSiteWiseAction\"\n          },\n          {\n            \"description\": \"Sends information about the detector model instance and the event that triggered the action to an asset property in AWS IoT SiteWise .\"\n          }\n        ]\n      }\n    },\n    \"description\": \"An action to be performed when the <code>condition</code> is TRUE.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-actions-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

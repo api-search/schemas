@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     {\n          \"xml\": {\n            \"name\": \"provisionedThroughput\"\n          },\n          \"description\": \"\\n            <p>EBS volume provisioned throughput information.</p>\"\n        }\n      ]\n    },\n    \"StorageMode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StorageMode\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"storageMode\"\n          },\n          \"description\": \"\\n            <p>Controls storage mode for supported storage tiers.</p>\"\n        }\n      ]\n    },\n    \"VolumeSizeGB\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"volumeSizeGB\"\n          },\n          \"description\": \"\\n            <p>size of the EBS volume to update.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CurrentVersion\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-update-storage-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

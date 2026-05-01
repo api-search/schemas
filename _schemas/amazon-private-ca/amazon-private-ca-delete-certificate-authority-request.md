@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ </p>\"\n        }\n      ]\n    },\n    \"PermanentDeletionTimeInDays\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PermanentDeletionTimeInDays\"\n        },\n        {\n          \"description\": \"The number of days to make a CA restorable after it has been deleted. This can be anywhere from 7 to 30 days, with 30 being the default.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CertificateAuthorityArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-delete-certificate-authority-request-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

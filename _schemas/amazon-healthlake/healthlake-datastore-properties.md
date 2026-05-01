@@ -45,7 +45,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The identity provider that you selected when you created the data store.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Displays the properties of the data store, including the ID, ARN, name, and the status of the data store.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-datastore-properties-schema.json
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

@@ -56,7 +56,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"type\": \"string\",\n      \"description\": \"The ARN of the DB instance.\"\n    },\n    \"PromotionTier\": {\n      \"type\": \"integer\",\n      \"description\": \"The failover priority for the instance.\"\n    },\n    \"StorageEncrypted\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the instance storage is encrypted.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/management-db-instance-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

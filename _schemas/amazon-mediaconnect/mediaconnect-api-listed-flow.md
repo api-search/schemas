@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ at an AWS Elemental MediaConnect flow owned by another AWS account).\"\n        }\n      ]\n    },\n    \"Status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Status\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"status\"\n          },\n          \"description\": \"The current status of the flow.\"\n        }\n      ]\n    },\n    \"Maintenance\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Maintenance\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"maintenance\"\n          }\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Status\",\n    \"Description\",\n    \"SourceType\",\n    \"AvailabilityZone\",\n    \"FlowArn\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-listed-flow-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

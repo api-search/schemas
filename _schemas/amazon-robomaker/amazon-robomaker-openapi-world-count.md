@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The number of unique floorplans.\"\n        }\n      ]\n    },\n    \"interiorCountPerFloorplan\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/InteriorCountPerFloorplan\"\n        },\n        {\n          \"description\": \"The number of unique interiors per floorplan.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-count-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: WorldCount

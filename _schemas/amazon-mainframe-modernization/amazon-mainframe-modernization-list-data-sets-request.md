@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-list-data-sets-request-schema.json\",\n  \"title\": \"ListDataSetsRequest\",\n  \"description\": \"ListDataSetsRequest schema from AWS Mainframe Modernization API\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-list-data-sets-request-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the TLS inspection configuration.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-tls-inspection-configuration-metadata-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

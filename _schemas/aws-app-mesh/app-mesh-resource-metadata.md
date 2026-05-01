@@ -35,7 +35,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"arn\": {\n 
   \    },\n        {\n          \"description\": \"The unique identifier for the resource.\"\n        }\n      ]\n    },\n    \"version\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Long\"\n        },\n        {\n          \"description\": \"The version of the resource. Resources are created at version 1, and this version is incremented each time that they're updated.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"arn\",\n    \"createdAt\",\n    \"lastUpdatedAt\",\n    \"meshOwner\",\n    \"resourceOwner\",\n    \"uid\",\n    \"version\"\n  ],\n  \"description\": \"An object that represents metadata for a resource.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-resource-metadata-schema.json\",\n  \"title\": \"ResourceMetadata\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-resource-metadata-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"WorkspaceId
   \  \"description\": \"Describes the related WorkSpace. The related WorkSpace could be a standby WorkSpace or primary WorkSpace related to the specified WorkSpace.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"RelatedWorkspaceProperties\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-related-workspace-properties-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-related-workspace-properties-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

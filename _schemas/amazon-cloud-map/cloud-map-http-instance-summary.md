@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n        \"UNKNOWN\"\n      ],\n      \"description\": \"If you configured health checking in the service, the current health status of the service's instances.\"\n    },\n    \"Attributes\": {\n      \"type\": \"object\",\n      \"description\": \"Custom attributes associated with the instance.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/json-schema/cloud-map-http-instance-summary-schema.json
 tags:
-- AWS
 - Cloud Map
 - Service Discovery
 - Microservices

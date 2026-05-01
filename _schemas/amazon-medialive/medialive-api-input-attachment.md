@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"xml\": {\n            \"name\": \"inputAttachmentName\"\n          },\n          \"description\": \"User-specified name for the attachment. This is required if the user wants to use this input in an input switch action.\"\n        }\n      ]\n    },\n    \"InputId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"inputId\"\n          },\n          \"description\": \"The ID of the input\"\n        }\n      ]\n    },\n    \"InputSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/InputSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"inputSettings\"\n          },\n          \"description\": \"Settings of an input (caption selector, etc.)\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-attachment-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

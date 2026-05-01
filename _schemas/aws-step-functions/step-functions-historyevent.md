@@ -74,7 +74,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {},\n    \"taskTimedOutEventDetails\": {},\n    \"executionFailedEventDetails\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"error\": {},\n        \"cause\": {}\n      },\n      \"description\": \"Contains details about an execution failure event.\"\n    },\n    \"executionStartedEventDetails\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"input\": {},\n        \"inputDetails\": {},\n        \"roleArn\": {}\n      },\n      \"description\": \"Contains details about the start of the execution.\"\n    }\n  },\n  \"required\": [\n    \"timestamp\",\n    \"type\",\n    \"id\"\n  ],\n  \"description\": \"Contains details about the events of an execution.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/json-schema/step-functions-historyevent-schema.json
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

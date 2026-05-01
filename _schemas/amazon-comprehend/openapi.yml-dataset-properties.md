@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"A description of the status of the dataset.\"\n        }\n      ]\n    },\n    \"NumberOfDocuments\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NumberOfDocuments\"\n        },\n        {\n          \"description\": \"The number of documents in the dataset.\"\n        }\n      ]\n    },\n    \"CreationTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"Creation time of the dataset.\"\n        }\n      ]\n    },\n    \"EndTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"Time when the data from the dataset becomes available in the data lake.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-dataset-properties-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

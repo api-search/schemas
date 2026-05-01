@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DatastoreStatus\"\n        },\n        {\n          \"description\": \"The status of the data store that the user has requested to be deleted. \"\n        }\n      ]\n    },\n    \"DatastoreEndpoint\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BoundedLengthString\"\n        },\n        {\n          \"description\": \"The AWS endpoint for the data store the user has requested to be deleted.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-delete-fhir-datastore-response-schema.json
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

@@ -26,7 +26,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"httpRetryEv
   \ see the <a href=\\\"https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/router_filter#x-envoy-retry-on\\\">Envoy documentation</a>.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-http-retry-policy-schema.json\",\n  \"title\": \"HttpRetryPolicy\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-http-retry-policy-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

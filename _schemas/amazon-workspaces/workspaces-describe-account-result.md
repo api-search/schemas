@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"DedicatedTe
   ,\n  \"title\": \"DescribeAccountResult\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-describe-account-result-schema.json\",\n  \"description\": \"DescribeAccountResult schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-describe-account-result-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

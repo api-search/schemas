@@ -16,7 +16,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"SamplingRuleU
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-update-sampling-rule-request-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

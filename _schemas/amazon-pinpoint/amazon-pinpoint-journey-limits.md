@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the journey. The maximum value is 100. To allow participants to enter the journey an unlimited number of times, set this value to 0.\"\n        }\n      ]\n    },\n    \"MessagesPerSecond\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"description\": \"The maximum number of messages that the journey can send each second.\"\n        }\n      ]\n    },\n    \"EndpointReentryInterval\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"Minimum time that must pass before an endpoint can re-enter a given journey. The duration should use an ISO 8601 format, such as PT1H. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-journey-limits-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

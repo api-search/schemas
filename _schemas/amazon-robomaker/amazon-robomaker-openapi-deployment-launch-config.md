@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The launch file name.\"\n        }\n      ]\n    },\n    \"postLaunchFile\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Path\"\n        },\n        {\n          \"description\": \"The deployment post-launch file. This file will be executed after the launch file.\"\n        }\n      ]\n    },\n    \"environmentVariables\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EnvironmentVariableMap\"\n        },\n        {\n          \"description\": \"An array of key/value pairs specifying environment variables for the robot application\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"packageName\",\n    \"launchFile\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-launch-config-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: DeploymentLaunchConfig

@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     ]\n      },\n      \"value\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/NonEmptyString\"\n          },\n          {\n            \"description\": \"The tag value associated with the coverage map filter.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains details of a coverage map filter.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-coverage-map-filter-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

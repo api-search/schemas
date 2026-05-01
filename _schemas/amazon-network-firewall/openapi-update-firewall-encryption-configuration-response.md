@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ a new token. Reapply your changes as needed, then try the operation again using the new token. </p>\"\n        }\n      ]\n    },\n    \"EncryptionConfiguration\": {\n      \"$ref\": \"#/components/schemas/EncryptionConfiguration\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-update-firewall-encryption-configuration-response-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

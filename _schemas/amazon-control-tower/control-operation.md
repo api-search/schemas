@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n        \"DISABLE_CONTROL\",\n        \"UPDATE_ENABLED_CONTROL\",\n        \"RESET_ENABLED_CONTROL\"\n      ]\n    },\n    \"startTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The status of the operation.\",\n      \"enum\": [\n        \"SUCCEEDED\",\n        \"FAILED\",\n        \"IN_PROGRESS\"\n      ]\n    },\n    \"statusMessage\": {\n      \"type\": \"string\",\n      \"description\": \"An error message if the operation failed.\"\n    },\n    \"targetIdentifier\": {\n      \"type\": \"string\",\n      \"description\": \"The ARN of the organizational unit.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-schema/control-operation-schema.json
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

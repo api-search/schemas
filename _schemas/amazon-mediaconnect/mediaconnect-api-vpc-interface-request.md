@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      },\n          \"description\": \"Subnet must be in the AZ of the Flow\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SubnetId\",\n    \"SecurityGroupIds\",\n    \"RoleArn\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-vpc-interface-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

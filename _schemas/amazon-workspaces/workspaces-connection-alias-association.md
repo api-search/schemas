@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Association
   \n        },\n        {\n          \"description\": \"The identifier of the connection alias association. You use the connection identifier in the DNS TXT record when you're configuring your DNS routing policies.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Describes a connection alias association that is used for cross-Region redirection. For more information, see <a href=\\\"https://docs.aws.amazon.com/workspaces/latest/adminguide/cross-region-redirection.html\\\"> Cross-Region Redirection for Amazon WorkSpaces</a>.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ConnectionAliasAssociation\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-connection-alias-association-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-connection-alias-association-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

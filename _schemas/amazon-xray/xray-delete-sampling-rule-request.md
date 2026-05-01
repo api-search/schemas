@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"title\": \"DeleteSamplingRuleReque
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-delete-sampling-rule-request-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

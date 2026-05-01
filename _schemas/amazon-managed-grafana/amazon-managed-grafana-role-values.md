@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"$ref\": \"#/components/schemas/RoleValueList\"\n        },\n        {\n          \"description\": \"A list of groups from the SAML assertion attribute to grant the Grafana <code>Editor</code> role to.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-role-values-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

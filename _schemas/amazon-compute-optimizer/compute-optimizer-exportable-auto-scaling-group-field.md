@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"RecommendationOptionsProjectedUtilizationMetricsMemoryMaximum\",\n    \"RecommendationOptionsPerformanceRisk\",\n    \"RecommendationOptionsOnDemandPrice\",\n    \"RecommendationOptionsStandardOneYearNoUpfrontReservedPrice\",\n    \"RecommendationOptionsStandardThreeYearNoUpfrontReservedPrice\",\n    \"RecommendationOptionsVcpus\",\n    \"RecommendationOptionsMemory\",\n    \"RecommendationOptionsStorage\",\n    \"RecommendationOptionsNetwork\",\n    \"LastRefreshTimestamp\",\n    \"CurrentPerformanceRisk\",\n    \"RecommendationOptionsSavingsOpportunityPercentage\",\n    \"RecommendationOptionsEstimatedMonthlySavingsCurrency\",\n    \"RecommendationOptionsEstimatedMonthlySavingsValue\",\n    \"EffectiveRecommendationPreferencesCpuVendorArchitectures\",\n    \"EffectiveRecommendationPreferencesEnhancedInfrastructureMetrics\",\n    \"EffectiveRecommendationPreferencesInferredWorkloadTypes\",\n    \"InferredWorkloadTypes\",\n    \"RecommendationOptionsMigrationEffort\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-exportable-auto-scaling-group-field-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

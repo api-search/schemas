@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"type\": \"string\",\n          \"description\": \"The JSON document that describes the policy.\"\n        },\n        \"defaultVersionId\": {\n          \"type\": \"string\",\n          \"description\": \"The default version of the policy.\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/amazon-iot-core-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

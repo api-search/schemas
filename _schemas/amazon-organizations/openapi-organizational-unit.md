@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/openapi-organizational-unit-schema.json
 tags:
 - Account Management
-- AWS
 - Consolidated Billing
 - Governance
 - Multi-Account

@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   name\": \"fragmentLengthControl\"\n          },\n          \"description\": \"Specify how you want MediaConvert to determine the fragment length. Choose Exact (EXACT) to have the encoder use the exact length that you specify with the setting Fragment length (FragmentLength). This might result in extra I-frames. Choose Multiple of GOP (GOP_MULTIPLE) to have the encoder round up the segment lengths to match the next GOP boundary.\"\n        }\n      ]\n    },\n    \"ManifestEncoding\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MsSmoothManifestEncoding\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"manifestEncoding\"\n          },\n          \"description\": \"Use Manifest encoding (MsSmoothManifestEncoding) to specify the encoding format for the server and client manifest. Valid options are utf8 and utf16.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-ms-smooth-group-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

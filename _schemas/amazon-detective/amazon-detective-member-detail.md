@@ -51,7 +51,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"InvitationType\": {\n      \"type\": \"string\",\n      \"description\": \"The type of behavior graph membership.\",\n      \"enum\": [\n        \"INVITATION\",\n        \"ORGANIZATION\"\n      ],\n      \"example\": \"INVITATION\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-member-detail-schema.json
 tags:
-- AWS
 - Forensics
 - Investigation
 - Security

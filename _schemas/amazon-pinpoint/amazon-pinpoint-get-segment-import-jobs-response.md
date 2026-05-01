@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-get-segment-import-jobs-response-schema.json\",\n  \"title\": \"GetSegmentImportJobsResponse\",\n  \"description\": \"GetSegmentImportJobsResponse schema from Amazon Pinpoint API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ImportJobsResponse\": {\n      \"$ref\": \"#/components/schemas/ImportJobsResponse\"\n    }\n  },\n  \"required\": [\n    \"ImportJobsResponse\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-get-segment-import-jobs-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

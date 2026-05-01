@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        \"Version\": {\n          \"type\": \"integer\"\n        },\n        \"Attributes\": {\n          \"type\": \"object\"\n        }\n      },\n      \"required\": [\n        \"ResourceARN\",\n        \"Priority\",\n        \"FixedRate\",\n        \"ReservoirSize\",\n        \"ServiceName\",\n        \"ServiceType\",\n        \"Host\",\n        \"HTTPMethod\",\n        \"URLPath\",\n        \"Version\"\n      ]\n    },\n    \"CreatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"ModifiedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/json-schema/x-ray-samplingrulerecord-schema.json
 tags:
-- AWS
 - Debugging
 - Distributed Tracing
 - Microservices

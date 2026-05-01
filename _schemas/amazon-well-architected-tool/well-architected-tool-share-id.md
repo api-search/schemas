@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"pattern\": \"[0-9a-f]{32}\",\n  \"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/json-schema/well-architected-tool-share-id-schema.json
 tags:
 - Architecture
-- AWS
 - Best Practices
 - Cloud Governance
 - Well-Architected

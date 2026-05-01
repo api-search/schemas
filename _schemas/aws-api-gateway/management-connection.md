@@ -23,7 +23,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ConnectedAt
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/json-schema/management-connection-schema.json
 tags:
 - API Gateway
-- AWS
 - Cloud
 - REST
 - WebSocket

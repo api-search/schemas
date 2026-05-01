@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The alias of the instance.\",\n      \"example\": \"my-contact-center\"\n    },\n    \"InstanceStatus\": {\n      \"type\": \"string\",\n      \"description\": \"The state of the instance.\",\n      \"example\": \"ACTIVE\"\n    },\n    \"InboundCallsEnabled\": {\n      \"type\": \"boolean\",\n      \"example\": true\n    },\n    \"OutboundCallsEnabled\": {\n      \"type\": \"boolean\",\n      \"example\": true\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/instance-summary-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

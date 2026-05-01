@@ -36,7 +36,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"UsagePlan\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"The identifier of the usage plan.\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the usage plan.\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"apiStages\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/ApiStage\"\n      }\n    },\n    \"throttle\": {\n      \"$ref\": \"#/definitions/ThrottleSettings\"\n    },\n    \"quota\": {\n      \"$ref\": \"#/definitions/QuotaSettings\"\n    },\n    \"productCode\": {\n      \"type\": \"string\"\n    },\n    \"tags\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/json-schema/amazon-api-gateway-usageplan-schema.json
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

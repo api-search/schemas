@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   },\n        {\n          \"description\": \"Specifies X.509 extension information for a certificate.\"\n        }\n      ]\n    },\n    \"Subject\": {\n      \"$ref\": \"#/components/schemas/ASN1Subject\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-api-passthrough-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

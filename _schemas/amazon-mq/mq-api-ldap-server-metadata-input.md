@@ -51,7 +51,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"UserSearchMatching\",\n    \"UserBase\",\n    \"RoleSearchMatching\",\n    \"ServiceAccountUsername\",\n    \"RoleBase\",\n    \"ServiceAccountPassword\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-ldap-server-metadata-input-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

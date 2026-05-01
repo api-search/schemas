@@ -97,7 +97,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   >IAM dashboard</a> in the Amazon Web Services Management Console. Learn more about using on-box credentials for your game servers at <a href=\\\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-resources.html\\\"> Access external resources from a game server</a>.\"\n        }\n      ]\n    },\n    \"CertificateConfiguration\": {\n      \"$ref\": \"#/components/schemas/CertificateConfiguration\"\n    },\n    \"ComputeType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComputeType\"\n        },\n        {\n          \"description\": \"The type of compute resource used to host your game servers. You can use your own compute resources with Amazon GameLift Anywhere or use Amazon EC2 instances with managed Amazon GameLift.\"\n        }\n      ]\n    },\n    \"AnywhereConfiguration\": {\n      \"$ref\": \"#/components/schemas/AnywhereConfiguration\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-fleet-attributes-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

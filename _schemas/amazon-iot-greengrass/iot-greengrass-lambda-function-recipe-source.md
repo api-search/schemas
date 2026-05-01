@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The component versions on which this Lambda function component depends.\"\n        }\n      ]\n    },\n    \"componentLambdaParameters\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LambdaExecutionParameters\"\n        },\n        {\n          \"description\": \"The system and runtime parameters for the Lambda function as it runs on the Greengrass core device.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"lambdaArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-lambda-function-recipe-source-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

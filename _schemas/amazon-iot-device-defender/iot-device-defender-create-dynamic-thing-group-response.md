@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The dynamic thing group ID.\"\n        }\n      ]\n    },\n    \"indexName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IndexName\"\n        },\n        {\n          \"description\": \"The dynamic thing group index name.\"\n        }\n      ]\n    },\n    \"queryString\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/QueryString\"\n        },\n        {\n          \"description\": \"The dynamic thing group search query string.\"\n        }\n      ]\n    },\n    \"queryVersion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/QueryVersion\"\n        },\n        {\n          \"description\": \"The dynamic thing group query version.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-create-dynamic-thing-group-response-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

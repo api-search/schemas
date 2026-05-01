@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CreateSimulationJobRequests\"\n        },\n        {\n          \"description\": \"A list of simulation job requests to create in the batch.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"A map that contains tag keys and tag values that are attached to the deployment job batch.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"createSimulationJobRequests\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-start-simulation-job-batch-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: StartSimulationJobBatchRequest

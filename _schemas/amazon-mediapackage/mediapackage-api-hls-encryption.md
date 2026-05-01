@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"xml\": {\n            \"name\": \"spekeKeyProvider\"\n          }\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SpekeKeyProvider\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-hls-encryption-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

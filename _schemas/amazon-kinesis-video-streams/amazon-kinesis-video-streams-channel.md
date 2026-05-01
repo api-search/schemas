@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"description\": \"The status of the signaling channel.\",\n      \"example\": \"ACTIVE\",\n      \"enum\": [\n        \"CREATING\",\n        \"ACTIVE\",\n        \"UPDATING\",\n        \"DELETING\"\n      ]\n    },\n    \"CreationTime\": {\n      \"type\": \"string\",\n      \"description\": \"When the channel was created.\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/json-schema/amazon-kinesis-video-streams-channel-schema.json
 tags:
-- AWS
 - IoT
 - Machine Learning
 - Media

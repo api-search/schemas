@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ResourceArn\",\n    \"Policy\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-put-resource-policy-request-schema.json
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

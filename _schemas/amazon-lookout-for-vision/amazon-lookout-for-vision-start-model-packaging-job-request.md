@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for you. \"\n        }\n      ]\n    },\n    \"Configuration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ModelPackagingConfiguration\"\n        },\n        {\n          \"description\": \"The configuration for the model packaging job. \"\n        }\n      ]\n    },\n    \"Description\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ModelPackagingJobDescription\"\n        },\n        {\n          \"description\": \"A description for the model packaging job. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ModelVersion\",\n    \"Configuration\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-start-model-packaging-job-request-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

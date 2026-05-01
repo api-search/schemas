@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ use <code>NextMarker</code> as the value for <code>Marker</code> to retrieve the next set of file system associations.\"\n        }\n      ]\n    },\n    \"FileSystemAssociationSummaryList\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FileSystemAssociationSummaryList\"\n        },\n        {\n          \"description\": \"An array of information about the Amazon FSx gateway's file system associations.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-list-file-system-associations-output-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

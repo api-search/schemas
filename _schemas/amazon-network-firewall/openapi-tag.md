@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ are case-sensitive.\"\n        }\n      ]\n    },\n    \"Value\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagValue\"\n        },\n        {\n          \"description\": \"The part of the key:value pair that defines a tag. You can use a tag value to describe a specific value within a category, such as \\\"companyA\\\" or \\\"companyB.\\\" Tag values are case-sensitive.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Key\",\n    \"Value\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-tag-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

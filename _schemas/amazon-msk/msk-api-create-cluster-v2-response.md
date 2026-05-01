@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the MSK cluster.</p>\"\n        }\n      ]\n    },\n    \"State\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ClusterState\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"state\"\n          },\n          \"description\": \"\\n            <p>The state of the cluster. The possible states are ACTIVE, CREATING, DELETING, FAILED, HEALING, MAINTENANCE, REBOOTING_BROKER, and UPDATING.</p>\"\n        }\n      ]\n    },\n    \"ClusterType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ClusterType\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"clusterType\"\n          },\n          \"description\": \"\\n            <p>The type of the cluster. The possible states are PROVISIONED or SERVERLESS.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-create-cluster-v2-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ARN\"\n        },\n        {\n          \"description\": \"The ARN associated to the unique identifier for the entity referenced in this request.\"\n        }\n      ]\n    },\n    \"LastModifiedDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DateTimeISO8601\"\n        },\n        {\n          \"description\": \"The last modified date of the entity, in ISO 8601 format (2018-02-27T13:45:22Z).\"\n        }\n      ]\n    },\n    \"Details\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Json\"\n        },\n        {\n          \"description\": \"This stringified JSON object includes the details of the entity.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-describe-entity-response-schema.json
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

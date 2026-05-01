@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  {\n          \"$ref\": \"#/components/schemas/EntityRecognitionConfig\"\n        },\n        {\n          \"description\": \"Configuration required for an entity recognition model.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"LanguageCode\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-task-config-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

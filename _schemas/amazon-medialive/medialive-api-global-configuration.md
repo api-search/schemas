@@ -33,7 +33,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"$ref\": \"#/components/schemas/GlobalConfigurationLowFramerateInputs\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"supportLowFramerateInputs\"\n          },\n          \"description\": \"Adjusts video input buffer for streams with very low video framerates. This is commonly set to enabled for music channels with less than one video frame per second.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-global-configuration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

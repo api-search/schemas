@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/ComponentVersion\"\n        },\n        {\n          \"description\": \" The version of the component. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-greengrass-output-details-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"resourceSpecification\"\n          },\n          \"description\": \"A definition of the amount of outbound bandwidth that you would be reserving if you purchase the offering.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CurrencyCode\",\n    \"OfferingArn\",\n    \"OfferingDescription\",\n    \"DurationUnits\",\n    \"Duration\",\n    \"PricePerUnit\",\n    \"ResourceSpecification\",\n    \"PriceUnits\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-offering-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

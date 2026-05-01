@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ (ARNs)</a> in the <i>AWS General Reference</i>. \"\n          }\n        ]\n      }\n    },\n    \"description\": \" Contains information about the routed resource. \"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-routed-resources-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

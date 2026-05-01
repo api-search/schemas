@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"description\": \"The tags that you want to add to the resource. You can tag resources with a key-value pair or with only a key.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Arn\",\n    \"Tags\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-tag-resource-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ how you set Acceleration (AccelerationMode). When the service runs your job without accelerated transcoding, AccelerationStatus is NOT_ACCELERATED.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"NOT_APPLICABLE\",\n    \"IN_PROGRESS\",\n    \"ACCELERATED\",\n    \"NOT_ACCELERATED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-acceleration-status-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

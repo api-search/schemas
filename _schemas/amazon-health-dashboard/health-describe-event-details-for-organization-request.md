@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ information in. English (en) is the default and the only supported value at this time.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"organizationEventDetailFilters\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-describe-event-details-for-organization-request-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        },\n        {\n          \"description\": \"The registry for the Amazon ECR container image.\"\n        }\n      ]\n    },\n    \"repositoryName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NonEmptyString\"\n        },\n        {\n          \"description\": \"The name of the repository the Amazon ECR container image resides in.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"imageHash\",\n    \"registry\",\n    \"repositoryName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-aws-ecr-container-image-details-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

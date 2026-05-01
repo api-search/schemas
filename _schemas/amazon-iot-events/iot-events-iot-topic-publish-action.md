@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"description\": \"You can configure the action payload when you publish a message to an AWS IoT Core topic.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"mqttTopic\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-iot-topic-publish-action-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

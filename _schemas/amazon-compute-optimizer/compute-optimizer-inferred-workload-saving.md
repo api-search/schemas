@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ </li> </ul>\"\n        }\n      ]\n    },\n    \"estimatedMonthlySavings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EstimatedMonthlySavings\"\n        },\n        {\n          \"description\": \"An object that describes the estimated monthly savings amount possible by adopting Compute Optimizer recommendations for a given resource. This is based on the On-Demand instance pricing.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-inferred-workload-saving-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

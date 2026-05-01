@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"eventId\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"commitNum\": {\n                \"type\": \"integer\"\n              },\n              \"opNum\": {\n                \"type\": \"integer\"\n              }\n            }\n          },\n          \"data\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"stmt\": {\n                \"type\": \"string\",\n                \"description\": \"The N-Quads statement.\"\n              }\n            }\n          },\n          \"op\": {\n            \"type\": \"string\",\n            \"enum\": [\n              \"ADD\",\n              \"REMOVE\"\n            ]\n          },\n          \"isLastOp\": {\n            \"type\": \"boolean\"\n          }\n        }\n      }\n    },\n    \"totalRecords\": {\n      \"type\": \"integer\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/data-sparql-stream-output-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

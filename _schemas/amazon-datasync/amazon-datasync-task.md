@@ -52,7 +52,6 @@ source_json: "{\n  \"$id\": \"https://schema.api.io/amazon-datasync/amazon-datas
   : 256\n        },\n        \"Value\": {\n          \"type\": \"string\",\n          \"maxLength\": 256\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/json-schema/amazon-datasync-task-schema.json
 tags:
-- AWS
 - Data Transfer
 - Migration
 - Storage

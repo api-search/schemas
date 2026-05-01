@@ -54,7 +54,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"roleArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Arn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the role associated with the application.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ApplicationLifecycle\"\n        },\n        {\n          \"description\": \"The status of the application.\"\n        }\n      ]\n    },\n    \"versionStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ApplicationVersionLifecycle\"\n        },\n        {\n          \"description\": \"Indicates the status of the latest version of the application.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"applicationArn\",\n    \"applicationId\",\n    \"applicationVersion\",\n    \"creationTime\",\n    \"engineType\",\n    \"name\",\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-application-summary-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

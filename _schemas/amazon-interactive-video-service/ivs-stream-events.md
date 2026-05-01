@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/String\"\n          },\n          {\n            \"description\": \"Logical group for certain events.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Object specifying a stream\\u2019s events. For a list of events, see <a href=\\\"https://docs.aws.amazon.com/ivs/latest/userguide/eventbridge.html\\\">Using Amazon EventBridge with Amazon IVS</a>.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-stream-events-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

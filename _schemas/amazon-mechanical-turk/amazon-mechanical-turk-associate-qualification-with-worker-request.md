@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ included with submitted HIT assignments and Qualification requests. \"\n        }\n      ]\n    },\n    \"IntegerValue\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The value of the Qualification to assign.\"\n        }\n      ]\n    },\n    \"SendNotification\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \" Specifies whether to send a notification email message to the Worker saying that the qualification was assigned to the Worker. Note: this is true by default. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"QualificationTypeId\",\n    \"WorkerId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-associate-qualification-with-worker-request-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Number of active instances that are not currently hosting a game session.\"\n        }\n      ]\n    },\n    \"TERMINATING\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WholeNumber\"\n        },\n        {\n          \"description\": \"Number of instances that are no longer active but haven't yet been terminated.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-ec2-instance-counts-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

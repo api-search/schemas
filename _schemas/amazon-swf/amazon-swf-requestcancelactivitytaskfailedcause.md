@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"enum\": [\n    \"ACTIVITY_ID_UNKNO
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-requestcancelactivitytaskfailedcause-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: RequestCancelActivityTaskFailedCause

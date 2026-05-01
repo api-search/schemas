@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ a recurring job, this value indicates the error status of the job's most recent run.\"\n        }\n      ]\n    },\n    \"name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The custom name of the job.\"\n        }\n      ]\n    },\n    \"userPausedDetails\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UserPausedDetails\"\n        },\n        {\n          \"description\": \"If the current status of the job is USER_PAUSED, specifies when the job was paused and when the job or job run will expire and be cancelled if it isn't resumed. This value is present only if the value for jobStatus is USER_PAUSED.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-job-summary-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

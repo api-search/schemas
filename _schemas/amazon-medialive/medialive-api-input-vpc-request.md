@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ subnetIds. If none are specified then the VPC default security group will be used.\\n\"\n        }\n      ]\n    },\n    \"SubnetIds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOf__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"subnetIds\"\n          },\n          \"description\": \"A list of 2 VPC subnet IDs from the same VPC.\\nSubnet IDs must be mapped to two unique availability zones (AZ).\\n\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SubnetIds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-vpc-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

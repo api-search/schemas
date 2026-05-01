@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ from one of these streams, then the static metadata settings will be used.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-ac3-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

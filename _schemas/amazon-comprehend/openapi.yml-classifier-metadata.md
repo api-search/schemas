@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The number of documents in the input data that were used to test the classifier. Typically this is 10 to 20 percent of the input documents, up to 10,000 documents.\"\n        }\n      ]\n    },\n    \"EvaluationMetrics\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ClassifierEvaluationMetrics\"\n        },\n        {\n          \"description\": \" Describes the result metrics for the test data associated with an documentation classifier.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-classifier-metadata-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

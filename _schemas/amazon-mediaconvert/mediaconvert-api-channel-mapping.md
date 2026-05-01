@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ (no attenuation or amplification). Use InputChannels or InputChannelsFineTune to specify your remix values. Don't use both.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"OutputChannels\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOfOutputChannelMapping\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"outputChannels\"\n          },\n          \"description\": \"In your JSON job specification, include one child of OutputChannels for each audio channel that you want in your output. Each child should contain one instance of InputChannels or InputChannelsFineTune.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-channel-mapping-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

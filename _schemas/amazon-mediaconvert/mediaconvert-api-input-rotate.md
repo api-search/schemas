@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   type\": \"string\",\n  \"enum\": [\n    \"DEGREE_0\",\n    \"DEGREES_90\",\n    \"DEGREES_180\",\n    \"DEGREES_270\",\n    \"AUTO\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-input-rotate-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

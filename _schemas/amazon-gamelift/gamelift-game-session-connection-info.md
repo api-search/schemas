@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to a game session that is running on a TLS-enabled fleet, you must use the DNS name, not the IP address.</p>\"\n        }\n      ]\n    },\n    \"Port\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PositiveInteger\"\n        },\n        {\n          \"description\": \"The port number for the game session. To connect to a Amazon GameLift game server, an app needs both the IP address and port number.\"\n        }\n      ]\n    },\n    \"MatchedPlayerSessions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MatchedPlayerSessionList\"\n        },\n        {\n          \"description\": \"A collection of player session IDs, one for each player ID that was included in the original matchmaking request. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-game-session-connection-info-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

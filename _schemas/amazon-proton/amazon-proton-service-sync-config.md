@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"#/components/schemas/RepositoryName\"\n        },\n        {\n          \"description\": \"The name of the code repository that holds the service code Proton will sync with.\"\n        }\n      ]\n    },\n    \"repositoryProvider\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RepositoryProvider\"\n        },\n        {\n          \"description\": \"The name of the repository provider that holds the repository Proton will sync with.\"\n        }\n      ]\n    },\n    \"serviceName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceName\"\n        },\n        {\n          \"description\": \"The name of the service that the service instance is added to.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"branch\",\n    \"filePath\",\n    \"repositoryName\",\n    \"repositoryProvider\",\n    \"serviceName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-sync-config-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

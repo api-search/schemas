@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"EMBEDDED_PLUS_SCTE20\",\n    \"IMSC\",\n    \"SCTE20_PLUS_EMBEDDED\",\n    \"SCC\",\n    \"SRT\",\n    \"SMI\",\n    \"TELETEXT\",\n    \"TTML\",\n    \"WEBVTT\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-caption-destination-type-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

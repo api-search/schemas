@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <code>GeneralName</code> as a URI.\"\n        }\n      ]\n    },\n    \"IpAddress\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String39\"\n        },\n        {\n          \"description\": \"Represents <code>GeneralName</code> as an IPv4 or IPv6 address.\"\n        }\n      ]\n    },\n    \"RegisteredId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CustomObjectIdentifier\"\n        },\n        {\n          \"description\": \" Represents <code>GeneralName</code> as an object identifier (OID).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-general-name-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

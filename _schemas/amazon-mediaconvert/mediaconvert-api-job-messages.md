@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"description\": \"List of messages that warn about conditions that might cause your job not to run or to fail.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-job-messages-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

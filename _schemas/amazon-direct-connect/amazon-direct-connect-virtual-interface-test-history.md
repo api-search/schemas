@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  {\n          \"$ref\": \"#/components/schemas/StartTime\"\n        },\n        {\n          \"description\": \"The time that the virtual interface moves to the DOWN state.\"\n        }\n      ]\n    },\n    \"endTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EndTime\"\n        },\n        {\n          \"description\": \"The time that the virtual interface moves out of the DOWN state.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/json-schema/amazon-direct-connect-virtual-interface-test-history-schema.json
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

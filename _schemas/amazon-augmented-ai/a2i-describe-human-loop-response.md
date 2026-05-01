@@ -16,6 +16,5 @@ tags:
 - Human In The Loop
 - Machine Learning
 - AI Review
-- AWS
 title: DescribeHumanLoopResponse
 ---

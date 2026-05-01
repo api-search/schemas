@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WorkspaceId\"\n        },\n        {\n          \"description\": \"The ID of the workspace that the key is valid for.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"key\",\n    \"keyName\",\n    \"workspaceId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-create-workspace-api-key-response-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

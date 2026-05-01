@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Specifies whether to enable the GCM channel for the application.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ApiKey\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-gcm-channel-request-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ ]\n    },\n    \"startTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RunTimestamp\"\n        },\n        {\n          \"description\": \"When the run started.\"\n        }\n      ]\n    },\n    \"stopTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RunTimestamp\"\n        },\n        {\n          \"description\": \"When the run stopped.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"A workflow run.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-run-list-item-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

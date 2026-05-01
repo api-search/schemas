@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"string\",\n      \"enum\": [\n        \"rgcn\",\n        \"kge\",\n        \"transe\",\n        \"distmult\",\n        \"rotate\"\n      ]\n    },\n    \"instanceType\": {\n      \"type\": \"string\",\n      \"default\": \"ml.m5.xlarge\"\n    },\n    \"instanceCount\": {\n      \"type\": \"integer\",\n      \"default\": 1\n    },\n    \"volumeEncryptionKMSKey\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/data-create-ml-endpoint-input-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

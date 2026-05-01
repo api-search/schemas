@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n            \"type\": \"string\"\n          },\n          \"ConsistentRead\": {\n            \"type\": \"boolean\"\n          },\n          \"ExpressionAttributeNames\": {\n            \"type\": \"object\",\n            \"additionalProperties\": {\n              \"type\": \"string\"\n            }\n          }\n        }\n      }\n    }\n  },\n  \"required\": [\n    \"RequestItems\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-schema/dynamodb-openapi-batch-get-item-input-schema.json
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

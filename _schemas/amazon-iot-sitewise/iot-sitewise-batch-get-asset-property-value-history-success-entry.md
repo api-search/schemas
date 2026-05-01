@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      {\n          \"description\": \"The requested historical values for the specified asset property.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"entryId\",\n    \"assetPropertyValueHistory\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-batch-get-asset-property-value-history-success-entry-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

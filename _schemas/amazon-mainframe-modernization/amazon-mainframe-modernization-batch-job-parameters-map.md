@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-batch-job-parameters-map-schema.json\",\n  \"title\": \"BatchJobParametersMap\",\n  \"description\": \"Job parameters are optional. Can contain up to 500 entries.\",\n  \"type\": \"object\",\n  \"additionalProperties\": {\n    \"$ref\": \"#/components/schemas/BatchParamValue\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-batch-job-parameters-map-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

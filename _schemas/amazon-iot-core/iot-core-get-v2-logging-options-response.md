@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    {\n          \"description\": \"Disables all logs.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-get-v2-logging-options-response-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

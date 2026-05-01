@@ -83,7 +83,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    },\n    \"code\": {\n      \"type\": \"object\"\n    },\n    \"executionRole\": {\n      \"type\": \"string\"\n    },\n    \"lastModifiedTimestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"savedownStorageConfiguration\": {\n      \"type\": \"object\"\n    },\n    \"azMode\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"SINGLE\",\n        \"MULTI\"\n      ]\n    },\n    \"availabilityZoneId\": {\n      \"type\": \"string\"\n    },\n    \"createdTimestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"tags\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"clusterName\",\n    \"clusterType\",\n    \"capacityConfiguration\",\n    \"releaseLabel\",\n    \"azMode\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/json-schema/amazon-finspace-kx-cluster-schema.json
 tags:
-- AWS
 - Capital Markets
 - Data Analytics
 - Data Management

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/json-schema/ebs-openapi-describe-volumes-result-schema.json
 tags:
 - Amazon Web Services
-- AWS
 - Block Storage
 - EBS
 - EC2

@@ -54,7 +54,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The timestamp when you created the collector, in the following format: <code>2022-01-24T19:04:02.596113Z</code> \"\n        }\n      ]\n    },\n    \"ModifiedDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The timestamp when DMS last modified the collector, in the following format: <code>2022-01-24T19:04:02.596113Z</code> \"\n        }\n      ]\n    },\n    \"InventoryData\": {\n      \"$ref\": \"#/components/schemas/InventoryData\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-collector-response-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

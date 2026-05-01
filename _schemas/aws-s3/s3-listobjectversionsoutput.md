@@ -51,7 +51,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ListObjectVersionsOutput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"IsTruncated\": {},\n    \"KeyMarker\": {},\n    \"VersionIdMarker\": {},\n    \"NextKeyMarker\": {},\n    \"NextVersionIdMarker\": {},\n    \"Versions\": {},\n    \"DeleteMarkers\": {},\n    \"Name\": {},\n    \"Prefix\": {},\n    \"Delimiter\": {},\n    \"MaxKeys\": {},\n    \"CommonPrefixes\": {},\n    \"EncodingType\": {}\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-listobjectversionsoutput-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

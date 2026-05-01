@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"description\": \"The component type name.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"arn\",\n    \"componentTypeId\",\n    \"creationDateTime\",\n    \"updateDateTime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-component-type-summary-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

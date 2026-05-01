@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/StatisticsConfiguration\"\n        },\n        {\n          \"description\": \"Configuration for evaluations. Statistics can be used to select evaluations and override parameters of evaluations. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Statistics\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-column-statistics-configuration-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

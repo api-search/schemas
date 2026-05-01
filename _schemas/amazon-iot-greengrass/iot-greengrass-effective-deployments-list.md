@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         },\n          {\n            \"description\": \"The time at which the deployment was created, expressed in ISO 8601 format.\"\n          }\n        ]\n      },\n      \"modifiedTimestamp\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/Timestamp\"\n          },\n          {\n            \"description\": \"The time at which the deployment job was last modified, expressed in ISO 8601 format.\"\n          }\n        ]\n      },\n      \"statusDetails\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/EffectiveDeploymentStatusDetails\"\n          },\n          {\n            \"description\": \"The status details that explain why a deployment has an error. This response will be null if the deployment is in a success state.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains information about a deployment job that IoT Greengrass sends to a Greengrass core device.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-effective-deployments-list-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

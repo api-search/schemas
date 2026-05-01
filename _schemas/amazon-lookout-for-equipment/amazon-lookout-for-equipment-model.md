@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        \"IN_PROGRESS\",\n        \"SUCCESS\",\n        \"FAILED\",\n        \"IMPORT_IN_PROGRESS\"\n      ]\n    },\n    \"TrainingDataStartTime\": {\n      \"type\": \"string\",\n      \"description\": \"Indicates the time reference in the dataset from which training data begins.\",\n      \"format\": \"date-time\"\n    },\n    \"TrainingDataEndTime\": {\n      \"type\": \"string\",\n      \"description\": \"Indicates the time reference in the dataset from which training data ends.\",\n      \"format\": \"date-time\"\n    },\n    \"CreatedAt\": {\n      \"type\": \"string\",\n      \"description\": \"The time at which the model was created.\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-equipment/refs/heads/main/json-schema/amazon-lookout-for-equipment-model-schema.json
 tags:
-- AWS
 - Equipment Monitoring
 - Industrial IoT
 - Machine Learning

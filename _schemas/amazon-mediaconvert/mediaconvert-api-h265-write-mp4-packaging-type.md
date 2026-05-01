@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ HEV1. For these outputs, the service writes parameter set NAL units directly into the samples.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"HVC1\",\n    \"HEV1\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-h265-write-mp4-packaging-type-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

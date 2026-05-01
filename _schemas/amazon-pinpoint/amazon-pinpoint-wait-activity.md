@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of time to wait or the date and time when the activity moves participants to the next activity in the journey.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-wait-activity-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <code>IBM-03584L32-0402</code> </p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"VTLDeviceARN\",\n    \"DeviceType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-update-vtl-device-type-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

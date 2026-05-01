@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   enum\": [\n    \"LEGACY\",\n    \"SPEC_COMPLIANT\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-cmaf-target-duration-compatibility-mode-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

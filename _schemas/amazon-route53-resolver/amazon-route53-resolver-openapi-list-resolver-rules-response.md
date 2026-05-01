@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The value that you specified for <code>MaxResults</code> in the request.\"\n        }\n      ]\n    },\n    \"ResolverRules\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResolverRules\"\n        },\n        {\n          \"description\": \"The Resolver rules that were created using the current Amazon Web Services account and that match the specified filters, if any.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-rules-response-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

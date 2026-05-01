@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"lambda\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"Represents whether AWS Lambda standard scans are automatically enabled for new members of your Amazon Inspector organization. \"\n        }\n      ]\n    },\n    \"lambdaCode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"Represents whether AWS Lambda code scans are automatically enabled for new members of your Amazon Inspector organization. <pre><code> &lt;/p&gt; </code></pre>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ec2\",\n    \"ecr\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-auto-enable-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

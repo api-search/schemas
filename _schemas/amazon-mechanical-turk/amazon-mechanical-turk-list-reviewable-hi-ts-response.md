@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \" The list of HIT elements returned by the query.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-list-reviewable-hi-ts-response-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

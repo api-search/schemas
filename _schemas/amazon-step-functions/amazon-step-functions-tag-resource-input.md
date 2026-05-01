@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        }\n      ]\n    }\n  },\n  \"required\": [\n    \"resourceArn\",\n    \"tags\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-tag-resource-input-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

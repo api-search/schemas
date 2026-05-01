@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AwsCredentials\"\n        },\n        {\n          \"description\": \"The access credentials for the compute resource.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-get-compute-access-output-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

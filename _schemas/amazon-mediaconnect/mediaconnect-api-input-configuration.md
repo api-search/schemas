@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The port that the flow listens on for an incoming media stream.\"\n        }\n      ]\n    },\n    \"Interface\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Interface\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"interface\"\n          },\n          \"description\": \"The VPC interface where the media stream comes in from.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"InputPort\",\n    \"InputIp\",\n    \"Interface\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-input-configuration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

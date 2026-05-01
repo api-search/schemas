@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"description\": \"The certificate chain that signed the public key certificate of the asymmetric key pair. This is the root certificate authority (CA) within your service account.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KeyCertificate\",\n    \"KeyCertificateChain\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-get-public-key-certificate-output-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

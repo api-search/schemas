@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ more values that can be substituted in an expression\"\n    },\n    \"ReturnValues\": {\n      \"type\": \"string\",\n      \"description\": \"Whether to return the item attributes as they appeared before the PutItem\"\n    },\n    \"ReturnConsumedCapacity\": {\n      \"type\": \"string\",\n      \"description\": \"Determines the level of detail about provisioned throughput consumption\"\n    },\n    \"ReturnItemCollectionMetrics\": {\n      \"type\": \"string\",\n      \"description\": \"Determines whether item collection metrics are returned\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-put-item-input-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

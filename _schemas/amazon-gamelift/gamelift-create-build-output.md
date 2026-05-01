@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ that is owned by Amazon GameLift. Credentials have a limited life span. To refresh these credentials, call <a href=\\\"https://docs.aws.amazon.com/gamelift/latest/apireference/API_RequestUploadCredentials.html\\\">RequestUploadCredentials</a>. \"\n        }\n      ]\n    },\n    \"StorageLocation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3Location\"\n        },\n        {\n          \"description\": \"Amazon S3 location for your game build file, including bucket name and key.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-create-build-output-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

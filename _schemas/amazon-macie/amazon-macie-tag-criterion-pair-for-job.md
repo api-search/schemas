@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The tag value to use in the condition.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-tag-criterion-pair-for-job-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

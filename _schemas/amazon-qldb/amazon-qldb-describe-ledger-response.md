@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <p>If deletion protection is enabled, you must first disable it before you can delete the ledger. You can disable it by calling the <code>UpdateLedger</code> operation to set the flag to <code>false</code>.</p>\"\n        }\n      ]\n    },\n    \"EncryptionDescription\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LedgerEncryptionDescription\"\n        },\n        {\n          \"description\": \"Information about the encryption of data at rest in the ledger. This includes the current status, the KMS key, and when the key became inaccessible (in the case of an error).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-describe-ledger-response-schema.json
 tags:
-- AWS
 - Blockchain
 - Database
 - Ledger

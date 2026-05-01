@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The key in the specified S3 bucket where the harvested top-level manifest will be placed.\\n\"\n        }\n      ]\n    },\n    \"RoleArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"roleArn\"\n          },\n          \"description\": \"The IAM role used to write to the specified S3 bucket\\n\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ManifestKey\",\n    \"BucketName\",\n    \"RoleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-s3-destination-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

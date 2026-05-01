@@ -35,7 +35,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"headers\": 
   : \"The client request scheme to match on. Specify only one. Applicable only for HTTP2 routes.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"An object that represents the requirements for a route to match HTTP requests for a virtual router.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-http-route-match-schema.json\",\n  \"title\": \"HttpRouteMatch\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-http-route-match-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

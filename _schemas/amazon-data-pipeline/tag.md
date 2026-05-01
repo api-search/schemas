@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-data-pipeline/json-schema/tag-schema.json\",\n  \"title\": \"Tag\",\n  \"description\": \"A key-value tag pair applied to a pipeline resource.\",\n  \"type\": \"object\",\n  \"required\": [\n    \"key\",\n    \"value\"\n  ],\n  \"properties\": {\n    \"key\": {\n      \"type\": \"string\",\n      \"description\": \"The tag key\"\n    },\n    \"value\": {\n      \"type\": \"string\",\n      \"description\": \"The tag value\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/json-schema/tag-schema.json
 tags:
-- AWS
 - Data Processing
 - ETL
 - Workflows

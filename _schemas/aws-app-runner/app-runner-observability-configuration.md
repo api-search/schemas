@@ -37,7 +37,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Observabili
   ,\n  \"title\": \"ObservabilityConfiguration\",\n  \"description\": \"ObservabilityConfiguration schema from AWS App Runner\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-observability-configuration-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

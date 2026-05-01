@@ -55,7 +55,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"datatypeMismatchErrors\": {\n              \"type\": \"integer\",\n              \"description\": \"Total number of datatype mismatch errors.\"\n            },\n            \"insertErrors\": {\n              \"type\": \"integer\",\n              \"description\": \"Total number of insert errors.\"\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-loader-job-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

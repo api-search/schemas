@@ -33,7 +33,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ result set, do not specify a value. If a player session ID is specified, this parameter is ignored.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-describe-player-sessions-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

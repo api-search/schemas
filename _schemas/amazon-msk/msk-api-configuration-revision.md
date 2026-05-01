@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        <p>The description of the configuration revision.</p>\"\n        }\n      ]\n    },\n    \"Revision\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__long\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"revision\"\n          },\n          \"description\": \"\\n            <p>The revision number.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Revision\",\n    \"CreationTime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-configuration-revision-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

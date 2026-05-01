@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"example\": 100\n    },\n    \"OutboundCallerConfig\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"OutboundCallerIdName\": {\n          \"type\": \"string\"\n        },\n        \"OutboundCallerIdNumberId\": {\n          \"type\": \"string\"\n        },\n        \"OutboundFlowId\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"Tags\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"HoursOfOperationId\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/create-queue-request-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

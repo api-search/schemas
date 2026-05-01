@@ -52,7 +52,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ resources in a VPC, you provide this parameter identifying the list of security group IDs and subnet IDs. These must belong to the same VPC. You must provide at least one security group and one subnet ID. \"\n        }\n      ]\n    },\n    \"compute\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Compute\"\n        },\n        {\n          \"description\": \"Compute information for the simulation job.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"maxJobDurationInSeconds\",\n    \"iamRole\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-job-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: CreateSimulationJobRequest

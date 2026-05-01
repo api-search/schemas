@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"$ref\": \"#/components/schemas/ImportTr34KeyBlock\"\n        },\n        {\n          \"description\": \"Parameter information for key material import using TR-34 standard.\"\n        }\n      ]\n    },\n    \"TrustedCertificatePublicKey\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TrustedCertificatePublicKey\"\n        },\n        {\n          \"description\": \"Parameter information for trusted public key certificate import.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-import-key-material-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

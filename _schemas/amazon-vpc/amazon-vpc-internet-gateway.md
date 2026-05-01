@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Describes an inte
   \ owns the internet gateway\"\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"description\": \"Any tags assigned to the internet gateway\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      }\n    }\n  },\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"InternetGateway\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/json-schema/amazon-vpc-internet-gateway-schema.json
 tags:
-- AWS
 - Networking
 - Private Cloud
 - Security

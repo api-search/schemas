@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"<p>The Amazon Resource Name (ARN) of the Amazon CloudWatch log group that you want to use to monitor and log events in the gateway.</p> <p>For more information, see <a href=\\\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html\\\">What is Amazon CloudWatch Logs?</a> </p>\"\n        }\n      ]\n    },\n    \"GatewayCapacity\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GatewayCapacity\"\n        },\n        {\n          \"description\": \"Specifies the size of the gateway's metadata cache.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GatewayARN\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-update-gateway-information-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

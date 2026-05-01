@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The time at which the component was created, expressed in ISO 8601 format.\"\n        }\n      ]\n    },\n    \"description\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NonEmptyString\"\n        },\n        {\n          \"description\": \"The description of the component version.\"\n        }\n      ]\n    },\n    \"publisher\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NonEmptyString\"\n        },\n        {\n          \"description\": \"The publisher of the component version.\"\n        }\n      ]\n    },\n    \"platforms\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComponentPlatformList\"\n        },\n        {\n          \"description\": \"The platforms that the component version supports.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-component-latest-version-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

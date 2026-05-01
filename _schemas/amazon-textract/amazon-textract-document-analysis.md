@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Response object c
   \     }\n                }\n              }\n            }\n          },\n          \"Page\": {\n            \"type\": \"integer\",\n            \"description\": \"The page on which the block was detected.\"\n          }\n        }\n      }\n    },\n    \"AnalyzeDocumentModelVersion\": {\n      \"type\": \"string\",\n      \"description\": \"The version of the model used to analyze the document.\"\n    }\n  },\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"DocumentAnalysis\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/json-schema/amazon-textract-document-analysis-schema.json
 tags:
-- AWS
 - Document Processing
 - Machine Learning
 - OCR

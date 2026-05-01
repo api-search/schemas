@@ -58,7 +58,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"MobileDevic
   MobileDeviceAccessRule\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-mobile-device-access-rule-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-mobile-device-access-rule-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"OrganizationId\"\n  ],\n  \"title\": \"DescribeInboundDmarcSettingsRequest\",\n  \"properties\": {\n    \"OrganizationId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OrganizationId\"\n        },\n        {\n          \"description\": \"Lists the ID of the given organization.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-describe-inbound-dmarc-settings-request-schema.json\",\n  \"description\": \"DescribeInboundDmarcSettingsRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-describe-inbound-dmarc-settings-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

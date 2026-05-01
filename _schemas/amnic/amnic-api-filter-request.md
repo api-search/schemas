@@ -20,7 +20,6 @@ tags:
 - Cloud Cost Management
 - Cost Optimization
 - Kubernetes
-- AWS
 - Azure
 - Google Cloud
 title: FilterRequest

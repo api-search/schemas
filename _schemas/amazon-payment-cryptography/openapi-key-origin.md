@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-key-origin-schema.json\",\n  \"title\": \"KeyOrigin\",\n  \"description\": \"Defines the source of a key\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"EXTERNAL\",\n    \"AWS_PAYMENT_CRYPTOGRAPHY\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-key-origin-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"invert\": {
   ,\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-gateway-route-metadata-schema.json\",\n  \"title\": \"GrpcGatewayRouteMetadata\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-gateway-route-metadata-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

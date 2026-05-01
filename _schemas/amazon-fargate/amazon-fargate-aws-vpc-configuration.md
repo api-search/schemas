@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        \"ENABLED\",\n        \"DISABLED\"\n      ]\n    }\n  },\n  \"required\": [\n    \"subnets\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/json-schema/amazon-fargate-aws-vpc-configuration-schema.json
 tags:
-- AWS
 - Compute
 - Containers
 - ECS

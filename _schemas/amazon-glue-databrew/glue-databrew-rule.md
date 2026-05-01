@@ -33,7 +33,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ will be used to determine whether the validation succeeds.\"\n        }\n      ]\n    },\n    \"ColumnSelectors\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ColumnSelectorList\"\n        },\n        {\n          \"description\": \"List of column selectors. Selectors can be used to select columns using a name or regular expression from the dataset. Rule will be applied to selected columns.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"CheckExpression\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-rule-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

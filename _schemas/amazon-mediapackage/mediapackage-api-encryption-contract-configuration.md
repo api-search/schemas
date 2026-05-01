@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"object\",\n  \"properties\": {\n    \"PresetSpeke20Audio\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PresetSpeke20Audio\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"presetSpeke20Audio\"\n          },\n          \"description\": \"A collection of audio encryption presets.\"\n        }\n      ]\n    },\n    \"PresetSpeke20Video\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PresetSpeke20Video\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"presetSpeke20Video\"\n          },\n          \"description\": \"A collection of video encryption presets.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"PresetSpeke20Audio\",\n    \"PresetSpeke20Video\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-encryption-contract-configuration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

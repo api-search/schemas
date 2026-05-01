@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"OrganizationI
   ,\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-associate-member-to-group-request-schema.json\",\n  \"description\": \"AssociateMemberToGroupRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-associate-member-to-group-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

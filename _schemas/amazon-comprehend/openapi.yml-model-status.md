@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-model-status-schema.json\",\n  \"title\": \"ModelStatus\",\n  \"description\": \"ModelStatus schema\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"SUBMITTED\",\n    \"TRAINING\",\n    \"DELETING\",\n    \"STOP_REQUESTED\",\n    \"STOPPED\",\n    \"IN_ERROR\",\n    \"TRAINED\",\n    \"TRAINED_WITH_WARNING\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-model-status-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

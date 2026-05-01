@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"Label\": {\n            \"$ref\": \"#/components/schemas/Label\"\n          }\n        }\n      }\n    },\n    \"LabelModelVersion\": {\n      \"type\": \"string\"\n    },\n    \"JobId\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-get-label-detection-response-schema.json
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

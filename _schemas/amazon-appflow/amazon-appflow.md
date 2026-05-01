@@ -51,7 +51,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"triggerType\": {\n          \"type\": \"string\",\n          \"enum\": [\n            \"Scheduled\",\n            \"Event\",\n            \"OnDemand\"\n          ],\n          \"description\": \"Specifies the type of flow trigger.\"\n        },\n        \"triggerProperties\": {\n          \"type\": \"object\",\n          \"description\": \"Specifies the configuration details of a schedule-triggered flow.\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/amazon-appflow-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

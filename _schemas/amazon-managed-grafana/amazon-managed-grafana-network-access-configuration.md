@@ -21,7 +21,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <p>The only VPC endpoints that can be specified here are interface VPC endpoints for Grafana workspaces (using the <code>com.amazonaws.[region].grafana-workspace</code> service endpoint). Other VPC endpoints are ignored.</p> </note>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"prefixListIds\",\n    \"vpceIds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-network-access-configuration-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

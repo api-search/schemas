@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ or contain two consecutive hyphens.\"\n        }\n      ]\n    },\n    \"ReplicationInstanceIdentifier\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The replication instance identifier. This parameter is stored as a lowercase string.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-connection-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

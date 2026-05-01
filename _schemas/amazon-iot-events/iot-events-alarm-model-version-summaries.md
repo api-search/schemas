@@ -15,7 +15,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ is inactive, so it isn't ready to evaluate data. Check your alarm model information and update the alarm model.</p> </li> <li> <p> <code>FAILED</code> - You couldn't create or update the alarm model. Check your alarm model information and try again.</p> </li> </ul>\"\n          }\n        ]\n      },\n      \"statusMessage\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/StatusMessage\"\n          },\n          {\n            \"description\": \" Contains information about the status of the alarm model version. \"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains a summary of an alarm model version.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-alarm-model-version-summaries-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

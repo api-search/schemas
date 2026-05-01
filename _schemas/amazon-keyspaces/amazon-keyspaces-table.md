@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ status of the table.\",\n      \"example\": \"ACTIVE\",\n      \"enum\": [\n        \"ACTIVE\",\n        \"CREATING\",\n        \"UPDATING\",\n        \"DELETING\",\n        \"DELETED\",\n        \"RESTORING\",\n        \"INACCESSIBLE_ENCRYPTION_CREDENTIALS\"\n      ]\n    },\n    \"creationTimestamp\": {\n      \"type\": \"string\",\n      \"description\": \"The timestamp of when the table was created.\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/json-schema/amazon-keyspaces-table-schema.json
 tags:
-- AWS
 - Cassandra
 - Database
 - Managed Database

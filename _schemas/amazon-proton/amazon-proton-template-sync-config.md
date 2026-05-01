@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The repository provider.\"\n        }\n      ]\n    },\n    \"subdirectory\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Subdirectory\"\n        },\n        {\n          \"description\": \"A subdirectory path to your template bundle version.\"\n        }\n      ]\n    },\n    \"templateName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceName\"\n        },\n        {\n          \"description\": \"The template name.\"\n        }\n      ]\n    },\n    \"templateType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TemplateType\"\n        },\n        {\n          \"description\": \"The template type.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"branch\",\n    \"repositoryName\",\n    \"repositoryProvider\",\n    \"templateName\",\n    \"templateType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-template-sync-config-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

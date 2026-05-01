@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"effectiveTime\": {\n      \"allOf\": [\n        {\n          \"type\": \"string\",\n          \"format\": \"date-time\"\n        },\n        {\n          \"description\": \"A timestamp for when revocation of a Signing Profile should become effective. Signatures generated using the signing profile after this timestamp are not trusted.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"profileVersion\",\n    \"reason\",\n    \"effectiveTime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-revoke-signing-profile-request-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

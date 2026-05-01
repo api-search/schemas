@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to the Kinesis Data Firehose delivery stream. Valid values are: '\\\\n' (newline), '\\\\t' (tab), '\\\\r\\\\n' (Windows newline), ',' (comma).\"\n        }\n      ]\n    },\n    \"payload\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Payload\"\n        },\n        {\n          \"description\": \"You can configure the action payload when you send a message to an Amazon Kinesis Data Firehose delivery stream.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"deliveryStreamName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-firehose-action-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

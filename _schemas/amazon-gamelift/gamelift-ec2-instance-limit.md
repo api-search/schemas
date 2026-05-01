@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Amazon Elastic Compute Cloud Instance Types</a> for detailed descriptions. \"\n        }\n      ]\n    },\n    \"CurrentInstances\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WholeNumber\"\n        },\n        {\n          \"description\": \"The number of instances for the specified type and location that are currently being used by the Amazon Web Services account. \"\n        }\n      ]\n    },\n    \"InstanceLimit\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WholeNumber\"\n        },\n        {\n          \"description\": \"The number of instances that is allowed for the specified instance type and location.\"\n        }\n      ]\n    },\n    \"Location\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LocationStringModel\"\n        },\n        {\n          \"description\": \"An Amazon Web Services Region code, such as <code>us-west-2</code>. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-ec2-instance-limit-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

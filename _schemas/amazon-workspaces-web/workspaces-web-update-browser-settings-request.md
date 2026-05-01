@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"title\": \"UpdateBrowserSettingsRe
   \ SDK.</p>\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-update-browser-settings-request-schema.json\",\n  \"description\": \"UpdateBrowserSettingsRequest schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-update-browser-settings-request-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

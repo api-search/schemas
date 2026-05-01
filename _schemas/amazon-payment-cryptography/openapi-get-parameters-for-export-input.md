@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ },\n        {\n          \"description\": \"The signing key algorithm to generate a signing key certificate. This certificate signs the wrapped key under export within the TR-34 key block cryptogram. <code>RSA_2048</code> is the only signing key algorithm allowed.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KeyMaterialType\",\n    \"SigningKeyAlgorithm\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-get-parameters-for-export-input-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

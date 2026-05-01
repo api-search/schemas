@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"idle\": {\n
   \  \"description\": \"An object that represents types of timeouts. \",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-http-timeout-schema.json\",\n  \"title\": \"HttpTimeout\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-http-timeout-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

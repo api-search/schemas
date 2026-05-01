@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ fleet for the synchronization.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"clientRequestToken\",\n    \"fleet\"\n  ],\n  \"deprecated\": true\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-sync-deployment-job-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: SyncDeploymentJobRequest

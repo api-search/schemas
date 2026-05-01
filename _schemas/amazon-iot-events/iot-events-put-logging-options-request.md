@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-put-logging-options-request-schema.json\",\n  \"title\": \"PutLoggingOptionsRequest\",\n  \"description\": \"PutLoggingOptionsRequest schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"loggingOptions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LoggingOptions\"\n        },\n        {\n          \"description\": \"The new values of the AWS IoT Events logging options.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"loggingOptions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-put-logging-options-request-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The data type of the asset model property.\"\n        }\n      ]\n    },\n    \"dataTypeSpec\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Name\"\n        },\n        {\n          \"description\": \"The data type of the structure for this property. This parameter exists on properties that have the <code>STRUCT</code> data type.\"\n        }\n      ]\n    },\n    \"unit\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PropertyUnit\"\n        },\n        {\n          \"description\": \"The unit of the asset model property, such as <code>Newtons</code> or <code>RPM</code>.\"\n        }\n      ]\n    },\n    \"type\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PropertyType\"\n        },\n        {\n          \"description\": \"The property type (see <code>PropertyType</code>).\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"dataType\",\n    \"type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-model-property-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

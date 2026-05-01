@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-list-versions-request-max-results-integer-schema.json\",\n  \"title\": \"ListVersionsRequestMaxResultsInteger\",\n  \"description\": \"ListVersionsRequestMaxResultsInteger schema from Amazon Managed Grafana API\",\n  \"type\": \"integer\",\n  \"minimum\": 1,\n  \"maximum\": 100\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-list-versions-request-max-results-integer-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

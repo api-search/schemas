@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"EncryptionDescription\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LedgerEncryptionDescription\"\n        },\n        {\n          \"description\": \"Information about the encryption of data at rest in the ledger. This includes the current status, the KMS key, and when the key became inaccessible (in the case of an error).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-update-ledger-response-schema.json
 tags:
-- AWS
 - Blockchain
 - Database
 - Ledger

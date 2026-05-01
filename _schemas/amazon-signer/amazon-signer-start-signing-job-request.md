@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n          \"pattern\": \"^[a-zA-Z0-9_]{2,}\",\n          \"minLength\": 2,\n          \"maxLength\": 64\n        },\n        {\n          \"description\": \"The name of the signing profile.\"\n        }\n      ]\n    },\n    \"clientRequestToken\": {\n      \"allOf\": [\n        {\n          \"type\": \"string\"\n        },\n        {\n          \"description\": \"String that identifies the signing request. All calls after the first that use this token return the same response as the first call.\"\n        }\n      ]\n    },\n    \"profileOwner\": {\n      \"allOf\": [\n        {\n          \"type\": \"string\",\n          \"pattern\": \"^[0-9]{12}$\",\n          \"minLength\": 12,\n          \"maxLength\": 12\n        },\n        {\n          \"description\": \"The AWS account ID of the signing profile owner.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"source\",\n    \"destination\",\n    \"profileName\",\n    \"clientRequestToken\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-start-signing-job-request-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"IDs of network interfaces associated with the removed VPC interface that Media Connect was unable to remove.\"\n        }\n      ]\n    },\n    \"VpcInterfaceName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"vpcInterfaceName\"\n          },\n          \"description\": \"The name of the VPC interface that was removed.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-remove-flow-vpc-interface-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

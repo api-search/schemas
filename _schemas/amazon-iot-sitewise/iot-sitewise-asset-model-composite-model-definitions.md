@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   }\n        ]\n      },\n      \"type\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/Name\"\n          },\n          {\n            \"description\": \"The type of the composite model. For alarm composite models, this type is <code>AWS/ALARM</code>.\"\n          }\n        ]\n      },\n      \"properties\": {\n        \"description\": \"The asset property definitions for this composite model.\"\n      }\n    },\n    \"description\": \"Contains a composite model definition in an asset model. This composite model definition is applied to all assets created from the asset model.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-model-composite-model-definitions-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

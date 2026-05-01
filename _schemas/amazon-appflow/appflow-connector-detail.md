@@ -50,7 +50,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"string\",\n      \"example\": \"LAMBDA\",\n      \"description\": \"The provisioning type that the connector uses.\"\n    },\n    \"connectorModes\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\",\n        \"example\": \"\"\n      },\n      \"example\": [\n        \"CLOUD\"\n      ]\n    },\n    \"supportedDataTransferTypes\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\",\n        \"example\": \"\"\n      },\n      \"example\": [\n        \"RECORD\",\n        \"FILE\"\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-connector-detail-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

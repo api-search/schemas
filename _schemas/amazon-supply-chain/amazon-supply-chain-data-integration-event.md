@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"string\",\n      \"description\": \"The event data payload\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/json-schema/amazon-supply-chain-data-integration-event-schema.json
 tags:
-- AWS
 - ERP Integration
 - Logistics
 - Machine Learning

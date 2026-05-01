@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   MONOSPACED_SANSSERIF\",\n    \"MONOSPACED_SERIF\",\n    \"PROPORTIONAL_SANSSERIF\",\n    \"PROPORTIONAL_SERIF\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-dvb-sub-subtitle-fallback-font-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

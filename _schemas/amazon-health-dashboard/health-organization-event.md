@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The most recent date and time that the event was updated.\"\n        }\n      ]\n    },\n    \"statusCode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/eventStatusCode\"\n        },\n        {\n          \"description\": \"The most recent status of the event. Possible values are <code>open</code>, <code>closed</code>, and <code>upcoming</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-organization-event-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

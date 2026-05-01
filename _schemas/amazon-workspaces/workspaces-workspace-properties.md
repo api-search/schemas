@@ -33,7 +33,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"RunningMode
   \ and GraphicsPro.g4dn).</p> </li> </ul> </note>\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Describes a WorkSpace.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkspaceProperties\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-properties-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-properties-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

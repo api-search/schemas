@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for a target-based scaling policy.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"FleetId\",\n    \"MetricName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-put-scaling-policy-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

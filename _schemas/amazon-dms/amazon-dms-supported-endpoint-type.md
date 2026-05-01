@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ and <code>target</code>.\"\n        }\n      ]\n    },\n    \"ReplicationInstanceEngineMinimumVersion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The earliest DMS engine version that supports this endpoint engine. Note that endpoint engines released with DMS versions earlier than 3.1.1 do not return a value for this parameter.\"\n        }\n      ]\n    },\n    \"EngineDisplayName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The expanded name for the engine name. For example, if the <code>EngineName</code> parameter is \\\"aurora\\\", this value would be \\\"Amazon Aurora MySQL\\\".\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-supported-endpoint-type-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   certificatePem\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CertificatePem\"\n        },\n        {\n          \"description\": \"The certificate data, in PEM format.\"\n        }\n      ]\n    },\n    \"keyPair\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/KeyPair\"\n        },\n        {\n          \"description\": \"The generated key pair.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-create-keys-and-certificate-response-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

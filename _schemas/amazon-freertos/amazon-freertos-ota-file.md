@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n    }\n  },\n  \"required\": [\n    \"fileName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/json-schema/amazon-freertos-ota-file-schema.json
 tags:
-- AWS
 - Embedded Systems
 - IoT
 - Microcontrollers

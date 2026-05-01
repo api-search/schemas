@@ -21,7 +21,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"reason\": {
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-failworkflowexecutiondecisionattributes-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: FailWorkflowExecutionDecisionAttributes

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"string\"\n          },\n          \"replicaCount\": {\n            \"type\": \"integer\"\n          },\n          \"deletionProtection\": {\n            \"type\": \"boolean\"\n          }\n        }\n      }\n    },\n    \"nextToken\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/analytics-list-graphs-output-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

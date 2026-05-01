@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"An object that contains two attributes, <code>SortBy</code> and <code>SortOrder</code>.\"\n        }\n      ]\n    },\n    \"MaxResults\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ListChangeSetsMaxResultInteger\"\n        },\n        {\n          \"description\": \"The maximum number of results returned by a single call. This value must be provided in the next call to retrieve the next set of results. By default, this value is 20.\"\n        }\n      ]\n    },\n    \"NextToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NextToken\"\n        },\n        {\n          \"description\": \"The token value retrieved from a previous call to access the next page of results.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Catalog\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-list-change-sets-request-schema.json
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

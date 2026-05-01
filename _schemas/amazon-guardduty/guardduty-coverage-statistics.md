@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/json-schema/guardduty-coverage-statistics-schema.json
 tags:
 - Anomaly Detection
-- AWS
 - Compliance
 - Machine Learning
 - Monitoring

@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ IDs to be used on ENI.\"\n        }\n      ]\n    },\n    \"SubnetId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"subnetId\"\n          },\n          \"description\": \"Subnet must be in the AZ of the Flow\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"NetworkInterfaceType\",\n    \"NetworkInterfaceIds\",\n    \"SubnetId\",\n    \"SecurityGroupIds\",\n    \"RoleArn\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-vpc-interface-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

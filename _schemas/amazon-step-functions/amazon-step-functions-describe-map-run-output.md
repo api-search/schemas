@@ -45,7 +45,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ {\n          \"$ref\": \"#/components/schemas/MapRunExecutionCounts\"\n        },\n        {\n          \"description\": \"A JSON object that contains information about the total number of child workflow executions for the Map Run, and the count of child workflow executions for each status, such as <code>failed</code> and <code>succeeded</code>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"mapRunArn\",\n    \"executionArn\",\n    \"status\",\n    \"startDate\",\n    \"maxConcurrency\",\n    \"toleratedFailurePercentage\",\n    \"toleratedFailureCount\",\n    \"itemCounts\",\n    \"executionCounts\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-describe-map-run-output-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

@@ -62,7 +62,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     }\n    },\n    \"Catcher\": {\n      \"type\": \"object\",\n      \"description\": \"A catch clause for error handling\",\n      \"required\": [\"ErrorEquals\", \"Next\"],\n      \"properties\": {\n        \"ErrorEquals\": {\n          \"type\": \"array\",\n          \"description\": \"The error names to match\",\n          \"items\": {\n            \"type\": \"string\"\n          }\n        },\n        \"Next\": {\n          \"type\": \"string\",\n          \"description\": \"The name of the state to transition to\"\n        },\n        \"ResultPath\": {\n          \"type\": [\"string\", \"null\"],\n          \"description\": \"A path that determines what is sent as input to the Next state\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-state-machine-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

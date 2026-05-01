@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"MUSIC_LIGHT\",\n    \"SPEECH\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-eac3-dynamic-range-compression-rf-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

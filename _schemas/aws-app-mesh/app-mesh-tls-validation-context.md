@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"subjectAlte
   \        {\n          \"description\": \"A reference to where to retrieve the trust chain when validating a peer\\u2019s Transport Layer Security (TLS) certificate.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"trust\"\n  ],\n  \"description\": \"An object that represents how the proxy will validate its peer during Transport Layer Security (TLS) negotiation.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-tls-validation-context-schema.json\",\n  \"title\": \"TlsValidationContext\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-tls-validation-context-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

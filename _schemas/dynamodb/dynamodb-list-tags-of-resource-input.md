@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ListTagsOfResourceInput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ResourceArn\": {\n      \"type\": \"string\"\n    },\n    \"NextToken\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-list-tags-of-resource-input-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

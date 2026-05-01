@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"DatetimeOptions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DatetimeOptions\"\n        },\n        {\n          \"description\": \"Additional parameter options such as a format and a timezone. Required for datetime parameters.\"\n        }\n      ]\n    },\n    \"CreateColumn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CreateColumn\"\n        },\n        {\n          \"description\": \"Optional boolean value that defines whether the captured value of this parameter should be used to create a new column in a dataset.\"\n        }\n      ]\n    },\n    \"Filter\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FilterExpression\"\n        },\n        {\n          \"description\": \"The optional filter expression structure to apply additional matching criteria to the parameter.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"Type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-dataset-parameter-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

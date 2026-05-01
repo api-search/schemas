@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/KeyRange\"\n        },\n        {\n          \"description\": \"For export jobs, you can provide an optional <code>KeyRange</code> within a specific Amazon S3 bucket. The length of the range is defined at job creation, and has either an inclusive <code>BeginMarker</code>, an inclusive <code>EndMarker</code>, or both. Ranges are UTF-8 binary sorted.\"\n        }\n      ]\n    },\n    \"TargetOnDeviceServices\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TargetOnDeviceServiceList\"\n        },\n        {\n          \"description\": \"Specifies the service or services on the Snow Family device that your transferred data will be exported from or imported into. Amazon Web Services Snow Family supports Amazon S3 and NFS (Network File System).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-s3-resource-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

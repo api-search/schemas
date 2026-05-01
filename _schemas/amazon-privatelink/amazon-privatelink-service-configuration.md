@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n        \"Failed\"\n      ],\n      \"description\": \"State of the endpoint service\"\n    },\n    \"AcceptanceRequired\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether connections require acceptance\"\n    },\n    \"AvailabilityZones\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"Availability zones where the service is available\"\n    },\n    \"NetworkLoadBalancerArns\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"ARNs of Network Load Balancers\"\n    },\n    \"PrivateDnsName\": {\n      \"type\": \"string\",\n      \"description\": \"Private DNS name\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-service-configuration-schema.json
 tags:
-- AWS
 - Networking
 - Private Connectivity
 - Security

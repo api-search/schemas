@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"$ref\": \"#/components/schemas/AudioPidSelection\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"audioPidSelection\"\n          }\n        }\n      ]\n    },\n    \"AudioTrackSelection\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AudioTrackSelection\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"audioTrackSelection\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-audio-selector-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

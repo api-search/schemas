@@ -84,7 +84,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        },\n        {\n          \"description\": \"The tags defined for this runtime environment.\"\n        }\n      ]\n    },\n    \"vpcId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String50\"\n        },\n        {\n          \"description\": \"The unique identifier for the VPC used with this runtime environment.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"creationTime\",\n    \"engineType\",\n    \"engineVersion\",\n    \"environmentArn\",\n    \"environmentId\",\n    \"instanceType\",\n    \"name\",\n    \"securityGroupIds\",\n    \"status\",\n    \"subnetIds\",\n    \"vpcId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-get-environment-response-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

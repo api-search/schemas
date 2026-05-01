@@ -33,7 +33,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"xml\": {\n            \"name\": \"storageInfo\"\n          },\n          \"description\": \"\\n            <p>Contains information about storage volumes attached to MSK broker nodes.</p>\"\n        }\n      ]\n    },\n    \"ConnectivityInfo\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ConnectivityInfo\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"connectivityInfo\"\n          },\n          \"description\": \"\\n            <p>Information about the broker access configuration.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ClientSubnets\",\n    \"InstanceType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-broker-node-group-info-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ If you don\\u2019t specify the entitlementStatus field in your request, MediaConnect sets it to ENABLED.\"\n        }\n      ]\n    },\n    \"Name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"name\"\n          },\n          \"description\": \"The name of the entitlement. This value must be unique within the current flow.\"\n        }\n      ]\n    },\n    \"Subscribers\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOf__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"subscribers\"\n          },\n          \"description\": \"The AWS account IDs that you want to share your content with. The receiving accounts (subscribers) will be allowed to create their own flows using your content as the source.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Subscribers\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-grant-entitlement-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

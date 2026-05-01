@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-delete-o-t-a-update-response-schema.json\",\n  \"title\": \"DeleteOTAUpdateResponse\",\n  \"description\": \"DeleteOTAUpdateResponse schema\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-delete-o-t-a-update-response-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

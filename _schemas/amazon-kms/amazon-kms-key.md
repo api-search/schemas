@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ this KMS key.\",\n      \"format\": \"date-time\"\n    },\n    \"Enabled\": {\n      \"type\": \"boolean\",\n      \"description\": \"Specifies whether the KMS key is enabled.\"\n    },\n    \"MultiRegion\": {\n      \"type\": \"boolean\",\n      \"description\": \"Indicates whether the KMS key is a multi-Region key.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/json-schema/amazon-kms-key-schema.json
 tags:
-- AWS
 - Cryptography
 - Data Protection
 - Encryption

@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"ConnectionStr
   \ connection alias.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-create-connection-alias-request-schema.json\",\n  \"description\": \"CreateConnectionAliasRequest schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-create-connection-alias-request-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

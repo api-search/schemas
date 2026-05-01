@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Whether a team member is allowed to remotely access project resources using the SSH public key associated with the user's profile.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-schema/codestar-update-team-member-result-schema.json
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

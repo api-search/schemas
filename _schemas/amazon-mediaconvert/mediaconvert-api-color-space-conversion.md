@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   n  * P3DCI (Theater): DCIP3, SMPTE 428M, BT.709\\n  * P3D65 (SDR): Display P3, sRGB, BT.709\\n  * P3D65 (HDR): Display P3, PQ, BT.709\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"NONE\",\n    \"FORCE_601\",\n    \"FORCE_709\",\n    \"FORCE_HDR10\",\n    \"FORCE_HLG_2020\",\n    \"FORCE_P3DCI\",\n    \"FORCE_P3D65_SDR\",\n    \"FORCE_P3D65_HDR\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-color-space-conversion-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

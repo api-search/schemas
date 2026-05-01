@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ in your next <code>ClusterListEntry</code> call, your list of returned clusters will start from this point in the array.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-list-clusters-result-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

@@ -51,7 +51,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"Name\",\n    
   \n        },\n        {\n          \"description\": \"Impersonation role IDs to include in the rule.\"\n        }\n      ]\n    },\n    \"NotImpersonationRoleIds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ImpersonationRoleIdList\"\n        },\n        {\n          \"description\": \"Impersonation role IDs to exclude from the rule.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-put-access-control-rule-request-schema.json\",\n  \"description\": \"PutAccessControlRuleRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-put-access-control-rule-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

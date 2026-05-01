@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/json-schema/amazon-bedrock-model-schema.json
 tags:
 - AI
-- AWS
 - Foundation Models
 - Generative AI
 - LLM

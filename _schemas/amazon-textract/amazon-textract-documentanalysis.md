@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   }\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/json-schema/amazon-textract-documentanalysis-schema.json
 tags:
-- AWS
 - Document Processing
 - Machine Learning
 - OCR

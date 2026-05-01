@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ settings for prefetch retrieval from the ad decision server (ADS).\"\n        }\n      ]\n    },\n    \"StreamId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"An optional stream identifier that you can specify in order to prefetch for multiple streams that use the same playback configuration.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-get-prefetch-schedule-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

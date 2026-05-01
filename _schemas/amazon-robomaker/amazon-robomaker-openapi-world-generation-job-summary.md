@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"worldCount\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WorldCount\"\n        },\n        {\n          \"description\": \"Information about the world count.\"\n        }\n      ]\n    },\n    \"succeededWorldCount\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The number of worlds that were generated.\"\n        }\n      ]\n    },\n    \"failedWorldCount\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The number of worlds that failed.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-generation-job-summary-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: WorldGenerationJobSummary

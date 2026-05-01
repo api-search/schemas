@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"includes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SensitivityInspectionTemplateIncludes\"\n        },\n        {\n          \"description\": \"The allow lists, custom data identifiers, and managed data identifiers that are included (used) when analyzing data.\"\n        }\n      ]\n    },\n    \"name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The name of the template: automated-sensitive-data-discovery.\"\n        }\n      ]\n    },\n    \"sensitivityInspectionTemplateId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SensitivityInspectionTemplateId\"\n        },\n        {\n          \"description\": \"The unique identifier for the template.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-get-sensitivity-inspection-template-response-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

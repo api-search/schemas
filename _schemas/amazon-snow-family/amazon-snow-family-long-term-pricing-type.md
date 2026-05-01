@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-long-term-pricing-type-schema.json\",\n  \"title\": \"LongTermPricingType\",\n  \"description\": \"LongTermPricingType schema from Amazon Snow Family API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"OneYear\",\n    \"ThreeYear\",\n    \"OneMonth\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-long-term-pricing-type-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

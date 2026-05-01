@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"type\": \"object\",\n      \"properties\": {\n        \"lambda\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"lambdaArn\": {\n              \"type\": \"string\",\n              \"example\": \"arn:aws:lambda:us-east-1:123456789012:function:my-connector-function-v2\",\n              \"description\": \"Lambda ARN of the connector being registered.\"\n            }\n          }\n        }\n      },\n      \"description\": \"The provisioning type of the connector.\"\n    },\n    \"clientToken\": {\n      \"type\": \"string\",\n      \"example\": \"client-token-500123\",\n      \"description\": \"Idempotency token.\"\n    }\n  },\n  \"required\": [\n    \"connectorLabel\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-update-connector-registration-request-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

@@ -50,7 +50,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"Corresponds to SCTE-35 sub_segment_num. A value that is valid for the specified segmentation_type_id.\"\n        }\n      ]\n    },\n    \"SubSegmentsExpected\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin0Max255\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"subSegmentsExpected\"\n          },\n          \"description\": \"Corresponds to SCTE-35 sub_segments_expected. A value that is valid for the specified segmentation_type_id.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SegmentationEventId\",\n    \"SegmentationCancelIndicator\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-scte35-segmentation-descriptor-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

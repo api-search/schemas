@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ bucket and objects in the bucket.\"\n        }\n      ]\n    },\n    \"blockPublicPolicy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__boolean\"\n        },\n        {\n          \"description\": \"Specifies whether Amazon S3 blocks public bucket policies for the bucket.\"\n        }\n      ]\n    },\n    \"ignorePublicAcls\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__boolean\"\n        },\n        {\n          \"description\": \"Specifies whether Amazon S3 ignores public ACLs for the bucket and objects in the bucket.\"\n        }\n      ]\n    },\n    \"restrictPublicBuckets\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__boolean\"\n        },\n        {\n          \"description\": \"Specifies whether Amazon S3 restricts public bucket policies for the bucket.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-block-public-access-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

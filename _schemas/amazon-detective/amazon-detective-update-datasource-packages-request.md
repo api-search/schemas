@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    }\n  },\n  \"required\": [\n    \"GraphArn\",\n    \"DatasourcePackages\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-update-datasource-packages-request-schema.json
 tags:
-- AWS
 - Forensics
 - Investigation
 - Security

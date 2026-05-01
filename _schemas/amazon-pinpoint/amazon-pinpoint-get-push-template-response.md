@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-get-push-template-response-schema.json\",\n  \"title\": \"GetPushTemplateResponse\",\n  \"description\": \"GetPushTemplateResponse schema from Amazon Pinpoint API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"PushNotificationTemplateResponse\": {\n      \"$ref\": \"#/components/schemas/PushNotificationTemplateResponse\"\n    }\n  },\n  \"required\": [\n    \"PushNotificationTemplateResponse\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-get-push-template-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

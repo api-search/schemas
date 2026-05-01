@@ -57,7 +57,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"<p>Describes the current state of the session:</p> <ul> <li> <p> <code>PROVISIONING</code> - allocating resources for the session.</p> </li> <li> <p> <code>INITIALIZING</code> - getting the session ready for first use.</p> </li> <li> <p> <code>ASSIGNED</code> - the session is ready for use.</p> </li> </ul>\"\n        }\n      ]\n    },\n    \"OpenedBy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OpenedBy\"\n        },\n        {\n          \"description\": \"The identifier (user name) of the user that opened the project for use. \"\n        }\n      ]\n    },\n    \"OpenDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Date\"\n        },\n        {\n          \"description\": \"The date and time when the project was opened. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-describe-project-response-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the egress bridge.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MaxBitrate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-egress-gateway-bridge-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

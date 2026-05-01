@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        }\n      ]\n    },\n    \"ManifestPrefixLocation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Object\"\n        },\n        {\n          \"description\": \"The location's manifest prefix.\"\n        }\n      ]\n    },\n    \"RepoPrefixLocation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Object\"\n        },\n        {\n          \"description\": \"The location's repo prefix.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"BinaryPrefixLocation\",\n    \"Bucket\",\n    \"GeneratedPrefixLocation\",\n    \"ManifestPrefixLocation\",\n    \"RepoPrefixLocation\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-storage-location-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

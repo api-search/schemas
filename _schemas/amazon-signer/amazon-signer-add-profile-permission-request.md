@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   allOf\": [\n        {\n          \"type\": \"string\"\n        },\n        {\n          \"description\": \"The AWS principal receiving cross-account permissions. This may be an IAM role or another AWS account ID.\"\n        }\n      ]\n    },\n    \"revisionId\": {\n      \"allOf\": [\n        {\n          \"type\": \"string\"\n        },\n        {\n          \"description\": \"A unique identifier for the current profile revision.\"\n        }\n      ]\n    },\n    \"statementId\": {\n      \"allOf\": [\n        {\n          \"type\": \"string\"\n        },\n        {\n          \"description\": \"A unique identifier for the cross-account permission statement.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"action\",\n    \"principal\",\n    \"statementId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-add-profile-permission-request-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

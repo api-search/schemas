@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n            \"items\": {\n              \"type\": \"string\",\n              \"format\": \"date-time\"\n            }\n          },\n          \"values\": {\n            \"type\": \"array\",\n            \"description\": \"The data point values\",\n            \"items\": {\n              \"type\": \"number\"\n            }\n          },\n          \"statusCode\": {\n            \"type\": \"string\",\n            \"description\": \"The status of the returned data\",\n            \"enum\": [\n              \"Complete\",\n              \"InternalError\",\n              \"PartialData\",\n              \"Forbidden\"\n            ]\n          }\n        }\n      }\n    },\n    \"nextToken\": {\n      \"type\": \"string\",\n      \"description\": \"Token for the next page of results\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/json-schema/cloudwatch-get-metric-data-response-schema.json
 tags:
-- AWS
 - CloudWatch
 - Monitoring
 - Observability

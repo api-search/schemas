@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-data-lifecycle-manager/json-schema/create-lifecycle-policy-response-schema.json\",\n  \"title\": \"Create Lifecycle Policy Response\",\n  \"description\": \"Response after creating a lifecycle policy.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"PolicyId\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/json-schema/create-lifecycle-policy-response-schema.json
 tags:
-- AWS
 - Backup
 - EBS Snapshots
 - Lifecycle Management

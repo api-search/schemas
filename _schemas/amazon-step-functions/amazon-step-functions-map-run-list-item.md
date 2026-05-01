@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the executed state machine.\"\n        }\n      ]\n    },\n    \"startDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date on which the Map Run started.\"\n        }\n      ]\n    },\n    \"stopDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date on which the Map Run stopped.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"executionArn\",\n    \"mapRunArn\",\n    \"stateMachineArn\",\n    \"startDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-map-run-list-item-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

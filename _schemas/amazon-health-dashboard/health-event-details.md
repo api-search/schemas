@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ event.\"\n        }\n      ]\n    },\n    \"eventDescription\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EventDescription\"\n        },\n        {\n          \"description\": \"The most recent description of the event.\"\n        }\n      ]\n    },\n    \"eventMetadata\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/eventMetadata\"\n        },\n        {\n          \"description\": \"Additional metadata about the event.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-event-details-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

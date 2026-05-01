@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ is active in the account. If <code>TRUE</code> Amazon Inspector deep inspection is active, if <code>FALSE</code> it is not active.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"accountId\",\n    \"activateDeepInspection\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-member-account-ec2-deep-inspection-status-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

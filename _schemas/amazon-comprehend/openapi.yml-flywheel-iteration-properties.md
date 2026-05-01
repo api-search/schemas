@@ -47,7 +47,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the evaluated model associated with this flywheel iteration.\"\n        }\n      ]\n    },\n    \"EvaluatedModelMetrics\": {\n      \"$ref\": \"#/components/schemas/FlywheelModelEvaluationMetrics\"\n    },\n    \"TrainedModelArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComprehendModelArn\"\n        },\n        {\n          \"description\": \"The ARN of the trained model associated with this flywheel iteration.\"\n        }\n      ]\n    },\n    \"TrainedModelMetrics\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FlywheelModelEvaluationMetrics\"\n        },\n        {\n          \"description\": \"The metrics associated with the trained model.\"\n        }\n      ]\n    },\n    \"EvaluationManifestS3Prefix\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3Uri\"\n        },\n        {\n          \"description\": \"<p/>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-flywheel-iteration-properties-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

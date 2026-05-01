@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"TR31_M7_HMAC_KEY\",\n    \"TR31_P0_PIN_ENCRYPTION_KEY\",\n    \"TR31_P1_PIN_GENERATION_KEY\",\n    \"TR31_S0_ASYMMETRIC_KEY_FOR_DIGITAL_SIGNATURE\",\n    \"TR31_V1_IBM3624_PIN_VERIFICATION_KEY\",\n    \"TR31_V2_VISA_PIN_VERIFICATION_KEY\",\n    \"TR31_K2_TR34_ASYMMETRIC_KEY\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-key-usage-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

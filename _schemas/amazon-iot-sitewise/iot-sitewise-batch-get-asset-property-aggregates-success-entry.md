@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"The requested aggregated asset property values (for example, average, minimum, and maximum).\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"entryId\",\n    \"aggregatedValues\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-batch-get-asset-property-aggregates-success-entry-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

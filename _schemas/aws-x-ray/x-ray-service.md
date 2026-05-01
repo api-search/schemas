@@ -55,7 +55,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"int64\"\n            },\n            \"TotalCount\": {\n              \"type\": \"integer\",\n              \"format\": \"int64\"\n            }\n          }\n        },\n        \"TotalCount\": {\n          \"type\": \"integer\",\n          \"format\": \"int64\"\n        },\n        \"TotalResponseTime\": {\n          \"type\": \"number\"\n        }\n      }\n    },\n    \"ResponseTimeHistogram\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"Value\": {\n            \"type\": \"number\"\n          },\n          \"Count\": {\n            \"type\": \"integer\"\n          }\n        }\n      }\n    },\n    \"DurationHistogram\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"Value\": {\n            \"type\": \"number\"\n          },\n          \"Count\": {\n            \"type\": \"integer\"\n          }\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/json-schema/x-ray-service-schema.json
 tags:
-- AWS
 - Debugging
 - Distributed Tracing
 - Microservices

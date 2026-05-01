@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"Description\": {\n      \"type\": \"string\",\n      \"description\": \"The description of the routing profile.\"\n    },\n    \"MediaConcurrencies\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/MediaConcurrency\"\n      }\n    },\n    \"DefaultOutboundQueueId\": {\n      \"type\": \"string\",\n      \"description\": \"The identifier of the default outbound queue for this routing profile.\"\n    },\n    \"Tags\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    },\n    \"NumberOfAssociatedQueues\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of associated queues in routing profile.\"\n    },\n    \"NumberOfAssociatedUsers\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of associated users in routing profile.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/routing-profile-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

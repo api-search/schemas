@@ -21,7 +21,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   {\n          \"description\": \"The timestamp, in seconds, in the Unix epoch format. The valid range is between 1-31556889864403199.\"\n        }\n      ]\n    },\n    \"offsetInNanos\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AssetPropertyOffsetInNanos\"\n        },\n        {\n          \"description\": \"The nanosecond offset converted from <code>timeInSeconds</code>. The valid range is between 0-999999999.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"timeInSeconds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-asset-property-timestamp-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

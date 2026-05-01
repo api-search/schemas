@@ -52,7 +52,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RemixSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"remixSettings\"\n          },\n          \"description\": \"Advanced audio remixing settings.\"\n        }\n      ]\n    },\n    \"StreamName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringPatternWS\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"streamName\"\n          },\n          \"description\": \"Specify a label for this output audio stream. For example, \\\"English\\\", \\\"Director commentary\\\", or \\\"track_2\\\". For streaming outputs, MediaConvert passes this information into destination manifests for display on the end-viewer's player device. For outputs in other output groups, the service ignores this setting.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-audio-description-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

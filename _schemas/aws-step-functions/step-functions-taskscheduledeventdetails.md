@@ -33,7 +33,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TaskScheduledEventDetails\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"resourceType\": {},\n    \"resource\": {},\n    \"region\": {},\n    \"parameters\": {},\n    \"timeoutInSeconds\": {},\n    \"heartbeatInSeconds\": {},\n    \"taskCredentials\": {}\n  },\n  \"required\": [\n    \"resourceType\",\n    \"resource\",\n    \"region\",\n    \"parameters\"\n  ],\n  \"description\": \"Contains details about a task scheduled during an execution.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/json-schema/step-functions-taskscheduledeventdetails-schema.json
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

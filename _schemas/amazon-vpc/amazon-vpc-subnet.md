@@ -49,7 +49,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Describes a subne
   \ AZ ID of the subnet\"\n    },\n    \"availableIpAddressCount\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of unused private IPv4 addresses in the subnet\"\n    },\n    \"defaultForAz\": {\n      \"type\": \"boolean\",\n      \"description\": \"Indicates whether this is the default subnet for the Availability Zone\"\n    },\n    \"mapPublicIpOnLaunch\": {\n      \"type\": \"boolean\",\n      \"description\": \"Indicates whether instances launched in this subnet receive a public IPv4 address\"\n    },\n    \"ownerId\": {\n      \"type\": \"string\",\n      \"description\": \"The ID of the AWS account that owns the subnet\"\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"description\": \"Any tags assigned to the subnet\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      }\n    }\n  },\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Subnet\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/json-schema/amazon-vpc-subnet-schema.json
 tags:
-- AWS
 - Networking
 - Private Cloud
 - Security

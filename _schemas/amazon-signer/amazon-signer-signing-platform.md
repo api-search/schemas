@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"type\": \"boolean\"\n        },\n        {\n          \"description\": \"Indicates whether revocation is supported for the platform.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-signing-platform-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

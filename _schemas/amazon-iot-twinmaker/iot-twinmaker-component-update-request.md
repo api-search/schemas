@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       },\n        {\n          \"description\": \"The ID of the component type.\"\n        }\n      ]\n    },\n    \"propertyUpdates\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PropertyRequests\"\n        },\n        {\n          \"description\": \"An object that maps strings to the properties to set in the component type update. Each string in the mapping must be unique to this object.\"\n        }\n      ]\n    },\n    \"propertyGroupUpdates\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComponentPropertyGroupRequests\"\n        },\n        {\n          \"description\": \"The property group updates.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-component-update-request-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

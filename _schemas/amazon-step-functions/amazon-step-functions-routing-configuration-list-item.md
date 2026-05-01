@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ state machine as the first version.</p>\"\n        }\n      ]\n    },\n    \"weight\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VersionWeight\"\n        },\n        {\n          \"description\": \"The percentage of traffic you want to route to the second state machine version. The sum of the weights in the routing configuration must be equal to 100.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"stateMachineVersionArn\",\n    \"weight\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-routing-configuration-list-item-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"description\": \"Contextual parameters for the transformation.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Operation\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-recipe-action-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

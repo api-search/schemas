@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      },\n        {\n          \"description\": \"The egress address of AgentEndpoint.\"\n        }\n      ]\n    },\n    \"ingressAddress\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RangedConnectionDetails\"\n        },\n        {\n          \"description\": \"The ingress address of AgentEndpoint.\"\n        }\n      ]\n    },\n    \"name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SafeName\"\n        },\n        {\n          \"description\": \"Name string associated with AgentEndpoint. Used as a human-readable identifier for AgentEndpoint.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"egressAddress\",\n    \"ingressAddress\",\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-aws-ground-station-agent-endpoint-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

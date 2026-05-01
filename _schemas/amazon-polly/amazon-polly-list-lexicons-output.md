@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-list-lexicons-output-schema.json
 tags:
 - AI
-- AWS
 - Machine Learning
 - Speech Synthesis
 - Text-To-Speech

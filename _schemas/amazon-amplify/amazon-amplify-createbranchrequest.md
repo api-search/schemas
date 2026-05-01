@@ -21,7 +21,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"CreateBranchRequest\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"branchName\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"stage\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"branchName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/json-schema/amazon-amplify-createbranchrequest-schema.json
 tags:
-- AWS
 - Frontend
 - Full Stack
 - Hosting

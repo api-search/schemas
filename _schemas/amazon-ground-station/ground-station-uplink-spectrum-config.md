@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \"LEFT_HAND\\\"</code> polarization requires two separate configs.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"centerFrequency\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-uplink-spectrum-config-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

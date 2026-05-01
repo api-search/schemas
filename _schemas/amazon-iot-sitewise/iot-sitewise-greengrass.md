@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">ARN</a> of the Greengrass group. For more information about how to find a group's ARN, see <a href=\\\"https://docs.aws.amazon.com/greengrass/latest/apireference/listgroups-get.html\\\">ListGroups</a> and <a href=\\\"https://docs.aws.amazon.com/greengrass/latest/apireference/getgroup-get.html\\\">GetGroup</a> in the <i>IoT Greengrass API Reference</i>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"groupArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-greengrass-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

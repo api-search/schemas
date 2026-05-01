@@ -24,7 +24,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ if the KMS key is accessible.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KmsKeyArn\",\n    \"EncryptionStatus\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-ledger-encryption-description-schema.json
 tags:
-- AWS
 - Blockchain
 - Database
 - Ledger

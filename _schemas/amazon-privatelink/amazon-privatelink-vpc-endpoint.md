@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n        \"Rejected\",\n        \"Failed\",\n        \"Expired\"\n      ],\n      \"description\": \"State of the endpoint\"\n    },\n    \"PolicyDocument\": {\n      \"type\": \"string\",\n      \"description\": \"Policy document\"\n    },\n    \"SubnetIds\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"Subnet IDs for interface endpoints\"\n    },\n    \"NetworkInterfaceIds\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"Network interface IDs\"\n    },\n    \"DnsEntries\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"DnsName\": {\n            \"type\": \"string\"\n          },\n          \"HostedZoneId\": {\n            \"type\": \"string\"\n          }\n        }\n      },\n      \"description\": \"DNS entries for the endpoint\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/json-schema/amazon-privatelink-vpc-endpoint-schema.json
 tags:
-- AWS
 - Networking
 - Private Connectivity
 - Security

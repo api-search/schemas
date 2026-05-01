@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ answers to the question specified in the MapEntry Key element. The Worker must match all values in order for the answer to be scored correctly. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-parameter-map-entry-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

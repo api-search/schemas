@@ -45,7 +45,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Lambda function.\"\n        }\n      ]\n    },\n    \"vpcConfig\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LambdaVpcConfig\"\n        },\n        {\n          \"description\": \"The AWS Lambda function's networking configuration.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"codeSha256\",\n    \"executionRoleArn\",\n    \"functionName\",\n    \"runtime\",\n    \"version\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-aws-lambda-function-details-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

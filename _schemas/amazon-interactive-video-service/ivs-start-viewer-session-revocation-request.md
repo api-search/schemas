@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"viewerSessionVersionsLessThanOrEqualTo\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ViewerSessionVersion\"\n        },\n        {\n          \"description\": \"An optional filter on which versions of the viewer session to revoke. All versions less than or equal to the specified version will be revoked. Default: 0.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"channelArn\",\n    \"viewerId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-start-viewer-session-revocation-request-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

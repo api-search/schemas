@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"description\": \"An array of objects that describe recommendation preferences.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-get-recommendation-preferences-response-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

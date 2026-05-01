@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"OrganizationI
   \n        },\n        {\n          \"description\": \"Device operating system the simulated user will report.\"\n        }\n      ]\n    },\n    \"DeviceUserAgent\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DeviceUserAgent\"\n        },\n        {\n          \"description\": \"Device user agent the simulated user will report.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-mobile-device-access-effect-request-schema.json\",\n  \"description\": \"GetMobileDeviceAccessEffectRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-mobile-device-access-effect-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

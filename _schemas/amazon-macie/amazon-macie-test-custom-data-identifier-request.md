@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ distance can be 1-300 characters. The default value is 50.\"\n        }\n      ]\n    },\n    \"regex\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The regular expression (<i>regex</i>) that defines the pattern to match. The expression can contain as many as 512 characters.\"\n        }\n      ]\n    },\n    \"sampleText\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The sample text to inspect by using the custom data identifier. The text can contain as many as 1,000 characters.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"regex\",\n    \"sampleText\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-test-custom-data-identifier-request-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/SMSConfigurations\"\n        },\n        {\n          \"description\": \"Contains the configuration information of SMS notifications.\"\n        }\n      ]\n    },\n    \"emailConfigurations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EmailConfigurations\"\n        },\n        {\n          \"description\": \"Contains the configuration information of email notifications.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"action\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-notification-action-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

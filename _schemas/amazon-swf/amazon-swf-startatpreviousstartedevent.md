@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"boolean\",\n  \"$schema\": \"http://json-schema.o
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-startatpreviousstartedevent-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: StartAtPreviousStartedEvent

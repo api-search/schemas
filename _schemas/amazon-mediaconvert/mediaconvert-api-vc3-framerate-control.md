@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the input. Choose SPECIFIED if you want the service to use the frame rate you specify in the settings FramerateNumerator and FramerateDenominator.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"INITIALIZE_FROM_SOURCE\",\n    \"SPECIFIED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-vc3-framerate-control-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

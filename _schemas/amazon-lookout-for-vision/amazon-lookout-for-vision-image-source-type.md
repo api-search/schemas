@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-image-source-type-schema.json\",\n  \"title\": \"ImageSourceType\",\n  \"description\": \"ImageSourceType schema from Amazon Lookout for Vision API\",\n  \"type\": \"string\",\n  \"pattern\": \"direct\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-image-source-type-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

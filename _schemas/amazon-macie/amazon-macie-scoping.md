@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ tag-based conditions that determine which objects to include in the analysis.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-scoping-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

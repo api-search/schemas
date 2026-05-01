@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ data set.\"\n        }\n      ]\n    },\n    \"ps\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PsAttributes\"\n        },\n        {\n          \"description\": \"The details of a PS type data set.\"\n        }\n      ]\n    },\n    \"vsam\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VsamAttributes\"\n        },\n        {\n          \"description\": \"The details of a VSAM data set.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-dataset-org-attributes-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

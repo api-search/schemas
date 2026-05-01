@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the IAM role that allows the alarm to perform actions and access Amazon Web Services resources and services, such as IoT Events.\"\n        }\n      ]\n    },\n    \"notificationLambdaArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ARN\"\n        },\n        {\n          \"description\": \"The <a href=\\\"https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html\\\">ARN</a> of the Lambda function that manages alarm notifications. For more information, see <a href=\\\"https://docs.aws.amazon.com/iotevents/latest/developerguide/lambda-support.html\\\">Managing alarm notifications</a> in the <i>IoT Events Developer Guide</i>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"alarmRoleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-alarms-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

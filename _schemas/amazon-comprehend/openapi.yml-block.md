@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    ]\n    },\n    \"Relationships\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ListOfRelationships\"\n        },\n        {\n          \"description\": \"A list of child blocks of the current block. For example, a LINE object has child blocks for each WORD block that's part of the line of text. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-block-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

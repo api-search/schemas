@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The name of the S3 bucket that will contain the audit report.\"\n        }\n      ]\n    },\n    \"AuditReportResponseFormat\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AuditReportResponseFormat\"\n        },\n        {\n          \"description\": \"The format in which to create the report. This can be either <b>JSON</b> or <b>CSV</b>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CertificateAuthorityArn\",\n    \"S3BucketName\",\n    \"AuditReportResponseFormat\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-create-certificate-authority-audit-report-request-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

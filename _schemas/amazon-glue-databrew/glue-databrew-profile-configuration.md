@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EntityDetectorConfiguration\"\n        },\n        {\n          \"description\": \"Configuration of entity detection for a profile job. When undefined, entity detection is disabled.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-profile-configuration-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

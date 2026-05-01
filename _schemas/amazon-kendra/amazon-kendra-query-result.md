@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/json-schema/amazon-kendra-query-result-schema.json
 tags:
 - AI
-- AWS
 - Enterprise Search
 - Knowledge Management
 - Machine Learning

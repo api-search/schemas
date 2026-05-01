@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   The allowed values for this data type.\"\n        }\n      ]\n    },\n    \"unitOfMeasure\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The unit of measure used in this data type.\"\n        }\n      ]\n    },\n    \"relationship\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Relationship\"\n        },\n        {\n          \"description\": \"A relationship that associates a component with another component.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"type\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-data-type-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

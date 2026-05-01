@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ validation is enabled.\"\n    },\n    \"CloudWatchLogsLogGroupArn\": {\n      \"type\": \"string\",\n      \"description\": \"The ARN of the CloudWatch Logs log group.\"\n    },\n    \"CloudWatchLogsRoleArn\": {\n      \"type\": \"string\",\n      \"description\": \"The role ARN for CloudWatch Logs delivery.\"\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"S3BucketName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/json-schema/cloudtrail-create-trail-request-schema.json
 tags:
-- AWS
 - CloudTrail
 - Audit
 - Compliance

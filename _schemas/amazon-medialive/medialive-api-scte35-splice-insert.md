@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Scte35SpliceInsertNoRegionalBlackoutBehavior\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"noRegionalBlackoutFlag\"\n          },\n          \"description\": \"When set to ignore, Segment Descriptors with noRegionalBlackoutFlag set to 0 will no longer trigger blackouts or Ad Avail slates\"\n        }\n      ]\n    },\n    \"WebDeliveryAllowedFlag\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Scte35SpliceInsertWebDeliveryAllowedBehavior\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"webDeliveryAllowedFlag\"\n          },\n          \"description\": \"When set to ignore, Segment Descriptors with webDeliveryAllowedFlag set to 0 will no longer trigger blackouts or Ad Avail slates\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-scte35-splice-insert-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

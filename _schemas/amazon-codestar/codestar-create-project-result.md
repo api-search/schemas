@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"description\": \"A user- or system-generated token that identifies the entity that requested project creation.\"\n        }\n      ]\n    },\n    \"projectTemplateId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ProjectTemplateId\"\n        },\n        {\n          \"description\": \"Reserved for future use.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"arn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-schema/codestar-create-project-result-schema.json
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

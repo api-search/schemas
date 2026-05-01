@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Quantiles to forecast (e.g., p10, p50, p90).\"\n    },\n    \"PerformAutoML\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to auto-select the best algorithm.\"\n    },\n    \"PerformHPO\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to perform hyperparameter optimization.\"\n    },\n    \"Status\": {\n      \"type\": \"string\",\n      \"description\": \"Status of the predictor.\"\n    },\n    \"CreationTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"LastModificationTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"required\": [\n    \"PredictorName\",\n    \"ForecastHorizon\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/json-schema/amazon-forecast-predictor-schema.json
 tags:
-- AWS
 - Forecasting
 - Machine Learning
 - Predictive Analytics

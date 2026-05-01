@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"CsrExtensions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CsrExtensions\"\n        },\n        {\n          \"description\": \"Specifies information to be added to the extension section of the certificate signing request (CSR).\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KeyAlgorithm\",\n    \"SigningAlgorithm\",\n    \"Subject\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-certificate-authority-configuration-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

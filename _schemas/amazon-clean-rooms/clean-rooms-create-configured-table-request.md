@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the underlying AWS Glue table that can be used by collaborators.\"\n    },\n    \"analysisMethod\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"DIRECT_QUERY\"\n      ],\n      \"description\": \"The analysis method for the configured table.\"\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"tableReference\",\n    \"allowedColumns\",\n    \"analysisMethod\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/json-schema/clean-rooms-create-configured-table-request-schema.json
 tags:
-- AWS
 - Clean Rooms
 - Data Collaboration
 - Privacy

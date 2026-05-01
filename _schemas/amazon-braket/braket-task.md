@@ -49,7 +49,6 @@ tags:
 - Hybrid Quantum-Classical
 - QPU
 - Quantum Simulation
-- AWS
 - Amazon Web Services
 - Research
 - HPC

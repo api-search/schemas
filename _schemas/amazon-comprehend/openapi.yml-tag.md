@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   u201d \\u201clegal,\\u201d and \\u201cadministration.\\u201d \"\n        }\n      ]\n    },\n    \"Value\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagValue\"\n        },\n        {\n          \"description\": \" The second part of a key-value pair that forms a tag associated with a given resource. For instance, if you want to show which resources are used by which departments, you might use \\u201cDepartment\\u201d as the initial (key) portion of the pair, with a value of \\u201csales\\u201d to indicate the sales department. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Key\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-tag-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

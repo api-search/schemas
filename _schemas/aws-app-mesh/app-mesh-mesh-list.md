@@ -15,7 +15,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   ,\n  \"title\": \"MeshList\",\n  \"description\": \"MeshList schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-mesh-list-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

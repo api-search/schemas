@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ list of gateways for your account and Amazon Web Services Region.</p> <p>You retrieve archived virtual tapes to only one gateway and the gateway must be a tape gateway.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"TapeARN\",\n    \"GatewayARN\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-retrieve-tape-archive-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

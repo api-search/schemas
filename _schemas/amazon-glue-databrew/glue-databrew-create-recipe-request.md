@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       \"$ref\": \"#/components/schemas/RecipeStepList\"\n        },\n        {\n          \"description\": \"An array containing the steps to be performed by the recipe. Each recipe step consists of one recipe action and (optionally) an array of condition expressions.\"\n        }\n      ]\n    },\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"Metadata tags to apply to this recipe.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"Steps\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-create-recipe-request-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

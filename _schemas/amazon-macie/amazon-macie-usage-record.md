@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ account. If the account is a member account in an organization, this value is the same as the value for the organization's Amazon Macie administrator account.\"\n        }\n      ]\n    },\n    \"freeTrialStartDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__timestampIso8601\"\n        },\n        {\n          \"description\": \"The date and time, in UTC and extended ISO 8601 format, when the Amazon Macie free trial started for the account.\"\n        }\n      ]\n    },\n    \"usage\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOfUsageByAccount\"\n        },\n        {\n          \"description\": \"An array of objects that contains usage data and quotas for the account. Each object contains the data for a specific usage metric and the corresponding quota.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-usage-record-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

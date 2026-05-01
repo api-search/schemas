@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n    \"DeploymentMode\",\n    \"EngineType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-broker-summary-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

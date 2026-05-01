@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     ]\n      }\n    },\n    \"description\": \"Contains details of a coverage string filter.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-coverage-string-filter-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

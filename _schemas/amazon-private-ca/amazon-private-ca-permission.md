@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        \"$ref\": \"#/components/schemas/AccountId\"\n        },\n        {\n          \"description\": \"The ID of the account that assigned the permission.\"\n        }\n      ]\n    },\n    \"Actions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ActionList\"\n        },\n        {\n          \"description\": \"The private CA actions that can be performed by the designated Amazon Web Services service.\"\n        }\n      ]\n    },\n    \"Policy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AWSPolicy\"\n        },\n        {\n          \"description\": \"The name of the policy that is associated with the permission.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-permission-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

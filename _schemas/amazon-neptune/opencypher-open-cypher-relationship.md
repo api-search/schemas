@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"The relationship type.\"\n    },\n    \"~properties\": {\n      \"type\": \"object\",\n      \"additionalProperties\": true,\n      \"description\": \"The relationship properties as key-value pairs.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/opencypher-open-cypher-relationship-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

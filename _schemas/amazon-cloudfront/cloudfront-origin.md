@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n        \"HTTPPort\": {\n          \"type\": \"integer\"\n        },\n        \"HTTPSPort\": {\n          \"type\": \"integer\"\n        },\n        \"OriginProtocolPolicy\": {\n          \"type\": \"string\",\n          \"enum\": [\n            \"http-only\",\n            \"match-viewer\",\n            \"https-only\"\n          ]\n        }\n      }\n    }\n  },\n  \"required\": [\n    \"Id\",\n    \"DomainName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/json-schema/cloudfront-origin-schema.json
 tags:
-- AWS
 - CloudFront
 - CDN
 - Content Delivery

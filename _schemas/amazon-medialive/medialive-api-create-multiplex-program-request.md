@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Name of multiplex program.\"\n        }\n      ]\n    },\n    \"RequestId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"requestId\"\n          },\n          \"description\": \"Unique request ID. This prevents retries from creating multiple\\nresources.\\n\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"RequestId\",\n    \"MultiplexProgramSettings\",\n    \"ProgramName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-create-multiplex-program-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

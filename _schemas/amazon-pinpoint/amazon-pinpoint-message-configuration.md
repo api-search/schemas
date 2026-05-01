@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  {\n          \"$ref\": \"#/components/schemas/CampaignSmsMessage\"\n        },\n        {\n          \"description\": \"The message that the campaign sends through the SMS channel. If specified, this message overrides the default message.\"\n        }\n      ]\n    },\n    \"InAppMessage\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CampaignInAppMessage\"\n        },\n        {\n          \"description\": \"The in-app message configuration.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-message-configuration-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

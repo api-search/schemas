@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-exportable-ecs-service-fields-schema.json\",\n  \"title\": \"ExportableECSServiceFields\",\n  \"description\": \"ExportableECSServiceFields schema\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/ExportableECSServiceField\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-exportable-ecs-service-fields-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

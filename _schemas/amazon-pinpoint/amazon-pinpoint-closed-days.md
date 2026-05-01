@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for Push Channel.\"\n        }\n      ]\n    },\n    \"VOICE\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ListOfClosedDaysRules\"\n        },\n        {\n          \"description\": \"Rules for Voice Channel.\"\n        }\n      ]\n    },\n    \"CUSTOM\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ListOfClosedDaysRules\"\n        },\n        {\n          \"description\": \"Rules for Custom Channel.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-closed-days-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

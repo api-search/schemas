@@ -42,7 +42,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"arn\": {\n 
   ,\n    \"meshName\",\n    \"meshOwner\",\n    \"resourceOwner\",\n    \"routeName\",\n    \"version\",\n    \"virtualRouterName\"\n  ],\n  \"description\": \"An object that represents a route returned by a list operation.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-route-ref-schema.json\",\n  \"title\": \"RouteRef\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-route-ref-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

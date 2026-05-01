@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"renditionGroupId\"\n          },\n          \"description\": \"Optional. Specify alternative group ID\"\n        }\n      ]\n    },\n    \"RenditionLanguageCode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LanguageCode\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"renditionLanguageCode\"\n          },\n          \"description\": \"Optional. Specify ISO 639-2 or ISO 639-3 code in the language property\"\n        }\n      ]\n    },\n    \"RenditionName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"renditionName\"\n          },\n          \"description\": \"Optional. Specify media name\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-webvtt-hls-source-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

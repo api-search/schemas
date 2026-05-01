@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ status of the workspace.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"The list of tags associated with the workspace.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"authentication\",\n    \"created\",\n    \"endpoint\",\n    \"grafanaVersion\",\n    \"id\",\n    \"modified\",\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-workspace-summary-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

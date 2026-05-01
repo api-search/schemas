@@ -31,7 +31,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"description\": \"A Timestream data
   ,\n      \"description\": \"The last time that this database was updated.\"\n    }\n  },\n  \"required\": [\n    \"Arn\",\n    \"DatabaseName\"\n  ],\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Database\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/json-schema/amazon-timestream-database-schema.json
 tags:
-- AWS
 - Database
 - Iot
 - Time Series

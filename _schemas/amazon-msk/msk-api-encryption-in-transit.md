@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ both TLS-encrypted, as well as plaintext data.</p>\\n            <p>\\n               PLAINTEXT means that client-broker communication is enabled in plaintext only.</p>\\n            <p>The default value is TLS_PLAINTEXT.</p>\"\n        }\n      ]\n    },\n    \"InCluster\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__boolean\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"inCluster\"\n          },\n          \"description\": \"\\n            <p>When set to true, it indicates that data communication among the broker nodes of the cluster is encrypted. When set to false, the communication happens in plaintext.</p>\\n            <p>The default value is true.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-encryption-in-transit-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

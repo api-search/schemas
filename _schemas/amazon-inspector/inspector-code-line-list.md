@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Contains information on the lines of code associated with a code snippet.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-code-line-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

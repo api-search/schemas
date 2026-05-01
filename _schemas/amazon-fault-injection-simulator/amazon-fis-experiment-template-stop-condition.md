@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/json-schema/amazon-fis-experiment-template-stop-condition-schema.json\",\n  \"title\": \"ExperimentTemplateStopCondition\",\n  \"description\": \"Stop condition for an experiment\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"source\": {\n      \"type\": \"string\",\n      \"description\": \"Stop condition source\",\n      \"example\": \"aws:cloudwatch:alarm\"\n    },\n    \"value\": {\n      \"type\": \"string\",\n      \"description\": \"CloudWatch alarm ARN or none\",\n      \"example\": \"arn:aws:cloudwatch:us-east-1:123456789012:alarm/my-alarm\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/json-schema/amazon-fis-experiment-template-stop-condition-schema.json
 tags:
-- AWS
 - Chaos Engineering
 - DevOps
 - Fault Injection

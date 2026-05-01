@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ may notice loss of details in bright or saturated areas of your output. HDR to SDR tone mapping has no effect when your input is SDR.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"PRESERVE_DETAILS\",\n    \"VIBRANT\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-hdr-to-sdr-tone-mapper-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

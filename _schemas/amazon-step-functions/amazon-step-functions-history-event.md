@@ -134,7 +134,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       },\n        {\n          \"description\": \"Contains details, such as <code>mapRunArn</code>, and the start date and time of a Map Run. <code>mapRunArn</code> is the Amazon Resource Name (ARN) of the Map Run that was started.\"\n        }\n      ]\n    },\n    \"mapRunFailedEventDetails\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MapRunFailedEventDetails\"\n        },\n        {\n          \"description\": \"Contains error and cause details about a Map Run that failed.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"timestamp\",\n    \"type\",\n    \"id\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-history-event-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

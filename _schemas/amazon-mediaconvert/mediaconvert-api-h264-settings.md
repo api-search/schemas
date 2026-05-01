@@ -170,7 +170,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ enable or disable H264TemporalAdaptiveQuantization, you must set Adaptive quantization (H264AdaptiveQuantization) to a value other than AUTO.\"\n        }\n      ]\n    },\n    \"UnregisteredSeiTimecode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/H264UnregisteredSeiTimecode\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"unregisteredSeiTimecode\"\n          },\n          \"description\": \"Inserts timecode for each frame as 4 bytes of an unregistered SEI message.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-h264-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

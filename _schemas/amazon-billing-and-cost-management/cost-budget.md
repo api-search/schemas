@@ -46,6 +46,5 @@ tags:
 - Cost Optimization
 - FinOps
 - Amazon Web Services
-- AWS
 title: AWS Budget
 ---

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/SimulationJobErrorCode\"\n        },\n        {\n          \"description\": \"The failure code.\"\n        }\n      ]\n    },\n    \"failedAt\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FailedAt\"\n        },\n        {\n          \"description\": \"The time, in milliseconds since the epoch, when the simulation job batch failed.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-failed-create-simulation-job-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: FailedCreateSimulationJobRequest

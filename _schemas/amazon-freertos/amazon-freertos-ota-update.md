@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"ARNs of target devices, things, or thing groups.\"\n    },\n    \"protocols\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"Delivery protocols (MQTT or HTTP).\"\n    },\n    \"creationDate\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"lastModifiedDate\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"awsIotJobId\": {\n      \"type\": \"string\"\n    },\n    \"awsIotJobArn\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"otaUpdateId\",\n    \"targets\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/json-schema/amazon-freertos-ota-update-schema.json
 tags:
-- AWS
 - Embedded Systems
 - IoT
 - Microcontrollers

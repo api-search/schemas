@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-image-format-schema.json\",\n  \"title\": \"ImageFormat\",\n  \"description\": \"ImageFormat schema from AWS Signer API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"JSON\",\n    \"JSONEmbedded\",\n    \"JSONDetached\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-image-format-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

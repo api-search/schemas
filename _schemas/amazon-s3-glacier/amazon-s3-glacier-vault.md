@@ -43,7 +43,6 @@ source_json: "{\n  \"$id\": \"https://schema.api.io/amazon-s3-glacier/amazon-s3-
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/json-schema/amazon-s3-glacier-vault-schema.json
 tags:
 - Archive
-- AWS
 - Backup
 - Storage
 title: Amazon S3 Glacier Vault

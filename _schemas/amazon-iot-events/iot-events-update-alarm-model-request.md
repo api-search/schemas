@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"description\": \"Contains information about one or more alarm actions.\"\n        }\n      ]\n    },\n    \"alarmCapabilities\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AlarmCapabilities\"\n        },\n        {\n          \"description\": \"Contains the configuration information of alarm state changes.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"roleArn\",\n    \"alarmRule\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-update-alarm-model-request-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

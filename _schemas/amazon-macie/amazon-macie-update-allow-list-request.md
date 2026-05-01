@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the other way around.</p>\"\n        }\n      ]\n    },\n    \"description\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMin1Max512PatternSS\"\n        },\n        {\n          \"description\": \"A custom description of the allow list. The description can contain as many as 512 characters.\"\n        }\n      ]\n    },\n    \"name\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMin1Max128Pattern\"\n        },\n        {\n          \"description\": \"A custom name for the allow list. The name can contain as many as 128 characters.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"criteria\",\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-update-allow-list-request-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

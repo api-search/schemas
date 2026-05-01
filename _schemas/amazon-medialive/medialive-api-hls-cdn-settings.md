@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"hlsMediaStoreSettings\"\n          }\n        }\n      ]\n    },\n    \"HlsS3Settings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/HlsS3Settings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"hlsS3Settings\"\n          }\n        }\n      ]\n    },\n    \"HlsWebdavSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/HlsWebdavSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"hlsWebdavSettings\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-hls-cdn-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ result is not a Boolean value, the actions are not performed (=FALSE).\"\n          }\n        ]\n      },\n      \"actions\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/Actions\"\n          },\n          {\n            \"description\": \"The actions to be performed.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Specifies the <code>actions</code> to be performed when the <code>condition</code> evaluates to TRUE.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-events-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

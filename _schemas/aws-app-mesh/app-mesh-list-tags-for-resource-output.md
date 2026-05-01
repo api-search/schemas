@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"nextToken\"
   ,\n  \"title\": \"ListTagsForResourceOutput\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-list-tags-for-resource-output-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

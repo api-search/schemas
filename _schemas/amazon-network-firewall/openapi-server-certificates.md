@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-server-certificates-schema.json\",\n  \"title\": \"ServerCertificates\",\n  \"description\": \"ServerCertificates schema from Amazon Network Firewall\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/ServerCertificate\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-server-certificates-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

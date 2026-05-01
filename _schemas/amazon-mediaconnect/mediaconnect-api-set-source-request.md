@@ -76,7 +76,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   name\": \"whitelistCidr\"\n          },\n          \"description\": \"The range of IP addresses that should be allowed to contribute content to your source. These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.\"\n        }\n      ]\n    },\n    \"GatewayBridgeSource\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SetGatewayBridgeSourceRequest\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"gatewayBridgeSource\"\n          },\n          \"description\": \"The source configuration for cloud flows receiving a stream from a bridge.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-set-source-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"clientToken
   \ have a maximum character length of 128 characters, and tag values can have a maximum length of 256 characters.\"\n        }\n      ]\n    },\n    \"virtualGatewayName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceName\"\n        },\n        {\n          \"description\": \"The name to use for the virtual gateway.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"spec\",\n    \"virtualGatewayName\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-create-virtual-gateway-input-schema.json\",\n  \"title\": \"CreateVirtualGatewayInput\",\n  \"description\": \"CreateVirtualGatewayInput schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-create-virtual-gateway-input-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

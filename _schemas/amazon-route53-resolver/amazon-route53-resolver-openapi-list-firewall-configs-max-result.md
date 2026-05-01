@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-configs-max-result-schema.json\",\n  \"title\": \"ListFirewallConfigsMaxResult\",\n  \"description\": \"ListFirewallConfigsMaxResult schema from openapi\",\n  \"type\": \"integer\",\n  \"minimum\": 5,\n  \"maximum\": 10\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-configs-max-result-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

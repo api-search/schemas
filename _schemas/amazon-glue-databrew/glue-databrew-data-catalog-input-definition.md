@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"TableName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TableName\"\n        },\n        {\n          \"description\": \"The name of a database table in the Data Catalog. This table corresponds to a DataBrew dataset.\"\n        }\n      ]\n    },\n    \"TempDirectory\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3Location\"\n        },\n        {\n          \"description\": \"Represents an Amazon location where DataBrew can store intermediate results.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DatabaseName\",\n    \"TableName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-data-catalog-input-definition-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

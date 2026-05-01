@@ -29,7 +29,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"OrganizationI
   ,\n  \"description\": \"CreateAvailabilityConfigurationRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-create-availability-configuration-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"boolean\",\n      \"description\": \"Whether outbound calls are enabled.\",\n      \"example\": true\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/instance-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

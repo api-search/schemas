@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"description\": \"The VPC interface that you want to use for the incoming media stream.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"InputPort\",\n    \"Interface\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-input-configuration-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

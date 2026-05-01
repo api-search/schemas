@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"description\": \"The version of the segment that the endpoint definitions were exported from.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"S3UrlPrefix\",\n    \"RoleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-export-job-resource-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

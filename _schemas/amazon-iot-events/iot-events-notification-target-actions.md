@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    }\n          ]\n        },\n        \"payload\": {\n          \"allOf\": [\n            {\n              \"$ref\": \"#/components/schemas/Payload\"\n            },\n            {\n              \"description\": \"You can configure the action payload when you send a message to a Lambda function.\"\n            }\n          ]\n        }\n      },\n      \"description\": \"Calls a Lambda function, passing in information about the detector model instance and the event that triggered the action.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-notification-target-actions-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

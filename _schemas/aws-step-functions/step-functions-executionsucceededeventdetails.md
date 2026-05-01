@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ExecutionSucceededEventDetails\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"output\": {},\n    \"outputDetails\": {}\n  },\n  \"description\": \"Contains details about the successful termination of the execution.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/json-schema/step-functions-executionsucceededeventdetails-schema.json
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

@@ -54,7 +54,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   }\n      ]\n    },\n    \"requestId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RunRequestId\"\n        },\n        {\n          \"description\": \"To ensure that requests don't run multiple times, specify a unique ID for each request.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-start-run-request-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ if your input usually has no color space data or might have unreliable color space data.\"\n        }\n      ]\n    },\n    \"SelectorSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VideoSelectorSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"selectorSettings\"\n          },\n          \"description\": \"The video selector settings.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-video-selector-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

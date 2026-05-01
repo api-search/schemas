@@ -21,7 +21,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"ObservabilityConfigurationSummary\",\n  \"description\": \"<p>Provides summary information about an App Runner observability configuration resource.</p> <p>This type contains limited information about an observability configuration. It includes only identification information, without configuration details. It's returned by the <a>ListObservabilityConfigurations</a> action. Complete configuration information is returned by the <a>CreateObservabilityConfiguration</a>, <a>DescribeObservabilityConfiguration</a>, and <a>DeleteObservabilityConfiguration</a> actions using the <a>ObservabilityConfiguration</a> type.</p>\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ObservabilityConfigurationArn\": {},\n    \"ObservabilityConfigurationName\": {},\n    \"ObservabilityConfigurationRevision\": {}\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/json-schema/amazon-app-runner-observabilityconfigurationsummary-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

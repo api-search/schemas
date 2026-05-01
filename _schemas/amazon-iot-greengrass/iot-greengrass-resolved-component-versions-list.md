@@ -15,7 +15,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ about a component version that is compatible to run on a Greengrass core device.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-resolved-component-versions-list-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

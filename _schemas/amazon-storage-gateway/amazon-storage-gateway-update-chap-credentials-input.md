@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to participate in mutual CHAP with the initiator (e.g. Windows client).</p> <p>Byte constraints: Minimum bytes of 12. Maximum bytes of 16.</p> <note> <p>The secret key must be between 12 and 16 bytes when encoded in UTF-8.</p> </note>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"TargetARN\",\n    \"SecretToAuthenticateInitiator\",\n    \"InitiatorName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-update-chap-credentials-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

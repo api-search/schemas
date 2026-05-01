@@ -47,7 +47,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ role\",\n      \"example\": \"arn:aws:iam::123456789012:role/ecsTaskExecutionRole\"\n    },\n    \"taskRoleArn\": {\n      \"type\": \"string\",\n      \"description\": \"ARN of task IAM role\",\n      \"example\": \"arn:aws:iam::123456789012:role/ecsTaskRole\"\n    },\n    \"containerDefinitions\": {\n      \"type\": \"array\",\n      \"description\": \"Container definitions\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/ContainerDefinition\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/json-schema/amazon-fargate-task-definition-schema.json
 tags:
-- AWS
 - Compute
 - Containers
 - ECS

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"Use this parameter if you want to reset cached metadata about the details for an individual entity.\"\n    },\n    \"entitiesPath\": {\n      \"type\": \"string\",\n      \"maxLength\": 256,\n      \"example\": \"\",\n      \"description\": \"Use this parameter only if you're resetting the cached metadata about a nested entity.\"\n    },\n    \"apiVersion\": {\n      \"type\": \"string\",\n      \"example\": \"v55.0\",\n      \"description\": \"The API version that you specified in the connector profile that you're resetting cached metadata for.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-reset-connector-metadata-cache-request-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

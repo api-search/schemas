@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ capacity of the nodes.\",\n      \"type\": \"string\"\n    },\n    \"NumReplicasPerShard\": {\n      \"description\": \"The number of replicas to apply to each shard.\",\n      \"type\": \"integer\"\n    },\n    \"NumShards\": {\n      \"description\": \"The number of shards the cluster will contain.\",\n      \"type\": \"integer\"\n    },\n    \"TLSEnabled\": {\n      \"description\": \"A flag to enable in-transit encryption.\",\n      \"type\": \"boolean\"\n    }\n  },\n  \"required\": [\n    \"ClusterName\",\n    \"NodeType\",\n    \"ACLName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/json-schema/memorydb-api-create-cluster-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

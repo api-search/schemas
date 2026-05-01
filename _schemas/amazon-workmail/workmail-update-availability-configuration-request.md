@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"OrganizationI
   \ one provider definition, either <code>EwsProvider</code> or <code>LambdaProvider</code>. The previously stored provider will be overridden by the one provided.\"\n        }\n      ]\n    },\n    \"LambdaProvider\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LambdaAvailabilityProvider\"\n        },\n        {\n          \"description\": \"The Lambda availability provider definition. The request must contain exactly one provider definition, either <code>EwsProvider</code> or <code>LambdaProvider</code>. The previously stored provider will be overridden by the one provided.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-update-availability-configuration-request-schema.json\",\n  \"description\": \"UpdateAvailabilityConfigurationRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-update-availability-configuration-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

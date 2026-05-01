@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ tag:dolby.com,2014:dash:audio_channel_configuration:2011.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"MPEG_CHANNEL_CONFIGURATION\",\n    \"DOLBY_CHANNEL_CONFIGURATION\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-dash-iso-group-audio-channel-config-scheme-id-uri-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"Choose the distribution types that you want to assign to the watermarks:\\n- PROGRAM_CONTENT\\n- FINAL_DISTRIBUTOR\"\n        }\n      ]\n    },\n    \"NielsenNaesIiNwSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NielsenNaesIiNw\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"nielsenNaesIiNwSettings\"\n          },\n          \"description\": \"Complete these fields only if you want to insert watermarks of type Nielsen NAES II (N2) and Nielsen NAES VI (NW).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-nielsen-watermarks-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

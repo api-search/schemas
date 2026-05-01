@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-describe-gateway-response-schema.json\",\n  \"title\": \"DescribeGatewayResponse\",\n  \"description\": \"DescribeGatewayResponse schema from AWS Elemental MediaConnect API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Gateway\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Gateway\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"gateway\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-describe-gateway-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

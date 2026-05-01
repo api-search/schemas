@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Format is <code>arn:aws:gamelift:&lt;region&gt;::matchmakingruleset/&lt;ruleset name&gt;</code>. In a GameLift rule set ARN, the resource ID matches the <i>RuleSetName</i> value.\"\n        }\n      ]\n    },\n    \"RuleSetBody\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RuleSetBody\"\n        },\n        {\n          \"description\": \"A collection of matchmaking rules, formatted as a JSON string. Comments are not allowed in JSON, but most elements support a description field.\"\n        }\n      ]\n    },\n    \"CreationTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"A time stamp indicating when this data object was created. Format is a number expressed in Unix time as milliseconds (for example <code>\\\"1469498468.057\\\"</code>).\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"RuleSetBody\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-matchmaking-rule-set-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

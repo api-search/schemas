@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-response-schema.json\",\n  \"title\": \"AssociateResolverEndpointIpAddressResponse\",\n  \"description\": \"AssociateResolverEndpointIpAddressResponse schema from openapi\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ResolverEndpoint\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResolverEndpoint\"\n        },\n        {\n          \"description\": \"The response to an <code>AssociateResolverEndpointIpAddress</code> request.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-response-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

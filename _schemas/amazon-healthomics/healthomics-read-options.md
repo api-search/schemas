@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Whether the file has a header row.\"\n        }\n      ]\n    },\n    \"lineSep\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LineSep\"\n        },\n        {\n          \"description\": \"A line separator for the file.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Read options for an annotation import job.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-read-options-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

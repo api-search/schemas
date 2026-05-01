@@ -38,7 +38,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"DeviceTypeW
   \ their WorkSpaces.\"\n        }\n      ]\n    },\n    \"DeviceTypeLinux\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AccessPropertyValue\"\n        },\n        {\n          \"description\": \"Indicates whether users can use Linux clients to access their WorkSpaces.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The device types and operating systems that can be used to access a WorkSpace. For more information, see <a href=\\\"https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-network-requirements.html\\\">Amazon WorkSpaces Client Network Requirements</a>.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkspaceAccessProperties\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-access-properties-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspace-access-properties-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

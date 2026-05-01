@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of seconds can be used as a string expression for durationExpression.\"\n        }\n      ]\n    },\n    \"durationExpression\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VariableValue\"\n        },\n        {\n          \"description\": \"The duration of the timer, in seconds. You can use a string expression that includes numbers, variables (<code>$variable.&lt;variable-name&gt;</code>), and input values (<code>$input.&lt;input-name&gt;.&lt;path-to-datum&gt;</code>) as the duration. The range of the duration is 1-31622400 seconds. To ensure accuracy, the minimum duration is 60 seconds. The evaluated result of the duration is rounded down to the nearest whole number. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"timerName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-set-timer-action-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

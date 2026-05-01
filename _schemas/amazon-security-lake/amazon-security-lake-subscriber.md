@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"date-time\",\n      \"description\": \"Timestamp when the subscriber was last updated.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/json-schema/amazon-security-lake-subscriber-schema.json
 tags:
-- AWS
 - Data Lake
 - Security
 - SIEM

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ page height.\"\n        }\n      ]\n    },\n    \"Left\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Float\"\n        },\n        {\n          \"description\": \"The left coordinate of the bounding box as a ratio of overall document page width.\"\n        }\n      ]\n    },\n    \"Top\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Float\"\n        },\n        {\n          \"description\": \"The top coordinate of the bounding box as a ratio of overall document page height.\"\n        }\n      ]\n    },\n    \"Width\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Float\"\n        },\n        {\n          \"description\": \"The width of the bounding box as a ratio of the overall document page width.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-bounding-box-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

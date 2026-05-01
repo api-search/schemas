@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-cidr-count-schema.json\",\n  \"title\": \"CIDRCount\",\n  \"description\": \"CIDRCount schema from Amazon Network Firewall\",\n  \"type\": \"integer\",\n  \"minimum\": 0,\n  \"maximum\": 1000000\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-cidr-count-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

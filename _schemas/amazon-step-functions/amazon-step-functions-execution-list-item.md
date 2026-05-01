@@ -46,7 +46,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   {\n          \"description\": \"<p>The Amazon Resource Name (ARN) of the state machine alias used to start an execution.</p> <p>If the state machine execution was started with an unqualified ARN or a version ARN, it returns null.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"executionArn\",\n    \"stateMachineArn\",\n    \"name\",\n    \"status\",\n    \"startDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-execution-list-item-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

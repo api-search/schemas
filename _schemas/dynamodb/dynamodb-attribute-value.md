@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"type\": \"array\",\n      \"description\": \"An attribute of type Number Set\"\n    },\n    \"BS\": {\n      \"type\": \"array\",\n      \"description\": \"An attribute of type Binary Set\"\n    },\n    \"M\": {\n      \"type\": \"object\",\n      \"description\": \"An attribute of type Map\"\n    },\n    \"L\": {\n      \"type\": \"array\",\n      \"description\": \"An attribute of type List\"\n    },\n    \"NULL\": {\n      \"type\": \"boolean\",\n      \"description\": \"An attribute of type Null\"\n    },\n    \"BOOL\": {\n      \"type\": \"boolean\",\n      \"description\": \"An attribute of type Boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-attribute-value-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

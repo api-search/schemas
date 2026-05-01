@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Amazon EC2 recommendation projected metrics to return in the response.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"instanceArn\",\n    \"stat\",\n    \"period\",\n    \"startTime\",\n    \"endTime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-get-ec2-recommendation-projected-metrics-request-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

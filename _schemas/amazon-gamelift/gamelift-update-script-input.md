@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"\n        }\n      ]\n    },\n    \"ZipFile\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ZipBlob\"\n        },\n        {\n          \"description\": \"<p>A data object containing your Realtime scripts and dependencies as a zip file. The zip file can have one or multiple files. Maximum size of a zip file is 5 MB.</p> <p>When using the Amazon Web Services CLI tool to create a script, this parameter is set to the zip file name. It must be prepended with the string \\\"fileb://\\\" to indicate that the file data is a binary object. For example: <code>--zip-file fileb://myRealtimeScript.zip</code>.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ScriptId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-update-script-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

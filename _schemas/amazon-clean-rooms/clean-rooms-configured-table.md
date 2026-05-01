@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The time when the configured table was created.\"\n    },\n    \"updateTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The time when the configured table was last updated.\"\n    },\n    \"analysisMethod\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"DIRECT_QUERY\"\n      ],\n      \"description\": \"The analysis method for the configured table.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/json-schema/clean-rooms-configured-table-schema.json
 tags:
-- AWS
 - Clean Rooms
 - Data Collaboration
 - Privacy

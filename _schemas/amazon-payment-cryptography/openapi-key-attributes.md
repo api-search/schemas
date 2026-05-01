@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ufb01ned in section A.5.2 of the TR-31 spec.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KeyAlgorithm\",\n    \"KeyClass\",\n    \"KeyModesOfUse\",\n    \"KeyUsage\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-key-attributes-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

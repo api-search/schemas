@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-destination-settings-schema.json\",\n  \"title\": \"DestinationSettings\",\n  \"description\": \"Settings associated with the destination. Will vary based on the type of destination\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"S3Settings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3DestinationSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"s3Settings\"\n          },\n          \"description\": \"Settings associated with S3 destination\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-destination-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of your choice here.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ZERO_BASED\",\n    \"MATCH_INITIAL_PTS\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-dash-iso-pts-offset-handling-for-b-frames-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

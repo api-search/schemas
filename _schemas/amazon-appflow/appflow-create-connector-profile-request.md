@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   connectorType\",\n    \"connectionMode\",\n    \"connectorProfileConfig\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-create-connector-profile-request-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

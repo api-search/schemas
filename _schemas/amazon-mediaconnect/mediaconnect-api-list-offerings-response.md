@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"Offerings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOfOffering\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"offerings\"\n          },\n          \"description\": \"A list of offerings that are available to this account in the current AWS Region.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-list-offerings-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

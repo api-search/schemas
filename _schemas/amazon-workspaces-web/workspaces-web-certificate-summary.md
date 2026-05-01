@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"issuer\": {
   \        }\n      ]\n    },\n    \"thumbprint\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CertificateThumbprint\"\n        },\n        {\n          \"description\": \"A hexadecimal identifier for the certificate.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The summary of the certificate.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"CertificateSummary\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-certificate-summary-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-certificate-summary-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

@@ -48,7 +48,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ListPartsOutput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Bucket\": {},\n    \"Key\": {},\n    \"UploadId\": {},\n    \"PartNumberMarker\": {},\n    \"NextPartNumberMarker\": {},\n    \"MaxParts\": {},\n    \"IsTruncated\": {},\n    \"Parts\": {},\n    \"Initiator\": {},\n    \"Owner\": {},\n    \"StorageClass\": {},\n    \"ChecksumAlgorithm\": {}\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-listpartsoutput-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

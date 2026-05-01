@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-batch-job-execution-status-schema.json\",\n  \"title\": \"BatchJobExecutionStatus\",\n  \"description\": \"BatchJobExecutionStatus schema from AWS Mainframe Modernization API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"Submitting\",\n    \"Holding\",\n    \"Dispatching\",\n    \"Running\",\n    \"Cancelling\",\n    \"Cancelled\",\n    \"Succeeded\",\n    \"Failed\",\n    \"Succeeded With Warning\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-batch-job-execution-status-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

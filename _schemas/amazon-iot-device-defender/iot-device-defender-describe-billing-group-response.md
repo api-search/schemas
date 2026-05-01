@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The ARN of the billing group.\"\n        }\n      ]\n    },\n    \"version\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Version\"\n        },\n        {\n          \"description\": \"The version of the billing group.\"\n        }\n      ]\n    },\n    \"billingGroupProperties\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BillingGroupProperties\"\n        },\n        {\n          \"description\": \"The properties of the billing group.\"\n        }\n      ]\n    },\n    \"billingGroupMetadata\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BillingGroupMetadata\"\n        },\n        {\n          \"description\": \"Additional information about the billing group.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-describe-billing-group-response-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

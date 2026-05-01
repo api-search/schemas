@@ -50,7 +50,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the function was last updated.\",\n      \"format\": \"date-time\"\n    },\n    \"State\": {\n      \"type\": \"string\",\n      \"description\": \"The current state of the function.\",\n      \"example\": \"Active\",\n      \"enum\": [\n        \"Pending\",\n        \"Active\",\n        \"Inactive\",\n        \"Failed\"\n      ]\n    },\n    \"PackageType\": {\n      \"type\": \"string\",\n      \"description\": \"The type of deployment package.\",\n      \"example\": \"Zip\",\n      \"enum\": [\n        \"Zip\",\n        \"Image\"\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/json-schema/amazon-lambda-function-schema.json
 tags:
-- AWS
 - Compute
 - Event-Driven
 - FaaS

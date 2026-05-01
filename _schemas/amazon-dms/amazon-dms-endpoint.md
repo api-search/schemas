@@ -128,7 +128,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for the IBM Db2 LUW source endpoint. For more information, see the <code>IBMDb2Settings</code> structure. \"\n        }\n      ]\n    },\n    \"DocDbSettings\": {\n      \"$ref\": \"#/components/schemas/DocDbSettings\"\n    },\n    \"RedisSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RedisSettings\"\n        },\n        {\n          \"description\": \"The settings for the Redis target endpoint. For more information, see the <code>RedisSettings</code> structure.\"\n        }\n      ]\n    },\n    \"GcpMySQLSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GcpMySQLSettings\"\n        },\n        {\n          \"description\": \"Settings in JSON format for the source GCP MySQL endpoint.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-endpoint-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

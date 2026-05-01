@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ definitions from.\"\n        }\n      ]\n    },\n    \"S3Url\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The URL of the Amazon Simple Storage Service (Amazon S3) bucket that the endpoint definitions were imported from to create the segment.\"\n        }\n      ]\n    },\n    \"Size\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"description\": \"The number of endpoint definitions that were imported successfully to create the segment.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Format\",\n    \"S3Url\",\n    \"Size\",\n    \"ExternalId\",\n    \"RoleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-segment-import-resource-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

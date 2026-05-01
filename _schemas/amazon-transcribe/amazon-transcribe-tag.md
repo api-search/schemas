@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Key\": {\n 
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/json-schema/amazon-transcribe-tag-schema.json
 tags:
 - Audio Processing
-- AWS
 - Machine Learning
 - Speech Recognition
 - Speech-To-Text

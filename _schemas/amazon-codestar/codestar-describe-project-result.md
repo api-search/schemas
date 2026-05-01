@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     {\n          \"description\": \"The ID of the primary stack in AWS CloudFormation used to generate resources for the project.\"\n        }\n      ]\n    },\n    \"projectTemplateId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ProjectTemplateId\"\n        },\n        {\n          \"description\": \"The ID for the AWS CodeStar project template used to create the project.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ProjectStatus\"\n        },\n        {\n          \"description\": \"The project creation or deletion status.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-schema/codestar-describe-project-result-schema.json
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

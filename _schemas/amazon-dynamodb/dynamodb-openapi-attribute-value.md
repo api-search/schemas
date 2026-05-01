@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"NS\": {\n      \"type\": \"array\",\n      \"description\": \"Number set attribute value\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"BS\": {\n      \"type\": \"array\",\n      \"description\": \"Binary set attribute value\",\n      \"items\": {\n        \"type\": \"string\",\n        \"format\": \"byte\"\n      }\n    },\n    \"M\": {\n      \"type\": \"object\",\n      \"description\": \"Map attribute value\",\n      \"additionalProperties\": {\n        \"$ref\": \"#/components/schemas/AttributeValue\"\n      }\n    },\n    \"L\": {\n      \"type\": \"array\",\n      \"description\": \"List attribute value\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/AttributeValue\"\n      }\n    },\n    \"NULL\": {\n      \"type\": \"boolean\",\n      \"description\": \"Null attribute value\"\n    },\n    \"BOOL\": {\n      \"type\": \"boolean\",\n      \"description\": \"Boolean attribute value\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-schema/dynamodb-openapi-attribute-value-schema.json
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

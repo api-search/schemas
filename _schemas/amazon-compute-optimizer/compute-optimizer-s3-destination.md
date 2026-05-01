@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ key uniquely identifies the object, or export file, in the S3 bucket.</p>\"\n        }\n      ]\n    },\n    \"metadataKey\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MetadataKey\"\n        },\n        {\n          \"description\": \"<p>The Amazon S3 bucket key of a metadata file.</p> <p>The key uniquely identifies the object, or metadata file, in the S3 bucket.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-s3-destination-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

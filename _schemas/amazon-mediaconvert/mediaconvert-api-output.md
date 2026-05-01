@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ or Container settings (ContainerSettings), but not both.\"\n        }\n      ]\n    },\n    \"VideoDescription\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VideoDescription\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"videoDescription\"\n          },\n          \"description\": \"VideoDescription contains a group of video encoding settings. The specific video settings depend on the video codec that you choose for the property codec. Include one instance of VideoDescription per output.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-output-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

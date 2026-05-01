@@ -51,7 +51,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"enum\": [\n        \"TRUE\",\n        \"FALSE\"\n      ]\n    }\n  },\n  \"required\": [\n    \"source\",\n    \"format\",\n    \"iamRoleArn\",\n    \"region\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/data-start-loader-job-input-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

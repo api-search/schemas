@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ARN\"\n        },\n        {\n          \"description\": \"The <a href=\\\"https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html\\\">ARN</a> of the Identity and Access Management role that allows IoT SiteWise to send data to Amazon S3.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"s3ResourceArn\",\n    \"roleArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-customer-managed-s3-storage-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ isn't provided, the default value is 20.\"\n        }\n      ]\n    },\n    \"OwnershipType\": {\n      \"$ref\": \"#/components/schemas/OwnershipType\"\n    }\n  },\n  \"required\": [\n    \"Catalog\",\n    \"EntityType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-list-entities-request-schema.json
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

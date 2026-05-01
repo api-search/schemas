@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   }\n  },\n  \"description\": \"Files in a read set.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-read-set-files-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

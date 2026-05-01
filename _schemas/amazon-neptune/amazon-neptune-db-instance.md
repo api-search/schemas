@@ -80,7 +80,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   The identifier of the CA certificate for this DB instance.\"\n    },\n    \"CopyTagsToSnapshot\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether tags are copied to snapshots of the DB instance.\"\n    },\n    \"InstanceCreateTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The date and time when the DB instance was created.\"\n    },\n    \"PendingModifiedValues\": {\n      \"type\": \"object\",\n      \"description\": \"Changes to the DB instance that are pending application.\",\n      \"properties\": {\n        \"DBInstanceClass\": {\n          \"type\": \"string\"\n        },\n        \"EngineVersion\": {\n          \"type\": \"string\"\n        },\n        \"PendingCloudwatchLogsExports\": {\n          \"type\": \"object\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-db-instance-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

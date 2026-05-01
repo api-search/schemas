@@ -68,7 +68,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"Amount of delay (seconds) to enforce on the playback of live content.\\nIf not specified, there will be no time delay in effect for the OriginEndpoint.\\n\"\n        }\n      ]\n    },\n    \"Url\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"url\"\n          },\n          \"description\": \"The URL of the packaged OriginEndpoint for consumption.\"\n        }\n      ]\n    },\n    \"Whitelist\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOf__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"whitelist\"\n          },\n          \"description\": \"A list of source IP CIDR blocks that will be allowed to access the OriginEndpoint.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-update-origin-endpoint-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

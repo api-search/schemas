@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ only allowed value.\"\n        }\n      ]\n    },\n    \"Order\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Order\"\n        },\n        {\n          \"description\": \"A criteria to use for Amazon S3 files sorting before their selection. By default uses DESCENDING order, i.e. most recent files are selected first. Another possible value is ASCENDING.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MaxFiles\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-files-limit-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

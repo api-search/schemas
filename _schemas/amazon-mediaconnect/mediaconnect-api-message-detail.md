@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ did not succeed.\"\n        }\n      ]\n    },\n    \"ResourceName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"resourceName\"\n          },\n          \"description\": \"The name of the resource.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Message\",\n    \"Code\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-message-detail-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

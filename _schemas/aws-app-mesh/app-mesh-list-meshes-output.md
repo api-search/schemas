@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"meshes\": {
   ,\n  \"title\": \"ListMeshesOutput\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-list-meshes-output-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

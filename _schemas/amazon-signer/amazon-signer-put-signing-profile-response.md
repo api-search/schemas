@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"allOf\": [\n        {\n          \"type\": \"string\",\n          \"minLength\": 20,\n          \"maxLength\": 2048\n        },\n        {\n          \"description\": \"The signing profile ARN, including the profile version.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-put-signing-profile-response-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Amazon Web Services Region as a remote location, in the form of an Amazon Web Services Region code such as <code>us-west-2</code>. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"FleetId\",\n    \"Locations\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-create-fleet-locations-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

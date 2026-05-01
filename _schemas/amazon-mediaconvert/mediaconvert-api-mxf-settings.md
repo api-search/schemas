@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"XavcProfileSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MxfXavcProfileSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"xavcProfileSettings\"\n          },\n          \"description\": \"Specify the XAVC profile settings for MXF outputs when you set your MXF profile to XAVC.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-mxf-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

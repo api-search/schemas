@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to filter the query results, in extended ISO 8601 format. The date range is inclusive.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KpiResult\",\n    \"KpiName\",\n    \"JourneyId\",\n    \"EndTime\",\n    \"StartTime\",\n    \"ApplicationId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-journey-date-range-kpi-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

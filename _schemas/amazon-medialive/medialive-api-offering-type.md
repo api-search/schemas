@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-offering-type-schema.json\",\n  \"title\": \"OfferingType\",\n  \"description\": \"Offering type, e.g. 'NO_UPFRONT'\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"NO_UPFRONT\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-offering-type-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

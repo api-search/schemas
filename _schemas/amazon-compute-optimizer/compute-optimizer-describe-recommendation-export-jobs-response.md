@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ are no more pages of export jobs to return.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-describe-recommendation-export-jobs-response-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

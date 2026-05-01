@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      },\n      \"findingArn\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/FindingArn\"\n          },\n          {\n            \"description\": \"The finding ARN that returned an error.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Details about an error encountered when trying to return vulnerability data for a finding.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-finding-details-error-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

@@ -18,7 +18,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n            },\n            {\n              \"description\": \"The reason the resource was noncompliant.\"\n            }\n          ]\n        },\n        \"reasonForNonComplianceCode\": {\n          \"allOf\": [\n            {\n              \"$ref\": \"#/components/schemas/ReasonForNonComplianceCode\"\n            },\n            {\n              \"description\": \"A code that indicates the reason that the resource was noncompliant.\"\n            }\n          ]\n        },\n        \"isSuppressed\": {\n          \"allOf\": [\n            {\n              \"$ref\": \"#/components/schemas/IsSuppressed\"\n            },\n            {\n              \"description\": \" Indicates whether the audit finding was suppressed or not during reporting. \"\n            }\n          ]\n        }\n      },\n      \"description\": \"The findings (results) of the audit.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-describe-audit-finding-response-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"The default encryption algorithm that is used by a code signing job.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"allowedValues\",\n    \"defaultValue\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-encryption-algorithm-options-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

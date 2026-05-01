@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"name\"\n          },\n          \"description\": \"The name of the gateway. This name can not be modified after the gateway is created.\"\n        }\n      ]\n    },\n    \"Networks\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOfGatewayNetwork\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"networks\"\n          },\n          \"description\": \"The list of networks that you want to add.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Networks\",\n    \"EgressCidrBlocks\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-create-gateway-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

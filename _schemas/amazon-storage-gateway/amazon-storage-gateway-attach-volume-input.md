@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the network interfaces available on a gateway.</p> <p>Valid Values: A valid IP address.</p>\"\n        }\n      ]\n    },\n    \"DiskId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DiskId\"\n        },\n        {\n          \"description\": \"The unique device ID or other distinguishing data that identifies the local disk used to create the volume. This value is only required when you are attaching a stored volume.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"GatewayARN\",\n    \"VolumeARN\",\n    \"NetworkInterfaceId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-attach-volume-input-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComponentVersionString\"\n        },\n        {\n          \"description\": \"The version of the component.\"\n        }\n      ]\n    },\n    \"creationTimestamp\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The time at which the component was created, expressed in ISO 8601 format.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CloudComponentStatus\"\n        },\n        {\n          \"description\": \"The status of the component version in IoT Greengrass V2. This status is different from the status of the component on a core device.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"componentName\",\n    \"componentVersion\",\n    \"creationTimestamp\",\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-create-component-version-response-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

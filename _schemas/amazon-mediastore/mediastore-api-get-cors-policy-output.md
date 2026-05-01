@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-get-cors-policy-output-schema.json\",\n  \"title\": \"GetCorsPolicyOutput\",\n  \"description\": \"GetCorsPolicyOutput schema from Amazon MediaStore API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"CorsPolicy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CorsPolicy\"\n        },\n        {\n          \"description\": \"The CORS policy assigned to the container.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CorsPolicy\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-get-cors-policy-output-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

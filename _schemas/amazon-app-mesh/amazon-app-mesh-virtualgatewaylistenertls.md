@@ -21,7 +21,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"VirtualGatewayListenerTls\",\n  \"description\": \"An object that represents the Transport Layer Security (TLS) properties for a listener.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"certificate\": {},\n    \"mode\": {},\n    \"validation\": {}\n  },\n  \"required\": [\n    \"certificate\",\n    \"mode\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/json-schema/amazon-app-mesh-virtualgatewaylistenertls-schema.json
 tags:
-- AWS
 - Microservices
 - Networking
 - Service Mesh

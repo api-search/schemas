@@ -31,7 +31,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"GroupId\": 
   \ to WorkMail).\"\n        }\n      ]\n    },\n    \"EnabledDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date and time when a user was registered to WorkMail, in UNIX epoch time format.\"\n        }\n      ]\n    },\n    \"DisabledDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date and time when a user was deregistered from WorkMail, in UNIX epoch time format.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DescribeGroupResponse\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-describe-group-response-schema.json\",\n  \"description\": \"DescribeGroupResponse schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-describe-group-response-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"If TRUE, logging is enabled for AWS IoT Events.\"\n        }\n      ]\n    },\n    \"detectorDebugOptions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DetectorDebugOptions\"\n        },\n        {\n          \"description\": \"Information that identifies those detector models and their detectors (instances) for which the logging level is given.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"roleArn\",\n    \"level\",\n    \"enabled\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-logging-options-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

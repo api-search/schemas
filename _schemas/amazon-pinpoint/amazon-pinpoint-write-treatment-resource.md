@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"A custom description of the treatment.\"\n        }\n      ]\n    },\n    \"TreatmentName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"A custom name for the treatment.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SizePercent\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-write-treatment-resource-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"description\": \"Indicates the connection mode and if it is public or private.\"\n    },\n    \"connectorProfileConfig\": {\n      \"type\": \"object\",\n      \"description\": \"Defines the connector-specific profile configuration and credentials.\"\n    }\n  },\n  \"required\": [\n    \"connectorProfileName\",\n    \"connectionMode\",\n    \"connectorProfileConfig\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-update-connector-profile-request-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

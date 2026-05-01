@@ -50,7 +50,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"name\": \"vorbisSettings\"\n          },\n          \"description\": \"Required when you set Codec, under AudioDescriptions>CodecSettings, to the value Vorbis.\"\n        }\n      ]\n    },\n    \"WavSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WavSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"wavSettings\"\n          },\n          \"description\": \"Required when you set (Codec) under (AudioDescriptions)>(CodecSettings) to the value WAV.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-audio-codec-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    ]\n    },\n    \"Raw\": {\n      \"type\": \"object\",\n      \"description\": \"The raw email message.\",\n      \"properties\": {\n        \"Data\": {\n          \"type\": \"string\",\n          \"format\": \"byte\",\n          \"description\": \"The raw email message in MIME format.\"\n        }\n      },\n      \"required\": [\n        \"Data\"\n      ]\n    },\n    \"Template\": {\n      \"type\": \"object\",\n      \"description\": \"The template email message.\",\n      \"properties\": {\n        \"TemplateName\": {\n          \"type\": \"string\",\n          \"description\": \"The name of the template.\"\n        },\n        \"TemplateArn\": {\n          \"type\": \"string\"\n        },\n        \"TemplateData\": {\n          \"type\": \"string\",\n          \"description\": \"JSON object of replacement values for template variables.\"\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-schema/amazon-ses-openapi-email-message-schema.json
 tags:
-- AWS
 - Email
 - Email Deliverability
 - Email Service

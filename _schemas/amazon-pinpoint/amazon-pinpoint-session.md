@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ time when the session began.\"\n        }\n      ]\n    },\n    \"StopTimestamp\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The date and time when the session ended.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"StartTimestamp\",\n    \"Id\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-session-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

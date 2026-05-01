@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"Choose a specific date for maintenance to occur. The chosen date is used for the next maintenance window only.\"\n        }\n      ]\n    },\n    \"MaintenanceStartTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringPattern010920300\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"maintenanceStartTime\"\n          },\n          \"description\": \"Choose the hour that maintenance will start. The chosen time is used for all future maintenance windows.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-maintenance-update-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

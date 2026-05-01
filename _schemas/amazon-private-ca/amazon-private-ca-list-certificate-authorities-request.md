@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"description\": \"Use this parameter when paginating results to specify the maximum number of items to return in the response on each page. If additional items exist beyond the number you specify, the <code>NextToken</code> element is sent in the response. Use this <code>NextToken</code> value in a subsequent request to retrieve additional items.\"\n        }\n      ]\n    },\n    \"ResourceOwner\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceOwner\"\n        },\n        {\n          \"description\": \"Use this parameter to filter the returned set of certificate authorities based on their owner. The default is SELF.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-list-certificate-authorities-request-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

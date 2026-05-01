@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n                },\n                {\n                  \"description\": \"The set of accepted hash algorithms allowed in a code signing job.\"\n                }\n              ]\n            },\n            \"defaultValue\": {\n              \"allOf\": [\n                {\n                  \"$ref\": \"#/components/schemas/HashAlgorithm\"\n                },\n                {\n                  \"description\": \"The default hash algorithm that is used in a code signing job.\"\n                }\n              ]\n            }\n          },\n          \"description\": \"The hash algorithms that are available to a code signing job.\"\n        },\n        {\n          \"description\": \"The hash algorithm options that are available for a code signing job.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"encryptionAlgorithmOptions\",\n    \"hashAlgorithmOptions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-signing-configuration-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

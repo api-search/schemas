@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       \"description\": \"Displays the duration of the next maintenance window.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"startTime\",\n    \"durationInMinutes\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-maintenance-window-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

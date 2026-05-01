@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/StreamSelection\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"streamSelection\"\n          }\n        }\n      ]\n    },\n    \"UseAudioRenditionGroup\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__boolean\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"useAudioRenditionGroup\"\n          },\n          \"description\": \"When enabled, audio streams will be placed in rendition groups in the output.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-hls-package-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

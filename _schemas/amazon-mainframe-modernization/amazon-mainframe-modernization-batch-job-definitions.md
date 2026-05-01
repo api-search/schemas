@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-batch-job-definitions-schema.json\",\n  \"title\": \"BatchJobDefinitions\",\n  \"description\": \"BatchJobDefinitions schema from AWS Mainframe Modernization API\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/BatchJobDefinition\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-batch-job-definitions-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

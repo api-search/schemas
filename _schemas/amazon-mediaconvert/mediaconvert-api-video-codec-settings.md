@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n            \"name\": \"vp9Settings\"\n          },\n          \"description\": \"Required when you set (Codec) under (VideoDescription)>(CodecSettings) to the value VP9.\"\n        }\n      ]\n    },\n    \"XavcSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/XavcSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"xavcSettings\"\n          },\n          \"description\": \"Required when you set (Codec) under (VideoDescription)>(CodecSettings) to the value XAVC.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-video-codec-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

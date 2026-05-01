@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   #/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"Boolean value that indicates if the event subscription is enabled.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-event-subscription-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

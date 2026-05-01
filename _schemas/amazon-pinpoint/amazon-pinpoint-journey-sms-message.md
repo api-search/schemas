@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The entity ID or Principal Entity (PE) id received from the regulatory body for sending SMS in your country.\"\n        }\n      ]\n    },\n    \"TemplateId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The template ID received from the regulatory body for sending SMS in your country.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-journey-sms-message-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

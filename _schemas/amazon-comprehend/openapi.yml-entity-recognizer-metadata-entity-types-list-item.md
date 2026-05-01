@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ entity recognizer for a specific item on the list of entity types. \"\n        }\n      ]\n    },\n    \"NumberOfTrainMentions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"Indicates the number of times the given entity type was seen in the training data. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-entity-recognizer-metadata-entity-types-list-item-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

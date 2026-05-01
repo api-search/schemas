@@ -21,7 +21,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ if you specify the <code>name</code> parameter as <code>FindingReasonCode</code>.</p> </li> </ul>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-lambda-function-recommendation-filter-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

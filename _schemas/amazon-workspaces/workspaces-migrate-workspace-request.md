@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"SourceWorkspa
   }"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-migrate-workspace-request-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

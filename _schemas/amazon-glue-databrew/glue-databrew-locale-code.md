@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-locale-code-schema.json\",\n  \"title\": \"LocaleCode\",\n  \"description\": \"LocaleCode schema from Amazon Glue DataBrew API\",\n  \"type\": \"string\",\n  \"pattern\": \"^[A-Za-z0-9_\\\\.#@\\\\-]+$\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-locale-code-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

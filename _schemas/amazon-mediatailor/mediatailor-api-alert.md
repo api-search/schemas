@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The timestamp when the alert was last modified.\"\n        }\n      ]\n    },\n    \"RelatedResourceArns\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOf__string\"\n        },\n        {\n          \"description\": \"The Amazon Resource Names (ARNs) related to this alert.\"\n        }\n      ]\n    },\n    \"ResourceArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the resource.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"AlertCode\",\n    \"AlertMessage\",\n    \"LastModifiedTime\",\n    \"RelatedResourceArns\",\n    \"ResourceArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-alert-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-status-message-schema.json\",\n  \"title\": \"StatusMessage\",\n  \"description\": \"StatusMessage schema from openapi\",\n  \"type\": \"string\",\n  \"maxLength\": 255\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-status-message-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

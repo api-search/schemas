@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     {\n          \"$ref\": \"#/components/schemas/State\"\n        },\n        {\n          \"description\": \"An object detailing the status of Amazon Inspector for the account.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"accountId\",\n    \"resourceState\",\n    \"state\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-account-state-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

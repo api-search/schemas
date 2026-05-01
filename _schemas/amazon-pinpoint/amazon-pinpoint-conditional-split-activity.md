@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   $ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The unique identifier for the activity to perform if the conditions are met.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-conditional-split-activity-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

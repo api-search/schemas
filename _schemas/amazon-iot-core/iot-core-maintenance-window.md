@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   Displays the duration of the next maintenance window.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"startTime\",\n    \"durationInMinutes\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-maintenance-window-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

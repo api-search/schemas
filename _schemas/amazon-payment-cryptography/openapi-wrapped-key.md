@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/KeyArn\"\n        },\n        {\n          \"description\": \"The <code>KeyARN</code> of the wrapped key.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KeyMaterial\",\n    \"WrappedKeyMaterialFormat\",\n    \"WrappingKeyArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-wrapped-key-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          },\n            {\n              \"description\": \"The state that is entered at the creation of each detector (instance).\"\n            }\n          ]\n        }\n      },\n      \"description\": \"Information that defines how a detector operates.\"\n    }\n  },\n  \"required\": [\n    \"detectorModelDefinition\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-start-detector-model-analysis-request-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

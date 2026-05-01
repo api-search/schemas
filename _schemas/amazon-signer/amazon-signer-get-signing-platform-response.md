@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"integer\"\n        },\n        {\n          \"description\": \"The maximum size (in MB) of the payload that can be signed by the target platform.\"\n        }\n      ]\n    },\n    \"revocationSupported\": {\n      \"allOf\": [\n        {\n          \"type\": \"boolean\"\n        },\n        {\n          \"description\": \"A flag indicating whether signatures generated for the signing platform can be revoked.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-get-signing-platform-response-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

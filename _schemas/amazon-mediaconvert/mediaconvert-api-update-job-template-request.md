@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"xml\": {\n            \"name\": \"settings\"\n          },\n          \"description\": \"JobTemplateSettings contains all the transcode settings saved in the template that will be applied to jobs created from it.\"\n        }\n      ]\n    },\n    \"StatusUpdateInterval\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StatusUpdateInterval\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"statusUpdateInterval\"\n          },\n          \"description\": \"Specify how often MediaConvert sends STATUS_UPDATE events to Amazon CloudWatch Events. Set the interval, in seconds, between status updates. MediaConvert sends an update at this interval from the time the service begins processing your job to the time it completes the transcode or encounters an error.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-update-job-template-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

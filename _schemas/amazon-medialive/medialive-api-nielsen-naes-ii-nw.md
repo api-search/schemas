@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  }\n      ]\n    },\n    \"Timezone\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NielsenWatermarkTimezones\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timezone\"\n          },\n          \"description\": \"Choose the timezone for the time stamps in the watermark. If not provided,\\nthe timestamps will be in Coordinated Universal Time (UTC)\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CheckDigitString\",\n    \"Sid\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-nielsen-naes-ii-nw-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

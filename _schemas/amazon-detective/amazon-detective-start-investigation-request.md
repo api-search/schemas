@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"2025-01-01T00:00:00Z\"\n    },\n    \"ScopeEndTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The data and time when the investigation ended.\",\n      \"example\": \"2025-01-15T23:59:59Z\"\n    }\n  },\n  \"required\": [\n    \"GraphArn\",\n    \"EntityArn\",\n    \"ScopeStartTime\",\n    \"ScopeEndTime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-start-investigation-request-schema.json
 tags:
-- AWS
 - Forensics
 - Investigation
 - Security

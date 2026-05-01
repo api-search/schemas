@@ -28,6 +28,5 @@ tags:
 - GraphQL
 - API Management
 - Serverless
-- AWS
 title: ApiAssociation
 ---

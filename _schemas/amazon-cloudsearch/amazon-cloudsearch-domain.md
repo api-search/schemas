@@ -47,7 +47,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"description\": \"The service endpoint for updating documents in a search domain.\",\n      \"properties\": {\n        \"endpoint\": {\n          \"type\": \"string\",\n          \"description\": \"The endpoint to which service requests can be submitted.\"\n        }\n      }\n    },\n    \"searchService\": {\n      \"type\": \"object\",\n      \"description\": \"The service endpoint for requesting search results from a search domain.\",\n      \"properties\": {\n        \"endpoint\": {\n          \"type\": \"string\",\n          \"description\": \"The endpoint to which service requests can be submitted.\"\n        }\n      }\n    }\n  },\n  \"additionalProperties\": false\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/json-schema/amazon-cloudsearch-domain-schema.json
 tags:
-- AWS
 - CloudSearch
 - Search
 - Full-Text Search

@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   \  \"description\": \"The contrast of the image.\"\n            }\n          }\n        },\n        \"DominantColors\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"Red\": {\n                \"type\": \"integer\"\n              },\n              \"Green\": {\n                \"type\": \"integer\"\n              },\n              \"Blue\": {\n                \"type\": \"integer\"\n              },\n              \"HexCode\": {\n                \"type\": \"string\"\n              },\n              \"SimplifiedColor\": {\n                \"type\": \"string\"\n              },\n              \"CSSColor\": {\n                \"type\": \"string\"\n              },\n              \"PixelPercent\": {\n                \"type\": \"number\"\n              }\n            }\n          }\n        }\n      }\n    }\n  },\n  \"required\": [\"Labels\"]\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detectlabelsresponse-schema.json
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-s3-bucket-name-schema.json\",\n  \"title\": \"S3BucketName\",\n  \"description\": \"The name of an S3 bucket.\",\n  \"type\": \"string\",\n  \"pattern\": \"^[A-Za-z0-9.\\\\-_]{3,255}$\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-s3-bucket-name-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

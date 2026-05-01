@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"Metadata that you can use to manage the component type.\"\n        }\n      ]\n    },\n    \"propertyGroups\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PropertyGroupsRequest\"\n        },\n        {\n          \"description\": \"<p/>\"\n        }\n      ]\n    },\n    \"componentTypeName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComponentTypeName\"\n        },\n        {\n          \"description\": \"A friendly name for the component type.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-create-component-type-request-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

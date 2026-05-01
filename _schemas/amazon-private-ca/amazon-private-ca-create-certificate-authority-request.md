@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CertificateAuthorityUsageMode\"\n        },\n        {\n          \"description\": \"<p>Specifies whether the CA issues general-purpose certificates that typically require a revocation mechanism, or short-lived certificates that may optionally omit revocation because they expire quickly. Short-lived certificate validity is limited to seven days.</p> <p>The default value is GENERAL_PURPOSE.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CertificateAuthorityConfiguration\",\n    \"CertificateAuthorityType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-create-certificate-authority-request-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

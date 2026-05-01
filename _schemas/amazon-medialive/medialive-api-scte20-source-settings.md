@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     },\n        {\n          \"xml\": {\n            \"name\": \"source608ChannelNumber\"\n          },\n          \"description\": \"Specifies the 608/708 channel number within the video track from which to extract captions. Unused for passthrough.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-scte20-source-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

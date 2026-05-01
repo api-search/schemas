@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"A list of the tag keys and values that you want to associate with the rule group association. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CreatorRequestId\",\n    \"FirewallRuleGroupId\",\n    \"VpcId\",\n    \"Priority\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-firewall-rule-group-request-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

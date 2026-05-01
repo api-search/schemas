@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TransitionStorageClass\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"GLACIER\",\n    \"STANDARD_IA\",\n    \"ONEZONE_IA\",\n    \"INTELLIGENT_TIERING\",\n    \"DEEP_ARCHIVE\",\n    \"GLACIER_IR\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-transitionstorageclass-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ resource. This object also provides information such as the owner and geographic location for the IP address.\"\n        }\n      ]\n    },\n    \"userIdentity\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UserIdentity\"\n        },\n        {\n          \"description\": \"The type and other characteristics of the entity that performed the action on the affected resource.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-finding-actor-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

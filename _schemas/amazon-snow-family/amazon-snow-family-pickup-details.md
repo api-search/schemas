@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DevicePickupId\"\n        },\n        {\n          \"description\": \"The unique ID for a device that will be picked up.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-pickup-details-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

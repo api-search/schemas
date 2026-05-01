@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        },\n        {\n          \"description\": \"Percent of application read operations from the file shares that are served from cache. The sample is taken at the end of the reporting period.\"\n        }\n      ]\n    },\n    \"CacheMissPercentage\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/double\"\n        },\n        {\n          \"description\": \"Percent of application read operations from the file shares that are not served from cache. The sample is taken at the end of the reporting period.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-describe-cache-output-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

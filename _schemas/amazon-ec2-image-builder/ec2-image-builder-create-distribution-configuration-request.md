@@ -30,7 +30,6 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-ima
 tags:
 - Amazon Web Services
 - Automation
-- AWS
 - Container Images
 - EC2
 - Image Building

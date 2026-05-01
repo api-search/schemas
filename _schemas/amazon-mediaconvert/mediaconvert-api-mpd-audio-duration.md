@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ padding or trimming only to the end of the last segment of the output. For unsegmented outputs, MediaConvert adds padding only to the end of the file. When you keep the default value, any minor discrepancies between audio and video duration will depend on your output audio codec.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"DEFAULT_CODEC_DURATION\",\n    \"MATCH_VIDEO_DURATION\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-mpd-audio-duration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

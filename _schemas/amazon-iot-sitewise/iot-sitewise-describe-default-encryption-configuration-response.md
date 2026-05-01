@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   }\n      ]\n    },\n    \"configurationStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ConfigurationStatus\"\n        },\n        {\n          \"description\": \"The status of the account configuration. This contains the <code>ConfigurationState</code>. If there's an error, it also contains the <code>ErrorDetails</code>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"encryptionType\",\n    \"configurationStatus\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-default-encryption-configuration-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

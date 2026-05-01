@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ entity recognizer. Typically this is 10 to 20 percent of the input documents.\"\n        }\n      ]\n    },\n    \"EvaluationMetrics\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EntityRecognizerEvaluationMetrics\"\n        },\n        {\n          \"description\": \"Detailed information about the accuracy of an entity recognizer.\"\n        }\n      ]\n    },\n    \"EntityTypes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EntityRecognizerMetadataEntityTypesList\"\n        },\n        {\n          \"description\": \"Entity types from the metadata of an entity recognizer.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-entity-recognizer-metadata-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

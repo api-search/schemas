@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PrincipalArnsList\"\n        },\n        {\n          \"description\": \"ARNs of accounts that have write access to the package.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Arn\",\n    \"CreatedTime\",\n    \"PackageId\",\n    \"PackageName\",\n    \"StorageLocation\",\n    \"Tags\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-describe-package-response-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

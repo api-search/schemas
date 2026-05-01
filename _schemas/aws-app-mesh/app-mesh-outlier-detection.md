@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"baseEjectio
   $ref\": \"#/components/schemas/OutlierDetectionMaxServerErrors\"\n        },\n        {\n          \"description\": \"Number of consecutive <code>5xx</code> errors required for ejection. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"baseEjectionDuration\",\n    \"interval\",\n    \"maxEjectionPercent\",\n    \"maxServerErrors\"\n  ],\n  \"description\": \"An object that represents the outlier detection for a virtual node's listener.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-outlier-detection-schema.json\",\n  \"title\": \"OutlierDetection\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-outlier-detection-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

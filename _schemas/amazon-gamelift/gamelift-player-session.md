@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Amazon EC2 Instance IP Addressing</a>.)</p> </li> </ul> <p>When connecting to a game session that is running on a TLS-enabled fleet, you must use the DNS name, not the IP address.</p>\"\n        }\n      ]\n    },\n    \"Port\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PortNumber\"\n        },\n        {\n          \"description\": \"Port number for the game session. To connect to a Amazon GameLift server process, an app needs both the IP address and port number.\"\n        }\n      ]\n    },\n    \"PlayerData\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PlayerData\"\n        },\n        {\n          \"description\": \"Developer-defined information related to a player. Amazon GameLift does not use this data, so it can be formatted as needed for use in the game. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-player-session-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The status of Amazon Inspector scanning for AWS Lambda function.\"\n        }\n      ]\n    },\n    \"lambdaCode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Status\"\n        },\n        {\n          \"description\": \"The status of Amazon Inspector scanning for custom application code for Amazon Web Services Lambda functions. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ec2\",\n    \"ecr\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-resource-status-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

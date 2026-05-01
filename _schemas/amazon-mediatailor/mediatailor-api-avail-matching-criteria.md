@@ -21,7 +21,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Using dynamic ad variables</a> in the <i>MediaTailor User Guide</i>.</p> <p>You can include up to 100 dynamic variables.</p>\"\n        }\n      ]\n    },\n    \"Operator\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Operator\"\n        },\n        {\n          \"description\": \"For the <code>DynamicVariable</code> specified in <code>AvailMatchingCriteria</code>, the Operator that is used for the comparison.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DynamicVariable\",\n    \"Operator\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-avail-matching-criteria-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

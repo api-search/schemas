@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NonZeroAndMaxString\"\n        },\n        {\n          \"description\": \"Name of the Region that is associated with the latency value.\"\n        }\n      ]\n    },\n    \"LatencyInMilliseconds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Float\"\n        },\n        {\n          \"description\": \"Amount of time that represents the time lag experienced by the player when connected to the specified Region.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-player-latency-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

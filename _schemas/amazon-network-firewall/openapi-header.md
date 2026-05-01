@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"SourcePort\",\n    \"Direction\",\n    \"Destination\",\n    \"DestinationPort\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-header-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

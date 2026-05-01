@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          },\n          \"description\": \"The encoding range of the video.\"\n        }\n      ]\n    },\n    \"ScanMode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ScanMode\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"scanMode\"\n          },\n          \"description\": \"The type of compression that was used to smooth the video\\u2019s appearance.\"\n        }\n      ]\n    },\n    \"Tcs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Tcs\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"tcs\"\n          },\n          \"description\": \"The transfer characteristic system (TCS) that is used in the video.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-fmtp-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \" This parameter limits the response to FHIR import jobs submitted before a user specified date. \"\n        }\n      ]\n    },\n    \"SubmittedAfter\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \" This parameter limits the response to FHIR import jobs submitted after a user specified date. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-list-fhir-import-jobs-request-schema.json
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

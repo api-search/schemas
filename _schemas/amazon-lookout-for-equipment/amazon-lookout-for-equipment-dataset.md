@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"type\": \"string\",\n      \"description\": \"The time at which the dataset was created.\",\n      \"format\": \"date-time\"\n    },\n    \"LastUpdatedAt\": {\n      \"type\": \"string\",\n      \"description\": \"The time at which the dataset was last updated.\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-equipment/refs/heads/main/json-schema/amazon-lookout-for-equipment-dataset-schema.json
 tags:
-- AWS
 - Equipment Monitoring
 - Industrial IoT
 - Machine Learning

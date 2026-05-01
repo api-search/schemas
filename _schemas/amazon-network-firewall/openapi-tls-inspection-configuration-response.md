@@ -45,7 +45,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       \"$ref\": \"#/components/schemas/NumberOfAssociations\"\n        },\n        {\n          \"description\": \"The number of firewall policies that use this TLS inspection configuration.\"\n        }\n      ]\n    },\n    \"EncryptionConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EncryptionConfiguration\"\n        },\n        {\n          \"description\": \"A complex type that contains the Amazon Web Services KMS encryption configuration settings for your TLS inspection configuration.\"\n        }\n      ]\n    },\n    \"Certificates\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Certificates\"\n        },\n        {\n          \"description\": \"A list of the certificates associated with the TLS inspection configuration.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"TLSInspectionConfigurationArn\",\n    \"TLSInspectionConfigurationName\",\n    \"TLSInspectionConfigurationId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-tls-inspection-configuration-response-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

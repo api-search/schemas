@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-game-property-key-schema.json\",\n  \"title\": \"GamePropertyKey\",\n  \"description\": \"GamePropertyKey schema from Amazon GameLift API\",\n  \"type\": \"string\",\n  \"maxLength\": 32\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-game-property-key-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

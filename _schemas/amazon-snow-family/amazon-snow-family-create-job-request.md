@@ -78,7 +78,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"$ref\": \"#/components/schemas/ImpactLevel\"\n        },\n        {\n          \"description\": \"The highest impact level of data that will be stored or processed on the device, provided at job creation.\"\n        }\n      ]\n    },\n    \"PickupDetails\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PickupDetails\"\n        },\n        {\n          \"description\": \"Information identifying the person picking up the device.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-create-job-request-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

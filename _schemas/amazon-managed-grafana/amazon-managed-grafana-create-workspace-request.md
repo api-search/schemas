@@ -71,7 +71,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ that grants permissions to the Amazon Web Services resources that the workspace will view data from, including both data sources and notification channels. You are responsible for managing the permissions for this role as new data sources or notification channels are added. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"accountAccessType\",\n    \"authenticationProviders\",\n    \"permissionType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-create-workspace-request-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

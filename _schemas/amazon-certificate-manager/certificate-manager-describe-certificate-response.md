@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   type\": \"string\"\n        },\n        \"CreatedAt\": {\n          \"type\": \"string\",\n          \"format\": \"date-time\"\n        },\n        \"IssuedAt\": {\n          \"type\": \"string\",\n          \"format\": \"date-time\"\n        },\n        \"NotBefore\": {\n          \"type\": \"string\",\n          \"format\": \"date-time\"\n        },\n        \"NotAfter\": {\n          \"type\": \"string\",\n          \"format\": \"date-time\"\n        },\n        \"Serial\": {\n          \"type\": \"string\"\n        },\n        \"KeyAlgorithm\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/json-schema/certificate-manager-describe-certificate-response-schema.json
 tags:
-- AWS
 - Certificates
 - Encryption
 - Security

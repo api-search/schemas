@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   IdempotencyToken\": {\n      \"type\": \"string\",\n      \"description\": \"Token to prevent duplicate requests.\"\n    }\n  },\n  \"required\": [\n    \"DomainName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/json-schema/certificate-manager-request-certificate-request-schema.json
 tags:
-- AWS
 - Certificates
 - Encryption
 - Security

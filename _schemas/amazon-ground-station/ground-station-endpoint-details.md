@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"Health reasons for a dataflow endpoint. This field is ignored when calling <code>CreateDataflowEndpointGroup</code>.\"\n        }\n      ]\n    },\n    \"healthStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CapabilityHealth\"\n        },\n        {\n          \"description\": \"A dataflow endpoint health status. This field is ignored when calling <code>CreateDataflowEndpointGroup</code>.\"\n        }\n      ]\n    },\n    \"securityDetails\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SecurityDetails\"\n        },\n        {\n          \"description\": \"Endpoint security details including a list of subnets, a list of security groups and a role to connect streams to instances.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-endpoint-details-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

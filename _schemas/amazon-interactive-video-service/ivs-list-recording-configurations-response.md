@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"recordingConfigurations\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-list-recording-configurations-response-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

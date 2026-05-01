@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FirewallPolicies\"\n        },\n        {\n          \"description\": \"The metadata for the firewall policies. Depending on your setting for max results and the number of firewall policies that you have, this might not be the full list. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-list-firewall-policies-response-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

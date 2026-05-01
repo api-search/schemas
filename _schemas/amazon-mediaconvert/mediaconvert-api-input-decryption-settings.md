@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ can use a 16-byte initialization vector with any encryption mode. Or, you can use a 12-byte initialization vector with GCM or CTR. MediaConvert accepts only initialization vectors that are base64-encoded.\"\n        }\n      ]\n    },\n    \"KmsKeyRegion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMin9Max19PatternAZ26EastWestCentralNorthSouthEastWest1912\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"kmsKeyRegion\"\n          },\n          \"description\": \"Specify the AWS Region for AWS Key Management Service (KMS) that you used to encrypt your data key, if that Region is different from the one you are using for AWS Elemental MediaConvert.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-input-decryption-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

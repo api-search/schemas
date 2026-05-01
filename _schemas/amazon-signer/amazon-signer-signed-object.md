@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n                  \"description\": \"Key name that uniquely identifies a signed code image in your bucket.\"\n                }\n              ]\n            }\n          },\n          \"description\": \"The S3 bucket name and key where code signing saved your signed code image.\"\n        },\n        {\n          \"description\": \"The <code>S3SignedObject</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-signed-object-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

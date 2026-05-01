@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ requested in ReceiveMessage to their respective values.\"\n    },\n    \"MessageAttribute\": {\n      \"type\": \"array\",\n      \"description\": \"Each message attribute consists of a Name, Type, and Value.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/json-schema/amazon-sqs-message-schema.json
 tags:
-- AWS
 - Cloud
 - Distributed Systems
 - Messaging

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"Transport stream bit rate.\"\n        }\n      ]\n    },\n    \"TransportStreamId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin0Max65535\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"transportStreamId\"\n          },\n          \"description\": \"Transport stream ID.\"\n        }\n      ]\n    },\n    \"TransportStreamReservedBitrate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin0Max100000000\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"transportStreamReservedBitrate\"\n          },\n          \"description\": \"Transport stream reserved bit rate.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"TransportStreamBitrate\",\n    \"TransportStreamId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-multiplex-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

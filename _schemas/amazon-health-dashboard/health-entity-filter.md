@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the <code>tags</code> property isn't supported.</p> </note>\"\n        }\n      ]\n    },\n    \"statusCodes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/entityStatusCodeList\"\n        },\n        {\n          \"description\": \"A list of entity status codes (<code>IMPAIRED</code>, <code>UNIMPAIRED</code>, or <code>UNKNOWN</code>).\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"eventArns\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-entity-filter-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

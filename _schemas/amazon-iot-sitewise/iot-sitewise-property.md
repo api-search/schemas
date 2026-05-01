@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PropertyUnit\"\n        },\n        {\n          \"description\": \"The unit (such as <code>Newtons</code> or <code>RPM</code>) of the asset property.\"\n        }\n      ]\n    },\n    \"type\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PropertyType\"\n        },\n        {\n          \"description\": \"The property type (see <code>PropertyType</code>). A property contains one type.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"name\",\n    \"dataType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-property-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

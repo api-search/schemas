@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ about the Amazon Inspector free trial for an account.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Information about the Amazon Inspector free trial for an account.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-free-trial-account-info-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

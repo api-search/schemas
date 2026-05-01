@@ -29,7 +29,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Timestamp\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-time-series-service-statistics-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

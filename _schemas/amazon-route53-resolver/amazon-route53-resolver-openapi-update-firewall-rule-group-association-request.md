@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The name of the rule group association.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"FirewallRuleGroupAssociationId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-firewall-rule-group-association-request-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

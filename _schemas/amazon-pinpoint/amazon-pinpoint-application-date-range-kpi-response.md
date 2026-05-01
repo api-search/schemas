@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ query. Each object contains the value for the metric and metadata about that value.\"\n        }\n      ]\n    },\n    \"NextToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The string to use in a subsequent request to get the next page of results in a paginated response. This value is null for the Application Metrics resource because the resource returns all results in a single page.\"\n        }\n      ]\n    },\n    \"StartTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__timestampIso8601\"\n        },\n        {\n          \"description\": \"The first date and time of the date range that was used to filter the query results, in extended ISO 8601 format. The date range is inclusive.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"KpiResult\",\n    \"KpiName\",\n    \"EndTime\",\n    \"StartTime\",\n    \"ApplicationId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-application-date-range-kpi-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

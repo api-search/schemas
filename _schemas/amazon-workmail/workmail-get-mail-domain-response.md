@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Records\": 
   \n        }\n      ]\n    },\n    \"OwnershipVerificationStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DnsRecordVerificationStatus\"\n        },\n        {\n          \"description\": \" Indicates the status of the domain ownership verification.\"\n        }\n      ]\n    },\n    \"DkimVerificationStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DnsRecordVerificationStatus\"\n        },\n        {\n          \"description\": \"Indicates the status of a DKIM verification.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"GetMailDomainResponse\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-mail-domain-response-schema.json\",\n  \"description\": \"GetMailDomainResponse schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-mail-domain-response-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

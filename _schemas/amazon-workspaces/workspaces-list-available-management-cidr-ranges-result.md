@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ManagementC
   \ \"ListAvailableManagementCidrRangesResult schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-list-available-management-cidr-ranges-result-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

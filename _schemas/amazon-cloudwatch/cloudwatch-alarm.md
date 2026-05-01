@@ -72,7 +72,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to execute when the alarm transitions to ALARM state\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"okActions\": {\n      \"type\": \"array\",\n      \"description\": \"The actions to execute when the alarm transitions to OK state\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    },\n    \"insufficientDataActions\": {\n      \"type\": \"array\",\n      \"description\": \"The actions to execute when the alarm transitions to INSUFFICIENT_DATA state\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/json-schema/cloudwatch-alarm-schema.json
 tags:
-- AWS
 - CloudWatch
 - Monitoring
 - Observability

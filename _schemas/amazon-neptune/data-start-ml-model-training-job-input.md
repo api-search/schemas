@@ -74,7 +74,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"string\"\n    },\n    \"s3OutputEncryptionKMSKey\": {\n      \"type\": \"string\"\n    },\n    \"enableInterContainerTrafficEncryption\": {\n      \"type\": \"boolean\",\n      \"default\": true\n    },\n    \"enableManagedSpotTraining\": {\n      \"type\": \"boolean\",\n      \"default\": false\n    },\n    \"customModelTrainingParameters\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"sourceS3DirectoryPath\": {\n          \"type\": \"string\"\n        },\n        \"trainingEntryPointScript\": {\n          \"type\": \"string\"\n        },\n        \"transformEntryPointScript\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  },\n  \"required\": [\n    \"dataProcessingJobId\",\n    \"trainModelS3Location\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/data-start-ml-model-training-job-input-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

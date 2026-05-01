@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ schedule's ad break properties.\"\n        }\n      ]\n    },\n    \"ScheduleEntryType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ScheduleEntryType\"\n        },\n        {\n          \"description\": \"The type of schedule entry.\"\n        }\n      ]\n    },\n    \"SourceLocationName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The name of the source location.\"\n        }\n      ]\n    },\n    \"VodSourceName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The name of the VOD source.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Arn\",\n    \"ChannelName\",\n    \"ProgramName\",\n    \"SourceLocationName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-schedule-entry-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ matches more than one Amazon S3 compatible storage on Snow family devices service configuration.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-s3-on-device-service-configuration-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"object\",\n      \"properties\": {\n        \"data\": {\n          \"description\": \"The query result data. The shape depends on the traversal's terminal step (e.g., count, valueMap, path).\"\n        },\n        \"meta\": {\n          \"type\": \"object\"\n        }\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/gremlin-gremlin-query-response-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

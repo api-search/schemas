@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"description\": \"The total count of high severity findings.\"\n        }\n      ]\n    },\n    \"medium\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Long\"\n        },\n        {\n          \"description\": \"The total count of medium severity findings.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-severity-counts-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

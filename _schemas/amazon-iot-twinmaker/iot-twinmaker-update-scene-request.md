@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      },\n        {\n          \"description\": \"A list of capabilities that the scene uses to render.\"\n        }\n      ]\n    },\n    \"sceneMetadata\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SceneMetadataMap\"\n        },\n        {\n          \"description\": \"The scene metadata.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-update-scene-request-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ space, MediaConvert uses the following color space metadata, which includes color primaries, transfer characteristics, and matrix coefficients:\\n * HDR 10: BT.2020, PQ, BT.2020 non-constant\\n * HLG 2020: BT.2020, HLG, BT.2020 non-constant\\n * P3DCI (Theater): DCIP3, SMPTE 428M, BT.709\\n * P3D65 (SDR): Display P3, sRGB, BT.709\\n * P3D65 (HDR): Display P3, PQ, BT.709\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"FOLLOW\",\n    \"REC_601\",\n    \"REC_709\",\n    \"HDR10\",\n    \"HLG_2020\",\n    \"P3DCI\",\n    \"P3D65_SDR\",\n    \"P3D65_HDR\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-color-space-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

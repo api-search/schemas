@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"If set to passthrough, Nielsen inaudible tones for media tracking will be detected in the input audio and an equivalent ID3 tag will be inserted in the output.\"\n        }\n      ]\n    },\n    \"TimedMetadataBehavior\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Fmp4TimedMetadataBehavior\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timedMetadataBehavior\"\n          },\n          \"description\": \"When set to passthrough, timed metadata is passed through from input to output.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-fmp4-hls-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

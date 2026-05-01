@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"exact\": {\
   \ by the client must include the specified characters.\"\n        }\n      ]\n    },\n    \"suffix\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/HeaderMatch\"\n        },\n        {\n          \"description\": \"The value sent by the client must end with the specified characters.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"An object that represents the method and value to match with the header value sent in a request. Specify one match method.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-header-match-method-schema.json\",\n  \"title\": \"HeaderMatchMethod\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-header-match-method-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

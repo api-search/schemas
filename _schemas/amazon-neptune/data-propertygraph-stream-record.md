@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ property).\"\n        },\n        \"key\": {\n          \"type\": \"string\"\n        },\n        \"value\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"value\": {\n              \"description\": \"The property value.\"\n            },\n            \"dataType\": {\n              \"type\": \"string\"\n            }\n          }\n        },\n        \"from\": {\n          \"type\": \"string\",\n          \"description\": \"Source vertex ID (for edges only).\"\n        },\n        \"to\": {\n          \"type\": \"string\",\n          \"description\": \"Target vertex ID (for edges only).\"\n        }\n      }\n    },\n    \"op\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"ADD\",\n        \"REMOVE\"\n      ]\n    },\n    \"isLastOp\": {\n      \"type\": \"boolean\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/data-propertygraph-stream-record-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

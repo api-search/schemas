@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   },\n        {\n          \"description\": \"An array of objects that provide details for each of the accounts that Amazon Inspector deep inspection status could not be successfully changed for. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-batch-update-member-ec2-deep-inspection-status-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

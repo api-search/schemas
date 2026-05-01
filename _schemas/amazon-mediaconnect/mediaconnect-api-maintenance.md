@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"The Maintenance has to be performed before this deadline in ISO UTC format. Example: 2021-01-30T08:30:00Z.\"\n        }\n      ]\n    },\n    \"MaintenanceScheduledDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"maintenanceScheduledDate\"\n          },\n          \"description\": \"A scheduled date in ISO UTC format when the maintenance will happen. Use YYYY-MM-DD format. Example: 2021-01-30.\"\n        }\n      ]\n    },\n    \"MaintenanceStartHour\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"maintenanceStartHour\"\n          },\n          \"description\": \"UTC time when the maintenance will happen. Use 24-hour HH:MM format. Minutes must be 00. Example: 13:00. The default value is 02:00.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-maintenance-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

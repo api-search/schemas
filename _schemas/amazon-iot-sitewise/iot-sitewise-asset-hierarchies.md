@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">CreateAssetModel</a> or <a href=\\\"https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateAssetModel.html\\\">UpdateAssetModel</a> API operation.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Describes an asset hierarchy that contains a hierarchy's name and ID.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-hierarchies-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

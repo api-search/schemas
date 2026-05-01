@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for the rack at this site. For more information about hardware requirements for racks, see <a href=\\\"https://docs.aws.amazon.com/outposts/latest/userguide/outposts-requirements.html#checklist\\\">Network readiness checklist</a> in the Amazon Web Services Outposts User Guide. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-create-site-input-schema.json
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

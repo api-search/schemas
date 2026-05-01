@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__boolean\"\n        },\n        {\n          \"description\": \"Specifies whether to enable the ADM channel for the application.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ClientSecret\",\n    \"ClientId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-adm-channel-request-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

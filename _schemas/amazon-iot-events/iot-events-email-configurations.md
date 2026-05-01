@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       ]\n      },\n      \"content\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/EmailContent\"\n          },\n          {\n            \"description\": \"Contains the subject and message of an email.\"\n          }\n        ]\n      },\n      \"recipients\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/EmailRecipients\"\n          },\n          {\n            \"description\": \"<p>Contains the information of one or more recipients who receive the emails.</p> <important> <p>You must <a href=\\\"https://docs.aws.amazon.com/singlesignon/latest/userguide/addusers.html\\\">add the users that receive emails to your AWS SSO store</a>.</p> </important>\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains the configuration information of email notifications.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-email-configurations-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

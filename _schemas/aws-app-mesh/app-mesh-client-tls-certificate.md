@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"file\": {\n
   $id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-client-tls-certificate-schema.json\",\n  \"title\": \"ClientTlsCertificate\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-client-tls-certificate-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

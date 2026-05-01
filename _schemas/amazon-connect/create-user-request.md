@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"string\"\n      },\n      \"description\": \"The identifier of the security profile for the user.\"\n    },\n    \"RoutingProfileId\": {\n      \"type\": \"string\",\n      \"description\": \"The identifier of the routing profile for the user.\",\n      \"example\": \"a1b2c3d4-5678-90ab-cdef-33333EXAMPLE\"\n    },\n    \"HierarchyGroupId\": {\n      \"type\": \"string\"\n    },\n    \"Tags\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"PhoneConfig\",\n    \"RoutingProfileId\",\n    \"SecurityProfileIds\",\n    \"Username\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/create-user-request-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

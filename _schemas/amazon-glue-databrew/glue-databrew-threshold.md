@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ that satisfy the rule to the threshold value.\"\n        }\n      ]\n    },\n    \"Unit\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ThresholdUnit\"\n        },\n        {\n          \"description\": \"Unit of threshold value. Can be either a COUNT or PERCENTAGE of the full sample size used for validation.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Value\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-threshold-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

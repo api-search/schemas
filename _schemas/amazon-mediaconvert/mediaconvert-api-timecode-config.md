@@ -27,7 +27,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ timecode for the initial frame. Use 24-hour format with frame number, (HH:MM:SS:FF) or (HH:MM:SS;FF).\"\n        }\n      ]\n    },\n    \"TimestampOffset\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringPattern0940191020191209301\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timestampOffset\"\n          },\n          \"description\": \"Only applies to outputs that support program-date-time stamp. Use Timestamp offset (TimestampOffset) to overwrite the timecode date without affecting the time and frame number. Provide the new date as a string in the format \\\"yyyy-mm-dd\\\". To use Time stamp offset, you must also enable Insert program-date-time (InsertProgramDateTime) in the output settings. For example, if the date part of your timecodes is 2002-1-25 and you want to change it to one year later, set Timestamp offset (TimestampOffset) to 2003-1-25.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-timecode-config-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   : \"HttpQueryParameters\",\n  \"description\": \"HttpQueryParameters schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-http-query-parameters-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

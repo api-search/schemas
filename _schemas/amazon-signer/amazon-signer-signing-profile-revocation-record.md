@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"string\"\n        },\n        {\n          \"description\": \"The identity of the revoker.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/json-schema/amazon-signer-signing-profile-revocation-record-schema.json
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

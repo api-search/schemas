@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"SubnetId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SubnetId\"\n        },\n        {\n          \"description\": \"The ID of the subnet that includes the IP address that you want to update. To get this ID, use <a href=\\\"https://docs.aws.amazon.com/Route53/latest/APIReference/API_route53resolver_GetResolverEndpoint.html\\\">GetResolverEndpoint</a>.\"\n        }\n      ]\n    },\n    \"Ip\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Ip\"\n        },\n        {\n          \"description\": \"The new IPv4 address.\"\n        }\n      ]\n    },\n    \"Ipv6\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Ipv6\"\n        },\n        {\n          \"description\": \" The new IPv6 address. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ip-address-update-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

@@ -33,7 +33,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"<p>The name that you want to assign to the QLDB journal stream. User-defined names can help identify and indicate the purpose of a stream.</p> <p>Your stream name must be unique among other <i>active</i> streams for a given ledger. Stream names have the same naming constraints as ledger names, as defined in <a href=\\\"https://docs.aws.amazon.com/qldb/latest/developerguide/limits.html#limits.naming\\\">Quotas in Amazon QLDB</a> in the <i>Amazon QLDB Developer Guide</i>.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"RoleArn\",\n    \"InclusiveStartTime\",\n    \"KinesisConfiguration\",\n    \"StreamName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-stream-journal-to-kinesis-request-schema.json
 tags:
-- AWS
 - Blockchain
 - Database
 - Ledger

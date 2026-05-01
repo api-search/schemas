@@ -61,7 +61,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Direct Connect endpoint that terminates the logical connection. This device might be different than the device that terminates the physical connection.\"\n        }\n      ]\n    },\n    \"hasLogicalRedundancy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/HasLogicalRedundancy\"\n        },\n        {\n          \"description\": \"Indicates whether the interconnect supports a secondary BGP in the same address family (IPv4/IPv6).\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagList\"\n        },\n        {\n          \"description\": \"The tags associated with the interconnect.\"\n        }\n      ]\n    },\n    \"providerName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ProviderName\"\n        },\n        {\n          \"description\": \"The name of the service provider associated with the interconnect.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/json-schema/amazon-direct-connect-interconnect-schema.json
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

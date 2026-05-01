@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-job-name-schema.json\",\n  \"title\": \"JobName\",\n  \"description\": \"JobName schema from Amazon Glue DataBrew API\",\n  \"type\": \"string\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-job-name-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

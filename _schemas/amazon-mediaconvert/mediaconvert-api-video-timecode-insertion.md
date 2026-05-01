@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ configuration. Note - Timecode source under input settings (InputTimecodeSource) does not affect the timecodes that are inserted in the output. Source under Job settings > Timecode configuration (TimecodeSource) does.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"DISABLED\",\n    \"PIC_TIMING_SEI\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-video-timecode-insertion-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

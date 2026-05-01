@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NullableCpu\"\n        },\n        {\n          \"description\": \" The recommended number of CPU units reserved for the container. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-container-recommendation-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

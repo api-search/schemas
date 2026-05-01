@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ If you provide a token that isn't valid, then you receive an <i>HTTP 400 ValidationException</i> error.\"\n        }\n      ]\n    },\n    \"Simulations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SimulationList\"\n        },\n        {\n          \"description\": \"The list of simulations.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/json-schema/amazon-simspace-weaver-list-simulations-output-schema.json
 tags:
-- AWS
 - Defense
 - Digital Twin
 - Simulation

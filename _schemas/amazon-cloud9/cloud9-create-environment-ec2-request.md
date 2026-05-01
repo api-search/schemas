@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     ],\n      \"description\": \"The connection type to use for connecting to the environment.\"\n    },\n    \"automaticStopTimeMinutes\": {\n      \"type\": \"integer\",\n      \"description\": \"The number of minutes until the running instance is shut down after the environment has last been used.\"\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"instanceType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/json-schema/cloud9-create-environment-ec2-request-schema.json
 tags:
-- AWS
 - Cloud9
 - IDE
 - Development

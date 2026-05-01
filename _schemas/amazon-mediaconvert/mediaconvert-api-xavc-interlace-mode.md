@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ as the source. If the source is progressive, the output will be interlaced with top field bottom field first, depending on which of the Follow options you choose.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"PROGRESSIVE\",\n    \"TOP_FIELD\",\n    \"BOTTOM_FIELD\",\n    \"FOLLOW_TOP_FIELD\",\n    \"FOLLOW_BOTTOM_FIELD\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-xavc-interlace-mode-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

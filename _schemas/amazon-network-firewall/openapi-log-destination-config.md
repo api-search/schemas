@@ -24,7 +24,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \": \\\"alert-delivery-stream\\\" }</code> </p> </li> </ul>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"LogType\",\n    \"LogDestinationType\",\n    \"LogDestination\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-log-destination-config-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

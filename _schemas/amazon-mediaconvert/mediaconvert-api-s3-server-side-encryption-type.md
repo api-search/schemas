@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ customer managed CMK. Do so by specifying the Amazon Resource Name (ARN) of the key for the setting KMS ARN (kmsKeyArn).\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"SERVER_SIDE_ENCRYPTION_S3\",\n    \"SERVER_SIDE_ENCRYPTION_KMS\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-s3-server-side-encryption-type-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

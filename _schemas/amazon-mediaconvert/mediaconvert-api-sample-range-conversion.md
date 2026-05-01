@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ pixels outside of the values that you specify under Minimum YUV and Maximum YUV to limited range bounds. MediaConvert also corrects any YUV values that, when converted to RGB, would be outside the bounds you specify under Minimum RGB tolerance and Maximum RGB tolerance. With either limited range conversion, MediaConvert writes the sample range metadata in the output.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"LIMITED_RANGE_SQUEEZE\",\n    \"NONE\",\n    \"LIMITED_RANGE_CLIP\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-sample-range-conversion-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

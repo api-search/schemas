@@ -59,7 +59,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"A list of source IP CIDR blocks that will be allowed to access the OriginEndpoint.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ChannelId\",\n    \"Id\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-create-origin-endpoint-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

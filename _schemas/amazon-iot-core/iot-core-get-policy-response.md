@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the policy.\"\n        }\n      ]\n    },\n    \"defaultVersionId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PolicyVersionId\"\n        },\n        {\n          \"description\": \"The default policy version ID.\"\n        }\n      ]\n    },\n    \"creationDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DateType\"\n        },\n        {\n          \"description\": \"The date the policy was created.\"\n        }\n      ]\n    },\n    \"lastModifiedDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DateType\"\n        },\n        {\n          \"description\": \"The date the policy was last modified.\"\n        }\n      ]\n    },\n    \"generationId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GenerationId\"\n        },\n        {\n          \"description\": \"The generation ID of the policy.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-get-policy-response-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

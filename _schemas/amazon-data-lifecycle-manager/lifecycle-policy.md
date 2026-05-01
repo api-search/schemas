@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"format\": \"date-time\"\n    },\n    \"PolicyDetails\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/json-schema/lifecycle-policy-schema.json
 tags:
-- AWS
 - Backup
 - EBS Snapshots
 - Lifecycle Management

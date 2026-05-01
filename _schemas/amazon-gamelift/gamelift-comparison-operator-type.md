@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-comparison-operator-type-schema.json\",\n  \"title\": \"ComparisonOperatorType\",\n  \"description\": \"ComparisonOperatorType schema from Amazon GameLift API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"GreaterThanOrEqualToThreshold\",\n    \"GreaterThanThreshold\",\n    \"LessThanThreshold\",\n    \"LessThanOrEqualToThreshold\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-comparison-operator-type-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

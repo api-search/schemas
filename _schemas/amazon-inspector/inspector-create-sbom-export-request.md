@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Contains details of the Amazon S3 bucket and KMS key used to export findings.\"\n    }\n  },\n  \"required\": [\n    \"reportFormat\",\n    \"s3Destination\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-create-sbom-export-request-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

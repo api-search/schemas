@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   xml\": {\n            \"name\": \"configurationRevision\"\n          },\n          \"description\": \"\\n            <p>The revision of the configuration to use. This field isn't visible in this preview release.</p>\"\n        }\n      ]\n    },\n    \"KafkaVersion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"kafkaVersion\"\n          },\n          \"description\": \"\\n            <p>The version of Apache Kafka.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-broker-software-info-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

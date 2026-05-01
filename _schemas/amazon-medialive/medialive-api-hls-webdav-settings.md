@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"$ref\": \"#/components/schemas/__integerMin0Max15\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"restartDelay\"\n          },\n          \"description\": \"If a streaming output fails, number of seconds to wait until a restart is initiated. A value of 0 means never restart.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-hls-webdav-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

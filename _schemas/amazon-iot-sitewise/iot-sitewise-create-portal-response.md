@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   The associated IAM Identity Center application ID, if the portal uses IAM Identity Center.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"portalId\",\n    \"portalArn\",\n    \"portalStartUrl\",\n    \"portalStatus\",\n    \"ssoApplicationId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-create-portal-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

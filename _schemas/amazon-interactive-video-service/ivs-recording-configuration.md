@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"A complex type that allows you to enable/disable the recording of thumbnails for a live session and modify the interval at which thumbnails are generated for the live session.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"arn\",\n    \"destinationConfiguration\",\n    \"state\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-recording-configuration-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

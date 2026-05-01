@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     },\n      \"message\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/errorMessage\"\n          },\n          {\n            \"description\": \"Error message, determined by the application.\"\n          }\n        ]\n      },\n      \"viewerId\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/ViewerId\"\n          },\n          {\n            \"description\": \"The ID of the viewer session to revoke.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Error for a request in the batch for BatchStartViewerSessionRevocation. Each error is related to a specific channel-ARN and viewer-ID pair.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-batch-start-viewer-session-revocation-errors-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

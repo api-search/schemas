@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-events-batch-schema.json\",\n  \"title\": \"EventsBatch\",\n  \"description\": \"Specifies a batch of endpoints and events to process.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Endpoint\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PublicEndpoint\"\n        },\n        {\n          \"description\": \"A set of properties and attributes that are associated with the endpoint.\"\n        }\n      ]\n    },\n    \"Events\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MapOfEvent\"\n        },\n        {\n          \"description\": \"A set of properties that are associated with the event.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Endpoint\",\n    \"Events\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-events-batch-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

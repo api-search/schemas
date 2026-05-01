@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-notify-workers-response-schema.json\",\n  \"title\": \"NotifyWorkersResponse\",\n  \"description\": \"NotifyWorkersResponse schema from Amazon Mechanical Turk API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"NotifyWorkersFailureStatuses\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NotifyWorkersFailureStatusList\"\n        },\n        {\n          \"description\": \" When MTurk sends notifications to the list of Workers, it returns back any failures it encounters in this list of NotifyWorkersFailureStatus objects. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-notify-workers-response-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

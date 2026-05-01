@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-generated-rules-type-schema.json\",\n  \"title\": \"GeneratedRulesType\",\n  \"description\": \"GeneratedRulesType schema from Amazon Network Firewall\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ALLOWLIST\",\n    \"DENYLIST\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-generated-rules-type-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

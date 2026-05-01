@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ created.\"\n        }\n      ]\n    },\n    \"s3Etags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3Etags\"\n        },\n        {\n          \"description\": \"The Amazon S3 identifier for the zip file bundle that you use for your robot application.\"\n        }\n      ]\n    },\n    \"imageDigest\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ImageDigest\"\n        },\n        {\n          \"description\": \"A SHA256 identifier for the Docker image that you use for your robot application.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"application\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-robot-application-version-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: CreateRobotApplicationVersionRequest

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"string\"\n      }\n    },\n    \"startAfter\": {\n      \"type\": \"array\",\n      \"description\": \"Actions that must complete first\",\n      \"items\": {\n        \"type\": \"string\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/json-schema/amazon-fis-experiment-template-action-schema.json
 tags:
-- AWS
 - Chaos Engineering
 - DevOps
 - Fault Injection

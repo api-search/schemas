@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The text color.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Alignment\",\n    \"TextColor\",\n    \"Body\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-in-app-message-body-config-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

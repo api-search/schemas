@@ -38,7 +38,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"ClientToken\"
   \n        },\n        {\n          \"description\": \"The name of the S3 bucket.\"\n        }\n      ]\n    },\n    \"S3Prefix\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3ObjectKey\"\n        },\n        {\n          \"description\": \"The S3 bucket prefix.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-start-mailbox-export-job-request-schema.json\",\n  \"description\": \"StartMailboxExportJobRequest schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-start-mailbox-export-job-request-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

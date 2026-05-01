@@ -15,7 +15,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   \n          },\n          {\n            \"description\": \"The virtual router that the route is associated with.\"\n          }\n        ]\n      }\n    },\n    \"required\": [\n      \"arn\",\n      \"createdAt\",\n      \"lastUpdatedAt\",\n      \"meshName\",\n      \"meshOwner\",\n      \"resourceOwner\",\n      \"routeName\",\n      \"version\",\n      \"virtualRouterName\"\n    ],\n    \"description\": \"An object that represents a route returned by a list operation.\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-route-list-schema.json\",\n  \"title\": \"RouteList\",\n  \"description\": \"RouteList schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-route-list-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

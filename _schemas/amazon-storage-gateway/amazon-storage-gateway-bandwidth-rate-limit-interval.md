@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \" The average download rate limit component of the bandwidth rate limit interval, in bits per second. This field does not appear in the response if the download rate limit is not set. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"StartHourOfDay\",\n    \"StartMinuteOfHour\",\n    \"EndHourOfDay\",\n    \"EndMinuteOfHour\",\n    \"DaysOfWeek\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-bandwidth-rate-limit-interval-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

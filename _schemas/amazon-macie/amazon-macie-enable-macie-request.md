@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ EventBridge (formerly Amazon CloudWatch Events).\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MacieStatus\"\n        },\n        {\n          \"description\": \"Specifies the new status for the account. To enable Amazon Macie and start all Macie activities for the account, set this value to ENABLED.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-enable-macie-request-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

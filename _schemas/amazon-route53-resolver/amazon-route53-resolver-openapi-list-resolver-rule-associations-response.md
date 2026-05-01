@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"$ref\": \"#/components/schemas/MaxResults\"\n        },\n        {\n          \"description\": \"The value that you specified for <code>MaxResults</code> in the request.\"\n        }\n      ]\n    },\n    \"ResolverRuleAssociations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResolverRuleAssociations\"\n        },\n        {\n          \"description\": \"The associations that were created between Resolver rules and VPCs using the current Amazon Web Services account, and that match the specified filters, if any.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-rule-associations-response-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

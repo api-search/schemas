@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"description\": \"Name of the matchmaking configuration to use for this request. Matchmaking configurations must exist in the same Region as this request. You can use either the configuration name or ARN value.\"\n        }\n      ]\n    },\n    \"Players\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PlayerList\"\n        },\n        {\n          \"description\": \"<p>Information on each player to be matched. This information must include a player ID, and may contain player attributes and latency data to be used in the matchmaking process. After a successful match, <code>Player</code> objects contain the name of the team the player is assigned to.</p> <p>You can include up to 10 <code>Players</code> in a <code>StartMatchmaking</code> request.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ConfigurationName\",\n    \"Players\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-start-matchmaking-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ such as 7.1.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ITU_BS_1770_1\",\n    \"ITU_BS_1770_2\",\n    \"ITU_BS_1770_3\",\n    \"ITU_BS_1770_4\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-audio-normalization-algorithm-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

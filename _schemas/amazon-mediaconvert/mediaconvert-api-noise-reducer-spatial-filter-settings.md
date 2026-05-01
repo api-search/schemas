@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"xml\": {\n            \"name\": \"speed\"\n          },\n          \"description\": \"The speed of the filter, from -2 (lower speed) to 3 (higher speed), with 0 being the nominal value.\"\n        }\n      ]\n    },\n    \"Strength\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin0Max16\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"strength\"\n          },\n          \"description\": \"Relative strength of noise reducing filter. Higher values produce stronger filtering.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-noise-reducer-spatial-filter-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

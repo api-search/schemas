@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \" A unique identifier used to confirm that parts are being added to the correct upload. \"\n        }\n      ]\n    }\n  },\n  \"description\": \" Part of the response to the CompleteReadSetUpload API, including metadata. \"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-complete-read-set-upload-part-list-item-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

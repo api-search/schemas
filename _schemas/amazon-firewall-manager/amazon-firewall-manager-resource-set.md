@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"format\": \"date-time\",\n      \"description\": \"Time the resource set was last updated.\"\n    },\n    \"ResourceSetStatus\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"ACTIVE\",\n        \"OUT_OF_ADMIN_SCOPE\"\n      ],\n      \"description\": \"Status of the resource set.\"\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"ResourceTypeList\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/json-schema/amazon-firewall-manager-resource-set-schema.json
 tags:
-- AWS
 - Compliance
 - Firewall
 - Network Security

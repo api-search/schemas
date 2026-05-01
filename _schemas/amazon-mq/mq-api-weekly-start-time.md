@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ in 24-hour format.\"\n        }\n      ]\n    },\n    \"TimeZone\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timeZone\"\n          },\n          \"description\": \"The time zone, UTC by default, in either the Country/City format, or the UTC offset format.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"TimeOfDay\",\n    \"DayOfWeek\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/json-schema/mq-api-weekly-start-time-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

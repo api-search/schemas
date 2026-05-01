@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n      }\n    },\n    \"Tags\": {\n      \"type\": \"array\",\n      \"description\": \"Tags to associate with the table\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      }\n    }\n  },\n  \"required\": [\n    \"TableName\",\n    \"KeySchema\",\n    \"AttributeDefinitions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-schema/dynamodb-openapi-create-table-input-schema.json
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

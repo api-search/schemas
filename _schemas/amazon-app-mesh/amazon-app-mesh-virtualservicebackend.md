@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"VirtualServiceBackend\",\n  \"description\": \"An object that represents a virtual service backend for a virtual node.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"clientPolicy\": {},\n    \"virtualServiceName\": {}\n  },\n  \"required\": [\n    \"virtualServiceName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/json-schema/amazon-app-mesh-virtualservicebackend-schema.json
 tags:
-- AWS
 - Microservices
 - Networking
 - Service Mesh

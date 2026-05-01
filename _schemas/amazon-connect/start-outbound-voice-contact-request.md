@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n    },\n    \"ClientToken\": {\n      \"type\": \"string\",\n      \"description\": \"Idempotency token.\"\n    },\n    \"SourcePhoneNumber\": {\n      \"type\": \"string\",\n      \"description\": \"The phone number associated with the Amazon Connect instance, in E.164 format.\"\n    },\n    \"QueueId\": {\n      \"type\": \"string\",\n      \"description\": \"The queue for the call.\",\n      \"example\": \"a1b2c3d4-5678-90ab-cdef-55555EXAMPLE\"\n    },\n    \"Attributes\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"ContactFlowId\",\n    \"DestinationPhoneNumber\",\n    \"InstanceId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/start-outbound-voice-contact-request-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"$ref\": \"#/components/schemas/Version\"\n        },\n        {\n          \"description\": \"The version number of the application.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"applicationArn\",\n    \"applicationId\",\n    \"applicationVersion\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-create-application-response-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ should be Dolby E frames carried in PCM streams tagged with SMPTE-337\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Tracks\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-audio-track-selection-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     },\n        {\n          \"description\": \"The time the high availability monitoring test was started. If a test hasn't been performed, the value of this field is null.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-describe-availability-monitor-test-output-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

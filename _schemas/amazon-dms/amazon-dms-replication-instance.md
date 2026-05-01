@@ -96,7 +96,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \" The expiration date of the free replication instance that is part of the Free DMS program. \"\n        }\n      ]\n    },\n    \"DnsNameServers\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The DNS name servers supported for the replication instance to access your on-premise source or target database.\"\n        }\n      ]\n    },\n    \"NetworkType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The type of IP address protocol used by a replication instance, such as IPv4 only or Dual-stack that supports both IPv4 and IPv6 addressing. IPv6 only is not yet supported.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/json-schema/amazon-dms-replication-instance-schema.json
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ concurrent runs for the group.\"\n        }\n      ]\n    },\n    \"maxDuration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UpdateRunGroupRequestMaxDurationInteger\"\n        },\n        {\n          \"description\": \"A maximum run time for the group in minutes.\"\n        }\n      ]\n    },\n    \"maxGpus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UpdateRunGroupRequestMaxGpusInteger\"\n        },\n        {\n          \"description\": \" The maximum GPUs that can be used by a run group. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-update-run-group-request-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

@@ -23,7 +23,6 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/
 tags:
 - Artificial Intelligence
 - Assistant
-- AWS
 - Enterprise
 - Generative AI
 title: Conversation

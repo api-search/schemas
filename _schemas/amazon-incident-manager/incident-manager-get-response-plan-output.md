@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/json-schema/incident-manager-get-response-plan-output-schema.json
 tags:
 - Automation
-- AWS
 - DevOps
 - Incident Management
 - Operations

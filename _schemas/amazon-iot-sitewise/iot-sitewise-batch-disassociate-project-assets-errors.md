@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ ]\n      },\n      \"message\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/AssetErrorMessage\"\n          },\n          {\n            \"description\": \"The error message.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains error details for the requested associate project asset action.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-batch-disassociate-project-assets-errors-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"gpus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TaskListItemGpusInteger\"\n        },\n        {\n          \"description\": \" The number of Graphics Processing Units (GPU) specified for the task. \"\n        }\n      ]\n    }\n  },\n  \"description\": \"A workflow run task.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-task-list-item-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

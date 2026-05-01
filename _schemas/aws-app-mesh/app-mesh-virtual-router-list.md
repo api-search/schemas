@@ -15,7 +15,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   ,\n      \"meshName\",\n      \"meshOwner\",\n      \"resourceOwner\",\n      \"version\",\n      \"virtualRouterName\"\n    ],\n    \"description\": \"An object that represents a virtual router returned by a list operation.\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-router-list-schema.json\",\n  \"title\": \"VirtualRouterList\",\n  \"description\": \"VirtualRouterList schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-router-list-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

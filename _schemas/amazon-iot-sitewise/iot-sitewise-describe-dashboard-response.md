@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Creating dashboards (CLI)</a> in the <i>IoT SiteWise User Guide</i>.\"\n        }\n      ]\n    },\n    \"dashboardCreationDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the dashboard was created, in Unix epoch time.\"\n        }\n      ]\n    },\n    \"dashboardLastUpdateDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the dashboard was last updated, in Unix epoch time.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"dashboardId\",\n    \"dashboardArn\",\n    \"dashboardName\",\n    \"projectId\",\n    \"dashboardDefinition\",\n    \"dashboardCreationDate\",\n    \"dashboardLastUpdateDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-dashboard-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

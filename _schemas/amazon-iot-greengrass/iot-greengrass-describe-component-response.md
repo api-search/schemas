@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   {\n          \"$ref\": \"#/components/schemas/CloudComponentStatus\"\n        },\n        {\n          \"description\": \"The status of the component version in IoT Greengrass V2. This status is different from the status of the component on a core device.\"\n        }\n      ]\n    },\n    \"platforms\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComponentPlatformList\"\n        },\n        {\n          \"description\": \"The platforms that the component version supports.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"A list of key-value pairs that contain metadata for the resource. For more information, see <a href=\\\"https://docs.aws.amazon.com/greengrass/v2/developerguide/tag-resources.html\\\">Tag your resources</a> in the <i>IoT Greengrass V2 Developer Guide</i>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-describe-component-response-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

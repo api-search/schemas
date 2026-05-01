@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          {\n            \"description\": \"The associated error message.\"\n          }\n        ]\n      },\n      \"entryId\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/EntryId\"\n          },\n          {\n            \"description\": \"The ID of the entry.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"A list of the errors (if any) associated with the batch request. Each error entry contains the <code>entryId</code> of the entry that failed.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-batch-get-asset-property-value-history-error-entries-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

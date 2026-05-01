@@ -49,7 +49,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ job. Failed requests do not have a simulation job ID. \"\n        }\n      ]\n    },\n    \"pendingRequests\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CreateSimulationJobRequests\"\n        },\n        {\n          \"description\": \"A list of pending simulation job requests. These requests have not yet been created into simulation jobs.\"\n        }\n      ]\n    },\n    \"createdRequests\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SimulationJobSummaries\"\n        },\n        {\n          \"description\": \"A list of created simulation job request summaries.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"A map that contains tag keys and tag values that are attached to the deployment job batch.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-start-simulation-job-batch-response-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: StartSimulationJobBatchResponse

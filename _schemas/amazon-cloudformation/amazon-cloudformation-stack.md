@@ -86,7 +86,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n            \"DELETE_COMPLETE\",\n            \"DELETE_SKIPPED\",\n            \"UPDATE_IN_PROGRESS\",\n            \"UPDATE_FAILED\",\n            \"UPDATE_COMPLETE\",\n            \"IMPORT_FAILED\",\n            \"IMPORT_COMPLETE\",\n            \"IMPORT_IN_PROGRESS\",\n            \"IMPORT_ROLLBACK_IN_PROGRESS\",\n            \"IMPORT_ROLLBACK_FAILED\",\n            \"IMPORT_ROLLBACK_COMPLETE\"\n          ]\n        },\n        \"ResourceStatusReason\": {\n          \"type\": \"string\",\n          \"description\": \"Success or failure message associated with the resource.\"\n        },\n        \"Description\": {\n          \"type\": \"string\",\n          \"description\": \"User defined description associated with the resource.\"\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/json-schema/amazon-cloudformation-stack-schema.json
 tags:
-- AWS
 - CloudFormation
 - Infrastructure as Code
 - DevOps

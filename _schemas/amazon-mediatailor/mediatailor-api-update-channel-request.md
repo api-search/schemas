@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n        {\n          \"description\": \"The channel's output properties.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Outputs\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-update-channel-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

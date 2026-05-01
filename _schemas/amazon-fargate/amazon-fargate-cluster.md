@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"integer\",\n      \"description\": \"Number of registered container instances\",\n      \"example\": 0\n    },\n    \"runningTasksCount\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of running tasks\",\n      \"example\": 5\n    },\n    \"pendingTasksCount\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of pending tasks\",\n      \"example\": 0\n    },\n    \"activeServicesCount\": {\n      \"type\": \"integer\",\n      \"description\": \"Number of active services\",\n      \"example\": 2\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"description\": \"Tags associated with the cluster\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      }\n    },\n    \"settings\": {\n      \"type\": \"array\",\n      \"description\": \"Cluster settings\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/ClusterSetting\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/json-schema/amazon-fargate-cluster-schema.json
 tags:
-- AWS
 - Compute
 - Containers
 - ECS

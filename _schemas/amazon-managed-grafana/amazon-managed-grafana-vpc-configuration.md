@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ not allowed.\"\n        }\n      ]\n    },\n    \"subnetIds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SubnetIds\"\n        },\n        {\n          \"description\": \"The list of Amazon EC2 subnet IDs created in the Amazon VPC for your Grafana workspace to connect. Duplicates not allowed.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"securityGroupIds\",\n    \"subnetIds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-vpc-configuration-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

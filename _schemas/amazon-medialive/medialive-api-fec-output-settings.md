@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       \"name\": \"includeFec\"\n          },\n          \"description\": \"Enables column only or column and row based FEC\"\n        }\n      ]\n    },\n    \"RowLength\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin1Max20\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"rowLength\"\n          },\n          \"description\": \"Parameter L from SMPTE 2022-1. The width of the FEC protection matrix.  Must be between 1 and 20, inclusive. If only Column FEC is used, then larger values increase robustness.  If Row FEC is used, then this is the number of transport stream packets per row error correction packet, and the value must be between 4 and 20, inclusive, if includeFec is columnAndRow. If includeFec is column, this value must be 1 to 20, inclusive.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-fec-output-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

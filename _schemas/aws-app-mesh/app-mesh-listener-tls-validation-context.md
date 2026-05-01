@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"subjectAlte
   ,\n  \"title\": \"ListenerTlsValidationContext\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-listener-tls-validation-context-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

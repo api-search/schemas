@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"maxLength\": 8,\n  \"$schema\": \"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-durationinsecondsoptional-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: DurationInSecondsOptional

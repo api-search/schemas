@@ -34,7 +34,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Id\": {\n  
   ,\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-operation-summary-schema.json\",\n  \"title\": \"OperationSummary\",\n  \"description\": \"OperationSummary schema from AWS App Runner\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-operation-summary-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

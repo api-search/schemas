@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"$ref\": \"#/components/schemas/IpCountry\"\n        },\n        {\n          \"description\": \"The country that the IP address originated from.\"\n        }\n      ]\n    },\n    \"ipGeoLocation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IpGeoLocation\"\n        },\n        {\n          \"description\": \"The geographic coordinates of the location that the IP address originated from.\"\n        }\n      ]\n    },\n    \"ipOwner\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IpOwner\"\n        },\n        {\n          \"description\": \"The registered owner of the IP address.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-ip-address-details-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

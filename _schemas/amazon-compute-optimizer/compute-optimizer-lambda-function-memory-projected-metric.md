@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  },\n    \"value\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MetricValue\"\n        },\n        {\n          \"description\": \"The values of the projected utilization metrics.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-lambda-function-memory-projected-metric-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

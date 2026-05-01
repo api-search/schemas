@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ archive files should be written.\"\n        }\n      ]\n    },\n    \"RolloverInterval\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin1\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"rolloverInterval\"\n          },\n          \"description\": \"Number of seconds to write to archive file before closing and starting a new one.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Destination\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-archive-group-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

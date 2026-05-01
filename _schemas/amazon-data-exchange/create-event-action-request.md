@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-data-exchange/json-schema/create-event-action-request-schema.json\",\n  \"title\": \"Create Event Action Request\",\n  \"description\": \"Request body for creating a new event action.\",\n  \"type\": \"object\",\n  \"required\": [\n    \"Event\",\n    \"Action\"\n  ],\n  \"properties\": {\n    \"Event\": {\n      \"type\": \"object\"\n    },\n    \"Action\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/json-schema/create-event-action-request-schema.json
 tags:
-- AWS
 - Data Exchange
 - Data Marketplace
 - Third-Party Data

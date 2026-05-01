@@ -77,7 +77,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VideoSelector\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"videoSelector\"\n          },\n          \"description\": \"Input video selectors contain the video settings for the input. Each of your inputs can have up to one video selector.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-input-template-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

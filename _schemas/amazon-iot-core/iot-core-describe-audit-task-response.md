@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The time the audit started.\"\n        }\n      ]\n    },\n    \"taskStatistics\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TaskStatistics\"\n        },\n        {\n          \"description\": \"Statistical information about the audit.\"\n        }\n      ]\n    },\n    \"scheduledAuditName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ScheduledAuditName\"\n        },\n        {\n          \"description\": \"The name of the scheduled audit (only if the audit was a scheduled audit).\"\n        }\n      ]\n    },\n    \"auditDetails\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AuditDetails\"\n        },\n        {\n          \"description\": \"Detailed information about each check performed during this audit.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-describe-audit-task-response-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

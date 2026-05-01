@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   {\n          \"$ref\": \"#/components/schemas/Tags\"\n        },\n        {\n          \"description\": \"An array that contains the tags for the specified resource.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-list-tags-for-resource-output-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

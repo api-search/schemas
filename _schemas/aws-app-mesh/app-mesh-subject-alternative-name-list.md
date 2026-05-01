@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"string\",\n    \"minLength\": 1,\n    \"maxLength\": 254\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-subject-alternative-name-list-schema.json\",\n  \"title\": \"SubjectAlternativeNameList\",\n  \"description\": \"SubjectAlternativeNameList schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-subject-alternative-name-list-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

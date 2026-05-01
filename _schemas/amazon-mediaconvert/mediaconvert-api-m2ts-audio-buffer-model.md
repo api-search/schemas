@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-m2ts-audio-buffer-model-schema.json\",\n  \"title\": \"M2tsAudioBufferModel\",\n  \"description\": \"Selects between the DVB and ATSC buffer models for Dolby Digital audio.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"DVB\",\n    \"ATSC\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-m2ts-audio-buffer-model-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

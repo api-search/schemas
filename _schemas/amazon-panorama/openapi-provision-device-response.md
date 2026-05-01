@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   The device's ID.\"\n        }\n      ]\n    },\n    \"IotThingName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IotThingName\"\n        },\n        {\n          \"description\": \"The device's IoT thing name.\"\n        }\n      ]\n    },\n    \"Status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DeviceStatus\"\n        },\n        {\n          \"description\": \"The device's status.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Arn\",\n    \"Status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-provision-device-response-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

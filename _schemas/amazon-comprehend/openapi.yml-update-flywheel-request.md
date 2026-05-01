@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   #/components/schemas/IamRoleArn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the IAM role that grants Amazon Comprehend permission to access the flywheel data.\"\n        }\n      ]\n    },\n    \"DataSecurityConfig\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UpdateDataSecurityConfig\"\n        },\n        {\n          \"description\": \"Flywheel data security configuration.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"FlywheelArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-update-flywheel-request-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

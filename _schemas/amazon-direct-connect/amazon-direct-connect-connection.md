@@ -85,7 +85,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   <p>The MAC Security (MACsec) connection encryption mode.</p> <p>The valid values are <code>no_encrypt</code>, <code>should_encrypt</code>, and <code>must_encrypt</code>.</p>\"\n        }\n      ]\n    },\n    \"macSecKeys\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MacSecKeyList\"\n        },\n        {\n          \"description\": \"The MAC Security (MACsec) security keys associated with the connection.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/json-schema/amazon-direct-connect-connection-schema.json
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

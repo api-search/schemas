@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringPattern010920405090509092\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timecode\"\n          },\n          \"description\": \"Provide a Timecode (TimeCode) in HH:MM:SS:FF or HH:MM:SS;FF format.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-id3-insertion-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

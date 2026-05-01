@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-describe-job-execution-response-schema.json\",\n  \"title\": \"DescribeJobExecutionResponse\",\n  \"description\": \"DescribeJobExecutionResponse schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"execution\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/JobExecution\"\n        },\n        {\n          \"description\": \"Information about the job execution.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-describe-job-execution-response-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

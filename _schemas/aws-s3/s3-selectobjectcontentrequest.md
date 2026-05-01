@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">S3Select API Documentation</a>.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-selectobjectcontentrequest-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

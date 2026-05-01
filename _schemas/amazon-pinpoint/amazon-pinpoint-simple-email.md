@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ or title, of the email.\"\n        }\n      ]\n    },\n    \"TextPart\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SimpleEmailPart\"\n        },\n        {\n          \"description\": \"The body of the email message, in plain text format. We recommend using plain text format for email clients that don't render HTML content and clients that are connected to high-latency networks, such as mobile devices.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-simple-email-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

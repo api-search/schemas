@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"creationTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SyntheticTimestamp_date_time\"\n        },\n        {\n          \"description\": \"When the reference was created.\"\n        }\n      ]\n    },\n    \"updateTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SyntheticTimestamp_date_time\"\n        },\n        {\n          \"description\": \"When the reference was updated.\"\n        }\n      ]\n    },\n    \"files\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ReferenceFiles\"\n        },\n        {\n          \"description\": \"The reference's files.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-get-reference-metadata-response-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

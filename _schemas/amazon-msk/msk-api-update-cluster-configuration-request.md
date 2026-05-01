@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"currentVersion\"\n          },\n          \"description\": \"\\n            <p>The version of the cluster that needs to be updated.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CurrentVersion\",\n    \"ConfigurationInfo\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-update-cluster-configuration-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

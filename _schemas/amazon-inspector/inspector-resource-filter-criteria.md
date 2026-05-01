@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ criteria.\"\n        }\n      ]\n    },\n    \"resourceId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceStringFilterList\"\n        },\n        {\n          \"description\": \"The resource IDs used as resource filter criteria.\"\n        }\n      ]\n    },\n    \"resourceType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceStringFilterList\"\n        },\n        {\n          \"description\": \"The resource types used as resource filter criteria.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-resource-filter-criteria-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

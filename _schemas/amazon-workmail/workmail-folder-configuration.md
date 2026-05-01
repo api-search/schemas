@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"Name\",\n    
   ,\n  \"title\": \"FolderConfiguration\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-folder-configuration-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-folder-configuration-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ cause your job to exit. The default is <code>RESTART</code>. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"command\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-tool-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: Tool

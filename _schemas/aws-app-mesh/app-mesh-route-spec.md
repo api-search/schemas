@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"grpcRoute\"
   \ for the route. Routes are matched based on the specified value, where 0 is the highest priority.\"\n        }\n      ]\n    },\n    \"tcpRoute\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TcpRoute\"\n        },\n        {\n          \"description\": \"An object that represents the specification of a TCP route.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"An object that represents a route specification. Specify one route type.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-route-spec-schema.json\",\n  \"title\": \"RouteSpec\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-route-spec-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

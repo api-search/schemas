@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DocumentClassifierDocumentTypeFormat\"\n        },\n        {\n          \"description\": \"The type of input documents for training the model. Provide plain-text documents to create a plain-text model, and provide semi-structured documents to create a native model.\"\n        }\n      ]\n    },\n    \"Documents\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DocumentClassifierDocuments\"\n        },\n        {\n          \"description\": \"The S3 location of the training documents. This parameter is required in a request to create a native classifier model.\"\n        }\n      ]\n    },\n    \"DocumentReaderConfig\": {\n      \"$ref\": \"#/components/schemas/DocumentReaderConfig\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-document-classifier-input-data-config-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

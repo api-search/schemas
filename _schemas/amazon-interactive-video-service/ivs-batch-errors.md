@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"Error message, determined by the application.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Error related to a specific channel, specified by its ARN.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-schema/ivs-batch-errors-schema.json
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

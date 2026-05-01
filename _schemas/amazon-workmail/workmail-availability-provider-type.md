@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"string\",\n  \"enum\": [\n    \"EWS\",\n    \"LAMBDA\"\n  ],\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"AvailabilityProviderType\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-availability-provider-type-schema.json\",\n  \"description\": \"AvailabilityProviderType schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-availability-provider-type-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

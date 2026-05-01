@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"publicAccess\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BucketPublicAccess\"\n        },\n        {\n          \"description\": \"The permissions settings that determine whether the bucket is publicly accessible.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/KeyValuePairList\"\n        },\n        {\n          \"description\": \"The tags that are associated with the bucket.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-s3-bucket-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

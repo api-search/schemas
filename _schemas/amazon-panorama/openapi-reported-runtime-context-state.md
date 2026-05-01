@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"When the device reported the application's state.\"\n        }\n      ]\n    },\n    \"RuntimeContextName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RuntimeContextName\"\n        },\n        {\n          \"description\": \"The device's name.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DesiredState\",\n    \"DeviceReportedStatus\",\n    \"DeviceReportedTime\",\n    \"RuntimeContextName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-reported-runtime-context-state-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

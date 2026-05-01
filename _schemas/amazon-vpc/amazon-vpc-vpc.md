@@ -44,7 +44,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Describes a VPC\"
   : \"The allowed tenancy of instances launched into the VPC\",\n      \"enum\": [\n        \"default\",\n        \"dedicated\",\n        \"host\"\n      ]\n    },\n    \"isDefault\": {\n      \"type\": \"boolean\",\n      \"description\": \"Indicates whether the VPC is the default VPC\"\n    },\n    \"ownerId\": {\n      \"type\": \"string\",\n      \"description\": \"The ID of the AWS account that owns the VPC\"\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"description\": \"Any tags assigned to the VPC\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      }\n    }\n  },\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Vpc\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/json-schema/amazon-vpc-vpc-schema.json
 tags:
-- AWS
 - Networking
 - Private Cloud
 - Security

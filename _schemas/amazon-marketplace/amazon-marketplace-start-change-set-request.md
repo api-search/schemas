@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/ChangeSetName\"\n        },\n        {\n          \"description\": \"Optional case sensitive string of up to 100 ASCII characters. The change set name can be used to filter the list of change sets. \"\n        }\n      ]\n    },\n    \"ClientRequestToken\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ClientRequestToken\"\n        },\n        {\n          \"description\": \"A unique token to identify the request to ensure idempotency.\"\n        }\n      ]\n    },\n    \"ChangeSetTags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagList\"\n        },\n        {\n          \"description\": \"A list of objects specifying each key name and value for the <code>ChangeSetTags</code> property.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Catalog\",\n    \"ChangeSet\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-start-change-set-request-schema.json
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

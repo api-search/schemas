@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"<p>The exponential factor to increase the rollout rate for the job.</p> <p>This parameter supports up to one digit after the decimal (for example, you can specify <code>1.5</code>, but not <code>1.55</code>).</p>\"\n        }\n      ]\n    },\n    \"rateIncreaseCriteria\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IoTJobRateIncreaseCriteria\"\n        },\n        {\n          \"description\": \"The criteria to increase the rollout rate for the job.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"baseRatePerMinute\",\n    \"incrementFactor\",\n    \"rateIncreaseCriteria\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-io-t-job-exponential-rollout-rate-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

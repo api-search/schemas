@@ -39,7 +39,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ or for neither of them.\"\n        }\n      ]\n    },\n    \"serviceSpec\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SpecContents\"\n        },\n        {\n          \"description\": \"The service spec that you want the component to use to access service inputs. Set this only when the component is attached to a service instance.\"\n        }\n      ]\n    },\n    \"templateFile\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TemplateFileContents\"\n        },\n        {\n          \"description\": \"<p>A path to the Infrastructure as Code (IaC) file describing infrastructure that a custom component provisions.</p> <note> <p>Components support a single IaC file, even if you use Terraform as your template language.</p> </note>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"deploymentType\",\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-component-input-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

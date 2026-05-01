@@ -40,7 +40,6 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-directo
 tags:
 - Active Directory
 - Authentication
-- AWS
 - Directory Services
 - Identity Management
 title: Certificate

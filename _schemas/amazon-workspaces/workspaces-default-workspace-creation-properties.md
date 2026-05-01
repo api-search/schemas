@@ -33,7 +33,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"EnableWorkD
   \">Update Directory Details for Your WorkSpaces</a>.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DefaultWorkspaceCreationProperties\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-default-workspace-creation-properties-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-default-workspace-creation-properties-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

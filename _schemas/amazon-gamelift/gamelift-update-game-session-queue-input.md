@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ game session placement notifications. See <a href=\\\"https://docs.aws.amazon.com/gamelift/latest/developerguide/queue-notification.html\\\"> Setting up notifications for game session placement</a>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-update-game-session-queue-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

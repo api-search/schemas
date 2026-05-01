@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-get-journey-date-range-kpi-response-schema.json\",\n  \"title\": \"GetJourneyDateRangeKpiResponse\",\n  \"description\": \"GetJourneyDateRangeKpiResponse schema from Amazon Pinpoint API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"JourneyDateRangeKpiResponse\": {\n      \"$ref\": \"#/components/schemas/JourneyDateRangeKpiResponse\"\n    }\n  },\n  \"required\": [\n    \"JourneyDateRangeKpiResponse\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-get-journey-date-range-kpi-response-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-schema/get-baseline-operation-response-schema.json\",\n  \"title\": \"GetBaselineOperationResponse\",\n  \"description\": \"GetBaselineOperationResponse schema from AWS Control Tower API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"baselineOperation\": {\n      \"$ref\": \"#/components/schemas/BaselineOperation\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-schema/get-baseline-operation-response-schema.json
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

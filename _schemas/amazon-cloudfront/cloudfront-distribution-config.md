@@ -54,7 +54,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ distribution.\"\n    },\n    \"HttpVersion\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"http1.1\",\n        \"http2\",\n        \"http3\",\n        \"http2and3\"\n      ]\n    },\n    \"IsIPV6Enabled\": {\n      \"type\": \"boolean\"\n    }\n  },\n  \"required\": [\n    \"CallerReference\",\n    \"Origins\",\n    \"DefaultCacheBehavior\",\n    \"Comment\",\n    \"Enabled\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/json-schema/cloudfront-distribution-config-schema.json
 tags:
-- AWS
 - CloudFront
 - CDN
 - Content Delivery

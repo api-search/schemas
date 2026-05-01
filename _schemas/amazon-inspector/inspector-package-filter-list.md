@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \            \"$ref\": \"#/components/schemas/StringFilter\"\n          },\n          {\n            \"description\": \"The package version to filter on.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains information on the details of a package filter.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-package-filter-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

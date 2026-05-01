@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Whether or not an uplink <code>Config</code> is enabled.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"antennaUplinkConfigArn\",\n    \"enabled\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-uplink-echo-config-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

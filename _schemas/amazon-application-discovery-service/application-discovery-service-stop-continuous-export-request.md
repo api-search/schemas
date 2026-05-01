@@ -19,6 +19,5 @@ tags:
 - Migration
 - Discovery
 - Infrastructure
-- AWS
 title: StopContinuousExportRequest
 ---

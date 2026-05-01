@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"string\",\n  \"pattern\": \"[\\\\u0020-\\\\u00FF]+\",\n  \"minLength\": 1,\n  \"maxLength\": 256,\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"DeviceUserAgent\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-device-user-agent-schema.json\",\n  \"description\": \"DeviceUserAgent schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-device-user-agent-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

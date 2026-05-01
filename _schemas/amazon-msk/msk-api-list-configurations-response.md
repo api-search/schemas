@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ paginated results marker. When the result of a ListConfigurations operation is truncated, the call returns NextToken in the response. \\n               To get another batch of configurations, provide this token in your next request.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-list-configurations-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

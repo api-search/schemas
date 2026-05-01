@@ -49,7 +49,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n        \"FAILED_CREATION\",\n        \"FAILED_DELETION\",\n        \"RETRY_DELETION\",\n        \"SUSPENDED\"\n      ]\n    },\n    \"environmentUrl\": {\n      \"type\": \"string\",\n      \"format\": \"uri\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"environmentArn\": {\n      \"type\": \"string\"\n    },\n    \"sageMakerStudioDomainUrl\": {\n      \"type\": \"string\",\n      \"format\": \"uri\"\n    },\n    \"kmsKeyId\": {\n      \"type\": \"string\"\n    },\n    \"dedicatedServiceAccountId\": {\n      \"type\": \"string\"\n    },\n    \"federationMode\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"FEDERATED\",\n        \"LOCAL\"\n      ]\n    },\n    \"tags\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    }\n  },\n  \"required\": [\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/json-schema/amazon-finspace-environment-schema.json
 tags:
-- AWS
 - Capital Markets
 - Data Analytics
 - Data Management

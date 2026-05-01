@@ -16,6 +16,5 @@ tags:
 - SQL
 - Analytics
 - Serverless
-- AWS
 title: Datum
 ---

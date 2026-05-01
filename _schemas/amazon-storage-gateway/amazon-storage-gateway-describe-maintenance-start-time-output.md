@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"DayOfMonth\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DayOfMonth\"\n        },\n        {\n          \"description\": \"The day of the month component of the maintenance start time represented as an ordinal number from 1 to 28, where 1 represents the first day of the month and 28 represents the last day of the month.\"\n        }\n      ]\n    },\n    \"Timezone\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GatewayTimezone\"\n        },\n        {\n          \"description\": \"A value that indicates the time zone that is set for the gateway. The start time and day of week specified should be in the time zone of the gateway.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-describe-maintenance-start-time-output-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

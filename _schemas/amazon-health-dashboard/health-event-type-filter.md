@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ <code>RDS</code>.\"\n        }\n      ]\n    },\n    \"eventTypeCategories\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EventTypeCategoryList\"\n        },\n        {\n          \"description\": \"A list of event type category codes. Possible values are <code>issue</code>, <code>accountNotification</code>, or <code>scheduledChange</code>. Currently, the <code>investigation</code> value isn't supported at this time.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-event-type-filter-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

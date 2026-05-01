@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"description\": \"UTC time when the maintenance will happen. Use 24-hour HH:MM format. Minutes must be 00. Example: 13:00. The default value is 02:00.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"MaintenanceDay\",\n    \"MaintenanceStartHour\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-add-maintenance-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

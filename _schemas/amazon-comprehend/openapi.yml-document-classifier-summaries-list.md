@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-document-classifier-summaries-list-schema.json\",\n  \"title\": \"DocumentClassifierSummariesList\",\n  \"description\": \"DocumentClassifierSummariesList schema\",\n  \"type\": \"array\",\n  \"items\": {\n    \"$ref\": \"#/components/schemas/DocumentClassifierSummary\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-document-classifier-summaries-list-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

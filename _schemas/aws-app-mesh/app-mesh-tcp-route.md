@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"action\": {
   ,\n  \"title\": \"TcpRoute\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-tcp-route-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

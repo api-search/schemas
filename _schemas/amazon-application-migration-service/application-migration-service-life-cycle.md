@@ -49,7 +49,6 @@ tags:
 - Amazon Application Migration Service
 - Migration
 - Lift And Shift
-- AWS
 - Cloud Migration
 title: LifeCycle
 ---

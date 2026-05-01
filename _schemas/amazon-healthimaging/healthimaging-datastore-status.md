@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-datastore-status-schema.json\",\n  \"title\": \"DatastoreStatus\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"CREATING\",\n    \"CREATE_FAILED\",\n    \"ACTIVE\",\n    \"DELETING\",\n    \"DELETED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-datastore-status-schema.json
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

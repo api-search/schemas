@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ includes assigning permissions for access. \"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-s3-configuration-schema.json
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

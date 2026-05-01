@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"integer\",\n      \"description\": \"The maximum number of strongly consistent reads per second\"\n    },\n    \"WriteCapacityUnits\": {\n      \"type\": \"integer\",\n      \"description\": \"The maximum number of writes per second\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-schema/dynamodb-openapi-provisioned-throughput-description-schema.json
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

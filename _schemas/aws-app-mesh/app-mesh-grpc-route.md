@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"action\": {
   \ that represents types of timeouts. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"action\",\n    \"match\"\n  ],\n  \"description\": \"An object that represents a gRPC route type.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-route-schema.json\",\n  \"title\": \"GrpcRoute\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-route-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

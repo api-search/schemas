@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         \"$ref\": \"#/components/schemas/TimezoneOffset\"\n        },\n        {\n          \"description\": \"Optional value for a timezone offset of the datetime parameter value in the Amazon S3 path. Shouldn't be used if Format for this parameter includes timezone fields. If no offset specified, UTC is assumed.\"\n        }\n      ]\n    },\n    \"LocaleCode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LocaleCode\"\n        },\n        {\n          \"description\": \"Optional value for a non-US locale code, needed for correct interpretation of some date formats.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Format\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-datetime-options-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

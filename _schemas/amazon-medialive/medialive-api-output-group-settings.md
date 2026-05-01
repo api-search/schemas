@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RtmpGroupSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"rtmpGroupSettings\"\n          }\n        }\n      ]\n    },\n    \"UdpGroupSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UdpGroupSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"udpGroupSettings\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-output-group-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

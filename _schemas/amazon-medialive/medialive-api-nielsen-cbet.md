@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ when prior encoding is detected on the same layer.\"\n        }\n      ]\n    },\n    \"Csid\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMin1Max7\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"csid\"\n          },\n          \"description\": \"Enter the CBET Source ID (CSID) to use in the watermark\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CbetCheckDigitString\",\n    \"CbetStepaside\",\n    \"Csid\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-nielsen-cbet-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

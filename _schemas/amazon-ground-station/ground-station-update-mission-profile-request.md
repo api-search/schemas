@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"streamsKmsKey\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/KmsKey\"\n        },\n        {\n          \"description\": \"KMS key to use for encrypting streams.\"\n        }\n      ]\n    },\n    \"streamsKmsRole\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RoleArn\"\n        },\n        {\n          \"description\": \"Role to use for encrypting streams with KMS key.\"\n        }\n      ]\n    },\n    \"trackingConfigArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ConfigArn\"\n        },\n        {\n          \"description\": \"ARN of a tracking <code>Config</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-update-mission-profile-request-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

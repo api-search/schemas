@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ digits, of the resulting cryptogram.\"\n        }\n      ]\n    },\n    \"KeyState\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/KeyState\"\n        },\n        {\n          \"description\": \"The state of an Amazon Web Services Payment Cryptography that is being created or deleted.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Enabled\",\n    \"Exportable\",\n    \"KeyArn\",\n    \"KeyAttributes\",\n    \"KeyCheckValue\",\n    \"KeyState\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-key-summary-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

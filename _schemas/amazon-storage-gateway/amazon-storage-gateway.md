@@ -55,7 +55,6 @@ source_json: "{\n  \"$id\": \"https://schema.api.io/amazon-storage-gateway/amazo
   : \"Tag value.\",\n          \"maxLength\": 256\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

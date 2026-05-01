@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"name\": \"startTimecode\"\n          },\n          \"description\": \"Settings to identify the start of the clip.\"\n        }\n      ]\n    },\n    \"StopTimecode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StopTimecode\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"stopTimecode\"\n          },\n          \"description\": \"Settings to identify the end of the clip.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"InputTimecodeSource\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-clipping-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

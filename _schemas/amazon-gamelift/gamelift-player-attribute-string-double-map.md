@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-player-attribute-string-double-map-schema.json\",\n  \"title\": \"PlayerAttributeStringDoubleMap\",\n  \"description\": \"PlayerAttributeStringDoubleMap schema from Amazon GameLift API\",\n  \"type\": \"object\",\n  \"additionalProperties\": {\n    \"$ref\": \"#/components/schemas/DoubleObject\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-player-attribute-string-double-map-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Keep the default Film standard (FILM_STANDARD) to set the profile to Dolby's film standard profile for all operating modes.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"FILM_STANDARD\",\n    \"NONE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-ac3-dynamic-range-compression-profile-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

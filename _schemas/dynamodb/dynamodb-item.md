@@ -51,7 +51,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \            \"IndexName\": \"CreatedAtIndex\",\n            \"KeySchema\": [\n              { \"AttributeName\": \"UserId\", \"KeyType\": \"HASH\" },\n              { \"AttributeName\": \"CreatedAt\", \"KeyType\": \"RANGE\" }\n            ],\n            \"Projection\": {\n              \"ProjectionType\": \"KEYS_ONLY\"\n            }\n          }\n        ],\n        \"StreamSpecification\": {\n          \"StreamEnabled\": true,\n          \"StreamViewType\": \"NEW_AND_OLD_IMAGES\"\n        },\n        \"Tags\": [\n          { \"Key\": \"Environment\", \"Value\": \"Production\" },\n          { \"Key\": \"Team\", \"Value\": \"Backend\" }\n        ],\n        \"DeletionProtectionEnabled\": true\n      }\n    }\n  ]\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-item-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

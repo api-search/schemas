@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-dataflow-endpoint-list-item-schema.json\",\n  \"title\": \"DataflowEndpointListItem\",\n  \"description\": \"Item in a list of <code>DataflowEndpoint</code> groups.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"dataflowEndpointGroupArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DataflowEndpointGroupArn\"\n        },\n        {\n          \"description\": \"ARN of a dataflow endpoint group.\"\n        }\n      ]\n    },\n    \"dataflowEndpointGroupId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Uuid\"\n        },\n        {\n          \"description\": \"UUID of a dataflow endpoint group.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-dataflow-endpoint-list-item-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

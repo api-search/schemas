@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \" The time that the latest entity recognizer version was submitted for processing.\"\n        }\n      ]\n    },\n    \"LatestVersionName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VersionName\"\n        },\n        {\n          \"description\": \" The version name you assigned to the latest entity recognizer version.\"\n        }\n      ]\n    },\n    \"LatestVersionStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ModelStatus\"\n        },\n        {\n          \"description\": \" Provides the status of the latest entity recognizer version.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-entity-recognizer-summary-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for a metric in your behavior. For example, using a <code>TOPIC_FILTER</code> dimension, you can narrow down the scope of the metric to only MQTT topics where the name matches the pattern specified in the dimension. This can't be used with custom metrics.\"\n        }\n      ]\n    },\n    \"criteria\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BehaviorCriteria\"\n        },\n        {\n          \"description\": \"The criteria that determine if a device is behaving normally in regard to the <code>metric</code>.\"\n        }\n      ]\n    },\n    \"suppressAlerts\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SuppressAlerts\"\n        },\n        {\n          \"description\": \" Suppresses alerts. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-behavior-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

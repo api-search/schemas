@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the code WA refers to the state of Washington.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Country\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-locale-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

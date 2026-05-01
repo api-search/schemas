@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"$ref\": \"#/components/schemas/RoutingConfigurationList\"\n        },\n        {\n          \"description\": \"<p>The routing configuration of the state machine alias.</p> <p>An array of <code>RoutingConfig</code> objects that specifies up to two state machine versions that the alias starts executions for.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"stateMachineAliasArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-update-state-machine-alias-input-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

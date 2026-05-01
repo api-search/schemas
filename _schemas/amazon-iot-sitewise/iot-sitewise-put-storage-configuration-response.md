@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \            {\n              \"description\": \"Contains associated error information, if any.\"\n            }\n          ]\n        }\n      },\n      \"description\": \"Contains current status information for the configuration.\"\n    }\n  },\n  \"required\": [\n    \"storageType\",\n    \"configurationStatus\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-put-storage-configuration-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

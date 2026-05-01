@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Viewing resource recommendations</a> in the <i>Compute Optimizer User Guide</i>. You can also get averaged utilization metric data for your resources using Amazon CloudWatch. For more information, see the <a href=\\\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html\\\">Amazon CloudWatch User Guide</a>.</p>\"\n        }\n      ]\n    },\n    \"lowerBoundValue\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LowerBoundValue\"\n        },\n        {\n          \"description\": \" The lower bound values for the projected utilization metrics. \"\n        }\n      ]\n    },\n    \"upperBoundValue\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UpperBoundValue\"\n        },\n        {\n          \"description\": \" The upper bound values for the projected utilization metrics. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-ecs-service-projected-utilization-metric-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

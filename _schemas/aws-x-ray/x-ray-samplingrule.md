@@ -52,7 +52,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"ReservoirSize\",\n    \"ServiceName\",\n    \"ServiceType\",\n    \"Host\",\n    \"HTTPMethod\",\n    \"URLPath\",\n    \"Version\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/json-schema/x-ray-samplingrule-schema.json
 tags:
-- AWS
 - Debugging
 - Distributed Tracing
 - Microservices

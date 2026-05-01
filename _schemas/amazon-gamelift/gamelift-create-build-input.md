@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ By default Amazon GameLift sets this value to <code>4.0.2</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-create-build-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

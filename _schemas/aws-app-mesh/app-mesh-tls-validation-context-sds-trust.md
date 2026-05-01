@@ -16,7 +16,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"secretName\
   ,\n  \"title\": \"TlsValidationContextSdsTrust\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-tls-validation-context-sds-trust-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

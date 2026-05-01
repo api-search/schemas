@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"<p>The string that contains the JSON input data for the execution, for example:</p> <p> <code>\\\"input\\\": \\\"{\\\\\\\"first_name\\\\\\\" : \\\\\\\"test\\\\\\\"}\\\"</code> </p> <note> <p>If you don't include any JSON input data, you still must include the two braces, for example: <code>\\\"input\\\": \\\"{}\\\"</code> </p> </note> <p>Length constraints apply to the payload size, and are expressed as bytes in UTF-8 encoding.</p>\"\n        }\n      ]\n    },\n    \"traceHeader\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TraceHeader\"\n        },\n        {\n          \"description\": \"Passes the X-Ray trace header. The trace header can also be passed in the request payload.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"stateMachineArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/json-schema/amazon-step-functions-start-sync-execution-input-schema.json
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

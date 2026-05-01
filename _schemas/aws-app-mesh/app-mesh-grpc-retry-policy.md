@@ -29,7 +29,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"grpcRetryEv
   \ value for <code>maxRetries</code>, and a value for <code>perRetryTimeout</code>. Both <code>server-error</code> and <code>gateway-error</code> under <code>httpRetryEvents</code> include the Envoy <code>reset</code> policy. For more information on the <code>reset</code> policy, see the <a href=\\\"https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/router_filter#x-envoy-retry-on\\\">Envoy documentation</a>.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-retry-policy-schema.json\",\n  \"title\": \"GrpcRetryPolicy\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-retry-policy-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Cloud Map to create when you register an instance.\"\n    },\n    \"CreatorRequestId\": {\n      \"type\": \"string\",\n      \"description\": \"A unique string that identifies the request and allows failed CreateService requests to be retried.\"\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/json-schema/cloud-map-create-service-request-schema.json
 tags:
-- AWS
 - Cloud Map
 - Service Discovery
 - Microservices

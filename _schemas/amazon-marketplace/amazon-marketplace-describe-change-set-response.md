@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ in the request.\"\n        }\n      ]\n    },\n    \"ChangeSet\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ChangeSetDescription\"\n        },\n        {\n          \"description\": \"An array of <code>ChangeSummary</code> objects.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-describe-change-set-response-schema.json
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

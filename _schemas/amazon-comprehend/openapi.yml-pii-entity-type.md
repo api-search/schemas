@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"UK_UNIQUE_TAXPAYER_REFERENCE_NUMBER\",\n    \"IN_PERMANENT_ACCOUNT_NUMBER\",\n    \"IN_NREGA\",\n    \"INTERNATIONAL_BANK_ACCOUNT_NUMBER\",\n    \"SWIFT_CODE\",\n    \"UK_NATIONAL_HEALTH_SERVICE_NUMBER\",\n    \"CA_HEALTH_NUMBER\",\n    \"IN_AADHAAR\",\n    \"IN_VOTER_NUMBER\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-pii-entity-type-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

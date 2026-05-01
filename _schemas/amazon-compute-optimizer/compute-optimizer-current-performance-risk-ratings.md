@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"$ref\": \"#/components/schemas/Medium\"\n        },\n        {\n          \"description\": \"A count of the applicable resource types with a medium performance risk rating.\"\n        }\n      ]\n    },\n    \"low\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Low\"\n        },\n        {\n          \"description\": \"A count of the applicable resource types with a low performance risk rating.\"\n        }\n      ]\n    },\n    \"veryLow\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VeryLow\"\n        },\n        {\n          \"description\": \"A count of the applicable resource types with a very low performance risk rating.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-current-performance-risk-ratings-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

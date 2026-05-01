@@ -87,7 +87,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ into the left and right surround channels.\"\n        }\n      ]\n    },\n    \"SurroundMode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Eac3SurroundMode\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"surroundMode\"\n          },\n          \"description\": \"When encoding 2/0 audio, sets whether Dolby Surround is matrix encoded into the two channels.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-eac3-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

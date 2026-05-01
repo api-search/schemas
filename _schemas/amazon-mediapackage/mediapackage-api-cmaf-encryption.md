@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  {\n          \"$ref\": \"#/components/schemas/CmafEncryptionMethod\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"encryptionMethod\"\n          }\n        }\n      ]\n    },\n    \"KeyRotationIntervalSeconds\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"keyRotationIntervalSeconds\"\n          },\n          \"description\": \"Time (in seconds) between each encryption key rotation.\"\n        }\n      ]\n    },\n    \"SpekeKeyProvider\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SpekeKeyProvider\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"spekeKeyProvider\"\n          }\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SpekeKeyProvider\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-cmaf-encryption-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

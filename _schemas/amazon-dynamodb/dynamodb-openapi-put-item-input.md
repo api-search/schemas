@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Substitution tokens for attribute names in an expression\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    },\n    \"ExpressionAttributeValues\": {\n      \"type\": \"object\",\n      \"description\": \"Values that can be substituted in an expression\",\n      \"additionalProperties\": {\n        \"$ref\": \"#/components/schemas/AttributeValue\"\n      }\n    },\n    \"ReturnValues\": {\n      \"type\": \"string\",\n      \"description\": \"Determines the return values after the operation\",\n      \"enum\": [\n        \"NONE\",\n        \"ALL_OLD\"\n      ]\n    }\n  },\n  \"required\": [\n    \"TableName\",\n    \"Item\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-schema/dynamodb-openapi-put-item-input-schema.json
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

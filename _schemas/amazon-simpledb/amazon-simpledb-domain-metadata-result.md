@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   $ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"The data and time when metadata was calculated, in Epoch (UNIX) seconds.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/json-schema/amazon-simpledb-domain-metadata-result-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Data Storage
 - Database

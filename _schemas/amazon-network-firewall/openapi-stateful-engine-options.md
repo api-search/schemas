@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ this rule because the service won't have the context from session initialization defining the application layer protocol as HTTP. However, this behavior is rule dependent\\u2014a TCP-layer rule using a <code>flow:stateless</code> rule would still match, as would the <code>aws:drop_strict</code> default action.</p> </li> </ul>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-stateful-engine-options-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

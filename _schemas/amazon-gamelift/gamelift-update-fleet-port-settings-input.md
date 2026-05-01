@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    ]\n    },\n    \"InboundPermissionRevocations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IpPermissionsList\"\n        },\n        {\n          \"description\": \"A collection of port settings to be removed from the fleet resource.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"FleetId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-update-fleet-port-settings-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to have.</p>\"\n        }\n      ]\n    },\n    \"Provisioned\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ProvisionedRequest\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"provisioned\"\n          },\n          \"description\": \"\\n            <p>Information about the provisioned cluster.</p>\"\n        }\n      ]\n    },\n    \"Serverless\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ServerlessRequest\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"serverless\"\n          },\n          \"description\": \"\\n            <p>Information about the serverless cluster.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ClusterName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-create-cluster-v2-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

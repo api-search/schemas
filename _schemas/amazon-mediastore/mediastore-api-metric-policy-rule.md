@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ which objects to include in the group. Wildcards (*) are acceptable.\"\n        }\n      ]\n    },\n    \"ObjectGroupName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ObjectGroupName\"\n        },\n        {\n          \"description\": \"A name that allows you to refer to the object group.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ObjectGroup\",\n    \"ObjectGroupName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-metric-policy-rule-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

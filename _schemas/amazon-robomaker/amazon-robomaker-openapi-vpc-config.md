@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ more security groups IDs in your VPC.\"\n        }\n      ]\n    },\n    \"assignPublicIp\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"A boolean indicating whether to assign a public IP address.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"subnets\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-vpc-config-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: VPCConfig

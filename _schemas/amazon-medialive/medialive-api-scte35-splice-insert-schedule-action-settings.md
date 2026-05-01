@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ and there is an expectation that you will enter a return_to_network to end the splice_insert at the appropriate time.\"\n        }\n      ]\n    },\n    \"SpliceEventId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__longMin0Max4294967295\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"spliceEventId\"\n          },\n          \"description\": \"The splice_event_id for the SCTE-35 splice_insert, as defined in SCTE-35.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SpliceEventId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-scte35-splice-insert-schedule-action-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

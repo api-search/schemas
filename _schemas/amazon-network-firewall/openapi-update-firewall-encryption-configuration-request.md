@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ name of the firewall. You can't change the name of a firewall after you create it.\"\n        }\n      ]\n    },\n    \"EncryptionConfiguration\": {\n      \"$ref\": \"#/components/schemas/EncryptionConfiguration\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-update-firewall-encryption-configuration-request-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

@@ -93,7 +93,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to the Amazon Web Services resources that the workspace will view data from. This role must already exist.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"authentication\",\n    \"created\",\n    \"dataSources\",\n    \"endpoint\",\n    \"grafanaVersion\",\n    \"id\",\n    \"modified\",\n    \"status\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-workspace-description-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

@@ -30,7 +30,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ management, access management and cost allocation. For more information, see <a href=\\\"https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html\\\"> Tagging Amazon Web Services Resources</a> in the <i>Amazon Web Services General Reference</i>. Once the resource is created, you can use <a href=\\\"https://docs.aws.amazon.com/gamelift/latest/apireference/API_TagResource.html\\\">TagResource</a>, <a href=\\\"https://docs.aws.amazon.com/gamelift/latest/apireference/API_UntagResource.html\\\">UntagResource</a>, and <a href=\\\"https://docs.aws.amazon.com/gamelift/latest/apireference/API_ListTagsForResource.html\\\">ListTagsForResource</a> to add, remove, and view tags. The maximum tag limit may be lower than stated. See the Amazon Web Services General Reference for actual tagging limits.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/json-schema/gamelift-create-script-input-schema.json
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

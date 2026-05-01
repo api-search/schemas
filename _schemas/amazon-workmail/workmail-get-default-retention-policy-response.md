@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"Id\": {\n  
   ,\n  \"title\": \"GetDefaultRetentionPolicyResponse\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-default-retention-policy-response-schema.json\",\n  \"description\": \"GetDefaultRetentionPolicyResponse schema from Amazon WorkMail API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-get-default-retention-policy-response-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

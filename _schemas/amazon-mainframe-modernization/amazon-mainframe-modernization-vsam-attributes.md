@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for this dataset are stored as compressed values. If you have a large data set (typically &gt; 100 Mb), consider setting this flag to True.\"\n        }\n      ]\n    },\n    \"encoding\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The character set used by the data set. Can be ASCII, EBCDIC, or unknown.\"\n        }\n      ]\n    },\n    \"format\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The record format of the data set.\"\n        }\n      ]\n    },\n    \"primaryKey\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PrimaryKey\"\n        },\n        {\n          \"description\": \"The primary key of the data set.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"format\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-vsam-attributes-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

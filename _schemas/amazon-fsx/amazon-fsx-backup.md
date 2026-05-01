@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"CreationTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"FileSystem\": {\n      \"type\": \"object\",\n      \"description\": \"The file system that was backed up.\"\n    },\n    \"KmsKeyId\": {\n      \"type\": \"string\"\n    },\n    \"ResourceARN\": {\n      \"type\": \"string\"\n    },\n    \"Tags\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\"\n      }\n    },\n    \"OwnerId\": {\n      \"type\": \"string\"\n    },\n    \"SourceBackupId\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"BackupId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/json-schema/amazon-fsx-backup-schema.json
 tags:
-- AWS
 - File Systems
 - Lustre
 - NetApp

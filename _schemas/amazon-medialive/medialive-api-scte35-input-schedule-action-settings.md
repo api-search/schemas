@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n            \"name\": \"mode\"\n          },\n          \"description\": \"Whether the SCTE-35 input should be the active input or a fixed input.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Mode\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-scte35-input-schedule-action-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

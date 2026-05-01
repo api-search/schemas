@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       \"$ref\": \"#/components/schemas/OTAUpdateFileVersion\"\n        },\n        {\n          \"description\": \"The file version.\"\n        }\n      ]\n    },\n    \"fileLocation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/FileLocation\"\n        },\n        {\n          \"description\": \"The location of the updated firmware.\"\n        }\n      ]\n    },\n    \"codeSigning\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CodeSigning\"\n        },\n        {\n          \"description\": \"The code signing method of the file.\"\n        }\n      ]\n    },\n    \"attributes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AttributesMap\"\n        },\n        {\n          \"description\": \"A list of name/attribute pairs.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-o-t-a-update-file-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

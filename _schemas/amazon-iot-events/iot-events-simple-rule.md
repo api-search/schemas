@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Threshold\"\n        },\n        {\n          \"description\": \"The value on the right side of the comparison operator. You can enter a number or specify an AWS IoT Events input attribute.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"inputProperty\",\n    \"comparisonOperator\",\n    \"threshold\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-simple-rule-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

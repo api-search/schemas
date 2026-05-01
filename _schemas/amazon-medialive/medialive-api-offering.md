@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ },\n    \"Region\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"region\"\n          },\n          \"description\": \"AWS region, e.g. 'us-west-2'\"\n        }\n      ]\n    },\n    \"ResourceSpecification\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ReservationResourceSpecification\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"resourceSpecification\"\n          },\n          \"description\": \"Resource configuration details\"\n        }\n      ]\n    },\n    \"UsagePrice\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__double\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"usagePrice\"\n          },\n          \"description\": \"Recurring usage charge for each reserved resource, e.g. '157.0'\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-offering-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"GetItemOutput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"Item\": {\n      \"type\": \"object\",\n      \"description\": \"A map of attribute names to AttributeValue objects. Only returned if the item with the given primary key exists.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-get-item-output-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

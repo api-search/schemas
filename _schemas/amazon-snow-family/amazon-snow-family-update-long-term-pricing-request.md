@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"IsLongTermPricingAutoRenew\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/JavaBoolean\"\n        },\n        {\n          \"description\": \"If set to <code>true</code>, specifies that the current long-term pricing type for the device should be automatically renewed before the long-term pricing contract expires.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"LongTermPricingId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-update-long-term-pricing-request-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

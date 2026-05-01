@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ inspection. Then, when a packet matches the rule, Network Firewall publishes metrics for the packet and forwards it. </p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-action-definition-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

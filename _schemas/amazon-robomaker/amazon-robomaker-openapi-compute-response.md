@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   },\n        {\n          \"description\": \"Compute type response information for the simulation job.\"\n        }\n      ]\n    },\n    \"gpuUnitLimit\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/GPUUnit\"\n        },\n        {\n          \"description\": \"Compute GPU unit limit for the simulation job. It is the same as the number of GPUs allocated to the SimulationJob.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-compute-response-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: ComputeResponse

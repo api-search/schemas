@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"type\": \"string\",\n      \"description\": \"The Availability Zone for the instance.\"\n    },\n    \"PreferredMaintenanceWindow\": {\n      \"type\": \"string\"\n    },\n    \"AutoMinorVersionUpgrade\": {\n      \"type\": \"boolean\"\n    },\n    \"PromotionTier\": {\n      \"type\": \"integer\",\n      \"description\": \"Failover priority (0-15).\",\n      \"minimum\": 0,\n      \"maximum\": 15\n    }\n  },\n  \"required\": [\n    \"DBInstanceIdentifier\",\n    \"DBInstanceClass\",\n    \"Engine\",\n    \"DBClusterIdentifier\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/management-create-db-instance-request-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

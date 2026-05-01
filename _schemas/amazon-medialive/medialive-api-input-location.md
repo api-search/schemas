@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ (eg. a http:// URI) depending on the output type. For example, a RTMP destination should have a uri simliar to: \\\"rtmp://fmsserver/live\\\".\"\n        }\n      ]\n    },\n    \"Username\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"username\"\n          },\n          \"description\": \"Documentation update needed\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Uri\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-location-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

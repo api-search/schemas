@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"A list of output destinations for this channel.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ChannelClass\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-update-channel-class-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

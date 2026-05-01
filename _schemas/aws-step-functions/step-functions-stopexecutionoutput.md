@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"StopExecutionOutput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"stopDate\": {}\n  },\n  \"required\": [\n    \"stopDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/json-schema/step-functions-stopexecutionoutput-schema.json
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

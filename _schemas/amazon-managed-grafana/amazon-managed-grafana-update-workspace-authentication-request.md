@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Grafana</a>.\"\n        }\n      ]\n    },\n    \"samlConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SamlConfiguration\"\n        },\n        {\n          \"description\": \"If the workspace uses SAML, use this structure to map SAML assertion attributes to workspace user information and define which groups in the assertion attribute are to have the <code>Admin</code> and <code>Editor</code> roles in the workspace.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"authenticationProviders\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-update-workspace-authentication-request-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

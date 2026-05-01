@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ and <code>EMT_DEFAULT</code>. The <code>EMT_DEFAULT</code> setting enables the inclusion of the tag and is the default value.\"\n        }\n      ]\n    },\n    \"OriginManifestType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OriginManifestType\"\n        },\n        {\n          \"description\": \"The setting that controls whether MediaTailor handles manifests from the origin server as multi-period manifests or single-period manifests. If your origin server produces single-period manifests, set this to <code>SINGLE_PERIOD</code>. The default setting is <code>MULTI_PERIOD</code>. For multi-period manifests, omit this setting or set it to <code>MULTI_PERIOD</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-dash-configuration-for-put-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

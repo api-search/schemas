@@ -38,7 +38,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ timestamp when the image set properties were deleted.\"\n        }\n      ]\n    },\n    \"message\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Message\"\n        },\n        {\n          \"description\": \"The error message thrown if an image set action fails.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The image set properties.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-image-set-properties-schema.json
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

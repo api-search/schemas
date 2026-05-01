@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"When set to \\\"strict\\\", the transport stream demux strictly identifies audio streams by their language descriptor. If a PMT update occurs such that an audio stream matching the initially selected language is no longer present then mute will be encoded until the language returns. If \\\"loose\\\", then on a PMT update the demux will choose another audio stream in the program with the same stream type if it can't find one with the same language.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"LanguageCode\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-audio-language-selection-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

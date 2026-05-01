@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/InputLossActionForRtmpOut\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"inputLossAction\"\n          },\n          \"description\": \"Controls the behavior of this RTMP group if input becomes unavailable.\\n\\n- emitOutput: Emit a slate until input returns.\\n- pauseOutput: Stop transmitting data until input returns. This does not close the underlying RTMP connection.\"\n        }\n      ]\n    },\n    \"RestartDelay\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin0\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"restartDelay\"\n          },\n          \"description\": \"If a streaming output fails, number of seconds to wait until a restart is initiated. A value of 0 means never restart.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-rtmp-group-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

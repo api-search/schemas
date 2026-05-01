@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n    \"creationDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the gateway was created, in Unix epoch time.\"\n        }\n      ]\n    },\n    \"lastUpdateDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the gateway was last updated, in Unix epoch time.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"gatewayId\",\n    \"gatewayName\",\n    \"gatewayArn\",\n    \"gatewayCapabilitySummaries\",\n    \"creationDate\",\n    \"lastUpdateDate\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-gateway-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

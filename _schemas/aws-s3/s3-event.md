@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"s3:LifecycleExpiration:DeleteMarkerCreated\",\n    \"s3:ObjectTagging:*\",\n    \"s3:ObjectTagging:Put\",\n    \"s3:ObjectTagging:Delete\"\n  ],\n  \"description\": \"The bucket event for which to send notifications.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-event-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

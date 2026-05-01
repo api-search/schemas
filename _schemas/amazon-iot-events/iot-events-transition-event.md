@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Actions\"\n        },\n        {\n          \"description\": \"The actions to be performed.\"\n        }\n      ]\n    },\n    \"nextState\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StateName\"\n        },\n        {\n          \"description\": \"The next state to enter.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"eventName\",\n    \"condition\",\n    \"nextState\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-transition-event-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-create-in-app-template-request-schema.json\",\n  \"title\": \"CreateInAppTemplateRequest\",\n  \"description\": \"CreateInAppTemplateRequest schema from Amazon Pinpoint API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"InAppTemplateRequest\": {\n      \"$ref\": \"#/components/schemas/InAppTemplateRequest\"\n    }\n  },\n  \"required\": [\n    \"InAppTemplateRequest\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-create-in-app-template-request-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

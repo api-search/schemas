@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"maxConnecti
   ,\n  \"title\": \"VirtualNodeHttpConnectionPool\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-node-http-connection-pool-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

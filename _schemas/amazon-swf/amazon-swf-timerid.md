@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"minLength\": 1,\n  \"maxLength\": 
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-timerid-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: TimerId

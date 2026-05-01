@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ in a firewall. You can reference a rule group from more than one firewall policy, and you can use a firewall policy in more than one firewall. </p>\"\n        }\n      ]\n    },\n    \"RuleGroupResponse\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RuleGroupResponse\"\n        },\n        {\n          \"description\": \"The high-level properties of a rule group. This, along with the <a>RuleGroup</a>, define the rule group. You can retrieve all objects for a rule group by calling <a>DescribeRuleGroup</a>. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"UpdateToken\",\n    \"RuleGroupResponse\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-describe-rule-group-response-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

@@ -78,7 +78,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"transportStreamId\"\n          },\n          \"description\": \"The value of the transport stream ID field in the Program Map Table.\"\n        }\n      ]\n    },\n    \"VideoPid\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin32Max8182\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"videoPid\"\n          },\n          \"description\": \"Packet Identifier (PID) of the elementary video stream in the transport stream.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-m3u8-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The commercial sectors this vulnerability targets.\"\n        }\n      ]\n    },\n    \"ttps\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Ttps\"\n        },\n        {\n          \"description\": \"The <a href=\\\"https://attack.mitre.org/\\\">MITRE ATT&amp;CK</a> tactics, techniques, and procedures (TTPs) associated with vulnerability.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-atig-data-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

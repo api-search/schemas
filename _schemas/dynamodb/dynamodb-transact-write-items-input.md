@@ -24,7 +24,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"TransactWriteItemsInput\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"TransactItems\": {\n      \"type\": \"array\",\n      \"description\": \"An ordered array of up to 100 TransactWriteItem objects\"\n    },\n    \"ClientRequestToken\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the idempotency of the request\"\n    },\n    \"ReturnConsumedCapacity\": {\n      \"type\": \"string\"\n    },\n    \"ReturnItemCollectionMetrics\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-transact-write-items-input-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

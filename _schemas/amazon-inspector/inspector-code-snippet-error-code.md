@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-code-snippet-error-code-schema.json\",\n  \"title\": \"CodeSnippetErrorCode\",\n  \"description\": \"CodeSnippetErrorCode schema\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"INTERNAL_ERROR\",\n    \"ACCESS_DENIED\",\n    \"CODE_SNIPPET_NOT_FOUND\",\n    \"INVALID_INPUT\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-code-snippet-error-code-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

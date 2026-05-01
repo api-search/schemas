@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ The migration effort is <code>VeryLow</code> if both the current and recommended instance types are of the same CPU architecture.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-auto-scaling-group-recommendation-option-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

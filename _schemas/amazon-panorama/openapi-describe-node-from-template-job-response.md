@@ -51,7 +51,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/TemplateType\"\n        },\n        {\n          \"description\": \"The job's template type.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CreatedTime\",\n    \"JobId\",\n    \"LastUpdatedTime\",\n    \"NodeName\",\n    \"OutputPackageName\",\n    \"OutputPackageVersion\",\n    \"Status\",\n    \"StatusMessage\",\n    \"TemplateParameters\",\n    \"TemplateType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/json-schema/openapi-describe-node-from-template-job-response-schema.json
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

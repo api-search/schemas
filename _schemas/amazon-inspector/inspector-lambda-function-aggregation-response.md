@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n            },\n            {\n              \"description\": \"The total count of medium severity findings.\"\n            }\n          ]\n        }\n      },\n      \"description\": \"An object that contains the counts of aggregated finding per severity.\"\n    }\n  },\n  \"required\": [\n    \"resourceId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-lambda-function-aggregation-response-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

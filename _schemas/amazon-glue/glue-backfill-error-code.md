@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/json-schema/glue-backfill-error-code-schema.json
 tags:
 - Analytics
-- AWS
 - Data Catalog
 - Data Integration
 - Data Pipeline

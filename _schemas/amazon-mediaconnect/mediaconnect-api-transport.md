@@ -56,7 +56,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"streamId\"\n          },\n          \"description\": \"The stream ID that you want to use for this transport. This parameter applies only to Zixi and SRT caller-based streams.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Protocol\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-transport-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

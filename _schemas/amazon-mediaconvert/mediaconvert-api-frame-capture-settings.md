@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    },\n        {\n          \"xml\": {\n            \"name\": \"maxCaptures\"\n          },\n          \"description\": \"Maximum number of captures (encoded jpg output files).\"\n        }\n      ]\n    },\n    \"Quality\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin1Max100\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"quality\"\n          },\n          \"description\": \"JPEG Quality - a higher value equals higher quality.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-frame-capture-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

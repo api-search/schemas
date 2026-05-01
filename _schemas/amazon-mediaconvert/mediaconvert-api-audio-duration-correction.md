@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for tonal audio content such as music. * Frame: Adjust the duration of each audio frame by a variable amount to align audio frames with STTS timestamps. No corrections are made to already-aligned frames. Frame-level correction may affect the pitch of corrected frames, and is recommended for atonal audio content such as speech or percussion.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"DISABLED\",\n    \"AUTO\",\n    \"TRACK\",\n    \"FRAME\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-audio-duration-correction-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The length of a record.\"\n        }\n      ]\n    },\n    \"relativePath\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The relative location of the data set in the database or file system. \"\n        }\n      ]\n    },\n    \"storageType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The storage type of the data set: database or file system. For Micro Focus, database corresponds to datastore and file system corresponds to EFS/FSX. For Blu Age, there is no support of file system and database corresponds to Blusam. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"datasetName\",\n    \"datasetOrg\",\n    \"recordLength\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-data-set-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

@@ -43,7 +43,6 @@ source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  
   \    },\n    \"updateTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"defaultDomain\": {\n      \"type\": \"string\"\n    },\n    \"productionBranch\": {\n      \"$ref\": \"#/definitions/ProductionBranch\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/json-schema/amazon-amplify-app-schema.json
 tags:
-- AWS
 - Frontend
 - Full Stack
 - Hosting

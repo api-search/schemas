@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"CurrentMonthlyPrice\",\n    \"RecommendationOptionsConfigurationVolumeType\",\n    \"RecommendationOptionsConfigurationVolumeBaselineIOPS\",\n    \"RecommendationOptionsConfigurationVolumeBaselineThroughput\",\n    \"RecommendationOptionsConfigurationVolumeBurstIOPS\",\n    \"RecommendationOptionsConfigurationVolumeBurstThroughput\",\n    \"RecommendationOptionsConfigurationVolumeSize\",\n    \"RecommendationOptionsMonthlyPrice\",\n    \"RecommendationOptionsPerformanceRisk\",\n    \"LastRefreshTimestamp\",\n    \"CurrentPerformanceRisk\",\n    \"RecommendationOptionsSavingsOpportunityPercentage\",\n    \"RecommendationOptionsEstimatedMonthlySavingsCurrency\",\n    \"RecommendationOptionsEstimatedMonthlySavingsValue\",\n    \"RootVolume\",\n    \"Tags\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-exportable-volume-field-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"The total number of images labeled as normal.\"\n        }\n      ]\n    },\n    \"Anomaly\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Integer\"\n        },\n        {\n          \"description\": \"the total number of images labeled as an anomaly.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-dataset-image-stats-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

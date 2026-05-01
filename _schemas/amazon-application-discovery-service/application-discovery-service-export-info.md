@@ -42,6 +42,5 @@ tags:
 - Migration
 - Discovery
 - Infrastructure
-- AWS
 title: ExportInfo
 ---

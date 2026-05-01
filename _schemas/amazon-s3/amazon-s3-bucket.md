@@ -77,7 +77,6 @@ source_json: "{\n  \"$id\": \"https://schema.api.io/amazon-s3/amazon-s3-bucket-s
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/json-schema/amazon-s3-bucket-schema.json
 tags:
 - Archive
-- AWS
 - Backup
 - Cloud Storage
 - Data Storage

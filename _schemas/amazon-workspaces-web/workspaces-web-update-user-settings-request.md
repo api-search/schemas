@@ -39,7 +39,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"title\": \"UpdateUserSettingsReque
   ,\n  \"description\": \"UpdateUserSettingsRequest schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-update-user-settings-request-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

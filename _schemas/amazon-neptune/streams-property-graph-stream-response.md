@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   #/components/schemas/PropertyGraphStreamRecord\"\n      }\n    },\n    \"totalRecords\": {\n      \"type\": \"integer\",\n      \"description\": \"Total number of records in the response.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/streams-property-graph-stream-response-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

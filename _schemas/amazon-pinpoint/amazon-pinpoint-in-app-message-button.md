@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"description\": \"Default button content.\"\n        }\n      ]\n    },\n    \"Web\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/OverrideButtonConfiguration\"\n        },\n        {\n          \"description\": \"Default button content.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-in-app-message-button-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

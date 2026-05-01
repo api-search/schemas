@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    }\n  },\n  \"required\": [\n    \"Enabled\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-s3-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

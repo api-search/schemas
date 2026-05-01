@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-autodefined-reverse-flag-schema.json\",\n  \"title\": \"AutodefinedReverseFlag\",\n  \"description\": \"AutodefinedReverseFlag schema from openapi\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ENABLE\",\n    \"DISABLE\",\n    \"USE_LOCAL_RESOURCE_SETTING\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-autodefined-reverse-flag-schema.json
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

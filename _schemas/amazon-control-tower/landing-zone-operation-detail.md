@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"description\": \"The time the operation was initiated.\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The status of the operation.\",\n      \"enum\": [\n        \"SUCCEEDED\",\n        \"FAILED\",\n        \"IN_PROGRESS\"\n      ],\n      \"example\": \"SUCCEEDED\"\n    },\n    \"statusMessage\": {\n      \"type\": \"string\",\n      \"description\": \"If the operation result is FAILED, this string contains a message explaining why.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-schema/landing-zone-operation-detail-schema.json
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

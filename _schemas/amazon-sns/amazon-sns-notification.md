@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ Binary. String.Array is used for arrays of string values.\",\n          \"enum\": [\"String\", \"String.Array\", \"Number\", \"Binary\"]\n        },\n        \"Value\": {\n          \"type\": \"string\",\n          \"description\": \"The value of the attribute. For Binary type, this is a Base64-encoded string.\"\n        }\n      },\n      \"additionalProperties\": false\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/json-schema/amazon-sns-notification-schema.json
 tags:
-- AWS
 - Email
 - Messaging
 - Notifications

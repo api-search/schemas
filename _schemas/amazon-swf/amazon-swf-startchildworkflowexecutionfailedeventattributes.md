@@ -34,7 +34,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"workflowType\
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-startchildworkflowexecutionfailedeventattributes-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: StartChildWorkflowExecutionFailedEventAttributes

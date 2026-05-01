@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"string\"\n              },\n              \"EventType\": {\n                \"type\": \"string\",\n                \"enum\": [\n                  \"viewer-request\",\n                  \"viewer-response\",\n                  \"origin-request\",\n                  \"origin-response\"\n                ]\n              }\n            }\n          }\n        }\n      }\n    }\n  },\n  \"required\": [\n    \"ViewerProtocolPolicy\",\n    \"TargetOriginId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/json-schema/cloudfront-cache-behavior-schema.json
 tags:
-- AWS
 - CloudFront
 - CDN
 - Content Delivery

@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"Configures the maintenance window you want for the runtime environment. If you do not provide a value, a random system-generated value will be assigned.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-update-environment-request-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

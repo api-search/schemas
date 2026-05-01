@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the configuration. The possible states are ACTIVE, DELETING, and DELETE_FAILED. </p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-create-configuration-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

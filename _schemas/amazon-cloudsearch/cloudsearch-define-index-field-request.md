@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          ]\n        }\n      }\n    }\n  },\n  \"required\": [\n    \"IndexField\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/json-schema/cloudsearch-define-index-field-request-schema.json
 tags:
-- AWS
 - CloudSearch
 - Search
 - Full-Text Search

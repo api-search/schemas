@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \         },\n          \"description\": \"Unique program number.\"\n        }\n      ]\n    },\n    \"ServiceDescriptor\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MultiplexProgramServiceDescriptor\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"serviceDescriptor\"\n          },\n          \"description\": \"Transport stream service descriptor configuration for the Multiplex program.\"\n        }\n      ]\n    },\n    \"VideoSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MultiplexVideoSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"videoSettings\"\n          },\n          \"description\": \"Program video settings configuration.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ProgramNumber\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-multiplex-program-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"integer\",\n      \"description\": \"Maximum number of faces to index.\"\n    },\n    \"QualityFilter\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"NONE\",\n        \"AUTO\",\n        \"LOW\",\n        \"MEDIUM\",\n        \"HIGH\"\n      ]\n    }\n  },\n  \"required\": [\n    \"CollectionId\",\n    \"Image\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-index-faces-request-schema.json
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

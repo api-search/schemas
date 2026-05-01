@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ date and time of the pricing plan.\"\n        }\n      ]\n    },\n    \"pricingMode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PricingMode\"\n        },\n        {\n          \"description\": \"The pricing mode.\"\n        }\n      ]\n    },\n    \"updateDateTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The set date and time for updating a pricing plan.\"\n        }\n      ]\n    },\n    \"updateReason\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UpdateReason\"\n        },\n        {\n          \"description\": \"The update reason for changing a pricing plan.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"effectiveDateTime\",\n    \"pricingMode\",\n    \"updateDateTime\",\n    \"updateReason\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-pricing-plan-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

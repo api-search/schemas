@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"userSettings\"\n  ],\n  \"properties\": {\n    \"userSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UserSettings\"\n        },\n        {\n          \"description\": \"The user settings.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"UpdateUserSettingsResponse\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-update-user-settings-response-schema.json\",\n  \"description\": \"UpdateUserSettingsResponse schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-update-user-settings-response-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

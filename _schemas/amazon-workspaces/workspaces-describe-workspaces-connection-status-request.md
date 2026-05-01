@@ -19,7 +19,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"title\": \"DescribeWorkspacesConne
   : \"DescribeWorkspacesConnectionStatusRequest schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-describe-workspaces-connection-status-request-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   array\",\n      \"description\": \"Load balancer configurations\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/LoadBalancer\"\n      }\n    },\n    \"createdAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Service creation time\"\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"description\": \"Tags\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/json-schema/amazon-fargate-service-schema.json
 tags:
-- AWS
 - Compute
 - Containers
 - ECS

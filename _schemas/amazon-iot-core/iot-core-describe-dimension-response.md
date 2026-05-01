@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"description\": \"The type of the dimension.\"\n        }\n      ]\n    },\n    \"stringValues\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DimensionStringValues\"\n        },\n        {\n          \"description\": \"The value or list of values used to scope the dimension. For example, for topic filters, this is the pattern used to match the MQTT topic name.\"\n        }\n      ]\n    },\n    \"creationDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the dimension was created.\"\n        }\n      ]\n    },\n    \"lastModifiedDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the dimension was last modified.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/json-schema/iot-core-describe-dimension-response-schema.json
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

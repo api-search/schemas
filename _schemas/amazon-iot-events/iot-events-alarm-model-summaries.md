@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/AlarmModelName\"\n          },\n          {\n            \"description\": \"The name of the alarm model.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains a summary of an alarm model.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-alarm-model-summaries-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

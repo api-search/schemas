@@ -31,7 +31,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"body\": {\n
   \      ]\n    },\n    \"subject\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CertificatePrincipal\"\n        },\n        {\n          \"description\": \"The entity the certificate belongs to.\"\n        }\n      ]\n    },\n    \"thumbprint\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CertificateThumbprint\"\n        },\n        {\n          \"description\": \"A hexadecimal identifier for the certificate.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The certificate.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Certificate\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-certificate-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-certificate-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

@@ -17,7 +17,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \"\n          },\n          \"example\": [\n            \"CLOUD\"\n          ]\n        }\n      },\n      \"description\": \"Configuration info of all the connectors that the user requested.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-describe-connector-response-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

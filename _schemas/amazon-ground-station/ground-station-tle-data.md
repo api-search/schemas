@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The valid time range for the TLE. Gaps or overlap are not permitted.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"tleLine1\",\n    \"tleLine2\",\n    \"validTimeRange\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-tle-data-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

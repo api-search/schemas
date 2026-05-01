@@ -67,7 +67,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"$ref\": \"#/components/schemas/Accelerators\"\n        },\n        {\n          \"description\": \" The computational accelerator specified to run the workflow. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-get-workflow-response-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

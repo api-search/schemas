@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"The maximum number of results to return.\",\n      \"example\": 50\n    },\n    \"NextToken\": {\n      \"type\": \"string\"\n    },\n    \"Sort\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"FieldName\": {\n          \"type\": \"string\"\n        },\n        \"Order\": {\n          \"type\": \"string\",\n          \"enum\": [\n            \"ASCENDING\",\n            \"DESCENDING\"\n          ]\n        }\n      }\n    }\n  },\n  \"required\": [\n    \"InstanceId\",\n    \"TimeRange\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/search-contacts-request-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

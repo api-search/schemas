@@ -51,7 +51,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  {\n          \"$ref\": \"#/components/schemas/DirectConnectGatewayId\"\n        },\n        {\n          \"description\": \"The ID of the Direct Connect gateway.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagList\"\n        },\n        {\n          \"description\": \"The tags associated with the private virtual interface.\"\n        }\n      ]\n    },\n    \"enableSiteLink\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EnableSiteLink\"\n        },\n        {\n          \"description\": \"Indicates whether to enable or disable SiteLink.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"virtualInterfaceName\",\n    \"vlan\",\n    \"asn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/json-schema/amazon-direct-connect-new-private-virtual-interface-schema.json
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

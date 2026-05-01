@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-batch-put-property-values-request-schema.json\",\n  \"title\": \"BatchPutPropertyValuesRequest\",\n  \"description\": \"BatchPutPropertyValuesRequest schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"entries\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Entries\"\n        },\n        {\n          \"description\": \"An object that maps strings to the property value entries to set. Each string in the mapping must be unique to this object.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"entries\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/json-schema/iot-twinmaker-batch-put-property-values-request-schema.json
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

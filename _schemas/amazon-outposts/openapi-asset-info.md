@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"ComputeAttributes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ComputeAttributes\"\n        },\n        {\n          \"description\": \" Information about compute hardware assets. \"\n        }\n      ]\n    },\n    \"AssetLocation\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AssetLocation\"\n        },\n        {\n          \"description\": \" The position of an asset in a rack. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-asset-info-schema.json
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

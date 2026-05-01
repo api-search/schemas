@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"enum\": [\n        \"ACTIVE\",\n        \"INACTIVE\"\n      ],\n      \"description\": \"Status of the configuration.\"\n    },\n    \"version\": {\n      \"type\": \"string\",\n      \"description\": \"Version string.\"\n    },\n    \"hardwarePlatform\": {\n      \"type\": \"string\",\n      \"description\": \"Target microcontroller platform (e.g., ESP32, STM32).\"\n    },\n    \"creationDate\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"lastUpdatedDate\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"hardwarePlatform\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/json-schema/amazon-freertos-software-configuration-schema.json
 tags:
-- AWS
 - Embedded Systems
 - IoT
 - Microcontrollers

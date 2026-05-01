@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"description\": \"The list of lenses
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/json-schema/well-architected-tool-workload-lenses-schema.json
 tags:
 - Architecture
-- AWS
 - Best Practices
 - Cloud Governance
 - Well-Architected

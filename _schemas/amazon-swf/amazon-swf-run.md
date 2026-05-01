@@ -16,7 +16,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"runId\": {\
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/json-schema/amazon-swf-run-schema.json
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 title: Run

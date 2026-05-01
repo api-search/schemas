@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"networkSettin
   \n        },\n        {\n          \"description\": \"The subnets in which network interfaces are created to connect streaming instances to your VPC. At least two of these subnets must be in different availability zones.\"\n        }\n      ]\n    },\n    \"vpcId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VpcId\"\n        },\n        {\n          \"description\": \"The VPC that streaming instances will connect to.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"A network settings resource that can be associated with a web portal. Once associated with a web portal, network settings define how streaming instances will connect with your specified VPC. \",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"NetworkSettings\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-network-settings-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-network-settings-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"ValidationMode\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ValidationMode\"\n        },\n        {\n          \"description\": \"Mode of data quality validation. Default mode is \\u201cCHECK_ALL\\u201d which verifies all rules defined in the selected ruleset.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"RulesetArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-validation-configuration-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

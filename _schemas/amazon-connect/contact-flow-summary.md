@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n        \"CUSTOMER_QUEUE\",\n        \"CUSTOMER_HOLD\",\n        \"CUSTOMER_WHISPER\",\n        \"AGENT_HOLD\",\n        \"AGENT_WHISPER\",\n        \"OUTBOUND_WHISPER\",\n        \"AGENT_TRANSFER\",\n        \"QUEUE_TRANSFER\"\n      ]\n    },\n    \"ContactFlowState\": {\n      \"type\": \"string\",\n      \"description\": \"The status of the contact flow.\",\n      \"enum\": [\n        \"ACTIVE\",\n        \"ARCHIVED\"\n      ],\n      \"example\": \"ACTIVE\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/contact-flow-summary-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

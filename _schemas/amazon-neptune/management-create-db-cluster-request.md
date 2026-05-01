@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n    },\n    \"DeletionProtection\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to enable deletion protection.\"\n    },\n    \"IAMDatabaseAuthenticationEnabled\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether to enable IAM database authentication.\"\n    }\n  },\n  \"required\": [\n    \"DBClusterIdentifier\",\n    \"Engine\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/management-create-db-cluster-request-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

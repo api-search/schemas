@@ -28,7 +28,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"backendDefa
   \n        },\n        {\n          \"description\": \"The inbound and outbound access logging information for the virtual node.\"\n        }\n      ]\n    },\n    \"serviceDiscovery\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ServiceDiscovery\"\n        },\n        {\n          \"description\": \"The service discovery information for the virtual node. If your virtual node does not expect ingress traffic, you can omit this parameter. If you specify a <code>listener</code>, then you must specify service discovery information.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"An object that represents the specification of a virtual node.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-node-spec-schema.json\",\n  \"title\": \"VirtualNodeSpec\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-node-spec-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

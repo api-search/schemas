@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n    \"MapStateStarted\",\n    \"MapStateSucceeded\",\n    \"ParallelStateAborted\",\n    \"ParallelStateEntered\",\n    \"ParallelStateExited\",\n    \"ParallelStateFailed\",\n    \"ParallelStateStarted\",\n    \"ParallelStateSucceeded\",\n    \"PassStateEntered\",\n    \"PassStateExited\",\n    \"SucceedStateEntered\",\n    \"SucceedStateExited\",\n    \"TaskFailed\",\n    \"TaskScheduled\",\n    \"TaskStarted\",\n    \"TaskStartFailed\",\n    \"TaskStateAborted\",\n    \"TaskStateEntered\",\n    \"TaskStateExited\",\n    \"TaskSubmitFailed\",\n    \"TaskSubmitted\",\n    \"TaskSucceeded\",\n    \"TaskTimedOut\",\n    \"WaitStateAborted\",\n    \"WaitStateEntered\",\n    \"WaitStateExited\",\n    \"MapRunAborted\",\n    \"MapRunFailed\",\n    \"MapRunStarted\",\n    \"MapRunSucceeded\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/json-schema/step-functions-historyeventtype-schema.json
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

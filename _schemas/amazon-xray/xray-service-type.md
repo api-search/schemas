@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"maxLength\": 64,\n  \"$schema\": \
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/json-schema/xray-service-type-schema.json
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

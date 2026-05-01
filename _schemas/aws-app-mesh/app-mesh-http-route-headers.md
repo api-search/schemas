@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"array\",\n  \"items\": {\n    \"type\": \"object\
   name\"\n    ],\n    \"description\": \"An object that represents the HTTP header in the request.\"\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-http-route-headers-schema.json\",\n  \"title\": \"HttpRouteHeaders\",\n  \"description\": \"HttpRouteHeaders schema from AWS App Mesh\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-http-route-headers-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

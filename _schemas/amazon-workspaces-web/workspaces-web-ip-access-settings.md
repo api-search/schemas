@@ -31,7 +31,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"ipAccessSetti
   \n        },\n        {\n          \"description\": \" The display name of the IP access settings.\"\n        }\n      ]\n    },\n    \"ipAccessSettingsArn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ARN\"\n        },\n        {\n          \"description\": \"The ARN of the IP access settings resource.\"\n        }\n      ]\n    },\n    \"ipRules\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IpRuleList\"\n        },\n        {\n          \"description\": \"The IP rules of the IP access settings.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The IP access settings resource that can be associated with a web portal. \",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"IpAccessSettings\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-ip-access-settings-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-ip-access-settings-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

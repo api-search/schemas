@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-vp9-rate-control-mode-schema.json\",\n  \"title\": \"Vp9RateControlMode\",\n  \"description\": \"With the VP9 codec, you can use only the variable bitrate (VBR) rate control mode.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"VBR\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-vp9-rate-control-mode-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

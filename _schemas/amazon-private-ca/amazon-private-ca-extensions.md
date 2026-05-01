@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        }\n      ]\n    },\n    \"CustomExtensions\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CustomExtensionList\"\n        },\n        {\n          \"description\": \"<p/> <p>Contains a sequence of one or more X.509 extensions, each of which consists of an object identifier (OID), a base64-encoded value, and the critical flag. For more information, see the <a href=\\\"https://oidref.com/2.5.29\\\">Global OID reference database.</a> </p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-extensions-schema.json
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

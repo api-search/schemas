@@ -57,7 +57,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"Additional metadata that MediaConvert sends to Kantar. Maximum length is 50 characters.\"\n        }\n      ]\n    },\n    \"Metadata8\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMin1Max50\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"metadata8\"\n          },\n          \"description\": \"Additional metadata that MediaConvert sends to Kantar. Maximum length is 50 characters.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-kantar-watermark-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

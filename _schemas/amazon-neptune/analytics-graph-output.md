@@ -58,7 +58,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"statusReason\": {\n      \"type\": \"string\"\n    },\n    \"createTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"provisionedMemory\": {\n      \"type\": \"integer\"\n    },\n    \"endpoint\": {\n      \"type\": \"string\",\n      \"description\": \"The DNS endpoint for the graph.\"\n    },\n    \"publicConnectivity\": {\n      \"type\": \"boolean\"\n    },\n    \"vectorSearchConfiguration\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"dimension\": {\n          \"type\": \"integer\"\n        }\n      }\n    },\n    \"replicaCount\": {\n      \"type\": \"integer\"\n    },\n    \"kmsKeyIdentifier\": {\n      \"type\": \"string\"\n    },\n    \"sourceSnapshotId\": {\n      \"type\": \"string\"\n    },\n    \"deletionProtection\": {\n      \"type\": \"boolean\"\n    },\n    \"buildNumber\": {\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/analytics-graph-output-schema.json
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

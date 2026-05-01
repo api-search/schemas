@@ -56,7 +56,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The date and time after which Amazon Web Services Payment Cryptography will stop using the key material for cryptographic operations.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"CreateTimestamp\",\n    \"Enabled\",\n    \"Exportable\",\n    \"KeyArn\",\n    \"KeyAttributes\",\n    \"KeyCheckValue\",\n    \"KeyCheckValueAlgorithm\",\n    \"KeyOrigin\",\n    \"KeyState\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-key-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

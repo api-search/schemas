@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ channels in this selector; useful if metadata is known to be incorrect.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ProgramSelection\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-audio-dolby-e-decode-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

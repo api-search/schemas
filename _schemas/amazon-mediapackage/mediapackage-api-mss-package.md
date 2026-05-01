@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"segmentDurationSeconds\"\n          },\n          \"description\": \"The duration (in seconds) of each segment.\"\n        }\n      ]\n    },\n    \"StreamSelection\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StreamSelection\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"streamSelection\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-mss-package-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

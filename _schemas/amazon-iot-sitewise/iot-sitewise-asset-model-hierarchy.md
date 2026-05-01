@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">CreateAssetModel</a> or <a href=\\\"https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/API_UpdateAssetModel.html\\\">UpdateAssetModel</a> API operation.\"\n        }\n      ]\n    },\n    \"childAssetModelId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ID\"\n        },\n        {\n          \"description\": \"The ID of the asset model. All assets in this hierarchy must be instances of the <code>childAssetModelId</code> asset model.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"childAssetModelId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-model-hierarchy-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

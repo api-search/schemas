@@ -83,7 +83,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ are applied automatically\"\n    },\n    \"storageType\": {\n      \"type\": \"string\",\n      \"description\": \"The storage type associated with the DB instance\"\n    },\n    \"storageEncrypted\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the DB instance is encrypted\"\n    },\n    \"publiclyAccessible\": {\n      \"type\": \"boolean\",\n      \"description\": \"Whether the DB instance is publicly accessible\"\n    },\n    \"dBInstanceArn\": {\n      \"type\": \"string\",\n      \"description\": \"The Amazon Resource Name (ARN) for the DB instance\"\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"description\": \"Tags assigned to the DB instance\",\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      }\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-db-instance-schema.json
 tags:
-- AWS
 - Cloud Databases
 - Database Service
 - DBaaS

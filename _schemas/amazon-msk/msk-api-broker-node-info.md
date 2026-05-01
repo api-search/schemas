@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     <p>Information about the version of software currently deployed on the Apache Kafka brokers in the cluster.</p>\"\n        }\n      ]\n    },\n    \"Endpoints\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOf__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"endpoints\"\n          },\n          \"description\": \"\\n            <p>Endpoints for accessing the broker.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-broker-node-info-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

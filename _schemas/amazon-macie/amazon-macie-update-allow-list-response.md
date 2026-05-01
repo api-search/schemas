@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-update-allow-list-response-schema.json\",\n  \"title\": \"UpdateAllowListResponse\",\n  \"description\": \"UpdateAllowListResponse schema from Amazon Macie API\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"arn\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMin71Max89PatternArnAwsAwsCnAwsUsGovMacie2AZ19920D12AllowListAZ0922\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of the allow list.\"\n        }\n      ]\n    },\n    \"id\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMin22Max22PatternAZ0922\"\n        },\n        {\n          \"description\": \"The unique identifier for the allow list.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-update-allow-list-response-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

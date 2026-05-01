@@ -45,7 +45,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        },\n        \"supportedWriteOperations\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"string\",\n            \"example\": \"\"\n          },\n          \"example\": [\n            \"INSERT\"\n          ]\n        }\n      },\n      \"description\": \"The properties applied to a field when the connector is being used as a destination.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-connector-entity-field-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

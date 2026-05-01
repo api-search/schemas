@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"$ref\": \"#/components/schemas/VTLDeviceVendor\"\n        },\n        {\n          \"description\": \"Specifies the vendor of the device that the VTL device object emulates.\"\n        }\n      ]\n    },\n    \"VTLDeviceProductIdentifier\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VTLDeviceProductIdentifier\"\n        },\n        {\n          \"description\": \"Specifies the model number of device that the VTL device emulates.\"\n        }\n      ]\n    },\n    \"DeviceiSCSIAttributes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DeviceiSCSIAttributes\"\n        },\n        {\n          \"description\": \"A list of iSCSI information about a VTL device.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-vtl-device-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

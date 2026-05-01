@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the AMI on the Snow device.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"AmiId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-ec2-ami-resource-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-update-run-group-request-max-duration-integer-schema.json\",\n  \"title\": \"UpdateRunGroupRequestMaxDurationInteger\",\n  \"type\": \"integer\",\n  \"minimum\": 1,\n  \"maximum\": 100000\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-update-run-group-request-max-duration-integer-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

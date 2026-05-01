@@ -47,7 +47,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"OUTBOUND\",\n        \"TRANSFER\",\n        \"QUEUE_TRANSFER\",\n        \"CALLBACK\",\n        \"API\"\n      ],\n      \"example\": \"INBOUND\"\n    },\n    \"InitiationTimestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The date and time this contact was initiated.\"\n    },\n    \"DisconnectTimestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The timestamp when the customer endpoint disconnected from Amazon Connect.\"\n    },\n    \"LastUpdateTimestamp\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The timestamp when contact was last updated.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/contact-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

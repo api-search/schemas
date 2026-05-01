@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ {\n            \"$ref\": \"#/components/schemas/Timestamp\"\n          },\n          {\n            \"description\": \"The date the access policy was last updated, in Unix epoch time.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains an access policy that defines an identity's access to an IoT SiteWise Monitor resource.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-access-policy-summaries-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

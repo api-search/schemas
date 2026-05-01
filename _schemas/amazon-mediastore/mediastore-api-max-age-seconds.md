@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-max-age-seconds-schema.json\",\n  \"title\": \"MaxAgeSeconds\",\n  \"description\": \"MaxAgeSeconds schema from Amazon MediaStore API\",\n  \"type\": \"integer\",\n  \"minimum\": 0,\n  \"maximum\": 2147483647\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/json-schema/mediastore-api-max-age-seconds-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

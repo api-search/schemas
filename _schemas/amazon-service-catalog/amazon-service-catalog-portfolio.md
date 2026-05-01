@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ of the portfolio.\",\n      \"example\": \"Approved IT services for the engineering team\"\n    },\n    \"CreatedTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The UTC time stamp of the creation time.\"\n    },\n    \"ProviderName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the portfolio provider.\",\n      \"example\": \"IT Team\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/json-schema/amazon-service-catalog-portfolio-schema.json
 tags:
-- AWS
 - Cloud Governance
 - Compliance
 - IT Governance

@@ -20,7 +20,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       \"name\",\n          \"type\",\n          \"creationDate\"\n        ],\n        \"description\": \"Contains details about the state machine.\"\n      }\n    },\n    \"nextToken\": {}\n  },\n  \"required\": [\n    \"stateMachines\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/json-schema/step-functions-liststatemachinesoutput-schema.json
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

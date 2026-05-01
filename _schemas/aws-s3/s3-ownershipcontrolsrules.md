@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ full control over every object in the bucket. The bucket only accepts PUT requests that don't specify an ACL or bucket owner full control ACLs, such as the <code>bucket-owner-full-control</code> canned ACL or an equivalent form of this ACL expressed in the XML format.</p>\"\n      }\n    },\n    \"required\": [\n      \"ObjectOwnership\"\n    ],\n    \"description\": \"The container element for an ownership control rule.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-ownershipcontrolsrules-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

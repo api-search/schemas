@@ -70,7 +70,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      \"name\": \"videoPid\"\n          },\n          \"description\": \"Packet Identifier (PID) of the elementary video stream in the transport stream. Can be entered as a decimal or hexadecimal value.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-m3u8-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

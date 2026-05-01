@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          },\n          \"description\": \"Settings regarding the underlying stream. These settings are different for audio-only outputs.\"\n        }\n      ]\n    },\n    \"NameModifier\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringMin1\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"nameModifier\"\n          },\n          \"description\": \"String concatenated to the end of the destination filename. Accepts \\\\\\\"Format Identifiers\\\\\\\":#formatIdentifierParameters.\"\n        }\n      ]\n    },\n    \"SegmentModifier\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"segmentModifier\"\n          },\n          \"description\": \"String concatenated to end of segment filenames.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"HlsSettings\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-hls-output-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

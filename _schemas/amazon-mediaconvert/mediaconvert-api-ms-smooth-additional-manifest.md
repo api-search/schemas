@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ For example, say that the default main manifest for your Microsoft Smooth group is film-name.ismv. If you enter \\\"-no-premium\\\" for this setting, then the file name the service generates for this top-level manifest is film-name-no-premium.ismv.\"\n        }\n      ]\n    },\n    \"SelectedOutputs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__listOf__stringMin1\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"selectedOutputs\"\n          },\n          \"description\": \"Specify the outputs that you want this additional top-level manifest to reference.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-ms-smooth-additional-manifest-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

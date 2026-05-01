@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"string\",\n          \"description\": \"The RFC 5646 language code for the dominant language.\"\n        },\n        \"Score\": {\n          \"type\": \"number\",\n          \"description\": \"The confidence score for the detected language.\",\n          \"minimum\": 0,\n          \"maximum\": 1\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/amazon-comprehend-entity-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

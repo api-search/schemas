@@ -35,7 +35,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"arn\": {\n 
   \">Working with shared meshes</a>.\"\n        }\n      ]\n    },\n    \"version\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Long\"\n        },\n        {\n          \"description\": \"The version of the resource. Resources are created at version 1, and this version is incremented each time that they're updated.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"arn\",\n    \"createdAt\",\n    \"lastUpdatedAt\",\n    \"meshName\",\n    \"meshOwner\",\n    \"resourceOwner\",\n    \"version\"\n  ],\n  \"description\": \"An object that represents a service mesh returned by a list operation.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-mesh-ref-schema.json\",\n  \"title\": \"MeshRef\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-mesh-ref-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ ARN for AWS CodeStar to use for the toolchain template during stack provisioning.\"\n        }\n      ]\n    },\n    \"stackParameters\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TemplateParameterMap\"\n        },\n        {\n          \"description\": \"The list of parameter overrides to be passed into the toolchain template during stack provisioning, if any.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"source\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-schema/codestar-toolchain-schema.json
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ the carrier is Amazon Logistics. For all other regions, UPS is the carrier.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-shipment-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

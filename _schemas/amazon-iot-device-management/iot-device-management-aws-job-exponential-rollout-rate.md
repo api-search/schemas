@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The rate of increase for a job rollout. The number of things notified is multiplied by this factor.\"\n        }\n      ]\n    },\n    \"rateIncreaseCriteria\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AwsJobRateIncreaseCriteria\"\n        },\n        {\n          \"description\": \"<p>The criteria to initiate the increase in rate of rollout for a job.</p> <p>Amazon Web Services IoT Core supports up to one digit after the decimal (for example, 1.5, but not 1.55).</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"baseRatePerMinute\",\n    \"incrementFactor\",\n    \"rateIncreaseCriteria\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-aws-job-exponential-rollout-rate-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

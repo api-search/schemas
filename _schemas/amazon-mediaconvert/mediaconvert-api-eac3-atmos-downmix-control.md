@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ settings, MediaConvert uses default values for those settings.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"SPECIFIED\",\n    \"INITIALIZE_FROM_SOURCE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-eac3-atmos-downmix-control-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

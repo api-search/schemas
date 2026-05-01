@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for the core device. For more information, see <a href=\\\"https://docs.aws.amazon.com/greengrass/v2/developerguide/configure-greengrass-core-v2.html#configure-component-user\\\">Configure the user and group that run components</a> in the <i>IoT Greengrass V2 Developer Guide</i>.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains information about a component to deploy.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-component-deployment-specifications-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

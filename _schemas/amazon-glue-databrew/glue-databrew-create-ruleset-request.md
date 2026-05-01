@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/Arn\"\n        },\n        {\n          \"description\": \"The Amazon Resource Name (ARN) of a resource (dataset) that the ruleset is associated with.\"\n        }\n      ]\n    },\n    \"Rules\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RuleList\"\n        },\n        {\n          \"description\": \"A list of rules that are defined with the ruleset. A rule includes one or more checks to be validated on a DataBrew dataset.\"\n        }\n      ]\n    },\n    \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"Metadata tags to apply to the ruleset.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"TargetArn\",\n    \"Rules\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-create-ruleset-request-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   {\n          \"description\": \" The epoch timestamp in seconds at which this suppression expires. \"\n        }\n      ]\n    },\n    \"suppressIndefinitely\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SuppressIndefinitely\"\n        },\n        {\n          \"description\": \" Indicates whether a suppression should exist indefinitely or not. \"\n        }\n      ]\n    },\n    \"description\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AuditDescription\"\n        },\n        {\n          \"description\": \" The description of the audit suppression. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-describe-audit-suppression-response-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

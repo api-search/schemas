@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"Description\": {\n      \"type\": \"string\",\n      \"description\": \"User defined description associated with the resource.\"\n    },\n    \"DriftInformation\": {\n      \"$ref\": \"#/components/schemas/StackResourceDriftInformation\"\n    }\n  },\n  \"required\": [\n    \"LogicalResourceId\",\n    \"ResourceType\",\n    \"ResourceStatus\",\n    \"Timestamp\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/json-schema/cloudformation-stack-resource-schema.json
 tags:
-- AWS
 - CloudFormation
 - Infrastructure as Code
 - DevOps

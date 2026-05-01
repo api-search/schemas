@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"$ref\": \"#/components/schemas/AssetStatus\"\n        },\n        {\n          \"description\": \"The current status of the asset.\"\n        }\n      ]\n    },\n    \"hierarchies\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AssetHierarchies\"\n        },\n        {\n          \"description\": \"A list of asset hierarchies that each contain a <code>hierarchyId</code>. A hierarchy specifies allowed parent/child asset relationships.\"\n        }\n      ]\n    },\n    \"description\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Description\"\n        },\n        {\n          \"description\": \"A description for the asset.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"id\",\n    \"arn\",\n    \"name\",\n    \"assetModelId\",\n    \"creationDate\",\n    \"lastUpdateDate\",\n    \"status\",\n    \"hierarchies\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-summary-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

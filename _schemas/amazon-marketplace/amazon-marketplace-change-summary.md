@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"This object contains details specific to the change type of the requested change.\"\n        }\n      ]\n    },\n    \"ErrorDetailList\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ErrorDetailList\"\n        },\n        {\n          \"description\": \"An array of <code>ErrorDetail</code> objects associated with the change.\"\n        }\n      ]\n    },\n    \"ChangeName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ChangeName\"\n        },\n        {\n          \"description\": \"Optional name for the change.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/json-schema/amazon-marketplace-change-summary-schema.json
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

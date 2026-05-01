@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   }\n    },\n    \"tags\": {\n      \"type\": \"object\",\n      \"description\": \"Tags to apply to the EnabledBaseline resource.\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    },\n    \"targetIdentifier\": {\n      \"type\": \"string\",\n      \"description\": \"The ARN of the target organizational unit.\",\n      \"example\": \"arn:aws:organizations::123456789012:ou/o-exampleorgid11/ou-exampleouid111\"\n    }\n  },\n  \"required\": [\n    \"baselineIdentifier\",\n    \"baselineVersion\",\n    \"targetIdentifier\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-schema/enable-baseline-request-schema.json
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

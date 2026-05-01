@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ in the response. To retrieve the next batch of results, reissue the search request and include the returned token. When all results have been returned, the response does not contain a pagination token value.\"\n        }\n      ]\n    },\n    \"maxResults\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/maxResultsLowerRange\"\n        },\n        {\n          \"description\": \"The maximum number of items to return in one batch, between 10 and 100, inclusive.\"\n        }\n      ]\n    },\n    \"locale\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/locale\"\n        },\n        {\n          \"description\": \"The locale (language) to return information in. English (en) is the default and the only supported value at this time.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-describe-events-for-organization-request-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

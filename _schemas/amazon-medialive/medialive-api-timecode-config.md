@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ will be 00:00:00:00.\"\n        }\n      ]\n    },\n    \"SyncThreshold\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin1Max1000000\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"syncThreshold\"\n          },\n          \"description\": \"Threshold in frames beyond which output timecode is resynchronized to the input timecode. Discrepancies below this threshold are permitted to avoid unnecessary discontinuities in the output timecode. No timecode sync when this is not specified.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Source\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-timecode-config-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

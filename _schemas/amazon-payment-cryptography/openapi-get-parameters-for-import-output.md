@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ certificate chain that signed the wrapping key certificate. This is the root certificate authority (CA) within your service account.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ImportToken\",\n    \"ParametersValidUntilTimestamp\",\n    \"WrappingKeyAlgorithm\",\n    \"WrappingKeyCertificate\",\n    \"WrappingKeyCertificateChain\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/json-schema/openapi-get-parameters-for-import-output-schema.json
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  {\n          \"description\": \"The quality of the asset property value.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"value\",\n    \"timestamp\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-property-value-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The pagination token for next page of data.\"\n    }\n  },\n  \"required\": [\n    \"flowName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/json-schema/appflow-describe-flow-execution-records-request-schema.json
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

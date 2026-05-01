@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"MessageGroupId\": {\n      \"type\": \"string\",\n      \"description\": \"Message group ID for FIFO topics\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/json-schema/amazon-sns-publish-batch-request-entry-schema.json
 tags:
-- AWS
 - Email
 - Messaging
 - Notifications

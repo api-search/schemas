@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-relative-position-schema.json\",\n  \"title\": \"RelativePosition\",\n  \"description\": \"RelativePosition schema from Amazon MediaTailor API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"BEFORE_PROGRAM\",\n    \"AFTER_PROGRAM\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-relative-position-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

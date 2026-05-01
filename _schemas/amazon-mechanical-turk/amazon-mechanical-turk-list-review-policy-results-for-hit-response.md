@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        }\n      ]\n    },\n    \"HITReviewPolicy\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ReviewPolicy\"\n        },\n        {\n          \"description\": \"The name of the HIT-level Review Policy. This contains only the PolicyName element.\"\n        }\n      ]\n    },\n    \"AssignmentReviewReport\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ReviewReport\"\n        },\n        {\n          \"description\": \" Contains both ReviewResult and ReviewAction elements for an Assignment. \"\n        }\n      ]\n    },\n    \"HITReviewReport\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ReviewReport\"\n        },\n        {\n          \"description\": \"Contains both ReviewResult and ReviewAction elements for a particular HIT. \"\n        }\n      ]\n    },\n    \"NextToken\": {\n      \"$ref\": \"#/components/schemas/PaginationToken\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/json-schema/amazon-mechanical-turk-list-review-policy-results-for-hit-response-schema.json
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

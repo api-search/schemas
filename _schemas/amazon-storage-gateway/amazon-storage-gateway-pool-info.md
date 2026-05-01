@@ -32,7 +32,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ root Amazon Web Services account.\"\n        }\n      ]\n    },\n    \"RetentionLockTimeInDays\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/RetentionLockTimeInDays\"\n        },\n        {\n          \"description\": \"Tape retention lock time is set in days. Tape retention lock can be enabled for up to 100 years (36,500 days).\"\n        }\n      ]\n    },\n    \"PoolStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/PoolStatus\"\n        },\n        {\n          \"description\": \"Status of the custom tape pool. Pool can be <code>ACTIVE</code> or <code>DELETED</code>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-pool-info-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

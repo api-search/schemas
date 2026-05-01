@@ -42,7 +42,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"copyAllowed\"
   : [\n        {\n          \"$ref\": \"#/components/schemas/EnabledType\"\n        },\n        {\n          \"description\": \"Specifies whether the user can upload files from the local device to the streaming session.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-create-user-settings-request-schema.json\",\n  \"description\": \"CreateUserSettingsRequest schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-create-user-settings-request-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

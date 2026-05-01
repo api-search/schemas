@@ -62,7 +62,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n      \"items\": {\n        \"$ref\": \"#/components/schemas/Tag\"\n      },\n      \"description\": \"The list of tags attached to the secret.\"\n    },\n    \"SecretVersionsToStages\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"array\",\n        \"items\": {\n          \"type\": \"string\"\n        }\n      },\n      \"description\": \"A list of the versions of the secret that have staging labels attached.\"\n    },\n    \"OwningService\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the service that created this secret.\"\n    },\n    \"CreatedDate\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The date and time when the secret was created.\"\n    },\n    \"PrimaryRegion\": {\n      \"type\": \"string\",\n      \"description\": \"The Region the secret is in.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-schema/amazon-secrets-manager-secret-schema.json
 tags:
-- AWS
 - Configuration
 - Credentials
 - Rotation

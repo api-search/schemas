@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ identifier IDs, one for each custom data identifier that was specified in the request but doesn't correlate to an existing custom data identifier.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-batch-get-custom-data-identifiers-response-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

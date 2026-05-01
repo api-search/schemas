@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ name of the collaboration creator.\"\n    },\n    \"creatorMemberAbilities\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"The abilities granted to the collaboration creator.\"\n    },\n    \"queryLogStatus\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"ENABLED\",\n        \"DISABLED\"\n      ],\n      \"description\": \"An indicator as to whether query logging has been enabled or disabled.\"\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"members\",\n    \"creatorDisplayName\",\n    \"creatorMemberAbilities\",\n    \"queryLogStatus\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/json-schema/clean-rooms-create-collaboration-request-schema.json
 tags:
-- AWS
 - Clean Rooms
 - Data Collaboration
 - Privacy

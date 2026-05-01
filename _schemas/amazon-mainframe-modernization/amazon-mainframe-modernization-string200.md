@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-string200-schema.json\",\n  \"title\": \"String200\",\n  \"description\": \"String200 schema from AWS Mainframe Modernization API\",\n  \"type\": \"string\",\n  \"pattern\": \"^\\\\S{1,200}$\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-string200-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

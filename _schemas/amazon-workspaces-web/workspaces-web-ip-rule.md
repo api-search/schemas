@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"ipRange\"\n  ],\n  \"properties\": {\n    \"description\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Description\"\n        },\n        {\n          \"description\": \"The description of the IP rule.\"\n        }\n      ]\n    },\n    \"ipRange\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/IpRange\"\n        },\n        {\n          \"description\": \"The IP range of the IP rule.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The IP rules of the IP access settings.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"IpRule\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-ip-rule-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-ip-rule-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

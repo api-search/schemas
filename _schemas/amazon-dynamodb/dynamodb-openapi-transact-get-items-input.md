@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n                  \"$ref\": \"#/components/schemas/AttributeValue\"\n                }\n              },\n              \"ProjectionExpression\": {\n                \"type\": \"string\"\n              },\n              \"ExpressionAttributeNames\": {\n                \"type\": \"object\",\n                \"additionalProperties\": {\n                  \"type\": \"string\"\n                }\n              }\n            }\n          }\n        }\n      },\n      \"maxItems\": 100\n    }\n  },\n  \"required\": [\n    \"TransactItems\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-schema/dynamodb-openapi-transact-get-items-input-schema.json
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"example\": \"TimeBased\",\n      \"enum\": [\n        \"TimeBased\",\n        \"DistanceBased\",\n        \"AccuracyBased\"\n      ]\n    },\n    \"CreateTime\": {\n      \"type\": \"string\",\n      \"description\": \"The timestamp for when the tracker resource was created.\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/json-schema/amazon-location-service-tracker-schema.json
 tags:
-- AWS
 - Geocoding
 - Geofencing
 - Location

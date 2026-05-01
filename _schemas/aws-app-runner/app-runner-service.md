@@ -65,7 +65,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"ServiceName
   \  }\n    },\n    \"ObservabilityConfiguration\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"ObservabilityEnabled\": {\n          \"type\": \"boolean\"\n        },\n        \"ObservabilityConfigurationArn\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"EncryptionConfiguration\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"KmsKey\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-service-schema.json\",\n  \"title\": \"Service\",\n  \"description\": \"Service schema from AWS App Runner\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/json-schema/app-runner-service-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

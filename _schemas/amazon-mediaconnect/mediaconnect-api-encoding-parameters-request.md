@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ JPEG XS protocol, with a flow source that uses the CDI protocol. Valid values are floating point numbers in the range of 3.0 to 10.0, inclusive.\"\n        }\n      ]\n    },\n    \"EncoderProfile\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EncoderProfile\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"encoderProfile\"\n          },\n          \"description\": \"A setting on the encoder that drives compression settings. This property only applies to video media streams associated with outputs that use the ST 2110 JPEG XS protocol, if at least one source on the flow uses the CDI protocol.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"EncoderProfile\",\n    \"CompressionFactor\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-encoding-parameters-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

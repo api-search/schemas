@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   $ref\": \"#/components/schemas/Identifier\"\n        },\n        {\n          \"description\": \"The task identifier.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"status\",\n    \"taskId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-get-data-set-import-task-response-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

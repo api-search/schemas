@@ -35,7 +35,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"ResourceId\"\
   \          \"description\": \"The branding information to import for web access.\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-import-client-branding-request-schema.json\",\n  \"description\": \"ImportClientBrandingRequest schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-import-client-branding-request-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

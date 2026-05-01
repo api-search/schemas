@@ -57,7 +57,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ReadSetStatusMessage\"\n        },\n        {\n          \"description\": \" The status for a read set. It provides more detail as to why the read set has a status. \"\n        }\n      ]\n    },\n    \"creationType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CreationType\"\n        },\n        {\n          \"description\": \" The creation type of the read set. \"\n        }\n      ]\n    }\n  },\n  \"description\": \"A read set.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-read-set-list-item-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

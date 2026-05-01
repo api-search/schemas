@@ -27,7 +27,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://api-evangelist.github.io/amazon-data-lifecycle-manager/json-schema/create-lifecycle-policy-request-schema.json\",\n  \"title\": \"Create Lifecycle Policy Request\",\n  \"description\": \"Request body for creating a new lifecycle policy.\",\n  \"type\": \"object\",\n  \"required\": [\n    \"Description\",\n    \"State\",\n    \"ExecutionRoleArn\",\n    \"PolicyDetails\"\n  ],\n  \"properties\": {\n    \"Description\": {\n      \"type\": \"string\"\n    },\n    \"State\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"ENABLED\",\n        \"DISABLED\"\n      ]\n    },\n    \"ExecutionRoleArn\": {\n      \"type\": \"string\"\n    },\n    \"PolicyDetails\": {\n      \"type\": \"object\"\n    },\n    \"Tags\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/json-schema/create-lifecycle-policy-request-schema.json
 tags:
-- AWS
 - Backup
 - EBS Snapshots
 - Lifecycle Management

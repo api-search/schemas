@@ -29,7 +29,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"exact\": {\
   \ the method header to be matched.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-metadata-match-method-schema.json\",\n  \"title\": \"GrpcMetadataMatchMethod\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-grpc-metadata-match-method-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

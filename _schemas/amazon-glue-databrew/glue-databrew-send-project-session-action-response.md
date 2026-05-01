@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     \"$ref\": \"#/components/schemas/ActionId\"\n        },\n        {\n          \"description\": \"A unique identifier for the action that was performed.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-send-project-session-action-response-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

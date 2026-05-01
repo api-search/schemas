@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"integer\",\n  \"minimum\": 0,\n  \"$schema\": \"h
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/json-schema/well-architected-tool-min-selected-profile-choices-schema.json
 tags:
 - Architecture
-- AWS
 - Best Practices
 - Cloud Governance
 - Well-Architected

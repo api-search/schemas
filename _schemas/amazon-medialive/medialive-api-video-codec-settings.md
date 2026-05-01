@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"xml\": {\n            \"name\": \"h265Settings\"\n          }\n        }\n      ]\n    },\n    \"Mpeg2Settings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Mpeg2Settings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"mpeg2Settings\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-video-codec-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-log-subscription-schema.json\",\n  \"title\": \"LogSubscription\",\n  \"description\": \"LogSubscription schema from Amazon Glue DataBrew API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ENABLE\",\n    \"DISABLE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-log-subscription-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"EncryptionConfiguration\",\n  \"description\": \"Describes a custom encryption key that App Runner uses to encrypt copies of the source repository and service logs.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"KmsKey\": {}\n  },\n  \"required\": [\n    \"KmsKey\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/json-schema/amazon-app-runner-encryptionconfiguration-schema.json
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

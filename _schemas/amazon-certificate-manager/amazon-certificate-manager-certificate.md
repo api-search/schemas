@@ -54,7 +54,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for renewal.\",\n      \"enum\": [\n        \"ELIGIBLE\",\n        \"INELIGIBLE\"\n      ]\n    }\n  },\n  \"additionalProperties\": false\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/json-schema/amazon-certificate-manager-certificate-schema.json
 tags:
-- AWS
 - Certificates
 - Encryption
 - Security

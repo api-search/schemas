@@ -41,7 +41,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ state of the domain configuration.\"\n        }\n      ]\n    },\n    \"serviceType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ServiceType\"\n        },\n        {\n          \"description\": \"The type of service delivered by the endpoint.\"\n        }\n      ]\n    },\n    \"domainType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DomainType\"\n        },\n        {\n          \"description\": \"The type of the domain.\"\n        }\n      ]\n    },\n    \"lastStatusChangeDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DateType\"\n        },\n        {\n          \"description\": \"The date and time the domain configuration's status was last changed.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-describe-domain-configuration-response-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

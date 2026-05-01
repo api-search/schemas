@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  {\n          \"description\": \"The tag value associated with the coverage map filter.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"comparison\",\n    \"key\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-coverage-map-filter-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

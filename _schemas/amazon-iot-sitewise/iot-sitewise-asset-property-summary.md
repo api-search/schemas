@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n            },\n            {\n              \"description\": \"The current notification state.\"\n            }\n          ]\n        }\n      },\n      \"description\": \"Contains asset property value notification information. When the notification state is enabled, IoT SiteWise publishes property value updates to a unique MQTT topic. For more information, see <a href=\\\"https://docs.aws.amazon.com/iot-sitewise/latest/userguide/interact-with-other-services.html\\\">Interacting with other services</a> in the <i>IoT SiteWise User Guide</i>.\"\n    },\n    \"assetCompositeModelId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ID\"\n        },\n        {\n          \"description\": \" The ID of the composite model that contains the asset property. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-property-summary-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

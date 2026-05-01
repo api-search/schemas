@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ name of a firewall after you create it.</p> <p>You must specify the ARN or the name, and you can specify both. </p>\"\n        }\n      ]\n    },\n    \"LoggingConfiguration\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LoggingConfiguration\"\n        },\n        {\n          \"description\": \"Defines how Network Firewall performs logging for a firewall. If you omit this setting, Network Firewall disables logging for the firewall.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/json-schema/openapi-update-logging-configuration-request-schema.json
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

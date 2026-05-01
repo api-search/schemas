@@ -25,7 +25,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"groupId\": 
   : \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"WorkspacesIpGroup\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspaces-ip-group-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-workspaces-ip-group-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

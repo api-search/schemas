@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The name of the simulation.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Destination\",\n    \"Simulation\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/json-schema/amazon-simspace-weaver-create-snapshot-input-schema.json
 tags:
-- AWS
 - Defense
 - Digital Twin
 - Simulation

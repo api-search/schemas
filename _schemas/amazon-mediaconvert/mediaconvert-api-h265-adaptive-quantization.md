@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ quantization to your output.\",\n  \"type\": \"string\",\n  \"enum\": [\n    false,\n    \"LOW\",\n    \"MEDIUM\",\n    \"HIGH\",\n    \"HIGHER\",\n    \"MAX\",\n    \"AUTO\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-h265-adaptive-quantization-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

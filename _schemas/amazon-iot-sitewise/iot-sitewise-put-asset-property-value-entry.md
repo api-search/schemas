@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"#/components/schemas/AssetPropertyValues\"\n        },\n        {\n          \"description\": \"The list of property values to upload. You can specify up to 10 <code>propertyValues</code> array elements. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"entryId\",\n    \"propertyValues\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-put-asset-property-value-entry-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"flowVpcInterfaceAttachment\"\n          },\n          \"description\": \"The name of the VPC interface attachment to use for this source.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/json-schema/mediaconnect-api-update-bridge-flow-source-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

@@ -16,6 +16,5 @@ tags:
 - Distributed SQL
 - PostgreSQL
 - Serverless
-- AWS
 title: DeleteMultiRegionClustersOutput
 ---

@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"RequestId\",\n    \"MultiplexSettings\",\n    \"AvailabilityZones\",\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-create-multiplex-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

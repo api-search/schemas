@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ can be found in the output from the initial data store creation call.\"\n        }\n      ]\n    },\n    \"DatastoreStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/DatastoreStatus\"\n        },\n        {\n          \"description\": \"The status of the FHIR data store.\"\n        }\n      ]\n    },\n    \"DatastoreEndpoint\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/BoundedLengthString\"\n        },\n        {\n          \"description\": \"The AWS endpoint for the created data store.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/json-schema/healthlake-create-fhir-datastore-response-schema.json
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

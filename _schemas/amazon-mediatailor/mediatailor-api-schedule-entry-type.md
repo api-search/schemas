@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-schedule-entry-type-schema.json\",\n  \"title\": \"ScheduleEntryType\",\n  \"description\": \"ScheduleEntryType schema from Amazon MediaTailor API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"PROGRAM\",\n    \"FILLER_SLATE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-schedule-entry-type-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

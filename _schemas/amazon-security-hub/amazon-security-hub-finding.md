@@ -61,7 +61,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"Id\",\n    \"ProductArn\",\n    \"GeneratorId\",\n    \"AwsAccountId\",\n    \"CreatedAt\",\n    \"UpdatedAt\",\n    \"Severity\",\n    \"Title\",\n    \"Description\",\n    \"Resources\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/json-schema/amazon-security-hub-finding-schema.json
 tags:
-- AWS
 - Compliance
 - Monitoring
 - Security

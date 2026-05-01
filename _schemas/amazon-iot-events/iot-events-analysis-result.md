@@ -27,7 +27,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Contains additional information about the analysis result.\"\n        }\n      ]\n    },\n    \"locations\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AnalysisResultLocations\"\n        },\n        {\n          \"description\": \"Contains one or more locations that you can use to locate the fields in your detector model that the analysis result references.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-analysis-result-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

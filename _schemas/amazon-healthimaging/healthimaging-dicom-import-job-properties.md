@@ -44,7 +44,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The timestamp for when the import job was submitted.\"\n        }\n      ]\n    },\n    \"inputS3Uri\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3Uri\"\n        },\n        {\n          \"description\": \"The input prefix path for the S3 bucket that contains the DICOM P10 files to be imported.\"\n        }\n      ]\n    },\n    \"outputS3Uri\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3Uri\"\n        },\n        {\n          \"description\": \"The output prefix of the S3 bucket to upload the results of the DICOM import job.\"\n        }\n      ]\n    },\n    \"message\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Message\"\n        },\n        {\n          \"description\": \"The error message thrown if an import job fails.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Properties of the import job.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-dicom-import-job-properties-schema.json
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

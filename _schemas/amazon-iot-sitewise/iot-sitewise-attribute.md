@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \">Updating attribute values</a> in the <i>IoT SiteWise User Guide</i>.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-attribute-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

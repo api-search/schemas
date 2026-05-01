@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"description\": \"One of the VolumeType enumeration values describing the type of the volume.\"\n        }\n      ]\n    },\n    \"VolumeSizeInBytes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/long\"\n        },\n        {\n          \"description\": \"<p>The size of the volume in bytes.</p> <p>Valid Values: 50 to 500 lowercase letters, numbers, periods (.), and hyphens (-).</p>\"\n        }\n      ]\n    },\n    \"VolumeAttachmentStatus\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/VolumeAttachmentStatus\"\n        },\n        {\n          \"description\": \"One of the VolumeStatus values that indicates the state of the storage volume.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/json-schema/amazon-storage-gateway-volume-info-schema.json
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     }\n      ]\n    },\n    \"projectedUtilizationMetrics\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/LambdaFunctionMemoryProjectedMetrics\"\n        },\n        {\n          \"description\": \"An array of objects that describe the projected utilization metrics of the function recommendation option.\"\n        }\n      ]\n    },\n    \"savingsOpportunity\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SavingsOpportunity\"\n        },\n        {\n          \"description\": \"An object that describes the savings opportunity for the Lambda function recommendation option. Savings opportunity includes the estimated monthly savings amount and percentage.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/json-schema/compute-optimizer-lambda-function-memory-recommendation-option-schema.json
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

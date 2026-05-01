@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The S3 prefix to the source files (PDFs) that are referred to in the augmented manifest file.\"\n        }\n      ]\n    },\n    \"DocumentType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AugmentedManifestsDocumentTypeFormat\"\n        },\n        {\n          \"description\": \"<p>The type of augmented manifest. If you don't specify, the default is PlainTextDocument. </p> <p> <code>PLAIN_TEXT_DOCUMENT</code> A document type that represents any unicode text that is encoded in UTF-8.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"AttributeNames\",\n    \"S3Uri\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/json-schema/openapi.yml-dataset-augmented-manifests-list-item-schema.json
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

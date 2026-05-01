@@ -50,7 +50,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   description\": \"For parallel scan, identifies the segment to be scanned\",\n      \"minimum\": 0\n    },\n    \"TotalSegments\": {\n      \"type\": \"integer\",\n      \"description\": \"For parallel scan, the total number of segments\",\n      \"minimum\": 1,\n      \"maximum\": 1000000\n    },\n    \"Select\": {\n      \"type\": \"string\",\n      \"description\": \"The attributes to be returned in the result\",\n      \"enum\": [\n        \"ALL_ATTRIBUTES\",\n        \"ALL_PROJECTED_ATTRIBUTES\",\n        \"COUNT\",\n        \"SPECIFIC_ATTRIBUTES\"\n      ]\n    }\n  },\n  \"required\": [\n    \"TableName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/json-schema/dynamodb-openapi-scan-input-schema.json
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

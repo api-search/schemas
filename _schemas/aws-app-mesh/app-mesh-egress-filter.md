@@ -16,7 +16,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"type\": {\n
   \n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-egress-filter-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

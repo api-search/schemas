@@ -23,7 +23,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/json-schema/codeartifact-dispose-package-versions-request-schema.json
 tags:
 - Amazon
-- AWS
 - Artifact Repository
 - Package Management
 - DevOps

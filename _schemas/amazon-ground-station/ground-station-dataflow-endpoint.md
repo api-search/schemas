@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      },\n        {\n          \"description\": \"Name of a dataflow endpoint.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EndpointStatus\"\n        },\n        {\n          \"description\": \"Status of a dataflow endpoint.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-dataflow-endpoint-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

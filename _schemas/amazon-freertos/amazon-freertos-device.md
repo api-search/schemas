@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   integer\",\n      \"description\": \"Thing record version.\"\n    }\n  },\n  \"required\": [\n    \"thingName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/json-schema/amazon-freertos-device-schema.json
 tags:
-- AWS
 - Embedded Systems
 - IoT
 - Microcontrollers

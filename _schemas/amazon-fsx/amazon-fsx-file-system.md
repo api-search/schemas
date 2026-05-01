@@ -53,7 +53,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ARN of the file system.\"\n    },\n    \"Tags\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/definitions/Tag\"\n      }\n    },\n    \"CreationTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"OwnerId\": {\n      \"type\": \"string\",\n      \"description\": \"AWS account ID of the file system owner.\"\n    }\n  },\n  \"required\": [\n    \"FileSystemType\",\n    \"StorageCapacity\",\n    \"SubnetIds\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/json-schema/amazon-fsx-file-system-schema.json
 tags:
-- AWS
 - File Systems
 - Lustre
 - NetApp

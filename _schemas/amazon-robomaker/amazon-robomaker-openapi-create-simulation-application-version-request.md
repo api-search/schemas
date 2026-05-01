@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ ID, a new version will be created.\"\n        }\n      ]\n    },\n    \"s3Etags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/S3Etags\"\n        },\n        {\n          \"description\": \"The Amazon S3 eTag identifier for the zip file bundle that you use to create the simulation application.\"\n        }\n      ]\n    },\n    \"imageDigest\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ImageDigest\"\n        },\n        {\n          \"description\": \"The SHA256 digest used to identify the Docker image URI used to created the simulation application.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"application\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-application-version-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: CreateSimulationApplicationVersionRequest

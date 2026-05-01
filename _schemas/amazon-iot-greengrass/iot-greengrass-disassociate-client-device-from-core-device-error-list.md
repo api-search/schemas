@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          }\n        ]\n      },\n      \"message\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/NonEmptyString\"\n          },\n          {\n            \"description\": \"A message that provides additional information about the error.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains an error that occurs from a request to disassociate a client device from a core device. The <a href=\\\"https://docs.aws.amazon.com/greengrass/v2/APIReference/API_BatchDisassociateClientDeviceWithCoreDevice.html\\\">BatchDisassociateClientDeviceWithCoreDevice</a> operation returns a list of these errors.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/json-schema/iot-greengrass-disassociate-client-device-from-core-device-error-list-schema.json
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

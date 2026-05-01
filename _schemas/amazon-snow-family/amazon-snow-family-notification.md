@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Boolean\"\n        },\n        {\n          \"description\": \"Any change in job state will trigger a notification for this job.\"\n        }\n      ]\n    },\n    \"DevicePickupSnsTopicARN\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SnsTopicARN\"\n        },\n        {\n          \"description\": \"Used to send SNS notifications for the person picking up the device (identified during job creation).\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-notification-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

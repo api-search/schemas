@@ -37,7 +37,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   TARGET_TIME_SERIES\",\n        \"RELATED_TIME_SERIES\",\n        \"ITEM_METADATA\"\n      ],\n      \"description\": \"Type of the dataset.\"\n    },\n    \"DataFrequency\": {\n      \"type\": \"string\",\n      \"description\": \"Frequency of data points (e.g., D for daily, H for hourly).\"\n    },\n    \"Status\": {\n      \"type\": \"string\",\n      \"description\": \"Status of the dataset.\"\n    },\n    \"CreationTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Time the dataset was created.\"\n    },\n    \"LastModificationTime\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"Time the dataset was last modified.\"\n    }\n  },\n  \"required\": [\n    \"DatasetName\",\n    \"Domain\",\n    \"DatasetType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/json-schema/amazon-forecast-dataset-schema.json
 tags:
-- AWS
 - Forecasting
 - Machine Learning
 - Predictive Analytics

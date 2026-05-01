@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ },\n        {\n          \"description\": \"An array containing one or more filename extensions, allowing you to specify which files to be included as PDS member.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"format\",\n    \"memberFileExtensions\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/json-schema/amazon-mainframe-modernization-po-attributes-schema.json
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

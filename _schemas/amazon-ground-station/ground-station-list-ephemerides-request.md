@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ for.\"\n        }\n      ]\n    },\n    \"startTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The start time to list in UTC. The operation will return an ephemeris if its expiration time is within the time range defined by the <code>startTime</code> and <code>endTime</code>.\"\n        }\n      ]\n    },\n    \"statusList\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/EphemerisStatusList\"\n        },\n        {\n          \"description\": \"The list of ephemeris status to return.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"endTime\",\n    \"satelliteId\",\n    \"startTime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-list-ephemerides-request-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

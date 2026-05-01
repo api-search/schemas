@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       {\n          \"description\": \"The 12-digit Amazon Web Services account numbers that contains the affected entities.\"\n        }\n      ]\n    },\n    \"event\": {\n      \"$ref\": \"#/components/schemas/Event\"\n    },\n    \"eventDescription\": {\n      \"$ref\": \"#/components/schemas/EventDescription\"\n    },\n    \"eventMetadata\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/eventMetadata\"\n        },\n        {\n          \"description\": \"Additional metadata about the event.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-organization-event-details-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

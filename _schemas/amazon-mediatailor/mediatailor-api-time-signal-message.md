@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n    \"SegmentationDescriptors\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SegmentationDescriptorList\"\n        },\n        {\n          \"description\": \"The configurations for the SCTE-35 <code>segmentation_descriptor</code> message(s) sent with the <code>time_signal</code> message.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-time-signal-message-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"xml\": {\n            \"name\": \"nodeInfoList\"\n          },\n          \"description\": \"\\n            <p>List containing a NodeInfo object.</p>\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-list-nodes-response-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

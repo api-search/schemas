@@ -91,7 +91,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  },\n        {\n          \"description\": \"Sample configuration for profile jobs only. Determines the number of rows on which the profile job will be executed.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/json-schema/glue-databrew-describe-job-response-schema.json
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

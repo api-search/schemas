@@ -41,7 +41,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"JobId\": {\
   \n        }\n      ]\n    },\n    \"EndTime\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The mailbox export job end timestamp.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"The details of a mailbox export job, including the user or resource ID associated with the mailbox and the S3 bucket that the mailbox contents are exported to.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"MailboxExportJob\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-mailbox-export-job-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-mailbox-export-job-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

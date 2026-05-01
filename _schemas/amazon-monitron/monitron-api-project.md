@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"The time at which the project was last updated.\",\n      \"format\": \"date-time\",\n      \"type\": \"string\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/json-schema/monitron-api-project-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"backendDefa
   \ ]\n        }\n      },\n      \"description\": \"An object that represents logging information.\"\n    }\n  },\n  \"required\": [\n    \"listeners\"\n  ],\n  \"description\": \"An object that represents the specification of a service mesh resource.\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-spec-schema.json\",\n  \"title\": \"VirtualGatewaySpec\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-virtual-gateway-spec-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

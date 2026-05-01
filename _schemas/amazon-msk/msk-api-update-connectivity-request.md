@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     <p>The version of the MSK cluster to update. Cluster versions aren't simple numbers. You can describe an MSK cluster to find its version. When this update operation is successful, it generates a new cluster version.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ConnectivityInfo\",\n    \"CurrentVersion\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-update-connectivity-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ If you want to view logs for a specific session, you can use the <a href=\\\"https://docs.aws.amazon.com/mediatailor/latest/ug/debug-log-mode.html\\\">debug log mode</a>.</p> <p>Valid values: <code>0</code> - <code>100</code> </p>\"\n        }\n      ]\n    },\n    \"PlaybackConfigurationName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__string\"\n        },\n        {\n          \"description\": \"The name of the playback configuration.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"PercentEnabled\",\n    \"PlaybackConfigurationName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-configure-logs-for-playback-configuration-request-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

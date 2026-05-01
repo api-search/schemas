@@ -14,7 +14,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ that determine when and how a job abort takes place.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/json-schema/iot-device-management-abort-criteria-list-schema.json
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

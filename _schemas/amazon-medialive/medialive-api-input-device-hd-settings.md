@@ -42,7 +42,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"width\"\n          },\n          \"description\": \"The width of the video source, in pixels.\"\n        }\n      ]\n    },\n    \"LatencyMs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integer\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"latencyMs\"\n          },\n          \"description\": \"The Link device's buffer size (latency) in milliseconds (ms). You can specify this value.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-device-hd-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

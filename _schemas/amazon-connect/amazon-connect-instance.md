@@ -50,7 +50,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    \"MaxContacts\": {\n          \"type\": \"integer\",\n          \"description\": \"The maximum number of contacts that can be in the queue.\",\n          \"minimum\": 0\n        }\n      }\n    }\n  }\n}\n"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/amazon-connect-instance-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

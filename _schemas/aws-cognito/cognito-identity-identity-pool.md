@@ -47,7 +47,6 @@ source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/re
 tags:
 - Authentication
 - Authorization
-- AWS
 - Identity
 - Identity Provider
 - OAuth2

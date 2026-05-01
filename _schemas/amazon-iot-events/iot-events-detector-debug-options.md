@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ model).\"\n          }\n        ]\n      }\n    },\n    \"description\": \"The detector model and the specific detectors (instances) for which the logging level is given.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/json-schema/iot-events-detector-debug-options-schema.json
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ where the timestamp value is equal to or before <code>to</code>.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"from\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/timestamp\"\n        },\n        {\n          \"description\": \"The starting date and time of a time range.\"\n        }\n      ]\n    },\n    \"to\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/timestamp\"\n        },\n        {\n          \"description\": \"The ending date and time of a time range.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/json-schema/health-date-time-range-schema.json
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

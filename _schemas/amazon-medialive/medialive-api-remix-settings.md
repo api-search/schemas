@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ be used.\"\n        }\n      ]\n    },\n    \"ChannelsOut\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__integerMin1Max8\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"channelsOut\"\n          },\n          \"description\": \"Number of output channels to be produced.\\nValid values: 1, 2, 4, 6, 8\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"ChannelMappings\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-remix-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

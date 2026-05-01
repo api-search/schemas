@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \    <p>Includes all client authentication information.</p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"VpcConfigs\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/json-schema/msk-api-serverless-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

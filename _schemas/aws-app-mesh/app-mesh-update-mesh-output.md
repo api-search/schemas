@@ -16,7 +16,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"mesh\": {\n
   : [\n            {\n              \"$ref\": \"#/components/schemas/MeshStatus\"\n            },\n            {\n              \"description\": \"The status of the service mesh.\"\n            }\n          ]\n        }\n      },\n      \"required\": [\n        \"meshName\",\n        \"metadata\",\n        \"spec\",\n        \"status\"\n      ],\n      \"description\": \"An object that represents a service mesh returned by a describe operation.\"\n    }\n  },\n  \"required\": [\n    \"mesh\"\n  ],\n  \"description\": \"<zonbook></zonbook><xhtml></xhtml>\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-update-mesh-output-schema.json\",\n  \"title\": \"UpdateMeshOutput\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/json-schema/app-mesh-update-mesh-output-schema.json
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

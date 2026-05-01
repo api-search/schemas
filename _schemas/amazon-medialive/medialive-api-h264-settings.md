@@ -159,7 +159,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ quantization to Disabled, MediaLive ignores any value in this field and doesn't apply temporal AQ.\"\n        }\n      ]\n    },\n    \"TimecodeInsertion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/H264TimecodeInsertionBehavior\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timecodeInsertion\"\n          },\n          \"description\": \"Determines how timecodes should be inserted into the video elementary stream.\\n- 'disabled': Do not include timecodes\\n- 'picTimingSei': Pass through picture timing SEI messages from the source specified in Timecode Config\"\n        }\n      ]\n    },\n    \"TimecodeBurninSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TimecodeBurninSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"timecodeBurninSettings\"\n          },\n          \"description\": \"Timecode burn-in settings\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-h264-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

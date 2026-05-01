@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ include a valid numeric country code. Otherwise, the operation might result in an error.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-number-validate-request-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ within the specified duration are included in the segment; and, INACTIVE, endpoints that weren't active within the specified duration are included in the segment.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Duration\",\n    \"RecencyType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-recency-dimension-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

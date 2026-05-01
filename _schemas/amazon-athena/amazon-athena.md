@@ -56,6 +56,5 @@ tags:
 - SQL
 - Analytics
 - Serverless
-- AWS
 title: Amazon Athena Query Execution
 ---

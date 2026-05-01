@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-timecode-source-schema.json\",\n  \"title\": \"InputTimecodeSource\",\n  \"description\": \"Documentation update needed\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ZEROBASED\",\n    \"EMBEDDED\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-input-timecode-source-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

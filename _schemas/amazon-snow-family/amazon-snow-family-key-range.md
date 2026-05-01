@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The key that ends an optional key range for an export job. Ranges are inclusive and UTF-8 binary sorted.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-key-range-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

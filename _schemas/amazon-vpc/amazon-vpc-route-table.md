@@ -33,7 +33,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"description\": \"Describes a route
   \n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/json-schema/amazon-vpc-route-table-schema.json
 tags:
-- AWS
 - Networking
 - Private Cloud
 - Security

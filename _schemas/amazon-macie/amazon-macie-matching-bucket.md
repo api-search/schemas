@@ -64,7 +64,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ or don't have a file name extension for a supported file or storage format.\"\n        }\n      ]\n    },\n    \"unclassifiableObjectSizeInBytes\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ObjectLevelStatistics\"\n        },\n        {\n          \"description\": \"The total storage size, in bytes, of the objects that Amazon Macie can't analyze in the bucket. These objects don't use a supported storage class or don't have a file name extension for a supported file or storage format.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-matching-bucket-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

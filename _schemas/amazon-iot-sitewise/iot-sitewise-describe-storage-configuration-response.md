@@ -33,7 +33,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"description\": \"The current state of the configuration.\"\n            }\n          ]\n        },\n        \"error\": {\n          \"allOf\": [\n            {\n              \"$ref\": \"#/components/schemas/ConfigurationErrorDetails\"\n            },\n            {\n              \"description\": \"Contains associated error information, if any.\"\n            }\n          ]\n        }\n      },\n      \"description\": \"Contains current status information for the configuration.\"\n    },\n    \"lastUpdateDate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Timestamp\"\n        },\n        {\n          \"description\": \"The date the storage configuration was last updated, in Unix epoch time.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"storageType\",\n    \"configurationStatus\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-describe-storage-configuration-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

@@ -105,7 +105,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ },\n          \"description\": \"Contains any warning messages for the job. Use to help identify potential issues with your input, output, or job. For more information, see https://docs.aws.amazon.com/mediaconvert/latest/ug/warning_codes.html\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Settings\",\n    \"Role\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-job-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \     {\n          \"description\": \"The configuration settings of the Amazon Kinesis Data Streams destination for a QLDB journal stream.\"\n        }\n      ]\n    },\n    \"ErrorCause\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ErrorCause\"\n        },\n        {\n          \"description\": \"The error message that describes the reason that a stream has a status of <code>IMPAIRED</code> or <code>FAILED</code>. This is not applicable to streams that have other status values.\"\n        }\n      ]\n    },\n    \"StreamName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/StreamName\"\n        },\n        {\n          \"description\": \"The user-defined name of the QLDB journal stream.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"LedgerName\",\n    \"RoleArn\",\n    \"StreamId\",\n    \"Status\",\n    \"KinesisConfiguration\",\n    \"StreamName\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-journal-kinesis-stream-description-schema.json
 tags:
-- AWS
 - Blockchain
 - Database
 - Ledger

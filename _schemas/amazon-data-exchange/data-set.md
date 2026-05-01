@@ -40,7 +40,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n        \"S3_DATA_ACCESS\"\n      ]\n    },\n    \"Origin\": {\n      \"type\": \"string\",\n      \"enum\": [\n        \"OWNED\",\n        \"ENTITLED\"\n      ]\n    },\n    \"Tags\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      }\n    },\n    \"CreatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    },\n    \"UpdatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/json-schema/data-set-schema.json
 tags:
-- AWS
 - Data Exchange
 - Data Marketplace
 - Third-Party Data

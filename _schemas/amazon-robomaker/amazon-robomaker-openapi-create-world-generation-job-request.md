@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   }\n      ]\n    },\n    \"worldCount\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/WorldCount\"\n        },\n        {\n          \"description\": \"Information about the world count.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"A map that contains tag keys and tag values that are attached to the world generator job.\"\n        }\n      ]\n    },\n    \"worldTags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"A map that contains tag keys and tag values that are attached to the generated worlds.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"template\",\n    \"worldCount\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-world-generation-job-request-schema.json
 tags:
-- AWS
 - Robotics
 - Simulation
 title: CreateWorldGenerationJobRequest

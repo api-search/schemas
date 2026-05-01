@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : \"A structure containing arrays that map group names in the SAML assertion to the Grafana <code>Admin</code> and <code>Editor</code> roles in the workspace.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"idpMetadata\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/json-schema/amazon-managed-grafana-saml-configuration-schema.json
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

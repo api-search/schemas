@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \"The list of attributes.\"\n        }\n      ]\n    },\n    \"Expected\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/UpdateCondition\"\n        },\n        {\n          \"description\": \"The update condition which, if specified, determines whether the specified attributes will be updated or not. The update condition must be satisfied in order for this request to be processed and the attributes to be updated.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DomainName\",\n    \"ItemName\",\n    \"Attributes\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/json-schema/amazon-simpledb-put-attributes-request-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Data Storage
 - Database

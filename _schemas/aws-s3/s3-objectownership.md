@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ canned ACL or an equivalent form of this ACL expressed in the XML format.</p>\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/json-schema/s3-objectownership-schema.json
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

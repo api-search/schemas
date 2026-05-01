@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   : {\n            \"name\": \"httpsInputs\"\n          },\n          \"description\": \"Allow or disallow jobs that specify HTTPS inputs.\"\n        }\n      ]\n    },\n    \"S3Inputs\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/InputPolicy\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"s3Inputs\"\n          },\n          \"description\": \"Allow or disallow jobs that specify Amazon S3 inputs.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-policy-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

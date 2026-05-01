@@ -34,7 +34,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \   \"Tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/TagMap\"\n        },\n        {\n          \"description\": \"The tags to apply to the Outpost.\"\n        }\n      ]\n    },\n    \"SupportedHardwareType\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SupportedHardwareType\"\n        },\n        {\n          \"description\": \" The type of hardware for this Outpost. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\",\n    \"SiteId\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-create-outpost-input-schema.json
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

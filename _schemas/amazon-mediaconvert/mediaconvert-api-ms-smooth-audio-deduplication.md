@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-ms-smooth-audio-deduplication-schema.json\",\n  \"title\": \"MsSmoothAudioDeduplication\",\n  \"description\": \"COMBINE_DUPLICATE_STREAMS combines identical audio encoding settings across a Microsoft Smooth output group into a single audio stream.\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"COMBINE_DUPLICATE_STREAMS\",\n    \"NONE\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-ms-smooth-audio-deduplication-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        {\n          \"description\": \" The public key of the client. \"\n        }\n      ]\n    },\n    \"NetworkInterfaceDeviceIndex\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NetworkInterfaceDeviceIndex\"\n        },\n        {\n          \"description\": \" The device index of the network interface on the Outpost server. \"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"DeviceSerialNumber\",\n    \"AssetId\",\n    \"ClientPublicKey\",\n    \"NetworkInterfaceDeviceIndex\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/json-schema/openapi-start-connection-request-schema.json
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

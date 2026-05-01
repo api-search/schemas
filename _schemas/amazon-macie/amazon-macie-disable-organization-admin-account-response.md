@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-disable-organization-admin-account-response-schema.json\",\n  \"title\": \"DisableOrganizationAdminAccountResponse\",\n  \"description\": \"DisableOrganizationAdminAccountResponse schema from Amazon Macie API\",\n  \"type\": \"object\",\n  \"properties\": {}\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/json-schema/amazon-macie-disable-organization-admin-account-response-schema.json
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

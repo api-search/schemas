@@ -15,7 +15,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-copy-source-image-set-information-schema.json\",\n  \"title\": \"CopySourceImageSetInformation\",\n  \"type\": \"object\",\n  \"required\": [\n    \"latestVersionId\"\n  ],\n  \"properties\": {\n    \"latestVersionId\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ImageSetExternalVersionId\"\n        },\n        {\n          \"description\": \"The latest version identifier for the source image set.\"\n        }\n      ]\n    }\n  },\n  \"description\": \"Copy source image set information.\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/json-schema/healthimaging-copy-source-image-set-information-schema.json
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

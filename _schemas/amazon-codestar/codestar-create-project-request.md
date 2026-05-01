@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ template file submitted with the project request. If this parameter is specified, the request must also include the sourceCode parameter.\"\n        }\n      ]\n    },\n    \"tags\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Tags\"\n        },\n        {\n          \"description\": \"The tags created for the project.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"name\",\n    \"id\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/json-schema/codestar-create-project-request-schema.json
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

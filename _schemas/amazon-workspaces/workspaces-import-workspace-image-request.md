@@ -33,7 +33,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"Ec2ImageId\",
   \ <code>Microsoft_Office_2019</code>.</p> </li> </ul> </note>\"\n        }\n      ]\n    }\n  },\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-import-workspace-image-request-schema.json\",\n  \"description\": \"ImportWorkspaceImageRequest schema from Amazon WorkSpaces API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/json-schema/workspaces-import-workspace-image-request-schema.json
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

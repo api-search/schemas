@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \  \"example\": 0.1\n    },\n    \"Top\": {\n      \"type\": \"number\",\n      \"format\": \"float\",\n      \"description\": \"Top coordinate of the bounding box as a ratio of overall image height.\",\n      \"example\": 0.05\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-bounding-box-schema.json
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

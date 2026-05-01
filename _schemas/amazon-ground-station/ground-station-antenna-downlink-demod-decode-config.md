@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"spectrumConfig\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/SpectrumConfig\"\n        },\n        {\n          \"description\": \"Information about the spectral <code>Config</code>.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"decodeConfig\",\n    \"demodulationConfig\",\n    \"spectrumConfig\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/json-schema/ground-station-antenna-downlink-demod-decode-config-schema.json
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

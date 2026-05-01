@@ -29,7 +29,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"xml\": {\n            \"name\": \"paddingControl\"\n          },\n          \"description\": \"Unless you need Omneon compatibility: Keep the default value, None. To make this output compatible with Omneon: Choose Omneon. When you do, MediaConvert increases the length of the 'elst' edit list atom. Note that this might cause file rejections when a recipient of the output file doesn't expect this extra padding.\"\n        }\n      ]\n    },\n    \"Reference\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/MovReference\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"reference\"\n          },\n          \"description\": \"Always keep the default value (SELF_CONTAINED) for this setting.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-mov-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

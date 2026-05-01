@@ -22,7 +22,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"required\": [\n    \"EwsEndpoint\"
   ,\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"EwsAvailabilityProvider\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-ews-availability-provider-schema.json\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/json-schema/workmail-ews-availability-provider-schema.json
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

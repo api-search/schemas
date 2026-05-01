@@ -33,7 +33,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"ConsumedCapacity\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"TableName\": {\n      \"type\": \"string\",\n      \"description\": \"The name of the table that was affected by the operation\"\n    },\n    \"CapacityUnits\": {\n      \"type\": \"number\",\n      \"description\": \"The total number of capacity units consumed by the operation\"\n    },\n    \"ReadCapacityUnits\": {\n      \"type\": \"number\",\n      \"description\": \"The total number of read capacity units consumed\"\n    },\n    \"WriteCapacityUnits\": {\n      \"type\": \"number\",\n      \"description\": \"The total number of write capacity units consumed\"\n    },\n    \"Table\": {\n      \"type\": \"object\"\n    },\n    \"LocalSecondaryIndexes\": {\n      \"type\": \"object\"\n    },\n    \"GlobalSecondaryIndexes\": {\n      \"type\": \"object\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/json-schema/dynamodb-consumed-capacity-schema.json
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

@@ -18,7 +18,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-dependent-service-schema.json\",\n  \"title\": \"DependentService\",\n  \"description\": \"The name and version of the service dependant on the requested service.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"ServiceName\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ServiceName\"\n        },\n        {\n          \"description\": \"The name of the dependent service.\"\n        }\n      ]\n    },\n    \"ServiceVersion\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ServiceVersion\"\n        },\n        {\n          \"description\": \"The version of the dependent service.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/json-schema/amazon-snow-family-dependent-service-schema.json
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

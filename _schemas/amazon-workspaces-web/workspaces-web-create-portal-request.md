@@ -33,7 +33,6 @@ source_json: "{\n  \"type\": \"object\",\n  \"title\": \"CreatePortalRequest\",\
   ,\n  \"description\": \"CreatePortalRequest schema from Amazon WorkSpaces Web API\"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/json-schema/workspaces-web-create-portal-request-schema.json
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

@@ -73,7 +73,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ to the value XAVC_HD_INTRA_CBG.\"\n        }\n      ]\n    },\n    \"XavcHdProfileSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/XavcHdProfileSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"xavcHdProfileSettings\"\n          },\n          \"description\": \"Required when you set (Profile) under (VideoDescription)>(CodecSettings)>(XavcSettings) to the value XAVC_HD.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-xavc-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

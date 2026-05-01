@@ -12,7 +12,6 @@ source_heading: JSON Schema
 source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-frequency-schema.json\",\n  \"title\": \"Frequency\",\n  \"description\": \"Frequency schema from Amazon Pinpoint API\",\n  \"type\": \"string\",\n  \"enum\": [\n    \"ONCE\",\n    \"HOURLY\",\n    \"DAILY\",\n    \"WEEKLY\",\n    \"MONTHLY\",\n    \"EVENT\",\n    \"IN_APP_EVENT\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-frequency-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

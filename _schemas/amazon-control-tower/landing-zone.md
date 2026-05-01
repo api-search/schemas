@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   string\",\n      \"description\": \"The latest available version of the landing zone.\",\n      \"example\": \"3.3\"\n    },\n    \"manifest\": {\n      \"type\": \"object\",\n      \"description\": \"The landing zone manifest document.\"\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The landing zone deployment status.\",\n      \"enum\": [\n        \"ACTIVE\",\n        \"PROCESSING\",\n        \"FAILED\"\n      ],\n      \"example\": \"ACTIVE\"\n    },\n    \"version\": {\n      \"type\": \"string\",\n      \"description\": \"The current deployed version of the landing zone.\",\n      \"example\": \"3.3\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/json-schema/landing-zone-schema.json
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

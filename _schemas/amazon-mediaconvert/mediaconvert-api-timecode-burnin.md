@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n          },\n          \"description\": \"Use Position (Position) under under Timecode burn-in (TimecodeBurnIn) to specify the location the burned-in timecode on output video.\"\n        }\n      ]\n    },\n    \"Prefix\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/__stringPattern\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"prefix\"\n          },\n          \"description\": \"Use Prefix (Prefix) to place ASCII characters before any burned-in timecode. For example, a prefix of \\\"EZ-\\\" will result in the timecode \\\"EZ-00:00:00:00\\\". Provide either the characters themselves or the ASCII code equivalents. The supported range of characters is 0x20 through 0x7e. This includes letters, numbers, and all special characters represented on a standard English keyboard.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-timecode-burnin-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

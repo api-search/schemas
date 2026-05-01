@@ -36,7 +36,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \        \"Unit\": {\n            \"type\": \"string\",\n            \"enum\": [\n              \"SECONDS\",\n              \"COUNT\",\n              \"PERCENT\"\n            ]\n          },\n          \"Statistic\": {\n            \"type\": \"string\",\n            \"enum\": [\n              \"SUM\",\n              \"MAX\",\n              \"AVG\"\n            ]\n          }\n        }\n      }\n    },\n    \"NextToken\": {\n      \"type\": \"string\"\n    },\n    \"MaxResults\": {\n      \"type\": \"integer\"\n    }\n  },\n  \"required\": [\n    \"EndTime\",\n    \"Filters\",\n    \"HistoricalMetrics\",\n    \"StartTime\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/json-schema/get-metric-data-request-schema.json
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

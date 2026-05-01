@@ -28,7 +28,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          \"$ref\": \"#/components/schemas/Hdr10Settings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"hdr10Settings\"\n          }\n        }\n      ]\n    },\n    \"Rec601Settings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Rec601Settings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"rec601Settings\"\n          }\n        }\n      ]\n    },\n    \"Rec709Settings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Rec709Settings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"rec709Settings\"\n          }\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-h265-color-space-settings-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

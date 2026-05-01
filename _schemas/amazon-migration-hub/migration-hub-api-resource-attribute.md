@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"$ref\": \"#/components/schemas/ResourceAttributeType\"\n        },\n        {\n          \"description\": \"Type of resource.\"\n        }\n      ]\n    },\n    \"Value\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceAttributeValue\"\n        },\n        {\n          \"description\": \"Value of the resource type.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Type\",\n    \"Value\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/json-schema/migration-hub-api-resource-attribute-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

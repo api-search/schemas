@@ -25,7 +25,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   #/components/schemas/Template\"\n        },\n        {\n          \"description\": \"The SMS template to use for the message.\"\n        }\n      ]\n    },\n    \"VoiceTemplate\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Template\"\n        },\n        {\n          \"description\": \"The voice template to use for the message. This object isn't supported for campaigns.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/json-schema/amazon-pinpoint-template-configuration-schema.json
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

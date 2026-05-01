@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \      ]\n    },\n    \"IngressPortMappings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/AppPortMappings\"\n        },\n        {\n          \"description\": \"The inbound TCP/UDP port numbers of the app. The combination of an IP address and a port number form a network endpoint.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/json-schema/amazon-simspace-weaver-simulation-app-endpoint-info-schema.json
 tags:
-- AWS
 - Defense
 - Digital Twin
 - Simulation

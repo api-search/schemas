@@ -35,7 +35,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"IAM_USER\"\n      ],\n      \"example\": \"IAM_ROLE\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/json-schema/amazon-detective-investigation-detail-schema.json
 tags:
-- AWS
 - Forensics
 - Investigation
 - Security

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   latestSync\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceSyncAttempt\"\n        },\n        {\n          \"description\": \"The detailed data of the latest sync with the service instance.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-instance-sync-status-output-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

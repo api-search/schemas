@@ -13,7 +13,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \          {\n            \"$ref\": \"#/components/schemas/FindingArn\"\n          },\n          {\n            \"description\": \"The ARN of a finding that the code snippet is associated with.\"\n          }\n        ]\n      },\n      \"startLine\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/Integer\"\n          },\n          {\n            \"description\": \"The line number of the first line of a code snippet.\"\n          }\n        ]\n      },\n      \"suggestedFixes\": {\n        \"allOf\": [\n          {\n            \"$ref\": \"#/components/schemas/SuggestedFixes\"\n          },\n          {\n            \"description\": \"Details of a suggested code fix.\"\n          }\n        ]\n      }\n    },\n    \"description\": \"Contains information on a code snippet retrieved by Amazon Inspector from a code vulnerability finding.\"\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/json-schema/inspector-code-snippet-result-list-schema.json
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

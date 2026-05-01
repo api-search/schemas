@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ </p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"accessPolicyId\",\n    \"accessPolicyArn\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-create-access-policy-response-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

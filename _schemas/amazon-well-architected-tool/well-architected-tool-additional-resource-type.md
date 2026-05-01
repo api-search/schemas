@@ -13,7 +13,6 @@ source_json: "{\n  \"type\": \"string\",\n  \"enum\": [\n    \"HELPFUL_RESOURCE\
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/json-schema/well-architected-tool-additional-resource-type-schema.json
 tags:
 - Architecture
-- AWS
 - Best Practices
 - Cloud Governance
 - Well-Architected

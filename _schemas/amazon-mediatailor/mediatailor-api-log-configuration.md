@@ -16,7 +16,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ you can use the <a href=\\\"https://docs.aws.amazon.com/mediatailor/latest/ug/debug-log-mode.html\\\">debug log mode</a>.</p> <p>Valid values: <code>0</code> - <code>100</code> </p>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"PercentEnabled\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/json-schema/mediatailor-api-log-configuration-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

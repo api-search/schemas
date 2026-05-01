@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"The time when the sync attempt started.\"\n        }\n      ]\n    },\n    \"status\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/ResourceSyncStatus\"\n        },\n        {\n          \"description\": \"The status of the sync attempt.\"\n        }\n      ]\n    },\n    \"target\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/String\"\n        },\n        {\n          \"description\": \"The resource that is synced to.\"\n        }\n      ]\n    },\n    \"targetRevision\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/Revision\"\n        },\n        {\n          \"description\": \"Detail data for the target revision.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"events\",\n    \"initialRevision\",\n    \"startedAt\",\n    \"status\",\n    \"target\",\n    \"targetRevision\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-sync-attempt-schema.json
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

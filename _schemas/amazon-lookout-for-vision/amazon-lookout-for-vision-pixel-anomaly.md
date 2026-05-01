@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ type has a different mask color. The color maps to the color of the anomaly type used in the training dataset. \"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/json-schema/amazon-lookout-for-vision-pixel-anomaly-schema.json
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

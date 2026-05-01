@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   secretsRoleArn\"\n          },\n          \"description\": \"The Amazon Resource Name (ARN) for the IAM role that allows MediaPackage to communicate with AWS Secrets Manager.\\n\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"SecretsRoleArn\",\n    \"CdnIdentifierSecret\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/json-schema/mediapackage-api-authorization-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

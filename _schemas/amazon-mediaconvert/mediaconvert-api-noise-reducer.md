@@ -26,7 +26,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ \"spatialFilterSettings\"\n          },\n          \"description\": \"Noise reducer filter settings for spatial filter.\"\n        }\n      ]\n    },\n    \"TemporalFilterSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/NoiseReducerTemporalFilterSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"temporalFilterSettings\"\n          },\n          \"description\": \"Noise reducer filter settings for temporal filter.\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-noise-reducer-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

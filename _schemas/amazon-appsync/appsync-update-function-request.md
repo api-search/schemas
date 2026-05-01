@@ -35,6 +35,5 @@ tags:
 - GraphQL
 - API Management
 - Serverless
-- AWS
 title: UpdateFunctionRequest
 ---

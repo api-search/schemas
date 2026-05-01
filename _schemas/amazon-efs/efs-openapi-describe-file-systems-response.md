@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/json-schema/efs-openapi-describe-file-systems-response-schema.json
 tags:
 - Amazon Web Services
-- AWS
 - EFS
 - Elastic File System
 - File Storage

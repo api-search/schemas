@@ -55,7 +55,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \       },\n          \"description\": \"Identify a track from the input audio to include in this selector by entering the track index number. To include several tracks in a single audio selector, specify multiple tracks as follows. Using the console, enter a comma-separated list. For examle, type \\\"1,2,3\\\" to include tracks 1 through 3. Specifying directly in your JSON job file, provide the track numbers in an array. For example, \\\"tracks\\\": [1,2,3].\"\n        }\n      ]\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/json-schema/mediaconvert-api-audio-selector-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

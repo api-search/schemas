@@ -48,7 +48,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \" The time stamp for when a direct upload was created. \"\n        }\n      ]\n    }\n  },\n  \"description\": \" Part of the response to ListMultipartReadSetUploads, excluding completed and aborted multipart uploads. \"\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/json-schema/healthomics-multipart-read-set-upload-list-item-schema.json
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

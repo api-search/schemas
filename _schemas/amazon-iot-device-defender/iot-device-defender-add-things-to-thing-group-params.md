@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \n        },\n        {\n          \"description\": \"Specifies if this mitigation action can move the things that triggered the mitigation action even if they are part of one or more dynamic thing groups.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"thingGroupNames\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/json-schema/iot-device-defender-add-things-to-thing-group-params-schema.json
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

@@ -22,7 +22,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ selector.  This name is used to associate this caption selector with one or more caption descriptions.  Names must be unique within an event.\"\n        }\n      ]\n    },\n    \"SelectorSettings\": {\n      \"allOf\": [\n        {\n          \"$ref\": \"#/components/schemas/CaptionSelectorSettings\"\n        },\n        {\n          \"xml\": {\n            \"name\": \"selectorSettings\"\n          },\n          \"description\": \"Caption selector settings.\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"Name\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/json-schema/medialive-api-caption-selector-schema.json
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

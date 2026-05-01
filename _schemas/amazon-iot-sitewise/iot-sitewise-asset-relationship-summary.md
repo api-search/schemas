@@ -19,7 +19,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   \ assets in this relationship. This value is one of the following:</p> <ul> <li> <p> <code>HIERARCHY</code> \\u2013 The assets are related through an asset hierarchy. If you specify this relationship type, this asset relationship includes the <code>hierarchyInfo</code> object.</p> </li> </ul>\"\n        }\n      ]\n    }\n  },\n  \"required\": [\n    \"relationshipType\"\n  ]\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/json-schema/iot-sitewise-asset-relationship-summary-schema.json
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

@@ -31,7 +31,6 @@ source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\"
   ,\n        \"UPDATING\",\n        \"AVAILABLE\",\n        \"DELETING\"\n      ],\n      \"description\": \"The current state of a core network.\"\n    },\n    \"CreatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"The timestamp when a core network was created.\"\n    }\n  }\n}"
 source_json_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/json-schema/cloud-wan-core-network-schema.json
 tags:
-- AWS
 - Cloud WAN
 - Networking
 - Wide Area Network

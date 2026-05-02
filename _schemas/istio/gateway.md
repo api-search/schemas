@@ -1,0 +1,32 @@
+---
+description: A Gateway describes a load balancer operating at the edge of the mesh receiving incoming or outgoing HTTP/TCP connections. The specification describes a set of ports that should be exposed, the type of protocol to use, SNI configuration for the load balancer, etc.
+layout: schema
+name: Istio Gateway
+properties_list:
+- description: One or more labels that indicate a specific set of pods/VMs on which this gateway configuration should be applied. By default workloads are searched across all namespaces.
+  name: selector
+  type: object
+- description: A list of server specifications.
+  name: servers
+  type: array
+provider_name: Istio
+provider_slug: istio
+schema_file: json-schema/gateway.json
+slug: gateway
+source_filename: gateway.json
+source_heading: JSON Schema
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://github.com/api-evangelist/istio/blob/main/json-schema/gateway.json\",\n  \"title\": \"Istio Gateway\",\n  \"description\": \"A Gateway describes a load balancer operating at the edge of the mesh receiving incoming or outgoing HTTP/TCP connections. The specification describes a set of ports that should be exposed, the type of protocol to use, SNI configuration for the load balancer, etc.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"selector\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"One or more labels that indicate a specific set of pods/VMs on which this gateway configuration should be applied. By default workloads are searched across all namespaces.\"\n    },\n    \"servers\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"$ref\": \"#/$defs/Server\"\n      },\n      \"\
+  description\": \"A list of server specifications.\"\n    }\n  },\n  \"required\": [\"selector\", \"servers\"],\n  \"$defs\": {\n    \"Server\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"port\": {\n          \"type\": \"object\",\n          \"description\": \"The port on which the proxy should listen for incoming connections.\",\n          \"properties\": {\n            \"number\": {\n              \"type\": \"integer\",\n              \"description\": \"A valid non-negative integer port number.\"\n            },\n            \"protocol\": {\n              \"type\": \"string\",\n              \"description\": \"The protocol exposed on the port. Must be one of HTTP, HTTPS, GRPC, HTTP2, MONGO, TCP, TLS.\"\n            },\n            \"name\": {\n              \"type\": \"string\",\n              \"description\": \"Label assigned to the port.\"\n            },\n            \"targetPort\": {\n              \"type\": \"integer\",\n              \"description\": \"The\
+  \ port number on the endpoint where traffic will be received.\"\n            }\n          },\n          \"required\": [\"number\", \"protocol\", \"name\"]\n        },\n        \"bind\": {\n          \"type\": \"string\",\n          \"description\": \"The IP address or Unix domain socket to which the listener should be bound.\"\n        },\n        \"hosts\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"string\"\n          },\n          \"description\": \"One or more hosts exposed by this gateway. Supports namespace/dnsName format for restricting to specific namespaces.\"\n        },\n        \"tls\": {\n          \"type\": \"object\",\n          \"description\": \"Set of TLS related options that govern the server's behavior.\",\n          \"properties\": {\n            \"httpsRedirect\": {\n              \"type\": \"boolean\",\n              \"description\": \"If true, the load balancer will send a 301 redirect for all HTTP connections.\"\n       \
+  \     },\n            \"mode\": {\n              \"type\": \"string\",\n              \"enum\": [\"PASSTHROUGH\", \"SIMPLE\", \"MUTUAL\", \"AUTO_PASSTHROUGH\", \"ISTIO_MUTUAL\", \"OPTIONAL_MUTUAL\"],\n              \"description\": \"Controls whether a TLS connection is terminated at the gateway or passed through.\"\n            },\n            \"serverCertificate\": {\n              \"type\": \"string\",\n              \"description\": \"Path to the file holding the server-side TLS certificate.\"\n            },\n            \"privateKey\": {\n              \"type\": \"string\",\n              \"description\": \"Path to the file holding the server's private key.\"\n            },\n            \"caCertificates\": {\n              \"type\": \"string\",\n              \"description\": \"Path to a file containing certificate authority certificates for verifying client certificates.\"\n            },\n            \"credentialName\": {\n              \"type\": \"string\",\n              \"\
+  description\": \"The name of the secret that holds the TLS certs.\"\n            },\n            \"subjectAltNames\": {\n              \"type\": \"array\",\n              \"items\": {\n                \"type\": \"string\"\n              },\n              \"description\": \"A list of alternate names to verify the subject identity in the certificate.\"\n            },\n            \"minProtocolVersion\": {\n              \"type\": \"string\",\n              \"enum\": [\"TLS_AUTO\", \"TLSV1_0\", \"TLSV1_1\", \"TLSV1_2\", \"TLSV1_3\"],\n              \"description\": \"Minimum TLS protocol version.\"\n            },\n            \"maxProtocolVersion\": {\n              \"type\": \"string\",\n              \"enum\": [\"TLS_AUTO\", \"TLSV1_0\", \"TLSV1_1\", \"TLSV1_2\", \"TLSV1_3\"],\n              \"description\": \"Maximum TLS protocol version.\"\n            },\n            \"cipherSuites\": {\n              \"type\": \"array\",\n              \"items\": {\n                \"type\": \"string\"\
+  \n              },\n              \"description\": \"List of cipher suites to use for TLS connections.\"\n            }\n          }\n        },\n        \"name\": {\n          \"type\": \"string\",\n          \"description\": \"An optional name of the server, used for identifying the server in VirtualService host matching.\"\n        }\n      },\n      \"required\": [\"port\", \"hosts\"]\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/json-schema/gateway.json
+tags:
+- CNCF
+- Kubernetes
+- Microservices
+- Open Source
+- Service Mesh
+title: Istio Gateway
+---

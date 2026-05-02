@@ -1,0 +1,33 @@
+---
+description: Schema for Neo4j graph data elements including nodes and relationships returned by Cypher queries.
+layout: schema
+name: Neo4j Graph Elements
+properties_list:
+- description: Array of graph nodes in the result set
+  name: nodes
+  type: array
+- description: Array of graph relationships in the result set
+  name: relationships
+  type: array
+provider_name: Neo4j
+provider_slug: neo4j
+schema_file: json-schema/neo4j-graph-elements-schema.json
+slug: neo4j-graph-elements
+source_filename: neo4j-graph-elements-schema.json
+source_heading: JSON Schema
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://neo4j.com/schemas/neo4j/graph-elements.json\",\n  \"title\": \"Neo4j Graph Elements\",\n  \"description\": \"Schema for Neo4j graph data elements including nodes and relationships returned by Cypher queries.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"nodes\": {\n      \"type\": \"array\",\n      \"description\": \"Array of graph nodes in the result set\",\n      \"items\": {\n        \"$ref\": \"#/$defs/Node\"\n      }\n    },\n    \"relationships\": {\n      \"type\": \"array\",\n      \"description\": \"Array of graph relationships in the result set\",\n      \"items\": {\n        \"$ref\": \"#/$defs/Relationship\"\n      }\n    }\n  },\n  \"$defs\": {\n    \"Node\": {\n      \"type\": \"object\",\n      \"description\": \"A node in the Neo4j graph representing an entity with labels and properties.\",\n      \"required\": [\"id\", \"labels\"],\n      \"properties\": {\n\
+  \        \"id\": {\n          \"type\": \"string\",\n          \"description\": \"The internal element ID of the node\"\n        },\n        \"labels\": {\n          \"type\": \"array\",\n          \"description\": \"Labels assigned to the node, representing the types or categories it belongs to\",\n          \"items\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          },\n          \"minItems\": 0\n        },\n        \"properties\": {\n          \"type\": \"object\",\n          \"description\": \"Key-value properties stored on the node\",\n          \"additionalProperties\": true\n        }\n      }\n    },\n    \"Relationship\": {\n      \"type\": \"object\",\n      \"description\": \"A directed relationship between two nodes in the Neo4j graph with a type and properties.\",\n      \"required\": [\"id\", \"type\", \"startNode\", \"endNode\"],\n      \"properties\": {\n        \"id\": {\n          \"type\": \"string\",\n          \"description\": \"The internal\
+  \ element ID of the relationship\"\n        },\n        \"type\": {\n          \"type\": \"string\",\n          \"description\": \"The relationship type, representing the nature of the connection between nodes\",\n          \"minLength\": 1\n        },\n        \"startNode\": {\n          \"type\": \"string\",\n          \"description\": \"The element ID of the start node\"\n        },\n        \"endNode\": {\n          \"type\": \"string\",\n          \"description\": \"The element ID of the end node\"\n        },\n        \"properties\": {\n          \"type\": \"object\",\n          \"description\": \"Key-value properties stored on the relationship\",\n          \"additionalProperties\": true\n        }\n      }\n    },\n    \"Path\": {\n      \"type\": \"object\",\n      \"description\": \"A path through the graph consisting of alternating nodes and relationships.\",\n      \"required\": [\"nodes\", \"relationships\"],\n      \"properties\": {\n        \"nodes\": {\n          \"type\"\
+  : \"array\",\n          \"description\": \"Ordered array of nodes along the path\",\n          \"items\": {\n            \"$ref\": \"#/$defs/Node\"\n          },\n          \"minItems\": 1\n        },\n        \"relationships\": {\n          \"type\": \"array\",\n          \"description\": \"Ordered array of relationships connecting the nodes along the path\",\n          \"items\": {\n            \"$ref\": \"#/$defs/Relationship\"\n          }\n        }\n      }\n    },\n    \"QueryStatistics\": {\n      \"type\": \"object\",\n      \"description\": \"Statistics about the execution of a Cypher query including counts of created, modified, and deleted elements.\",\n      \"properties\": {\n        \"contains_updates\": {\n          \"type\": \"boolean\",\n          \"description\": \"Whether the query modified the database\"\n        },\n        \"nodes_created\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of nodes created by the query\",\n          \"minimum\"\
+  : 0\n        },\n        \"nodes_deleted\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of nodes deleted by the query\",\n          \"minimum\": 0\n        },\n        \"properties_set\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of properties set on nodes or relationships\",\n          \"minimum\": 0\n        },\n        \"relationships_created\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of relationships created by the query\",\n          \"minimum\": 0\n        },\n        \"relationships_deleted\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of relationships deleted by the query\",\n          \"minimum\": 0\n        },\n        \"labels_added\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of labels added to nodes\",\n          \"minimum\": 0\n        },\n        \"labels_removed\": {\n          \"type\": \"integer\",\n          \"description\"\
+  : \"Number of labels removed from nodes\",\n          \"minimum\": 0\n        },\n        \"indexes_added\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of indexes created\",\n          \"minimum\": 0\n        },\n        \"indexes_removed\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of indexes removed\",\n          \"minimum\": 0\n        },\n        \"constraints_added\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of constraints created\",\n          \"minimum\": 0\n        },\n        \"constraints_removed\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of constraints removed\",\n          \"minimum\": 0\n        }\n      }\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/json-schema/neo4j-graph-elements-schema.json
+tags:
+- Graph Database
+- Cypher
+- Cloud
+- GraphQL
+- Drivers
+- APIs
+title: Neo4j Graph Elements
+---

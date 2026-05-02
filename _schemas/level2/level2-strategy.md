@@ -1,0 +1,62 @@
+---
+description: Schema for a Level2 automated trading strategy created through the visual no-code strategy builder. Defines the structure of strategy definitions including entry and exit conditions, risk management rules, position configuration, and instrument settings.
+layout: schema
+name: Level2 Trading Strategy
+properties_list:
+- description: Unique identifier for the strategy
+  name: id
+  type: string
+- description: The identifier of the user who owns this strategy
+  name: userId
+  type: string
+- description: A human-readable name for the trading strategy
+  name: name
+  type: string
+- description: A description of the strategy's purpose and trading logic
+  name: description
+  type: string
+- description: The primary ticker symbol this strategy trades (e.g., AAPL, MSFT)
+  name: instrument
+  type: string
+- description: The type of financial instrument being traded
+  name: instrumentType
+  type: string
+- description: The primary chart timeframe the strategy operates on
+  name: timeframe
+  type: string
+- description: The current lifecycle status of the strategy
+  name: status
+  type: string
+- description: ''
+  name: definition
+  type: object
+- description: ISO 8601 timestamp when the strategy was created
+  name: createdAt
+  type: string
+- description: ISO 8601 timestamp when the strategy was last modified
+  name: updatedAt
+  type: string
+- description: ISO 8601 timestamp when the strategy was last deployed for live trading
+  name: deployedAt
+  type: string
+provider_name: level2
+provider_slug: level2
+schema_file: json-schema/level2-strategy-schema.json
+slug: level2-strategy
+source_filename: level2-strategy-schema.json
+source_heading: JSON Schema
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://trylevel2.com/schemas/level2/strategy.json\",\n  \"title\": \"Level2 Trading Strategy\",\n  \"description\": \"Schema for a Level2 automated trading strategy created through the visual no-code strategy builder. Defines the structure of strategy definitions including entry and exit conditions, risk management rules, position configuration, and instrument settings.\",\n  \"type\": \"object\",\n  \"required\": [\"name\", \"instrument\", \"definition\"],\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the strategy\"\n    },\n    \"userId\": {\n      \"type\": \"string\",\n      \"description\": \"The identifier of the user who owns this strategy\"\n    },\n    \"name\": {\n      \"type\": \"string\",\n      \"description\": \"A human-readable name for the trading strategy\",\n      \"maxLength\": 200,\n      \"minLength\": 1\n\
+  \    },\n    \"description\": {\n      \"type\": \"string\",\n      \"description\": \"A description of the strategy's purpose and trading logic\",\n      \"maxLength\": 2000\n    },\n    \"instrument\": {\n      \"type\": \"string\",\n      \"description\": \"The primary ticker symbol this strategy trades (e.g., AAPL, MSFT)\",\n      \"minLength\": 1\n    },\n    \"instrumentType\": {\n      \"type\": \"string\",\n      \"description\": \"The type of financial instrument being traded\",\n      \"enum\": [\"stock\", \"option\", \"future\"]\n    },\n    \"timeframe\": {\n      \"type\": \"string\",\n      \"description\": \"The primary chart timeframe the strategy operates on\",\n      \"enum\": [\"1m\", \"5m\", \"15m\", \"30m\", \"1h\", \"4h\", \"1d\"]\n    },\n    \"status\": {\n      \"type\": \"string\",\n      \"description\": \"The current lifecycle status of the strategy\",\n      \"enum\": [\"draft\", \"active\", \"deployed\", \"inactive\"]\n    },\n    \"definition\": {\n     \
+  \ \"$ref\": \"#/$defs/StrategyDefinition\"\n    },\n    \"createdAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"ISO 8601 timestamp when the strategy was created\"\n    },\n    \"updatedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"ISO 8601 timestamp when the strategy was last modified\"\n    },\n    \"deployedAt\": {\n      \"type\": \"string\",\n      \"format\": \"date-time\",\n      \"description\": \"ISO 8601 timestamp when the strategy was last deployed for live trading\"\n    }\n  },\n  \"$defs\": {\n    \"StrategyDefinition\": {\n      \"type\": \"object\",\n      \"description\": \"The core strategy definition containing entry conditions, exit conditions, risk management, and position configuration built using the Level2 visual drag-and-drop interface.\",\n      \"properties\": {\n        \"entryConditions\": {\n          \"type\": \"array\",\n          \"description\": \"Ordered\
+  \ list of conditions that must be satisfied to trigger a trade entry\",\n          \"items\": {\n            \"$ref\": \"#/$defs/StrategyCondition\"\n          }\n        },\n        \"exitConditions\": {\n          \"type\": \"array\",\n          \"description\": \"Ordered list of conditions that trigger closing an open position\",\n          \"items\": {\n            \"$ref\": \"#/$defs/StrategyCondition\"\n          }\n        },\n        \"riskManagement\": {\n          \"$ref\": \"#/$defs/RiskManagement\"\n        },\n        \"position\": {\n          \"$ref\": \"#/$defs/PositionConfig\"\n        }\n      }\n    },\n    \"StrategyCondition\": {\n      \"type\": \"object\",\n      \"description\": \"A single condition in the strategy logic, representing a comparison between a technical indicator or price value and a target value or another indicator.\",\n      \"required\": [\"indicator\", \"operator\"],\n      \"properties\": {\n        \"id\": {\n          \"type\": \"string\",\n\
+  \          \"description\": \"Unique identifier for this condition within the strategy\"\n        },\n        \"indicator\": {\n          \"type\": \"string\",\n          \"description\": \"The technical indicator or data source (e.g., SMA, EMA, RSI, MACD, BollingerBands, Price, Volume). Level2 supports 104 technical indicators.\",\n          \"minLength\": 1\n        },\n        \"parameters\": {\n          \"type\": \"object\",\n          \"description\": \"Configuration parameters for the indicator, such as period length, source field, or standard deviation multiplier\",\n          \"additionalProperties\": true\n        },\n        \"operator\": {\n          \"type\": \"string\",\n          \"description\": \"The comparison operator that defines the relationship between the indicator value and the compare value\",\n          \"enum\": [\"crosses_above\", \"crosses_below\", \"greater_than\", \"less_than\", \"equals\"]\n        },\n        \"compareValue\": {\n          \"description\"\
+  : \"The target value or indicator configuration to compare against. Can be a numeric threshold, a string reference, or a nested indicator object.\",\n          \"oneOf\": [\n            {\n              \"type\": \"number\"\n            },\n            {\n              \"type\": \"string\"\n            },\n            {\n              \"type\": \"object\",\n              \"additionalProperties\": true\n            }\n          ]\n        },\n        \"logicalOperator\": {\n          \"type\": \"string\",\n          \"description\": \"Defines how this condition combines with the next condition in the sequence\",\n          \"enum\": [\"AND\", \"OR\"]\n        }\n      }\n    },\n    \"RiskManagement\": {\n      \"type\": \"object\",\n      \"description\": \"Risk management settings that control loss limits and profit targets for the strategy.\",\n      \"properties\": {\n        \"stopLoss\": {\n          \"type\": \"number\",\n          \"description\": \"Stop loss value as a percentage\
+  \ or absolute price distance\",\n          \"minimum\": 0\n        },\n        \"stopLossType\": {\n          \"type\": \"string\",\n          \"description\": \"Whether the stop loss value is a percentage of entry price or an absolute price distance\",\n          \"enum\": [\"percentage\", \"absolute\"]\n        },\n        \"takeProfit\": {\n          \"type\": \"number\",\n          \"description\": \"Take profit value as a percentage or absolute price distance\",\n          \"minimum\": 0\n        },\n        \"takeProfitType\": {\n          \"type\": \"string\",\n          \"description\": \"Whether the take profit value is a percentage or an absolute price distance\",\n          \"enum\": [\"percentage\", \"absolute\"]\n        },\n        \"trailingStop\": {\n          \"type\": \"number\",\n          \"description\": \"Trailing stop distance as a percentage that follows the price in the profitable direction\",\n          \"minimum\": 0\n        },\n        \"maxPositions\": {\n\
+  \          \"type\": \"integer\",\n          \"description\": \"Maximum number of concurrent open positions allowed\",\n          \"minimum\": 1\n        }\n      }\n    },\n    \"PositionConfig\": {\n      \"type\": \"object\",\n      \"description\": \"Configuration for trade entry sizing, direction, and order type.\",\n      \"properties\": {\n        \"side\": {\n          \"type\": \"string\",\n          \"description\": \"The allowed trade direction for the strategy\",\n          \"enum\": [\"long\", \"short\", \"both\"]\n        },\n        \"orderType\": {\n          \"type\": \"string\",\n          \"description\": \"The order type used when entering positions\",\n          \"enum\": [\"market\", \"limit\", \"stop\"]\n        },\n        \"quantity\": {\n          \"type\": \"number\",\n          \"description\": \"The trade size per entry\",\n          \"minimum\": 0,\n          \"exclusiveMinimum\": true\n        },\n        \"quantityType\": {\n          \"type\": \"string\"\
+  ,\n          \"description\": \"The unit for the quantity value\",\n          \"enum\": [\"shares\", \"contracts\", \"dollars\"]\n        }\n      }\n    },\n    \"BacktestResult\": {\n      \"type\": \"object\",\n      \"description\": \"Results from running a backtest on a strategy against historical market data.\",\n      \"properties\": {\n        \"strategyId\": {\n          \"type\": \"string\",\n          \"description\": \"The identifier of the strategy that was backtested\"\n        },\n        \"startDate\": {\n          \"type\": \"string\",\n          \"format\": \"date\",\n          \"description\": \"The start date of the backtest period\"\n        },\n        \"endDate\": {\n          \"type\": \"string\",\n          \"format\": \"date\",\n          \"description\": \"The end date of the backtest period\"\n        },\n        \"initialCapital\": {\n          \"type\": \"number\",\n          \"description\": \"The starting capital amount in USD\",\n          \"minimum\":\
+  \ 0\n        },\n        \"finalCapital\": {\n          \"type\": \"number\",\n          \"description\": \"The ending capital amount after all trades\"\n        },\n        \"totalReturn\": {\n          \"type\": \"number\",\n          \"description\": \"Total return as a decimal (e.g., 0.15 for 15%)\"\n        },\n        \"totalTrades\": {\n          \"type\": \"integer\",\n          \"description\": \"Total number of completed trades\",\n          \"minimum\": 0\n        },\n        \"winningTrades\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of trades that were profitable\",\n          \"minimum\": 0\n        },\n        \"losingTrades\": {\n          \"type\": \"integer\",\n          \"description\": \"Number of trades that resulted in a loss\",\n          \"minimum\": 0\n        },\n        \"winRate\": {\n          \"type\": \"number\",\n          \"description\": \"Percentage of winning trades as a decimal between 0 and 1\",\n          \"minimum\"\
+  : 0,\n          \"maximum\": 1\n        },\n        \"maxDrawdown\": {\n          \"type\": \"number\",\n          \"description\": \"Maximum peak-to-trough decline as a decimal\"\n        },\n        \"sharpeRatio\": {\n          \"type\": \"number\",\n          \"description\": \"Risk-adjusted return metric (Sharpe ratio)\"\n        },\n        \"profitFactor\": {\n          \"type\": \"number\",\n          \"description\": \"Ratio of gross profits to gross losses\",\n          \"minimum\": 0\n        }\n      }\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/json-schema/level2-strategy-schema.json
+tags: []
+title: Level2 Trading Strategy
+---

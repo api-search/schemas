@@ -1,0 +1,47 @@
+---
+description: The attributes of a key managed by the key vault service.
+layout: schema
+name: KeyAttributes
+properties_list:
+- description: Determines whether the object is enabled.
+  name: enabled
+  type: boolean
+- description: Not before date in UTC.
+  name: nbf
+  type: integer
+- description: Expiry date in UTC.
+  name: exp
+  type: integer
+- description: Creation time in UTC.
+  name: created
+  type: integer
+- description: Last updated time in UTC.
+  name: updated
+  type: integer
+- description: softDelete data retention days. Value should be >=7 and <=90 when softDelete enabled, otherwise 0.
+  name: recoverableDays
+  type: integer
+- description: Indicates if the private key can be exported.
+  name: exportable
+  type: boolean
+- description: The underlying HSM Platform.
+  name: hsmPlatform
+  type: string
+provider_name: Azure Key Vault
+provider_slug: microsoft-azure-key-vault
+schema_file: json-schema/azure-key-vault-data-plane-key-attributes-schema.json
+slug: azure-key-vault-data-plane-key-attributes
+source_filename: azure-key-vault-data-plane-key-attributes-schema.json
+source_heading: JSON Schema
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"KeyAttributes\",\n  \"type\": \"object\",\n  \"description\": \"The attributes of a key managed by the key vault service.\",\n  \"properties\": {\n    \"enabled\": {\n      \"type\": \"boolean\",\n      \"description\": \"Determines whether the object is enabled.\"\n    },\n    \"nbf\": {\n      \"type\": \"integer\",\n      \"description\": \"Not before date in UTC.\"\n    },\n    \"exp\": {\n      \"type\": \"integer\",\n      \"description\": \"Expiry date in UTC.\"\n    },\n    \"created\": {\n      \"type\": \"integer\",\n      \"description\": \"Creation time in UTC.\"\n    },\n    \"updated\": {\n      \"type\": \"integer\",\n      \"description\": \"Last updated time in UTC.\"\n    },\n    \"recoverableDays\": {\n      \"type\": \"integer\",\n      \"description\": \"softDelete data retention days. Value should be >=7 and <=90 when softDelete enabled, otherwise 0.\"\n    },\n    \"exportable\"\
+  : {\n      \"type\": \"boolean\",\n      \"description\": \"Indicates if the private key can be exported.\"\n    },\n    \"hsmPlatform\": {\n      \"type\": \"string\",\n      \"description\": \"The underlying HSM Platform.\"\n    }\n  }\n}"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/json-schema/azure-key-vault-data-plane-key-attributes-schema.json
+tags:
+- Certificates
+- Cloud Security
+- Cryptography
+- Key Management
+- Secrets Management
+- Security
+title: KeyAttributes
+---

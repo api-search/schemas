@@ -1,0 +1,61 @@
+---
+description: Schema for the top-level Zudoku configuration object (zudoku.config.ts) that drives API documentation generation, navigation, authentication, theming, and plugin integration.
+layout: schema
+name: Zudoku Configuration
+properties_list:
+- description: Top navigation bar items for the documentation portal.
+  name: topNavigation
+  type: array
+- description: Sidebar navigation configuration keyed by section identifier.
+  name: sidebar
+  type: object
+- description: API reference configurations pointing to OpenAPI documents.
+  name: apis
+  type: array
+- description: MDX documentation page configurations.
+  name: docs
+  type: array
+- description: ''
+  name: authentication
+  type: object
+- description: ''
+  name: theme
+  type: object
+- description: ''
+  name: metadata
+  type: object
+- description: Registered plugins that extend Zudoku functionality.
+  name: plugins
+  type: array
+- description: URL redirect rules for the documentation site.
+  name: redirects
+  type: array
+- description: Base path prefix for the documentation site.
+  name: basePath
+  type: string
+- description: ''
+  name: page
+  type: object
+provider_name: Zudoku
+provider_slug: zudoku
+schema_file: json-schema/zudoku-config.json
+slug: zudoku-config
+source_filename: zudoku-config.json
+source_heading: JSON Schema
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://github.com/api-evangelist/zudoku/blob/main/json-schema/zudoku-config.json\",\n  \"title\": \"Zudoku Configuration\",\n  \"description\": \"Schema for the top-level Zudoku configuration object (zudoku.config.ts) that drives API documentation generation, navigation, authentication, theming, and plugin integration.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"topNavigation\": {\n      \"type\": \"array\",\n      \"description\": \"Top navigation bar items for the documentation portal.\",\n      \"items\": {\n        \"$ref\": \"#/$defs/NavigationItem\"\n      }\n    },\n    \"sidebar\": {\n      \"type\": \"object\",\n      \"description\": \"Sidebar navigation configuration keyed by section identifier.\",\n      \"additionalProperties\": {\n        \"type\": \"array\",\n        \"items\": {\n          \"$ref\": \"#/$defs/SidebarItem\"\n        }\n      }\n    },\n    \"apis\"\
+  : {\n      \"type\": \"array\",\n      \"description\": \"API reference configurations pointing to OpenAPI documents.\",\n      \"items\": {\n        \"$ref\": \"#/$defs/ApiReference\"\n      }\n    },\n    \"docs\": {\n      \"type\": \"array\",\n      \"description\": \"MDX documentation page configurations.\",\n      \"items\": {\n        \"$ref\": \"#/$defs/DocConfig\"\n      }\n    },\n    \"authentication\": {\n      \"$ref\": \"#/$defs/AuthenticationConfig\"\n    },\n    \"theme\": {\n      \"$ref\": \"#/$defs/ThemeConfig\"\n    },\n    \"metadata\": {\n      \"$ref\": \"#/$defs/Metadata\"\n    },\n    \"plugins\": {\n      \"type\": \"array\",\n      \"description\": \"Registered plugins that extend Zudoku functionality.\",\n      \"items\": {\n        \"$ref\": \"#/$defs/Plugin\"\n      }\n    },\n    \"redirects\": {\n      \"type\": \"array\",\n      \"description\": \"URL redirect rules for the documentation site.\",\n      \"items\": {\n        \"$ref\": \"#/$defs/Redirect\"\
+  \n      }\n    },\n    \"basePath\": {\n      \"type\": \"string\",\n      \"description\": \"Base path prefix for the documentation site.\"\n    },\n    \"page\": {\n      \"$ref\": \"#/$defs/PageConfig\"\n    }\n  },\n  \"$defs\": {\n    \"NavigationItem\": {\n      \"type\": \"object\",\n      \"description\": \"A top navigation bar item linking to a documentation section.\",\n      \"properties\": {\n        \"id\": {\n          \"type\": \"string\",\n          \"description\": \"Unique identifier matching a sidebar or API section.\"\n        },\n        \"label\": {\n          \"type\": \"string\",\n          \"description\": \"Display text for the navigation item.\"\n        },\n        \"default\": {\n          \"type\": \"string\",\n          \"description\": \"Default path when this navigation item is selected.\"\n        }\n      },\n      \"required\": [\"id\", \"label\"]\n    },\n    \"SidebarItem\": {\n      \"type\": \"object\",\n      \"description\": \"A sidebar navigation\
+  \ item which can be a page, link, or category with children.\",\n      \"properties\": {\n        \"type\": {\n          \"type\": \"string\",\n          \"enum\": [\"page\", \"link\", \"category\"],\n          \"description\": \"The type of sidebar item.\"\n        },\n        \"id\": {\n          \"type\": \"string\",\n          \"description\": \"Page identifier for internal page references.\"\n        },\n        \"label\": {\n          \"type\": \"string\",\n          \"description\": \"Display text for the sidebar item.\"\n        },\n        \"link\": {\n          \"type\": \"string\",\n          \"description\": \"URL for external link type items.\"\n        },\n        \"items\": {\n          \"type\": \"array\",\n          \"description\": \"Child items when type is category.\",\n          \"items\": {\n            \"$ref\": \"#/$defs/SidebarItem\"\n          }\n        }\n      },\n      \"required\": [\"type\", \"label\"]\n    },\n    \"ApiReference\": {\n      \"type\": \"\
+  object\",\n      \"description\": \"Configuration for an API reference pointing to an OpenAPI schema document.\",\n      \"properties\": {\n        \"type\": {\n          \"type\": \"string\",\n          \"enum\": [\"file\", \"url\"],\n          \"description\": \"How the OpenAPI document is loaded: file for local, url for remote.\"\n        },\n        \"input\": {\n          \"oneOf\": [\n            {\n              \"type\": \"string\",\n              \"description\": \"Single path or URL to the OpenAPI document.\"\n            },\n            {\n              \"type\": \"array\",\n              \"items\": {\n                \"type\": \"string\"\n              },\n              \"description\": \"Array of file paths for versioned API documentation.\"\n            }\n          ],\n          \"description\": \"Path, URL, or array of paths to OpenAPI document(s).\"\n        },\n        \"navigationId\": {\n          \"type\": \"string\",\n          \"description\": \"Identifier used for\
+  \ sidebar navigation linking.\"\n        },\n        \"label\": {\n          \"type\": \"string\",\n          \"description\": \"Display label for the API reference in navigation.\"\n        },\n        \"serverUrl\": {\n          \"type\": \"string\",\n          \"description\": \"Override the server URL defined in the OpenAPI document.\"\n        }\n      },\n      \"required\": [\"type\", \"input\"]\n    },\n    \"DocConfig\": {\n      \"type\": \"object\",\n      \"description\": \"Configuration for MDX-based documentation pages.\",\n      \"properties\": {\n        \"files\": {\n          \"type\": \"string\",\n          \"description\": \"Glob pattern for MDX files to include.\"\n        }\n      },\n      \"required\": [\"files\"]\n    },\n    \"AuthenticationConfig\": {\n      \"type\": \"object\",\n      \"description\": \"Authentication provider configuration for the documentation portal and API playground.\",\n      \"properties\": {\n        \"type\": {\n          \"type\"\
+  : \"string\",\n          \"enum\": [\"openid\", \"oauth2\", \"custom\"],\n          \"description\": \"The authentication provider type.\"\n        },\n        \"clientId\": {\n          \"type\": \"string\",\n          \"description\": \"OAuth2 or OIDC client identifier.\"\n        },\n        \"issuer\": {\n          \"type\": \"string\",\n          \"description\": \"OpenID Connect issuer URL.\"\n        },\n        \"scopes\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"string\"\n          },\n          \"description\": \"Requested OAuth2 scopes.\"\n        },\n        \"redirectUri\": {\n          \"type\": \"string\",\n          \"description\": \"OAuth2 redirect URI after authentication.\"\n        }\n      },\n      \"required\": [\"type\"]\n    },\n    \"ThemeConfig\": {\n      \"type\": \"object\",\n      \"description\": \"Theme and branding configuration for the documentation portal.\",\n      \"properties\": {\n        \"light\": {\n\
+  \          \"$ref\": \"#/$defs/ThemeColors\"\n        },\n        \"dark\": {\n          \"$ref\": \"#/$defs/ThemeColors\"\n        },\n        \"fonts\": {\n          \"type\": \"object\",\n          \"description\": \"Font family configuration.\",\n          \"properties\": {\n            \"heading\": {\n              \"type\": \"string\"\n            },\n            \"body\": {\n              \"type\": \"string\"\n            },\n            \"code\": {\n              \"type\": \"string\"\n            }\n          }\n        }\n      }\n    },\n    \"ThemeColors\": {\n      \"type\": \"object\",\n      \"description\": \"Color palette for a light or dark theme mode.\",\n      \"properties\": {\n        \"primary\": {\n          \"type\": \"string\",\n          \"description\": \"Primary brand color.\"\n        },\n        \"background\": {\n          \"type\": \"string\",\n          \"description\": \"Background color.\"\n        },\n        \"border\": {\n          \"type\": \"string\"\
+  ,\n          \"description\": \"Border color.\"\n        }\n      }\n    },\n    \"Metadata\": {\n      \"type\": \"object\",\n      \"description\": \"Site metadata for SEO and social sharing.\",\n      \"properties\": {\n        \"title\": {\n          \"type\": \"string\",\n          \"description\": \"Site title.\"\n        },\n        \"description\": {\n          \"type\": \"string\",\n          \"description\": \"Site description for meta tags.\"\n        },\n        \"favicon\": {\n          \"type\": \"string\",\n          \"description\": \"Path to the favicon file.\"\n        }\n      }\n    },\n    \"Plugin\": {\n      \"type\": \"object\",\n      \"description\": \"A plugin that extends Zudoku functionality.\",\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\",\n          \"description\": \"Plugin name identifier.\"\n        },\n        \"config\": {\n          \"type\": \"object\",\n          \"description\": \"Plugin-specific configuration options.\"\
+  ,\n          \"additionalProperties\": true\n        }\n      },\n      \"required\": [\"name\"]\n    },\n    \"Redirect\": {\n      \"type\": \"object\",\n      \"description\": \"A URL redirect rule for the documentation site.\",\n      \"properties\": {\n        \"from\": {\n          \"type\": \"string\",\n          \"description\": \"Source path pattern to match.\"\n        },\n        \"to\": {\n          \"type\": \"string\",\n          \"description\": \"Target path to redirect to.\"\n        }\n      },\n      \"required\": [\"from\", \"to\"]\n    },\n    \"PageConfig\": {\n      \"type\": \"object\",\n      \"description\": \"Page-level configuration for logo and banner.\",\n      \"properties\": {\n        \"logo\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"src\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"light\": {\n                  \"type\": \"string\",\n                  \"description\"\
+  : \"Logo image path for light mode.\"\n                },\n                \"dark\": {\n                  \"type\": \"string\",\n                  \"description\": \"Logo image path for dark mode.\"\n                }\n              }\n            }\n          }\n        },\n        \"banner\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"message\": {\n              \"type\": \"string\",\n              \"description\": \"Banner message text.\"\n            },\n            \"color\": {\n              \"type\": \"string\",\n              \"description\": \"Banner background color.\"\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/json-schema/zudoku-config.json
+tags:
+- Developer Tools
+- Documentation
+title: Zudoku Configuration
+---

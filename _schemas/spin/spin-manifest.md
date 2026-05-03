@@ -1,0 +1,35 @@
+---
+description: JSON Schema for the spin.toml application manifest file that defines a Spin WebAssembly application.
+layout: schema
+name: Spin Application Manifest
+properties_list:
+- description: Version of the Spin manifest format.
+  name: spin_manifest_version
+  type: integer
+- description: ''
+  name: application
+  type: object
+- description: Application variables.
+  name: variables
+  type: object
+- description: Named component definitions.
+  name: component
+  type: object
+provider_name: Spin
+provider_slug: spin
+schema_file: json-schema/spin-manifest.json
+slug: spin-manifest
+source_filename: spin-manifest.json
+source_heading: JSON Schema
+source_json: "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://github.com/api-evangelist/spin/json-schema/spin-manifest.json\",\n  \"title\": \"Spin Application Manifest\",\n  \"description\": \"JSON Schema for the spin.toml application manifest file that defines a Spin WebAssembly application.\",\n  \"type\": \"object\",\n  \"required\": [\"spin_manifest_version\", \"application\"],\n  \"properties\": {\n    \"spin_manifest_version\": {\n      \"type\": \"integer\",\n      \"enum\": [2],\n      \"description\": \"Version of the Spin manifest format.\"\n    },\n    \"application\": {\n      \"type\": \"object\",\n      \"required\": [\"name\"],\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\",\n          \"description\": \"Application name.\"\n        },\n        \"version\": {\n          \"type\": \"string\",\n          \"description\": \"Application version (semver).\"\n        },\n        \"description\": {\n      \
+  \    \"type\": \"string\",\n          \"description\": \"Application description.\"\n        },\n        \"authors\": {\n          \"type\": \"array\",\n          \"items\": { \"type\": \"string\" },\n          \"description\": \"Application authors.\"\n        },\n        \"trigger\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"http\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"base\": {\n                  \"type\": \"string\",\n                  \"default\": \"/\",\n                  \"description\": \"Base path for all HTTP triggers.\"\n                }\n              }\n            },\n            \"redis\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"address\": {\n                  \"type\": \"string\",\n                  \"description\": \"Redis server address.\"\n                }\n              }\n            }\n          },\n          \"description\"\
+  : \"Application-level trigger configuration.\"\n        }\n      }\n    },\n    \"variables\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"required\": {\n            \"type\": \"boolean\",\n            \"default\": true,\n            \"description\": \"Whether the variable is required.\"\n          },\n          \"default\": {\n            \"type\": \"string\",\n            \"description\": \"Default value for the variable.\"\n          },\n          \"secret\": {\n            \"type\": \"boolean\",\n            \"default\": false,\n            \"description\": \"Whether the variable is a secret.\"\n          }\n        }\n      },\n      \"description\": \"Application variables.\"\n    },\n    \"component\": {\n      \"type\": \"object\",\n      \"additionalProperties\": {\n        \"$ref\": \"#/$defs/Component\"\n      },\n      \"description\": \"Named component definitions.\"\n    }\n  },\n\
+  \  \"$defs\": {\n    \"Component\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"source\": {\n          \"type\": \"string\",\n          \"description\": \"Path to the Wasm module or OCI reference.\"\n        },\n        \"description\": {\n          \"type\": \"string\",\n          \"description\": \"Component description.\"\n        },\n        \"allowed_outbound_hosts\": {\n          \"type\": \"array\",\n          \"items\": { \"type\": \"string\" },\n          \"description\": \"List of allowed outbound hosts.\"\n        },\n        \"files\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"oneOf\": [\n              { \"type\": \"string\" },\n              {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"source\": { \"type\": \"string\" },\n                  \"destination\": { \"type\": \"string\" }\n                }\n              }\n            ]\n          },\n          \"description\"\
+  : \"Files to mount in the component.\"\n        },\n        \"key_value_stores\": {\n          \"type\": \"array\",\n          \"items\": { \"type\": \"string\" },\n          \"description\": \"Key-value stores accessible to this component.\"\n        },\n        \"sqlite_databases\": {\n          \"type\": \"array\",\n          \"items\": { \"type\": \"string\" },\n          \"description\": \"SQLite databases accessible to this component.\"\n        },\n        \"ai_models\": {\n          \"type\": \"array\",\n          \"items\": { \"type\": \"string\" },\n          \"description\": \"AI models accessible to this component.\"\n        },\n        \"variables\": {\n          \"type\": \"object\",\n          \"additionalProperties\": { \"type\": \"string\" },\n          \"description\": \"Variable bindings for this component.\"\n        },\n        \"build\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"command\": {\n              \"type\": \"string\"\
+  ,\n              \"description\": \"Build command.\"\n            },\n            \"workdir\": {\n              \"type\": \"string\",\n              \"description\": \"Working directory for the build command.\"\n            },\n            \"watch\": {\n              \"type\": \"array\",\n              \"items\": { \"type\": \"string\" },\n              \"description\": \"File patterns to watch for rebuilds.\"\n            }\n          }\n        },\n        \"trigger\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"http\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"route\": {\n                  \"type\": \"string\",\n                  \"description\": \"HTTP route pattern (e.g., /api/...).\"\n                }\n              }\n            },\n            \"redis\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"channel\": {\n                  \"type\": \"string\"\
+  ,\n                  \"description\": \"Redis channel to subscribe to.\"\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"
+source_json_url: https://raw.githubusercontent.com/api-evangelist/spin/refs/heads/main/json-schema/spin-manifest.json
+tags:
+- Microservices
+title: Spin Application Manifest
+---
